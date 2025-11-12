@@ -1,0 +1,768 @@
+{
+  "generated_at": "2025-08-21T20:09:30.217220",
+  "count": 127,
+  "sections": [
+    {
+      "file": "rb_01__preamble.html",
+      "title": "Preamble",
+      "section": "Preamble",
+      "section_number": null
+    },
+    {
+      "file": "rb_02__11-quoting-and-citing-parentheticals.html",
+      "title": "Quoting and Citing Parentheticals",
+      "section": "Quoting and Citing Parentheticals",
+      "section_number": "1.1"
+    },
+    {
+      "file": "rb_03__12-identifying-references.html",
+      "title": "Identifying References",
+      "section": "Identifying References",
+      "section_number": "1.2"
+    },
+    {
+      "file": "rb_04__13-cases-named-in-text.html",
+      "title": "Cases Named in Text",
+      "section": "Cases Named in Text",
+      "section_number": "1.3"
+    },
+    {
+      "file": "rb_05__14-footnote-call-number-placement.html",
+      "title": "Footnote Call Number Placement",
+      "section": "Footnote Call Number Placement",
+      "section_number": "1.4"
+    },
+    {
+      "file": "rb_06__16-multiple-sources-following-a-signal-as-a-verb.html",
+      "title": "Multiple Sources Following a Signal as a Verb",
+      "section": "Multiple Sources Following a Signal as a Verb",
+      "section_number": "1.6"
+    },
+    {
+      "file": "rb_07__17-when-a-source-quotes-or-cites-multiple-sources.html",
+      "title": "When a Source Quotes or Cites Multiple Sources",
+      "section": "When a Source Quotes or Cites Multiple Sources",
+      "section_number": "1.7"
+    },
+    {
+      "file": "rb_08__19-nested-parentheticals.html",
+      "title": "Nested Parentheticals",
+      "section": "Nested Parentheticals",
+      "section_number": "1.9"
+    },
+    {
+      "file": "rb_09__110-length-of-explanatory-parentheticals.html",
+      "title": "Length of Explanatory Parentheticals",
+      "section": "Length of Explanatory Parentheticals",
+      "section_number": "1.10"
+    },
+    {
+      "file": "rb_10__111-grammar-of-explanatory-parentheticals.html",
+      "title": "Grammar of Explanatory Parentheticals",
+      "section": "Grammar of Explanatory Parentheticals",
+      "section_number": "1.11"
+    },
+    {
+      "file": "rb_11__113-parentheticals-indicating-alterations-to-empha.html",
+      "title": "Parentheticals Indicating Alterations to Emphasis and Capitalization",
+      "section": "Parentheticals Indicating Alterations to Emphasis and Capitalization",
+      "section_number": "1.13"
+    },
+    {
+      "file": "rb_12__114-added-alterations-and-retained-emphasis.html",
+      "title": "Added Alterations and Retained Emphasis",
+      "section": "Added Alterations and Retained Emphasis",
+      "section_number": "1.14"
+    },
+    {
+      "file": "rb_13__116-ordering-of-parentheticals.html",
+      "title": "Ordering of Parentheticals",
+      "section": "Ordering of Parentheticals",
+      "section_number": "1.16"
+    },
+    {
+      "file": "rb_14__2-typefaces.html",
+      "title": "2: Typefaces",
+      "section": "Typefaces",
+      "section_number": "2"
+    },
+    {
+      "file": "rb_15__21-underlined-type.html",
+      "title": "Underlined Type",
+      "section": "Underlined Type",
+      "section_number": "2.1"
+    },
+    {
+      "file": "rb_16__22-bolded-type.html",
+      "title": "Bolded Type",
+      "section": "Bolded Type",
+      "section_number": "2.2"
+    },
+    {
+      "file": "rb_17__23-italics-and-punctuation.html",
+      "title": "Italics and Punctuation",
+      "section": "Italics and Punctuation",
+      "section_number": "2.3"
+    },
+    {
+      "file": "rb_18__3-subdivisions.html",
+      "title": "3: Subdivisions",
+      "section": "Subdivisions",
+      "section_number": "3"
+    },
+    {
+      "file": "rb_19__32-capitalizing-internal-references.html",
+      "title": "Capitalizing Internal References",
+      "section": "Capitalizing Internal References",
+      "section_number": "3.2"
+    },
+    {
+      "file": "rb_20__34-internal-cross-references.html",
+      "title": "Internal Cross-References",
+      "section": "Internal Cross-References",
+      "section_number": "3.4"
+    },
+    {
+      "file": "rb_21__35-inserting-cross-references.html",
+      "title": "Inserting Cross-References",
+      "section": "Inserting Cross-References",
+      "section_number": "3.5"
+    },
+    {
+      "file": "rb_22__36-pincites.html",
+      "title": "Pincites",
+      "section": "Pincites",
+      "section_number": "3.6"
+    },
+    {
+      "file": "rb_23__37-et-seq.html",
+      "title": "Et seq.",
+      "section": "Et seq.",
+      "section_number": "3.7"
+    },
+    {
+      "file": "rb_24__4-short-citation-forms.html",
+      "title": "4: Short Citation Forms",
+      "section": "Short Citation Forms",
+      "section_number": "4"
+    },
+    {
+      "file": "rb_25__41-using-id.html",
+      "title": "Using Id.",
+      "section": "Using Id.",
+      "section_number": "4.1"
+    },
+    {
+      "file": "rb_26__42-id-with-at-for-pincites.html",
+      "title": "Id. with \"at\" for Pincites",
+      "section": "Id. with \"at\" for Pincites",
+      "section_number": "4.2"
+    },
+    {
+      "file": "rb_27__43-id-and-footnotes.html",
+      "title": "Id. and Footnotes",
+      "section": "Id. and Footnotes",
+      "section_number": "4.3"
+    },
+    {
+      "file": "rb_28__44-hereinafter.html",
+      "title": "Hereinafter",
+      "section": "Hereinafter",
+      "section_number": "4.4"
+    },
+    {
+      "file": "rb_29__5-quotations.html",
+      "title": "5: Quotations",
+      "section": "Quotations",
+      "section_number": "5"
+    },
+    {
+      "file": "rb_30__51-placement-of-punctuation-marks.html",
+      "title": "Placement of Punctuation Marks",
+      "section": "Placement of Punctuation Marks",
+      "section_number": "5.1"
+    },
+    {
+      "file": "rb_31__52-block-quotes.html",
+      "title": "Block Quotes",
+      "section": "Block Quotes",
+      "section_number": "5.2"
+    },
+    {
+      "file": "rb_32__53-omissions-from-quotations.html",
+      "title": "Omissions from Quotations",
+      "section": "Omissions from Quotations",
+      "section_number": "5.3"
+    },
+    {
+      "file": "rb_33__54-alterations-to-quotations.html",
+      "title": "Alterations to Quotations",
+      "section": "Alterations to Quotations",
+      "section_number": "5.4"
+    },
+    {
+      "file": "rb_34__55-textual-citations-within-quotations.html",
+      "title": "Textual Citations Within Quotations",
+      "section": "Textual Citations Within Quotations",
+      "section_number": "5.5"
+    },
+    {
+      "file": "rb_35__6-abbreviations.html",
+      "title": "6: Abbreviations",
+      "section": "Abbreviations",
+      "section_number": "6"
+    },
+    {
+      "file": "rb_36__61-abbreviating-professional-degrees.html",
+      "title": "Abbreviating Professional Degrees",
+      "section": "Abbreviating Professional Degrees",
+      "section_number": "6.1"
+    },
+    {
+      "file": "rb_37__62-other-widely-recognized-initials.html",
+      "title": "Other Widely Recognized Initials",
+      "section": "Other Widely Recognized Initials",
+      "section_number": "6.2"
+    },
+    {
+      "file": "rb_38__63-introducing-acronyms-and-initialisms.html",
+      "title": "Introducing Acronyms and Initialisms",
+      "section": "Introducing Acronyms and Initialisms",
+      "section_number": "6.3"
+    },
+    {
+      "file": "rb_39__64-acronyms-vs-initialisms.html",
+      "title": "Acronyms vs. Initialisms",
+      "section": "Acronyms vs. Initialisms",
+      "section_number": "6.4"
+    },
+    {
+      "file": "rb_40__65-numbers-in-text.html",
+      "title": "Numbers in Text",
+      "section": "Numbers in Text",
+      "section_number": "6.5"
+    },
+    {
+      "file": "rb_41__66-adjectival-forms-of-geographical-abbreviations-.html",
+      "title": "Adjectival Forms of Geographical Abbreviations from BB Table T10",
+      "section": "Adjectival Forms of Geographical Abbreviations from BB Table T10",
+      "section_number": "6.6"
+    },
+    {
+      "file": "rb_42__67-abbreviating-hyphenated-words-from-bb-tables-t6.html",
+      "title": "Abbreviating Hyphenated Words from BB Tables T6, T10, and T13",
+      "section": "Abbreviating Hyphenated Words from BB Tables T6, T10, and T13",
+      "section_number": "6.7"
+    },
+    {
+      "file": "rb_43__68-abbreviations-for-statutes.html",
+      "title": "Abbreviations for Statutes",
+      "section": "Abbreviations for Statutes",
+      "section_number": "6.8"
+    },
+    {
+      "file": "rb_44__7-italicization.html",
+      "title": "7: Italicization",
+      "section": "Italicization",
+      "section_number": "7"
+    },
+    {
+      "file": "rb_45__71-italicizing-foreign-words.html",
+      "title": "Italicizing Foreign Words",
+      "section": "Italicizing Foreign Words",
+      "section_number": "7.1"
+    },
+    {
+      "file": "rb_46__8-capitalization.html",
+      "title": "8: Capitalization",
+      "section": "Capitalization",
+      "section_number": "8"
+    },
+    {
+      "file": "rb_47__81-parts-of-the-constitution.html",
+      "title": "Parts of the Constitution",
+      "section": "Parts of the Constitution",
+      "section_number": "8.1"
+    },
+    {
+      "file": "rb_48__82-titles-of-cited-material-capitalization-and-ita.html",
+      "title": "Titles of Cited Material: Capitalization and Italicization",
+      "section": "Titles of Cited Material: Capitalization and Italicization",
+      "section_number": "8.2"
+    },
+    {
+      "file": "rb_49__83-headings-subheadings-and-text.html",
+      "title": "Headings, Subheadings, and Text",
+      "section": "Headings, Subheadings, and Text",
+      "section_number": "8.3"
+    },
+    {
+      "file": "rb_50__84-ethnic-or-national-groups.html",
+      "title": "Ethnic or National Groups",
+      "section": "Ethnic or National Groups",
+      "section_number": "8.4"
+    },
+    {
+      "file": "rb_51__9-titles-of-judges-officials-and-terms-of-court.html",
+      "title": "9: Titles of Judges, Officials, and Terms of Court",
+      "section": "Titles of Judges, Officials, and Terms of Court",
+      "section_number": "9"
+    },
+    {
+      "file": "rb_52__91-textual-references-to-professors.html",
+      "title": "Textual References to Professors",
+      "section": "Textual References to Professors",
+      "section_number": "9.1"
+    },
+    {
+      "file": "rb_53__92-textual-references-to-judges-as-authors-of-judi.html",
+      "title": "Textual References to Judges as Authors of Judicial Materials",
+      "section": "Textual References to Judges as Authors of Judicial Materials",
+      "section_number": "9.2"
+    },
+    {
+      "file": "rb_54__93-judges-as-authors-in-general.html",
+      "title": "Judges as Authors in General",
+      "section": "Judges as Authors in General",
+      "section_number": "9.3"
+    },
+    {
+      "file": "rb_55__10-cases.html",
+      "title": "10: Cases",
+      "section": "Cases",
+      "section_number": "10"
+    },
+    {
+      "file": "rb_56__101-citechecking-cases.html",
+      "title": "Citechecking Cases",
+      "section": "Citechecking Cases",
+      "section_number": "10.1"
+    },
+    {
+      "file": "rb_57__102-terms-clearly-indicating-that-the-party-is-a-b.html",
+      "title": "Terms Clearly Indicating That the Party Is a Business Firm",
+      "section": "Terms Clearly Indicating That the Party Is a Business Firm",
+      "section_number": "10.2"
+    },
+    {
+      "file": "rb_58__103-widely-recognized-initials-in-case-names.html",
+      "title": "Widely Recognized Initials in Case Names",
+      "section": "Widely Recognized Initials in Case Names",
+      "section_number": "10.3"
+    },
+    {
+      "file": "rb_59__104-procedural-phrases-in-case-names.html",
+      "title": "Procedural Phrases in Case Names",
+      "section": "Procedural Phrases in Case Names",
+      "section_number": "10.4"
+    },
+    {
+      "file": "rb_60__105-titles-of-amicus-curiae-briefs.html",
+      "title": "Titles of Amicus Curiae Briefs",
+      "section": "Titles of Amicus Curiae Briefs",
+      "section_number": "10.5"
+    },
+    {
+      "file": "rb_61__106-parallel-citations-for-court-filings.html",
+      "title": "Parallel Citations for Court Filings",
+      "section": "Parallel Citations for Court Filings",
+      "section_number": "10.6"
+    },
+    {
+      "file": "rb_62__107-court-filings-before-and-after-a-decision-has-.html",
+      "title": "Court Filings Before and After a Decision Has Been Rendered",
+      "section": "Court Filings Before and After a Decision Has Been Rendered",
+      "section_number": "10.7"
+    },
+    {
+      "file": "rb_63__108-weight-of-authority.html",
+      "title": "Weight of Authority",
+      "section": "Weight of Authority",
+      "section_number": "10.8"
+    },
+    {
+      "file": "rb_64__109-the-five-footnote-rule-for-short-citations.html",
+      "title": "The Five-Footnote Rule for Short Citations",
+      "section": "The Five-Footnote Rule for Short Citations",
+      "section_number": "10.9"
+    },
+    {
+      "file": "rb_65__1010-when-a-reporter-has-not-yet-been-published.html",
+      "title": "When a Reporter Has Not Yet Been Published",
+      "section": "When a Reporter Has Not Yet Been Published",
+      "section_number": "10.10"
+    },
+    {
+      "file": "rb_66__1011-preferred-sources-for-unreported-cases.html",
+      "title": "Preferred Sources for Unreported Cases",
+      "section": "Preferred Sources for Unreported Cases",
+      "section_number": "10.11"
+    },
+    {
+      "file": "rb_67__1012-docket-numbers-in-federal-cases.html",
+      "title": "Docket Numbers in Federal Cases",
+      "section": "Docket Numbers in Federal Cases",
+      "section_number": "10.12"
+    },
+    {
+      "file": "rb_68__1013-docket-numbers-for-consolidated-cases.html",
+      "title": "Docket Numbers for Consolidated Cases",
+      "section": "Docket Numbers for Consolidated Cases",
+      "section_number": "10.13"
+    },
+    {
+      "file": "rb_69__1014-short-forms-for-early-reporters.html",
+      "title": "Short Forms for Early Reporters",
+      "section": "Short Forms for Early Reporters",
+      "section_number": "10.14"
+    },
+    {
+      "file": "rb_70__1015-public-domain.html",
+      "title": "Public Domain",
+      "section": "Public Domain",
+      "section_number": "10.15"
+    },
+    {
+      "file": "rb_71__1016-signals-used-as-verbs.html",
+      "title": "Signals Used as Verbs",
+      "section": "Signals Used as Verbs",
+      "section_number": "10.16"
+    },
+    {
+      "file": "rb_72__1017-subsequent-history-phrases-involving-remand.html",
+      "title": "Subsequent History Phrases Involving Remand",
+      "section": "Subsequent History Phrases Involving Remand",
+      "section_number": "10.17"
+    },
+    {
+      "file": "rb_73__1018-document-numbers-in-federal-cases.html",
+      "title": "Document Numbers in Federal Cases",
+      "section": "Document Numbers in Federal Cases",
+      "section_number": "10.18"
+    },
+    {
+      "file": "rb_74__11-constitutions.html",
+      "title": "Constitutions",
+      "section": "Constitutions",
+      "section_number": "11"
+    },
+    {
+      "file": "rb_76__12-statutes.html",
+      "title": "12: Statutes",
+      "section": "Statutes",
+      "section_number": "12"
+    },
+    {
+      "file": "rb_77__121-dates-for-the-united-states-code.html",
+      "title": "Dates for the United States Code",
+      "section": "Dates for the United States Code",
+      "section_number": "12.1"
+    },
+    {
+      "file": "rb_78__122-state-statutes.html",
+      "title": "State Statutes",
+      "section": "State Statutes",
+      "section_number": "12.2"
+    },
+    {
+      "file": "rb_79__123-short-forms-for-statutes.html",
+      "title": "Short Forms for Statutes",
+      "section": "Short Forms for Statutes",
+      "section_number": "12.3"
+    },
+    {
+      "file": "rb_80__124-identical-digits-for-statutes.html",
+      "title": "Identical Digits for Statutes",
+      "section": "Identical Digits for Statutes",
+      "section_number": "12.4"
+    },
+    {
+      "file": "rb_81__125-citing-the-internal-revenue-code.html",
+      "title": "Citing the Internal Revenue Code",
+      "section": "Citing the Internal Revenue Code",
+      "section_number": "12.5"
+    },
+    {
+      "file": "rb_82__126-abbreviating-uniform-statutes.html",
+      "title": "Abbreviating Uniform Statutes",
+      "section": "Abbreviating Uniform Statutes",
+      "section_number": "12.6"
+    },
+    {
+      "file": "rb_83__127-abbreviating-local-statutes-or-ordinances.html",
+      "title": "Abbreviating Local Statutes or Ordinances",
+      "section": "Abbreviating Local Statutes or Ordinances",
+      "section_number": "12.7"
+    },
+    {
+      "file": "rb_84__128-codification-information-for-session-laws.html",
+      "title": "Codification Information for Session Laws",
+      "section": "Codification Information for Session Laws",
+      "section_number": "12.8"
+    },
+    {
+      "file": "rb_85__14-administrative-and-executive-materials.html",
+      "title": "14: Administrative and Executive Materials",
+      "section": "Administrative and Executive Materials",
+      "section_number": "14"
+    },
+    {
+      "file": "rb_86__141-federal-register-dates.html",
+      "title": "Federal Register Dates",
+      "section": "Federal Register Dates",
+      "section_number": "14.1"
+    },
+    {
+      "file": "rb_87__142-ftc-filings.html",
+      "title": "FTC Filings",
+      "section": "FTC Filings",
+      "section_number": "14.2"
+    },
+    {
+      "file": "rb_88__143-sec-filings.html",
+      "title": "SEC Filings",
+      "section": "SEC Filings",
+      "section_number": "14.3"
+    },
+    {
+      "file": "rb_89__15-books-reports-and-other-nonperiodic-materials.html",
+      "title": "15: Books, Reports, and Other Nonperiodic Materials",
+      "section": "Books, Reports, and Other Nonperiodic Materials",
+      "section_number": "15"
+    },
+    {
+      "file": "rb_90__151-et-al.html",
+      "title": "Et al.",
+      "section": "Et al.",
+      "section_number": "15.1"
+    },
+    {
+      "file": "rb_91__152-subtitles.html",
+      "title": "Subtitles",
+      "section": "Subtitles",
+      "section_number": "15.2"
+    },
+    {
+      "file": "rb_92__153-reports-with-serial-numbers.html",
+      "title": "Reports with Serial Numbers",
+      "section": "Reports with Serial Numbers",
+      "section_number": "15.3"
+    },
+    {
+      "file": "rb_93__154-online-treatises.html",
+      "title": "Online Treatises",
+      "section": "Online Treatises",
+      "section_number": "15.4"
+    },
+    {
+      "file": "rb_94__155-preferred-versions-of-common-works-and-special.html",
+      "title": "Preferred Versions of Common Works and Special Citation Forms",
+      "section": "Preferred Versions of Common Works and Special Citation Forms",
+      "section_number": "15.5"
+    },
+    {
+      "file": "rb_95__156-works-in-a-collection.html",
+      "title": "Works in a Collection",
+      "section": "Works in a Collection",
+      "section_number": "15.6"
+    },
+    {
+      "file": "rb_96__16-periodicals.html",
+      "title": "16: Periodicals",
+      "section": "Periodicals",
+      "section_number": "16"
+    },
+    {
+      "file": "rb_97__162-open-access-journals-and-certain-nonconsecutiv.html",
+      "title": "Open-Access Journals and Certain Nonconsecutively Paginated Journals",
+      "section": "Open-Access Journals and Certain Nonconsecutively Paginated Journals",
+      "section_number": "16.2"
+    },
+    {
+      "file": "rb_98__161-nonconsecutively-paginated-journals-and-magazi.html",
+      "title": "Nonconsecutively Paginated Journals and Magazines",
+      "section": "Nonconsecutively Paginated Journals and Magazines",
+      "section_number": "16.1"
+    },
+    {
+      "file": "rb_99__163-online-versions-of-newspaper-or-magazine-artic.html",
+      "title": "Online Versions of Newspaper or Magazine Articles",
+      "section": "Online Versions of Newspaper or Magazine Articles",
+      "section_number": "16.3"
+    },
+    {
+      "file": "rb_100__164-special-reports-in-newspapers.html",
+      "title": "Special Reports in Newspapers",
+      "section": "Special Reports in Newspapers",
+      "section_number": "16.4"
+    },
+    {
+      "file": "rb_101__165-citing-abstracts.html",
+      "title": "Citing Abstracts",
+      "section": "Citing Abstracts",
+      "section_number": "16.5"
+    },
+    {
+      "file": "rb_102__166-checking-for-special-designations.html",
+      "title": "Checking for Special Designations",
+      "section": "Checking for Special Designations",
+      "section_number": "16.6"
+    },
+    {
+      "file": "rb_103__17-unpublished-and-forthcoming-sources.html",
+      "title": "17: Unpublished and Forthcoming Sources",
+      "section": "Unpublished and Forthcoming Sources",
+      "section_number": "17"
+    },
+    {
+      "file": "rb_104__171-ssrn-publications.html",
+      "title": "SSRN Publications",
+      "section": "SSRN Publications",
+      "section_number": "17.1"
+    },
+    {
+      "file": "rb_105__18-internet-sources.html",
+      "title": "18: Internet Sources",
+      "section": "Internet Sources",
+      "section_number": "18"
+    },
+    {
+      "file": "rb_106__181-urls.html",
+      "title": "URLs",
+      "section": "URLs",
+      "section_number": "18.1"
+    },
+    {
+      "file": "rb_107__182-avoiding-repetitious-author-names-or-page-titl.html",
+      "title": "Avoiding Repetitious Author Names or Page Titles",
+      "section": "Avoiding Repetitious Author Names or Page Titles",
+      "section_number": "18.2"
+    },
+    {
+      "file": "rb_108__183-omitting-words-in-main-page-titles.html",
+      "title": "Omitting Words in Main Page Titles",
+      "section": "Omitting Words in Main Page Titles",
+      "section_number": "18.3"
+    },
+    {
+      "file": "rb_109__184-dates-and-times.html",
+      "title": "Dates and Times",
+      "section": "Dates and Times",
+      "section_number": "18.4"
+    },
+    {
+      "file": "rb_110__185-parallel-citations-to-internet-sources.html",
+      "title": "Parallel Citations to Internet Sources",
+      "section": "Parallel Citations to Internet Sources",
+      "section_number": "18.5"
+    },
+    {
+      "file": "rb_111__186-location-parentheticals-for-websites.html",
+      "title": "Location Parentheticals for Websites",
+      "section": "Location Parentheticals for Websites",
+      "section_number": "18.6"
+    },
+    {
+      "file": "rb_112__187-miscellaneous-documents-in-pdf-form.html",
+      "title": "Miscellaneous Documents in PDF Form",
+      "section": "Miscellaneous Documents in PDF Form",
+      "section_number": "18.7"
+    },
+    {
+      "file": "rb_113__188-dates-for-online-pdfs.html",
+      "title": "Dates for Online PDFs",
+      "section": "Dates for Online PDFs",
+      "section_number": "18.8"
+    },
+    {
+      "file": "rb_114__189-movies.html",
+      "title": "Movies",
+      "section": "Movies",
+      "section_number": "18.9"
+    },
+    {
+      "file": "rb_115__21-international-materials.html",
+      "title": "International Materials",
+      "section": "International Materials",
+      "section_number": "21"
+    },
+    {
+      "file": "rb_116__211-names-in-treaty-titles.html",
+      "title": "Names in Treaty Titles",
+      "section": "Names in Treaty Titles",
+      "section_number": "21.1"
+    },
+    {
+      "file": "rb_117__22-additional-stylistic-and-grammatical-rules.html",
+      "title": "22: Additional Stylistic and Grammatical Rules",
+      "section": "Additional Stylistic and Grammatical Rules",
+      "section_number": "22"
+    },
+    {
+      "file": "rb_118__221-spelling.html",
+      "title": "Spelling",
+      "section": "Spelling",
+      "section_number": "22.1"
+    },
+    {
+      "file": "rb_119__222-plurals.html",
+      "title": "Plurals",
+      "section": "Plurals",
+      "section_number": "22.2"
+    },
+    {
+      "file": "rb_120__223-hyphenation.html",
+      "title": "Hyphenation",
+      "section": "Hyphenation",
+      "section_number": "22.3"
+    },
+    {
+      "file": "rb_121__224-quotation-marks-and-apostrophes.html",
+      "title": "Quotation Marks and Apostrophes",
+      "section": "Quotation Marks and Apostrophes",
+      "section_number": "22.4"
+    },
+    {
+      "file": "rb_122__225-commas.html",
+      "title": "Commas",
+      "section": "Commas",
+      "section_number": "22.5"
+    },
+    {
+      "file": "rb_123__226-hyphens-and-dashes.html",
+      "title": "Hyphens and Dashes",
+      "section": "Hyphens and Dashes",
+      "section_number": "22.6"
+    },
+    {
+      "file": "rb_124__227-the-one-space-rule.html",
+      "title": "The One-Space Rule",
+      "section": "The One-Space Rule",
+      "section_number": "22.7"
+    },
+    {
+      "file": "rb_125__228-nonbreaking-spaces.html",
+      "title": "Nonbreaking Spaces",
+      "section": "Nonbreaking Spaces",
+      "section_number": "22.8"
+    },
+    {
+      "file": "rb_126__229-dates-and-date-ranges.html",
+      "title": "Dates and Date Ranges",
+      "section": "Dates and Date Ranges",
+      "section_number": "22.9"
+    },
+    {
+      "file": "rb_127__2210-capital-letter-after-a-colon.html",
+      "title": "Capital Letter After a Colon",
+      "section": "Capital Letter After a Colon",
+      "section_number": "22.10"
+    },
+    {
+      "file": "rb_128__2211-doctrine-of-patently-asinine-results.html",
+      "title": "Doctrine of Patently Asinine Results",
+      "section": "Doctrine of Patently Asinine Results",
+      "section_number": "22.11"
+    }
+  ]
+}

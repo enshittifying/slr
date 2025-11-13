@@ -1,0 +1,120 @@
+[
+  {
+    "citation": "U.S. v. Smith, 123 F.3d 456 (2d Cir. 2020)",
+    "type": "CASE",
+    "valid": false,
+    "violations": [
+      {
+        "rule": "case_name_italics",
+        "category": "case_name_formatting",
+        "message": "Case names must be italicized in law review articles",
+        "fix": "Italicize the case name"
+      },
+      {
+        "rule": "united_states_party",
+        "category": "abbreviation_rules",
+        "message": "Incorrect abbreviation of United States",
+        "fix": "Use \"United States\" as party name, \"U.S.\" in reporter"
+      }
+    ],
+    "warnings": [],
+    "suggestions": [],
+    "fixes": [
+      "Italicize the case name",
+      "Use \"United States\" as party name, \"U.S.\" in reporter"
+    ]
+  },
+  {
+    "citation": "Brown v. Board of Education, 347 U.S. 483 (1954)",
+    "type": "CASE",
+    "valid": false,
+    "violations": [
+      {
+        "rule": "case_name_underline",
+        "category": "case_name_formatting",
+        "message": "Case names must be underlined in briefs",
+        "fix": "Underline the case name"
+      },
+      {
+        "rule": "year_required",
+        "category": "date_rules",
+        "message": "Year required",
+        "fix": "Add year in parentheses"
+      }
+    ],
+    "warnings": [],
+    "suggestions": [],
+    "fixes": [
+      "Underline the case name",
+      "Add year in parentheses"
+    ]
+  },
+  {
+    "citation": "42 U.S.C. \u00a7 1983 (2018)",
+    "type": "STATUTE",
+    "valid": true,
+    "violations": [],
+    "warnings": [],
+    "suggestions": [],
+    "fixes": []
+  },
+  {
+    "citation": "Id. at 457",
+    "type": "ID_CITATION",
+    "valid": true,
+    "violations": [],
+    "warnings": [],
+    "suggestions": [],
+    "fixes": []
+  },
+  {
+    "citation": "See Johnson v. State, 789 P.2d 123, 125-127 (Cal. 1990)",
+    "type": "CASE",
+    "valid": false,
+    "violations": [
+      {
+        "rule": "case_name_italics",
+        "category": "case_name_formatting",
+        "message": "Case names must be italicized in law review articles",
+        "fix": "Italicize the case name"
+      },
+      {
+        "rule": "signal_punctuation",
+        "category": "signal_ordering",
+        "message": "Incorrect signal punctuation",
+        "fix": "Add comma after signal"
+      },
+      {
+        "rule": "year_required",
+        "category": "date_rules",
+        "message": "Year required",
+        "fix": "Add year in parentheses"
+      }
+    ],
+    "warnings": [],
+    "suggestions": [],
+    "fixes": [
+      "Italicize the case name",
+      "Add comma after signal",
+      "Add year in parentheses"
+    ]
+  },
+  {
+    "citation": "https://www.example.com/article (last visited Jan 1, 2024)",
+    "type": "WEBSITE",
+    "valid": false,
+    "violations": [
+      {
+        "rule": "permalink_required",
+        "category": "electronic_rules",
+        "message": "Permalink required for web sources",
+        "fix": "Add perma.cc link in brackets"
+      }
+    ],
+    "warnings": [],
+    "suggestions": [],
+    "fixes": [
+      "Add perma.cc link in brackets"
+    ]
+  }
+]

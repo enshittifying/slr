@@ -1,0 +1,564 @@
+TITLE: Index
+============================================================
+
+METADATA:
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Index
+Type To Search The Index
+Daily Compilation of Presidential Documents
+,
+T1.2
+Dash
+graphical material, used in citing
+,
+3.2
+page range, used in citing
+,
+3.2
+,
+B10.1
+sections of code, used in citing
+,
+3.3
+Databases
+(see
+Electronic databases
+)
+,
+23.9
+Dates
+administrative compilations
+,
+14.2
+amended constitutional provisions
+,
+11
+amended statutes
+,
+12.7
+bilateral and multilateral treaties
+,
+21.4
+books, reports, and other nonperiodic materials
+,
+15.4
+case history
+,
+10.7
+cases
+,
+10.5
+cases, cited to U.S.L.W.
+,
+10.5
+cases, in electronic databases
+,
+10.1
+,
+10.3
+,
+10.5
+cases, in looseleaf services
+,
+10.5
+,
+19.1
+cases, in newspapers
+,
+10.1
+,
+10.5
+cases, in slip opinions
+,
+10.1
+,
+10.5
+,
+10.8
+cases, international
+,
+21.1
+cases, International Court of Justice
+,
+21.1
+,
+21.5
+cases, pending
+,
+10.8
+cases, unreported
+,
+10.8
+Code of Federal Regulations
+,
+14.2
+codifications of statutes
+,
+12.2
+,
+12.3
+constitutions, when used
+,
+11
+enactment, session laws
+,
+12.4
+ethical opinions
+,
+12.9
+ethical rules
+,
+12.9
+exact date, administrative cases
+,
+14.3
+exact date, cases
+,
+10.8
+exact date, Congressional debates
+,
+13.1
+exact date, international agreements
+,
+21.4
+exact date, International Court of Justice cases
+,
+21.1
+,
+21.5
+exact date, letters, speeches, and interviews
+,
+17.2
+exact date, ordinances
+,
+12.9
+exact date, periodicals
+,
+16.4
+,
+16.5
+exact date, services
+,
+19.1
+exact date, statutes
+,
+12.3
+exact date, treaties
+,
+21.4
+exact date, unpublished works
+,
+17.1
+,
+17.2
+,
+23.5
+exact date, unreported cases
+,
+10.8
+exchange of notes
+,
+21.4
+filing of appeal
+,
+10.1
+filing of cases
+,
+10.1
+,
+10.8
+forewords
+,
+15.6
+Internal Revenue Code
+,
+12.9
+international agreements
+,
+21.4
+Internet sources
+,
+18.2
+legislative materials
+,
+13.1
+,
+13.2
+,
+13.3
+,
+13.4
+,
+13.5
+,
+13.6
+,
+13.8
+looseleaf statutory codifications
+,
+12.3
+model codes
+,
+12.9
+multilateral treaties
+,
+21.1
+,
+21.4
+multiple decisions in one year
+,
+10.5
+multivolume works
+,
+15.1
+newspapers
+,
+16.6
+ordinances, municipal
+,
+12.9
+periodicals
+,
+B16.1
+pocket parts, books
+,
+15.4
+prefaces
+,
+15.6
+prior to 1900, books
+,
+15.4
+regnal years, in English statutes
+,
+T2.46
+repealed constitutional provisions
+,
+11
+repealed statutes
+,
+12.7
+restatements
+,
+12.9
+rules of court
+,
+B10.1
+rules of procedure
+,
+12.9
+services
+,
+19.1
+session laws
+,
+12.4
+standards
+,
+12.9
+statutes
+,
+12.3
+,
+B12.1
+statutes, amended
+,
+12.7
+statutes, cited to session laws
+,
+12.4
+statutes, foreign
+,
+20.5
+statutes, in current code
+,
+12.2
+,
+12.3
+statutes, in supplements to code
+,
+12.3
+statutes, not in current code
+,
+12.3
+statutes, repealed
+,
+12.7
+statutes, uniform acts
+,
+12.9
+supplements, books
+,
+3.1
+,
+15.4
+supplements, codes
+,
+3.1
+,
+12.3
+titles ending in
+,
+3.2
+,
+15.3
+treaties
+,
+21.1
+,
+21.4
+U.N. materials
+,
+21.7
+U.S. Supreme Court cases
+,
+10
+,
+10.5
+,
+B10.1
+undated journals
+,
+16.4
+,
+16.5
+,
+23.5
+uniform acts
+,
+12.9
+unreported cases
+,
+10.8
+year of decision of case
+,
+10.3
+“d/b/a,”
+omission in case names
+,
+10.2
+Debates
+congressional
+,
+13.1
+,
+13.5
+European Parliamentary Assembly
+,
+21.9
+,
+T3.3
+legislative
+,
+13.1
+,
+13.5
+Decimal point
+,
+6.2
+“Decision(s),”
+abbreviation of
+,
+T16
+Declaration of Independence
+,
+3.3
+Delaware
+citation rule and style guide
+,
+BT2.2
+sources of law
+,
+T1.3
+Deletions from quotations
+,
+5.3
+Denial of certiorari
+,
+10.7
+,
+T8
+,
+B10.1
+Denial of rehearing, when given
+,
+10.7
+Department of Agriculture
+,
+T1.2
+Department of Commerce
+National Oceanic and Atmospheric Administration
+,
+T1.2
+Patent and Trademark Office
+,
+T1.2
+Department of Education
+,
+T1.2
+Department of Energy, Nuclear Regulatory Commission
+,
+T1.2
+Department of Homeland Security
+,
+T1.2
+Department of Justice
+,
+T1.2
+Department of Labor
+,
+T1.2
+Department of State publications
+,
+21.16
+,
+T1.2
+Department of the Interior
+,
+T1.2
+Department of the Treasury
+,
+T1.2
+Department, state court
+,
+10.4
+Depublished cases
+,
+10.8
+Descriptive terms, omitted in case names
+,
+10.2
+“Developments in the Law,”
+16.7
+Dictionaries
+,
+15
+,
+15.8
+Dictum, indication of
+,
+10.6
+Digest of Justinian
+,
+T2.36
+Digest of United States Practice in International Law
+,
+21.16
+Digests, international
+,
+21.16
+Disciplinary rules
+,
+12.9
+Discussion drafts
+,
+12.9
+Dismissal of appeal
+,
+10.7
+,
+T8
+Dismissal without opinion
+,
+10.5
+Dissenting opinions
+,
+10.6
+,
+B10.1
+Dissertations and Theses
+,
+17.2
+District court, federal
+cases in
+,
+10.4
+rules of
+,
+12.9
+District of Columbia
+Circuit Court of Appeals for the
+,
+10.4
+citation rule and style guide
+,
+BT2.2
+sources of law
+,
+T1.3
+Divided court, parenthetical indication of
+,
+10.6
+,
+10.7
+Division, federal courts
+,
+10.4
+Docket number
+,
+B17.1
+appeal or petition for certiorari
+,
+10.8
+briefs, court filings, transcripts
+,
+10.8
+pending cases
+,
+10.8
+renumbering
+,
+10.8
+unreported cases
+,
+10.8
+Document number
+intergovernmental organizations’ materials
+,
+21.13
+,
+21.14
+U.N. publications
+,
+21.7
+Documents
+intergovernmental organizations
+,
+21.7
+,
+21.9
+,
+21.12
+,
+21.13
+,
+21.14
+legislative
+,
+13.4
+published, collected
+,
+15.5
+U.N.
+,
+21.7
+unpublished, collected
+,
+15.5
+Dollar amounts
+numerals used
+,
+6.2
+Dual citation, when required
+,
+10.3
+,
+B10.1
+DVDs
+,
+18.7

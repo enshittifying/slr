@@ -1,0 +1,321 @@
+TITLE: T2.35 Portugal, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-34-portugal-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.35
+Portugal, Republic of
+(Civil Law)
+Cases
+Citation format for decisions published in the official gazette (Diário da
+República):
+<court name>
+[
+<English translation of court name>
+], Precedent
+no.
+<Precedent no., if a precedent decision (assento)>
+of
+<date of decision in
+day-month-year format>
+, Proceedings no.
+<docket no.>
+, DR
+<gazette publication
+number>
+Series
+<series number>
+of
+<date of gazette publication in day-month-year
+format>
+,
+<first page>
+,
+<URL of online publication on gazette website, if available>
+(
+<country abbreviation if not evident from context>
+).
+Supremo Tribunal de Justiça [Supreme Court of Justice], Precedent no. 2/2000 of 09-12-1999, Proceedings no. 298/99, DR 31 Series 1-A of 07-02-2000, 468, https://dre.pt/application/dir/pdf1sdip/2000/02/031A00/04680471.pdf (Port.).
+Citation format for decisions published in a reporter or periodical:
+<court name>
+[
+<English translation of court name>
+] of
+<date of decision in day-month-year format>
+in Proceedings no.
+<docket no.>
+,
+<reporter or periodical name or abbreviation>
+<volume number, if applicable>
+(
+<for periodicals, year of publication of volume>
+),
+<first page>
+, available at
+<authoritative website, if available>
+(
+<country abbreviation
+if not evident from context>
+).
+Supremo Tribunal de Justiça [Supreme Court of Justice] of 19-10-2000 in Proceedings no. 87/2000, BMJ 500 (2000), 5, available at http://www.dgsi.pt (Port.).
+Citation format for unpublished decisions:
+<court name>
+[
+<English translation
+of court name>
+] of
+<date of decision in day-month-year format>
+in Proceedings
+no.
+<docket no.>
+(
+<country abbreviation if not evident from context>
+), available at
+<authoritative website, if available>
+.
+Tribunal da Relação de Coimbra [Court of Appeal of Coimbra] of 11-13-2019 in Proceedings No. 2519/18.8T8LRA.C1 (Port.), available at http://www.dgsi.pt.
+Spell out the full name of the court and its English translation the first time citing any case; afterward, abbreviations may be used.
+Ordinary jurisdiction
+Supremo Tribunal de Justiça
+(STJ) [Supreme Court of Justice] (court of last resort for civil and criminal matters): Cite to the official gazette (Diário da República); if unpublished in the official gazette, cite to the online database of the Ministry of Justice (
+http://www.dgsi.pt
+) or to a reporter or periodical.
+Tribunal da Relação
+de
+<place of seat>
+(TR
+<first letter of place of seat>
+e.g.,
+TRL, for the court of Lisboa) [Court of Appeal of
+<place of seat>
+] (the
+country is divided into five judicial districts, each with an appellate court with
+jurisdiction over civil and criminal matters; appellate courts are located in
+Coimbra, Évora, Guimarães, Lisboa, and Porto): Cite to the online database
+of the Ministry of Justice (
+http://www.dgsi.pt
+) or to a reporter or periodical.
+There are no official reporters for lower court decisions. While open to public access, lower court decisions are usually only available by consultation or request from the relevant court.
+Constitutional jurisdiction
+Tribunal Constitucional
+(TC) [Constitutional Court]: Cite to the official gazette (
+Diário da República
+); if unpublished in the official gazette, cite to the online court database
+http://www.tribunalconstitucional.pt
+) or to a reporter or periodical.
+Administrative jurisdiction
+Supremo Tribunal Administrativo
+(STA) [Supreme Administrative Court] (court of last resort for administrative law matters): Cite to the official gazette (
+Diário da República
+); if unpublished in the official gazette, cite to the online database of the Ministry of Justice (
+http://www.dgsi.pt
+) or to a reporter or periodical.
+Tribunal Central Administrativo Norte
+(TCAN) [Central Administrative Court North] (appellate court with jurisdiction over administrative law matters in the northern district): Cite to the online database of the Ministry
+of Justice (
+http://www.dgsi.pt
+) or to a reporter or periodical.
+Tribunal Central Administrativo Sul
+(TCAS) [Central Administrative Court South] (appellate court with jurisdiction over administrative law matters in the southern district): Cite to the online database of the Ministry of Justice (
+http://www.dgsi.pt
+) or to a reporter or periodical.
+There are no official reporters for lower administrative court decisions. While open to public access, lower courts decisions are usually only available by consultation or request from the relevant court.
+State audit jurisdiction
+Tribunal de Contas
+[Audit Court]: cite to the online court database (
+http://www.tcontas.pt
+).
+Constitution
+Constituição da República Portuguesa
+[
+Constitution
+]
+C.R.P.
+When citing the Constitution for the first time, spell out the name of the Constitution in full and provide the link to an up-to-date vernacular text or translation, as provided by the website of the official gazette (
+Diário da República
+).
+Constituição da República Portuguesa
+[C.R.P.], English translation available at https://dre.pt/constitution-of-the-portuguese-republic.
+The Constitution is divided into parts and titles, and subdivided into articles, numbers, and paragraphs. Do not mention a part or a title unless referring to it as a whole. When referring to a particular division or subdivision abbreviate as follows.
+C.R.P., art. 6, no. 1.
+C.R.P., art. 9, para. b).
+C.R.P., Part 1, Title II.
+Cite the Constitution currently in force without a date. If the cited provision has been amended or repealed, either indicate parenthetically the fact and year of amendment or repeal or cite the amending or repealing Constitutional Act (
+Lei Constitutional
+) in full.
+C.R.P., art. 10 (repealed 1982).
+C.R.P., art. 140, amended by Lei Constitutional n. ̊ 1/82 de 30 de setembro [Constitutional Act no. 1/82 of September 30th].
+Portugal has had six constitutions since its first in 1822. The current
+constitution was adopted in 1976. When citing a previous constitution, use the
+following citation format instead:
+<Constitution Name>
+de
+<year of adoption>
+[
+<year of adoption> <English translation of constitution name>
+]
+<URL of online
+version in Portuguese or English, if available>
+(
+<country abbreviation if not evident
+from context>
+).
+Carta Constitucional da Monarquia Portuguesa de 1826 [1826
+Constitutional Charter of the Portuguese Monarchy], https://digitarq.arquivos.pt/details?id=4161652 (Port.).
+Codes
+Citation format:
+<code name>
+[
+<English translation of code name>
+]
+<URL of online
+version in Portuguese or English, if available>
+(
+<country abbreviation if not evident
+from context>
+).
+Código Civil
+[Civil Code], https://dre.pt/web/guest/legislacao-consolidada/-/lc/34509075/view (Port.).
+Codes can be divided into books, parts, titles, subtitles, chapters, sections, and subsections, and subdivided into articles, numbers, and paragraphs. Do not mention a book, part, title, subtitle, chapter, section, or subsection unless referring to it as a whole. When referring to a particular division or subdivision abbreviate as follows:
+Código Civil
+[Civil Code], art. 410, no. 3.
+Código Civil
+[Civil Code], art. 64, para. a).
+Código Civil
+[Civil Code], Book I, Title II, Subtitle I, Chapter I, Section IV, Subsection II.
+Código Civil [Civil Code]
+Código da Insolvência e da Recuperação de Empresas [Insolvency and Reorganization Code]
+Código da Propriedade Industrial [Industrial Property Code]
+Código das Sociedades Comercias [Business Associations Code]
+Código de Procedimento e Processo Tributário [Tax Procedure Code]
+Código de Processo Civil [Civil Procedure Code]
+Código de Processo nos Tribunais Administrativos [Code of Procedure in the Administrative Tribunals]
+Código de Processo Penal [Criminal Procedure Code]
+Código do Notariado [Notaries Code]
+Código do Procedimento Administrativo [Administrative Process Code]
+Código do Registo Predial [Land Registration Code]
+Código do Trabalho [Labor Code]
+Código dos Contratos Públicos [Public Procurement Code]
+Código dos Valores Mobiliários [Securities Code]
+Código Penal [Criminal Code]
+Statutes and regulations
+Citation format:
+<statute or regulation category in Portuguese>
+n. ̊
+<statute or
+regulation number>
+de
+<day of publication in official gazette>
+de
+<full name in
+Portuguese of month of publication in official gazette>
+[
+<English translation
+of statute or regulation category>
+no.
+<statute or regulation number>
+of
+<day
+of publication in official gazette> <full name in English of month of publication
+in official gazette>
+],
+<URL of online publication on gazette website>
+(
+<country
+abbreviation if not evident from context>
+).
+Lei n. ̊ 49/95 de 30 de Agosto [Act no. 49/95 of 30 August], https://dre.pt/application/conteudo/547979 (Port.).
+Decreto-Lei n. ̊ 1/2020 de 9 de janeiro [Decree-Law no. 1/2020], https://dre.pt/application/conteudo/127899795 (Port.).
+Decreto Legislativo Regional n. ̊ 30/2019/A de 28 de novembro [Regional Legislative Decree no. 30/2019/A of 28 November], https://dre.pt/application/conteudo/126669989 (Port.).
+Note that n. ̊ stands for “número.” Note also that the second two numbers in the statute or regulation number indicate the year; for example, Lei n. ̊ 49/95 de 30 de Agosto was enacted in 1995.
+There are various categories of statutes and regulations. Statutes can take
+the form of
+Act
+(
+Lei
+),
+Decree-Law
+(
+Decreto-Lei
+), or
+Regional Legislative
+Decree
+(
+Decreto Legislativo Regional
+), according to whether they are issued by Parliament, Cabinet, or Governments of any of the two Autonomous Regions (Azores and Madeira), respectively. Common categories of regulations include
+Decree
+(
+Decreto
+),
+Regulatory Decree
+(
+Decreto-Regulamentar
+),
+Ordinance
+(
+Portaria
+), and
+Order
+(
+Despacho
+).
+Statutes and regulations are subdivided into articles, numbers, and paragraphs. When referring to a particular subdivision abbreviate as follows:
+Decreto-Lei n. ̊ 161/98 de 24 de junho [Decree-Law no. 161/98 of 24 June], art. 3, no. 2, https://dre.pt/application/conteudo/478433.
+If the cited provision has been amended, cite the amending statute in full and insert the URL of the online publication of each of the amended and amending statutes:
+Lei n. ̊ 23/2006 de 23 de junho [Act no. 23/2006 of 23 June], art. 16, no. 4, https://dre.pt/application/conteudo/359360, amended by Lei n. ̊ 57/2019 de 7 de agosto [Act no. 57/2019 of 7 August], https://dre .pt/application/conteudo/123770987.
+Statutes and regulations are often republished in a consolidated version when amendments are made. Unless only previous versions are pertinent, when citing such statutes and regulations, include a reference to the most recent republication.
+Lei n. ̊ 6/1997 de 1 de março [Act no. 6/1997 of 1 March], republished by Lei n. ̊ 36/2012 de 27 de Agosto [Act no. 36/2012 of 27 August], https://dre.pt/application/conteudo/174561.
+Legislative materials
+Both
+Parliament
+(
+Assembleia da República
+) and
+Cabinet
+(
+Conselho de Ministros
+) hold legislative power. However, only Parliament publishes legislative materials. Cite published legislative materials to Parliament’s gazette (
+Diário da Assembleia da República
+).
+Citation format: Projeto de lei no. ̊
+<legislative proposal number>
+(
+<order
+number>
+) [Bill no.
+<legislative proposal number>
+(
+<order number>
+)], DAR
+<gazette
+series number> <gazette publication number>
+,
+<URL of online publication on
+gazette website>
+(
+<country abbreviation if not evident from context>
+).
+Projeto de lei n. ̊ 297/XIII (1.a.) [Bill no. 297/XII (1st)], DAR II Series A No. 133, http://app.parlamento.pt/darpages/dardoc.aspx?doc=6148523063446f764c324679626d56304c334e706447567a4c31684a53556c4d5a5763765245465353556b765245465353556c42636e463161585a764c7a457577716f6c4d6a42545a584e7a77364e764a5449775447566e61584e7359585270646d45765533566963384f70636d6c6c4a544977515339455156497453556b74515330784d7a4d756347526d&nome=DAR-IIA-133.pdf (Port.).
+Internet sources
+http://www.presidencia.pt
+(Office of the President of the Republic)
+https://www.parlamento.pt
+(Parliament)
+https://www.portugal.gov.pt
+(Cabinet)
+https://dre.pt
+(Official gazette)
+http://www.dgsi.pt
+(Caselaw database of the Ministry of Justice)
+http://www.pgdlisboa.pt/leis/lei_main.php
+(Legislation database of the Public Prosecutor Office of Lisboa)

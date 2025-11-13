@@ -1,0 +1,32 @@
+TITLE: 17.3 Forthcoming Publications (pp. 179–80)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 17-unpublished-and-forthcoming-sources
+  slug: 17-3-forthcoming-publications
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+17.3
+Forthcoming Publications
+(pp. 179–80)
+Cite a book, article, or other work scheduled for publication in the same manner as the published piece would be cited, with the same typefaces, except: (i) do not include a pincite following the title of the journal or book; (ii) add the designation “
+forthcoming
+” in the date parenthetical; and (iii) include the month of publication, if available, in addition to the year in the date parenthetical. Omit volume number if not yet available:
+Aadir A.I. Khan, Comment,
+From Historical to Cutting-Edge: Equity Receiverships as a Tool to Resolve Mass Torts
+, 172
+U. Pa. L. Rev
+. (forthcoming July 2024).
+To cite a particular page of a forthcoming publication, add a second parenthetical with the manuscript page cite and a third with the location of the forthcoming document:
+F. Brandon Baer & James M. Feldman,
+We’re Low on Vermouth: The Trials and Tribulations of Two Summer Associates
+, 1 J.L. &
+Oppression
+(forthcoming 2001) (manuscript at 3) (on file with authors).

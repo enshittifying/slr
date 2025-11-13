@@ -1,0 +1,23 @@
+TITLE: 20.4 Constitutions (p.211)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 20-foreign-materials
+  slug: 20-4-constitutions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20.4
+Constitutions
+(p.211)
+Cite all foreign constitutions by name. If the nature of the document is not otherwise clear from the context, include “
+Constitution
+” in brackets following the document name or abbreviation in the first citation. Successive citations may exclude this note. Include the country abbreviation in a parenthetical at the end of the citation:
+Bundesverfassung [BV] [Constitution
+] Apr. 18, 1999, SR 101, art. 29 (Switz.).

@@ -1,0 +1,31 @@
+TITLE: 18.5 Electronic Storage Media (p.192)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-4-cd-rom-and-other-electronic-storage-media
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.5
+Electronic Storage Media
+(p.192)
+(a) Physical media.
+When relevant, cite the physical device used to store a piece of electronic media. Examples include, but are not limited to, external hard drives, USB drives, CD-ROMs, videotapes, Blu-ray discs, and microSD cards. Citations should include the title of the media followed by the name of the file enclosed in brackets, the file owner, an identification number (if available), a parenthetical designating the storage media and the date the document was last modified, and a parenthetical identifying the location where the physical device is being stored:
+Bluebook Invitational Schedule 2024 [BBI24_Sch.docx], Columbia Law Review (USB Drive, last modified Apr. 13, 2024) (on file with the Columbia Law Review).
+(b) Cloud storage.
+Cloud storage services, such as Google Drive, Apple iCloud, and Dropbox are an increasingly popular way to store media electronically.
+When citing materials saved on cloud storage, include the author of the file, the file’s title, and the URL associated with the file. In a parenthetical, indicate the name of the owner of the folder containing the file, the name of the folder, and the name of the cloud storage service. If the owner of the folder is an institution, abbreviate their name per
+tables T6
+,
+T10
+, and
+T13
+. Append a parenthetical indicating the last modified date and a separate parenthetical indicating where the document may be found if the cloud source is inaccessible:
+Benjamin Liebman, Empirical Research on Chinese Case Data, g.drv/liebman (Colum. L. Rev., Liebman on China, Google Drive) (last modified June 18, 2024) (on file with the Columbia Law Review).

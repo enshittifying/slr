@@ -1,0 +1,70 @@
+{
+  "year": 1791,
+  "year_source_file": "year1791_20250926_180938.html",
+  "acts": [
+    {
+      "act_id": "",
+      "act_base": "1791_12",
+      "congress": "",
+      "stat_volume": "",
+      "date_text": "",
+      "year": null,
+      "rows": [
+        {
+          "act_section": "1",
+          "stat_page": "197",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 767"
+        },
+        {
+          "act_section": "1",
+          "stat_page": "197",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 776"
+        },
+        {
+          "act_section": "2",
+          "stat_page": "197",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 531"
+        },
+        {
+          "act_section": "2",
+          "stat_page": "197",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 551"
+        },
+        {
+          "act_section": "3",
+          "stat_page": "197",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 608"
+        }
+      ],
+      "source_file": "1791_12_20250926_180938.html"
+    },
+    {
+      "act_id": "",
+      "act_base": "1791_18",
+      "congress": "",
+      "stat_volume": "",
+      "date_text": "",
+      "year": null,
+      "rows": [
+        {
+          "act_section": "",
+          "stat_page": "215",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 244"
+        }
+      ],
+      "source_file": "1791_18_20250926_180938.html"
+    }
+  ]
+}

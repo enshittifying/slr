@@ -1,0 +1,304 @@
+TITLE: T15 Services (pp. 349–53)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  slug: t15-services
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T15
+Services
+(pp. 349–53)
+Abbreviations commonly used in referring to service publishers include the following:
+Bloomberg Law
+BL
+Commerce Clearing House
+CCH
+Matthew Bender
+MB
+Research Institute of America
+RIA
+Abbreviations for some of the most frequently cited services are listed below. Following each looseleaf service title, the list indicates the appropriate abbreviation of the service, the publisher, and corresponding bound services. Names of bound services that differ markedly from their looseleaf forms are printed in italics and cross-referenced to the looseleaf forms. See
+rule 19
+for further guidance on citation to services.
+Administrative Law Third Series
+Admin. L.3d (BL)
+Affirmative Action Compliance Manual for Federal Contractors
+Aff. Action Compl. Man. (BL)
+AIDS Law & Litigation Reporter
+AIDS L. & Litig. Rep. (Univ. Pub. Group)
+All States Tax Guide
+All St. Tax Guide (RIA)
+American Federal Tax Reports, Second Series
+A.F.T.R.2d (RIA)
+American Stock Exchange Guide
+Am. Stock Ex. Guide (CCH)
+Antitrust & Trade Regulation Report
+Antitrust & Trade Reg. Rep. (BNA)
+Aviation Law Reporter bound as Aviation Cases
+Av. L. Rep. (CCH)
+Av. Cas. (CCH)
+Bloomberg Law’s Banking Report
+Banking Rep. (BL)
+Bankruptcy Court Decisions
+Bankr. Ct. Dec. (LRP)
+Bankruptcy Law Reports
+Bankr. L. Rep. (CCH)
+Benefits Review Board Service
+Ben. Rev. Bd. Serv. (MB)
+BioLaw
+BioLaw (LexisNexis)
+Blue Sky Law Reporter
+Blue Sky L. Rep. (CCH)
+Board of Contract Appeals Decisions
+—see Contract Appeals Decisions
+Business Franchise Guide
+Bus. Franchise Guide (CCH)
+Canadian Commercial Law Guide
+Can. Com. L. Guide (CCH)
+Canadian Tax Reporter
+Can. Tax Rep. (CCH)
+Chemical Regulation Reporter
+Chem. Reg. Rep. (BL)
+Chicago Board Options Exchange Guide
+Chicago Bd. Options Ex. Guide (CCH)
+Collective Bargaining Negotiations & Contracts
+Collective Bargaining Negot. & Cont. (BL)
+Collier Bankruptcy Cases, Second Series
+Collier Bankr. Cas. 2d (MB)
+Commodity Futures Law Reporter
+Comm. Fut. L. Rep. (CCH)
+Communications Regulation
+Commc’ns Reg. (BL)
+Congressional Index
+Cong. Index (CCH)
+Consumer Credit Guide
+Consumer Cred. Guide (CCH)
+Consumer Product Safety Guide
+Consumer Prod. Safety Guide (CCH)
+Contract Appeals Decisions bound as Board of Contract Appeals Decisions
+Cont. App. Dec. (CCH)
+B.C.A. (CCH)
+Contracts Cases, Federal
+—see Government Contracts Reporter
+Copyright Law Decisions
+Copyright L. Dec. (CCH)
+Copyright Law Reporter
+Copyright L. Rep. (CCH)
+Cost Accounting Standards Guide
+Cost Accounting Stand. Guide (CCH)
+The Criminal Law Reporter
+Crim. L. Rep. (BL)
+Daily Labor Report
+Daily Lab. Rep. (BL)
+Dominion Tax Cases
+Dominion Tax Cas. (CCH)
+EEOC Compliance Manual
+EEOC Compl. Man. (BL)
+EEOC Compliance Manual
+EEOC Compl. Man. (CCH)
+Employee Benefits Cases
+Empl. Benefits Cas. (BL)
+Employee Benefits Compliance Coordinator
+Empl. Coordinator (RIA)
+Employment Practices Guide bound as Employment Practices Decisions—see also Labor Law Reporter
+Empl. Prac. Dec. (CCH)
+Employment Safety and Health Guide bound as Occupational Safety and Health Decisions
+Empl. Safety & Health Guide (CCH)
+O.S.H. Dec. (CCH)
+Employment Testing: Law & Policy Reporter
+Empl. Testing (Univ. Pub. Am.)
+Energy Management & Federal Energy Guidelines
+Energy Mgmt. (CCH)
+Environment Reporter bound as Environment Reporter Cases
+Env’t Rep. (BNA)
+Env’t Rep. Cas. (BNA)
+Environmental Law Reporter
+Envtl. L. Rep. (Envtl. Law Inst.)
+Exempt Organizations Reports
+Exempt Org. Rep. (CCH)
+Fair Employment Practice Cases
+—see Labor Relations Reporter
+The Family Law Reporter
+Fam. L. Rep. (BL)
+Family Law Tax Guide
+Fam. L. Tax Guide (CCH)
+Federal Audit Guides
+Fed. Audit Guide (CCH)
+Federal Banking Law Reporter
+Fed. Banking L. Rep. (CCH)
+Federal Carriers Reports bound as Federal Carriers Cases
+Fed. Carr. Rep. (CCH)
+Fed. Carr. Cas. (CCH)
+Federal Contracts Report
+Fed. Cont. Rep. (BL)
+Federal Election Campaign Financing Guide
+Fed. Election Camp. Fin. Guide (CCH)
+Federal Energy Regulatory Commission Reporter
+Fed. Energy Reg. Comm’n Rep. (CCH)
+Federal Estate and Gift Tax Reporter bound as Standard Federal Tax Reporter
+Fed. Est. & Gift Tax Rep. (CCH)
+Stand. Fed. Tax Rep. (CCH)
+Federal Excise Tax Reporter
+Fed. Ex. Tax Rep. (CCH)
+Federal Income, Gift and Estate Taxation
+Fed. Inc. Gift & Est. Tax’n (MB)
+Federal Rules Service, Second Series
+Fed. R. Serv. 2d (West)
+Federal Securities Law Reporter
+Fed. Sec. L. Rep. (CCH)
+Federal Tax Coordinator Second
+Fed. Tax Coordinator 2d (RIA)
+Federal Tax Guide Reports
+Fed. Tax Guide Rep. (CCH)
+Fire & Casualty Cases
+—see Insurance Law Reports
+Food Drug Cosmetic Law Reporter
+Food Drug Cosm. L. Rep. (CCH)
+Government Contracts Reporter bound as Contracts Cases, Federal
+Gov’t Cont. Rep. (CCH)
+Cont. Cas. Fed. (CCH)
+Government Employee Relations Report
+Gov’t Empl. Rel. Rep. (BL)
+Housing & Development Reporter
+Hous. & Dev. Rep. (RIA)
+Human Resources Management OSHA Compliance Guide
+OSHA Comp. Guide (CCH)
+Immigration Law Service
+Immigr. L. Serv. (West)
+Insurance Law Reports bound as:
+Ins. L. Rep. (CCH)
+Personal and Commercial Liability
+Personal and Comm. Liab. (CCH)
+Life, Health & Accident Insurance Cases 2d
+Life Health & Accid. Ins. Cas. 2d (CCH)
+International Environment Reporter
+Int’l Env’t Rep. (BL)
+International Trade Reporter
+Int’l Trade Rep. (BL)
+IRS Positions
+IRS Pos. (CCH)
+Labor Arbitration Awards
+Lab. Arb. Awards (CCH)
+Labor Law Reporter bound as:
+Lab. L. Rep. (CCH)
+Labor Cases
+Lab. Cas. (CCH)
+NLRB Decisions—see also Employment Practices Guide
+NLRB Dec. (CCH)
+Labor Relations Reporter bound as:
+Lab. Rel. Rep. (BL)
+Fair Employment Practice Cases
+Fair Empl. Prac. Cas. (BL)
+Labor Arbitration Reports
+Lab. Arb. Rep. (BL)
+Labor Relations Reference Manual
+L.R.R.M. (BL)
+Wage and Hour Cases
+Wage & Hour Cas. (BL)
+ABA/BNA Lawyers’ Manual on Professional Conduct
+Laws. Man. on Prof. Conduct (ABA/BLAW)
+Life, Health & Accident Insurance Cases
+—see Insurance Law Reports
+Liquor Control Law Reporter
+Liquor Cont. L. Rep. (CCH)
+Media Law Reporter
+Media L. Rep. (BL)
+Medical Devices Reporter
+Med. Devices Rep. (CCH)
+Medicare and Medicaid Guide
+Medicare & Medicaid Guide (CCH)
+Mutual Funds Guide
+Mut. Funds Guide (CCH)
+National Reporter on Legal Ethics & Professional Responsibility
+Nat’l Rep. Legal Ethics (Univ. Pub. Am.)
+New York Stock Exchange Guide
+N.Y.S.E. Guide (CCH)
+NLRB Decisions
+—see Labor Law Reporter
+Nuclear Regulation Reporter
+Nuclear Reg. Rep. (CCH)
+Occupational Safety & Health Reporter bound as Occupational Safety & Health Cases
+O.S.H. Rep. (BL)
+O.S.H. Cas. (BL)
+OFCCP Federal Contract Compliance Manual
+OFCCP Fed. Cont. Compl. Man. (CCH)
+Patent, Trademark & Copyright Journal
+Pat. Trademark & Copyright J. (BL)
+Pension & Benefits Reporter
+Pens. & Ben. Rep. (BL)
+Pension Plan Guide
+Pens. Plan Guide (CCH)
+Pension & Profit Sharing Second
+Pens. & Profit Sharing 2d (RIA)
+Product Safety & Liability Reporter
+Prod. Safety & Liab. Rep. (BL)
+Products Liability Reporter
+Prod. Liab. Rep. (CCH)
+Public Utilities Reports
+Pub. Util. Rep. (PUR)
+School Law Reporter
+School L. Rep. (Educ. Law Ass’n)
+Search & Seizure Bulletin
+Search & Seizure Bull. (Quinlan)
+SEC Accounting Rules
+SEC Accounting R. (CCH)
+Secured Transactions Guide
+Secured Transactions Guide (CCH)
+Securities and Federal Corporate Law Report
+Sec. & Fed. Corp. L. Rep. (West)
+Securities Regulation & Law Report
+Sec. Reg. & L. Rep. (BL)
+Shipping Regulation
+Shipping Reg. (BL)
+Social Security Reporter
+Soc. Sec. Rep. (CCH)
+Standard Federal Tax Reporter bound as U.S. Tax Cases
+Stand. Fed. Tax Rep. (CCH)
+U.S. Tax Cas. (CCH)
+State and Local Tax Service
+St. & Loc. Tax Serv. (RIA)
+State and Local Taxes
+—see All States Tax Guide
+State Inheritance, Estate, and Gift Tax Reporter
+St. Inher., Est. & Gift Tax Rep. (CCH)
+State Tax Guide
+St. Tax Guide (CCH)
+State Tax Reporter
+St. Tax Rep. (CCH)
+Tax Court Memorandum Decisions bound in Tax Court Reporter
+T.C.M. (RIA)
+T.C.M. (CCH) [or (RIA)]
+Tax Court Reported Decisions
+Tax Ct. Rep. Dec. (RIA)
+Tax Court Reports
+Tax Ct. Rep. (CCH)
+Trade Regulation Reporter bound as Trade Cases
+Trade Reg. Rep. (CCH)
+Trade Cas. (CCH)
+Unemployment Insurance Reporter
+Unempl. Ins. Rep. (CCH)
+Uniform Commercial Code Reporting Service Second
+UCC Rep. Serv. (West)
+Union Labor Report Newsletter
+Union Lab. Rep. Newsl. (BL)
+The United States Law Week
+U.S.L.W. (BL [publisher need not be indicated])
+The United States Patents Quarterly bound in same name
+U.S.P.Q. (BL), U.S.P.Q.2d (BL)
+U.S. Tax Cases
+—see Federal Estate and Gift Tax Reporter; Standard Federal Tax Reporter
+U.S. Tax Reporter
+U.S. Tax Rep. (RIA)
+U.S. Tax Treaties Reporter
+U.S. Tax Treaties Rep. (CCH)
+Utilities Law Reports
+Util. L. Rep. (CCH)
+Wage and Hour Cases
+—see Labor Relations Reporter

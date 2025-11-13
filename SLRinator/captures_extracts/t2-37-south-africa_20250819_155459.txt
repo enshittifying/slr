@@ -1,0 +1,250 @@
+TITLE: T2.38 South Africa
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-37-south-africa
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.38
+South Africa
+(Hybrid Common Law)
+Cases
+Citation format:
+<case name, in italics> <year of publication>
+(
+<volume number>
+)
+<reporter abbreviation> <first page>
+(
+<court abbreviation>
+) at
+<page(s) of specific material, if desired and available>
+<paragraph, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Fraser v. Naude
+1999 (1) SA 1 (CC) at 78 (S. Afr.).
+When citing to a case in which the court numbers the paragraphs — a style that courts are increasingly adopting — cite to the paragraph number.
+Fraser v. Naude
+1999 (1) SA 1 (CC) at 78 para. 10 (S. Afr.).
+1994–date:
+Constitutional Court
+(
+CC
+) (highest appellate court, and occasionally court of first instance, for all constitutional questions),
+Supreme Court of Appeal
+(highest appellate court for nonconstitutional matters), and the
+High Courts
+: Cite to
+SA
+or
+BCLR
+, if therein.
+South African Law Reports
+1947–date
+SA
+Butterworths Constitutional Law Reports
+1994–date
+BCLR
+South African Criminal Law Reports
+1990–date
+SACR
+All South African Law Reports
+1996–date
+All SA
+1910–1994:
+Judicial Committee of Privy Council
+(
+P.C.
+) (until 1950): Cite to
+Eng. Rep.
+, if therein (see
+table T2.43 United Kingdom
+).
+Appellate Division
+(
+A
+) (highest appellate court from Provincial & Local Divisions  in all matters since 1950; highest domestic appellate court in all matters prior to 1950): Cite to
+AD
+, if therein.
+Provincial and Local Divisions of the Supreme Court: Supreme Court (Appellate Division & Supreme Court) of Transkei
+(1976–1994),
+Supreme Court (Appellate Division & General Division) of Bophuthatswana
+(1977–1994),
+Supreme Court of Venda
+(1979–1994), and
+Supreme Court (Appellate Division & General Division) of Ciskei
+(1981–1994): Cite to SA, if therein.
+South African Law Reports
+1947–date
+SA
+South African Criminal Law Reports
+1990–date
+SACR
+Prentice-Hall Weekly Legal Series
+1923–date
+PH
+Bophuthatswana Law Reports (six volumes)
+1977–1990
+BSC
+Appellate Division Reports
+1910–1946
+AD
+Cape Provincial Division Reports
+1910–1946
+CPD
+Eastern Districts Local Division Reports
+1910–1946
+EPD
+Griqualand West Local Division Reports/Griqualand High Court Reports
+1882–1946
+GWL
+Orange Free State Provincial Division Reports
+1910–1946
+OPD
+Transvaal Provincial Division Reports
+1910–1946
+TPD
+Witwatersrand Local Division Reports
+1910–1946
+WLD
+Natal Provincial Division Reports
+1933–1946
+NPD
+Natal Law Reports (New Series)
+1858–1932
+NLR
+Industrial Law Reports
+1980–date
+ILJ
+South African Tax Cases
+1926–date
+SATC
+Bantu Appeal Court Reports
+1961–date
+BAC
+Native Appeal Court Reports
+1952–1961
+NAC
+Prior to 1910:
+Cape Supreme Court Reports
+1828–1910
+SC
+Reports of the Eastern Districts of the Cape of Good Hope
+1891–1909
+EDC
+Orange River Colony Reports
+1903–1909
+ORC
+Transvaal Supreme Court Reports
+1902–1909
+TS
+Witwatersrand High Court Reports
+1902–1909
+TH
+Constitution
+Unlike citations to statutes, citations to the Constitution and its amending laws do not include act numbers. Titles of laws amending the Constitution reflect their chronological order.
+Constitution of the Republic of South Africa Act, 1996:
+S. Afr. Const.,
+1996.
+Constitution of the Republic of South Africa First Amendment Act of 1997:
+S. Afr. Const
+., First Amendment Act of 1997.
+Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution):
+S. Afr.
+(
+Interim
+) C
+onst
+., 1993.
+Statutes
+Citation format:
+<act name> <act number>
+of
+<year of passage> <section(s), if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Interpretation Act 33 of 1957 § 6 (S. Afr.).
+When citing to a statutory compilation, include the volume and name of the publication as well as the year of any updates, as shown below:
+Children's Act 38 of 2005 § 1, 5 BSRSA (updated through 2012).
+Statutory compilations
+Butterworths Statutes of the Republic of South Africa
+1910–date
+BSRSA
+Juta's Statutes of the Republic of South Africa
+1991–date
+JSRSA
+Other legislation
+Provincial ordinances (collected by province by year) (1910–1994):
+Road Traffic Ordinance 21 of 1966 (Cape Province) (S. Afr.).
+Laws of provincial legislatures (1994–date):
+Western Cape Colleges Law 12 of 1994 (S. Afr.).
+Proclamations, regulations, and other government notices are collected in the
+Government Gazette
+(
+GG
+). When citing to documents in the GG, include: Government Notice (GN) number, GG number, and day (day month year).
+Debt Counselling Regulations 2012, GN R.362 of GG 35327 (10 May 2012).
+Consumer Product Safety Recall Guidelines, GN 290 of GG 35434 (13 June 2012).
+Parliamentary debates
+Cite to
+Hansard’s Parliamentary Reports
+:
+House of Assembly
+Hansard
+9 Dec. 1993 Col 14768 (S. Afr.).
+Law Commission Papers
+SA Law Commission Issue Paper 3 Customary Marriages (Aug. 1996) (S. Afr.).
+SA Law Commission Discussion Paper 76 Conflicts of Law (Apr. 1998) (S. Afr.).
+Periodicals
+South African Law Journal (continues Cape Law Journal)
+1900–date
+SALJ
+Cape Law Journal
+1884–1900
+Acta Juridica, Comparative and International Law Journal of South Africa
+CILSA
+De Jure
+Industrial Law Journal
+(available by subscription at
+https://juta.co.za/home
+)
+ILJ
+South African Journal on Human Rights
+(available by subscription at
+https://juta.co.za/home
+)
+SAJHR
+South African Mercantile Law Journal
+SAMLJ
+South African Yearbook of International Law
+SAYIL
+Internet sources
+https://www.lexisnexis.com
+(South Africa government website; includes full text of Acts, bills, draft bills, notices, white papers, and documents issued for public comment going back to 1991)
+http://www.parliament.gov.za
+(South African Parliament official website)
+http://www.constitutionalcourt.org.za
+(South African Constitutional Court (1995–date))
+http://www.supremecourtofappeal.gov.za
+(Supreme Court of Appeal (1999– date))
+http://www.saflii.org
+(Southern African Legal Information Institute (SAFLII) website; includes legislation as well as decisions of various South African courts)
+http://www.dfa.gov.za/foreign
+(list of treaties to which South Africa is a party provided by the Department of International Relations and Cooperation)
+http://www.satreatyseries.net/trindex.htm
+(treaties to which South Africa is a party and ratification information provided by a private website, the South African Cyber Treaty Series)
+https://www.loc.gov/item/guide-to-law-online/south-africa/
+(Library of Congress Guide to Law Online: South Africa)
+https://www.lexisnexis.com
+(direct access by subscription to the digital version of Butterworth Statutes of South Africa, Butterworth South African Constitutional Law Reports, and South Africa Tax Cases)

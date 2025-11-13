@@ -1,0 +1,153 @@
+TITLE: Louisiana (La.) (pp. 289–90)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: louisiana-la
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Louisiana (La.)
+(pp. 289–90)
+https://www.lasc.org/
+https://www.legis.la.gov/legis/LawSearch.aspx
+Public domain citation format:
+Louisiana has adopted a public domain citation format for cases after December 31, 1993. The format is:
+State v. Ray, 97-1093 (La. App. 3 Cir. 2/4/98), 705 So. 2d 1295.
+State v. Ray, 97-1093, p. 2 (La. App. 3 Cir. 2/4/98), 705 So. 2d 1295, 1296.
+State v. Fleury, 2001-0871, p. 5 (La. 10/16/01), 799 So. 2d 468, 472.
+For additional information, consult Rules of the Supreme Court of Louisiana, part G, section 8.
+Supreme Court
+(
+La.
+), before 1813 the
+Superior Court of Louisiana
+(
+La.
+) and the
+Superior Court of the Territory of Orleans
+(
+Orleans
+): Cite to
+So.
+,
+So. 2d
+, or
+So. 3d
+, if therein.
+Southern Reporter
+1886–date
+So., So. 2d, So. 3d
+Louisiana Reports
+1901–1972
+La.
+Louisiana Annual Reports
+1846–1900
+La. Ann.
+Robinson
+1841–1846
+Rob.
+Louisiana Reports
+1830–1841
+La.
+Martin (Louisiana Term Reports)
+1809–1830
+Mart. (o.s.), Mart. (n.s.)
+Court of Appeal
+(
+La. Ct. App.
+): Cite to
+So.
+,
+So. 2d
+, or
+So. 3d
+, if therein.
+Southern Reporter
+1928–date
+So., So. 2d, So. 3d
+Louisiana Court of Appeals Reports
+1924–1932
+La. App.
+Peltier’s Decisions, Parish at Orleans
+1917–1924
+Pelt.
+Teissier, Orleans Court of Appeals
+1903–1917
+Teiss.
+Gunby’s Reports
+1885
+Gunby
+McGloin
+1881–1884
+McGl.
+Statutory compilations:
+Cite to one of the following codes.
+West’s Louisiana Statutes Annotated
+La. Stat. Ann.
+§ x:x (
+<year>
+)
+West’s Louisiana Children’s Code Annotated
+La. Child. Code Ann.
+art. x (
+<year>
+)
+West’s Louisiana Civil Code Annotated
+La. Civ. Code Ann
+. art. x (
+<year>
+)
+West’s Louisiana Code of Civil Procedure Annotated
+La. Code Civ. Proc. Ann
+. art. x (
+<year>
+)
+West’s Louisiana Code of Criminal Procedure Annotated
+La. Code Crim. Proc. Ann
+. art. x (
+<year>
+)
+West’s Louisiana Code of Evidence Annotated
+La. Code Evid. Ann.
+art. x (
+<year>
+)
+West's Louisiana Constitution Annotated
+La. Const. Ann
+. art. x (
+<year>
+)
+Session laws:
+Cite to
+La. Acts
+, if therein.
+State of Louisiana: Acts of the Legislature
+<year>
+La. Acts
+<page no.>
+West’s Louisiana Session Law Service
+<year>
+La. Sess. Law Serv.
+<page no.>
+(West)
+Administrative compilation
+Louisiana Administrative Code
+La. Admin. Code
+tit. x, pt. x, § x (
+<year>
+)
+Administrative register
+Louisiana Register
+<vol. no.>
+La. Reg.
+<page no.>
+(
+<month day, year>
+)

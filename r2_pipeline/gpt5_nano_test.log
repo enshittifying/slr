@@ -1,0 +1,62 @@
+2025-10-30 20:04:21,019 - src.vector_store_manager - INFO - Loaded cached assistant ID: asst_hcNme6KtVQ3TGpz0gZhYf465
+2025-10-30 20:04:21,019 - src.vector_store_manager - INFO - Loaded cached vector store ID: vs_690256ac5cd881918e52e5834e40f358
+2025-10-30 20:04:21,019 - src.llm_interface - INFO - Loaded Bluebook assistant: asst_hcNme6KtVQ3TGpz0gZhYf465
+2025-10-30 20:04:21,027 - src.rule_retrieval - INFO - Loaded 115 Redbook rules, 239 Bluebook rules
+2025-10-30 20:04:21,029 - src.citation_validator - INFO - Loaded full Bluebook.json (280483 chars) for GPT fallback
+2025-10-30 20:04:21,029 - src.citation_validator - INFO - Deterministic rule retrieval enabled
+2025-10-30 20:04:21,032 - src.word_editor - INFO - Track changes enabled
+2025-10-30 20:04:21,409 - src.spreadsheet_updater - INFO - Using sheet: CC (nn. 78-113); HC
+2025-10-30 20:04:21,409 - __main__ - INFO - Starting R2 Automated Citecheck Pipeline
+2025-10-30 20:04:21,409 - __main__ - INFO - Batch: gpt5_nano_test
+2025-10-30 20:04:21,409 - __main__ - INFO - Extracting footnotes from Word document...
+2025-10-30 20:04:21,418 - __main__ - INFO - Extracted 5 citations from 3 footnotes.
+2025-10-30 20:04:21,419 - __main__ - INFO - Processing 5 citations in parallel (max 2 workers)
+2025-10-30 20:04:21,420 - __main__ - INFO - Processing FN 78, Cite 1
+2025-10-30 20:04:21,420 - __main__ - INFO - Staggering worker 2/2 - waiting 2 seconds...
+2025-10-30 20:04:21,420 - __main__ - INFO -   Searching for R1 PDF for FN 78...
+2025-10-30 20:04:21,420 - __main__ - INFO -   -> Found matching PDF: R1-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf
+2025-10-30 20:04:21,420 - __main__ - INFO -   Validating citation format...
+2025-10-30 20:04:21,421 - src.rule_retrieval - INFO - Retrieved 324 rules (R=112, B=212)
+2025-10-30 20:04:21,421 - src.citation_validator - INFO - Retrieved ALL 324 rules for comprehensive validation
+2025-10-30 20:04:23,425 - __main__ - INFO - Processing FN 78, Cite 2
+2025-10-30 20:04:23,426 - __main__ - INFO -   Searching for R1 PDF for FN 78...
+2025-10-30 20:04:23,435 - __main__ - INFO -   -> Found matching PDF: R1-078-02-071-Shihab v Complex Media 21.pdf
+2025-10-30 20:04:23,435 - __main__ - INFO -   Validating citation format...
+2025-10-30 20:04:23,436 - src.rule_retrieval - INFO - Retrieved 300 rules (R=107, B=193)
+2025-10-30 20:04:23,437 - src.citation_validator - INFO - Retrieved ALL 300 rules for comprehensive validation
+Processing citations:   0%|          | 0/5 [00:00<?, ?it/s]2025-10-30 20:04:35,497 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 20:04:35,504 - src.llm_interface - ERROR - JSON decode error on attempt 1: Expecting value: line 1 column 1 (char 0)
+2025-10-30 20:04:35,504 - src.llm_interface - INFO - API failure marked - 5s cooldown + 60s stagger mode (5s between calls) activated
+2025-10-30 20:04:38,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 20:04:38,342 - src.llm_interface - ERROR - JSON decode error on attempt 1: Expecting value: line 1 column 1 (char 0)
+2025-10-30 20:04:38,342 - src.llm_interface - INFO - API failure marked - 5s cooldown + 60s stagger mode (5s between calls) activated
+2025-10-30 20:04:39,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-30 20:04:39,546 - openai._base_client - INFO - Retrying request to /chat/completions in 4.645000 seconds
+2025-10-30 20:04:52,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 20:04:52,321 - src.llm_interface - ERROR - JSON decode error on attempt 2: Expecting value: line 1 column 1 (char 0)
+2025-10-30 20:04:52,321 - src.llm_interface - INFO - API failure marked - 5s cooldown + 60s stagger mode (5s between calls) activated
+2025-10-30 20:04:54,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-30 20:04:54,550 - openai._base_client - INFO - Retrying request to /chat/completions in 1.968000 seconds
+2025-10-30 20:04:56,883 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 20:04:56,884 - src.llm_interface - ERROR - JSON decode error on attempt 2: Expecting value: line 1 column 1 (char 0)
+2025-10-30 20:04:56,884 - src.llm_interface - INFO - API failure marked - 5s cooldown + 60s stagger mode (5s between calls) activated
+2025-10-30 20:04:59,084 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-30 20:04:59,085 - openai._base_client - INFO - Retrying request to /chat/completions in 9.111000 seconds
+2025-10-30 20:05:08,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 20:05:08,777 - src.llm_interface - INFO - Cache hit! 38,912 tokens cached (saved ~$0.0018)
+2025-10-30 20:05:08,777 - src.llm_interface - ERROR - JSON decode error on attempt 3: Expecting value: line 1 column 1 (char 0)
+2025-10-30 20:05:08,777 - src.llm_interface - INFO - API failure marked - 5s cooldown + 60s stagger mode (5s between calls) activated
+2025-10-30 20:05:22,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 20:05:22,191 - src.llm_interface - INFO - Cache hit! 36,864 tokens cached (saved ~$0.0017)
+2025-10-30 20:05:22,191 - src.llm_interface - ERROR - JSON decode error on attempt 3: Expecting value: line 1 column 1 (char 0)
+2025-10-30 20:05:22,191 - src.llm_interface - INFO - API failure marked - 5s cooldown + 60s stagger mode (5s between calls) activated
+2025-10-30 20:05:26,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-30 20:05:26,376 - openai._base_client - INFO - Retrying request to /chat/completions in 5.803000 seconds
+2025-10-30 20:05:27,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 20:05:27,633 - src.llm_interface - INFO - Cache hit! 38,912 tokens cached (saved ~$0.0018)
+2025-10-30 20:05:27,633 - src.llm_interface - ERROR - JSON decode error on attempt 4: Expecting value: line 1 column 1 (char 0)
+2025-10-30 20:05:27,634 - src.llm_interface - INFO - API failure marked - 5s cooldown + 60s stagger mode (5s between calls) activated
+2025-10-30 20:05:32,332 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-30 20:05:32,332 - openai._base_client - INFO - Retrying request to /chat/completions in 0.384000 seconds
+2025-10-30 20:05:35,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-30 20:05:35,877 - openai._base_client - INFO - Retrying request to /chat/completions in 8.616000 seconds

@@ -1,0 +1,106 @@
+TITLE: New Mexico (N.M.) (p.301)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: new-mexico-n-m
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+New Mexico (N.M.)
+(p.301)
+http://www.nmcourts.gov/
+http://nmonesource.com/
+Public domain citation format:
+New Mexico has adopted a public domain citation format for cases effective July 1, 2013. The format is:
+Atlixco Coal. v. Maggiore, 1998-NMCA-134, 125 N.M. 786, 965 P.2d 370.
+Atlixco Coal. v. Maggiore, 1998-NMCA-134, ¶ 14, 125 N.M. 786, 965 P.2d 370.
+For additional information, consult New Mexico Supreme Court Rule 23-112 (effective June 4, 2004) and New Mexico Supreme Court Order No. 13-8300- 013 (effective July 1, 2013).
+Supreme Court
+(
+N.M.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+New Mexico Reports
+1852–2012
+N.M.
+Court of Appeals
+(
+N.M. Ct. App.
+): Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1967–date
+P.2d, P.3d
+New Mexico Reports
+1967–2012
+N.M.
+Statutory compilations:
+Cite to
+N.M. Stat. Ann.
+, if therein.
+New Mexico Statutes Annotated 1978 (Conway Greene)
+N.M. Stat. Ann.
+§ x-x-x (
+<year>
+)
+West’s New Mexico Statutes Annotated
+N.M. Stat. Ann.
+§ x-x-x (West
+<year>
+)
+Michie's Annotated Statutes of New Mexico
+(LexisNexis)
+N.M. Stat. Ann.
+§ x-x-x
+(LexisNexis
+<year>
+)
+Session laws:
+Cite to
+N.M. Laws
+, if therein.
+Laws of the State of New Mexico
+<year>
+N.M. Laws
+<page no.>
+New Mexico Advance Legislative Service (Conway Greene)
+<year>
+N.M. Adv. Legis. Serv.
+<page no.>
+West's New Mexico Legislative Service
+<year>
+N.M. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Code of New Mexico Rules (LexisNexis)
+N.M. Code R.
+§ x.x.x.x (LexisNexis
+<year>
+)
+Administrative register
+New Mexico Register
+<vol. no.>
+N.M. Reg.
+<page no.>
+(
+<month day, year>
+)

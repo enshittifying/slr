@@ -1,0 +1,376 @@
+{
+  "year": 1790,
+  "year_source_file": "year1790_20250926_173732.html",
+  "acts": [
+    {
+      "act_id": "1790:9",
+      "act_base": "1790_9",
+      "congress": "1st Cong.",
+      "stat_volume": "1 Stat.",
+      "date_text": "Apr. 30, 1790",
+      "year": 1790,
+      "rows": [
+        {
+          "act_section": "1",
+          "stat_page": "112",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5331"
+        },
+        {
+          "act_section": "2",
+          "stat_page": "112",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5333"
+        },
+        {
+          "act_section": "3",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5339"
+        },
+        {
+          "act_section": "4",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5340"
+        },
+        {
+          "act_section": "5",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5402"
+        },
+        {
+          "act_section": "6",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5390"
+        },
+        {
+          "act_section": "7",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5341"
+        },
+        {
+          "act_section": "7",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5343"
+        },
+        {
+          "act_section": "8",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 730"
+        },
+        {
+          "act_section": "8",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5360"
+        },
+        {
+          "act_section": "8",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5369"
+        },
+        {
+          "act_section": "8",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5372"
+        },
+        {
+          "act_section": "8",
+          "stat_page": "113",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5383"
+        },
+        {
+          "act_section": "9",
+          "stat_page": "114",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5373"
+        },
+        {
+          "act_section": "10",
+          "stat_page": "114",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5323"
+        },
+        {
+          "act_section": "11",
+          "stat_page": "114",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5324"
+        },
+        {
+          "act_section": "11",
+          "stat_page": "114",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5533"
+        },
+        {
+          "act_section": "12",
+          "stat_page": "115",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5359"
+        },
+        {
+          "act_section": "12",
+          "stat_page": "115",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5384"
+        },
+        {
+          "act_section": "13",
+          "stat_page": "115",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5348"
+        },
+        {
+          "act_section": "15",
+          "stat_page": "115",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5394"
+        },
+        {
+          "act_section": "16",
+          "stat_page": "116",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5356"
+        },
+        {
+          "act_section": "17",
+          "stat_page": "116",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5357"
+        },
+        {
+          "act_section": "18",
+          "stat_page": "116",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5392"
+        },
+        {
+          "act_section": "18",
+          "stat_page": "116",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5393"
+        },
+        {
+          "act_section": "19",
+          "stat_page": "116",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5396"
+        },
+        {
+          "act_section": "20",
+          "stat_page": "116",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5397"
+        },
+        {
+          "act_section": "21",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5449"
+        },
+        {
+          "act_section": "21",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5499"
+        },
+        {
+          "act_section": "22",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5398"
+        },
+        {
+          "act_section": "22",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5446"
+        },
+        {
+          "act_section": "23",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5400"
+        },
+        {
+          "act_section": "23",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5401"
+        },
+        {
+          "act_section": "24",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5326"
+        },
+        {
+          "act_section": "25",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 4063"
+        },
+        {
+          "act_section": "26",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 4064"
+        },
+        {
+          "act_section": "27",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 4065"
+        },
+        {
+          "act_section": "27",
+          "stat_page": "117",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 4066"
+        },
+        {
+          "act_section": "28",
+          "stat_page": "118",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 4062"
+        },
+        {
+          "act_section": "29",
+          "stat_page": "118",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 1033"
+        },
+        {
+          "act_section": "29",
+          "stat_page": "118",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 1034"
+        },
+        {
+          "act_section": "30",
+          "stat_page": "119",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 1032"
+        },
+        {
+          "act_section": "31",
+          "stat_page": "119",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5329"
+        },
+        {
+          "act_section": "32",
+          "stat_page": "119",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 1043"
+        },
+        {
+          "act_section": "32",
+          "stat_page": "119",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 1044"
+        },
+        {
+          "act_section": "32",
+          "stat_page": "119",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 1045"
+        },
+        {
+          "act_section": "33",
+          "stat_page": "119",
+          "us_title": "",
+          "us_section": "",
+          "status": "R.S. Sec 5325"
+        }
+      ],
+      "source_file": "1790_9_20250926_173738.html"
+    },
+    {
+      "act_base": "1790_11",
+      "label": "1790:11",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "1790_17",
+      "label": "1790:17",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "1790_21",
+      "label": "1790:21",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "1790_28",
+      "label": "1790:28",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "1790_29",
+      "label": "1790:29",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "1790_35",
+      "label": "1790:35",
+      "error": "local act file not found"
+    }
+  ]
+}

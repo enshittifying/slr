@@ -1,0 +1,40 @@
+TITLE: 20.5 Statutes (p.211)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 20-foreign-materials
+  slug: 20-5-statutes
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20.5
+Statutes
+(p.211)
+20.5.1 –
+Statutes in Common Law Systems
+Cite like U.S. statutes (
+rule 12
+) if the jurisdiction’s statutes appear in a codification or other compilation:
+Extradition Law, 5714–1954, LSI * 144 (1953–1954) (Isr.).
+Otherwise, cite like statutes of the United Kingdom (
+table T2.46
+), noting the jurisdiction parenthetically at the end of the citation:
+Emergency Powers Act, 1976 (Act No. 3/1976) (Ir.).
+20.5.2 –
+Statutes in Civil Law and Other Non-Common Law Jurisdictions
+Cite generally according to rules found in
+table T2
+. When citing a code, do not indicate the year of the code unless citing a version no longer in force. In accordance with
+rule 20.2.3
+, use the full publication name the first time the publication is cited, indicating in brackets the abbreviation that will be used subsequently. Thereafter, the abbreviated form may be used:
+Code civil [C. civ.] [Civil Code]
+art. 1112 (Fr.).
+Give the publisher or editor and date of privately published sources only when citing an annotation rather than the code itself:
+Code civil [C. civ.] [Civil Code]
+art. 1098 (64th ed. Petits Codes Dalloz 1965) (Fr.).

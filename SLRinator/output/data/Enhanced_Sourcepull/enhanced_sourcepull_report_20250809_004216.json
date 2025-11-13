@@ -1,0 +1,35 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T00:42:11.868804",
+  "footnote_range": "20-21",
+  "used_gpt": true,
+  "footnotes_processed": 2,
+  "total_citations": 0,
+  "successful_retrievals": 0,
+  "failed_retrievals": 0,
+  "pdf_files": [],
+  "parsing_results": [
+    {
+      "footnote_number": 20,
+      "original_text": "21 U.S.C. § 355(j)(2)(A)(i).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T00:42:14.585788",
+      "citations": []
+    },
+    {
+      "footnote_number": 21,
+      "original_text": "35 U.S.C. § 271(b);  see also   case s cited  supra  note  1 . In this circumstance, the doctors are what patent lawyers would call “direct infringers”—they are the ones actually  using  the brand’s p...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T00:42:16.326046",
+      "citations": []
+    }
+  ],
+  "retrieval_results": [],
+  "completed_at": "2025-08-09T00:42:16.326731",
+  "duration_seconds": 4.457927,
+  "success_rate": 0.0
+}

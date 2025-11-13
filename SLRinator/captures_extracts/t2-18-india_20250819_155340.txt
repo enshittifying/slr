@@ -1,0 +1,325 @@
+TITLE: T2.18 India
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-18-india
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.18
+India
+(Common Law)
+India is a constitutional republic with a federal structure. India’s Parliament is bicameral: consisting of the House of the People (Lok Sabha) and the Council of States (Rajya Sabha). Indian states have their own legislative assemblies. India has a union judiciary, consisting of the Supreme Court and various High Courts.
+English is the primary language of the legal system of India. Publication of cases, laws, regulations, and reporting systems are all in English.
+Cases
+null Supreme Court of India (SCI) (Federal Court (India Fed.) from 1937 to 1950).
+Supreme Court of India
+(SCI) (
+Federal Court
+(India Fed.) from 1937 to 1950): Cite to the Supreme Court Reports (SCR).
+Citation format:
+<case name>
+, [
+<year of reporter>]
+<volume number>
+SCR
+<first page>
+[
+<page(s) of specific material, or paragraph number(s) of specific material, if desired>
+].
+Common Cause v. Union of India, [2018] 6 SCR 1.
+Note, there are several authorized and unauthorized reporters for the Supreme
+Court, state high courts, district courts, tribunals, and industry specific
+reporters. The tables below are a non-exhaustive list of reporters and the
+citation formats of other reporters may depart from the standard format, as
+illustrated below.
+Common Cause v. Union of India, (2018) 5 SCC 1.
+Navtej Singh Johar v. Union of India, AIR 2018 SC 4321.
+Supreme Court Reports
+1950–date
+[
+<year>]
+<volume>
+SCR
+<page>
+.
+All India Reporter
+1914–date
+AIR
+<year>
+SC
+<page>.
+Supreme Court Cases
+1969–date
+(
+<year>
+)
+<volume>
+SCC
+<page>.
+Supreme Court Almanac
+1979–date
+<year>
+(
+<volume>
+) SCALE
+<page>.
+Federal Court Reports
+1939–1950
+<year>
+F.C.R.
+<page>
+.
+Indian Cases
+1909–1947
+<volume>
+Ind. Cas.
+<page>
+.
+Criminal Law Journal
+1904–date
+(
+<year>
+)
+<volume>
+Cri LJ
+<page>
+.
+Accidents Claims Journal
+1966–date
+<year>
+(<volume>)
+A.C.J.
+<page>.
+Indian Factories & Labor Reports
+1960–date
+<year>
+(<volume>)
+F.L.R.
+<page>.
+Labor & Industrial Cases
+1968–date
+(
+<year>
+)
+<volume>
+L.L.J
+<page>
+(SC).
+Labor Law Journal
+1957–date
+(
+<year>
+)
+<volume>
+L.L.J
+<page>
+(SC).
+Sales Tax Cases
+1970–date
+(
+<year>
+)
+<volume>
+S.T.C.
+<page>
+(SC).
+SCC Online (online only)
+1991–date
+<year>
+SCC Online SC
+<page>
+.
+Manupatra (online only)
+backdated
+catalog
+MANU/SC/
+<page>
+/
+<year>
+.
+Recent judgments of the Supreme Court have a neutral citation, a format independent of the publishing source that allows for immediate online publishing.
+Citation format:
+<case name>, <year> <neutral citation abbreviation> <case reference number>
+, [
+<paragraph(s) of specific material, if desired>
+] (
+<jurisdiction abbreviation if not evident from context>
+).
+Union of India v. Barakathullah, 2024 INSC 452, [3] (Supreme Court of India).
+For unreported judgments, the citation format is as follows:
+<case name>, <case type>
+No.
+<case number>
+of
+<year>, <page/paragraph>
+(decided
+<date>
+) (Supreme Court of India).
+High Courts
+(e.g., Madras HC) (highest state courts (
+Supreme Courts
+(e.g., Calcutta SC) prior to 1860)) and
+Courts of the Judicial Commissioner
+(e.g., CJC Manipur) (
+Sadar Dewani Adalats
+(e.g., SDA Agra) prior to 1860)): Cite to AIR, SCC, SCCOnline, or Manupatra but append the name of the court.
+Alimentary Health Limited v. Controller of Patents and Designs, 2024 SCC OnLine Del 3473 (High Court of Delhi).
+Tribunals
+: Cite to a widely used reporter, such as Company Cases for the National Company Law Tribunal (NCLT).
+Citation format:
+<case name>, <citation as provided in the reporter>
+, [
+<page(s) of specific material, or paragraph number(s) of specific material, if desired>
+] (
+<name of Tribunal>, <name of bench if any>
+).
+Ajit Bhagwan Kulkarni v. State Bank of India, 23 Company Cases 444, 447 (NCLAT, Principal Bench).
+District Courts:
+Cite to judgments available on
+ecourts.gov.in
+in the following format:
+<case name>, <case type>
+No.
+<case number>
+of
+<year>, <page/paragraph>
+(decided
+<date>
+) (
+<name of court>
+).
+If a judgment is not available on eCourts but is available online from an unofficial source, cite to it using
+rule 18
+.
+Rahul Gandhi v. Purnesh Modi, Criminal Appeal No. 254 of 2013 (April 20, 2023) (Court of the 8th Additional Sessions Judge at Surat).
+Constitution
+In citing the Constitution and its amendments the following form may be used:
+India Const. art. 19, cl. 1(a).
+India Const. art. 269, amended by The Constitution (Eightieth Amendment) Act, 2000.
+Statutes
+For statutes, cite to the version published in the Gazette of India.
+Citation format:
+<short statute title>
+,
+<year>
+, §
+<section number>
+(
+<country abbreviation if not evident from context>
+).
+Ordinances
+For ordinances, include the date of the ordinance as well.
+The National Food Security Ordinance, 2013, § 3 (July 5, 2013).
+Internet Sources
+For citations to an internet source, use
+rule 18
+, and preferably cite to
+indiacode.nic.in
+. Legislation made available on
+https://indiacode.nic.in
+is not regularly updated. Reference should be made to legislation available on legal databases such as Manupatra and SCCOnline. If possible, verify versions available against the Gazette.
+Rules and Regulations
+A government publication is preferred over other sources. The gazette published by the Government of India or state government, as applicable, must be the primary source of citation.
+Citation format:
+<rule/regulation name>
+,
+<year of rule/regulation>
+, Rule/Reg.
+<rule/regulation number>
+(
+<country abbreviation if not evident from context>
+).
+Transplantation of Human Organs and Tissues Rules 2014, rule 5.
+Securities and Exchange Board of India (Index Providers) Regulations 2024, reg. 4.
+Administrative Directions
+These include circulars, directions, guidelines, and government orders. A government publication is preferred over other sources. The gazette published by the Government of India or state government, as applicable, must be the primary source of citation.
+Citation format:
+<name of issuing authority>
+,
+<notification name>
+,
+<notification number, if available>
+(
+<indicate whether it is the date on which it was issued or the date on which it was notified>
+on
+<date of notification/issuance>
+)(
+<jurisdiction abbreviation if not evident from context>
+).
+Ministry of Finance, S.O. 387(E) (notified on January 27, 2020).
+Ministry of Corporate Affairs, CAB Order, F.No. 52/26/Cab-2010 (issued on June 30, 2011).
+Parliamentary Materials
+Bills
+Citation format:
+<bill name>
+,
+<year
+>, Bill No.
+<bill number>
+of
+<year>
+, cl.
+<clause number>
+<
+explanatory notes
+> para. <
+paragraph number(s)
+> (<
+indicate the version of the bill used
+>) (<
+jurisdiction abbreviation, if not evident from context
+>).
+The Telecommunications Bill 2024, Bill No. 194-F of 2023, cl. 1
+(as passed by Lok Sabha) (India).
+Debates
+Cite the official report of the proceedings of the Lok Sabha and the Rajya Sabha, which is published their official secretariats.
+Citation format:
+<series> <volume number in roman numerals> <number>
+Lok Sabha Debates
+<page>
+(
+<date>
+) (
+<jurisdiction, if not evident from context>
+).
+17 XXIX 9 Lok Sabha Debates 33 (10 February 2024).
+When the official debates are not available, cite using
+rule 18
+, and prefer the uncorrected verbatim debates on the
+sansad.in
+website.
+Reports and Other Documents
+Citations to reports of parliamentary committees should include the name, session, and other details of the parliament committee.
+Citation format:
+<government department or committee name>, <report title>, <report number, if any>,  <session year>, <abbreviation of applicable House of Parliament where report was issued> <paper number>, <paragraph symbol and number, or “at” page number of specific material>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Public Accounts Committee (2023-24), Manpower and Logistics Management in Delhi Police (140th Report, 17th Lok Sabha).
+Citations to reports of expert commissions or committees set up by the government should be cited using
+rule 15
+.
+Internet sources
+The latest status of court cases that are either pending or disposed of, and judgments and orders issued by the Supreme Court or any state High Court can be found at
+https://main.sci.gov.in/case-status
+.
+Judgment Information System of the Supreme Court of India provides free access to all judgments of the Supreme Court and certain High Courts, as well as the SCR journal from 1950 to present at
+https://main.sci.gov.in/judgments
+.
+The text of primary and delegated legislation pending or passed by the Parliament, state legislatures, and central and state governments can be found online. The Gazette of India and gazettes for some states can be assessed online at
+http://egazette.nic.in
+. Several states also have separate websites for the e-gazettes.
+Parliamentary bills, including texts, and other enactments may also be searched and located on the website of the Government of India at
+https://mpa.gov.in
+.
+Legislative documents, including statutes, bills, legislative history, etc. can also be found at the website of PRS Legislative Research at
+https://prsindia.org
+.

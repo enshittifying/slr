@@ -1,0 +1,30 @@
+TITLE: T3.5 European Court of Human Rights (p.330)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-5-european-court-of-human-rights
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.5
+European Court of Human Rights
+(p.330)
+Cite to
+Eur. Ct. H.R.
+or to
+Y.B. Eur. Conv. on H.R.
+European Court of Human Rights Reports of Judgments and Decisions
+<volume>
+Eur. Ct. H.R. xxx (
+<year>
+)
+Yearbook of the European Convention on Human Rights
+<volume>
+Y.B. Eur. Conv. on H.R. xxx

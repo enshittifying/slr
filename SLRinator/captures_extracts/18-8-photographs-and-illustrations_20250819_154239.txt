@@ -1,0 +1,69 @@
+TITLE: 18.9 Images (pp. 197–98)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-8-photographs-and-illustrations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.9
+Images
+(pp. 197–98)
+Illustrations, images, photographs, or other works of art should be cited by the author's name; the title, set in italics; followed by a parenthetical noting the type of work being cited and the year of creation (if available):
+Ray Collins,
+Oil
+(photograph 2014).
+For conveniently reprinted works of visual art, a source originally published elsewhere may be introduced with “
+reprinted by
+.” As far as possible, provide a complete citation for the original work, followed by “
+reprinted b
+y
+” and the author and a parenthetical for the year of the reprint (when possible). Abbreviate institutional reprint authors in accordance with
+tables T6
+and
+T10
+:
+Vincent Van Gogh,
+Sunflowers
+(painting 1888),
+reprinted by
+Huntington Graphics (2025).
+Cite untitled photographs or illustrations using “
+<the artist's name, if significant or relevant>,
+Photograph/Illustration of
+<a description>
+in
+<full citation of where the image may be found>.
+” When the image is not available in a public or otherwise citable source, indicate where it may be found using a parenthetical:
+Photograph of the Tiger’s Nest in Bhutan (on file with the author).
+When citing a photograph or illustration on an unnumbered page, the pincite should be omitted, and the full citation of the work should be followed by “
+following p.
+<the numbered page that immediately precedes the photo>.
+”
+Photograph of Bill Clinton and President Kennedy,
+in
+David Maraniss, First in His Class
+(1994), following p. 134.
+Ansel Adams,
+Bridalveil Fall
+(photograph),
+in
+Edward Weston, Omnibus
+(1984), following p. 21.
+Civil Court Structure
+(illustration),
+in Structure of the Courts
+, NYCOURTS.GOV (Feb. 15, 2013),
+https://www.nycourts.gov/courts/structure.shtml%C2%A0
+(on file with the author).
+Emojis may be cited by a replication of the emoji itself (if possible), a parenthetical noting the official name or description of the emoji (often indicated as the CLDR Short Name by Unicode), and the Unicode number associated with the emoji. If the emoji does not have an official name or description, include the best description possible. For emojis with multiple Unicode numbers, attempt to use the number associated with the variation being cited; if that is not possible, any code number that would direct to the emoji itself will suffice:
+😀 (grinning face), U+1F600.
+When an emoji does not have a Unicode number associated with it, cite it as an image.
+For purposes of any rule that might require the inclusion of an emoji, emojis should be retained when possible. Where an emoji cannot be retained due to an inability to replicate it in the text of a citation, this should be indicated in a parenthetical noting the omission and the Unicode number of the omitted emojis.

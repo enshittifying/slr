@@ -1,0 +1,85 @@
+TITLE: Wyoming (Wyo.) (pp. 324–25)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: wyoming-wyo
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Wyoming (Wyo.)
+(pp. 324–25)
+http://www.courts.state.wy.us
+http://www.wyoleg.gov/statestatutes/statutesconstitution
+Public domain citation format:
+Wyoming has adopted a public domain citation format for cases decided after December 31, 2003. The format is:
+CLC v. Wyoming, 2004 WY 2, 82 P.3d 1235 (Wyo. 2004).
+CLC v. Wyoming, 2004 WY 2, ¶ 4, 82 P.3d 1235, 1236 (Wyo. 2004).
+For additional information, consult Order Amending Citation Format (Aug. 19, 2005).
+Supreme Court
+(
+Wyo.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+Wyoming Reports
+1870–1959
+Wyo.
+Statutory compilations:
+Cite to
+Wyo. Stat. Ann
+.
+(published by LexisNexis), if therein.
+Wyoming Statutes Annotated (LexisNexis)
+Wyo. Stat. Ann
+. § x-x-x (
+<year>
+)
+West’s Wyoming Statutes Annotated
+Wyo. Stat. Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+Wyo. Sess. Laws
+, if therein.
+Session Laws of Wyoming
+<year>
+Wyo. Sess. Laws
+<page no.>
+West’s Wyoming Legislative Service
+<year>
+Wyo. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Code of Wyoming Rules (LexisNexis)
+<tit. no.>
+-
+<ch. no.>
+Wyo. Code R
+. § x (LexisNexis
+<year>
+)
+Administrative register
+Wyoming Government Register (LexisNexis)
+<iss. no.>
+Wyo. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

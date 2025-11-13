@@ -1,0 +1,185 @@
+TITLE: Delaware (Del.) (pp. 279–80)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: delaware-del
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Delaware (Del.)
+(pp. 279–80)
+https://courts.delaware.gov/
+https://delcode.delaware.gov/
+Supreme Court
+(
+Del.
+), previously
+Court of Errors and Appeals
+(
+Del.
+): Cite to
+A.
+,
+A.2d
+, or
+A.3d
+, if therein.
+Atlantic Reporter
+1886–date
+A., A.2d, A.3d
+Delaware Reports
+31 Del. to 59 Del.
+1919–1966
+Del.
+Boyce
+1909–1920
+e.g.,
+24 Del. (1 Boyce)
+Pennewill
+1897–1909
+e.g.,
+17 Del. (1 Penne.)
+Marvel
+1893–1897
+e.g.,
+15 Del. (1 Marv.)
+Houston
+1855–1893
+e.g.,
+6 Del. (1 Houst.)
+Harrington
+1832–1855
+e.g.,
+1 Del. (1 Harr.)
+Delaware Cases
+1792–1830
+Del. Cas.
+Court of Chancery
+(
+Del. Ch.
+): Cite to
+A., A.2d,
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1886–date
+A., A.2d, A.3d
+Delaware Chancery Reports
+1814–1968
+Del. Ch.
+Delaware Cases
+1792–1830
+Del. Cas.
+Superior Court
+(
+Del. Super. Ct.
+), previously
+Superior Court and Orphans’ Court
+(
+Del. Super. Ct. & Orphans’ Ct.
+): Cite to
+A.2d
+or
+A.3d
+, if therein; otherwise, cite to one of the official reporters listed under
+Supreme Court
+(
+Del.
+).
+Atlantic Reporter
+1951–date
+A.2d, A.3d
+Family Court
+(
+Del. Fam. Ct.
+): Cite to
+A.2d
+or
+A.3d
+.
+Atlantic Reporter
+1977–date
+A.2d, A.3d
+Statutory compilations:
+Cite to
+Del. Code Ann.
+, if therein.
+Delaware Code Annotated (LexisNexis)
+Del. Code Ann
+. tit. x, § x (
+<year>
+)
+West’s Delaware Code Annotated
+Del. Code Ann
+. tit. x, § x (West
+<year>
+)
+Session laws:
+Cite to
+Del. Laws
+, if therein.
+Laws of Delaware
+<vol. no.> Del. Laws
+<page no.>
+(
+<year>
+)
+Delaware Code Annotated
+<
+year
+>
+Advance
+Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Del. Code. Ann. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Delaware Legislative Service
+<year>
+Del. Legis. Serv.
+<page no.>
+(West)
+Administrative compilations:
+Cite to
+Del. Admin. Code
+, if therein.
+Delaware Administrative Code
+x-x-x
+Del. Admin. Code
+§ x (
+<year>
+)
+Code of Delaware Regulations (LexisNexis)
+x-x-x
+Del. Code Regs.
+§ x (LexisNexis
+<year>
+)
+Administrative registers:
+Cite to
+Del. Reg. Regs.
+, if therein.
+Delaware Register of Regulations
+<vol. no.>
+Del. Reg. Regs.
+<page no.>
+(
+<month day, year>
+)
+Delaware Government Register (LexisNexis)
+<iss. no.>
+Del Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

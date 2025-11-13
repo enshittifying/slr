@@ -1,0 +1,133 @@
+TITLE: Florida (Fla.) (pp. 281–82)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: florida-fla
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Florida (Fla.)
+(pp. 281–82)
+http://www.flcourts.org
+http://laws.flrules.org
+Supreme Court
+(
+Fla.
+):
+Cite to
+So.
+,
+So. 2d
+, or
+So. 3d
+, if therein.
+Southern Reporter
+1886–date
+So., So. 2d, So. 3d
+Florida Reports
+1846–1948
+Fla.
+Florida Law Weekly
+1978–date
+Fla. L. Weekly
+District Court of Appeal
+(
+Fla. Dist. Ct. App.
+): Cite to
+So. 2d
+or
+So. 3d
+, if therein.
+Southern Reporter
+1957–date
+So. 2d, So. 3d
+Florida Law Weekly
+1978–date
+Fla. L. Weekly
+Circuit Court
+(
+Fla. Cir. Ct.
+),
+County Court
+(e.g.,
+Fla. Orange County Ct.
+),
+Public Service Commission
+(
+Fla. P.S.C.
+), and other lower courts of record: Cite to
+Fla. Supp.
+or
+Fla. Supp. 2d
+, if therein.
+Florida Supplement
+1950–1991
+Fla. Supp., Fla. Supp. 2d
+Florida Law Weekly Supplement
+1992–date
+Fla. L. Weekly Supp.
+Statutory compilations:
+Cite to
+Fla. Stat.
+, if therein.
+Florida Statutes
+Fla. Stat
+. § x.x (
+<year>
+)
+West’s Florida Statutes Annotated
+Fla. Stat. Ann.
+§ x.x (West
+<year>
+)
+LexisNexis Florida Statutes Annotated
+Fla. Stat. Ann
+. § x.x (LexisNexis
+<year>
+)
+Session laws:
+Cite to
+Fla. Laws
+, if therein.
+Laws of Florida
+<year>
+Fla. Laws
+<page no.>
+West’s Florida Session Law Service
+<year>
+Fla. Sess. Law Serv.
+<page no.>
+(West)
+Administrative compilation
+Florida Administrative Code Annotated (LexisNexis)
+Fla. Admin. Code Ann.
+r. x-x.x (
+<year>
+)
+Administrative register:
+Cite to
+Fla. Admin. Reg.
+, if therein.
+Florida Administrative Register
+2012–date
+<vol. no.>
+Fla. Admin. Reg.
+<page no.>
+(
+<month day, year>
+)
+Florida Administrative Weekly (LexisNexis)
+1996–2012
+<vol. no.>
+Fla. Admin. Weekly
+<page no.>
+(
+<month day, year>
+)

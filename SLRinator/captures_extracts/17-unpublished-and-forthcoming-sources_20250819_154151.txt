@@ -1,0 +1,29 @@
+TITLE: 17 Unpublished and Forthcoming Sources (p.176)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 17-unpublished-and-forthcoming-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+17
+Unpublished and Forthcoming Sources
+(p.176)
+17.1
+Basic Citation Forms
+17.2
+Unpublished Materials
+17.3
+Forthcoming Publications
+17.4
+Working Papers
+17.5
+Electronic Databases and Online Sources
+17.6
+Short Citation Forms

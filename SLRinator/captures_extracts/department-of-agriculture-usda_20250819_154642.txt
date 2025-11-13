@@ -1,0 +1,75 @@
+TITLE: Department of Agriculture (USDA) (pp. 261–62)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: department-of-agriculture-usda
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Department of Agriculture (USDA)
+(pp. 261–62)
+Decisions:
+Cite to the Agriculture Decisions (
+Agric. Dec
+.).
+Western Cattle Co., 47 Agric. Dec. 992, 1052 (U.S.D.A. Jud. Officer 1988).
+Directives:
+Numerous organizations within the USDA issue directives. These should be cited as:
+<issuing agency abbreviated according to table below>
+Directive
+<directive number>
+,
+<directive title>
+(U.S.D.A.
+<year>
+).
+FSIS Directive 7160.3, Advanced Meat Recovery Using Beef Vertebral Raw Materials (U.S.D.A. 2002).
+Agricultural Marketing Service
+AMS
+Agricultural Research Service
+ARS
+Animal and Plant Health Inspection Service
+APHIS
+Center for Nutrition Policy and Promotion
+CNPP
+Cooperative State Research, Education, and Extension Service
+CSREES
+Economic Research Service
+ERS
+Farm Service Agency
+FSA
+Food and Nutrition Service
+FNS
+Food Safety and Inspection Service
+FSIS
+Foreign Agricultural Service
+FAS
+Forest Service
+FS
+Grain Inspection, Packers and Stockyards Administration
+GIPSA
+National Agricultural Library
+NAL
+National Agricultural Statistics Service
+NASS
+National Institute of Food and Agriculture
+NIFA
+National Resources Conservation Service
+NRCS
+Risk Management Agency
+RMA
+Rural Business-Cooperative Service
+RBS
+Rural Development
+RD
+Rural Housing Service
+RHS
+Rural Utilities Service
+RUS

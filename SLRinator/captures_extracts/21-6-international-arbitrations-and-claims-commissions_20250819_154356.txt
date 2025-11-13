@@ -1,0 +1,42 @@
+TITLE: 21.6 International Arbitrations and Claims Commissions (p.228)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-6-international-arbitrations-and-claims-commissions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.6
+International Arbitrations and Claims Commissions
+(p.228)
+Cite arbitral decisions and claims commission decisions by analogy to
+rule 21.5
+, modified as follows. If adversarial parties are named, name as you would for a court case:
+Massaut v. Stupp
+Otherwise, cite by the name of the first-party plaintiff or by the subject matter if no name is given. Indicate parenthetically the countries involved, when available, if not otherwise evident:
+N. Atl. Coast Fisheries (U.K. v. U.S.), 11 R.I.A.A. 167, 196 (Perm. Ct. Arb. 1910).
+Cite arbitration awards to the official source, if possible, unless that source is a pamphlet containing only a single judgment. Consult
+table T5
+for frequently cited arbitral reporters and claims commissions. Indicate the court or tribunal unless it is identified in the name of the reporter:
+Amoco Int’l Fin. Corp. v. Iran, 15 Iran-U.S. Cl. Trib. Rep. 189 (1987).
+Massaut v. Stupp, 9 Trib. Arb. Mixtes 316 (1929).
+Savarkar (Fr. v. Gr. Brit.), Hague Ct. Rep. (Scott) 275 (Perm. Ct. Arb. 1911).
+Case No. 5428 of 1988, 14 Y.B. Comm. Arb. 146 (ICC Int’l Ct. Arb.).
+For International Centre for Settlement of Investment Disputes (
+ICSID
+) awards, include the full diplomatic names for each country involved, where relevant. After the case number, include a description of the type of decision or ruling, when relevant:
+Société Générale de Surveillance S.A. v. Republic of the Phil., ICSID Case No. ARB/02/6, Objections to Jurisdiction, ¶ 154 (Jan. 29, 2004), 8 ICSID Rep. 518 (2005).
+When decisions do not appear in a traditional printed source, an internet source may be used pursuant to
+rule 18.2
+:
+In re
+Account of Gafner, Case No. CV96-4849, Certified Award, at 2 (Claims Resolution Trib. 2006),
+http://www.crt-ii.org/_awards/_apdfs/Gafner_Elisabeth.pdf
+(on file with the Columbia Law Review).

@@ -1,0 +1,163 @@
+TITLE: T2.33 Pakistan, Islamic Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-32-pakistan-islamic-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.33
+Pakistan, Islamic Republic of
+(Common Law)
+The legal system of Pakistan is based on the common law system of England and the United States. The publication of laws, regulations, and reporting systems is in English.
+Cases
+Citation format:
+<case name>
+, (
+<year of reporter>
+)
+<volume number>
+<reporter abbreviation>
+(
+<court abbreviation or province, if applicable>
+)
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<year of decision if different from year of reporter>
+) (
+<country abbreviation if not evident from context>
+).
+Province names are not abbreviated, with the exception of Khyber Pakhtunkhwa (K.P.K.). The province was formerly known as North-West Frontier Province (N-W.F.P.).
+Muhammad v. State, (1986) 38 PLD (SC) 13 (Pak.).
+Nayak v. Goa University, (2002) 30 PLJ (SC India) 133 (Pak.).
+Abdulla v. Government of Punjab, (2004) 27 NLR Civil 85 (Pak.).
+For decisions relating to Islamic law, Pakistan has established a separate
+Federal Shariat Court
+(
+FSC
+) whose decisions are subject to review by the
+Supreme Court of Pakistan
+(
+SC
+). The Federal Shariat Court may call for and examine the record of any case decided by any criminal court under any law relating to the enforcement of Islamic law.
+Sharman v. State, (2002) 30 PLJ (FSC) 33 (Pak.).
+Reporters
+All-Pakistan Legal Decisions
+1949–date
+PLD
+Supreme Court Monthly Review
+1968–date
+SCMR
+Civil Law Cases
+1981–date
+CLC
+Pakistan Criminal Law Journal
+1958–date
+PCrLJ
+Pakistan Tax Decisions
+1959–date
+PTD
+Pakistan Labour Cases
+1960–date
+PLC
+Corporate Law Decisions
+2002–date
+CLD
+Monthly Law Digest
+1989–date
+MLD
+Yearly Law Reporter
+1999–date
+YLR
+Pakistan Law Journal
+1973–date
+PLJ
+National Law Reporter
+1981–date
+NLR
+Karachi Law Reports
+1982–date
+KLR
+Constitution
+Since 1947, when Pakistan was created, the country has adopted three constitutions: one in 1956, another in 1962, and the last one, which is still effective, in 1973. The latest constitution took effect on August 14, 1973. Since its adoption, it has undergone a number of amendments. In citing the constitution and its amendments, the following forms may be used:
+Pakistan Const.
+art. 4, § 2, cl. a.
+Pakistan Const
+. art. 63(1)(h),
+substituted by
+The Legal Framework Order, 2002, C.E.’s Order No. 24 of 2002 (Pak.).
+Statutes
+Government publications are preferred sources. The Pakistan Code (
+Pak. Code
+), an official publication of the compilation of all laws of Pakistan, is the primary source of citation. The Code, however, is not regularly updated to reflect enactments amending the statutes. Otherwise, citation to a commercial law publisher is appropriate. The most commonly cited commercial law publications for statutes are
+All-Pakistan Legal Decisions
+,
+National Law Reporter
+,
+Key Law Reports
+, and
+Pakistan Law Journal
+. These reporters publish statutes, regulations, and decisions of the superior courts of Pakistan.
+The Political Parties Act, No. 5 of 1962,
+Pak. Code
+(2d ed. 1967), v. 14,
+amended by
+The Political Parties (Amendment) Act, No. 22 of 1985, 1985 PLD (Statutes) 18 (Pak.).
+Other codes may be cited as follows:
+Pakistan Code
+Pak. Code
+Code of Civil Procedure
+Pak. Code Civ. Proc.
+Code of Criminal Procedure
+Pak. Code Crim. Proc.
+Pakistan Penal Code
+Pak. Penal Code
+Provincial-level legislation can be found in provincial codes such as the Punjab Code, the Sindh Code, and the Baluchistan Code. However, they do not appear to be frequently updated. Each province also has its own official gazette, which publishes bills and acts.  Bills and acts at the provincial level can also be found on provincial government or assembly websites, such as Punjab Laws Online (
+http://www.punjablaws.gov.pk/index.html
+).
+Session laws
+Session laws of Pakistan, including amendments of former acts, are published in the official gazettes of Pakistan. The gazettes are difficult to obtain, however, and receipt is often delayed. Furthermore, the government printer does not bind the looseleaf form gazettes individually or annually. Private commercial law publishers print them in bound volumes annually, and session laws may be cited to such commercial publications as those listed previously. The official gazettes should be cited as sources for the most recent laws if a commercial publication has not yet reported them.
+The National Command Authority Ordinance, No. 70 of 2007,
+The Gazette of Pakistan Extraordinary
+, Dec. 13, 2007.
+The National Vocational and Technical Education Commission Ordinance, No. 5 of 2008,
+The Gazette of Pakistan Extraordinary
+, May 31, 2008.
+Regulations
+Statutory Rules and Orders (
+S.R. & O.
+) is the primary official source for regulations issued under Central Acts and should be preferred to other sources. For rules after 1970, commercial publications should be cited as:
+<regulation name>
+(
+<year>
+),
+<volume number>
+<reporter abbreviation>
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+The Cost and Industrial Accountants Regulations (1966), 5 S.R. & O. 134 (Pak.).
+The Pakistan Legal Practitioners and Bar Council Rules (1985), 38 PLD (Statutes) 37 (Pak.).
+Internet sources
+http://pakistan.gov.pk
+(official site of the government of Pakistan)
+https://www.supremecourt.gov.pk/
+(Supreme Court of Pakistan)
+http://pakistani.org/pakistan/legislation
+(legislation available online from selected dates)
+http://www.pakistanlawsite.com
+(online access to Pakistani legal materials, available by subscription)
+https://www.loc.gov/item/guide-to-law-online/pakistan/
+(Library of Congress Guide to Law Online: Pakistan)

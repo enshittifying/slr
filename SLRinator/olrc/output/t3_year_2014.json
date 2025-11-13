@@ -1,0 +1,905 @@
+{
+  "year": 2014,
+  "year_source_file": "year2014_20250926_173755.html",
+  "acts": [
+    {
+      "act_base": "113_74",
+      "label": "113-74",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_76",
+      "label": "113-76",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_77",
+      "label": "113-77",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_78",
+      "label": "113-78",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_79",
+      "label": "113-79",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_80",
+      "label": "113-80",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_81",
+      "label": "113-81",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_82",
+      "label": "113-82",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_83",
+      "label": "113-83",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_86",
+      "label": "113-86",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_87",
+      "label": "113-87",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_89",
+      "label": "113-89",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_93",
+      "label": "113-93",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_94",
+      "label": "113-94",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_95",
+      "label": "113-95",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_96",
+      "label": "113-96",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_97",
+      "label": "113-97",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_98",
+      "label": "113-98",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_100",
+      "label": "113-100",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_101",
+      "label": "113-101",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_104",
+      "label": "113-104",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_105",
+      "label": "113-105",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_106",
+      "label": "113-106",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_108",
+      "label": "113-108",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_109",
+      "label": "113-109",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_114",
+      "label": "113-114",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_116",
+      "label": "113-116",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_118",
+      "label": "113-118",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_119",
+      "label": "113-119",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_120",
+      "label": "113-120",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_121",
+      "label": "113-121",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_123",
+      "label": "113-123",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_124",
+      "label": "113-124",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_125",
+      "label": "113-125",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_126",
+      "label": "113-126",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_128",
+      "label": "113-128",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_132",
+      "label": "113-132",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_137",
+      "label": "113-137",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_143",
+      "label": "113-143",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_144",
+      "label": "113-144",
+      "error": "local act file not found"
+    },
+    {
+      "act_id": "113–146",
+      "act_base": "113_146",
+      "congress": "",
+      "stat_volume": "",
+      "date_text": "Aug. 7,",
+      "year": 2014,
+      "rows": [
+        {
+          "act_section": "1(a)",
+          "stat_page": "1754",
+          "us_title": "38",
+          "us_section": "101 nt",
+          "status": "Elim."
+        },
+        {
+          "act_section": "2",
+          "stat_page": "1755",
+          "us_title": "38",
+          "us_section": "1701 nt",
+          "status": ""
+        },
+        {
+          "act_section": "101-106",
+          "stat_page": "1755-1768",
+          "us_title": "38",
+          "us_section": "1701 nt",
+          "status": ""
+        },
+        {
+          "act_section": "104",
+          "stat_page": "1766",
+          "us_title": "38",
+          "us_section": "1703 nt",
+          "status": ""
+        },
+        {
+          "act_section": "201-209",
+          "stat_page": "1769-1783",
+          "us_title": "38",
+          "us_section": "1701 nt",
+          "status": ""
+        },
+        {
+          "act_section": "301(a)(1)",
+          "stat_page": "1784",
+          "us_title": "38",
+          "us_section": "7412",
+          "status": ""
+        },
+        {
+          "act_section": "301(a)(2)",
+          "stat_page": "1784",
+          "us_title": "38",
+          "us_section": "prec. 7401",
+          "status": ""
+        },
+        {
+          "act_section": "301(a)(3)",
+          "stat_page": "1784",
+          "us_title": "38",
+          "us_section": "7412 nt",
+          "status": ""
+        },
+        {
+          "act_section": "301(b)(1)",
+          "stat_page": "1784",
+          "us_title": "38",
+          "us_section": "7302",
+          "status": ""
+        },
+        {
+          "act_section": "301(b)(2)",
+          "stat_page": "1785",
+          "us_title": "38",
+          "us_section": "7302 nt",
+          "status": ""
+        },
+        {
+          "act_section": "301(c)",
+          "stat_page": "1786",
+          "us_title": "38",
+          "us_section": "7612",
+          "status": ""
+        },
+        {
+          "act_section": "302(a)",
+          "stat_page": "1788",
+          "us_title": "38",
+          "us_section": "7619",
+          "status": ""
+        },
+        {
+          "act_section": "302(b)",
+          "stat_page": "1788",
+          "us_title": "38",
+          "us_section": "7683",
+          "status": ""
+        },
+        {
+          "act_section": "303",
+          "stat_page": "1788",
+          "us_title": "38",
+          "us_section": "703 nt",
+          "status": ""
+        },
+        {
+          "act_section": "401-402(c)",
+          "stat_page": "1789, 1790",
+          "us_title": "38",
+          "us_section": "1720D",
+          "status": ""
+        },
+        {
+          "act_section": "402(d)",
+          "stat_page": "1790",
+          "us_title": "38",
+          "us_section": "1720D nt",
+          "status": ""
+        },
+        {
+          "act_section": "501",
+          "stat_page": "1792",
+          "us_title": "38",
+          "us_section": "1710C nt",
+          "status": ""
+        },
+        {
+          "act_section": "602",
+          "stat_page": "1794",
+          "us_title": "38",
+          "us_section": "8104 nt",
+          "status": ""
+        },
+        {
+          "act_section": "602(c)",
+          "stat_page": "1794",
+          "us_title": "38",
+          "us_section": "8104",
+          "status": ""
+        },
+        {
+          "act_section": "701(a), (b)",
+          "stat_page": "1795",
+          "us_title": "38",
+          "us_section": "3311",
+          "status": ""
+        },
+        {
+          "act_section": "701(c)",
+          "stat_page": "1796",
+          "us_title": "38",
+          "us_section": "3321",
+          "status": ""
+        },
+        {
+          "act_section": "701(d)",
+          "stat_page": "1796",
+          "us_title": "38",
+          "us_section": "3311 nt",
+          "status": ""
+        },
+        {
+          "act_section": "702(a)",
+          "stat_page": "1796",
+          "us_title": "38",
+          "us_section": "3679",
+          "status": ""
+        },
+        {
+          "act_section": "702(b)",
+          "stat_page": "1797",
+          "us_title": "38",
+          "us_section": "3679 nt",
+          "status": ""
+        },
+        {
+          "act_section": "703",
+          "stat_page": "1797",
+          "us_title": "38",
+          "us_section": "5503",
+          "status": ""
+        },
+        {
+          "act_section": "704",
+          "stat_page": "1797",
+          "us_title": "38",
+          "us_section": "3729",
+          "status": ""
+        },
+        {
+          "act_section": "705",
+          "stat_page": "1798",
+          "us_title": "38",
+          "us_section": "703 nt",
+          "status": ""
+        },
+        {
+          "act_section": "706",
+          "stat_page": "1798",
+          "us_title": "38",
+          "us_section": "5317",
+          "status": ""
+        },
+        {
+          "act_section": "707(a)(1)",
+          "stat_page": "1798",
+          "us_title": "38",
+          "us_section": "713",
+          "status": ""
+        },
+        {
+          "act_section": "707(a)(2)",
+          "stat_page": "1800",
+          "us_title": "38",
+          "us_section": "prec. 701",
+          "status": ""
+        },
+        {
+          "act_section": "707(b)",
+          "stat_page": "1800",
+          "us_title": "38",
+          "us_section": "713 nt",
+          "status": "Elim."
+        },
+        {
+          "act_section": "707(c)",
+          "stat_page": "1800",
+          "us_title": "38",
+          "us_section": "713 nt",
+          "status": "Elim."
+        },
+        {
+          "act_section": "707(d)",
+          "stat_page": "1801",
+          "us_title": "38",
+          "us_section": "713 nt",
+          "status": "Elim."
+        },
+        {
+          "act_section": "801-803",
+          "stat_page": "1801-1803",
+          "us_title": "38",
+          "us_section": "1701 nt",
+          "status": ""
+        }
+      ],
+      "source_file": "113_146_20250926_173758.html"
+    },
+    {
+      "act_base": "113_150",
+      "label": "113-150",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_152",
+      "label": "113-152",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_154",
+      "label": "113-154",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_156",
+      "label": "113-156",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_157",
+      "label": "113-157",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_158",
+      "label": "113-158",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_159",
+      "label": "113-159",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_160",
+      "label": "113-160",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_161",
+      "label": "113-161",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_162",
+      "label": "113-162",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_163",
+      "label": "113-163",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_164",
+      "label": "113-164",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_165",
+      "label": "113-165",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_166",
+      "label": "113-166",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_167",
+      "label": "113-167",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_168",
+      "label": "113-168",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_170",
+      "label": "113-170",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_171",
+      "label": "113-171",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_172",
+      "label": "113-172",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_173",
+      "label": "113-173",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_174",
+      "label": "113-174",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_175",
+      "label": "113-175",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_176",
+      "label": "113-176",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_178",
+      "label": "113-178",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_180",
+      "label": "113-180",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_181",
+      "label": "113-181",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_182",
+      "label": "113-182",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_183",
+      "label": "113-183",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_185",
+      "label": "113-185",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_186",
+      "label": "113-186",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_187",
+      "label": "113-187",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_188",
+      "label": "113-188",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_195",
+      "label": "113-195",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_196",
+      "label": "113-196",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_197",
+      "label": "113-197",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_199",
+      "label": "113-199",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_200",
+      "label": "113-200",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_210",
+      "label": "113-210",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_212",
+      "label": "113-212",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_221",
+      "label": "113-221",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_227",
+      "label": "113-227",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_233",
+      "label": "113-233",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_235",
+      "label": "113-235",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_236",
+      "label": "113-236",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_237",
+      "label": "113-237",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_238",
+      "label": "113-238",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_239",
+      "label": "113-239",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_240",
+      "label": "113-240",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_242",
+      "label": "113-242",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_243",
+      "label": "113-243",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_244",
+      "label": "113-244",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_245",
+      "label": "113-245",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_246",
+      "label": "113-246",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_250",
+      "label": "113-250",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_251",
+      "label": "113-251",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_252",
+      "label": "113-252",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_253",
+      "label": "113-253",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_254",
+      "label": "113-254",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_255",
+      "label": "113-255",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_257",
+      "label": "113-257",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_260",
+      "label": "113-260",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_263",
+      "label": "113-263",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_264",
+      "label": "113-264",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_265",
+      "label": "113-265",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_269",
+      "label": "113-269",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_270",
+      "label": "113-270",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_271",
+      "label": "113-271",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_272",
+      "label": "113-272",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_273",
+      "label": "113-273",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_274",
+      "label": "113-274",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_275",
+      "label": "113-275",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_276",
+      "label": "113-276",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_277",
+      "label": "113-277",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_278",
+      "label": "113-278",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_279",
+      "label": "113-279",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_280",
+      "label": "113-280",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_281",
+      "label": "113-281",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_282",
+      "label": "113-282",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_283",
+      "label": "113-283",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_284",
+      "label": "113-284",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_286",
+      "label": "113-286",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_287",
+      "label": "113-287",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_288",
+      "label": "113-288",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_289",
+      "label": "113-289",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_290",
+      "label": "113-290",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_291",
+      "label": "113-291",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_293",
+      "label": "113-293",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_294",
+      "label": "113-294",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_295",
+      "label": "113-295",
+      "error": "local act file not found"
+    },
+    {
+      "act_base": "113_296",
+      "label": "113-296",
+      "error": "local act file not found"
+    }
+  ]
+}

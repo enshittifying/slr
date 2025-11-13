@@ -1,0 +1,312 @@
+TITLE: 16.7 Special Citation Forms (pp. 170–74)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-7-special-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.7
+Special Citation Forms
+(pp. 170–74)
+16.7.1 –
+Student-Written Law Review Materials
+(a) Signed, student-written materials.
+Signed and titled notes, comments, projects, etc. are cited in the same manner as any other signed article in a law review (
+rule 16.4
+), with the author’s full name in ordinary roman type at the beginning of the citation (
+rule 16.2
+), except that the designation of the piece should appear before the title of the work (
+rule 16.3
+) to indicate that it is student-written. Cite student-written book reviews according to
+rule 16.7.1(c)
+.
+A student work is considered signed if a student is credited with writing or contributing to the piece anywhere within the issue in which the work appears—on the first page of the piece, at the end of the piece, or in the table of contents. If a student work is signed only with initials, it is considered unsigned:
+Ellen London, Comment,
+A Critique of the Strict Liability Standard for Determining Child Support in Cases of Male Victims of Sexual Assault and Statutory Rape
+, 152
+U. Pa. L. Rev
+. 1957, 1959–63 (2004).
+B. George Ballman, Jr., Note,
+Amended Rule 6.1: Another Move Towards Mandatory Pro Bono? Is That What We Want?
+, 7
+Geo. J. Legal Ethics
+1139, 1162 n.155 (1994).
+Barry I. Pershkow, Recent Development, Maryland v. Craig
+:
+A Child Witness Need Not View the Defendant During Testimony in Child Abuse Cases
+,
+65 Tul. L. Rev
+. 935, 938, 941 (1991).
+Signed, student-written commentary that is shorter, that falls under a designation such as “
+Recent Case
+,” “
+Recent Statute,” “Recent Decision,” “Case Note,” “Recent Development
+,” or “
+Abstract
+,” and that carries no title or merely a digest-like heading should be cited by author followed by the designation of the piece as provided in the periodical, both in ordinary roman type. When appearing in the title, a case or statute citation should be formatted according to the typeface conventions in
+rule 16.3
+. Thus:
+Sally Anne Moore, Recent Case, H.L. v. Matheson
+, 101 S. Ct. 1164 (1981)
+, 50
+U. Cin. L. Rev
+. 867, 868 (1981).
+Not:
+Sally Anne Moore, Recent Case,
+Constitutional Law—Right of Privacy—Abortion—Family Law—Parent and Child—Standing—As Applied to Immature, Unemancipated and Dependent Minors, a State Statute Requiring a Physician to Notify a Pregnant Minor’s Parents Prior to the Performing of an Abortion Is Constitutional
+—H.L. v. Matheson
+, 101 S. Ct. 1164 (1981)
+, 50
+U. Cin. L. Rev
+. 867, 868 (1981).
+(b) Unsigned, student-written materials.
+Cite unsigned notes, comments, and shorter commentary by the designation given by the periodical, such as “
+Note,” “Comment,” “Case Comment,” “Project,” “Recent Case,” “Case Note,
+” etc., in ordinary roman type, followed by the title of the piece, if any, in italics:
+Note,
+A Bad Man Is Hard to Find
+, 127
+Harv. L. Rev
+. 2521 (2014).
+Case Comment,
+Evidentiary Use of a Criminal Defendant’s Reading Habits and Political Conversations
+:
+United States v. Giese, 93
+Harv. L. Rev
+. 419, 425–27 (1979).
+Recent Case, 24
+Vand. L. Rev.
+148, 151–52 (1970).
+Recent Case, American Civil Liberties Union of Illinois v. Alvarez
+,
+679 F.3d 583 (7th Cir. 2012)
+, 126
+Harv. L. Rev.
+1162 (2013).
+When there is no separable designation, italicize the entire title:
+Developments in the Law—The Law of Cyberspace
+, 112
+Harv. L. Rev
+. 1577, 1624 n.95 (1999).
+The Supreme Court, 1998 Term—Leading Cases
+, 113
+Harv. L. Rev
+. 368, 378 n.60 (1999).
+(c) Student-written book reviews.
+If a review is written and signed by a student, include the author’s name and the designation “
+Book Note
+” (regardless of the journal’s designation) to indicate that it is student-written, followed by the title, if any. Add a parenthetical indicating the work under review if relevant to the purpose of the citation and not clear from the surrounding discussion:
+William Dubinsky, Book Note, 90
+Mich. L. Rev.
+1512 (1992) (reviewing
+Daniel A. Farber & Philip P. Frickey, Law and Public Choice
+(1991)).
+Nathaniel A. Vitan, Book Note,
+Irons vs. Rehnquist: A Critical Review of Peter Irons’
+Brennan vs. Rehnquist, 12
+J.L. & Pol
+. 141 (1995).
+An unsigned, student-written book review should be cited in the same manner as other unsigned student works, with a parenthetical citing the work under review if relevant:
+Book Note,
+Let Us Reason Together
+, 112
+Harv. L. Rev
+. 958 (1999) (reviewing
+Pierre Schlag, The Enchantment of Reason
+(1998)).
+16.7.2 –
+Non-Student-Written Book Reviews
+Give the full name of the reviewer according to
+rule 16.2
+, and the title of the review in italics. Include a second parenthetical after the date parenthetical indicating, if relevant to the purpose of the citation and if not clear from the surrounding discussion, the author, title, and publication date of the book reviewed. If it is unnecessary to identify the book under review, simply include the words “
+book review
+” in the second parenthetical:
+Colin S. Diver,
+Second Governance and Sound Law
+, 89
+Mich. L. Rev
+. 1436 (1991) (reviewing
+Christopher F. Edley, Jr., Administrative Law: Rethinking Judicial Control of Bureaucracy
+(1990)).
+Bruce Ackerman,
+Robert Bork’s Grand Inquisition
+, 99
+Yale L.J
+. 1419, 1422–25 (1990) (book review).
+If a non-student-written review is untitled, cite it by the designation “
+Book Review
+”; it is unnecessary to include a second parenthetical unless there is a need to identify the book under review:
+Howard C. Westwood, Book Review, 45
+U. Chi. L. Rev
+. 255 (1977).
+16.7.3 –
+Symposia, Colloquia, and Surveys
+When citing a symposium, colloquium, or colloquy as a unit, do not give any author, but include “
+Symposium,” “Colloquium,
+” or “
+Colloquy
+” in roman type before the title unless made clear by the title. Cite the first page of the first piece:
+Symposium,
+Changing Images of the State
+, 107
+Harv. L. Rev
+. 1179 (1994).
+The Brennan Center Symposium on Constitutional Law
+, 87
+Calif. L. Rev
+. 1059 (1999).
+If an article is part of a survey of the law of one jurisdiction, the title of the article should incorporate the title of the survey as follows:
+Alain A. Levasseur,
+Sales, The Work of the Louisiana Appellate Courts for the 1977–1978 Term
+, 39
+La. L. Rev
+. 705 (1979).
+Cite an individual article within a symposium, colloquium, colloquy, or survey in the same manner as any other article:
+Eric A. Posner,
+Law, Economics, and Inefficient Norms
+, 144
+U. Pa. L. Rev
+. 1697 (1996).
+Kevin R. Vodak, Comment,
+A Plainly Obvious Need for New-Fashioned Municipal Liability: The Deliberate Indifference Standard and
+Board of County Commissioners of Bryan County v. Brown, 48
+DePaul L. Rev
+. 785 (1999).
+16.7.4 –
+Commentaries and Other Special Designations
+When citing a “
+Commentary,” “Tribute,” “In Memoriam
+,” or other special article designation, the designation should appear in roman type after the author’s name but before the title. If the author is unnamed or if the journal’s editors are listed as the authors, the designation should appear at the beginning of the citation. “
+Commentary
+” should not be confused with “
+Comment
+,” a term frequently used to describe student-written pieces (
+rule 16.7.1
+):
+Alvin C. Warren, Jr., Commentary,
+Financial Contract Innovation and Income Tax Policy
+, 107
+Harv. L. Rev
+. 460 (1993).
+Sandra Day O’Connor, Dedication,
+Lending Light to Countless Lamps: A Tribute to Judge Norma Levy Shapiro
+, 152
+U. Pa. L. Rev
+. 1 (2003).
+Marguerite A. Driessen, Response,
+Not for the Sake of Punishment Alone: Comments on
+Viewing the Criminal Sanction Through Latter-Day Saint Thought, 2003
+BYU L. Rev
+. 941.
+16.7.5 –
+Multipart Articles
+To cite an entire article that appears in more than one part, identify the numbers of the parts in parentheses after the article’s main title and give the volume number, first page, and publication year for each part:
+Harlan F. Stone,
+The Equitable Rights and Liabilities of Strangers to a Contract
+(pts. 1 & 2), 18
+Colum. L. Rev.
+291 (1918), 19
+Colum. L. Rev
+. 177 (1919).
+If all of the parts appear in one volume, use the shortened form:
+L.L. Fuller,
+Legal Fictions
+(pts. 1–3), 25
+Ill. L. Rev
+. 363, 513, 877 (1930–1931).
+To cite only some parts of a multipart article, indicate which part or parts are cited and give only the volume number(s), page number(s), and publication year(s) of the part(s) cited:
+L.L. Fuller,
+Legal Fictions
+(pt. 2), 25
+Ill. L. Rev
+. 513, 514 (1931).
+16.7.6 –
+Annotations
+Cite discussions in selective case reporters (such as
+American Law Reports
+and
+Lawyer’s Reports Annotated
+) by the author’s full name, followed by the designation “
+Annotation
+” in ordinary roman type and the title of the work in italics:
+Claudia Catalano, Annotation,
+Unlawful Access Under Stored Communications Act, 18 U.S.C.A. § 2701 et seq.
+, 1 A.L.R. Fed. 3d Art. 1 (2015).
+16.7.7 –
+Proceedings, Regular Publications by Institutes, and ABA Section Reports
+Cite as periodicals, abbreviating according to
+tables T6
+,
+T10
+, and
+T13
+:
+Herbert F. Goodrich,
+Annual Report of Adviser on Professional Relations
+, 16
+A.L.I. Proc
+. 48 (1939).
+George Vranesh,
+Water Planning for Municipalities
+, 24
+Rocky Mtn. Min. L. Inst
+. 865 (1978).
+If the volumes are unnumbered, use either the number of the institute (or proceedings) or the year of publication as a volume number; in the latter case omit the parenthetical reference to the year:
+David J. Beck,
+Crude Oil Issues
+, 30
+Inst. on Oil & Gas L. & Tax’n
+1 (1979).
+Julius L. Sackman,
+Landmark Cases on Landmark Law
+, 1979
+Inst. on Plan. Zoning & Eminent Domain
+241.
+William J. Curtin,
+Reverse Discrimination and Affirmative Action: Practical Considerations for the Utilities Industry
+, 1978
+A.B.A. Sec. Pub. Util. L. Rep
+. 26.
+If the publication is organized by paragraph or section numbers, use those numbers in citations:
+Max Gutierrez, Jr.,
+Estate Planning for the Unmarried Cohabitant
+, 13
+Mia. Inst. on Est. Plan.
+¶ 1600 (1979).
+To cite part of an article identified by paragraph or section number, cite both the first paragraph or section number of the article and the paragraph or section number(s) where the relevant material appears. Add a page citation if necessary for further identification (see
+rule 3.3
+):
+Walter F. O’Connor,
+Taxation of Foreign Investors
+, 38
+Inst. on Fed. Tax’n
+§ 22.01, § 22.04, at 22-10 (1980).
+16.7.8 –
+Newsletters and Other Noncommercially Distributed Periodicals
+Materials appearing in newsletters and other similar periodicals not commercially distributed should be cited in the same manner as nonconsecutively paginated journals and magazines (
+rule 16.5
+), except that a parenthetical should follow the title of the publication indicating the issuing group or organization and its location. Abbreviate the name of the periodical according to
+tables T6
+,
+T10
+, and
+T13
+and abbreviate the name of the issuing institution according to
+rule 15.1(e)
+:
+Indictment of Pregnant Woman for Drug Use Dismissed
+,
+Reprod. Rts. Update
+(ACLU/Reprod. Freedom Project, New York, N.Y.), Oct. 26, 1990, at 5.
+Recent Grants
+,
+FCD Update
+(Found. for Child Dev., New York, N.Y.), Dec. 1990, at 1, 7.

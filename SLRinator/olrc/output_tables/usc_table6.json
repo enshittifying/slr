@@ -1,0 +1,1212 @@
+{
+  "source_file": "usctable6_20250926_174021.html",
+  "table": "VI",
+  "records": [
+    {
+      "plan": "1939 Plan No. I",
+      "coverage": "All",
+      "stat_volume": "53",
+      "stat_page": "1423",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1939 Plan No. II",
+      "coverage": "All",
+      "stat_volume": "53",
+      "stat_page": "1431",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1940 Plan No. III",
+      "coverage": "All",
+      "stat_volume": "54",
+      "stat_page": "1231",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1940 Plan No. IV",
+      "coverage": "All",
+      "stat_volume": "54",
+      "stat_page": "1234",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1940 Plan No. V",
+      "coverage": "All",
+      "stat_volume": "54",
+      "stat_page": "1238",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1946 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "60",
+      "stat_page": "1095",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1946 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "60",
+      "stat_page": "1097",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1947 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "61",
+      "stat_page": "951",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1947 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "61",
+      "stat_page": "954",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1949 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "63",
+      "stat_page": "1065",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1949 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "63",
+      "stat_page": "1066",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1949 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "63",
+      "stat_page": "1067",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1949 Plan No. 5",
+      "coverage": "All",
+      "stat_volume": "63",
+      "stat_page": "1067",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1949 Plan No. 6",
+      "coverage": "All",
+      "stat_volume": "63",
+      "stat_page": "1069",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1949 Plan No. 7",
+      "coverage": "All",
+      "stat_volume": "63",
+      "stat_page": "1070",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1261",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1262",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 5",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1263",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 6",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1263",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 8",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1264",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 8",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1264",
+      "usc_title": "15",
+      "usc_section": "41 nt",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 9",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1265",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 9",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1265",
+      "usc_title": "16",
+      "usc_section": "792 nt",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 10",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1265",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 10",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1265",
+      "usc_title": "15",
+      "usc_section": "78d nt",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 13",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1266",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1950 Plan No. 14",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1267",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 15",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1267",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 16",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1268",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 17",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1269",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 18",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1270",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 18",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1270",
+      "usc_title": "40",
+      "usc_section": "301 nt",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 19",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1271",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1950 Plan No. 20",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1272",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 21",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1273",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 22",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1277",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 22",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1277",
+      "usc_title": "12",
+      "usc_section": "1717 nt",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 23",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1279",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 25",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1280",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1950 Plan No. 25",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1280",
+      "usc_title": "50",
+      "usc_section": "404 nt",
+      "status": "Elim."
+    },
+    {
+      "plan": "1950 Plan No. 26",
+      "coverage": "All",
+      "stat_volume": "64",
+      "stat_page": "1280",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1951 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "65",
+      "stat_page": "773",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1952 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "66",
+      "stat_page": "823",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "631",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "631",
+      "usc_title": "42",
+      "usc_section": "3501 nt",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "633",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "633",
+      "usc_title": "7",
+      "usc_section": "2201 nt",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "634",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "634",
+      "usc_title": "50",
+      "usc_section": "404 nt",
+      "status": "Elim."
+    },
+    {
+      "plan": "1953 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "636",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1953 Plan No. 5",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "637",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 5",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "637",
+      "usc_title": "12",
+      "usc_section": "635a nt",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 6",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "638",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 7",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "639",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1953 Plan No. 8",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "642",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 8",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "642",
+      "usc_title": "22",
+      "usc_section": "1461 nt",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 9",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "644",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 9",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "644",
+      "usc_title": "15",
+      "usc_section": "1023 nt",
+      "status": ""
+    },
+    {
+      "plan": "1953 Plan No. 10",
+      "coverage": "All",
+      "stat_volume": "67",
+      "stat_page": "644",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1954 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "68",
+      "stat_page": "1279",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1954 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "68",
+      "stat_page": "1279",
+      "usc_title": "22",
+      "usc_section": "1622 nt",
+      "status": ""
+    },
+    {
+      "plan": "1954 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "68",
+      "stat_page": "1280",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1957 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "71",
+      "stat_page": "647",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1957 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "71",
+      "stat_page": "647",
+      "usc_title": "15",
+      "usc_section": "nt. prec. 601",
+      "status": ""
+    },
+    {
+      "plan": "1958 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "72",
+      "stat_page": "1799",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1958 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "72",
+      "stat_page": "1799",
+      "usc_title": "42",
+      "usc_section": "5195 nt",
+      "status": ""
+    },
+    {
+      "plan": "1961 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "75",
+      "stat_page": "837",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1961 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "75",
+      "stat_page": "837",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1961 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "75",
+      "stat_page": "837",
+      "usc_title": "15",
+      "usc_section": "41 nt",
+      "status": ""
+    },
+    {
+      "plan": "1961 Plan No. 6",
+      "coverage": "All",
+      "stat_volume": "75",
+      "stat_page": "838",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1961 Plan No. 7",
+      "coverage": "All",
+      "stat_volume": "75",
+      "stat_page": "840",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1962 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "76",
+      "stat_page": "1253",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1962 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "76",
+      "stat_page": "1253",
+      "usc_title": "42",
+      "usc_section": "1861 nt",
+      "status": ""
+    },
+    {
+      "plan": "1963 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "77",
+      "stat_page": "869",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1965 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1317",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1965 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1317",
+      "usc_title": "19",
+      "usc_section": "1 nt",
+      "status": ""
+    },
+    {
+      "plan": "1965 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1318",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1965 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1318",
+      "usc_title": "15",
+      "usc_section": "311 nt",
+      "status": ""
+    },
+    {
+      "plan": "1965 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1318",
+      "usc_title": "33",
+      "usc_section": "851 nt",
+      "status": ""
+    },
+    {
+      "plan": "1965 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1320",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1965 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1321",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1965 Plan No. 5",
+      "coverage": "All",
+      "stat_volume": "79",
+      "stat_page": "1323",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1607",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1607",
+      "usc_title": "42",
+      "usc_section": "2000g nt",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1608",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1610",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1610",
+      "usc_title": "42",
+      "usc_section": "202 nt",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1611",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1611",
+      "usc_title": "20",
+      "usc_section": "84 nt",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 5",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1611",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1966 Plan No. 5",
+      "coverage": "All",
+      "stat_volume": "80",
+      "stat_page": "1611",
+      "usc_title": "40",
+      "usc_section": "71b nt",
+      "status": "Elim."
+    },
+    {
+      "plan": "1967 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "81",
+      "stat_page": "947",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1967 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "81",
+      "stat_page": "948",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1968 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "82",
+      "stat_page": "1367",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1968 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "82",
+      "stat_page": "1367",
+      "usc_title": "28",
+      "usc_section": "509 nt",
+      "status": ""
+    },
+    {
+      "plan": "1968 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "82",
+      "stat_page": "1369",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1968 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "82",
+      "stat_page": "1370",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1968 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "82",
+      "stat_page": "1371",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1969 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "83",
+      "stat_page": "859",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1970 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2083",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1970 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2083",
+      "usc_title": "47",
+      "usc_section": "305 nt",
+      "status": ""
+    },
+    {
+      "plan": "1970 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2085",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1970 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2085",
+      "usc_title": "31",
+      "usc_section": "501 nt",
+      "status": ""
+    },
+    {
+      "plan": "1970 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2086",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1970 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2086",
+      "usc_title": "42",
+      "usc_section": "4321 nt",
+      "status": ""
+    },
+    {
+      "plan": "1970 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2090",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1970 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "84",
+      "stat_page": "2090",
+      "usc_title": "15",
+      "usc_section": "1511 nt",
+      "status": ""
+    },
+    {
+      "plan": "1971 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "85",
+      "stat_page": "819",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1973 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "87",
+      "stat_page": "1089",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1973 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "87",
+      "stat_page": "1089",
+      "usc_title": "42",
+      "usc_section": "5195 nt",
+      "status": ""
+    },
+    {
+      "plan": "1973 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "87",
+      "stat_page": "1091",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1973 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "87",
+      "stat_page": "1091",
+      "usc_title": "28",
+      "usc_section": "509 nt",
+      "status": ""
+    },
+    {
+      "plan": "1977 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "91",
+      "stat_page": "1633",
+      "usc_title": "3",
+      "usc_section": "nt. prec. 101",
+      "status": ""
+    },
+    {
+      "plan": "1977 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "91",
+      "stat_page": "1633",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1977 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "91",
+      "stat_page": "1636",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1977 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "91",
+      "stat_page": "1636",
+      "usc_title": "22",
+      "usc_section": "1461 nt",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3781",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3781",
+      "usc_title": "42",
+      "usc_section": "2000e-4 nt",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3783",
+      "usc_title": "5",
+      "usc_section": "1101 nt",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3783",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3788",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3788",
+      "usc_title": "15",
+      "usc_section": "2201 nt",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3790",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1978 Plan No. 4",
+      "coverage": "All",
+      "stat_volume": "92",
+      "stat_page": "3790",
+      "usc_title": "29",
+      "usc_section": "1001 nt",
+      "status": ""
+    },
+    {
+      "plan": "1979 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "93",
+      "stat_page": "1373",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1979 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "93",
+      "stat_page": "1373",
+      "usc_title": "15",
+      "usc_section": "719e nt",
+      "status": ""
+    },
+    {
+      "plan": "1979 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "93",
+      "stat_page": "1378",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": "Rep."
+    },
+    {
+      "plan": "1979 Plan No. 2",
+      "coverage": "All",
+      "stat_volume": "93",
+      "stat_page": "1378",
+      "usc_title": "22",
+      "usc_section": "2381 nt",
+      "status": "Rep."
+    },
+    {
+      "plan": "1979 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "93",
+      "stat_page": "1381",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1979 Plan No. 3",
+      "coverage": "All",
+      "stat_volume": "93",
+      "stat_page": "1381",
+      "usc_title": "19",
+      "usc_section": "2171 nt",
+      "status": ""
+    },
+    {
+      "plan": "1980 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "94",
+      "stat_page": "3585",
+      "usc_title": "5 App.",
+      "usc_section": "",
+      "status": ""
+    },
+    {
+      "plan": "1980 Plan No. 1",
+      "coverage": "All",
+      "stat_volume": "94",
+      "stat_page": "3585",
+      "usc_title": "42",
+      "usc_section": "5841 nt",
+      "status": ""
+    },
+    {
+      "plan": "2002 Homeland Security",
+      "coverage": "All",
+      "stat_volume": "",
+      "stat_page": "",
+      "usc_title": "6",
+      "usc_section": "542 nt",
+      "status": ""
+    },
+    {
+      "plan": "2003 Homeland Security",
+      "coverage": "All",
+      "stat_volume": "",
+      "stat_page": "",
+      "usc_title": "6",
+      "usc_section": "542 nt",
+      "status": ""
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+TITLE: South Dakota (S.D.) (p.315)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: south-dakota-s-d
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+South Dakota (S.D.)
+(p.315)
+https://ujs.sd.gov/
+https://sdlegislature.gov/statutes/codified_laws/default.aspx
+Public domain citation format:
+South Dakota has adopted a public domain citation format for cases after December 31, 1995. The format is:
+Wulf v. Senst, 2003 SD 105, 669 N.W.2d 135.
+Wulf v. Senst, 2003 SD 105, ¶ 14, 669 N.W.2d 135, 141.
+For additional information, consult South Dakota Rules of Civil Procedure § 15-26A-69.1.
+Supreme Court
+(
+S.D.
+): Cite to
+N.W., N.W.2d,
+or
+N.W.3d
+, if therein.
+North Western Reporter
+1890–date
+N.W., N.W.2d, N.W.3d
+South Dakota Reports
+1890–1976
+S.D.
+Supreme Court of Dakota
+(
+Dakota
+): Cite to
+N.W.
+, if therein.
+North Western Reporter
+1879–1889
+N.W.
+Dakota Reports
+1867–1889
+Dakota
+Statutory compilation
+South Dakota Codified Laws (West)
+S.D. Codified Laws
+§ x-x-x (
+<year>
+)
+Session laws:
+Cite to
+S.D. Sess. Laws
+, if therein.
+Session Laws of South Dakota
+<year>
+S.D. Sess. Laws <ch. x § x>
+<page no.>
+Administrative compilation
+Administrative Rules of South Dakota
+S.D. Admin. R
+.
+<rule no.>
+(
+<year>
+)
+Administrative register
+South Dakota Register
+<vol. no.>
+S.D. Reg.
+<page no.>
+(
+<month day, year>
+)

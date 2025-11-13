@@ -1,0 +1,52 @@
+2025-08-09 13:17:06,591 - enhanced_sourcepull - INFO - ======================================================================
+2025-08-09 13:17:06,591 - enhanced_sourcepull - INFO - ENHANCED SOURCEPULL WORKFLOW
+2025-08-09 13:17:06,591 - enhanced_sourcepull - INFO - Stanford Law Review - Readable PDF Retrieval
+2025-08-09 13:17:06,591 - enhanced_sourcepull - INFO - ======================================================================
+2025-08-09 13:17:06,591 - enhanced_sourcepull - INFO - Step 1: Extracting footnotes from document...
+2025-08-09 13:17:06,623 - enhanced_sourcepull - INFO -   Extracted 10 footnotes
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO - Step 2: Parsing citations with GPT...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - WARNING -   GPT parsing disabled - using fallback rule-based parsing
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 1 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 0 citations (confidence: 0.10)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 2 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 0 citations (confidence: 0.10)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 3 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 4 citations (confidence: 0.70)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 4 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 1 citations (confidence: 0.70)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 5 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 1 citations (confidence: 0.70)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 6 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 0 citations (confidence: 0.30)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 7 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 0 citations (confidence: 0.30)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 8 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 0 citations (confidence: 0.10)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 9 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 0 citations (confidence: 0.10)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Parsing footnote 10 with fallback parser...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -     Found 0 citations (confidence: 0.10)
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Total citations identified: 6
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO - Step 3: Retrieving readable PDFs...
+2025-08-09 13:17:06,624 - enhanced_sourcepull - INFO -   Retrieving: fn3_usc_21_355(c)(3)(C)
+2025-08-09 13:17:07,319 - enhanced_sourcepull - INFO -     ✗ Failed: All retrieval sources failed
+2025-08-09 13:17:07,319 - enhanced_sourcepull - INFO -   Retrieving: fn3_fed_919_1333
+2025-08-09 13:17:10,203 - enhanced_sourcepull - INFO -     ✓ Retrieved 5p PDF from supreme_court_official
+2025-08-09 13:17:10,204 - enhanced_sourcepull - INFO -   Retrieving: fn3_fed_785_625
+2025-08-09 13:17:10,336 - enhanced_sourcepull - INFO -     ✓ Retrieved 5p PDF from supreme_court_official
+2025-08-09 13:17:10,336 - enhanced_sourcepull - INFO -   Retrieving: fn3_fed_633_1042
+2025-08-09 13:17:10,419 - enhanced_sourcepull - INFO -     ✓ Retrieved 5p PDF from supreme_court_official
+2025-08-09 13:17:10,419 - enhanced_sourcepull - INFO -   Retrieving: fn4_fed_7_1320
+2025-08-09 13:17:10,419 - enhanced_sourcepull - INFO -     ✗ Failed: All retrieval sources failed
+2025-08-09 13:17:10,420 - enhanced_sourcepull - INFO -   Retrieving: fn5_fed_316_1348
+2025-08-09 13:17:10,420 - enhanced_sourcepull - INFO -     ✗ Failed: All retrieval sources failed
+2025-08-09 13:17:10,420 - enhanced_sourcepull - INFO - Step 4: Generating final report...
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - ======================================================================
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - WORKFLOW COMPLETE
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - ======================================================================
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - Footnotes processed: 10
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - Citations identified: 6
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - PDFs retrieved: 3/6
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - Success rate: 50.0%
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - Report saved: output/data/Enhanced_Sourcepull/enhanced_sourcepull_report_20250809_131710.json
+2025-08-09 13:17:10,421 - enhanced_sourcepull - INFO - ======================================================================

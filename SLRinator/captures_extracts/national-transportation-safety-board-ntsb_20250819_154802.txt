@@ -1,0 +1,22 @@
+TITLE: National Transportation Safety Board (NTSB) (p.269)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: national-transportation-safety-board-ntsb
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+National Transportation Safety Board (NTSB)
+(p.269)
+Cite decisions to the
+National Transportation Safety Board Decisions
+(
+N.T.S.B.
+), published from 1967–1977, if therein.

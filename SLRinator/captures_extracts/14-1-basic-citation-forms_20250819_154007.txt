@@ -1,0 +1,28 @@
+TITLE: 14.1 Basic Citation Forms (p.147)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 14-administrative-and-executive-materials
+  slug: 14-1-basic-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+14.1
+Basic Citation Forms
+(p.147)
+Federal regulation cited to the
+Code of Federal Regulations
+FTC Credit Practices Rule, 16 C.F.R. § 444.1 (2019).
+Federal regulation cited to the
+Federal Register
+Importation of Fruits and Vegetables, 60 Fed. Reg. 50379 (Sep. 29, 1995) (to be codified at 7 C.F.R. pt. 300).
+Administrative adjudication
+Reichhold Chems., Inc., 91 F.T.C. 246 (1978).
+Arbitration
+Charles P. Ortmeyer, 23 Indus. Arb. 272 (1980) (Stern, Arb.).

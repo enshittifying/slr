@@ -1,0 +1,35 @@
+TITLE: T3 Intergovernmental Organizations (p.329)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  slug: t3-intergovernmental-organizations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3
+Intergovernmental Organizations
+(p.329)
+T3.1
+United Nations
+T3.2
+League of Nations
+T3.3
+European Union
+T3.4
+European Commission of Human Rights
+T3.5
+European Court of Human Rights
+T3.6
+Inter-American Commission on Human Rights
+T3.7
+Inter-American Court of Human Rights
+T3.8
+International Tribunal for the Law of the Sea
+T3.9
+Intergovernmental Organizations

@@ -1,0 +1,99 @@
+TITLE: West Virginia (W. Va.) (pp. 322–23)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: west-virginia-w-va
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+West Virginia (W. Va.)
+(pp. 322–23)
+http://www.courtswv.gov
+http://www.wvlegislature.gov/wvcode/code.cfm
+Supreme Court of Appeals
+(
+W. Va.
+): Cite to
+S.E.
+or
+S.E.2d
+, if therein.
+South Eastern Reporter
+1886–date
+S.E., S.E.2d
+West Virginia Reports
+1864–date
+W. Va.
+Intermediate Court of Appeals
+(
+W. Va. Ct. App.
+): Cite to
+S.E.2d
+, if therein.
+South Eastern Reporter
+2022–date
+S.E.2d
+West Virginia Reports
+2022–date
+W. Va.
+Statutory compilations:
+Cite to
+W. Va. Code
+, if therein.
+West Virginia Code
+W. Va. Code
+§ x-x-x (
+<year>
+)
+Michie’s West Virginia Code Annotated (LexisNexis)
+W. Va. Code Ann.
+§ x-x-x (LexisNexis
+<year>
+)
+West’s Annotated Code of West Virginia
+W. Va. Code Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+W. Va. Acts
+, if therein.
+Acts of the Legislature of West Virginia
+<year>
+W. Va. Acts
+<page no.>
+West Virginia
+<year>
+Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+W. Va. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s West Virginia Legislative Service
+<year>
+W. Va. Legis. Serv.
+<page no.>
+Administrative compilation
+West Virginia Code of State Rules
+W. Va. Code R.
+§ x-x-x (
+<year>
+)
+Administrative register
+West Virginia Register
+<vol. no.>
+W. Va. Reg.
+<page no.>
+(
+<month day, year>
+)

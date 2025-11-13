@@ -1,0 +1,22 @@
+TITLE: Merit Systems Protection Board (MSPB) (p.269)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: merit-systems-protection-board-mspb
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Merit Systems Protection Board (MSPB)
+(p.269)
+Cite decisions to the
+Decisions of the United States Merit Systems Protection Board
+(
+M.S.P.B.
+).

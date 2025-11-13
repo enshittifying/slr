@@ -1,0 +1,116 @@
+TITLE: 18.11 Hardware and Software (pp. 201–03)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-11-hardware-and-software
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.11
+Hardware and Software
+(pp. 201–03)
+18.11.1 –
+Hardware
+Cite physical hardware by the name of the original equipment manufacturer in small capitals, the official full name of the model, and the manufacturer’s part number, model number, or other identifying number. If the model also has a SKU number to distinguish variations within the model line, indicate this number in a parenthetical following the model number. Omit any references to specific underlying hardware features of the model in the full name:
+Nvidia
+, GeForce RTX 4090 Founders Edition, 900-1G136-2530-000 (6521430).
+Not:
+Nvidia
+, GeForce RTX 4090 24Gb GDDR6x Founders Edition Graphics Card, 900-1G136-2530-000 (6521430).
+18.11.2 –
+Software
+(a) In general.
+Cite software by the name of the developer(s) or the institutional developer in small capitals and abbreviated according to
+tables T6
+and
+T10
+, followed by the official name of the software in italics, and the release/version/patch number of the software with any other name or number associated with that release/version/patch (if available, indicated in a parenthetical). Indicate whether the number is considered a release, version, or patch, if possible. The date of the specific release, version, or patch cited should be included in a parenthetical at the end (if available):
+Microsoft
+,
+Microsoft Outlook for Mac
+, Ver. 16.86.1 (24061443) (June 18, 2024).
+Python Software Found.
+,
+Python
+, Ver. 3.12.4 (June 6, 2024).
+When the software in question has variations in version numbers or in relevant features due to differences in the underlying platform on which it runs, indicate the platform in the date parenthetical. Also indicate the platform when the differences are relevant to the citation:
+Bethesda Game Studios
+,
+The Elder Scrolls V: Skyrim Anniversary Edition
+, Update 1.6.640 (Windows, Sept. 20, 2022).
+When the name of the developer is identical to the name of the software, excepting indicators of corporate personality, omit the name of the developer:
+Discord
+, Ver. 235 (iOS, June 24, 2024).
+Not:
+Discord, Inc.
+,
+Discord
+, Ver. 235 (iOS, June 24, 2024).
+When the software is native to a specific platform and is being emulated on another platform using emulation software, indicate the same by citing the software as being emulated on the emulation software. Always indicate the platform on which the software is being emulated:
+Nintendo
+,
+Super Smash Bros. Melee
+, Ver. 1.02 NTSC (Dec. 3, 2001),
+emulated on
+MacOS using
+Dolphin Emulator Project
+,
+Dolphin
+, Rel. 2407 (July 2, 2024).
+Atlus
+,
+Summon Night: Swordcraft Story
+, Ver. 1 (July 25, 2006),
+emulated on
+Windows using
+VBA Dev. Team
+,
+VisualBoyAdvance
+, Ver. 2.1.9 (Feb. 3, 2024).
+(b) Open source software.
+The Bluebook
+prefers citations of open-source software to be to the official public repository. However, citations to specific historical or public-facing versions of open-source software may follow the standard software format.
+Cite public repositories of open-source software by the owner of the repository in small caps, the name of the software in italics, the name of the repository (if it varies from the name of the software), the URL of the repository, and the date on which the repository was last accessed. Because of the difficulty of preserving specific repositories, an archival parenthetical or permanent URL is not required:
+Mozilla Found
+.,
+Mozilla Firefox
+,
+https://hg.mozilla.org/mozilla-central/
+(last accessed July 1, 2024).
+Specific lines of code or other content within a software repository may be pincited by indicating the name of the file (including the file extension) and line number(s) (when relevant) prior to the URL. The URL should point to the specific file cited. Instead of indicating the last accessed date, indicate the last updated date based on the last committed change or deployment of the code:
+Audacity Dev. Team
+,
+Audacity
+, CMakeLists.txt l.13,
+https://github.com/audacity/audacity/blob/master/libraries/image-compiler/CMakeLists.txt
+(last updated May 2, 2024).
+Mozilla Found.
+,
+Mozilla Firefox
+, README.txt ll.8–9,
+https://hg.mozilla.org/mozilla-central/file/af9948205327480d29bfcb960d5308ad4a2d0ce7/browser/fonts/README.txt
+(last updated June 12, 2024).
+(c) Payment software.
+Transactions on payment software are cited by the amount of the transaction, the name of the sender, the name of the recipient, a parenthetical including the text associated with the payment and date of the payment, and a full citation to the underlying software. The version of the software may be omitted for payment software citations where that information is not readily available:
+$300 from Varsha Midha to Burke Craighead (🏩, Nov. 1, 2018 ),
+Venmo
+, Ver. 7.3.0 (Aug. 8, 2017).
+18.11.3 –
+Blockchain Sources
+Blockchain sources are cited according to the underlying transaction. For the purposes of blockchain citations, abbreviations that refer to specific tokens, or as listed below, may be used.
+(a) Transactions.
+Transactions occurring on a blockchain network can be cited by the quantity of the transaction, the name of the token as officially abbreviated, the name of the blockchain network on which the transaction was made, the ID of the sender, the ID of the receiver, the Hash ID associated with the transaction, and a parenthetical containing the date and time of the transaction:
+2.53 ETH, Ethereum, 0x087-a619a to 0x66f-1bce6, 0x1f159759e10d9b2fbae08acbf42f85be45705847289d129414648db9f541244a (July 16, 2024, at 12:50 ET).
+(b) Smart contracts.
+Smart contracts can be cited by identifying the nature of the transaction, the parties to the contract (if available), the address assigned to the contract, and a parenthetical indicating the network on which the contract was executed as well as the date and time on which the contract was created:
+Smart Contract, 0x7D92f5f70cb722FFdfA752135206E7EA95C9DD18 (Ethereum, July 16, 2024, at 16:32 UTC).
+(c) NFTs.
+NFTs can be cited by the nature of the transaction, Token ID, the name of the Token/Collection, the name of the creator responsible for minting the NFT (if available), the token contract address, and a parenthetical indicating the date and time when the NFT was minted:
+NFT, 5080, Moonbirds, Proof_XYZ, 0x23581767a106ae21c074b2276D25e5C3e136a68b (Apr. 16, 2022, at 16:09 UTC).

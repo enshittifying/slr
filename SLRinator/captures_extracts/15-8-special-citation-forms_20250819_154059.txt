@@ -1,0 +1,113 @@
+TITLE: 15.8 Special Citation Forms (pp. 161–62)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-8-special-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.8
+Special Citation Forms
+(pp. 161–62)
+(a) Frequently cited works.
+A few frequently cited works require special citation forms:
+Noscitur a sociis
+,
+Ballentine’s Law Dictionary
+(3d ed. 1969).
+Good-Faith Bargaining
+,
+Black’s Law Dictionary
+(9th ed. 2009).
+88 C.J.S.
+Trial
+§ 192 (1955).
+17
+Am. Jur.
+2
+d
+Contracts
+§ 74 (1964).
+(b) Special pagination.
+In a few well-known works, there is a standardized pagination or numbering for pincites across editions. This numbering is usually indicated in either the margin or the text of all recent editions. In such cases, the date and edition may be omitted and the citation may be made to the standardized page, unless the material cited was inserted by the editor of the cited edition:
+2 William Blackstone, Commentaries
+*152, *155–56.
+Aristotle, Nichomachean Ethics
+1094a1 (C.D.C. Reeve trans.).
+William Shakespeare, Henry V
+act 4, sc. 3, I. 65.
+(c) Other named works.
+(i) The Federalist.
+When citing an entire
+Federalist
+paper, include the author’s name parenthetically and do not indicate a specific edition:
+The Federalist No.
+23 (Alexander Hamilton).
+Group together papers written by the same author:
+The Federalist Nos
+. 23, 78 (Alexander Hamilton),
+Nos
+. 10, 51 (James Madison).
+When citing particular material within a paper, however, list the usual publication information for the edition cited:
+The Federalist No.
+5, at 53 (John Jay) (Clinton Rossiter ed., 1961).
+(ii) Manual for Complex Litigation.
+Citations to the
+Manual for Complex Litigation
+prepared by the Federal Judicial Center are as follows:
+Manual for Complex Litigation (Third)
+§ 33.2 (1995).
+Manual for Complex Litigation
+§ 2.10 (5th ed. 1982).
+However, when citing an edition not prepared by the Federal Judicial Center, identify the source and publication date of the edition cited:
+Manual for Complex Litigation
+§ 4.52 (1982) (
+supplement
+to
+Wright & Miller’s Federal Practice & Procedure
+(1969–1985)).
+(iii) Wright and Miller’s Federal Practice and Procedure.
+Citations to the
+Wright and Miller’s
+Federal Practice and Procedure
+should include the volume number, “
+Wright & Miller’s
+Federal Practice & Procedure
+,” the edition, and the date:
+14
+Wright & Miller’s Federal Practice & Procedure § 3637 (3
+d. ed. 1998).
+(iv) Moore’s Federal Practice.
+Citations to the
+Moore’s
+Federal Practice
+should include the volume number, “
+Moore’s Federal Practice
+,” the edition, and the date:
+15
+Moore’s Federal Practice
+§ 100.02 (3d ed. 1997).
+(v) Major religious texts.
+Cite major religious texts as follows:
+2
+Kings
+12:19.
+Enos
+1:12.
+The version may be indicated parenthetically if relevant:
+Mark
+9:21 (King James).
+(vi) The Bluebook.
+The Bluebook
+is cited as follows:
+The Bluebook: A Uniform System of Citation
+R. 15.8(c)(vi), at 162 (Columbia L. Rev. Ass’n et al. eds., 22d ed. 2025).
+The Bluebook: A Uniform System of Citation
+293 tbl. T10 (Columbia L. Rev. Ass’n et al. eds., 16th ed. 9th prtg. 1999).

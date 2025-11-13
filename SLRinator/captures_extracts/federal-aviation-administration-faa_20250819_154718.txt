@@ -1,0 +1,32 @@
+TITLE: Federal Aviation Administration (FAA) (p.268)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: federal-aviation-administration-faa
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Federal Aviation Administration (FAA)
+(p.268)
+Decisions
+:
+Cite decisions of administrative law judges in civil penalty enforcement matters adjudicated under 14 C.F.R. Part 13, Section 13.16 and subpart G, as slip opinions following rule
+14.3.2(b)
+.
+Siddall, Dkt. No. CP05WP0016 (FAA Oct. 7, 2008).
+Decisions of the Administrator or his delegate are cited using an order number rather than a docket number.
+Alaska Airlines, Inc., FAA Order No. 2004-8, 2004 WL 319820 (Oct. 4, 2004).
+Decisions of the Office of Dispute Resolution for Acquisition (
+ODRA
+) adjudicated under 14 C.F.R. Part 17 should incorporate the type of dispute in the citation.
+Protest of the United Parcel Serv., Dkt. No. 08-ODRA-0400 (Sep. 12, 1999).
+Citations to other FAA decisions and orders should indicate the nature of the decision preceding the date.
+Paul D. Asmus & P.D. Aviation Consulting v. Haw. Dep’t of Transp., Dkt. No. 16-05-11, Determination of the Director of Compliance and Field Operations (Apr. 12, 2006).
+Steere v. County of San Diego, FAA Dkt. No. 16-99-15, Final Agency Decision (Dec. 7, 2004).

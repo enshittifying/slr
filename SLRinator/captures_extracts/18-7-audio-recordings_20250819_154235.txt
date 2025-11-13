@@ -1,0 +1,128 @@
+TITLE: 18.8 Audio Recordings and Streaming (pp. 195–97)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-7-audio-recordings
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.8
+Audio Recordings and Streaming
+(pp. 195–97)
+18.8.1 –
+Physical Media
+(a) Commercial recordings.
+A commercial recording is any audio recording made commercially available through distribution in physical media. Cite commercial recordings by creator in small capitals, title of the work, access medium (if available), and by providing the name of the recording company or publisher (abbreviated per
+rule 15.1(e)
+) and the date of release (if available):
+Mitski
+, Be the Cowboy (CD, Dead Oceans Aug. 17, 2018).
+The Killers
+, Sam’s Town (Vinyl Record, Island Recs. Sep. 27, 2006).
+If a commercial recording was released independently, the phrase “
+independently recorded
+” should be used in lieu of the recording company:
+Car Seat Headrest
+, Twin Fantasy (Cassette, independently recorded Nov. 2, 2011).
+If a particular song, musical work, or segment of an audio work is referred to, cite it by analogy to shorter works in a collection according to
+rule 15.5.1
+. Include the access medium (if available) after the title of the collection and before any time marker. Time markers may be used for designating pinpoint citations, using the phrase “,
+at XX:XX
+” immediately after the title of the collection, but they are not required:
+Gang of Youths
+,
+Achilles Come Down
+,
+on
+Go Farther In Lightness (CD, Sony Aug. 18, 2017).
+Young the Giant
+,
+Mind over Matter
+,
+on
+Mind over Matter, at 00:30–00:32 (CD, Fueled by Ramen Jan. 21, 2014).
+If the particular song, musical work, or segment of an audio work being referred to was released as a single or standalone product, cite it as you would cite a segment of a larger audio work with  a bracket indicating that the work is a single.
+Electric Light Orchestra
+,
+Can't Get It out Of My Head
+,
+on
+Can’t Get It out of My Head [Single] (Vinyl Record, Warner Bros. Recs. Jan. 1975).
+(b) Noncommercial recordings.
+A noncommercial recording is any audio recording made for non-commercial or art purposes, and not commercially available to the public.
+For non-commercial recordings, cite the person or institution that produced the recording (if available) in small capitals, the name of the recording, and a parenthetical indicating the access medium, and the date on which the recording was created. The recording should be stored on file and a parenthetical should be appended describing where it can be found. Time markers may be used for designating pinpoint citations, using the phrase “,
+at XX:XX
+” immediately after the name of the recording, but they are not required:
+Franklin Middle School Jazz Band
+, Winter Holiday All-School Concert, at  00:12:35–00:15:54 (CD, Dec. 18, 2010) (on file with author).
+(c) Episodic recordings.
+For audio recordings produced and distributed in an episodic format, include the title of the recording in small capitals with the relevant episode name (if applicable) in italics, followed by the access medium in a parenthetical. Include in the access medium parenthetical the date of release. Time markers may be used for designating pinpoint citations, using the phrase “,
+at XX:XX
+” immediately after the name of the episode, but they are not required:
+The Twilight Zone Radio Dramas
+:
+A Kind of Stopwatch
+(CD, Aug. 26, 2002).
+18.8.2 –
+Audio Streaming Services
+A recording may be cited to an audio streaming service only when it has not been published in a physical medium, or if the version available on audio streaming services contains a difference in content relevant to the citation.
+Cite a recording found on an audio streaming service as a physical commercial recording per
+rule 18.8.1(a)
+, except by replacing the name of the media storage device with the name of the audio streaming service. If the release date of the recording is unavailable, indicate the date when the work was last streamed. Time markers may be used for designating pinpoint citations, using the phrase “,
+at XX:XX
+” immediately after the title of the collection, but they are not required:
+Max Cornell
+, Hen (Bandcamp, independently recorded Mar. 27, 2020).
+Foreign Ghost
+,
+How Long Have I Been Living In the Shadow Realm
+,
+on
+Foreign Ghost   (Apple Music, independently recorded July 31, 2019).
+Childish Gambino
+,
+This Is America
+,
+on
+This Is America [Single] (Apple Music, RCA Recs. May 6, 2018).
+For audio recordings produced and distributed in an episodic format on an audio streaming service, such as a podcast, cite the work according to
+rule 18.8.1(c)
+, except by replacing the name of the access medium with the name of the streaming service. If the date of release is unavailable, indicate the date when the work was last streamed. Time markers may be used for designating pinpoint citations, using the phrase “,
+at XX:XX
+” immediately after the name of the episode, but they are not required:
+Strict Scrutiny
+:
+The Legality of Presidents Doing Whatever They Want
+(Spotify, Jan. 15, 2024).
+18.8.3 –
+Unpublished Audio Recordings
+When citing an unpublished audio recording, including recorded phone calls, identify the nature of the recording, and (when possible) indicate the recorder or producer by name, title, and/or institutional affiliation. Abbreviate title and institutional affiliation according to
+tables T6
+and
+T13
+. Time markers may be used for designating pinpoint citations, using the phrase “,
+at XX:XX
+” immediately after the nature of the recording, but they are not required:
+Voice Memo, at 00:54, Jacob A. Sarasin, Legal Observer, Nat’l Laws. Guild (recorded Apr. 17, 2024, at 08:02 ET) (on file with author).
+Voice Message from Nikhil Mahadeva, Bluebook Ed., Columbia L. Rev., to Luke Cronin,  Bluebook Ed., Columbia L. Rev. (recorded June 16, 2024, at 19:15 ET) (on file with the Columbia Law Review).
+18.8.4 –
+Websites Containing Audio Recordings
+Audio recordings embedded in a webpage should be cited using the principles of
+rule 18.2.2
+. Time markers may be used for designating pinpoint citations, using the phrase “,
+at XX:XX
+” immediately after the main page title, but they are not required:
+The New Yorker Radio Hour,
+Mass Incarceration, Then and Now
+,
+New Yorker
+, at 01:03 (Jan. 17, 2020),
+https://www.newyorker.com/podcast/the-new-yorker-radio-hour/mass-incarceration-then-and-now
+(on file with the Harvard Law Review).

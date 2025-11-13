@@ -1,0 +1,44 @@
+TITLE: 23.6 Archival Information (pp. 252–53)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-6-archival-information
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.6
+Archival Information
+(pp. 252–53)
+Archival information presented in “
+on file with
+” parenthetical consists of three primary components: (1) the archive owner, (2) the archival collection, and (3) the archival location. The goal of this information is to best direct readers to the exact location where the document or object can be found if they desire to replicate an author’s archival research.
+(a) Archive owner.
+The archive owner is the main institution overseeing the archive. If an archive is stored at a university, the university is the archive owner, not the specific library within the university. However, if the university and its library share the same name, you may use the library as the archive owner to avoid redundant information. Abbreviate according to
+tables T6
+,
+T7
+,
+T10
+, and
+T13
+. However, do not omit “
+in
+” or “
+of
+.”
+(b) Archival collection.
+The archival collection is both the name of the principal archive and the appropriate subcollection, if any, in which the relevant document or object is housed. Subunits should proceed from largest subunit to smallest subunit, separated by commas (or semicolons where necessary for clarity):
+Nat’l Archives, Records of the Bureau of Refugees, Freedmen, and Abandoned Lands
+Wash. & Lee Univ. Sch. of L., Lewis F. Powell, Jr. Papers
+Yale Univ., Beinecke Rare Book & Manuscript Library Repository, Abraham Lincoln Collection
+(c) Archival location.
+Archival location refers to the filing location of the document or object. Many archives use a system of boxes and folders for paper documents and physical objects and reels for text and images stored on microfiche. Some archives may use record group numbers. Other archives may title each location with increasingly discrete subcollections. Provide the most specific location information available, but do not use call numbers unless this is the
+only
+form of categorization that the archive uses.

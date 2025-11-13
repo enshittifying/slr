@@ -1,0 +1,97 @@
+TITLE: Rhode Island (R.I.) (pp. 312–13)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: rhode-island-r-i
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Rhode Island (R.I.)
+(pp. 312–13)
+https://www.courts.ri.gov/pages/default.aspx
+http://webserver.rilin.state.ri.us/Statutes
+Supreme Court
+(
+R.I.
+): Cite to
+A.
+,
+A.2d,
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1885–date
+A., A.2d, A.3d
+Rhode Island Reports
+1828–1980
+R.I.
+Statutory compilations:
+Cite to
+R.I. Gen. Laws
+, if therein.
+General Laws of Rhode Island (LexisNexis)
+<tit. no.>
+R.I. Gen. Laws
+§ x-x-x (
+<year>
+)
+West’s General Laws of Rhode Island Annotated
+<tit. no.>
+R.I. Gen. Laws Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+R.I. Pub. Laws
+, if therein.
+Public Laws of Rhode Island and Providence Plantations
+<year>
+R.I. Pub. Laws
+<page no.>
+Acts and Resolves of Rhode Island and Providence Plantations
+<year>
+R.I. Acts & Resolves
+<page no.>
+Rhode Island Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+R.I. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Rhode Island Advance Legislative Service
+<year>
+R.I. Adv. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Code of Rhode Island Rules (LexisNexis)
+<tit. no.>
+R.I.C.R.
+<ch. no.>
+-
+<subch. no.>
+-
+<pt. no.>
+.
+<sec. no.>
+(LexisNexis
+<year>
+)
+Administrative register
+Rhode Island Government Register (LexisNexis)
+<iss. no.>
+R.I. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

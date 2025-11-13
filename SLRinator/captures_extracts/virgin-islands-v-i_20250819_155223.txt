@@ -1,0 +1,97 @@
+TITLE: Virgin Islands (V.I.) (p.328)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-4-other-united-states-jurisdictions
+  slug: virgin-islands-v-i
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Virgin Islands (V.I.)
+(p.328)
+https://www.vicourts.org
+Public domain citation format:
+The Virgin Islands have adopted a public domain format for cases decided after January 1, 2019: The format is:
+Burt v. Lockheed Martin Corp., 2024 V.I. 33.
+Supreme Court
+(
+V.I.
+) and
+Superior Court
+(
+V.I. Super. Ct.
+), before 2004 the
+Territorial Court
+and before 1976 the
+Municipal Court:
+Cite to
+V.I.
+Virgin Islands Reports
+1917–date
+V.I.
+District Court of the Virgin Islands, Trial and Appellate Divisions
+(
+D.V.I.
+and
+D.V.I. App. Div.
+): Cite to
+F. Supp.
+,
+F. Supp. 2d
+, or
+F. Supp. 3d
+, if therein.
+Federal Supplement
+1936–date
+F. Supp., F. Supp.2d, F. Supp. 3d
+Virgin Islands Reports
+1917–date
+V.I.
+Statutory compilation
+Virgin Islands Code Annotated (LexisNexis)
+1962–date
+V.I. Code Ann
+. tit. x, § x-x
+<year>
+Session laws:
+Cite to
+V.I. Sess. Laws
+, if therein.
+Session Laws of the Virgin Islands
+<year>
+V.I. Sess. Laws
+<page no.>
+Virgin Islands Code Annotated Advance
+Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+V.I. Code Ann. Adv.
+Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilation
+Code of U.S. Virgin Islands Rules (LexisNexis)
+<tit. no.>
+-
+<ch. no.>
+V.I.
+Code R
+. § x-x (LexisNexis
+<year>
+)
+Administrative register
+Virgin Islands Government Register
+(LexisNexis)
+<iss. no.>
+V.I. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

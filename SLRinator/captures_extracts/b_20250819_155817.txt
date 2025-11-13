@@ -1,0 +1,466 @@
+TITLE: Index
+============================================================
+
+METADATA:
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Index
+Type To Search The Index
+Ballentine’s Law Dictionary
+,
+15.8
+Bankruptcy
+appellate panels
+,
+10.4
+,
+T1.1
+,
+T7
+cases
+,
+10.2
+courts
+,
+T1.1
+pending or unreported cases
+,
+B10.1
+Bankruptcy Reporter
+,
+T1.1
+Bar publications
+,
+16.7
+“Baron,”
+abbreviation of
+,
+T11
+Basic charters, international and world organizations
+,
+21.13
+,
+21.14
+Belgium
+sources of national law
+,
+T2.4
+Bible
+,
+15.8
+Bills
+bills and resolutions
+,
+13.1
+,
+13.2
+congressional
+,
+13.1
+,
+13.2
+state
+,
+13.2
+Black’s Law Dictionary
+,
+15.8
+,
+B15.1
+Blackstone’s
+Commentaries
+,
+15.8
+Block quotations
+,
+5.1
+,
+B5.2
+Blogs
+,
+18.2
+Bloomberg
+Law
+services
+,
+T15
+Board of Tax Appeals
+citation of cases
+,
+T1.1
+,
+T1.2
+,
+T7
+Book notes
+,
+16.7
+Book reviews
+periodicals
+,
+16.7
+“Book(s),”
+abbreviation of
+,
+T16
+Books, reports, and other nonperiodic materials
+A.B.A. publications
+,
+16.7
+A.L.I. publications
+,
+12.9
+abbreviation of title
+,
+15.3
+administrative agency records and reports
+,
+14.2
+author
+,
+15.1
+basic form of citation
+,
+15
+book reviews
+,
+16.7
+capitalization
+,
+8
+,
+15.3
+citation analyzed
+,
+15
+citation, components of
+,
+15
+collected documents
+,
+15.5
+collected essays
+,
+15.5
+congressional materials
+,
+13
+,
+13.1
+,
+13.4
+,
+13.8
+corporate author
+,
+15.1
+date
+,
+15.4
+date in title
+,
+15.3
+date not given by source
+,
+15.4
+Declaration of Independence
+,
+3.3
+dictionaries, legal
+,
+15.8
+edition
+,
+15.4
+editor, when indicated
+,
+15.2
+electronic media and online sources
+,
+15.9
+encyclopedias, legal
+,
+15
+footnote typefaces
+,
+2
+forewords
+,
+15.6
+forthcoming publications
+,
+17.3
+generally
+,
+15.1
+given names of authors
+,
+15.1
+government agencies as authors
+,
+15.1
+government agency reports
+,
+14.2
+institutional authors
+,
+15.1
+internet sources
+,
+15.9
+italicization, when referred to in text
+,
+2.2
+legal dictionaries and encyclopedias
+,
+B15.1
+letters
+,
+17.2
+manuscripts, typed
+,
+17.1
+,
+17.2
+multiple authors
+,
+15.1
+multiple editions
+,
+15.4
+multiple printings
+,
+15.4
+multivolume works
+,
+15.1
+,
+15.4
+,
+B15.1
+name of author
+,
+15.1
+names and titles, capitalization
+,
+8
+,
+15.3
+,
+16.2
+,
+16.3
+number, serial
+,
+15.7
+order within signal
+,
+1.4
+,
+B1.2
+page citation
+,
+3.2
+paragraph citation
+,
+3.3
+photoduplicated reprints
+,
+15.4
+,
+T14
+place of publication not given by source
+,
+15.4
+place of publication, when required
+,
+15.4
+pocket parts
+,
+15.4
+pre-1900 works
+,
+15.4
+prefaces
+,
+15.6
+printings
+,
+15.4
+repeated citation of
+,
+3.5
+,
+4.1
+,
+4.2
+reprints
+,
+15.4
+restatements
+,
+12.9
+sections
+,
+3.3
+serial number
+,
+15.7
+series of
+,
+15.7
+short citation forms
+,
+15.10
+shorter works in collection
+,
+15.10
+special citation forms
+,
+15.8
+star pages
+,
+3.2
+,
+15.8
+subdivisions of
+,
+T16
+subtitles, omitted
+,
+15.3
+supplements
+,
+15.4
+The Federalist
+,
+15.8
+theses, unpublished
+,
+17.2
+titles
+,
+15.3
+translator, when given
+,
+15.2
+typeface
+,
+2.1
+,
+2.2
+typeface in court documents and legal memoranda
+,
+B2
+typeface in law review citations
+,
+2
+,
+2.1
+typeface in law review text
+,
+2.2
+typeface, authors
+,
+15.1
+unpublished works
+,
+17.1
+,
+17.2
+volume designations
+,
+15.2
+,
+15.3
+,
+15.4
+well-known works
+,
+15.8
+writer of
+,
+15.1
+year
+,
+15.4
+Bound services
+abbreviations
+,
+T15
+generally
+,
+19.1
+typeface
+,
+19.1
+Brackets
+alterations in quotations
+,
+5.2
+establishing short citation or translation, used in
+,
+20.2
+,
+20.6
+quotations, used in
+,
+5.2
+volume designations
+,
+19.1
+years
+,
+19.1
+Brazil
+sources of national law
+,
+T2.5
+treaty source
+,
+T2.5
+Briefs and legal memoranda
+(see
+Court documents and legal memoranda
+)
+Briefs and records, citation of
+generally
+,
+10.8
+British Columbia
+sources of law
+,
+T2.6
+British materials
+(see
+England
+)
+Broadcasts
+,
+18.1
+,
+18.7
+,
+18.12
+Business firms, in case names
+,
+10.2
+“
+But cf.,
+”
+as signal
+,
+1.2
+“
+But see,
+”
+as signal
+,
+1.2
+Byline, newspaper articles
+,
+16.6

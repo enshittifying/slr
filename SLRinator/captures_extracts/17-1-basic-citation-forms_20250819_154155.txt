@@ -1,0 +1,36 @@
+TITLE: 17.1 Basic Citation Forms (p.176)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 17-unpublished-and-forthcoming-sources
+  slug: 17-1-basic-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+17.1
+Basic Citation Forms
+(p.176)
+Unpublished manuscript
+Jennifer Arlen, Public Versus Private Enforcement of Securities Fraud 12–19 (June 22, 2007) (unpublished manuscript) (on file with the Columbia Law Review).
+Dissertation and theses
+Alexander J. Blenkinsopp, Honesty vs. Expedience: The Deficient Jurisprudence of Punishment and the Legal Labeling Game (Nov. 1, 2005) (A.B. thesis, Harvard University) (on file with the Harvard University Library system).
+Letter, memorandum, or press release
+Memorandum from President Franklin Roosevelt to Att’y Gen. Robert H. Jackson (July 1, 1939) (on file with the Harvard Law School Library).
+E-mail correspondence
+E-mail from Jacob Sarasin, Editor, Colum. L. Rev., to author (Dec. 14, 2023, 01:33 EST) (on file with author).
+Forthcoming publication
+Eduardo Peñalver,
+Land Virtues
+, 94
+Corn. L. Rev
+. (forthcoming May 2009).
+Working paper
+Dan Black et al.,
+Demographics of the Gay and Lesbian Population in the United States: Evidence from Available Systemic Data Sources
+9 (Ctr. for Pol’y Rsch., Working Paper No. 12, 1999).

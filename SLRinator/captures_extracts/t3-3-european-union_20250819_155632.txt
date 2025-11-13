@@ -1,0 +1,94 @@
+TITLE: T3.3 European Union (pp. 329–30)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-3-european-union
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.3
+European Union
+(pp. 329–30)
+Courts:
+Cite cases before the Court of Justice of the European Union (
+E.C.J.
+) and the General Court (
+Ct. of First Instance
+) to
+E.C.R.
+, if therein. If not, cite to
+C.M.L.R., Common Mkt. Rep. (CCH)
+, or
+CEC (CCH)
+, if therein, in that order. If not, cite to official online sources.
+Reports of Cases Before the Court of Justice
+1973–date
+<year>
+E.C.R. xxx
+Common Market Law Reports
+1962–date
+<year>
+C.M.L.R. xxx
+Common Market Reports
+1962–1988
+<year>
+Common Mkt. Rep. (CCH) xxx
+European Community Cases
+1989–2007
+<year>
+CEC (CCH) xxx
+Legislative acts:
+Cite acts of the European Council and the European Commission to
+O.J.
+(the Official Journal of the European Union, formerly the Official Journal of the European Communities), if therein. If not, cite to
+O.J.
+Spec. Ed.
+, if therein. If not, cite to
+J.O
+., if therein.
+Official Journal of the European
+Union
+1973–date
+<year>
+O.J. (L
+<act number>
+) xxx
+Official Journal of the European
+Community, Special Edition
+1952–1972
+<year>
+O.J.
+Spec. Ed.
+xxx
+Journal Officiel des Communautés
+Européennes
+1958–date
+<year>
+J.O. (L
+<act number>
+) xxx
+Parliamentary documents:
+Cite as follows:
+European Parliamentary Debates
+Eur. Parl. Deb.
+(
+<debate number>
+) x
+European Parliament Working Session or Session
+Documents
+Eur. Parl. Doc.
+(
+<document number>
+) x
+Parlement Européen Documents de Séance
+Parl. Eu. Doc.
+(SEC
+<document number>
+) x

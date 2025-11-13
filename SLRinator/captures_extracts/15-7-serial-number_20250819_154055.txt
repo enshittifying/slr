@@ -1,0 +1,38 @@
+TITLE: 15.7 Serial Number (p.160)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-7-serial-number
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.7
+Serial Number
+(p.160)
+(a) Series issued by the author.
+When citing a publication that is one of a series issued by the author (other than U.N. documents (
+rule 21.7
+)), include the serial number as part of the title. The serial number indicator may be abbreviated according to
+table T16
+:
+Bureau of Intel. & Rsch., U.S. Dep’t of State, Pub. No. 8732, World Strength of the Communist Party Organizations
+65 (1973).
+Women’s Bureau, U.S. Dep’t of Lab., Leaflet No. 55, A Working Woman’s Guide to Her Job Rights
+4 (1978).
+(b) Series issued by one other than the author.
+To cite a publication that is one of a series issued by someone other than the author, indicate the series and number parenthetically, abbreviating institutional entities according to
+rule 15.1(e)
+:
+Anne C. Vladeck,
+Counseling a Plaintiff During Litigation
+,
+in
+Employment Litigation
+1990, at 77, 80–82 (PLI Litig. & Admin. Prac., Course Handbook Ser. No. 386, 1990).

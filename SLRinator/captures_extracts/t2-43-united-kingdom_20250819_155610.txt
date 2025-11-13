@@ -1,0 +1,1404 @@
+TITLE: T2.46 United Kingdom (p.328)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-43-united-kingdom
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.46
+United Kingdom
+(p.328)
+(Common Law and Mixed Jurisdiction)
+England
+pre-1215–1536
+England and Wales
+1536–1707
+Great Britain (England, Wales, and Scotland)
+1707–1800
+United Kingdom of Great Britain and Ireland (England, Wales, Scotland, and Ireland)
+1800–1921
+United Kingdom of Great Britain and Northern Ireland (England, Wales, Scotland, and Northern Ireland)
+1921–date
+The United Kingdom of Great Britain and Northern Ireland is the collective name of four countries: England, Wales, Scotland, and Northern Ireland.The four separate countries were united under a single parliament in London, known as the United Kingdom Parliament at Westminster, through a series of Acts of Union. The United Kingdom has recently undergone a period of devolution with the creation of a Scottish Parliament, Welsh Assembly, and Northern Ireland Assembly that may pass legislation in certain areas. As such, it is necessary to establish whether an Act of Parliament applies to the entire United Kingdom; to England; to England and Wales; to England, Wales, and Northern Ireland; or to Great Britain (England, Wales, and Scotland); and refer to the countries appropriately. This information can be found at the end of Acts of Parliament in the section entitled “extent.” Crown Dependencies and Overseas Territories do not form part of the United Kingdom, although the final court of appeal in certain of these jurisdictions remains the Judicial Committee of the Privy Council.
+Cases
+Jurisdiction, if not evident from context
+Following
+rule 20.1
+, if the jurisdiction is not clear from the context or citation, it should be indicated in parentheses at the position noted in the citation formats below.
+Jurisdictions for the United Kingdom:
+United Kingdom (England, Wales, Scotland, and Northern Ireland)
+UK
+Great Britain (England, Wales, and Scotland)
+Gr. Brit.
+England
+Eng.
+Wales
+Wales
+Scotland
+Scot.
+Northern Ireland
+N. Ir.
+Courts
+Judicial Committee of the Privy Council
+(
+PC
+) (hears matters referred by the Crown; appeals from certain superior courts of England, Wales, Scotland, and Northern Ireland; matters concerning issues of devolution in Northern Ireland, Scotland, and Wales; appeals from the English Ecclesiastical Courts on certain matters, from the Court of Admiralty, the Prize Courts, and the courts of the Crown Dependencies, Overseas Territories, and Commonwealth countries that have retained the right of appeal to His Majesty in Council or Judicial Committee): Cite to the
+Law Reports
+or to
+Eng. Rep.
+When citing decisions of the Privy Council or another court that hears appeals from more than one jurisdiction, indicate parenthetically the jurisdiction from which the appeal was taken.
+Citation format:
+<case name>
+[
+<year of publication>
+]
+<volume, if any> <reporter abbreviation> <first page>
+(
+<court abbreviation if not clearly indicated by reporter for post-1865 cases>
+)
+<page(s) of specific material, or paragraph number(s) of specific material in brackets, if desired>
+(appeal taken from
+<relevant abbreviation>
+) (
+<jurisdiction abbreviation if not evident from context>
+).
+B.C. Elec. Ry. v. Loach [1916] 1 AC 719 (PC) (appeal taken from B.C.).
+Appeal Cases (3rd Series)
+1891–date
+AC
+Appeal Cases (2nd Series)
+1876–1890
+App. Cas.
+Privy Council Appeal Cases
+(continued by Appeal Cases, 2nd Series)
+1866–1875
+LRPC
+English Reports—Full Reprint
+1094–1873
+Eng. Rep.
+House of Lords
+(HL) (previously the final court of appeal for civil cases in the United Kingdom and for criminal cases in England, Wales, and Northern Ireland): Cite to the Law Reports, to Eng. Rep., or in Scottish civil cases to the House of Lords section of Session Cases, listed under
+table T2.43.3 Scotland
+, in that order of preference. The
+Supreme Court of the United Kingdom
+(UKSC) took over the appellate jurisdiction of the House of Lords and the jurisdiction of the Judicial Committee of the Privy Council on October 1, 2009.
+When citing decisions of the House of Lords, or another court that hears
+appeals from more than one jurisdiction, indicate parenthetically the
+jurisdiction from which the appeal was taken.
+Citation format:
+<case name> <year of publication in parentheses or in brackets,
+depending on the reporter> <volume number, if any> <reporter abbreviation> <first
+page>
+(
+<court abbreviation, if not clearly indicated by reporter for post-1865
+cases>
+)
+<page(s) of specific material, or paragraph number(s) of specific material
+in brackets, if desired>
+(appeal taken from
+<relevant abbreviation>
+) (
+<jurisdiction
+abbreviation if not evident from context>
+).
+Donoghue v. Stevenson [1932] AC 562 (HL) 564 (appeal taken from Scot.).
+R v. Shayler [2002] UKHL 11, [2003] 1 AC (HL) 35 (appeal taken from Eng.).
+Appeal Cases (3rd Series)
+1891–date
+AC
+Appeal Cases (2nd Series)
+1875–1890
+App. Cas.
+English and Irish Appeals
+(continued by Appeal Cases, 2nd Series)
+1866–1875
+LRE & I. App.
+Scotch and Divorce Appeals
+(continued by Appeal Cases, 2nd Series)
+1866–1875
+LRS & D. App.
+Neutral citation
+All judgments after 2001 have a neutral citation, a format independent of the publishing source that allows for immediate online publishing.
+Citation format:
+<case name>
+[
+<year of publication>
+]
+<neutral citation abbreviation> <neutral citation court abbreviation, if necessary> <case reference number>
+, [
+<paragraph(s) of specific material, if desired>
+] (appeal taken from
+<relevant abbreviation>
+) (
+<jurisdiction abbreviation if not evident from context>
+).
+Archbold v. Royal Coll. of Veterinary Surgeons [2004] UKPC 1, [2]–[3] (appeal taken from Eng.).
+Cases that are also reported in the official
+Law Reports
+should first list the neutral citation and then the citation of the official reporter:
+<case name>
+<neutral citation>
+,
+<citation to official reporter>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+R v. Pyrah [2002] UKHL 47, [2003] 1 AC 903 (appeal taken from Eng.).
+Privy Council
+UKPC
+House of Lords
+UKHL
+Supreme Court
+UKSC
+See
+table T2.43.1 England and Wales
+for a list of more neutral citation abbreviations, along with appropriate court abbreviations.
+Parentheses and square brackets
+For England, Wales, and Northern Ireland, the year should be in parentheses in citations when the reporter can be found without reference to the year. If the year is an integral part of the citation and necessary to locate the correct volume of the reporter, it should be in square brackets. An easy way to determine whether square brackets or parentheses are needed is to look at the citation. If you need the year to locate the case, it should be in square brackets. However, if you do not need the year to identify the case because the citation includes references to a volume number, the year should be in parentheses rather than square brackets. Compare the two examples below:
+Donoghue v. Stevenson [1932] AC 562 (HL) (appeal taken from Scot.).
+R v. Lockwood (1782) 99 Eng. Rep. 379 (KB).
+Scotland only uses square brackets for neutral citations.
+Case name peculiarities
+In shipping cases, the name of the ship is commonly used instead of the first
+case name. The case
+Golden Strait Corp. v. Nippon Yusen Kubishka Kaisha
+is
+therefore also known as
+The Golden Victory
+(the name of the ship).
+Golden Strait Corp. v. Nippon Yusen Kubishka Kaisha [2007] UKHL 12,
+[2007] 2 AC 353.
+The Golden Victory [2007] UKHL 12, [2007] 2 AC 353.
+In criminal law, it is common for references to the Crown to be removed from the case name.
+R v. Brown
+can be referred to with its full name, or as
+Brown
+.
+R v. Brown [1993] UKHL 19, [1994] 1 AC 212.
+Brown [1993] UKHL 19, [1994] 1 AC 212.
+Internet sources for cases
+For citations to Internet sources, follow
+rule 18
+:
+R v. Shayler [2002] UKHL 11, [2003] 1 AC (HL) 35 (appeal taken from Eng.),
+https://publications.parliamen...
+/jd020321/shayle-1.htm.
+Electronic subscription databases
+Lawtel Transcripts (
+http://www.lawtel.com
+)
+1984–date
+LTL
+Westlaw Transcripts (
+http://www.westlaw.co.uk
+)
+1999–date
+WL
+British and Irish Legal Information Institute
+(
+https://www.bailii.org
+)
+The date range of BAILII depends
+on the material and the jurisdiction.
+More information
+is available on the BAILII website.
+BAILII
+The Incorporated Council of Law Reporting
+(
+http://www.iclr.co.uk
+)
+1865–date
+ICLR
+Statutes
+Citation format:
+<statute short title, where available> <year(s)>
+,
+<regnal year(s) for statutes enacted prior to 1963>
+c.
+<chapter number(s)>
+, §(§)
+<section number(s)>
+, sch(s).
+<schedule(s), if any>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Supreme Court of Judicature Act 1925, 15 & 16 Geo. 5 c. 49, § 226, sch. 6 (Eng.).
+Indicate regnal years by the following format:
+<year(s) of reign> <abbreviated name of the monarch> <numeric designation of the monarch in Arabic numerals>
+.
+If the monarch was the first of that name, omit the numeric designation.
+11 Hen. 7
+15 & 16 Geo. 5
+13 Eliz.
+If a short title has been established by the Short Titles Act or the Statute Law Revision Act, it should be used:
+Fatal Accidents Act 1846, 9 & 10 Vict. c. 93 (Eng.).
+If the name is omitted or does not include the date or year, use the citation format:
+<statute short title, where available>
+,
+<regnal year(s) for statutes enacted prior to 1963>
+c.
+<chapter number(s)>
+, §(§)
+<section number(s)>
+, sch(s).
+<schedule(s), if any>
+(
+<year if not included in the title of the act>
+) (
+<jurisdiction abbreviation if not evident from context>
+).
+Hypnotism Act 1952, 15 & 16 Geo. 6 & 1 Eliz. 2 c. 464, § 117 (Gr. Brit.).
+For statutes enacted since 1963, omit the regnal year:
+Climate Change Act 2008, c. 27 (UK).
+Abbreviate monarchs’ names as follows:
+Anne
+Ann.
+Charles
+Car.
+Edward
+Edw.
+Elizabeth
+Eliz.
+George
+Geo.
+Henry
+Hen.
+James
+Jac.
+Philip & Mary
+Phil. & M.
+Richard
+Rich.
+Victoria
+Vict.
+William
+Will.
+William & Mary
+W. & M.
+Regnal years
+Regnal years can be determined from calendar years by reference to
+A Handbook of Dates for Students of English
+and
+https://library.justis.com/support/faq-regnal-to-calendar.html
+, among other sources.
+Internet sources for legislation
+For citations to an internet source, follow
+rule 18
+, and preferably cite to
+legislation.gov.uk
+:
+Climate Change Act 2008, c. 27 (UK),
+http://www.legislation.gov.uk
+/ukpga/2008/27/contents.
+Legislation available at
+http://www.legislation.gov.uk
+is not regularly updated. Reference should be made to legislation available on legal databases such as Westlaw. Westlaw is the best source for accessing legislation as amended.
+Statutory compilations
+Preferably, official sources should be used when citing to legislation. If a
+statutory compilation is used, follow the citation format:
+<statute title>
+, (
+<year of
+enactment>
+) §
+<section or article number(s), if any>
+,
+<volume number> <compilation
+name>
+(
+<edition of compilation, if appropriate>
+)
+<first page>
+,
+<page(s) of specific
+material, if desired>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+An Ordinance of the Lords and Commons in Parliament for the Safety and Defence of the Kingdom of England and Dominion of Wales, (1642)
+I Acts & Ords. Interregnum
+1 (Eng.).
+Christmas Day (Trading) Act, (2004) § 2, 2
+Current Law
+234, 236 (Eng.).
+Law of Property Act, (1925) § 44, 37
+Hals. Stat.
+(4th ed.) 139 (Eng.).
+Acts and Ordinances of the Interregnum
+1642–1660
+Acts & Ords. Interregnum
+Current Law Statutes
+1986–date
+Current Law
+Halsbury’s Statutes of England
+1929–date
+Hals. Stat
+.
+Regulations
+Citation format:
+<regulation name> <year of enactment>
+,
+<publication
+abbreviation> <instrument number>
+,
+<article>
+, ¶
+<paragraph number>
+(
+<jurisdiction
+abbreviation if not evident from context>
+).
+The Certification of Enforcement Agents Regulations 2014, SI 2014/421, art. 3, ¶ 3 (Eng.).
+Statutory Instruments
+1947–date
+SI
+Statutory Rules and Orders
+1890–1947
+Stat. R & O
+Parliamentary materials
+Bills
+Citation format:
+<bill name> <session year>
+,
+<abbreviation of applicable House of Parliament>
+Bill [
+<bill number>
+] cl.
+<clause>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Assisted Dying for the Terminally Ill Bill 2004-5, HL Bill [17] cl. 2 (Gr. Brit.).
+Criminal Justice (Justifiable Conduct) Bill 2004-5, HC Bill [36] cl. 2 (Eng.).
+Explanatory Notes and Memoranda
+Citation format:
+<statute short title, where available> <year(s)>
+,
+<regnal year(s) for statutes enacted prior to 1963>
+c.
+<chapter number(s)>
+,
+<Explanatory Notes>
+¶(¶)
+<paragraph number(s)>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Climate Change Act 2008, c.27, Explanatory Notes ¶ 2 (UK).
+Hansard
+Hansard
+contains the official verbatim reports of debates, speeches, answers to
+written and oral questions, and records of divisions.
+https://hansard.parliament.uk
+Hansard
+is divided into three series: one reporting on debates in the House of Commons, one in the House of Lords, and one in the Public Bill Committees of the House of Commons. The abbreviations for each are HC Deb, HL Deb, and for debates in the Public Bill Committees of the House of Commons, it is the title of the Bill followed by Deb.
+Citation format:
+<abbreviation of applicable House of Parliament>
+(
+<date>
+)
+(
+<volume>
+) col(s).
+<column number(s)>
+(
+<jurisdiction abbreviation if not evident
+from context>
+).
+HC Deb (1 Feb. 2000) (343) cols. 922–23.
+Due to publication of the
+Hansard
+online, recent debates may be available
+but may not yet have a volume number. In these instances, it is permissible
+to include the exact date of the debate, following the citation format:
+<date>
+,
+<abbreviation of applicable House of Parliament>
+(
+<year of debate>
+) col(s).
+<column
+number(s)>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+26 Nov. 2008, HC Deb (2008) col. 707 (UK)
+Official government reports
+Citation format:
+<government department or committee name>
+,
+<report title>
+,
+<session year>
+,
+<abbreviation of applicable House of Parliament where report was
+issued> <paper number>
+,
+<paragraph symbol and number, or “at” page number of
+specific material>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Constitutional Affairs Committee, Judicial Appointments and a Supreme Court
+(Court of Final Appeal), 2003-4, HC 48-I, at 12 (UK).
+Select Committee on Animals in Scientific Procedures, Report
+, 2001-2, HL 150-I, ¶ 5(2) (UK).
+Command papers
+Citation format:
+<government department or committee name>
+,
+<report title>
+,
+<year>
+,
+<relevant abbreviation> <Command Paper number>
+,
+<paragraph symbol and
+number, or “at” page number of specific material>
+(
+<jurisdiction abbreviation if not
+evident from context>
+).
+Department for Environment, Food and Rural Affairs, Launch of the Draft Animal Welfare Bill
+, 2004, Cm. 6252, at 5 (UK).
+Relevant abbreviations are as follows:
+1st series
+1833–1869
+[C. (1st series)]
+2nd series
+1870–1899
+[C. (2d series)]
+3rd series
+1900–1918
+[Cd.]
+4th series
+1919–1956
+[Cmd.]
+5th series
+1957–1986
+Cmnd.
+6th series
+1986–date
+Cm.
+Treaties
+Citation format:
+<treaty name>
+,
+<date of signing>
+,
+<abbreviated names of parties
+to agreement>
+,
+<article, if desirable>
+,
+<treaty source>
+(
+<year of treaty source volume>
+)
+(
+<relevant abbreviation> <Command Paper number, for the
+British Treaty Series
+>
+).
+Declaration Between the United Kingdom and France and Russia
+Engaging Not to Conclude Peace Separately During the Present
+European War, 5 Sept. 1914, Gr. Brit.-Fr.-Russ.,
+Gr. Brit.
+TS No. 1
+(1915) (Cd. 7737).
+British Treaty Series
+1892–date
+Gr. Brit. TS No.
+British Foreign and State Papers
+1812–1968
+<volume number>
+BSP
+<first page>
+.
+Hertslet’s Commercial Treaties
+1820–1891
+<volume number>
+HCT
+<first page>
+.
+Common abbreviations
+These abbreviations should be used in case names, in addition to those found in
+tables T6
+and
+T10
+, or other citation formats where appropriate.
+Attorney-General
+A-G
+or
+AG
+Borough Council
+BC
+County Council
+CC
+Civil Procedure Rules
+CPR
+Criminal Procedure Rules
+Crim. P R
+Crown Prosecution Service
+CPS
+Company
+Co
+District Council
+DC
+Director of Public Prosecutions
+DPP
+Ex parte
+Ex p
+His/Her Majesty
+HM
+Inland Revenue Commission
+IRC
+London Borough Council
+LBC
+Practice Direction
+PD
+Rex (the King) and Regina (the Queen) unless the King or Queen is the respondent
+R
+Rules of the Supreme Court
+RSC
+Secretary of State
+SOS
+Internet sources
+http://www.parliament.uk
+(Parliament of the United Kingdom of Great Britain and Northern Ireland)
+http://www.legislation.gov.uk
+(official legislative site of the United Kingdom)
+http://www.gov.uk/government/organisations/ministry-of-justice
+(Ministry of Justice)
+http://www.official-documents.gov.uk
+(publications of the United Kingdom)
+http://www.gov.uk
+(information site for Central Government)
+http://privycouncil.independent.gov.uk
+(Privy Council Office)
+http://services.parliament.uk/bills
+(Index to Bills)
+http://www.legalabbrevs.cardiff.ac.uk
+(Cardiff Index to Legal Abbreviations)
+http://www.publications.parliament.uk/pa/ld/ldjudgmt.htm
+(House of Lords Judgments from 1996–2009)
+https://www.thegazette.co.uk/
+(Gazettes)
+http://www.bailii.org
+(British and Irish Legal Information Institute)
+http://www.british-history.ac.uk
+(British History Online (contains historical Parliamentary Debates))
+https://guides.loc.gov/law-england/legal-guides
+(Law Library of Congress Legal Research Guide: United Kingdom)
+http://www.number10.gov.uk/news/latest-news
+(Latest News (Prime Minister’s press releases))
+https://hansard.parliament.uk
+T2.43.1 –
+England and Wales
+Cases
+Prior to 1865
+Prior to 1865, there was no official series of law reports. Cases were reported in numerous commercial reporters, commonly referred to as the nominate reporters. Subsequently, most of the nominate reporters were reprinted in a series referred to as the
+English Reports
+(
+Eng. Rep.
+). The
+English Reports
+should be cited if the case is available therein, and a parallel citation to the original nominate reporter should also be given. Providing the name of the court that heard these cases is not required, but maybe included if desired.
+Citation format:
+<case name>
+(
+<year of publication>
+)
+<volume number, if any>
+Eng. Rep.
+<first page> <page(s) of specific material, if desired>
+;
+<volume number, if any> <nominate reporter abbreviation> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<jurisdiction abbreviation if not evident from context>
+)
+.
+Semayne’s Case (1604) 77 Eng. Rep. 194, 195; 5 Co. Rep. 91 a, 93 b.
+English Reports
+English Reports—Full Reprint
+1220–1867
+Eng. Rep.
+Revised Reports
+1785–1866
+Rev. Rep.
+Year Books
+Y.B.
+In citing the Year Books, include the regnal year, folio, term in which the plea was heard, and plea number; include a parallel citation to a nineteenth- or twentieth-century reprint if possible.
+Y.B. 17 Edw. 4, fol. 2a, Pasch, pl. 3 (1477) (Eng.).
+Y.B. 10 Edw. 2, Hil. 20 (1317) (Eng.),
+reprinted in
+54
+Selden Society
+53 (1935).
+After 1865
+Cite to the official
+Law Reports
+, if therein. The
+Law Reports
+consist of the House of Lords cases (
+HL
+), Privy Council cases (
+PC
+), Appeal Courts (Criminal and Civil) (
+AC
+), Queen’s Bench (
+QB
+), Chancery (
+Ch
+), Family (
+Fam.
+), Probate (
+P
+), Employment Appeal Tribunal (
+EAT
+), and relevant cases from the European Court of Justice (
+ECJ
+). Other reporters should only be used if a case has not been reported in the
+Law Reports
+, in the following order of preference:
+Weekly Law Reports
+(
+WLR
+),
+All England Law Reports
+(
+All ER
+), or other reporters.
+Citation format:
+<case name> <year of publication in parentheses or in brackets, depending on the reporter> <volume number, if any> <reporter abbreviation> <first page>
+(
+<court abbreviation if not clearly indicated by reporter>
+)
+<“at” page(s) of specific material, or paragraph number(s) of specific material in brackets, if desired>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+R v. Kelly [1999] QB 621 at 625 (Eng.).
+Neutral citation
+All judgments after 2001 have a neutral citation. For these cases, cite first to the neutral citation and then to the official
+Law Reports
+, if therein. Note that not all cases are published in the
+Law Reports
+. Follow the order of preference of the
+Law Reports
+as noted above.
+Cases that are also reported in the official
+Law Reports
+should first list the neutral citation and then the citation of the official reporter following the citation format:
+<case name>
+[
+<year of publication>
+]
+<neutral citation court abbreviation>
+(
+<court abbreviation if not evident from citation>
+)
+<case reference number>
+, [
+<paragraph(s) of specific material, if desired>
+],
+<citation to official reporter>
+(
+<jurisdiction abbreviation if not evident from context>
+)
+.
+Quinland v. Governor of Swaleside Prison [2002] EWCA (Civ) 174 [178], [2003] QB 306 [317] (Eng.).
+Michael Charman v. Orion Publishing [2007] EWCA (Civ) 972 [43], [50], [52]–[55] (Eng.).
+Neutral citation abbreviations
+Supreme Court of the United Kingdom
+UKSC
+Court of Appeal (Civil)
+EWCA (Civ)
+Court of Appeal (Criminal)
+EWCA (Crim)
+High Court (Chancery)
+EWHC (Ch)
+High Court (Queen’s Bench)
+EWHC (QB)
+High Court (Administrative Court)
+EWHC (Admin)
+High Court (Family)
+EWHC (Fam)
+High Court (Admiralty)
+EWHC (Admlty)
+High Court (Technology & Construction)
+EWHC (TCC)
+Patents Court
+EWHC (Pat)
+Commercial Court
+EWHC (Comm)
+Attributions to judges
+When attributing an opinion to a judge, use the following citation format:
+<case name> <year of publication in parentheses or brackets, depending on
+the reporter> <volume number, if any> <reporter abbreviation> <first page>
+(
+<court
+if not clearly indicated by reporter>
+)
+<page(s) of specific material, or paragraph
+number(s) of specific material in brackets, if desired>
+(
+<judge name>
+) (appeal
+taken from
+<court abbreviation, if applicable>
+) (
+<jurisdiction abbreviation if not
+evident from context>
+).
+R v. Martin [1998] AC 917 (HL) 948 (Lord Hope of Craighead) (appeal taken from HM Court-Martial App. Ct.) (UK).
+For Law Lords of Appeal in the Ordinary, territorial qualifications may be used the first time they are mentioned, then subsequently omitted (e.g., “
+Lord Hope of Craighead
+,” then “
+Lord Hope
+”).
+Abbreviations of judges
+Supreme Court Judge
+<appropriate peerage or Sir/Dame> <last name>
+SCJ
+E.g.,
+Lord Smith SCJ
+President of the Supreme Court
+<appropriate peerage or Sir/Dame> <last name>
+P
+E.g.,
+Lord Smith P
+Deputy President of the Supreme Court
+<appropriate peerage> <last name>
+DP
+E.g.,
+Lord Smith DP
+Law Lord of Appeal in Ordinary
+no abbreviation
+E.g., Lord Hope of Craighead
+E.g., Baroness Hale
+Lord Chief Justice
+<title> <last name>
+CJ
+E.g., Lord Woolf CJ
+Master of the Rolls
+<title> <last name>
+MR
+E.g., Lord Woolf MR
+Lord Chancellor
+<title> <last name>
+LC
+E.g.,Lord Irvine of Lairg LC
+Justice of the Court of Appeal
+<title, if the Justice is a peer> <last name>
+LJ
+E.g., Smith LJ or Lord Smith LJ
+Justices of the High Court
+<last name>
+J
+E.g., Smith J
+Official law reports
+Appeal Cases (3d Series)
+1891–date
+AC
+Appeal Cases (2d Series)
+1875–1890
+App. Cas.
+Chancery Division
+1891–date
+Ch
+Queen’s Bench
+1952–date
+QB
+Family Division
+1972–date
+Fam.
+Admiralty & Ecclesiastical Cases
+1865–1875
+LRA & E
+Chancery Appeal
+1865–1874
+Ch App.
+Chancery Division
+1875–1890
+Ch D
+Chancery Division
+1866–1875
+LRCh
+Common Pleas
+1875–1880
+CPD
+Common Pleas
+1865–1875
+LRCP
+Criminal Appeal Reports
+1908–date
+Crim. App.
+Crown Cases Reserved
+1865–1875
+LRCCR
+English and Irish Appeals (continued by Appeal Cases, 2nd Series)
+1866–1875
+LRE & I App.
+Equity Cases
+1865–1875
+LR Eq.
+Exchequer Cases
+1865–1875
+LR Exch.
+Exchequer Division (merged with Queen’s Bench)
+1875–1880
+Exch. Div.
+House of Lords, Scotch & Divorce Appeals
+1866–1875
+LRHL Sc.
+King’s Bench
+1901–1951
+KB
+Privy Council Appeal Cases (continued by Appeal Cases, 2nd Series)
+1865–1875
+LRPC
+Probate (continued by Family Division)
+1891–1970
+P
+Probate, Divorce & Admiralty Division
+1875–1890
+PD
+Probate & Divorce Cases
+1865–1875
+LRP & D
+Queen’s Bench
+1891–1900
+QB
+Queen’s Bench
+1865–1875
+LRQB
+Queen’s Bench Division
+1875–1890
+QBD
+Scotch and Divorce Appeals (continued by Appeal Cases, 2nd Series)
+1866–1875
+LRS & D App.
+Law reports and journals
+All England Law Reports
+1936–date
+All ER
+All England Law Reports  (Commercial Cases)
+1998–date
+All ER (Comm.)
+All England Law Reports  (European Cases)
+1995–date
+All ER (EC)
+All England Law Reports Annual Review
+1982–date
+All ER Rev.
+Annotated Tax Cases
+1922–1976
+ATC
+Banking Law Reports
+1992–1997
+Bank LR
+Butterworth’s Company Law Cases
+1983–date
+BCLC
+Butterworth’s Medico–Legal Reports
+1992–date
+BMLR
+Commercial Cases
+1896–1941
+Com. Cas.
+Criminal Appeal Reports  (Sentencing)
+1979–date
+Cr. App. R(S)
+De-Rating Appeals
+1930–1961
+DRA
+Financial Times Law Reports
+1981–date
+FTLR
+Industrial Cases Reports (formerly Industrial Court Reports)
+1975–date
+ICR
+Information Technology Law Reports
+1997–date
+Info. TLR
+Justice of the Peace and Local Government Review Reports
+1837–date
+JPR
+Justice of the Peace Reports
+1983–date
+JP
+Knight’s Local Government Reports
+1903–1998
+LGR
+L.J.R., King’s Bench, New Series
+1831–1946
+LJKB
+L.J.R., King’s Bench, Old Series
+1822–1831
+LJKBOS
+Law Journal Reports
+1822–1949
+LJR
+Law Times Reports
+1859–1947
+LT
+Law Times Reports, Old Series
+1843–1859
+LTOS
+Lloyd’s Law Reports
+1968–date
+Lloyd’s Rep.
+Lloyd’s Law Reports Banking
+1999–date
+Lloyd’s Rep. Bank
+Lloyd’s List Law Reports
+1919–1967
+Lloyd’s List LR
+Magisterial Cases
+1896–1946
+Mag. Cas.
+Professional Negligence and  Liability Reports
+1996–date
+PNLR
+Property and Compensation Reports  (formerly Planning and Compensation Reports)
+1949–1985
+P & CR
+Property Planning and  Compensation Reports
+1986–date
+PP & CR
+Rating and Valuation Reporter
+1960–date
+R & VR
+Rating Appeals
+1962–date
+RA
+Reports of Patent Cases
+1884–1885
+RPC
+Reports of Patent, Design, and Trademark Cases
+1884–date
+RPDTMC/TMC/RPC
+Reports of Tax Cases
+1875–date
+TC
+Road Haulage Cases
+1950–1953
+RHC
+Road Traffic Reports
+1970–date
+RTR
+Simon’s Tax Cases
+1973–date
+STC
+Solicitors’ Journal
+1857–date
+SJ
+Taxation Reports
+1939–1981
+TR
+Times Law Reports
+1884–1952
+TLR
+Times Newspaper Law Reports
+1953–date
+The Times
+Weekly Law Reports
+1953–date
+WLR
+Weekly Notes
+1866–1952
+WN
+Welsh statutory instruments
+Citation format:
+<statute name>
+<year of enactment>
+, W.S.I.
+<instrument number>
+(W.
+<number>
+)
+<article>
+,
+<paragraph>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+The Food (Hot Chilli and Hot Chilli Products) (Emergency Control) (Amendment) (Wales) Regulations 2004, W.S.I. 2004/392 (W. 40) art. 2, ¶ 3.
+Internet sources
+http://www.legislation.gov.uk
+(UK Legislation via the National Archives (UK))
+http://www.supremecourt.uk/decided-cases
+(cases of the United Kingdom Supreme Court)
+https://www.gov.wales/
+(Welsh Assembly Government)
+https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service
+(His Majesty’s Courts and Tribunals Service)
+http://www.bailii.org/databases.html
+(British and Irish Legal Information Institute (English and Welsh case law))
+http://www.oldbaileyonline.org
+(Proceedings of the Old Bailey — Cases from 1674–1913)
+http://www.cps.gov.uk
+(Crown Prosecution Service)
+http://www.lawsociety.org.uk
+(Law Society)
+http://www.loc.gov/law/help/guide/nations/uk.html
+(Library of Congress Guide to Law Online: United Kingdom)
+T2.43.2 –
+Northern Ireland (and Ireland Until 1924)
+The Northern Ireland Assembly was established in 1998 (and came into effect in December 1999) as part of the Belfast Agreement that devolved legislative powers in certain areas to Northern Ireland.
+Cases
+All courts:
+Cite to NI or Ir. R., if therein. The court structure is similar to the English court system.
+Citation format:
+<case name> <year of publication in parentheses or brackets,
+depending on reporter> <volume number, if any> <reporter abbreviation> <first
+page>
+(
+<court abbreviation, if not clearly indicated by reporter>
+) (
+<jurisdiction
+abbreviation if not evident from context>
+).
+Re Taylor [1973] NI 159 (QB) 18.
+Law reports
+Northern Ireland Law Reports
+1925–date
+NI
+Irish Reports
+1894–date
+Ir. R.
+Law Reports, Ireland (4th series) (continued by Irish Reports)
+1878–1893
+LR Ir.
+Irish Reports, Common Law Series (2nd series)
+1867–1878
+Ir. R-CL
+Irish Common Law Reports (2nd series) (continued by Irish Reports, Common Law Series)
+1850–1866
+Ir. CL
+Irish Law Reports (1st series) (continued by Irish Common Law Reports)
+1838–1850
+Ir. LR
+Irish Law Times Reports
+1867–date
+Ir. LTR
+Irish Jurist Reports
+1849–1867
+Ir. Jur.
+Neutral citation
+All judgments after 2001 have a neutral citation. Cases that are also reported in the official Law Reports should first list the neutral citation and then the citation of the official reporter.
+Citation format:
+<case name>
+[
+<year of publication>
+]
+<neutral citation>
+(
+<court abbreviation if not evident from citation>
+)
+<case reference number>
+, [
+<paragraph number(s) of specific material, if desired>
+],
+<year in parentheses or brackets, depending on reporter> <reporter abbreviation> <first page>
+,
+<court, if not clearly indicated by reporter>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+R v. Singleton [2003] NICA (Civ) 29, [2], [2004] NI 71, CA.
+R v. Pollock [2004] NICA (Crim) 34, [38] (N. Ir.).
+Neutral citation court abbreviations
+Court of Appeal (Civil)
+NICA (Civ)
+Court of Appeal (Criminal)
+NICA (Crim)
+High Court (Chancery)
+NICh
+High Court (Queen’s Bench)
+NIQB
+High Court (Family)
+NIFam
+Crown Court
+NICC
+Neutral citation  tribunal abbreviations
+Northern Ireland Fair Employment Tribunal
+NIFET
+Northern Ireland Industrial Tribunals
+NIIT
+Statutes
+The citation format of statutes applicable to Northern Ireland always includes, in parentheses, “
+(Northern Ireland)
+,” either before or after the word “
+Act
+,” as part of the title. The location of the words “
+(Northern Ireland)
+” is dependent upon whether the act was passed in the Westminster Parliament, Northern Ireland, or Ireland. For acts passed by the United Kingdom Parliament (1226–date), “
+(Northern Ireland)
+,” or “
+(Ireland)
+,” whichever is appropriate, is located before the word “
+Act
+.”
+Citation format:
+<statute short title, if available> <year(s) of enactment> <regnal year(s) for statutes prior to 1963> <chapter>
+,
+<section>
+,
+<schedule, if any>
+.
+Commission for Victims and Survivors Act (Northern Ireland) 2008 c. 6, § 1, sch. 1.
+Public Processions (Northern Ireland) Act 1998 c. 2.
+For acts passed in Ireland by the Irish Parliament in Dublin (1310–1800) and in Northern Ireland by the Parliament in Northern Ireland (1921–1977) and the Northern Ireland Assembly (2000–date), “
+(Ireland)
+” or “
+(Northern Ireland)
+,” whichever is appropriate, is located after the word “
+Act
+” and before the year.
+Electronic Communications Act (Northern Ireland) 2001 c. 9.
+Statutory compilations and session laws
+Northern Ireland Statutes
+1972–date
+N. Ir. Stat.
+Northern Ireland Public General Acts
+1947–1971
+N. Ir. Pub. Gen. Acts
+Northern Ireland Public General Statutes
+1921–1946
+N. Ir. Pub. Gen. Stat.
+Statutes Revised, Northern Ireland,
+Cumulative Supplement
+1981–date
+N. Ir. Rev. Stat. Cm. Sup.
+Statutes Revised, Northern Ireland
+1226–1981
+N. Ir. Rev. Stat.
+Regulations
+The rule above concerning the location of “
+(Northern Ireland)
+” should be followed in the citation of Orders in Council and other regulations.
+Citation format for Orders in Council (treated as primary legislation in Northern Ireland):
+<order title>
+<year of enactment>
+, SI
+<year of enactment>
+/
+<Statutory Instrument number>
+(N. Ir.
+<number>
+)
+<article>
+,
+<paragraph>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+The Energy (Northern Ireland) Order 2003, SI 2003/419 (N. Ir. 6) art. 5, ¶ 2.
+Citation format for Northern Ireland Statutory Rules:
+<rule title> <year of enactment>,
+SR
+<year of enactment>
+/
+<Statutory Rule number>
+<article>
+,
+<paragraph>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Identification and Notification of Cattle Regulations (Northern Ireland) 2004 SR 2004/420 art. 2, ¶ 1.
+Statutory Rules and Orders of Northern Ireland
+1922–1973
+SR & O (N. Ir.).
+Internet sources
+http://www.niassembly.gov.uk
+(Northern Ireland Assembly)
+http://aims.niassembly.gov.uk/officialreport/officialreport.aspx
+(Official Report of the Northern Ireland Assembly (Hansard))
+http://www.legislation.gov.uk
+(Laws of Northern Ireland via the National Archives)
+http://www.bailii.org/nie/legis/num_act
+(Statutes of Northern Ireland)
+http://www.gov.uk/government/organisations/northern-ireland-office
+(Northern Ireland Office)
+http://www.courtsni.gov.uk
+(Northern Ireland Court Service)
+http://www.lawsoc-ni.org
+(Law Society of Northern Ireland)
+http://www.nilawcommission.gov.uk/index.htm
+(Northern Ireland Law Commission)
+http://www.loc.gov/law/help/guide/nations/uk.php
+(Library of Congress Guide to Law Online: United Kingdom)
+T2.43.3 –
+Scotland
+A Scottish Parliament was created by an Act of Parliament in 1998 that devolved certain legislative powers to Scotland. The Scottish Parliament opened in 1999 and has authority to pass primary legislation in areas such as health, education, agriculture, and justice in the form of Acts of Scottish Parliament and Scottish Statutory Instruments.
+Cases
+The Supreme Courts of Scotland consist of the
+Court of Session
+, which hears civil cases, and the
+High Court of Justiciary
+, which hears criminal cases. The
+Sheriff Courts
+are lower courts that hear civil and criminal cases, as well as fatal accident inquiries.
+Citation format:
+<case name>
+(
+<year of publication>
+)
+<reporter abbreviation> <first page>
+,
+<page(s) of specific material, or paragraph number(s) of specific material in brackets, if desired>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Allison v. Orr (2004) SCLR 767, 768 (Scot.).
+All judgments after 2001 have a neutral citation. For cases that are also reported in the official
+Law Reports
+, a parallel citation should be included after the neutral citation.
+Citation format:
+<case name>
+[
+<year of publication>
+]
+<neutral citation> <court abbreviation if not evident from citation> <case reference number>
+[
+<paragraph(s) of specific material, if desired>
+], (
+<year in parentheses or brackets, depending on the reporter>
+)
+<reporter abbreviation> <first page>
+,
+<page(s) of specific material, or paragraph number(s) of specific material in brackets, if desired>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Smith v. Jones [2006] CSIH 34 [45], (2006) SC 236, 239 (Scot.).
+Court of Session
+(
+Sess.
+) (general original and appellate jurisdiction of civil cases): Cite to SC, if therein. Citations to
+SC
+should include the year as above; citations to the older series are to the volume in place of the year.
+Dalgleish v. Assessor for Strathclyde Region (1986) SC 23 (Scot.).
+Crichton v. Henderson’s Trs. 1 F 24 (Scot.).
+Session Cases
+1907–date
+SC
+Fifth Series (edited by Fraser)
+1898–1906
+F
+Fourth Series (edited by Rettie)
+1873–1898
+R
+Third Series (edited by Macpherson)
+1862–1873
+M
+Second Series (edited by Dunlop)
+1838–1862
+D
+First Series (edited by Shaw)
+1821–1838
+S
+Scottish Civil Law Reports
+1987–date
+SCLR
+Session Cases (House of Lords) Session Section
+1850–date
+SC (HL)
+High Court of Justiciary
+(
+HCJ
+) (criminal appeals and trials of the most serious crimes): Cite to
+JC
+or
+SC(J)
+, if therein.
+Lloyd v. HM Advocate 1 F(J) 31 (Scot.).
+Scott v. Smith (1981) JC 46 (Scot.).
+Justiciary Cases (sometimes bound with Session Cases)
+1917–date
+JC
+Session Cases, High Court of Justiciary section
+1906–1916
+SC(J)
+Fifth Series (edited by Fraser)
+1898–1906
+F(J)
+Fourth Series (edited by Rettie)
+1873–1898
+R(J)
+Neutral citations before 2005
+Scottish Court of Session Decisions
+ScotCS
+Scottish High Court Decisions
+ScotHC
+Scottish Sheriff Court Decisions
+ScotSC
+Neutral citations after 2005
+Scottish Court of Session, Inner House
+CSIH
+Scottish Court of Session, Outer House
+CSOH
+Scottish High Court of Justiciary
+HCJT
+Scottish Court of Criminal Appeal
+HCJAC
+Statutes
+Acts of the Scottish Parliament since 1999:
+Citation format:
+<statute short title, if available>
+<year of enactment>
+, (ASP
+<Act of Scottish Parliament number>
+)
+<section>
+,
+<schedule, if any>
+,
+<paragraph>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Vulnerable Witnesses (Scotland) Act 2004, (ASP 3) § 3, sch. 2, ¶ 3.
+The acts of the Scottish Parliament that existed from 1235 to 1707 may be cited to the following compilations:
+The Acts of the Parliaments of Scotland
+1814–1875
+APS
+Records of the Parliaments of Scotland to 1707 (available at
+http://www.rps.ac.uk
+)
+RPS
+Internet sources
+http://www.scottish.parliament.uk
+(Scottish Parliament)
+http://www.scotcourts.gov.uk
+(Scottish Courts and Tribunals Services)
+http://www.legislation.gov.uk
+(Scottish Legislation via the National Archives)
+https://www.parliament.scot/bills-and-laws/bills
+(Current Scottish Bills)
+http://www.bailii.org/databases.html#scot
+(British and Irish Legal Information Institute, Scottish Legislation and Cases)
+http://www.scottishlaw.org.uk/scotlaw/scotorgsgov.html
+(Scottish Government links)
+http://www.lawscot.org.uk
+(Law Society of Scotland)
+http://www.journalonline.co.uk
+(Online Journal of the Law Society of Scotland)
+http://www.scotlawcom.gov.uk
+(Scottish Law Commission)
+http://www.loc.gov/law/help/guide/nations/uk.php
+(Library of Congress Guide to Law Online: United Kingdom)

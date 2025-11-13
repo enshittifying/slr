@@ -1,0 +1,37 @@
+TITLE: 12.8 Explanatory Parenthetical Phrases (p.135)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 12-statutes
+  slug: 12-8-explanatory-parenthetical-phrases
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+12.8
+Explanatory Parenthetical Phrases
+(p.135)
+Explanatory parenthetical phrases are used to show the code location of statutes cited to session laws (
+rules 12.2.2
+and
+12.4
+) or secondary sources (
+rule 12.6
+); to identify useful dates, such as the effective date of a statute (
+rules 12.3.2
+and
+12.4(e)
+); and to indicate the invalidation, repeal, amendment, or prior history (
+rule 12.7
+) of a statute. In addition, explanatory parenthetical phrases may be used to give any other relevant information about a statute:
+5 U.S.C. § 553(b) (requiring agencies to publish notice of proposed rulemaking in the
+Federal Register
+).
+See generally
+rule 1.5
+(parenthetical information).

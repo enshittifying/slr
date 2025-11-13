@@ -1,0 +1,175 @@
+TITLE: District of Columbia (D.C.) (pp. 280–81)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: district-of-columbia-d-c
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+District of Columbia (D.C.)
+(pp. 280–81)
+http://www.dccourts.gov
+http://code.dccouncil.us/dc/council/code
+Court of Appeals
+(
+D.C.
+), previously
+Municipal Court of Appeals
+(
+D.C.
+): Cite to
+A.2d
+or
+A.3d
+.
+Atlantic Reporter
+1943–date
+A.2d, A.3d
+United States Court of Appeals for the District of Columbia Circuit
+(
+D.C. Cir.
+), previously
+Court of Appeals of/for the District of Columbia
+(
+D.C. Cir.
+), previously
+Supreme Court of the District of Columbia
+(
+D.C.
+): Cite to
+F.
+,
+F.2d, F.3d
+, or
+F.4th
+, if therein.
+Federal Reporter
+1919–date
+F., F.2d, F.3d, F.4th
+United States Court of Appeals Reports
+1941–date
+U.S. App. D.C.
+Appeal Cases, District of Columbia
+1893–1941
+App. D.C.
+District of Columbia Reports
+Tucker and Clephane
+1892–1893
+21 D.C. (Tuck. & Cl.)
+Mackey
+1880–1892
+e.g.
+,
+12 D.C. (1 Mackey)
+MacArthur and Mackey
+1879–1880
+11 D.C. (MacArth. & M.)
+MacArthur
+1873–1879
+e.g.
+,
+8 D.C. (1 MacArth.)
+District of Columbia Reports
+(reported by Mackey)
+1863–1872
+e.g.
+,
+6 D.C.
+Hayward & Hazleton, Circuit Court
+(Circuit Court Reports, vols. 6–7)
+1840–1863
+e.g.
+,
+1 Hay. & Haz.
+Cranch, Circuit Court
+1801–1840
+e.g.
+,
+2 D.C. (2 Cranch)
+Superior Court
+(
+D.C. Super. Ct.
+), previously
+Municipal Court
+(
+D.C. Mun. Ct.
+): Cite to
+Daily Wash. L. Rptr
+.
+Daily Washington Law Reporter
+1971–date
+Daily Wash. L. Rptr.
+Statutory compilations:
+Cite to
+D.C. Code
+, if therein.
+District of Columbia Official Code (LexisNexis)
+D.C. Code
+§ x-x (
+<year>
+)
+West's District of Columbia Code Annotated (West)
+D.C. Code Ann.
+§ x-x (West
+<year>
+)
+Session laws:
+Cite to
+Stat.
+,
+D.C. Reg.
+, or
+D.C. Code Adv. Leg. Serv.
+, if therein.
+United States Statutes at Large
+<vol. no.>
+Stat.
+<page no.>
+(
+<year>
+)
+District of Columbia Register
+<vol. no.>
+D.C. Reg.
+<page no.>
+(
+<month day, year>
+)
+District of Columbia Official Code Lexis Advance Legislative Service
+<year>
+-
+<pamph. no.>
+D.C. Code Adv. Leg. Serv.
+<page no.>
+District of Columbia Session Law Service West
+<year>
+D.C. Sess. L. Serv.
+<page no.>
+(West)
+Municipal regulations:
+Cite to
+D.C. Mun. Regs
+., if therein.
+Code of D.C. Municipal Regulations
+D.C. Mun. Regs. tit. x, § x (
+<year>
+)
+Code of District of Columbia Municipal Regulations (LexisNexis)
+D.C. Code Mun. Regs. tit. x, § x (LexisNexis
+<year>
+)
+Administrative register
+District of Columbia Register
+<vol. no.>
+D.C. Reg.
+<page no.>
+(
+<month day, year>
+)

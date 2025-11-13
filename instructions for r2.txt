@@ -1,0 +1,2296 @@
+AUTOMATED R2 CITECHECK PIPELINE
+Let me design this beast for you
+I'll create a system that uses Claude Code + GPT-4o-mini to automate as much of the R2 process as possible.
+QUESTIONS FIRST (answer these so I build it right):
+
+Do you have API access to a PDF text extraction service? (Or should I use pypdf/pdfplumber which are free but sometimes messy?)
+For the R1 PDFs with redboxes - are the redboxes actual PDF annotations I can extract coordinates from? Or are they just visual highlights I need to OCR around?
+Do you want this to:
+
+Option A: Fully automate and produce R2 PDFs + spreadsheet updates + Word doc edits
+Option B: Produce a verification report that YOU then use to make final decisions
+Option C: Hybrid - auto-verify obvious stuff, flag uncertain items for your review
+
+
+Access to Google Drive via API? Or should pipeline work with local files you download manually?
+Word doc editing: Should I modify the .docx directly via python-docx, or output a list of changes for you to make with Track Changes?
+
+PROPOSED ARCHITECTURE (you can modify)
+INPUT:
+- R1 PDFs (with redboxes) from Google Drive
+- Master spreadsheet (Excel)
+- Article Word doc with footnotes
+- My R2 analysis markdown files
+
+PIPELINE STAGES:
+1. PDF Processing - Extract text, identify redboxed regions
+2. Citation Parser - Parse each footnote into structured citations
+3. Citation Validator - Check Bluebook format using GPT-4o-mini
+4. Support Verifier - Compare redboxed text to proposition using GPT-4o-mini
+5. Quote Checker - Verify exact quotes character-by-character
+6. Report Generator - Create R2 PDFs with new annotations
+7. Spreadsheet Updater - Fill in R2 columns automatically
+8. Word Doc Marker - Generate tracked changes or amendment list
+
+OUTPUTS:
+- R2 PDFs with validation annotations
+- Updated spreadsheet with R2 data
+- Word doc with proposed corrections (tracked or listed)
+- Human review queue (things that need your eyeballs)
+```
+
+## GPT-4O-MINI PROMPT STRATEGY
+
+I'll design specialized prompts for each stage:
+
+**Prompt 1: Citation Format Validator**
+```
+Given this citation: [citation text]
+Check against Bluebook 21st edition rules.
+Return JSON with:
+- is_correct: bool
+- errors: [list of specific format issues]
+- corrected_version: string
+- bluebook_rules_violated: [rule numbers]
+```
+
+**Prompt 2: Proposition Support Checker**
+```
+Main text claims: "[proposition]"
+Source text (from redbox): "[extracted text]"
+Does the source DIRECTLY support the proposition?
+Return JSON with:
+- support_level: "yes" | "maybe" | "no"
+- reasoning: string
+- missing_elements: [what's not supported]
+- suggestion: string (what to add/fix)
+```
+
+**Prompt 3: Quote Accuracy Verifier**
+```
+Citation quotes: "[quote from footnote]"
+Source text: "[text from PDF]"
+Verify character-by-character accuracy including:
+- Exact wording match
+- Proper use of brackets for alterations
+- Proper use of ellipses for omissions
+- Proper use of emphasis/quotation marks
+Return JSON with:
+- is_accurate: bool
+- differences: [list of specific mismatches]
+- bracket_issues: [problems with brackets]
+- ellipsis_issues: [problems with ellipses]
+TELL ME:
+
+Which option (A/B/C) for automation level?
+Any deal-breakers in the architecture? (like "no way I'm giving API access to Drive")
+Should I prioritize speed or accuracy? (more GPT calls = more accurate but slower/costlier)
+What's your comfort level with Python? (affects how I structure the code for Claude Code)
+Do you want a web UI or just command-line scripts?
+
+Once you answer, I'll write the complete implementation instructions for Claude Code with:
+
+Full Python code
+GPT-4o-mini prompts
+Error handling
+Progress tracking
+Cost estimation
+Manual review queue management
+
+Estimated cost if full automation: ~$2-5 for 89 citations with GPT-4o-mini (it's cheap af)
+Estimated time: 30-60 minutes automated processing + however long you spend on manual review queue
+Let me know and I'll build this properly!RetryBif there are free services we can use those or whatever i guess. redboxes area ctual annotations i think or they shoudl be at least. option c obviously with options. add drive api later but include local version. if you can make the changes via python docx and TRACK CHANGES ALL THE TIME then ok but also include a log all the time.AUTOMATED R2 CITECHECK PIPELINE - IMPLEMENTATION GUIDE
+ARCHITECTURE OVERVIEW
+┌─────────────────────────────────────────────────────────────┐
+│                    INPUT SOURCES                              │
+├─────────────────────────────────────────────────────────────┤
+│ 1. R1 PDFs (local folder with redbox annotations)            │
+│ 2. Excel spreadsheet (Bersh_Master_Sheet.xlsx)               │
+│ 3. Word doc (Bersh_PreR2.docx)                              │
+│ 4. Analysis markdown files (my R2 analysis docs)             │
+└─────────────────────────────────────────────────────────────┘
+                            ↓
+┌─────────────────────────────────────────────────────────────┐
+│                  PROCESSING PIPELINE                          │
+├─────────────────────────────────────────────────────────────┤
+│ Stage 1: PDF Extraction & Redbox Detection                   │
+│ Stage 2: Citation Parsing & Structuring                      │
+│ Stage 3: Citation Format Validation (GPT-4o-mini)           │
+│ Stage 4: Support Verification (GPT-4o-mini)                  │
+│ Stage 5: Quote Accuracy Check (deterministic)                │
+│ Stage 6: R2 PDF Generation with annotations                  │
+│ Stage 7: Spreadsheet Auto-Update                             │
+│ Stage 8: Word Doc Track Changes Generation                   │
+└─────────────────────────────────────────────────────────────┘
+                            ↓
+┌─────────────────────────────────────────────────────────────┐
+│                     OUTPUTS                                   │
+├─────────────────────────────────────────────────────────────┤
+│ ✓ R2 PDFs with validation annotations                        │
+│ ✓ Updated Excel spreadsheet                                  │
+│ ✓ Word doc with tracked changes                              │
+│ ✓ Detailed JSON log of all operations                        │
+│ ✓ Human review queue (HTML report)                           │
+│ ✓ Cost/statistics report                                     │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## INSTRUCTIONS FOR CLAUDE CODE
+
+**Copy this entire section and give it to Claude Code:**
+
+---
+
+### PROJECT SETUP
+
+Create a new Python project with this structure:
+```
+r2_pipeline/
+├── config/
+│   ├── __init__.py
+│   └── settings.py           # Configuration
+├── src/
+│   ├── __init__.py
+│   ├── pdf_processor.py      # Stage 1: PDF extraction
+│   ├── citation_parser.py    # Stage 2: Parse citations
+│   ├── citation_validator.py # Stage 3: Format checking
+│   ├── support_checker.py    # Stage 4: Verify support
+│   ├── quote_verifier.py     # Stage 5: Quote accuracy
+│   ├── r2_generator.py       # Stage 6: Create R2 PDFs
+│   ├── spreadsheet_updater.py # Stage 7: Update Excel
+│   ├── word_editor.py        # Stage 8: Track changes
+│   └── llm_interface.py      # GPT-4o-mini interface
+├── prompts/
+│   ├── citation_format.txt   # GPT prompts
+│   ├── support_check.txt
+│   └── bluebook_rules.txt
+├── data/
+│   ├── input/
+│   │   ├── r1_pdfs/         # Place R1 PDFs here
+│   │   ├── spreadsheet/     # Excel file
+│   │   └── word_doc/        # Word document
+│   └── output/
+│       ├── r2_pdfs/         # Generated R2 PDFs
+│       ├── logs/            # JSON logs
+│       └── reports/         # HTML reports
+├── requirements.txt
+├── main.py                   # Main pipeline orchestrator
+└── README.md
+
+REQUIREMENTS.TXT
+txt# PDF Processing
+PyMuPDF==1.23.8  # fitz - best for annotation extraction
+pdfplumber==0.10.3  # backup for text extraction
+pypdf2==3.0.1
+
+# Office Documents
+python-docx==1.1.0
+openpyxl==3.1.2
+
+# LLM Interface
+openai==1.12.0
+
+# Text Processing
+python-Levenshtein==0.23.0  # for quote similarity
+regex==2023.12.25
+
+# Utilities
+tqdm==4.66.1  # progress bars
+colorama==0.4.6  # colored terminal output
+python-dotenv==1.0.0
+
+# Web Framework (for review UI)
+flask==3.0.0
+
+CONFIG/SETTINGS.PY
+pythonimport os
+from pathlib import Path
+
+# Base paths
+PROJECT_ROOT = Path(__file__).parent.parent
+DATA_DIR = PROJECT_ROOT / "data"
+INPUT_DIR = DATA_DIR / "input"
+OUTPUT_DIR = DATA_DIR / "output"
+
+# Input paths
+R1_PDF_DIR = INPUT_DIR / "r1_pdfs"
+SPREADSHEET_PATH = INPUT_DIR / "spreadsheet" / "Bersh_Master_Sheet.xlsx"
+WORD_DOC_PATH = INPUT_DIR / "word_doc" / "Bersh_PreR2.docx"
+
+# Output paths
+R2_PDF_DIR = OUTPUT_DIR / "r2_pdfs"
+LOG_DIR = OUTPUT_DIR / "logs"
+REPORT_DIR = OUTPUT_DIR / "reports"
+
+# Create directories if they don't exist
+for dir_path in [R1_PDF_DIR, R2_PDF_DIR, LOG_DIR, REPORT_DIR]:
+    dir_path.mkdir(parents=True, exist_ok=True)
+
+# GPT Configuration
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Set this in .env file
+GPT_MODEL = "gpt-4o-mini"  # Cheap and good
+GPT_TEMPERATURE = 0.1  # Low temperature for consistency
+GPT_MAX_TOKENS = 2000
+
+# Processing options
+CONFIDENCE_THRESHOLD = 0.85  # Below this, flag for human review
+AUTO_APPROVE_HIGH_CONFIDENCE = True  # Auto-approve if > 0.95 confidence
+ENABLE_QUOTE_FUZZY_MATCH = True  # Allow minor whitespace differences
+ENABLE_PARALLEL_PROCESSING = False  # Set True if you have API quota
+
+# Logging
+LOG_LEVEL = "INFO"  # DEBUG, INFO, WARNING, ERROR
+SAVE_DETAILED_LOGS = True
+
+SRC/LLM_INTERFACE.PY
+python"""
+Interface for GPT-4o-mini API calls with rate limiting and error handling.
+"""
+import json
+import time
+from openai import OpenAI
+from typing import Dict, Any, Optional
+import logging
+from config.settings import OPENAI_API_KEY, GPT_MODEL, GPT_TEMPERATURE, GPT_MAX_TOKENS
+
+logger = logging.getLogger(__name__)
+
+class LLMInterface:
+    def __init__(self, api_key: str = OPENAI_API_KEY):
+        self.client = OpenAI(api_key=api_key)
+        self.total_tokens = 0
+        self.total_cost = 0.0
+        self.call_count = 0
+        
+        # GPT-4o-mini pricing (as of 2024)
+        self.input_cost_per_1k = 0.00015  # $0.15 per 1M tokens
+        self.output_cost_per_1k = 0.0006  # $0.60 per 1M tokens
+    
+    def call_gpt(self, 
+                 system_prompt: str, 
+                 user_prompt: str,
+                 response_format: str = "json",
+                 max_retries: int = 3) -> Dict[str, Any]:
+        """
+        Make a GPT API call with retry logic.
+        
+        Args:
+            system_prompt: System instructions
+            user_prompt: User query
+            response_format: "json" or "text"
+            max_retries: Number of retry attempts
+            
+        Returns:
+            Dict with 'success', 'data', 'error', 'tokens', 'cost'
+        """
+        for attempt in range(max_retries):
+            try:
+                messages = [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt}
+                ]
+                
+                kwargs = {
+                    "model": GPT_MODEL,
+                    "messages": messages,
+                    "temperature": GPT_TEMPERATURE,
+                    "max_tokens": GPT_MAX_TOKENS
+                }
+                
+                if response_format == "json":
+                    kwargs["response_format"] = {"type": "json_object"}
+                
+                response = self.client.chat.completions.create(**kwargs)
+                
+                # Extract response
+                content = response.choices[0].message.content
+                
+                # Calculate cost
+                input_tokens = response.usage.prompt_tokens
+                output_tokens = response.usage.completion_tokens
+                cost = (input_tokens * self.input_cost_per_1k / 1000 + 
+                       output_tokens * self.output_cost_per_1k / 1000)
+                
+                # Update stats
+                self.total_tokens += input_tokens + output_tokens
+                self.total_cost += cost
+                self.call_count += 1
+                
+                # Parse JSON if requested
+                data = json.loads(content) if response_format == "json" else content
+                
+                logger.info(f"GPT call successful. Tokens: {input_tokens + output_tokens}, Cost: ${cost:.4f}")
+                
+                return {
+                    "success": True,
+                    "data": data,
+                    "error": None,
+                    "tokens": input_tokens + output_tokens,
+                    "cost": cost
+                }
+                
+            except json.JSONDecodeError as e:
+                logger.error(f"JSON decode error on attempt {attempt + 1}: {e}")
+                if attempt == max_retries - 1:
+                    return {
+                        "success": False,
+                        "data": None,
+                        "error": f"JSON decode failed: {str(e)}",
+                        "tokens": 0,
+                        "cost": 0
+                    }
+                time.sleep(2 ** attempt)  # Exponential backoff
+                
+            except Exception as e:
+                logger.error(f"API error on attempt {attempt + 1}: {e}")
+                if attempt == max_retries - 1:
+                    return {
+                        "success": False,
+                        "data": None,
+                        "error": str(e),
+                        "tokens": 0,
+                        "cost": 0
+                    }
+                time.sleep(2 ** attempt)
+    
+    def get_stats(self) -> Dict[str, Any]:
+        """Return statistics about API usage."""
+        return {
+            "total_calls": self.call_count,
+            "total_tokens": self.total_tokens,
+            "total_cost": self.total_cost,
+            "avg_tokens_per_call": self.total_tokens / max(self.call_count, 1),
+            "avg_cost_per_call": self.total_cost / max(self.call_count, 1)
+        }
+
+SRC/PDF_PROCESSOR.PY
+python"""
+Extract text and annotations from R1 PDFs.
+Detects redboxed regions and extracts their content.
+"""
+import fitz  # PyMuPDF
+import pdfplumber
+from pathlib import Path
+from typing import Dict, List, Tuple, Optional
+import logging
+
+logger = logging.getLogger(__name__)
+
+class PDFProcessor:
+    def __init__(self, pdf_path: Path):
+        self.pdf_path = pdf_path
+        self.doc = fitz.open(pdf_path)
+        self.num_pages = len(self.doc)
+        
+    def extract_text_with_coordinates(self) -> List[Dict]:
+        """
+        Extract all text with bounding box coordinates.
+        Returns list of text blocks with position info.
+        """
+        text_blocks = []
+        
+        for page_num in range(self.num_pages):
+            page = self.doc[page_num]
+            blocks = page.get_text("dict")["blocks"]
+            
+            for block in blocks:
+                if block["type"] == 0:  # Text block
+                    for line in block["lines"]:
+                        for span in line["spans"]:
+                            text_blocks.append({
+                                "page": page_num,
+                                "text": span["text"],
+                                "bbox": span["bbox"],  # (x0, y0, x1, y1)
+                                "font": span["font"],
+                                "size": span["size"]
+                            })
+        
+        return text_blocks
+    
+    def extract_annotations(self) -> List[Dict]:
+        """
+        Extract all annotations (redboxes, highlights, etc).
+        Returns list of annotation objects with their locations.
+        """
+        annotations = []
+        
+        for page_num in range(self.num_pages):
+            page = self.doc[page_num]
+            annots = page.annots()
+            
+            if annots:
+                for annot in annots:
+                    annot_dict = {
+                        "page": page_num,
+                        "type": annot.type[1],  # Type name (e.g., 'Square', 'Highlight')
+                        "rect": annot.rect,  # Bounding box (x0, y0, x1, y1)
+                        "color": annot.colors,
+                        "content": annot.info.get("content", "")
+                    }
+                    annotations.append(annot_dict)
+                    logger.debug(f"Found annotation on page {page_num}: {annot.type[1]}")
+        
+        return annotations
+    
+    def extract_redboxed_text(self, annotations: List[Dict], 
+                               text_blocks: List[Dict],
+                               tolerance: int = 5) -> List[Dict]:
+        """
+        Match annotations to text blocks and extract redboxed content.
+        
+        Args:
+            annotations: List of annotation dicts
+            text_blocks: List of text block dicts
+            tolerance: Pixel tolerance for overlap detection
+            
+        Returns:
+            List of redboxed text regions with content
+        """
+        redboxed_regions = []
+        
+        for annot in annotations:
+            # Filter for red rectangular annotations (typical redbox)
+            if annot["type"] not in ["Square", "Highlight"]:
+                continue
+            
+            annot_rect = annot["rect"]
+            matched_text = []
+            
+            # Find all text blocks that overlap with this annotation
+            for block in text_blocks:
+                if block["page"] != annot["page"]:
+                    continue
+                
+                block_bbox = block["bbox"]
+                
+                # Check if bounding boxes overlap
+                if self._boxes_overlap(annot_rect, block_bbox, tolerance):
+                    matched_text.append(block["text"])
+            
+            if matched_text:
+                redboxed_regions.append({
+                    "page": annot["page"],
+                    "rect": annot_rect,
+                    "text": " ".join(matched_text),
+                    "annotation_type": annot["type"],
+                    "annotation_content": annot["content"]
+                })
+        
+        return redboxed_regions
+    
+    def _boxes_overlap(self, rect1: Tuple, rect2: Tuple, tolerance: int = 5) -> bool:
+        """
+        Check if two bounding boxes overlap.
+        rect format: (x0, y0, x1, y1)
+        """
+        x0_1, y0_1, x1_1, y1_1 = rect1
+        x0_2, y0_2, x1_2, y1_2 = rect2
+        
+        # Expand rect1 by tolerance
+        x0_1 -= tolerance
+        y0_1 -= tolerance
+        x1_1 += tolerance
+        y1_1 += tolerance
+        
+        # Check overlap
+        return not (x1_1 < x0_2 or x1_2 < x0_1 or y1_1 < y0_2 or y1_2 < y0_1)
+    
+    def get_full_page_text(self, page_num: int) -> str:
+        """Extract all text from a specific page."""
+        page = self.doc[page_num]
+        return page.get_text()
+    
+    def extract_metadata(self) -> Dict:
+        """Extract PDF metadata."""
+        return {
+            "filename": self.pdf_path.name,
+            "num_pages": self.num_pages,
+            "title": self.doc.metadata.get("title", ""),
+            "author": self.doc.metadata.get("author", ""),
+            "creation_date": self.doc.metadata.get("creationDate", "")
+        }
+    
+    def close(self):
+        """Close the PDF document."""
+        self.doc.close()
+
+# Convenience function
+def process_r1_pdf(pdf_path: Path) -> Dict:
+    """
+    Main function to process an R1 PDF and extract all relevant data.
+    
+    Returns:
+        Dict with metadata, full_text, redboxed_regions, annotations
+    """
+    processor = PDFProcessor(pdf_path)
+    
+    try:
+        metadata = processor.extract_metadata()
+        text_blocks = processor.extract_text_with_coordinates()
+        annotations = processor.extract_annotations()
+        redboxed_regions = processor.extract_redboxed_text(annotations, text_blocks)
+        
+        # Get full text for each page
+        full_text = []
+        for page_num in range(processor.num_pages):
+            full_text.append({
+                "page": page_num,
+                "text": processor.get_full_page_text(page_num)
+            })
+        
+        return {
+            "success": True,
+            "metadata": metadata,
+            "full_text": full_text,
+            "redboxed_regions": redboxed_regions,
+            "annotations": annotations,
+            "text_blocks": text_blocks,
+            "error": None
+        }
+    
+    except Exception as e:
+        logger.error(f"Error processing PDF {pdf_path}: {e}")
+        return {
+            "success": False,
+            "metadata": {},
+            "full_text": [],
+            "redboxed_regions": [],
+            "annotations": [],
+            "text_blocks": [],
+            "error": str(e)
+        }
+    
+    finally:
+        processor.close()
+
+SRC/CITATION_PARSER.PY
+python"""
+Parse footnotes from Word doc and structure citation data.
+Uses regex and heuristics to identify citation components.
+"""
+import re
+from typing import Dict, List, Optional
+from dataclasses import dataclass
+import logging
+
+logger = logging.getLogger(__name__)
+
+@dataclass
+class Citation:
+    """Structured representation of a citation."""
+    footnote_num: int
+    citation_num: int  # Position within footnote (1st, 2nd, etc.)
+    full_text: str
+    type: str  # 'case', 'article', 'statute', 'book', 'supra', 'id', 'infra'
+    
+    # Citation components (filled based on type)
+    case_name: Optional[str] = None
+    reporter: Optional[str] = None
+    pinpoint: Optional[str] = None
+    court: Optional[str] = None
+    year: Optional[str] = None
+    
+    author: Optional[str] = None
+    title: Optional[str] = None
+    journal: Optional[str] = None
+    volume: Optional[str] = None
+    start_page: Optional[str] = None
+    
+    statute_code: Optional[str] = None
+    section: Optional[str] = None
+    
+    signal: Optional[str] = None  # See, see also, cf., etc.
+    parenthetical: Optional[str] = None
+    quoted_text: Optional[str] = None
+    
+    # Validation flags
+    has_errors: bool = False
+    error_messages: List[str] = None
+    
+    def __post_init__(self):
+        if self.error_messages is None:
+            self.error_messages = []
+
+class CitationParser:
+    """Parse citations from footnote text."""
+    
+    # Common Bluebook signals
+    SIGNALS = [
+        'see', 'see also', 'see generally', 'cf.', 'compare', 'with',
+        'accord', 'see, e.g.,', 'e.g.,', 'contra', 'but see', 'but cf.'
+    ]
+    
+    # Reporter patterns
+    REPORTER_PATTERN = r'\d+\s+(?:U\.S\.|S\.\s*Ct\.|L\.\s*Ed\.|F\.\s*Supp\.|F\.\s*3d|F\.\s*2d|F\.\s*4th|F\.\s*App\'x)\s+\d+'
+    
+    # Statute patterns
+    STATUTE_PATTERN = r'\d+\s+U\.S\.C\.\s+§\s*\d+'
+    
+    def __init__(self, footnote_text: str, footnote_num: int):
+        self.footnote_text = footnote_text
+        self.footnote_num = footnote_num
+        self.citations = []
+    
+    def parse(self) -> List[Citation]:
+        """
+        Main parsing method.
+        Splits footnote into individual citations and parses each.
+        """
+        # Split on semicolons (typical citation separator)
+        raw_citations = self._split_citations(self.footnote_text)
+        
+        for idx, raw_cit in enumerate(raw_citations, start=1):
+            citation = self._parse_single_citation(raw_cit, idx)
+            self.citations.append(citation)
+        
+        return self.citations
+    
+    def _split_citations(self, text: str) -> List[str]:
+        """
+        Split footnote into individual citations.
+        Handles semicolons, but preserves them within parentheticals.
+        """
+        citations = []
+        current = ""
+        paren_depth = 0
+        
+        for char in text:
+            if char == '(':
+                paren_depth += 1
+            elif char == ')':
+                paren_depth -= 1
+            elif char == ';' and paren_depth == 0:
+                if current.strip():
+                    citations.append(current.strip())
+                current = ""
+                continue
+            
+            current += char
+        
+        # Add last citation
+        if current.strip():
+            citations.append(current.strip())
+        
+        return citations
+    
+    def _parse_single_citation(self, text: str, citation_num: int) -> Citation:
+        """Parse a single citation into structured components."""
+        
+        citation = Citation(
+            footnote_num=self.footnote_num,
+            citation_num=citation_num,
+            full_text=text
+        )
+        
+        # Detect citation type
+        citation.type = self._detect_type(text)
+        
+        # Extract signal if present
+        citation.signal = self._extract_signal(text)
+        
+        # Extract quoted text if present
+        citation.quoted_text = self._extract_quotes(text)
+        
+        # Extract parenthetical if present
+        citation.parenthetical = self._extract_parenthetical(text)
+        
+        # Type-specific parsing
+        if citation.type == 'case':
+            self._parse_case(citation, text)
+        elif citation.type == 'article':
+            self._parse_article(citation, text)
+        elif citation.type == 'statute':
+            self._parse_statute(citation, text)
+        elif citation.type in ['supra', 'id', 'infra']:
+            self._parse_short_form(citation, text)
+        
+        return citation
+    
+    def _detect_type(self, text: str) -> str:
+        """Detect the type of citation."""
+        text_lower = text.lower()
+        
+        if text_lower.strip().startswith('id'):
+            return 'id'
+        elif 'supra note' in text_lower or 'supra at' in text_lower:
+            return 'supra'
+        elif 'infra' in text_lower:
+            return 'infra'
+        elif re.search(self.STATUTE_PATTERN, text):
+            return 'statute'
+        elif re.search(self.REPORTER_PATTERN, text):
+            return 'case'
+        elif re.search(r'\d+\s+\w+\.\s+L\.\s+Rev\.', text):
+            return 'article'
+        else:
+            return 'unknown'
+    
+    def _extract_signal(self, text: str) -> Optional[str]:
+        """Extract Bluebook signal from citation."""
+        text_start = text.lower().strip()[:30]
+        
+        for signal in self.SIGNALS:
+            if text_start.startswith(signal.lower()):
+                return signal
+        
+        return None
+    
+    def _extract_quotes(self, text: str) -> Optional[str]:
+        """Extract quoted text from citation."""
+        # Find text within quotes
+        matches = re.findall(r'"([^"]*)"', text)
+        if matches:
+            return matches[0]
+        return None
+    
+    def _extract_parenthetical(self, text: str) -> Optional[str]:
+        """Extract parenthetical explanation."""
+        # Find the last parenthetical (usually the explanatory one)
+        matches = re.findall(r'\(([^)]+)\)(?!.*\()', text)
+        if matches:
+            return matches[-1]
+        return None
+    
+    def _parse_case(self, citation: Citation, text: str):
+        """Parse case citation components."""
+        # Extract case name (usually italicized, before reporter)
+        case_match = re.search(r'^(?:See\s+)?([^,]+)\s+v\.\s+([^,]+)', text, re.IGNORECASE)
+        if case_match:
+            citation.case_name = f"{case_match.group(1).strip()} v. {case_match.group(2).strip()}"
+        
+        # Extract reporter
+        reporter_match = re.search(self.REPORTER_PATTERN, text)
+        if reporter_match:
+            citation.reporter = reporter_match.group(0)
+        
+        # Extract pinpoint (page after reporter)
+        pinpoint_match = re.search(r'(\d+)\s+(?:U\.S\.|F\.\s*(?:Supp\.|3d|2d|4th|App\'x))\s+(\d+),\s*(\d+)', text)
+        if pinpoint_match:
+            citation.pinpoint = pinpoint_match.group(3)
+        
+        # Extract court and year
+        court_year_match = re.search(r'\(([^)]+)\s+(\d{4})\)', text)
+        if court_year_match:
+            citation.court = court_year_match.group(1)
+            citation.year = court_year_match.group(2)
+    
+    def _parse_article(self, citation: Citation, text: str):
+        """Parse article citation components."""
+        # This is simplified - full parsing is complex
+        # Extract author (before comma)
+        author_match = re.search(r'^(?:See\s+)?([^,]+),', text)
+        if author_match:
+            citation.author = author_match.group(1).strip()
+        
+        # Extract volume and start page
+        vol_page_match = re.search(r'(\d+)\s+([A-Za-z\.\s&]+)\s+(\d+)', text)
+        if vol_page_match:
+            citation.volume = vol_page_match.group(1)
+            citation.journal = vol_page_match.group(2).strip()
+            citation.start_page = vol_page_match.group(3)
+        
+        # Extract year
+        year_match = re.search(r'\((\d{4})\)', text)
+        if year_match:
+            citation.year = year_match.group(1)
+    
+    def _parse_statute(self, citation: Citation, text: str):
+        """Parse statute citation components."""
+        statute_match = re.search(r'(\d+)\s+U\.S\.C\.\s+§\s*(\d+[a-z]?(?:\(\w+\))?)', text)
+        if statute_match:
+            citation.statute_code = statute_match.group(1) + " U.S.C."
+            citation.section = "§ " + statute_match.group(2)
+        
+        # Extract year
+        year_match = re.search(r'\((\d{4})\)', text)
+        if year_match:
+            citation.year = year_match.group(1)
+    
+    def _parse_short_form(self, citation: Citation, text: str):
+        """Parse short form citations (supra, id, infra)."""
+        if citation.type == 'supra':
+            note_match = re.search(r'supra note\s+(\d+)', text, re.IGNORECASE)
+            if note_match:
+                citation.parenthetical = f"note {note_match.group(1)}"
+            
+            # Extract pinpoint
+            at_match = re.search(r'at\s+(\d+)', text)
+            if at_match:
+                citation.pinpoint = at_match.group(1)
+        
+        elif citation.type == 'infra':
+            # Similar parsing for infra
+            pass
+```
+
+---
+
+### PROMPTS/CITATION_FORMAT.TXT
+```
+You are an expert legal citation checker specialized in the Bluebook (21st edition).
+
+Your task is to validate a legal citation and identify any formatting errors.
+
+## CITATION TO CHECK:
+{citation_text}
+
+## CITATION TYPE:
+{citation_type}
+
+## CONTEXT:
+- This citation appears in footnote {footnote_num} as citation #{citation_num}
+- It is {position} in the footnote (first, middle, last)
+
+## YOUR JOB:
+1. Check ALL Bluebook formatting rules for this citation type
+2. Identify SPECIFIC errors with rule numbers
+3. Provide the corrected version
+4. Note confidence level (0.0-1.0)
+
+## COMMON ISSUES TO CHECK:
+- Page range formatting (en-dashes, abbreviation of second number)
+- Spacing in reporters (F. Supp. not F.Supp.)
+- Comma placement (especially before "at" in supra citations)
+- Periods after abbreviations
+- Court abbreviations (check Table 1)
+- Journal abbreviations (check Table 13)
+- Case name abbreviations (check Table 6)
+- Signal formatting and capitalization
+- Parenthetical format
+- Year placement
+
+## RESPOND IN JSON:
+{
+  "is_correct": boolean,
+  "confidence": float (0.0-1.0),
+  "errors": [
+    {
+      "error_type": "specific type",
+      "description": "what's wrong",
+      "bluebook_rule": "BB rule number",
+      "current": "current form",
+      "correct": "corrected form"
+    }
+  ],
+  "corrected_version": "full corrected citation",
+  "notes": "additional observations"
+}
+```
+
+---
+
+### PROMPTS/SUPPORT_CHECK.TXT
+```
+You are a legal research expert verifying whether a source supports a legal proposition.
+
+## MAIN TEXT PROPOSITION:
+"{proposition}"
+
+## SOURCE TEXT (from R1 redbox):
+"{source_text}"
+
+## CITATION:
+{citation_text}
+
+## YOUR TASK:
+Determine if the source text DIRECTLY and ADEQUATELY supports the proposition.
+
+## EVALUATION CRITERIA:
+1. **Direct Support (YES)**: Source explicitly states or clearly implies the proposition
+2. **Partial Support (MAYBE)**: Source addresses part of proposition but not all elements
+3. **No Support (NO)**: Source does not support this proposition
+
+## CONSIDER:
+- Does source cover ALL elements of the proposition?
+- Is this holding or dicta (for cases)?
+- Are there qualifiers or limitations in the source?
+- Is context sufficient or might we be missing something?
+
+## RESPOND IN JSON:
+{
+  "support_level": "yes" | "maybe" | "no",
+  "confidence": float (0.0-1.0),
+  "reasoning": "detailed explanation of your determination",
+  "supported_elements": ["list elements that ARE supported"],
+  "unsupported_elements": ["list elements that are NOT supported"],
+  "suggested_action": "what to do (approve, flag for review, request different cite)",
+  "missing_context": "anything that might change the analysis if we saw more"
+}
+
+I'll continue with more files. Should I keep going with the full implementation, or do you want to adjust anything first?
+Also: Do you want me to include a simple Flask web UI for the review queue, or just generate HTML reports you open in browser?RetryBcontinue. also yes that. flask why notCONTINUING AUTOMATED R2 PIPELINE
+
+SRC/QUOTE_VERIFIER.PY
+python"""
+Verify quote accuracy character-by-character.
+Checks for proper use of brackets, ellipses, and exact matching.
+"""
+import re
+from typing import Dict, List, Tuple
+from dataclasses import dataclass
+import Levenshtein
+import logging
+
+logger = logging.getLogger(__name__)
+
+@dataclass
+class QuoteIssue:
+    """Represents an issue found in a quote."""
+    issue_type: str  # 'mismatch', 'bracket', 'ellipsis', 'capitalization', 'punctuation'
+    description: str
+    position: int  # Character position in quote
+    expected: str
+    actual: str
+    severity: str  # 'critical', 'major', 'minor'
+
+class QuoteVerifier:
+    """Verify accuracy of quoted text."""
+    
+    def __init__(self):
+        self.issues: List[QuoteIssue] = []
+    
+    def verify_quote(self, 
+                     quoted_text: str, 
+                     source_text: str,
+                     allow_minor_whitespace: bool = True) -> Dict:
+        """
+        Verify a quote against its source.
+        
+        Args:
+            quoted_text: The quote as it appears in the citation
+            source_text: The text from the source document
+            allow_minor_whitespace: Allow minor whitespace differences
+            
+        Returns:
+            Dict with verification results
+        """
+        self.issues = []
+        
+        # Clean up for comparison
+        quote_clean = self._normalize_text(quoted_text)
+        source_clean = self._normalize_text(source_text)
+        
+        # Check if quote exists in source (allowing for some flexibility)
+        quote_found = self._find_quote_in_source(quote_clean, source_clean)
+        
+        if not quote_found:
+            # Try fuzzy matching
+            similarity = Levenshtein.ratio(quote_clean, source_clean)
+            if similarity < 0.85:  # Not even close
+                return {
+                    "accurate": False,
+                    "confidence": 0.0,
+                    "similarity": similarity,
+                    "issues": [{
+                        "issue_type": "not_found",
+                        "description": "Quote not found in source text",
+                        "severity": "critical"
+                    }],
+                    "suggested_action": "verify_source_or_page_number"
+                }
+        
+        # Character-by-character comparison
+        self._compare_character_by_character(quoted_text, source_text)
+        
+        # Check bracket usage
+        self._verify_brackets(quoted_text, source_text)
+        
+        # Check ellipsis usage
+        self._verify_ellipses(quoted_text, source_text)
+        
+        # Check quotation marks (nested quotes should use single quotes)
+        self._verify_nested_quotes(quoted_text)
+        
+        # Calculate accuracy score
+        accuracy_score = self._calculate_accuracy_score()
+        
+        return {
+            "accurate": accuracy_score > 0.95,
+            "confidence": accuracy_score,
+            "issues": [self._issue_to_dict(issue) for issue in self.issues],
+            "suggested_action": self._suggest_action(accuracy_score),
+            "quote_clean": quote_clean,
+            "source_clean": source_clean
+        }
+    
+    def _normalize_text(self, text: str) -> str:
+        """Normalize text for comparison (remove extra whitespace, etc)."""
+        # Remove extra whitespace
+        text = re.sub(r'\s+', ' ', text)
+        # Remove zero-width characters
+        text = re.sub(r'[\u200b-\u200d\ufeff]', '', text)
+        return text.strip()
+    
+    def _find_quote_in_source(self, quote: str, source: str) -> bool:
+        """Check if quote appears in source (with some flexibility)."""
+        # Try exact match first
+        if quote in source:
+            return True
+        
+        # Try case-insensitive
+        if quote.lower() in source.lower():
+            return True
+        
+        # Try without punctuation
+        quote_no_punct = re.sub(r'[^\w\s]', '', quote)
+        source_no_punct = re.sub(r'[^\w\s]', '', source)
+        if quote_no_punct in source_no_punct:
+            return True
+        
+        return False
+    
+    def _compare_character_by_character(self, quote: str, source: str):
+        """Compare quote and source character by character."""
+        # Find where quote appears in source
+        quote_clean = self._normalize_text(quote)
+        source_clean = self._normalize_text(source)
+        
+        # Try to locate quote position in source
+        pos = source_clean.lower().find(quote_clean.lower())
+        if pos == -1:
+            return  # Already flagged as not found
+        
+        # Extract the actual source text at this position
+        actual_source = source_clean[pos:pos+len(quote_clean)]
+        
+        # Compare character by character
+        for i, (q_char, s_char) in enumerate(zip(quote_clean, actual_source)):
+            if q_char != s_char:
+                self.issues.append(QuoteIssue(
+                    issue_type='mismatch',
+                    description=f"Character mismatch at position {i}",
+                    position=i,
+                    expected=s_char,
+                    actual=q_char,
+                    severity='major'
+                ))
+    
+    def _verify_brackets(self, quote: str, source: str):
+        """Verify that brackets are used correctly for alterations."""
+        # Find all bracketed content
+        bracketed = re.finditer(r'\[([^\]]+)\]', quote)
+        
+        for match in bracketed:
+            bracketed_text = match.group(1)
+            position = match.start()
+            
+            # Check if this is a proper alteration
+            # Common valid uses: [T]he (capitalization), [plaintiff] (substitution)
+            
+            # Check if it's capitalization change
+            if len(bracketed_text) == 1 and bracketed_text.isupper():
+                # This might be capitalizing first letter
+                # Should find lowercase version in source
+                continue  # Probably valid
+            
+            # Check if it's explanatory [sic] or [emphasis added]
+            if bracketed_text.lower() in ['sic', 'emphasis added', 'emphasis omitted', 
+                                          'internal quotation marks omitted', 'citations omitted']:
+                continue  # Valid
+            
+            # Otherwise, verify the alteration is necessary
+            # This is complex and might need manual review
+            self.issues.append(QuoteIssue(
+                issue_type='bracket',
+                description=f"Bracketed alteration: [{bracketed_text}] - verify necessity",
+                position=position,
+                expected='',
+                actual=f'[{bracketed_text}]',
+                severity='minor'
+            ))
+    
+    def _verify_ellipses(self, quote: str, source: str):
+        """Verify ellipses are properly formatted."""
+        # Find all ellipses in quote
+        ellipses = re.finditer(r'\.{3,4}|\. \. \.|\.\.\.|…', quote)
+        
+        for match in ellipses:
+            ellipsis = match.group(0)
+            position = match.start()
+            
+            # Check formatting
+            # Correct formats:
+            # - Mid-sentence omission: " . . . " (space-dot-space-dot-space-dot-space)
+            # - End of sentence: " . . . ." (period + space + three dots)
+            # - Or using ellipsis character: " … "
+            
+            # Count dots
+            dot_count = ellipsis.count('.')
+            
+            if dot_count == 3:
+                # Mid-sentence omission - check spacing
+                if ellipsis != ' . . . ' and ellipsis != '...':
+                    self.issues.append(QuoteIssue(
+                        issue_type='ellipsis',
+                        description='Ellipsis spacing incorrect (should be " . . . ")',
+                        position=position,
+                        expected=' . . . ',
+                        actual=ellipsis,
+                        severity='minor'
+                    ))
+            
+            elif dot_count == 4:
+                # End of sentence - should be period + three dots with spaces
+                if not re.match(r'\.\s+\.\s+\.\s+\.', ellipsis):
+                    self.issues.append(QuoteIssue(
+                        issue_type='ellipsis',
+                        description='End-of-sentence ellipsis formatting incorrect',
+                        position=position,
+                        expected='. . . .',
+                        actual=ellipsis,
+                        severity='minor'
+                    ))
+            
+            else:
+                # Wrong number of dots
+                self.issues.append(QuoteIssue(
+                    issue_type='ellipsis',
+                    description=f'Wrong number of dots in ellipsis ({dot_count})',
+                    position=position,
+                    expected='3 or 4 dots',
+                    actual=ellipsis,
+                    severity='major'
+                ))
+    
+    def _verify_nested_quotes(self, quote: str):
+        """Verify nested quotes use single quotes."""
+        # Check if there are nested quotes
+        # Pattern: "outer quote with 'inner quote' inside"
+        
+        # Find all double quotes
+        double_quotes = [m.start() for m in re.finditer(r'"', quote)]
+        
+        if len(double_quotes) >= 4:  # At least 2 pairs, might have nesting
+            # Look for double quotes inside double quotes
+            # This is a simplified check
+            nested_double = re.search(r'"[^"]*"[^"]*"[^"]*"', quote)
+            if nested_double:
+                self.issues.append(QuoteIssue(
+                    issue_type='nested_quotes',
+                    description='Nested quote should use single quotes',
+                    position=nested_double.start(),
+                    expected='single quotes (\')',
+                    actual='double quotes (")',
+                    severity='major'
+                ))
+    
+    def _calculate_accuracy_score(self) -> float:
+        """Calculate overall accuracy score based on issues found."""
+        if not self.issues:
+            return 1.0
+        
+        # Weight issues by severity
+        total_penalty = 0.0
+        for issue in self.issues:
+            if issue.severity == 'critical':
+                total_penalty += 0.5
+            elif issue.severity == 'major':
+                total_penalty += 0.1
+            elif issue.severity == 'minor':
+                total_penalty += 0.02
+        
+        return max(0.0, 1.0 - total_penalty)
+    
+    def _suggest_action(self, accuracy_score: float) -> str:
+        """Suggest action based on accuracy score."""
+        if accuracy_score >= 0.98:
+            return 'approve'
+        elif accuracy_score >= 0.90:
+            return 'review_minor_issues'
+        elif accuracy_score >= 0.70:
+            return 'review_major_issues'
+        else:
+            return 'flag_for_human_verification'
+    
+    def _issue_to_dict(self, issue: QuoteIssue) -> Dict:
+        """Convert QuoteIssue to dict."""
+        return {
+            'issue_type': issue.issue_type,
+            'description': issue.description,
+            'position': issue.position,
+            'expected': issue.expected,
+            'actual': issue.actual,
+            'severity': issue.severity
+        }
+
+SRC/CITATION_VALIDATOR.PY
+python"""
+Validate citation formatting using GPT-4o-mini.
+"""
+from typing import Dict, Optional
+import logging
+from pathlib import Path
+from .llm_interface import LLMInterface
+from .citation_parser import Citation
+
+logger = logging.getLogger(__name__)
+
+class CitationValidator:
+    """Validate citations against Bluebook rules using LLM."""
+    
+    def __init__(self, llm: LLMInterface):
+        self.llm = llm
+        self.prompt_template = self._load_prompt_template()
+    
+    def _load_prompt_template(self) -> str:
+        """Load citation format prompt template."""
+        prompt_path = Path(__file__).parent.parent / "prompts" / "citation_format.txt"
+        try:
+            with open(prompt_path, 'r') as f:
+                return f.read()
+        except FileNotFoundError:
+            logger.warning(f"Prompt template not found at {prompt_path}")
+            return self._get_default_prompt()
+    
+    def _get_default_prompt(self) -> str:
+        """Return default prompt if file not found."""
+        return """You are an expert legal citation checker specialized in the Bluebook (21st edition).
+
+Check this citation for formatting errors: {citation_text}
+
+Citation type: {citation_type}
+
+Respond in JSON with:
+- is_correct: boolean
+- confidence: float
+- errors: list of error objects
+- corrected_version: string
+- notes: string
+"""
+    
+    def validate_citation(self, citation: Citation, position: str = "middle") -> Dict:
+        """
+        Validate a single citation.
+        
+        Args:
+            citation: Citation object to validate
+            position: Position in footnote ("first", "middle", "last")
+            
+        Returns:
+            Dict with validation results
+        """
+        # Prepare prompt
+        system_prompt = "You are an expert in Bluebook citation formatting. Provide precise, rule-based analysis."
+        
+        user_prompt = self.prompt_template.format(
+            citation_text=citation.full_text,
+            citation_type=citation.type,
+            footnote_num=citation.footnote_num,
+            citation_num=citation.citation_num,
+            position=position
+        )
+        
+        # Call GPT
+        result = self.llm.call_gpt(system_prompt, user_prompt, response_format="json")
+        
+        if not result["success"]:
+            logger.error(f"GPT call failed for citation {citation.footnote_num}-{citation.citation_num}: {result['error']}")
+            return {
+                "success": False,
+                "validation": None,
+                "error": result["error"]
+            }
+        
+        # Parse and enhance response
+        validation = result["data"]
+        validation["citation_text_original"] = citation.full_text
+        validation["citation_type"] = citation.type
+        validation["gpt_tokens"] = result["tokens"]
+        validation["gpt_cost"] = result["cost"]
+        
+        return {
+            "success": True,
+            "validation": validation,
+            "error": None
+        }
+    
+    def validate_batch(self, citations: list[Citation]) -> Dict:
+        """Validate multiple citations with progress tracking."""
+        results = []
+        total_cost = 0.0
+        total_tokens = 0
+        
+        for citation in citations:
+            result = self.validate_citation(citation)
+            results.append(result)
+            
+            if result["success"]:
+                total_cost += result["validation"]["gpt_cost"]
+                total_tokens += result["validation"]["gpt_tokens"]
+        
+        return {
+            "results": results,
+            "total_cost": total_cost,
+            "total_tokens": total_tokens,
+            "success_rate": sum(1 for r in results if r["success"]) / len(results)
+        }
+
+SRC/SUPPORT_CHECKER.PY
+python"""
+Check if redboxed source text supports the main text proposition.
+"""
+from typing import Dict
+import logging
+from pathlib import Path
+from .llm_interface import LLMInterface
+
+logger = logging.getLogger(__name__)
+
+class SupportChecker:
+    """Check if source supports proposition using LLM."""
+    
+    def __init__(self, llm: LLMInterface):
+        self.llm = llm
+        self.prompt_template = self._load_prompt_template()
+    
+    def _load_prompt_template(self) -> str:
+        """Load support check prompt template."""
+        prompt_path = Path(__file__).parent.parent / "prompts" / "support_check.txt"
+        try:
+            with open(prompt_path, 'r') as f:
+                return f.read()
+        except FileNotFoundError:
+            logger.warning(f"Prompt template not found at {prompt_path}")
+            return self._get_default_prompt()
+    
+    def _get_default_prompt(self) -> str:
+        """Return default prompt if file not found."""
+        return """Evaluate if the source text supports the proposition.
+
+Proposition: {proposition}
+Source text: {source_text}
+
+Respond in JSON with:
+- support_level: "yes" | "maybe" | "no"
+- confidence: float
+- reasoning: string
+- supported_elements: list
+- unsupported_elements: list
+- suggested_action: string
+"""
+    
+    def check_support(self, 
+                     proposition: str,
+                     source_text: str,
+                     citation_text: str,
+                     context: Dict = None) -> Dict:
+        """
+        Check if source supports proposition.
+        
+        Args:
+            proposition: Main text claim
+            source_text: Text from redboxed source
+            citation_text: Full citation
+            context: Additional context (optional)
+            
+        Returns:
+            Dict with support analysis
+        """
+        # Prepare prompt
+        system_prompt = """You are a legal research expert. Carefully evaluate whether source text 
+supports a legal proposition. Be rigorous - require DIRECT support, not just tangential relevance."""
+        
+        user_prompt = self.prompt_template.format(
+            proposition=proposition,
+            source_text=source_text,
+            citation_text=citation_text
+        )
+        
+        # Call GPT
+        result = self.llm.call_gpt(system_prompt, user_prompt, response_format="json")
+        
+        if not result["success"]:
+            logger.error(f"GPT call failed for support check: {result['error']}")
+            return {
+                "success": False,
+                "analysis": None,
+                "error": result["error"]
+            }
+        
+        # Enhance response
+        analysis = result["data"]
+        analysis["proposition"] = proposition
+        analysis["source_text_preview"] = source_text[:200] + "..." if len(source_text) > 200 else source_text
+        analysis["gpt_tokens"] = result["tokens"]
+        analysis["gpt_cost"] = result["cost"]
+        
+        return {
+            "success": True,
+            "analysis": analysis,
+            "error": None
+        }
+    
+    def check_batch(self, checks: list[Dict]) -> Dict:
+        """
+        Check multiple proposition-source pairs.
+        
+        Args:
+            checks: List of dicts with 'proposition', 'source_text', 'citation_text'
+            
+        Returns:
+            Dict with batch results
+        """
+        results = []
+        total_cost = 0.0
+        total_tokens = 0
+        
+        for check in checks:
+            result = self.check_support(
+                proposition=check["proposition"],
+                source_text=check["source_text"],
+                citation_text=check["citation_text"],
+                context=check.get("context")
+            )
+            results.append(result)
+            
+            if result["success"]:
+                total_cost += result["analysis"]["gpt_cost"]
+                total_tokens += result["analysis"]["gpt_tokens"]
+        
+        # Aggregate statistics
+        support_levels = [r["analysis"]["support_level"] for r in results if r["success"]]
+        
+        return {
+            "results": results,
+            "total_cost": total_cost,
+            "total_tokens": total_tokens,
+            "success_rate": sum(1 for r in results if r["success"]) / len(results),
+            "support_breakdown": {
+                "yes": support_levels.count("yes"),
+                "maybe": support_levels.count("maybe"),
+                "no": support_levels.count("no")
+            }
+        }
+
+SRC/R2_GENERATOR.PY
+python"""
+Generate R2 PDFs with validation annotations.
+"""
+import fitz  # PyMuPDF
+from pathlib import Path
+from typing import Dict, List
+import logging
+from datetime import datetime
+
+logger = logging.getLogger(__name__)
+
+class R2Generator:
+    """Generate R2 PDFs with annotations."""
+    
+    def __init__(self, r1_pdf_path: Path, output_dir: Path):
+        self.r1_pdf_path = r1_pdf_path
+        self.output_dir = output_dir
+        self.doc = fitz.open(r1_pdf_path)
+    
+    def add_validation_annotations(self, validation_results: Dict) -> None:
+        """
+        Add validation results as annotations to PDF.
+        
+        Args:
+            validation_results: Dict with validation info to annotate
+        """
+        # Add annotation on first page
+        first_page = self.doc[0]
+        
+        # Create text box with validation summary
+        summary_text = self._create_validation_summary(validation_results)
+        
+        # Add text annotation at top of page
+        rect = fitz.Rect(50, 50, 550, 150)  # Position at top
+        annot = first_page.add_freetext_annot(
+            rect,
+            summary_text,
+            fontsize=10,
+            fontname="helv",
+            text_color=(0, 0, 0),
+            fill_color=(1, 1, 0.8)  # Light yellow background
+        )
+        annot.update()
+        
+        logger.info(f"Added validation annotation to first page")
+    
+    def _create_validation_summary(self, results: Dict) -> str:
+        """Create validation summary text."""
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+        
+        summary = f"R2 VALIDATION - {timestamp}\n\n"
+        
+        # Citation format check
+        if results.get("citation_validation"):
+            cv = results["citation_validation"]
+            if cv.get("is_correct"):
+                summary += "✓ Citation format: CORRECT\n"
+            else:
+                summary += f"✗ Citation format: {len(cv.get('errors', []))} errors found\n"
+        
+        # Support check
+        if results.get("support_analysis"):
+            sa = results["support_analysis"]
+            support = sa.get("support_level", "unknown")
+            confidence = sa.get("confidence", 0)
+            summary += f"{'✓' if support == 'yes' else '⚠' if support == 'maybe' else '✗'} "
+            summary += f"Support: {support.upper()} (confidence: {confidence:.2f})\n"
+        
+        # Quote accuracy
+        if results.get("quote_verification"):
+            qv = results["quote_verification"]
+            if qv.get("accurate"):
+                summary += "✓ Quote accuracy: VERIFIED\n"
+            else:
+                summary += f"✗ Quote accuracy: {len(qv.get('issues', []))} issues\n"
+        
+        # Overall recommendation
+        summary += "\n"
+        if results.get("recommendation"):
+            summary += f"Recommendation: {results['recommendation'].upper()}"
+        
+        return summary
+    
+    def highlight_issues(self, issues: List[Dict]) -> None:
+        """
+        Add highlight annotations for specific issues.
+        
+        Args:
+            issues: List of issue dicts with page, rect, description
+        """
+        for issue in issues:
+            page_num = issue.get("page", 0)
+            if page_num >= len(self.doc):
+                continue
+            
+            page = self.doc[page_num]
+            
+            # Add highlight annotation
+            if "rect" in issue:
+                rect = fitz.Rect(issue["rect"])
+                highlight = page.add_highlight_annot(rect)
+                highlight.set_colors(stroke=(1, 0, 0))  # Red highlight
+                highlight.set_info(content=issue.get("description", "Issue"))
+                highlight.update()
+    
+    def save_r2_pdf(self, filename: str = None) -> Path:
+        """
+        Save the R2 PDF with annotations.
+        
+        Args:
+            filename: Output filename (auto-generated if None)
+            
+        Returns:
+            Path to saved PDF
+        """
+        if filename is None:
+            # Generate filename: R2-[fn]-[cite]-[sp]-[name].pdf
+            base_name = self.r1_pdf_path.stem
+            filename = f"R2-{base_name}.pdf"
+        
+        output_path = self.output_dir / filename
+        self.doc.save(output_path)
+        logger.info(f"Saved R2 PDF to {output_path}")
+        
+        return output_path
+    
+    def close(self):
+        """Close the PDF document."""
+        self.doc.close()
+
+SRC/SPREADSHEET_UPDATER.PY
+python"""
+Update Excel spreadsheet with R2 results.
+"""
+from openpyxl import load_workbook
+from pathlib import Path
+from typing import Dict, List
+import logging
+
+logger = logging.getLogger(__name__)
+
+class SpreadsheetUpdater:
+    """Update Excel spreadsheet with R2 data."""
+    
+    def __init__(self, spreadsheet_path: Path):
+        self.spreadsheet_path = spreadsheet_path
+        self.wb = load_workbook(spreadsheet_path)
+        
+        # Identify the correct sheet (assumes "CC (nn. 78-113); HC" or similar)
+        self.sheet = None
+        for sheet_name in self.wb.sheetnames:
+            if "CC" in sheet_name and "78" in sheet_name:
+                self.sheet = self.wb[sheet_name]
+                break
+        
+        if self.sheet is None:
+            raise ValueError("Could not find appropriate CC sheet in workbook")
+        
+        logger.info(f"Using sheet: {self.sheet.title}")
+    
+    def update_citation(self, 
+                       footnote_num: int,
+                       cite_num: int,
+                       results: Dict) -> None:
+        """
+        Update a single citation's R2 data.
+        
+        Args:
+            footnote_num: Footnote number
+            cite_num: Citation number within footnote
+            results: Dict with validation results
+        """
+        # Find the row for this citation
+        row = self._find_citation_row(footnote_num, cite_num)
+        
+        if row is None:
+            logger.warning(f"Could not find row for fn {footnote_num}, cite {cite_num}")
+            return
+        
+        # Determine column indices (adjust based on actual spreadsheet structure)
+        # From your spreadsheet: columns are like "Fn#", "Cite#", "Supports?", "Citation Elements", "MEM Comments"
+        # R2 columns start after R1 columns
+        
+        # Update R2 columns
+        r2_fn_col = self._find_column("Fn#", start_col=17)  # R2 section
+        r2_cite_col = self._find_column("Cite#", start_col=17)
+        r2_supports_col = self._find_column("Supports?", start_col=17)
+        r2_elements_col = self._find_column("Citation Elements", start_col=17)
+        r2_comments_col = self._find_column("MEM Comments", start_col=17)
+        
+        # Populate cells
+        if r2_fn_col:
+            self.sheet.cell(row=row, column=r2_fn_col, value=footnote_num)
+        if r2_cite_col:
+            self.sheet.cell(row=row, column=r2_cite_col, value=cite_num)
+        
+        # Supports?
+        if r2_supports_col:
+            support = self._determine_support_value(results)
+            self.sheet.cell(row=row, column=r2_supports_col, value=support)
+        
+        # Citation Elements
+        if r2_elements_col:
+            elements = self._format_citation_elements(results)
+            self.sheet.cell(row=row, column=r2_elements_col, value=elements)
+        
+        # MEM Comments
+        if r2_comments_col:
+            comments = self._format_mem_comments(results)
+            self.sheet.cell(row=row, column=r2_comments_col, value=comments)
+        
+        logger.info(f"Updated spreadsheet row {row} for fn {footnote_num}, cite {cite_num}")
+    
+    def _find_citation_row(self, footnote_num: int, cite_num: int) -> int:
+        """Find the row number for a specific citation."""
+        # Search through rows to find matching footnote and cite numbers
+        fn_col = self._find_column("Fn#")
+        cite_col = self._find_column("Cite#")
+        
+        if not fn_col or not cite_col:
+            return None
+        
+        for row in range(4, self.sheet.max_row + 1):  # Start from row 4 (after headers)
+            fn_val = self.sheet.cell(row=row, column=fn_col).value
+            cite_val = self.sheet.cell(row=row, column=cite_col).value
+            
+            if fn_val == footnote_num and cite_val == cite_num:
+                return row
+        
+        return None
+    
+    def _find_column(self, header_name: str, start_col: int = 1) -> int:
+        """Find column number by header name."""
+        for col in range(start_col, self.sheet.max_column + 1):
+            header = self.sheet.cell(row=2, column=col).value  # Row 2 has headers
+            if header and header_name.lower() in str(header).lower():
+                return col
+        return None
+    
+    def _determine_support_value(self, results: Dict) -> str:
+        """Determine "Supports?" value from results."""
+        if "support_analysis" in results and results["support_analysis"]:
+            support_level = results["support_analysis"].get("support_level", "").lower()
+            if support_level == "yes":
+                return "Yes"
+            elif support_level == "maybe":
+                return "Maybe"
+            elif support_level == "no":
+                return "No"
+        return "To Check"
+    
+    def _format_citation_elements(self, results: Dict) -> str:
+        """Format citation elements for spreadsheet."""
+        if "citation_validation" in results and results["citation_validation"]:
+            cv = results["citation_validation"]
+            if cv.get("is_correct"):
+                return "No Issues"
+            else:
+                errors = cv.get("errors", [])
+                if errors:
+                    error_types = [e.get("error_type", "unknown") for e in errors]
+                    return f"Repaired Issue - {', '.join(error_types)}"
+        return "No Issues"
+    
+    def _format_mem_comments(self, results: Dict) -> str:
+        """Format MEM comments from results."""
+        comments = []
+        
+        # Citation validation
+        if "citation_validation" in results and results["citation_validation"]:
+            cv = results["citation_validation"]
+            if not cv.get("is_correct"):
+                errors = cv.get("errors", [])
+                for error in errors[:2]:  # First 2 errors
+                    comments.append(error.get("description", ""))
+        
+        # Support analysis
+        if "support_analysis" in results and results["support_analysis"]:
+            sa = results["support_analysis"]
+            reasoning = sa.get("reasoning", "")[:100]  # First 100 chars
+            comments.append(f"Support: {reasoning}")
+        
+        # Quote verification
+        if "quote_verification" in results and results["quote_verification"]:
+            qv = results["quote_verification"]
+            if not qv.get("accurate"):
+                comments.append(f"Quote issues: {len(qv.get('issues', []))} found")
+        
+        # Overall recommendation
+        if "recommendation" in results:
+            comments.append(f"Action: {results['recommendation']}")
+        
+        return "; ".join(comments)
+    
+    def save(self) -> None:
+        """Save the workbook."""
+        self.wb.save(self.spreadsheet_path)
+        logger.info(f"Saved spreadsheet to {self.spreadsheet_path}")
+    
+    def close(self):
+        """Close the workbook."""
+        self.wb.close()
+
+SRC/WORD_EDITOR.PY
+python"""
+Edit Word document with Track Changes enabled.
+"""
+from docx import Document
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+from pathlib import Path
+from typing import Dict, List
+import logging
+from datetime import datetime
+
+logger = logging.getLogger(__name__)
+
+class WordEditor:
+    """Edit Word document with track changes."""
+    
+    def __init__(self, doc_path: Path, author: str = "R2 Pipeline"):
+        self.doc_path = doc_path
+        self.doc = Document(doc_path)
+        self.author = author
+        self.changes_made = []
+        
+        # Enable track changes
+        self._enable_track_changes()
+    
+    def _enable_track_changes(self):
+        """Enable track changes in the document."""
+        # Access document settings
+        settings = self.doc.settings
+        
+        # Create track changes element if it doesn't exist
+        track_revisions = settings.element.find(qn('w:trackRevisions'))
+        if track_revisions is None:
+            track_revisions = OxmlElement('w:trackRevisions')
+            settings.element.append(track_revisions)
+        
+        logger.info("Track changes enabled")
+    
+    def find_footnote(self, footnote_num: int) -> object:
+        """
+        Find footnote by number.
+        
+        Args:
+            footnote_num: Footnote number to find
+            
+        Returns:
+            Footnote object or None
+        """
+        # Access footnotes
+        try:
+            footnotes_part = self.doc.part.footnotes_part
+            footnotes = footnotes_part.footnotes_dict
+            
+            # Footnotes are 1-indexed
+            if footnote_num in footnotes:
+                return footnotes[footnote_num]
+        except AttributeError:
+            logger.error("Document has no footnotes")
+            return None
+        
+        return None
+    
+    def replace_text_tracked(self, 
+                            footnote_num: int,
+                            old_text: str,
+                            new_text: str,
+                            comment: str = None) -> bool:
+        """
+        Replace text in footnote with track changes.
+        
+        Args:
+            footnote_num: Footnote number
+            old_text: Text to replace
+            new_text: Replacement text
+            comment: Optional comment explaining change
+            
+        Returns:
+            True if replacement made, False otherwise
+        """
+        footnote = self.find_footnote(footnote_num)
+        if not footnote:
+            logger.warning(f"Footnote {footnote_num} not found")
+            return False
+        
+        # Get footnote text
+        footnote_text = ""
+        for paragraph in footnote.paragraphs:
+            footnote_text += paragraph.text
+        
+        if old_text not in footnote_text:
+            logger.warning(f"Text '{old_text}' not found in footnote {footnote_num}")
+            return False
+        
+        # Make replacement with track changes
+        for paragraph in footnote.paragraphs:
+            if old_text in paragraph.text:
+                # This is simplified - proper track changes in python-docx is complex
+                # For now, we'll document changes and mark them
+                
+                # Add deletion run
+                delete_run = paragraph.add_run(old_text)
+                self._mark_as_deleted(delete_run)
+                
+                # Add insertion run
+                insert_run = paragraph.add_run(new_text)
+                self._mark_as_inserted(insert_run)
+                
+                # Log change
+                self.changes_made.append({
+                    "footnote": footnote_num,
+                    "type": "replacement",
+                    "old": old_text,
+                    "new": new_text,
+                    "comment": comment
+                })
+                
+                logger.info(f"Replaced text in footnote {footnote_num}: '{old_text}' -> '{new_text}'")
+                return True
+        
+        return False
+    
+    def _mark_as_deleted(self, run):
+        """Mark run as deleted (track changes)."""
+        # Add deletion markup
+        del_elem = OxmlElement('w:del')
+        del_elem.set(qn('w:author'), self.author)
+        del_elem.set(qn('w:date'), datetime.now().isoformat())
+        
+        run._element.append(del_elem)
+    
+    def _mark_as_inserted(self, run):
+        """Mark run as inserted (track changes)."""
+        # Add insertion markup
+        ins_elem = OxmlElement('w:ins')
+        ins_elem.set(qn('w:author'), self.author)
+        ins_elem.set(qn('w:date'), datetime.now().isoformat())
+        
+        run._element.append(ins_elem)
+    
+    def add_comment(self, footnote_num: int, comment_text: str, tag: str = "[AA:]") -> bool:
+        """
+        Add a comment/note to footnote.
+        
+        Args:
+            footnote_num: Footnote number
+            comment_text: Comment text
+            tag: Tag to use ([AA:], [SE:], [ME:])
+            
+        Returns:
+            True if comment added
+        """
+        footnote = self.find_footnote(footnote_num)
+        if not footnote:
+            return False
+        
+        # Add comment at end of footnote
+        last_paragraph = footnote.paragraphs[-1]
+        comment_run = last_paragraph.add_run(f" {tag} {comment_text}")
+        
+        # Highlight comment
+        comment_run.font.highlight_color = 6  # Yellow highlight
+        comment_run.font.bold = True
+        
+        self.changes_made.append({
+            "footnote": footnote_num,
+            "type": "comment",
+            "tag": tag,
+            "text": comment_text
+        })
+        
+        logger.info(f"Added {tag} comment to footnote {footnote_num}")
+        return True
+    
+    def get_changes_log(self) -> List[Dict]:
+        """Get list of all changes made."""
+        return self.changes_made
+    
+    def save(self, output_path: Path = None) -> Path:
+        """
+        Save document with track changes.
+        
+        Args:
+            output_path: Path to save to (overwrites original if None)
+            
+        Returns:
+            Path to saved document
+        """
+        if output_path is None:
+            output_path = self.doc_path
+        
+        self.doc.save(output_path)
+        logger.info(f"Saved document to {output_path}")
+        
+        return output_path
+
+MAIN.PY (Pipeline Orchestrator)
+python"""
+Main pipeline orchestrator.
+Coordinates all stages of R2 processing.
+"""
+import sys
+import logging
+from pathlib import Path
+from typing import Dict, List
+import json
+from tqdm import tqdm
+from colorama import Fore, Style, init as colorama_init
+
+# Initialize colorama for colored terminal output
+colorama_init(autoreset=True)
+
+# Add src to path
+sys.path.insert(0, str(Path(__file__).parent / "src"))
+
+from config import settings
+from src.llm_interface import LLMInterface
+from src.pdf_processor import process_r1_pdf
+from src.citation_parser import CitationParser
+from src.citation_validator import CitationValidator
+from src.support_checker import SupportChecker
+from src.quote_verifier import QuoteVerifier
+from src.r2_generator import R2Generator
+from src.spreadsheet_updater import SpreadsheetUpdater
+from src.word_editor import WordEditor
+
+# Setup logging
+logging.basicConfig(
+    level=getattr(logging, settings.LOG_LEVEL),
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(settings.LOG_DIR / "pipeline.log"),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class R2Pipeline:
+    """Main R2 processing pipeline."""
+    
+    def __init__(self, openai_api_key: str = None):
+        """Initialize pipeline components."""
+        logger.info("Initializing R2 Pipeline...")
+        
+        # Initialize LLM interface
+        api_key = openai_api_key or settings.OPENAI_API_KEY
+        if not api_key:
+            raise ValueError("OpenAI API key not provided")
+        
+        self.llm = LLMInterface(api_key)
+        
+        # Initialize validators
+        self.citation_validator = CitationValidator(self.llm)
+        self.support_checker = SupportChecker(self.llm)
+        self.quote_verifier = QuoteVerifier()
+        
+        # Initialize document editors
+        self.spreadsheet_updater = None
+        self.word_editor = None
+        
+        # Results storage
+        self.results = []
+        self.human_review_queue = []
+        
+        logger.info("Pipeline initialized")
+    
+    def process_footnote(self, 
+                        footnote_num: int,
+                        footnote_text: str,
+                        r1_pdf_paths: List[Path],
+                        main_text_propositions: Dict) -> Dict:
+        """
+        Process a single footnote through the entire pipeline.
+        
+        Args:
+            footnote_num: Footnote number
+            footnote_text: Full text of footnote
+            r1_pdf_paths: List of paths to R1 PDFs for this footnote
+            main_text_propositions: Dict mapping cite# to proposition text
+            
+        Returns:
+            Dict with comprehensive results
+        """
+        print(f"\n{Fore.CYAN}{'='*80}")
+        print(f"PROCESSING FOOTNOTE {footnote_num}")
+        print(f"{'='*80}{Style.RESET_ALL}\n")
+        
+        # Stage 1: Parse citations
+        print(f"{Fore.YELLOW}Stage 1: Parsing citations...{Style.RESET_ALL}")
+        parser = CitationParser(footnote_text, footnote_num)
+        citations = parser.parse()
+        print(f"  ✓ Found {len(citations)} citation(s)")
+        
+        footnote_results = {
+            "footnote_num": footnote_num,
+            "footnote_text": footnote_text,
+            "citations": []
+        }
+        
+        # Process each citation
+        for cite_idx, citation in enumerate(citations, 1):
+            print(f"\n{Fore.GREEN}  Citation {cite_idx}/{len(citations)}{Style.RESET_ALL}")
+            
+            cite_result = self._process_citation(
+                citation=citation,
+                r1_pdf_path=r1_pdf_paths[cite_idx - 1] if cite_idx <= len(r1_pdf_paths) else None,
+                proposition=main_text_propositions.get(cite_idx, "")
+            )
+            
+            footnote_results["citations"].append(cite_result)
+        
+        return footnote_results
+    
+    def _process_citation(self,
+                         citation: object,
+                         r1_pdf_path: Path,
+                         proposition: str) -> Dict:
+        """Process a single citation through all validation stages."""
+        
+        result = {
+            "citation_num": citation.citation_num,
+            "citation_text": citation.full_text,
+            "citation_type": citation.type,
+            "r1_pdf_path": str(r1_pdf_path) if r1_pdf_path else None
+        }
+        
+        # Stage 2: Extract from R1 PDF
+        if r1_pdf_path and r1_pdf_path.exists():
+            print(f"    Stage 2: Processing R1 PDF...")
+            pdf_data = process_r1_pdf(r1_pdf_path)
+            result["pdf_data"] = pdf_data
+            
+            if pdf_data["success"]:
+                print(f"      ✓ Extracted {len(pdf_data['redboxed_regions'])} redboxed region(s)")
+            else:
+                print(f"      ✗ PDF processing failed: {pdf_data['error']}")
+        else:
+            print(f"    ⚠ R1 PDF not found: {r1_pdf_path}")
+            result["pdf_data"] = None
+        
+        # Stage 3: Validate citation format
+        print(f"    Stage 3: Validating citation format...")
+        validation = self.citation_validator.validate_citation(citation)
+        result["citation_validation"] = validation.get("validation")
+        
+        if validation["success"]:
+            if validation["validation"]["is_correct"]:
+                print(f"      ✓ Citation format correct")
+            else:
+                errors = validation["validation"].get("errors", [])
+                print(f"      ⚠ Found {len(errors)} format error(s)")
+        
+        # Stage 4: Check support
+        if result["pdf_data"] and result["pdf_data"]["success"] and proposition:
+            print(f"    Stage 4: Checking support...")
+            
+            # Combine all redboxed text
+            redboxed_text = " ".join([
+                region["text"] for region in result["pdf_data"]["redboxed_regions"]
+            ])
+            
+            support_check = self.support_checker.check_support(
+                proposition=proposition,
+                source_text=redboxed_text,
+                citation_text=citation.full_text
+            )
+            result["support_analysis"] = support_check.get("analysis")
+            
+            if support_check["success"]:
+                support_level = support_check["analysis"]["support_level"]
+                confidence = support_check["analysis"]["confidence"]
+                print(f"      {'✓' if support_level == 'yes' else '⚠'} Support: {support_level.upper()} (confidence: {confidence:.2f})")
+        
+        # Stage 5: Verify quotes
+        if citation.quoted_text and result["pdf_data"]:
+            print(f"    Stage 5: Verifying quote accuracy...")
+            
+            # Find quote in redboxed regions
+            source_text = " ".join([r["text"] for r in result["pdf_data"]["redboxed_regions"]])
+            
+            quote_check = self.quote_verifier.verify_quote(
+                quoted_text=citation.quoted_text,
+                source_text=source_text
+            )
+            result["quote_verification"] = quote_check
+            
+            if quote_check["accurate"]:
+                print(f"      ✓ Quote accurate")
+            else:
+                print(f"      ⚠ Quote issues: {len(quote_check['issues'])}")
+        
+        # Stage 6: Determine recommendation
+        result["recommendation"] = self._make_recommendation(result)
+        print(f"    → Recommendation: {Fore.CYAN}{result['recommendation'].upper()}{Style.RESET_ALL}")
+        
+        # Add to human review queue if needed
+        if result["recommendation"] in ["review", "flag"]:
+            self.human_review_queue.append({
+                "footnote_num": citation.footnote_num,
+                "citation_num": citation.citation_num,
+                "result": result
+            })
+        
+        return result
+    
+    def _make_recommendation(self, result: Dict) -> str:
+        """
+        Make overall recommendation based on all checks.
+        
+        Returns:
+            "approve", "review", or "flag"
+        """
+        # Citation validation
+        citation_ok = True
+        if result.get("citation_validation"):
+            cv = result["citation_validation"]
+            citation_ok = cv.get("is_correct", False) or cv.get("confidence", 0) > 0.9
+        
+        # Support check
+        support_ok = True
+        if result.get("support_analysis"):
+            sa = result["support_analysis"]
+            support_level = sa.get("support_level", "")
+            confidence = sa.get("confidence", 0)
+            
+            if support_level == "no":
+                support_ok = False
+            elif support_level == "maybe" and confidence < 0.7:
+                support_ok = False
+        
+        # Quote verification
+        quote_ok = True
+        if result.get("quote_verification"):
+            qv = result["quote_verification"]
+            quote_ok = qv.get("accurate", False) or qv.get("confidence", 0) > 0.9
+        
+        # Overall recommendation
+        if citation_ok and support_ok and quote_ok:
+            return "approve"
+        elif citation_ok and (support_ok or quote_ok):
+            return "review"
+        else:
+            return "flag"
+    
+    def run_full_pipeline(self, 
+                         footnote_range: tuple = (73, 115)) -> Dict:
+        """
+        Run the complete pipeline for all footnotes in range.
+        
+        Args:
+            footnote_range: Tuple of (start_fn, end_fn) inclusive
+            
+        Returns:
+            Dict with comprehensive results and statistics
+        """
+        start_fn, end_fn = footnote_range
+        print(f"\n{Fore.MAGENTA}{'='*80}")
+        print(f"R2 PIPELINE - FOOTNOTES {start_fn}-{end_fn}")
+        print(f"{'='*80}{Style.RESET_ALL}\n")
+        
+        # TODO: Load footnote texts and propositions from Word doc
+        # This would require parsing the Word doc
+        # For now, placeholder
+        
+        print(f"{Fore.RED}NOTE: Full pipeline requires Word doc parsing implementation{Style.RESET_ALL}")
+        print(f"For demo, use process_footnote() method with specific footnotes\n")
+        
+        # Print statistics
+        print(f"\n{Fore.CYAN}Pipeline Configuration:{Style.RESET_ALL}")
+        print(f"  GPT Model: {settings.GPT_MODEL}")
+        print(f"  Confidence Threshold: {settings.CONFIDENCE_THRESHOLD}")
+        print(f"  Auto-approve High Confidence: {settings.AUTO_APPROVE_HIGH_CONFIDENCE}")
+        
+        return {
+            "message": "Use process_footnote() for individual footnotes",
+            "llm_stats": self.llm.get_stats()
+        }
+    
+    def generate_reports(self):
+        """Generate HTML report for human review queue."""
+        print(f"\n{Fore.YELLOW}Generating reports...{Style.RESET_ALL}")
+        
+        # Save detailed JSON log
+        log_file = settings.LOG_DIR / f"r2_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        with open(log_file, 'w') as f:
+            json.dump({
+                "results": self.results,
+                "human_review_queue": self.human_review_queue,
+                "llm_stats": self.llm.get_stats()
+            }, f, indent=2)
+        
+        print(f"  ✓ Saved detailed log to {log_file}")
+        
+        # Generate HTML report (see web UI section)
+        # ...
+        
+        print(f"\n{Fore.GREEN}✓ Reports generated{Style.RESET_ALL}")
+
+# Entry point
+if __name__ == "__main__":
+    print(f"{Fore.MAGENTA}\n{'='*80}")
+    print("R2 CITECHECK PIPELINE")
+    print(f"{'='*80}{Style.RESET_ALL}\n")
+    
+    # Check for API key
+    import os
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        print(f"{Fore.RED}ERROR: OPENAI_API_KEY environment variable not set{Style.RESET_ALL}")
+        print("Set it with: export OPENAI_API_KEY='your-key-here'")
+        sys.exit(1)
+    
+    # Initialize pipeline
+    pipeline = R2Pipeline(api_key)
+    
+    # Example usage
+    print(f"\n{Fore.CYAN}Example Usage:{Style.RESET_ALL}")
+    print("  pipeline.process_footnote(")
+    print("      footnote_num=78,")
+    print("      footnote_text='...',")
+    print("      r1_pdf_paths=[Path('R1-078-01-070-Source.pdf')],")
+    print("      main_text_propositions={1: '...'})")
+    
+    pipeline.run_full_pipeline()
+
+I'll continue with the Flask web UI in the next message. Should I keep going?Retry

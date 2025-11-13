@@ -1,0 +1,47 @@
+TITLE: 16.8 Electronic Media and Online Sources (pp. 174–75)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-8-electronic-media-and-online-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.8
+Electronic Media and Online Sources
+(pp. 174–75)
+(a) Commercial electronic databases.
+When citing periodical materials to a database, provide a complete citation to the document according to
+rule 16
+and a citation to the database. If the database assigns a unique identifier or code to each document within the database, include that identifier or code to assist the reader in locating the document cited.
+Some sources are available in two forms, electronic and paper. To facilitate access to the source, it is permissible to include a direct citation to a commercial electronic database:
+T.R. Fehrenbach,
+TV’s Alamo Tale Fairly Accurate
+,
+S.A. Express-News
+, Mar. 17, 1996, at A1, 1996 WL 2824823.
+Justice Minister Calls for Solving International Legal Conflicts
+,
+Japan Econ. Newswire Plus
+, Apr. 22, 1991, at 1, DIALOG, File No. 612.
+(b) Internet and online sources.
+Where a print version is accessible, citation should be made to the print source. Where, however, the print source is difficult or impossible to obtain, or the governing authority has designated the electronic source as the official version, citation should be made to the electronic source with consideration of
+rule 18
+’s principles on authentication. If a periodical source is only available online, cite to it directly in accordance with
+rule 18.2.2
+. If the digital source has a Digital Object Identifier (DOI), the DOI may be appended in brackets at the end of the citation as a
+rule 18.2.1(d)
+archival tool:
+Randy Kommey & Madeleine Fombad,
+Strategies for Knowledge Sharing Among Rice Farmers: A Ghanaian Perspective
+,  21 Eʟᴇᴄ. J. Kɴᴏᴡʟᴇᴅɢᴇ Mɢᴍᴛ. 114 (2023),
+https://academic-publishing.org/index.php/ejkm/article/view/2803/2144
+[
+https://doi.org/10.34190/ejkm.21.2.2803
+].

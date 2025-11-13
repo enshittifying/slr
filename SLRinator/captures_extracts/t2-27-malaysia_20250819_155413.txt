@@ -1,0 +1,89 @@
+TITLE: T2.27 Malaysia
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-27-malaysia
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.27
+Malaysia
+(Civil/Islamic Law)
+Malaysia operates two legal systems simultaneously—civil law and Syariah law. Civil laws are based on the common law tradition and are applicable to all persons. In addition, Syariah law covers personal and family matters applicable to Muslims.
+Cases
+Citation format:
+<case name, in italics> <year of publication in parentheses> <volume number> <reporter abbreviation> <first page>,
+[
+<paragraph(s) of specific material, if desired>
+] (
+<court name, if necessary>
+).
+Civil cases:
+The most commonly-cited reporters in Malaysia are the Malayan Law Journal (MLJ) and the Current Law Journal (CLJ). Both MLJ and CLJ provide reports of cases from the Federal Court, the Court of Appeal and High Courts.
+Cubic Electronics Sdn Bhd (In Liquidation) v. Mars Telecommunications Sdn Bhd
+[2019] 6 MLJ 15, [30] (Federal Court).
+Syariah cases:
+CLJ provides reports of Syariah Court decisions in Malaysia starting from 2004. The reporter is abbreviated as “
+CLJ(Sya)
+” prior to 2014 and as “
+SHR
+” 2014 onwards.
+Ismail Yahya v Ketua Pendakwa Syarie Terengganu
+[2015| 1 SHR 97.
+Constitution
+Malaysia’s Federal Constitution should be cited as follows:
+Fed. Const.
+, art. 8(5)(a) (Malay.).
+Statutes
+Malaysian statutes consist of federal Acts and state Enactments. Civil laws are enacted in federal Acts, whereas Syariah laws are enacted in state Enactments. State laws enacted in the state of Sarawak are known as Ordinances. Current federal Acts and relevant subsidiary legislation are available online at
+https://lom.agc.gov.my
+.
+Federal Acts citation format:
+<act name> <year of passage>
+(
+<act number>
+),
+<section(s), if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Land Public Transport Act 2010 (Act 715), § 16 (Malay.).
+State Enactments will usually contain the name of the enacting state in the enactment name. In the first example below, the enacting state is Selangor. If the name of the state is not in the enactment name, place it in front as per the second example below:
+(
+<state name, if applicable>
+)
+<enactment name> <year of passage>
+(
+<enactment number>
+),
+<section(s), if applicable>
+.
+Muslim Wills (Selangor) Enactment 1999 (En. 4/1999), § 17(1).
+(Sarawak) Syariah Courts Ordinance 2001 (Cap. 42/2001), § 22(1).
+Subsidiary Legislation
+Subsidiary legislation is published in the Federal and State Gazettes respectively:
+Land Public Transport (Terminal Licensing) (Station and Transport Hub) Regulations 2024 (P.U. (A) 42/2024) (Malay.).
+(Sarawak) Housing Development (Control and Licensing) Regulations 2014 (Swk. L.N. 105/2014).
+Bills
+Citation format:
+<bill name> <year of introduction in Parliament> <bill code>, <clause(s), if applicable>.
+Jurisdictional Immunities of Foreign States Bill 2023 (D.R.41/2023), cl. 4.
+Parliamentary Debates
+The Malaysian Parliament is a bicameral system which consists of the Dewan Rakyat (House of Representatives) and the Dewan Negara (Senate). The parliamentary debates (Hansard) for both assemblies are only published in the Malay language, at
+https://www.parlimen.gov.my
+.
+Citation format:
+<name of assembly>
+Hansard
+<date of Hansard> <number of Hansard>
+(
+<country abbreviation if not evident from context>
+).
+House of Representatives Hansard 5 Mar. 2024 (No. 6/2024) (Malay.).

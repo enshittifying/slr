@@ -1,0 +1,258 @@
+TITLE: T2.15 Greece
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-15-greece
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.15
+Greece
+(Civil Law)
+Cases
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<case number>
+/
+<year>
+, p.
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Areios Pagos [A.P.] [Supreme Court] 355/2004, p. 3 (Greece).
+Symboulion Epikrateias [S.E.] [Supreme Administrative Court] 1250/1995, p. 8 (Greece).
+Areios Pagos
+(
+A.P.
+) (Supreme Court),
+Symboulion Epikrateias
+(
+S.E.
+) (Supreme Administrative Court),
+Eirinidokeia
+(
+Erin.
+) (courts of peace),
+Protodikeia
+(Monomele-Polymele) (
+Mon. Pr.
+or
+Pol. Pr.
+) (district courts), and
+Epheteia
+(
+Ephet.
+) (courts of appeals): Cite to various legal journals. There are no official reporters for court decisions.
+Constitution
+Citation format:
+<year>
+Syntagma [Syn.] [Constitution]
+<section number>
+(
+<country abbreviation if not evident from context>
+).
+1975
+Syntagma [Syn.] [Constitution]
+6 (Greece).
+Codes
+Citation format:
+<code name>
+[
+<code abbreviation>
+] [
+<English translation of code name>
+]
+<chapter number>
+:
+<article number>
+(
+<country abbreviation if not evident from context>
+).
+Astikos Kodikas [A.K.] [Civil Code]
+1:1 (Greece).
+Astikos Kodikas (Civil Code)
+A.K.
+Poinikos Kodikas (Criminal Code)
+P.K.
+Stratiotikos Poinikos Kodikas (Military Criminal Code)
+Str.P.K.
+Kodikas Idiotikou Nautikou Dikaiou (Code of Private Maritime Law)
+KIND
+Emporikos Kodikas (Commercial Code)
+EK
+Kodikas Politikes Dikonomias (Code of Civil Procedure)
+KPol.D.
+Kodikas Poinikes Dikonomias (Code of Criminal Procedure)
+KPoi.D.
+Kodikas ton Demosion Ypallelon (Code of Civil Servants)
+KDY
+Kodikas Ellenikes Ithageneias (Code of Greek Citizenship)
+KEI
+Dasikos Kodikas (Forest Code)
+DK
+Kodikas Symvolaiographon (Code on Notaries)
+KS
+Kodikas Dioikitikes Diadikasias (Code of Administrative Procedure)
+K.D.Diad.
+Kodikas Dioikitikes Dikonomias (Code of Administrative Judicial Procedure)
+K.D.Dik.
+Statutes and decrees
+Citation format for statutes:
+Nomos (
+<year>
+:
+<law number>
+)
+<statute name>
+[
+<English translation of statute name>
+],
+<publication name>
+[
+<publication abbreviation>
+]
+<year>
+,
+<part>
+:
+<issue number>
+(
+<country abbreviation if not evident from context>
+).
+Nomos (2013:4164) Symplerose ton Diatakseon Peri Ethnikou ktema- tologiou kai Alles Rythmiseis [Completion of Provisions on National Registry and Other Regulations],
+Ephemeris tes Kyverneseos tes Hellenikes Demokratias
+[E.K.E.D.] 2013, A:156 (Greece).
+Citation format for decrees:
+Diatagma (
+<year>
+:
+<law number>
+)
+<decree name>
+[
+<English translation of decree name>
+],
+<publication name>
+[
+<publication abbreviation>
+]
+<year>
+,
+<part>
+:
+<issue number>
+(
+<country abbreviation if not evident from context>
+).
+Diatagma (2014:8) Epharmoge tes Apophasis 1929 (2010) toy Symvouliou Asfaleias tou Organismou Enomenon Ethnon (O.H.E.) [Implementation of Decision 1929 (2010) of the United Nations Foreign Jurisdictions: Greece T2 (U.N.)],
+Ephemeris Tes Kyverneseos Tes Hellenikes Demokratias
+[E.K.E.D.] 2014, B:13 (Greece).
+Periodicals
+Citation format:
+<author name>
+,
+<title in transliterated form>
+[
+<English translation of title>
+]
+<volume number> <periodical name>
+[
+<periodical abbreviation>
+], No.
+<number>
+,
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<year>
+) (
+<country abbreviation if not evident from context>
+).
+Kostas Mpeis,
+He Anagkastike Ektelese Enantion Allodapou Kratous Kata to Helleniko Dikaio
+[Enforcement Proceedings Against a Foreign State According to Greek Law] 52
+Nomikon Vema
+[N.V.], No. 4, 558 (2004) (Greece).
+The following are the most common journals:
+Harmenopoulos
+Harm.
+Dike (Trial)
+D.
+Deltio Ergatikes Nomothesias (Bulletin of Labor Law)
+D.E.N.
+Deltio Phorologikes Nomothesias (Bulletin of Taxation)
+D.Ph
+.N.
+Epitheoreses Demosiou kai Dioiketikou Dikaiouÿ
+(Journal of Public and Administrative Law)
+E.D.D.D.
+Epitheoreses Dikaiou Koinonikes Asphaliseos  (Journal of Social Insurance Law)
+E.D.K.A.
+Epitheoreses Ergatikou Dikaiou (Journal of Labor Law)
+E.Erg.D.
+Ephemeres Ellenon Nomikon (Journal of Greek Jurists)
+E.E.N.
+Epitheoreses Emporikou Dikaiou (Journal of Commercial Law)
+E.Emp.D.
+Nomikon Vema (Legal Tribune)
+N.V.
+Kodikas Nomikou Vematos (Code of Legal Tribune)
+K.N.V.
+To Syntagma (The Constitution)
+To S.
+Dikaiomata Tou Antrhopou (Review of Human Rights)
+D.T.A.
+Treaties
+Cite treaties to the
+Official Gazette of Greece
+:
+<title>
+,
+<parties>
+,
+<date of signature>
+[
+Ephemeris tes Kyverneseos tes Hellenikes Demokratias]
+[E.K.E.D.],
+<part>
+:
+<issue number>
+,
+<date of publication>
+(
+<country abbreviation if not evident from context>
+).
+Agreement on Double Taxation, Greece-U.S., Oct. 22, 1960 [
+Ephemeris tes Kyverneseos tes Hellenikes Demokratias] [E.K.E.D
+.], A:28, Oct. 28, 1960 (Greece).
+Internet sources
+http://www.et.gr
+(
+Official Gazette of Greece
+, available for free)
+http://www.dsanet.gr
+(Isokratis (Athens Bar Association))
+http://lawdb.intrasoftnet.com
+(NOMOS)
+https://guides.loc.gov/law-greece
+(Library of Congress Guide to Law Online: Greece)
+https://www.ministryofjustice.gr/
+(Ministry of Justice, Transparency, and Human Rights)
+http://www.hellenicparliament.gr
+(Hellenic Parliament)

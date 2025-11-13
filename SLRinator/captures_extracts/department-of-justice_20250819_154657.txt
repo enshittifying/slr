@@ -1,0 +1,47 @@
+TITLE: Department of Justice (p.264)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: department-of-justice
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Department of Justice
+(p.264)
+Advisory Opinions:
+Cite published, formal advisory opinions in the same manner as adjudications under
+rule 14.3
+. Cite Attorney General opinions to
+Opinions of the Attorneys General
+(
+Op. Att’ys Gen
+.) and opinions from the Office of Legal Counsel to
+Opinions of the Office of Legal Counsel of the Department of Justice
+(
+Op. O.L.C.
+).
+Legality of Revised Phila. Plan, 42 Op. Att’ys Gen. 405 (1969).
+Applicability of Exec. Order No. 12,674 to Pers. of Reg’l Fishery Mgmt. Councils, 17 Op. O.L.C. 150, 154 (1993).
+Question Related to the Potential Rescheduling of Marijuana, 48 Op. O.L.C. (Apr. 11, 2024) (slip op. at 5).
+Justice Manual:
+Cite policies and guidance from the
+Justice Manual
+(formerly the
+U.S. Attorneys’ Manual
+) as:
+U.S. Dep’t of Just.,
+<name of manual>
+, §
+<section>
+(
+<year>
+).
+U.S. Dep’t of Just., Just. Manual § 7-3.300 (2018).
+U.S. Dep’t of Just., U.S. Att'ys' Manual § 1-1.600 (1988).

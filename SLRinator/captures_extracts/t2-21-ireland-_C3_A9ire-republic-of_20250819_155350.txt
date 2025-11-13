@@ -1,0 +1,226 @@
+TITLE: T2.21 Ireland (Éire), Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-21-ireland-éire-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.21
+Ireland (Éire), Republic of
+(Common Law)
+Cases
+Citation format:
+<case name>
+[
+<year>
+]
+<volume number, if one exists> <neutral citations, if applicable
+>
+<reporter/publication abbreviation, if available, and unreported cases> <first page of case, or opinion number in that calendar year for neutral citations and unreported cases>
+(
+<court abbreviation, unless citing to the highest court or indicated by neutral citation>
+<year of decision if not already provided>
+) (
+<country abbreviation if not evident from context>
+).
+Ryan v. Att’y Gen. [1965] IR 294 (Ir.).
+KSK Enters. Ltd. v. An Bord Pleanála [1994] 2 IR 128, 135 (Ir.).
+DPP v. Carolan [1998] 2 ILRM 212 (H. Ct.) (Ir.).
+Gilligan v. Special Criminal Court [2005] IESC 86 [2006] 2 IR 406 (Ir.).
+The Irish Legal Information Initiative,
+https://irlii.org/
+, can help to determine whether a neutral citation number has been issued for a case.
+Supreme Court of Éire
+(
+SC
+),
+High Court
+(
+H. Ct.
+), and
+Court of Criminal Appeal
+(
+CCA
+): Cite to
+IR
+, if therein; otherwise, cite to one of the reporters below:
+Employment Law Reports
+1990–date
+ELR
+Irish Company Law Reports
+1963–1993
+ICLR
+Irish Reports
+1868–date
+IR
+Irish Law Times Reports
+1866–1980
+ILTR
+Irish Law Reports Monthly
+1976–date
+ILRM
+Irish Law Reports
+1838–1912
+ILR
+Irish Jurist Reports
+1935–1966
+1849–1866
+Ir. Jur. Rep.
+Irish Tax Reports
+1922–1927
+ITR
+Frewen
+1924–1989
+Frewen
+Constitution
+Citation format:
+Constitution of Ireland
+1937 art.
+<article number>
+. Or:
+Constitution of the Irish Free State
+1922 art.
+<article number>
+.
+Constitution of Ireland
+1937 art. 2,
+http://www.irishstatutebook
+.
+ie/eli/cons/en/html.
+Constitution of the Irish Free State
+1922 art. 5.
+Constitution of Ireland (Bunreacht na hèireann)
+Constitution of Ireland
+1937.
+Constitution of the Irish Free State (Saorstát Éireann) Act 1922
+Constitution of the Irish Free State
+1922.
+Statutory compilations and session laws
+Citation format:
+<short title, including year if in title>
+(
+<Act No., or if before 1938, Pub. Stat. No.>
+/
+<year>
+) (
+<country abbreviation if not evident from context>
+).
+Online references should be to the
+Irish Statute Book
+, where available.
+Control of Exports Act 2008 (Act No. 1/2008) (Ir.),
+http://www.irishstatutebook.ie/eli/2008/act/1/enacted/en/html.
+Dublin Transport Authority Act 2008 (Act No. 15/2008) (Ir.), http://www.irishstatutebook.ie/eli/2008/act/15/enacted/en/html.
+Acts of the Oireachtas
+1937–date
+Acts of the Oireachtas (Saorstát Éireann
+)
+1922–1937
+Administrative materials
+Citation format:
+<short name of instrument or order>
+(SI
+<number>
+/
+<year>
+) (
+<country abbreviation if not evident from context>
+).
+Or:
+<short name of instrument or order>
+(SR & O
+<number>
+of
+<year>
+) (
+<country abbreviation if not evident from context>
+).
+Online references should be to the
+Irish Statute Book
+, where available.
+Control of Fishing for Salmon Order 2008 (SI 98/2008) (Ir.), http://www.irishstatutebook.ie/eli/2008/si/98/made/en/print.
+Irish Nationality and Citizenship Regulations 2005 (SI 1/2005) (Ir.), http://www.irishstatutebook.ie/eli/2005/si/1/made/en/print.
+Eggs (Regulation of Export to Germany) Order 1936 (SR & O 89 of 1936) (Ir.), Redirected to: http://www.irishstatutebook.ie/eli/1936 /sro/89/made/en/print.
+Statutory Instruments
+1947–date
+SI
+Statutory Rules and Orders
+1922–1947
+SR & O
+Parliamentary debates
+Citation format:
+<volume number>
+<publication abbreviation>
+(
+<date>
+) col.
+<column number>
+(
+<country abbreviation if not evident from context>
+).
+83 Dáil Deb. (Feb. 17, 1979) col. 556 (Ir.).
+87 Seanad Deb. (Mar. 21, 1977) col. 970 (Ir.).
+Parliamentary Debates, Dáil Debates
+1922–date
+Dáil Deb.
+Parliamentary Debates, Seanad Debates
+1922–date
+Seanad Deb.
+Citation format for debates that occurred prior to the availability of the print version:
+<volume and number as given by the online source>
+<printed publication abbreviation>
+,
+<section of the debate being cited>
+(
+<date>
+) (
+<country abbreviation if not evident from context>
+),
+<URL>
+.
+212 No. 9 Seanad Deb., Business of Seanad (Jan. 11, 2012) (Ir.).
+Committee or commission reports
+Citation format:
+<author name>
+,
+<title>
+(
+<Parliament number if available>
+,
+<year of publication if available>
+) (
+<country abbreviation if not evident from context>
+).
+Gov’t of Ir., Inter-Departmental Working Group on Abortion, Green Paper on Abortion
+(1999).
+Treaties
+Citation format:
+<treaty name>
+, ITS No.
+<treaty number>
+/
+<year>
+(
+<country abbreviation if not evident from context>
+).
+Agreement Between the Government of Ireland and the Government of the United Kingdom of Great Britain and Northern Ireland, ITS No. 1/2008 (Ir.).
+Ireland Treaty Series
+1930–date
+ITS
+Internet sources
+http://www.bailii.org
+(British and Irish Legal Information Institute)
+http://www.irishstatutebook.ie
+(Irish Statute Book)
+http://www.attorneygeneral.ie
+(Office of the Attorney General)
+http://www.loc.gov/law/help/guide/nations/ireland.php
+(Library of Congress Guide to Law Online: Ireland)

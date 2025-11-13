@@ -1,0 +1,694 @@
+TITLE: T2.6 Canada
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-6-canada
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.6
+Canada
+(Common Law and Civil Law (Québec))
+Cases
+Privy Council
+(
+P.C.
+) (criminal appeals until 1935, civil appeals until 1949): Cite to reports listed under
+table T2.43 United Kingdom
+if therein; otherwise cite to
+Olms.
+Great Britain privy council judicial committee, decisions relating to the British North American Act, 1867, and the Canadian Constitution 1867
+–
+1954, arranged by Richard A. Olmsted
+Supreme Court of Canada
+(
+S.C.C.
+): Cite to
+S.C.R.
+if therein; otherwise cite to
+D.L.R.
+Canada: Supreme Court Reports
+1876–date
+S.C.R.
+Dominion Law Reports
+1912–date
+D.L.R.
+Federal Court
+(
+Fed. Ct.
+) (formerly the
+Exchequer Court
+): Cite to
+F.C.
+or
+Ex. C.R.
+if therein; otherwise cite to
+D.L.R.
+Federal Court Reports
+1971–date
+F.C.
+Exchequer Court Reports
+1875–1971
+Ex. C.R.
+Tax Court of Canada
+(
+Can. Tax Ct.
+): Cite to
+C.T.C.
+or
+Tax A.B.C.
+if therein; otherwise cite to
+D.T.C.
+or
+D.L.R.
+Canada Tax Cases
+1985–date
+C.T.C.
+Canada Tax Appeal Board Cases
+1945–1972
+Tax A.B.C.
+Dominion Tax Cases
+1920–date
+D.T.C.
+There are six main citation styles used by Canadian case reporters:
+1)
+Reporters for which the year constitutes the volume number. The following reporters fit this description during the specified year ranges:
+Supreme Court Reports
+1923–1974
+S.C.R.
+Federal Court Reports
+1971–1973
+F.C.
+Ontario Reports
+1931–1962
+O.R.
+Citation format:
+<case name>
+, [
+<year of report>
+]
+<abbreviation of report> <first page>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+).
+Chase v. Campbell, [1962] S.C.R. 425 (Can.).
+Roméo Lafrance c. Hôpital St-Luc et Commission des affaires sociales, [1980] C.A. 497 (Can. Que.).
+Always include the province abbreviation for decisions of provincial courts.
+Only include the court abbreviation when it is not apparent from the reporter.
+When citing French translations of Canadian cases, the party names are
+separated by “c.,” which refers to “contre,” the French translation of “versus.”
+2)
+Reporters that begin at volume one each year, and are thus organized by year first, then volume number. The following reporters fit this description
+during the specified year ranges:
+Supreme Court Reports
+1975–date
+S.C.R.
+Federal Court Reports
+1974–2003
+F.C.
+Federal Court Reports
+2004–date
+F.C.R.
+Ontario Reports
+1963–1973
+O.R.
+Dominion Law Reports
+1923–1955
+D.L.R.
+Omit the year of decision when it is the same as the reporter year:
+Citation format:
+<case name>
+, [
+<reporter year>
+]
+<volume number> <reporter abbreviation> <first page>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+).
+R. v. Morgentaler, [1993] 3 S.C.R. 463 (Can.).
+Brockville Hotel Co. v. Aga Heat (Can.) Ltd., [1944] 2 D.L.R. 698 (Can. Ont. C.A.).
+Include the year of decision when it is different from the reporter year:
+Citation format:
+<case name>
+(
+<year of decision>
+), [
+<reporter year>
+]
+<volume number> <reporter abbreviation> <first page>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+).
+Swiss Bank Corp. v. Air Can. (1987), [1988] 1 F.C. 71 (Can. C.A.).
+3)
+Reporters that are divided into series, and are thus organized by series first, then volume number. The following reporters fit this description during the specified year ranges:
+Ontario Reports (2d, 3d)
+1974–date
+O.R. 2d, O.R. 3d
+Dominion Law Reports (2d, 3d, 4th)
+1956–date
+D.L.R. 2d, D.L.R. 3d, D.L.R. 4th
+Many other Canadian case reporters fit this description. In addition, some Canadian and provincial administrative tribunal reporters such as
+Labour Arbitration Cases
+(
+L.A.C.
+) fit this description.
+Citation format:
+<case name>
+(
+<year of decision>
+),
+<volume number> <reporter abbreviation> <series> <first page>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+).
+Weber v. Ont. Hydro (1992), 98 D.L.R. 4th 32 (Can. Ont. C.A.).
+De Zorzi Estate v. Read (2008), 38 E.T.R. 3d 318 (Can. Ont. Sup. Ct. J.).
+Ferrel v. Ontario (Att’y Gen.) (1998), 42 O.R. 3d 97 (Can. Ont. C.A.).
+Westfair Foods Ltd. v. U.F.C.W., Local 1400 (2008), 175 L.A.C. 4th 1 (Can. Ont.).
+4)
+Reporters that are organized by volume only. The following reporters fit this description during the specified year ranges:
+Supreme Court Reports
+1876–1922
+S.C.R.
+Alberta Reports
+1977–date
+A.R.
+Ontario Reports
+1882–1901
+O.R.
+Ontario Law Reports
+1901–1930/1931
+O.L.R.
+Dominion Law Reports
+1912–1922
+D.L.R.
+Saskatchewan Reports
+1979–date
+Sask. R.
+Exchequer Court of Canada Report
+1875–1922
+Ex. C.R.
+In addition, some Canadian and provincial administrative tribunal reporters such as the
+Ontario Securities Commission Bulletin
+(
+O.S.C. Bull.
+) and the
+Canadian Human Rights Reporter
+(
+C.H.R.R.
+) fit this description.
+Citation format:
+<case name>
+(
+<year of decision>
+),
+<volume number> <reporter abbreviation> <first page>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+).
+R. v. Chehimi (I.Y.) (2007), 419 A.R. 336 (Can. Alta. Q.B.).
+R. v. Moolla (M.) (2008), 310 Sask. R. 254 (Can. Sask. C.A.).
+Falconer v. The Queen (1889), 2 Ex. C.R. 82 (Can.).
+Leamy v. The King (1916), 54 S.C.R. 143 (Can.).
+St. John (Re) (1998), 21 O.S.C. Bull. 3851 (Can. Ont. Sec. Com.).
+Corren v. B.C. (Ministry of Educ.) (No. 2) (2005), 55 C.H.R.R. D/26 (Can. B.C. H.R.T.).
+5)
+Neutral citations.
+Since 1998, many Canadian courts and administrative tribunals have adopted neutral citations. The neutral citation is applied to the case prior to dissemination and thus cannot be changed. A neutral citation is denoted by two main characteristics: the year of decision without brackets or parentheses, and the court abbreviation, not separated by periods. Neutral citations are preferred over other citations. A neutral citation should always be placed before a parallel case citation.
+Citation format:
+<case name>
+,
+<year of decision> <neutral citation court abbreviation> <document number>
+,
+<parallel citation, if desired>
+(
+<country abbreviation if not evident from context> <province abbreviation, if applicable>
+).
+MacDonald v. Taubner, 2006 ABQB 138 (Can.).
+R. v. Fuhrer, 2007 ABQB 58, 413 A.R. 385 (Can.).
+R. v. Mann, 2004 SCC 52, [2004] 3 S.C.R. 59 (Can.).
+L. v. Fraser-Cascade Sch. Dist. No. 78, 2004 BCHRT 276 (Can.).
+For further information, see Canadian Citation Commission,The Preparation, Citation and Distribution of Canadian Decisions, which is available at
+https://lexum.com/ccc-ccr/preparation/en
+.
+6)
+Case citations to electronic systems.
+The two main electronic legal research systems for Canada are Westlaw Canada (
+WL
+) and Quicklaw (
+QL
+). Each system assigns its own citations to decisions that it collects.
+WL
+citations are normally denoted by two main characteristics: the year of decision without brackets or parentheses, and the electronic reporter name that includes the word “
+Carswell
+.”
+QL
+citations are normally denoted by three main characteristics: the year of decision in brackets, the electronic reporter abbreviation that includes the letter “
+J
+,” and the document number preceded by “
+No.
+” A neutral citation or a citation to a printed reporter is preferred.
+WL citation format:
+<case name>
+,
+<year of decision> <online reporter name> <document number>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+) (WL).
+Apple Computer Inc. v. Mackintosh Computers Ltd., 1987 CarswellNat 675 (Can. F.T.C.D.) (WL).
+QL citation format:
+<case name>
+, [
+<year of decision>
+]
+<online reporter name>
+No.
+<document number>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+) (QL).
+Victorov v. Davison, [1988] O.J. No. 190 (Can. Ont. H.C.J.) (QL).
+CanLII is a free collection of Canadian cases, tribunal decisions, and law. CanLII provides its own citation system, denoted by three main characteristics: the year of decision without brackets or parentheses, CanLII as the reporter name, and the document number applied by CanLII.
+CanLII citation format:
+<case name>
+,
+<year of decision>
+CanLII
+<document number>
+(
+<country abbreviation> <province abbreviation, if applicable> <court abbreviation, if applicable>
+).
+Doug Burns Excavation Contracting Ltd. v. Int’l Union of Operating Eng’rs, Local 721, 1999 CanLII 1081 (Can. N.S. S.C.).
+Pinpoint citations
+Generally, it is appropriate to provide a pinpoint citation to a specific page in the printed reporter, especially for cases published prior to 2002. For SCC cases published after 1996, and other cases published after 2002, provide a pinpoint citation to the specific paragraph, if available. Pinciting to a paragraph is also appropriate when referring to content from an online legal research service.
+Chase v. Campbell, [1962] S.C.R. 425, 426 (Can.).
+Brown v. Lefebvre (2007), 419 A.R. 347, para. 4 (Can. Alta. Q.B.).
+Bank of N.S. v. Visentin, [1996] O.J. No. 4563, para. 2 (Can. Ont. Gen. Div.) (QL).
+L. v. Fraser-Cascade Sch. Dist. No. 78, 2004 BCHRT 276, para. 4 (Can.).
+Order of reporters
+Neutral citations and citations to official and semiofficial reporters are preferred over all other citations.
+Dominion Law Reports
+is the preferred unofficial reporter. Printed reporters are preferred over electronic reporters.
+Official reporters
+Canada Supreme Court Reports
+1876–1922
+S.C.R.
+Canada Law Reports: Supreme Court of Canada
+1923–1969
+S.C.R.
+Canada Supreme Court Reports
+1970–date
+S.C.R.
+Exchequer Court of Canada Report
+1875–1970
+Ex. C.R.
+Canada Federal Court Reports
+1971–2003
+2004–date
+F.C.
+F.C.R.
+Case reporters from the provinces and territories
+*denotes a reporter that is published under the auspices of a Law Society
+*Alberta Reports
+1976–date
+A.R.
+*Alberta Law Reports
+1908–1932/1933
+Alta. L.R.
+Alberta Law Reports (2d)
+1977–1992
+Alta. L.R. 2d
+Alberta Law Reports (3d)
+1992–2002
+Alta. L.R. 3d
+Alberta Law Reports (4th)
+2002–date
+Alta. L.R. 4th
+*British Columbia Reports
+1867–1947
+B.C.R.
+British Columbia Law Reports
+1977–1986
+B.C.L.R.
+British Columbia Law Reports (2d)
+1986–1995
+B.C.L.R. 2d
+British Columbia Law Reports (3d)
+1995–2002
+B.C.L.R. 3d
+British Columbia Law Reports (4th)
+2002–date
+B.C.L.R. 4th
+Manitoba Law Reports
+1875–1883
+Man. L.R.
+*Manitoba Reports
+1883–1961
+Man. R.
+Manitoba Reports (2d)
+1979–date
+Man. R. 2d
+Maritime Provinces Reports: Cases decided in the Supreme Courts of New Brunswick, Newfoundland, Nova Scotia and Prince Edward Island
+1929–1968
+M.P.R.
+New Brunswick Reports
+1825–1929
+N.B.R.
+*New Brunswick Reports (2d)
+1969–date
+N.B.R. 2d
+Newfoundland Law Reports
+1817–1946
+Nfld. L.R.
+*Newfoundland & Prince Edward Island Reports
+1971–date
+Nfld. & P.E.I.R.
+*Northwest Territories Reports
+1983–1998
+N.W.T.R.
+Nova Scotia Reports
+1834–1929
+1965–1969
+N.S.R.
+*Nova Scotia Reports (2d)
+1970–date
+N.S.R. 2d
+Ontario Appeals Reports
+1876–1900
+O.A.R.
+Ontario Appeal Cases
+1984–date
+O.A.C.
+*Ontario Law Reports
+1901–1931
+O.L.R.
+*Ontario Weekly Notes
+1909–1962
+O.W.N.
+Ontario Reports
+1882–1901
+O.R.
+*Ontario Reports
+1931–1973
+O.R.
+*Ontario Reports (2d)
+1974–1991
+O.R. 2d
+*Ontario Reports (3d)
+1991–date
+O.R. 3d
+*Recueils de jurisprudence du Québec (continues C.A., C.S., C.P., C.S.P., T.J.)
+1986–date
+R.J.Q.
+*Recueils de jurisprudence du Québec: Cour d’appel
+1970–1985
+C.A.
+*Rapports judiciaires officiels de Québec: Cour supérieure
+1892–1969
+1970–1985
+C.S.
+*Recueils de jurisprudence du Québec: Cour provinciale
+1975–1985
+C.P.
+*Recueils de jurisprudence du Québec: Cour des Sessions de la paix
+1975–1985
+C.S.P.
+*Recueils de jurisprudence du Québec: Tribunal de la jeunesse
+1975–1985
+T.J.
+*Rapports judiciaires officiels de Québec: Cour du Banc de la Reine/du Roi
+1892–1969
+B.R.
+*Recueils de jurisprudence du Québec: Cour du bien-être social
+1975–1985
+C.B.E.S.
+Québec Appeals Cases
+1987–1995
+Q.A.C.
+*Saskatchewan Law Reports
+1907–1931
+Sask. L.R.
+Saskatchewan Reports
+1980–date
+Sask. R.
+*Territories Law Reports
+1885–1907
+Terr. L.R.
+*Yukon Reports
+1987–1989
+Y.R.
+Other commonly cited reporters
+Atlantic Provinces Reports
+1975–date
+A.P.R.
+Dominion Law Reports
+1912–1955
+D.L.R.
+Dominion Law Reports (2d)
+1956–1968
+D.L.R. 2d
+Dominion Law Reports (3d)
+1969–1984
+D.L.R. 3d
+Dominion Law Reports (4th)
+1984–date
+D.L.R. 4th
+Eastern Law Reporter
+1906–1914
+E.L.R.
+Maritime Provinces Reports
+1929–1968
+M.P.R.
+National Reporter
+1974–date
+N.R.
+Western Law Reporter
+1905–1916
+W.L.R.
+Western Weekly Reports
+1911–date
+W.W.R.
+Only some commonly cited reporters are listed here. For a full list of reporters for Canada, see
+McGill Law Journal, Canadian Guide to Uniform Legal Citation
+app. C (10th ed. 2023).
+Constitutions
+Canada’s constitution consists of a series of United Kingdom enactments reprinted in the appendix to the
+Revised Statutes of Canada
+(
+R.S.C.
+). Cite to the U.K. statute following
+table T2.43 United Kingdom
+and, if desired, the relevant reprint in the
+R.S.C.
+Constitution Act, 1867, 30 & 31 Vict., c 3 (U.K.),
+reprinted in
+R.S.C. 1985, app II, no. 5 (Can.).
+Canada Act, 1982, c 11 (U.K.),
+reprinted in
+R.S.C. 1985, app II, no. 44 (Can.).
+Constitution Act, 1982,
+being
+Schedule B to the Canada Act, 1982, c. 11 (U.K.).
+Canadian Charter of Rights and Freedoms, Part I of the Constitution Act, 1982,
+being
+Schedule B to the Canada Act, 1982, c. 11 (U.K.).
+Statutes
+Consolidated statutes
+Current consolidated federal statutes are available online through the Justice
+Laws Consolidated Acts collection:
+http://laws.justice.gc.ca/eng/acts
+. Current consolidated Ontario statutes are available online through E-Laws:
+https://www.ontario.ca/laws
+. Other provincial online consolidations may also be available. Cite current consolidated statutes using the citation provided. If the consolidated statute appeared in the last
+Revision
+(R.S.C. 1985; RSO 1990), and has not been repealed, it will be cited to the revision. If the consolidated statute was enacted after the last
+Revision
+, it will be cited using the Session Law citation (S.C., S.O.). Cite statutes appearing in historical federal or provincial
+Revisions
+(alphabetical consolidation of acts in force) analogously to codified United States statutes (
+rule 12.3
+). Note that the chapter numbers for federal statutes in the R.S.C. are labeled using a letter and a number (L-2), and the chapter numbers for Ontario statutes in the R.S.O. are labeled using a letter and a number (P.30). Individual provinces may have
+similar variations.
+Canada Labour Code, R.S.C. 1985, c. L-2.
+Province of Ontario Savings Office Act, R.S.O. 1990, c. P.30 (Can.).
+Code of Civil Procedure, R.S.Q., c. C-25 (Can.).
+Always provide the country abbreviation unless it is clear from the context. Always provide a province abbreviation unless the province of origin is made clear in the title of the act or the publication abbreviation.
+Session laws
+To cite a statute as enacted, cite to the annual
+Statutes of Canada
+, or provincial statutes to their annual volumes (for example,
+Statutes of Alberta
+,
+Statutes of Québec
+), in a manner similar to that used for United States session laws (
+rule 12.4
+):
+Antarctic Environmental Protection Act, S.C. 2003, c. 20 (Can.).
+Civil Code of Québec, S.Q. 1991, c. 64, art 2 (Can.).
+For Québec codes, include a pinpoint citation to the article number.
+When citing an act appearing in the current
+Revision
+as well as the act’s subsequent amendment, the name of the amendment need not be given:
+Freehold Mineral Rights Tax Act, R.S.A. 2000, c. F-26, amended by S.A. 2006, c. 21 (Can. Alta.).
+Regulations
+Current consolidated federal regulations are available online through the Justice
+Laws Consolidated Regulations collection:
+http://www.laws-lois.justice.gc.ca/eng/regulations
+. Current consolidated Ontario regulations are available
+online through E-Laws:
+https://www.ontario.ca/laws
+. Other provincial online
+consolidations may also be available. Cite current consolidated regulations using
+the citation provided. If the consolidated regulation appeared in the last print
+Revision/Consolidation (C.R.C. 1978; R.R.O. 1990), and has not been repealed, it
+will be cited to the Revision/Consolidation. If the consolidation regulation was
+enacted after the last Revision, it will be cited using the regulation number as
+registered (S.O.R.; O. Reg.).
+Federal regulations, as registered citation:
+<name>
+,
+SOR
+/
+<year>
+-
+<number>
+or
+SI/
+<year>
+-
+<document number>
+.
+Additional Legislative Powers Designation Order, C.R.C., c. 1235 (Can.).
+Passenger Information Regulations (Preclearance Act), SOR/2002-147 (Can.).
+Provincial regulations have their own form of citation:
+Speed Limits, O. Reg. 383/08 (Can.).
+Nova Scotia Fresh Fruit and Vegetable Regulations, N.S. Reg. 84/79 (Can.).
+Hatching Eggs Regulation, Alta. Reg. 280/1997 (Can.).
+Statutory and regulatory compilations
+Federal
+Revised Statutes of Canada
+R.S.C.
+Consolidated Regulations of Canada
+C.R.C.
+Provincial
+Revised Statutes of Alberta
+R.S.A.
+Revised Statutes of British Columbia
+R.S.B.C.
+Revised Statutes of Manitoba
+R.S.M.
+Continuing Consolidation of the Statutes of Manitoba
+C.C.S.M.
+Revised Statutes of New Brunswick
+R.S.N.B.
+Revised Statutes of Newfoundland and Labrador
+R.S.N.L.
+Consolidated Newfoundland and Labrador Regulations
+C.N.L.R.
+Revised Statutes of the Northwest Territories
+R.S.N.W.T.
+Revised Regulations of the Northwest Territories
+R.R.N.W.T.
+Revised Statutes of Nova Scotia
+R.S.N.S.
+Revised Statutes of Ontario
+R.S.O.
+Revised Regulations of Ontario
+R.R.O.
+Revised Statutes of Prince Edward Island
+R.S.P.E.I.
+Revised Regulations of Prince Edward Island
+R.R.P.E.I.
+Revised Statutes of Québec
+R.S.Q.
+Compilation of Québec Laws and Regulations
+C.Q.L.R.
+Revised Regulations of Québec
+R.R.Q.
+Revised Statutes of Saskatchewan
+R.S.S.
+Revised Regulations of Saskatchewan
+R.R.S.
+Revised Statutes of Yukon
+R.S.Y.
+Session laws and regulations
+Federal
+Statutes of Canada
+S.C.
+Statutes of the Province of Canada
+S. Prov. C.
+Canada Gazette
+C. Gaz.
+Provincial
+Statutes of Alberta
+S.A.
+Alberta Gazette
+A. Gaz.
+British Columbia Statutes
+S.B.C.
+British Columbia Gazette
+B.C. Gaz.
+Statutes of Manitoba
+S.M.
+Manitoba Gazette
+M. Gaz.
+Statutes of New Brunswick
+S.N.B.
+The Royal Gazette New Brunswick
+N.B. Gaz.
+Statutes of Newfoundland (before December 21, 2001)
+S. Nfld.
+Newfoundland Gazette (before December 21, 2001)
+N. Gaz.
+Statues of Newfoundland and Labrador (after December 21, 2001)
+S.N.L.
+Newfoundland and Labrador Gazette (after December 21, 2001)
+N.L. Gaz.
+Ordinances of the Northwest Territories
+O.N.W.T.
+Statutes of Nova Scotia
+S.N.S.
+The Royal Gazette Nova Scotia
+N.S. Gaz.
+Statutes of Nunavut
+S. Nu.
+Nunavut Gazette
+Nu. Gaz.
+Statutes of Ontario
+S.O.
+Ontario Gazette
+O. Gaz.
+Statutes of Québec
+S.Q.
+Gazette officielle du Québec
+G.O.Q.
+Statutes of Saskatchewan
+S.S.
+Saskatchewan Gazette
+S. Gaz.
+Statutes of Yukon
+S.Y.
+Yukon Gazette
+Y. Gaz.
+Treaties
+Canada Treaty Series
+1925–date
+<year>
+Can. T.S. No.
+<treaty number>
+Internet sources
+https://www.loc.gov/item/guide-to-law-online/canada/
+(Library of
+Congress Guide to Law Online: Canada)
+https://www.llrx.com
+(law and technology resources for legal professionals)
+http://legalresearch.org/
+(guide to Canadian legal research

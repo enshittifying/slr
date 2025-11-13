@@ -1,0 +1,155 @@
+TITLE: 2.1 Typeface Conventions for Citations (pp. 73–74)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 2-typefaces-for-law-reviews
+  slug: 2-1-typeface-conventions-for-citations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+2.1
+Typeface Conventions for Citations
+(pp. 73–74)
+Most law reviews use three different typefaces in citations:
+Ordinary Roman (Plain Text),
+Italics
+, and
+Small Capitals
+For example:
+Colin S. Diver,
+The Optimal Precision of Administrative Rules
+, 93
+Yale L.J
+. 65 (1983).
+(a) Case names
+(
+rules 10.2
+,
+14.3.1
+,
+20.3
+,
+21.5
+,
+21.6
+, and
+22.2.4
+).
+Use ordinary roman type for case names in full citations, except for procedural phrases, which are always italicized:
+Lochner v. New York, 198 U.S. 45 (1905).
+State
+ex rel.
+Scott v. Zinn, 392 P.2d 417 (N.M. 1964).
+When a case name appears within an article title in a citation, do not italicize it:
+Thomas J. Madden et al.,
+Bedtime for
+Bivens
+: Substituting the United States as Defendant in Constitutional Tort Suits
+, 20
+Harv. J. on Legis.
+469 (1983).
+This rule remains in force even when the case name comprises the entirety of the article title:
+Owen M. Fiss, Dombrowski, 86
+Yale L.J.
+1103 (1977).
+Use italics for the short form of case citations:
+Lochner
+, 198 U.S. at 50.
+(b) Books
+(
+rule 15
+).
+Use small capitals for both authors and titles:
+Richard Kluger, Simple Justice
+(1976).
+(c) Periodicals
+(
+rule 16
+).
+Italicize article titles and use small capitals for periodical names. Authors’ names should appear in ordinary roman type:
+Katherine K. Baker,
+Once a Rapist? Motivational Evidence and Relevancy in Rape Law
+, 110
+Harv. L. Rev
+. 563 (1997).
+Cass R. Sunstein, Lochner
+’s Legacy
+, 87
+Colum. L. Rev.
+873
+(1987).
+David E. Bernstein,
+Lochner
+’s Legacy
+’s Legacy
+, 82
+Tex. L. Rev.
+1 (2003).
+(d) Introductory signals
+(
+rule 1.2
+).
+Italicize all introductory signals when they appear within citation sentences or clauses:
+See, e.g.
+, 62 Cases, More or Less, Each Containing Six Jars of Jam v. United States, 340 U.S. 593 (1951).
+Do not, however, italicize a signal word when it serves as the verb of an ordinary sentence (
+rule 1.2(e)
+):
+For an analysis of risk-allocation rules under the UCC, see Note,
+Risk of Loss in Commercial Transactions: Efficiency Thrown into the Breach
+, 65
+Va. L. Rev
+. 557, 563–72 (1979).
+(e) Explanatory phrases
+(
+rules 1.6
+,
+10.7
+, and
+12.8
+).
+Italicize all explanatory phrases:
+Oreck Corp. v. Whirlpool Corp., 579 F.2d 126, 131 (2d Cir.) (en banc),
+cert. deni
+ed
+, 439 U.S. 946 (1978).
+Note, however, that phrases in related authority parentheticals, such as “
+(quoting . . . )
+,
+” “
+(citing . . . )
+,” and “
+(translating . . . )
+” are not
+italicized
+.
+(f) Punctuation.
+Italicize commas, semicolons, and other punctuation marks only when they constitute part of the italicized material, and not when they are merely an element of the sentence or citation in which they appear.  For clarity, the italicized items in the examples below appear in blue:
+See, e.g.
+,
+id
+.
+; Sabine Towing & Transp. Co. v. Zapata Ugland Drilling, Inc. (
+In re
+M/V Vulcan), 553 F.2d 489 (5th Cir.) (per curiam),
+cert. denied
+, 434 U.S. 855 (1977).
+Nancy Reagan, Editorial,
+Just Say “Whoa
+,
+”
+Wall St. J.
+, Jan. 23, 1996, at A14.
+(g) Omissions and Alterations
+(
+rules 5.2
+and
+5.3
+).
+Always romanize ellipses (. . .) or brackets ( [] ) when making alterations to quoted materials, even when the quoted materials are italicized, underlined, or bolded.

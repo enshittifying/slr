@@ -1,0 +1,219 @@
+TITLE: T2.8 Chile, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-8-chile-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.8
+Chile, Republic of
+(Civil Law)
+Cases
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+],
+<date of decision in Spanish, in day month year format>
+, “
+<case name>
+,” Rol de la causa:
+<case number>
+,
+<case type>
+,
+<publication name>
+[
+<publication abbreviation>
+]
+<publication volume and/or number>
+p.
+<first page>
+(
+<country abbreviation if not evident from context>
+).
+Note that many reporters depart from this format, as detailed below.
+In the case name, use “c.” between the party names, which refers to “contra,” Spanish for “versus.”
+Corte Suprema de Justicia [C.S.J.] [Supreme Court], 15 noviembre 1954, “Suárez, Alfredo c. Perez, Estela,” Rol de la causa: 124-2008 s., divorcio,
+Revista Gaceta Jurídica
+[R.G.J.] No. 190 p.145 (Chile).
+National jurisdiction
+Corte Suprema de Justicia
+(
+C.S.J.
+) (Supreme Court) and
+Tribunal Constitucional
+(
+T.C.
+) (Constitutional Court) (highest court on constitutional matters).
+Appellate courts
+Corte de Apelaciones
+(C. Apel.) (courts of appeals): Cite to R.D.J., G.T., or F. del M.
+Lower courts
+Tribunales de Juicio Oral en lo Penal
+(T.J.O.P.) (criminal trial courts),
+Juzgados de Garantía
+(J.G.) (criminal courts),
+Juzgados de Familia
+(J.F.) (family courts),
+Juzgados de Cobranza Laboral y Previsional
+(J.C.L.P.) (labor and social security courts),
+Juzgados Civiles
+(J. Civ.) (civil courts),
+Juzgados del Crimen
+(J. Cri.) (criminal courts),
+Juzgados de Menores
+(J. Men.) (juvenile courts),
+Juzgados del Trabajo
+(J.T.) (labor courts),
+Juzgados Mixtos
+(J. Mix.), and
+Juzgados de Letras
+(J.L.) (small claims courts).
+Reporters
+Generally follow the examples below when citing to the volumes and/or numbers of these reporters. Note that “
+t.
+” refers to “tomo,” Spanish for “volume.”
+Fallos del Mes
+1958–date
+e.g.,
+F. del M.
+vol. 37 No. Sentencia 436 (1995)
+Gaceta Jurídica
+1976–date
+e.g.,
+G.J. t. 1, p.25 (1976)
+Gaceta de los Tribunales
+1850–1950
+e.g.,
+G.T. vol. 442, p.3083 (1851)
+Revista de Derecho y Jurisprudencia y Ciencias Sociales
+1908–1951
+e.g.,
+R.D.J. vol. XLVI No. 1 & 2, p.5 (1949)
+Revista de Derecho y Jurisprudencia y Gaceta de los Tribunales
+(merged)
+1951–date
+e.g., R.D.J. & G.T. vol. XCV No. 1, p.37 (Enero–Abril 1988)
+Constitution
+Constitución Política de la República de Chile
+C.P.
+Constitución Política de la República de Chile [
+C.P.] art. 3.
+Codes
+Código Civil
+(Civil Code)
+Cód. Civ.
+Código de Comercio
+(Commercial Code)
+Cód. Com.
+Código Penal
+(Criminal Code)
+Cód
+. P
+en
+.
+Código De Procedimiento Civil
+(Civil Procedure Code)
+Cód. Proc. Civ.
+Código Procesal Penal
+(Criminal Procedure Code)
+Cód. Proc. Pen.
+Código Orgánico de Tribunales
+(Judiciary Code)
+Cód. Org. Trib.
+Código de Justicia Militar
+(Military Justice Code)
+Cód. Jus. Mil.
+Código del Trabajo
+(Labor Code)
+Cód. Trab.
+Código Tributario
+(Revenue and Taxation Code)
+Cód. Trib.
+Código de Aguas
+(Water Code)
+Cód. Aguas
+Código Sanitario
+(Health Code)
+Cód. Sanit.
+Código de Minería
+(Mining Code)
+Cód. Min.
+Código Aeronáutico
+(Aeronautics Code)
+Cód. Aer.
+Código de Derecho Internacional Privado/Código Bustamante
+(Conflict of Laws Code)
+Cód. Der. Int. Priv.
+Statutes and decrees
+Citation format:
+Law No.
+<number of law>
+,
+<title
+of the law, if
+available>
+,
+<publication date in Spanish in month day, year format>
+,
+<reporter name>
+[
+<reporter abbreviation>
+] (
+<country abbreviation if not evident from context>
+).
+Law No. 19496 art. 1, Febrero 7, 1997,
+Diario Oficial
+[D.O.] (Chile).
+Diario Oficial
+D.O.
+Gaceta Jurídica
+G.J.
+Repertorio de Legislación y Jurisprudencia Chilenas
+Rep. Leg. Jurisp.
+Periodicals
+Jurisprudencia al Día
+J.D.
+Revista de Derecho y Jurisprudencia y Gaceta de los Tribunales
+R.D. y J. y G.T.
+Revista Chilena de Derecho
+R.Ch
+. D.
+Revista de Derecho
+R.D.
+Internet sources
+https://www.thomsonreuters.cl/es-cl.html
+(legal publishing company offering jurisprudence, doctrine, and legislation online; paid subscription)
+http://www.lexadin.nl/wlg/legis/nofr/oeur/lxwechl.htm
+(unofficial source for legislation, free access)
+http://www.bcn.cl
+(database of the Library of the National Congress, free access)
+http://www.lexadin.nl/wlg/legis/nofr/oeur/lxwechl.htm
+(unofficial source for legislation, free access
+https://glinf.org/
+(Global Legal Information Network, a database of laws, regulations, and other complementary legal sources)
+http://www.tribunalconstitucional.cl
+(the official website of the Constitutional Court; complete free access to its decisions)
+http://www.scielo.cl
+(free access to the law journals
+Ius et Praxis
+(Universidad de Talca),
+Revista Chilena de Derecho
+(Universidad Católica de Chile),
+Revista de Derecho
+(Universidad Austral de Chile), and
+Revista de Derecho
+(Universidad Católica de Valparaíso))
+https://www.loc.gov/item/guide-to-law-online/chile/
+(Library of Congress Guide to Law Online: Chile)

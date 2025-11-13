@@ -1,0 +1,45 @@
+TITLE: Canal Zone (C.Z.) (p.325)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-4-other-united-states-jurisdictions
+  slug: canal-zone-c-z
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Canal Zone (C.Z.)
+(p.325)
+(now part of Panama)
+United States District Court for the Eastern District of Louisiana
+(
+E.D. La.
+): This court has jurisdiction over litigation pending as of Apr. 1, 1982, in the United States District Court for the District of the Canal Zone. Cite to
+F. Supp.
+Federal Supplement
+1982–1983
+F. Supp.
+United States District Court for the District of the Canal Zone
+(
+D.C.Z.
+): This court ceased to exist on Mar. 31, 1982. Cite to
+F. Supp.
+Federal Supplement
+1946–1982
+F. Supp.
+Statutory compilation
+Panama Canal Code
+C.Z. Code
+tit. x, § x (
+<year>
+)
+(enacted as
+Canal Zone Code, Pub. L. No. 87-845, 76A Stat. 1 (1962)
+, and redesignated and continued partially in force by the
+Panama Canal Act of 1979, Pub. L. No. 96-70, § 3303(b), 93 Stat. 452, 499
+).

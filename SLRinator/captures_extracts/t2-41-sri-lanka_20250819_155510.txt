@@ -1,0 +1,220 @@
+TITLE: T2.41 Sri Lanka
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-41-sri-lanka
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.41
+Sri Lanka
+(Mixed System)
+English is the primary language of the Court of Appeal and the Supreme Court. Decisions of these courts are published in English. Trial courts include the  Magistrates’ Court, Small Claims Court, District Court and High Court; these operate in the official language of the region (Sinhala or Tamil). Some proceedings and decisions of these courts are in English, but are not routinely or formally reported. Laws and regulations are translated into English, with many statutes indicating that the Sinhala version is authoritative in case of an inconsistency with the Tamil text.
+Cases
+The primary law reporter since 1978 is the Sri Lanka Law Reports, abbreviated “
+Sri L.R.
+”
+Citation format:
+<case name>,
+(
+<year of reporter>
+)
+<volume number> <reporter abbreviation> <first page>
+(
+<year of decision if different from the year of reporter>
+) (
+if decision is from the Court of Appeal, then <CA>
+)  (
+<pin cite>
+) (
+per
+<name of judge to cite dissenting or concurring opinion>
+) (
+<country abbreviation if not evident from context>
+).
+Karunarathne v. Attorney General, (2020) 3 Sri L.R. 273, 296 (per Surasena J., dissenting) (Sri Lanka).
+Kariyawasam v. Central Environmental Authority, (2019) 3 Sri L.R. 21 (2018) (Sri Lanka).
+Where the case is unreported, the following format may be used. Unreported cases will typically have a caption that indicates the entire procedural posture of the case. Where this is so, the posture before the final court should be used. Where there are multiple parties involved, the names listed first on both sides of the action should be used. Where the court has consolidated several cases in one decision, the number of the first case listed should be used:
+<case name>
+(
+<case number> (where several cases together, the first number in the decision), <court> Minutes of <date of decision>
+) (
+<pin cite>
+) (per
+<name of judge to cite dissenting or concurring opinion>
+) (
+<country abbreviation if not evident from context>
+).
+Sampanthan v. Attorney General (SC/FR 351/2018, Supreme Court Minutes of Dec. 13, 2018) (Sri Lanka).
+Prior to the enactment of the Second Republican constitution of 1978, the primary law reporter was the New Law Reports (“
+N.L.R.
+”) which comprised a single volume for each year:
+Liyanage v. The Queen, 68 N.L.R. 265 (1965) (Privy Council) (Sri Lanka).
+There are several other official and unofficial reporters which can be abbreviated as follows:
+Ceylon Law Reports
+(
+<year>
+)
+<volume>
+Cey. L.R.
+<page>
+Ceylon Law Recorder
+(
+<year>
+)
+<volume>
+Cey. L. Rec.
+<
+page>
+Ceylon Law Weekly
+(
+<year>
+)
+<volume>
+Cey. L. W.
+<page>
+Srikantha’s Law Reports
+(
+<year>
+)
+<volume>
+Srik. L.R.
+<page>
+Fundamental Rights Reports
+(
+<year>
+)
+<volume>
+Fund. R.R.
+<page>
+Appellate Law Recorder
+(
+<year>
+)
+<volume>
+App. L. Rec.
+<page>
+Bar Association Law Reports
+(
+<year>
+)
+<volume>
+B.A.L.R.
+<page>
+The Supreme Court exercises the power to review bills for constitutionality prior to enactment. These are special proceedings, with the court’s determinations formally reported through Parliament (where not otherwise captured in other law reports).
+Citation format:
+<name of bill>
+(
+<year>
+) [
+<Decisions of the Supreme Court on Parliamentary Bills>
+(
+<period>
+), Vol.
+<volume no.>
+,
+<first page>
+] (
+<country abbreviation if not evident from context>
+).
+Nineteenth Amendment to the Constitutional Bill (2002) [Decisions of the Supreme Court on Parliamentary Bills (1991–2003), Vol. VII, 313] (Sri Lanka).
+Where the decision is not yet reported “
+Supreme Court Special Determination
+” is abbreviated “
+SC (SD)
+”.
+Twenty Second Amendment to the Constitution Bill (2022) (SC (SD) No. 40/2022), 5 (Sri Lanka).
+In the exercise of its sole and exclusive jurisdiction to interpret the constitution, questions of constitutional interpretation may be referred to the Supreme Court. These decisions may be cited as follows:
+SC Ref. No. 01/2008 (Sri Lanka).
+Constitution
+The full title of the constitution is ‘The Constitution of the Democratic Socialist Republic of Sri Lanka.’ This is Sri Lanka’s second republican constitution. The Constitution has had twenty-one amendments. Provisions in the constitution are referred to as "articles." In citing the Constitution and its amendments the following form may be used:
+Sri Lanka Const., art. 35(1) (as amended).
+The first republican constitution of Sri Lanka was ‘The Constitution of Sri Lanka (Ceylon)’ adopted in 1972. It may be cited as follows:
+Sri Lanka (Ceylon) Const. (1972), art. 18(1)(a).
+The first independence constitution of Sri Lanka was known as ‘The Soulbury Constitution’ after the Soulbury Commission which led to its adoption. Provisions in this constitution were referred to as "sections." It may be cited as follows:
+The Constitution of the Dominion of Ceylon 1947, Ceylon (Constitution) Order in Council 1946 (as amended), §29(2).
+Statutes and Ordinances
+Citation format:
+<act/ordinance name>, <number and year of act/ordinance>
+(if the statute has been amended, when referring to statute in its present state: (
+<as amended>
+)), §
+<section number>
+(
+<country abbreviation if not evident from context>
+).
+Assistance to and Protection of Victims of Crime and Witnesses Act, No. 10 of 2023, §34(4)(f) (Sri Lanka).
+Anti-Corruption Act, No. 9 of 2023 (as amended), §2(1)(j) (Sri Lanka).
+Statutes enacted by Provincial Councils may be cited as follows:
+<statute name>, <number and year of statute>
+(approved by the Governor of the
+<name of province>
+on
+<date of approval>
+), (Gazette (Extraordinary) of the Democratic Socialist Republic of Sri Lanka, No.
+<number in the gazette>
+, of
+<date>
+)), §
+<section number>
+(
+<country abbreviation if not evident from context>
+).
+Ayurveda Statute of the Provincial Council of the Central Province of Sri Lanka, No. 18 of 1990 (approved by the Governor of the Central Province on Mar. 11, 1991), (Gazette (Extraordinary) of the Democratic Socialist Republic of Sri Lanka, No. 674/5 – 1991, of Aug. 5, 1991), §8(1).
+Bills
+Citation format:
+<bill name>, <number assigned by the Legal Draftsman’s Office>
+(Gazette of the Democratic Socialist Republic of Sri Lanka,
+<date>
+) cl.
+<clause number>
+(
+<country abbreviation if not evident from context>
+).
+Women Empowerment Bill, L.D.–O. 49/2023 (Gazette of the Democratic Socialist Republic of Sri Lanka, Mar. 7, 2024), cl. 2(a).
+Rules and Regulations
+Citation format:
+<rule/regulation name>, <number and year of rule/regulation>
+(Gazette (Extraordinary) of the Democratic Socialist Republic of Sri Lanka, No.
+<number in the gazette>
+, of
+<date>>
+), §
+<section number>
+(
+<country abbreviation if not evident from context>
+).
+Prevention of Terrorism (De-radicalization from holding violent extremist ideology) Regulations, No. 1 of 2021, (Gazette (Extraordinary) of the Democratic Socialist Republic of Sri Lanka, No. 2218/68 – 2021, of Mar. 12, 2021), §3(b).
+Circulars, Directions, and Guidelines
+Citation format:
+<name of issuing authority>, <circular/direction/guideline name>, <circulation/direction/guideline number, if available>
+(Gazette (Extraordinary) of the Democratic Socialist Republic of Sri Lanka, No.
+<number in the gazette>
+, of
+<date>
+) (
+<country abbreviation if not evident from context>
+).
+Election Commission, Media Guidelines under Article 104B(5)(a) of the Constitution of the Democratic Socialist Republic of Sri Lanka, (Gazette (Extraordinary) of the Democratic Socialist Republic of Sri Lanka, No. 2178/24–2020, of Jun. 3, 2020).
+Internet Sources
+Judgments and orders issued by the Supreme Court can be found at
+https://supremecourt.lk
+.
+Judgments and orders issued by the Court of Appeal can be found at
+https://courtofappeal.lk
+.
+The text of bills and acts pending or passed by the Parliament can be found online at
+https://www.parliament.lk/en/business-of-parliament/acts-bills
+.
+The Gazette (Extraordinary) of Sri Lanka can be assessed online at
+http://documents.gov.lk/en/exgazette.php
+; and the Gazette can be accessed online at
+http://documents.gov.lk/en/gazette.php
+.

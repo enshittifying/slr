@@ -1,0 +1,38 @@
+TITLE: 16 Periodical Materials (p.164)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 16-periodical-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16
+Periodical Materials
+(p.164)
+Citation of particular pages within a law review article with parenthetical information about what appears on those pages:
+Citation of an entire magazine article:
+Citation of a signed newspaper article:
+16.1
+Basic Citation Forms
+16.2
+Author
+16.3
+Title
+16.4
+Consecutively Paginated Journals
+16.5
+Nonconsecutively Paginated Journals and Magazines
+16.6
+Newspapers
+16.7
+Special Citation Forms
+16.8
+Electronic Media and Online Sources
+16.9
+Short Citation Forms

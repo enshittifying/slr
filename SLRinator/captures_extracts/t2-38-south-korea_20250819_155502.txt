@@ -1,0 +1,193 @@
+TITLE: T2.39 South Korea
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-38-south-korea
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.39
+South Korea
+(Civil Law)
+Romanization
+For romanization of Korean sources, use the Revised Romanization of Korean (국어의 로마자 표기법; Gugeoui Romaja Pyogibeop), the official romanization system released by the Korean government in 2000 and amended in 2014, available at
+https://www.korean.go.kr/front_eng/roman/roman_01.do
+provided by the National Institute of Korean Language. However, if '헌' is used in the context of the Constitution, transliterate to ‘hun’ instead of ‘heon’ as both the Supreme Court and the Constitutional Court use the former on their websites.
+Cases
+Citation format:
+<romanized court name>
+[
+<English court abbreviation>
+],
+<date of
+decision>
+,
+<case number>
+(
+<reporter abbreviation> <volume number>
+,
+<first page>
+,
+<page(s) of specified material, if desired>
+) (
+<country abbreviation if not evident
+from context
+>).
+Daebeobwon [S. Ct.], Sept. 9, 1997, 96Da47517 (S. Kor.).
+Hunbeobjaepanso [Const. Ct.], Oct. 21, 2004, 2004Hunma554, 556 (consol.)(Hungong 98, 1095) (S. Kor.).
+Seoul Godeungbeobwon [Seoul High Ct.], Sept. 18, 1966, 95Na14840 (S. Kor.).
+Incheon Jibangbeobwon [Incheon Dist. Ct.], Dec. 14, 2004, 2004Gahap8803 (S. Kor.).
+For the case number, romanize the procedural classification code (the Korean letters in the case number) and capitalize the first roman letter.
+Citation of reporter abbreviation, volume number, and page number(s) are not
+common in Korean citation practice, but if available, add such information.
+For reporter names, romanize the abbreviations in ‘A Guide to Legal Citation’
+published by the Judicial Policy Research Institute of Korea in 2015 and
+amended in 2017, available at
+https://jpri.scourt.go.kr
+under publications/
+research reports and capitalize the first roman letter
+. A non-exhaustive list
+of reporter names is below:
+Korean Name
+English Translation
+Korean Abbreviation
+English Abbreviation
+판례공보 (Pallyegongbo)
+(1996-date)
+법원공보 (Beobwongongbo)(1973-1995)
+Supreme Court
+Reporter
+공
+Gong
+대법원 판례집 (Daebeobwon
+pallyejip) (1953-date)
+Supreme Court Decisions
+집
+Jip
+각급법원 판결공보 (Gakgeupbeobwon pallyejip)
+(2003-date)
+Lower Court Reporter
+각공
+Gakgong
+하급심 판결집 (Hageupshim
+pangyeoljip) (1984-2003)
+Lower Court Decisions
+하집
+Hajip
+고등법원 판례집
+(Godeungbeobwon pallyejip)
+(1961-1983)
+High Court Decisions
+고집
+Gojip
+헌법재판소 공보
+(Hunbeopjaepanso gongbo)
+(1993)
+Constitutional Court Reporter
+헌공
+Hungong
+헌법재판소 판례집
+(Hunbeobjaepanso pallyejip)
+(1989-date)
+Constitutional Court Decisions
+헌집
+Hunjip
+Constitution
+Current constitution
+Daehanminkuk Hunbeob
+[
+Hunbeob
+] [
+Constitution
+] art. 4 (S. Kor.).
+Previous constitutions
+The constitution was amended nine times as of 1987. Among them, five amendments were total amendments. When citing a version of the constitution that has been subsequently amended, indicate the fact and the number and date of the subsequent amendment parenthetically.
+Daehanminkuk Hunbeob
+[
+Hunbeob
+] [
+Constitution
+], amended by Constitution no. 6, Dec. 26, 1962, art. 3 (S. Kor.).
+Statutes and decrees
+The following citation format applies to
+beobyul
+(statutes),
+sihaengnyung
+(enforcement decrees), and
+sihaenggyuchik
+(enforcement rules)
+Citation format for statutes and enforcement decrees:
+<romanized Korean
+statute name>
+[
+<romanized abbreviation of statute/decree name, if applicable
+>]
+art.
+<article number>
+para.
+<paragraph number>
+subpara.
+<subparagraph number>
+item.
+<translate Korean alphabet to lower case roman alphabet>
+(
+<country
+abbreviation if not evident from context>
+).
+Minbeob [Civil Act] art. 844 (S. Kor.).
+Jabonsijanggwa geumyungtujaae gwanhan beobyul sihaengryung [Jabonsijangbeob sihaengryung] [Enforcement Decree of the Financial Investment and Capital Markets Act] art. 6 para. 4 subpara. 2 item (a) (S. Kor.).
+Boheomeobbeob sihaenggyuchik [Enforcement Rule of the Insurance Business Act] art. 1 (S. Kor.).
+When citing a prior version of a statute that has been subsequently amended, indicate the fact and the statute number and the subsequent amendment parenthetically.
+Hyeongsasosongbeob [Criminal Procedure Act], amended by Act. No. 10864, July 18, 2011 (S.Kor.).
+Geonchookbeob sihaenggyuchik [Enforcement Rule of the Building Act],
+amended by
+Enforcement Rule No. 671, Nov. 18, 2019 (S. Kor.).
+When citing an English translation of a statute, cite the statute in the original language (transliterated) and indicate the fact and the source parenthetically.
+Sangbeob [Commercial Act] art. 174 (S. Kor.),
+translated in
+Korean Legislation Research Institute’s online database,
+http://elaw.klri.re.kr
+/eng_service/main.do (search required).
+If only a translation of a law was consulted, the romanized Korean name of the law can be omitted.
+Drinking Water Management Act, art. 3 (S. Kor.),
+translated in
+Korea Legislation Research Institute’s online database,
+http://elaw.klri.re.kr
+/eng_service/main.do (search required).
+Enforcement Decree of the Labor Standards Act,
+amended by
+Enforce- ment Decree No. 23868, June 21, 2012, art. 2 (S. Kor.), translated in Korea Legislation Research Institute’s online database, http://elaw .klri.re.kr/eng_service/main.do (service required).
+Internet sources
+http://glaw.scourt.go.kr
+(the Korean Supreme Court’s database of cases)
+http://www.ccourt.go.kr
+(the Constitutional Court’s database of cases)
+http://law.go.kr
+(National Law Information Center’s comprehensive database of statutes, enforcement decrees, and enforcement rules)
+http://lawnb.com
+(database for cases and statutes, enforcement decrees, and enforcement rules provided by Thomas Reuters; subscription required and subject to charge)
+http://law.go.kr/LSW/eng/engMain.do
+(online database containing English translations of Korean statutes published by the National Law Information Center; no subscription required and free of charge)
+https://elaw.klri.re.kr/eng_service/main.do
+(online database containing English translations of Korean laws published by the Korean Legislation Research Institute; no subscription required and free of charge)
+http://www.moleg.go.kr/english/
+(homepage of the Ministry of Government Legislation with English translations of laws and English-language guidance for foreigners)
+http://www.moj.go.kr/HP/ENG/index.do
+(homepage of the Ministry of Justice with links to English-language legal materials)
+http://eng.scourt.go.kr/eng/main/Main.work
+(the Korean Supreme Court’s comprehensive database of cases, laws, and articles)
+http://english.ccourt.go.kr
+(English summaries of recent decisions and major decisions by the Constitutional Court of Korea)
+http://korea.na.go.kr
+(the Korean National Assembly’s website with English summaries of recently enacted laws)
+https://eng.president.go.kr/
+(the Korean Office of the President’s website)
+https://www.loc.gov/item/guide-to-law-online/republic-of-korea/
+(Library of Congress Guide to Law Online: South Korea)

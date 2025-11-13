@@ -1,0 +1,46 @@
+TITLE: 13.5 Debates (p.140)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 13-legislative-materials
+  slug: 13-5-debates
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13.5
+Debates
+(p.140)
+Cite congressional debates after 1873 to the
+Congressional Record
+; use the daily edition only for matters not yet appearing in the permanent edition. The primary ways in which the
+Congressional Record
+differs from the daily edition are continuous pagination, altered text, and the dropping of the prefixes H, S, and E before page numbers:
+123
+Cong. Rec
+. 17147 (1977).
+131
+Cong. Rec
+. S11465–66 (daily ed. Sept. 13, 1985) (statement of Sen. Malcolm Wallop).
+Cite congressional debates through 1873 according to the following models:
+1837–1873
+Cong. Globe,
+36th Cong., 1st Sess. 1672 (1860).
+1824–1837
+10 Reg. Deb. 3472 (1834).
+1789–1824
+38 Annals of Cong. 624 (1822).
+If the debate occurred in a different year from its publication in the
+Congressional Record
+, cite the year in which the debate was published.
+For volume one of the
+Annals
+give the name(s) of the editor(s) and year of publication in parentheses:
+1
+Annals of Cong
+. 486 (1789) (Joseph Gales ed., 1834).

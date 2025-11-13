@@ -1,0 +1,66 @@
+TITLE: 17.6 Short Citation Forms (p.181)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 17-unpublished-and-forthcoming-sources
+  slug: 17-6-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+17.6
+Short Citation Forms
+(p.181)
+Use the “
+id.
+” and “
+supra
+” forms in the same manner as they are employed for materials appearing in periodicals (
+rule 16.9
+) and nonperiodicals (
+rule 15.10
+), substituting the name of the source in place of an author when no author is listed, and enclosing a page citation to the manuscript version of a forthcoming publication in parentheses:
+1
+Interview with Frank Van Dusen, President, Van Dusen Indus., Inc., in Rye, N.Y. (Feb. 15, 2000).
+2
+Id.
+;
+see also
+J. Paul Oetken, Note,
+Form and Substance in Critical Legal Studies
+, 100
+Yale L.J.
+(forthcoming May 2001) (manuscript at 17) (on file with author). Oetken points out inherent contradictions in CLS rhetoric.
+See id.
+(manuscript at 10–12);
+see also
+Adrienne D. Davis, African American Literature and the Law: Revising and Revisiting Freedom 3–4 (Dec. 1989) (unpublished manuscript) (on file with the Yale Law Journal) (describing depiction of the law in slave literature).
+3
+See
+Oetken,
+supra
+note 2 (manuscript at 15); Davis,
+supra
+note 2, at 12; Press Release, Child.’s Def. Fund, 2.8 Million Children of Mexican Heritage Are Among Nearly 4 Million Latino Children Living in Poverty in the U.S. (May 5, 2004) (on file with author).
+4
+Interview with Frank Van Dusen,
+supra
+note 1;
+see
+Letter from Asma Hasan to Michael Cannon 2 (Mar. 15, 2000) (on file with author).
+5
+See
+Letter from Asma Hasan to Michael Cannon,
+supra
+note 4, at 3.
+6
+See
+Press Release, Child.’s Def. Fund,
+supra
+note 3.
+For materials available only online, use the normal short form appropriate for the source. A URL need not be repeated after a full citation.

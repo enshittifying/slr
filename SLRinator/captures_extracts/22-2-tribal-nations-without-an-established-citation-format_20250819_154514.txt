@@ -1,0 +1,140 @@
+TITLE: 22.2 Tribal Nations Without an Established Citation Format (pp. 246–49)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 22-tribal-nations
+  slug: 22-2-tribal-nations-without-an-established-citation-format
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+22.2
+Tribal Nations Without an Established Citation Format
+(pp. 246–49)
+22.2.1 –
+Constitutions
+Citation of a constitution of a Tribal Nation:
+(a) In general.
+Abbreviate Constitution as "
+Const.
+" Abbreviate the subdivisions of constitutions, such as articles and clauses, according to
+table T16
+. Do not abbreviate the name of the Tribal Nation. A URL may be included if helpful:
+Const. of the Comanche Nation
+art. II, § 1.
+Yurok Tribe Const
+. pmbl.,
+https://yurok.tribal.codes/Constitution/Preamble
+.
+(b) Amendments.
+When citing a section that has been subsequently amended, either indicate parenthetically the fact and year of amendment or cite the amending provision in full:
+Const. and Bylaws of the Turtle Mountain Band of Chippewa Indians of North Dakota
+art. XIV, § 3 (amended 1992).
+(c) Historical or superseded versions.
+Cite constitutions that have been totally superseded or are otherwise no longer in effect by year of adoption; if the specific provision cited was adopted in a different year, give that year parenthetically:
+Const. of the Cherokee Nation of Oklahoma
+of 1976 art. XVI.
+22.2.2 –
+Codes
+Citation of a code of a Tribal Nation:
+(a) In general.
+Citations to Tribal codes should include (1) the title or chapter number, if used by the Tribal Nation; (2) the full name of the code in the Tribal Nation language if applicable or otherwise in English; (3) the full name of the code in English in square brackets, if the code name is in the Tribal Nation language; (4) the section number or numbers; (5) the year of the cited code edition, if available; and (6) the URL or database identifier, if available. Do not abbreviate the name of the code or the name of the Tribal Nation:
+Pueblo de San Ildefonso Code
+§ 4.1.1.010 (2023).
+Code titles not given in English should include an English translation in square brackets:
+Waganakising Odawak [Little Traverse Bay Bands of Odawa Indians] Tribal Code of Law
+§ 13.101 (2023).
+(b) Subject-matter codes.
+As in
+rule 12.3.1(c)
+, if a section of a Tribal Nation code is identified by subject matter rather than title, provide that subject-matter name as part of the code cited:
+Colorado River Indian Tribes Land Code
+§ 1-101.5 (1988),
+https://www.crit-nsn.gov/crit_contents/ordinances/Land-Code-ART_1.pdf
+(on file with the Harvard Law Review).
+(c) Amendments and laws not yet codified.
+When citing a code section that has since been amended, cite the amending statute in full. If the code section has been amended by an ordinance or resolution, format according to
+rule 22.2.3
+:
+9
+Oglala Sioux Tribal Penal Code
+§ 106,
+amended by
+Hemp Ordinances and Resolution, Ordinance 98-27 (2002) (Oglala Sioux Tribal Council),
+https://narf.org/nill/codes/oglala_sioux/oglalahemp.html
+(on file with author).
+(d) Repeals.
+When citing a statute no longer in force, indicate the fact and date of repeal parenthetically, or include a full citation to the repealing statute when particularly relevant. If the code section has been repealed by an ordinance or resolution, format according to
+rule 22.2.3
+:
+Waganakising Odawak [Little Traverse Bay Bands of Odawa Indians] Statute
+2010-008 (2010),
+repealed by,
+Waganakising Odawak [Little Traverse Bay Bands of Odawa Indians] Statutes
+2012-002, 2012-003, 2012-004 (2012).
+(e) Prior history.
+When citing the current version of a statute, prior history may be given parenthetically if relevant.
+22.2.3 –
+Orders, Ordinances, and Resolutions
+Citation of a resolution of a Tribal Nation:
+(a) In general.
+Cite Tribal Council orders, ordinances, or resolutions by (1) name of the order, ordinance, or resolution, if any; (2) order, ordinance, or resolution number; (3) year of adoption; (4) a parenthetical with the name of the Tribal Council, agency, or other propounding body, including any alternative names; and (5) a parenthetical with the name of the Tribal Nation, if not apparent from the name of the Tribal body:
+Healing to Wellness Court, Res. No. 023-22 (2022) (Stockbridge-Munsee Tribal Council),
+https://law.mohican.com/us/nsn/mohican/council/resolutions/2022/023-22
+(on file with the Yale Law School Library).
+(b) Resolutions enacting a code.
+If the resolution enacts a code section or code, indicate this fact in a parenthetical:
+Tribal Council Res. No. 001-97-019 (1997) (White Earth Band of Chippewa Indians Tribal Council) (enacting the White Earth Tribal Historical Preservation Act Protection of Burial Grounds Code).
+(c) Special resolution forms.
+If the Tribal Nation classifies the Resolution as a particular type, such classification should be expressly identified:
+A Resolution of the Crow Tribal Legislature to Modify the Fiscal Year 2012 Legislative Branch Budget, Legislative Res. No. 11-16 (2011) (Crow Tribal Legislature).
+22.2.4 –
+Cases
+Citation of a case of a Tribal Nation:
+(a) In general.
+Cite Tribal cases with (1) the name of the case, employing the abbreviation rules from
+rule 10.2
+, except for a Tribal Nation party; (2) the tribal reporter citation, if available, (3) the case or docket number, if available; (4) a parenthetical indicating the court and year, month, and day of decision; (5) other parenthetical information, if any, according to
+rule 10.6
+; (6) the URL or database identifier, if available; and (7) the subsequent history of the case, if any, according to
+rule 10.7
+.
+Unlike federal and state court decisions, Tribal court decisions are not reliably published in widely available reporters or services and are not reliably included in standard plans for widely used computer databases. Thus, Tribal court decisions should be cited to an internet source, with an optional parallel reporter citation, instead of following the order of preferred sources for federal and state court decisions in
+rule 10.3.1(b)
+:
+The People of the Pokagon Band of Potawatomi Indians v. Edelberg, No. 18-4723-CR (Pokagon Band of Potawatomi Indians Tribal Ct. Jan. 18, 2019),
+https://www.pokagonband-nsn.gov/wp-content/uploads/2022/10/18-4723-cropinionandorderondefendantsmotiontosuppressstatements-9438.pdf
+(on file with the Columbia Law Review).
+(b) Electronically available sources.
+If the case is available electronically, include the URL or database identifier:
+Palmer v. Match-E-Be-Nash-She-Wish Band of Pottawatomi Indians Tribal Council, No. CIV-2016-001 (Match-E-Be-Nash-She-Wish Band of Pottawatomi Indians Tribal Ct. Mar. 22, 2016),
+https://gunlaketribe-nsn.gov/data/upfiles/media/98.pdf
+[
+https://perma.cc/Z3VU-TZKQ
+].
+(c) Reporter citation.
+If the case is available in a reporter, provide that information before the electronically available source and omit the docket number:
+Tulalip Tribes v. 2008 White Ford Econoline Van, 11 NICS App. 39 (Tulalip Tribal Ct. App. May 31, 2013),
+https://www.codepublishing.com/WA/NICS/html/11NICSApp/11NICSApp039.html
+[
+https://perma.cc/7GEP-X2ML
+].
+(d) Subsequent history.
+For cases with subsequent history, indicate that according to
+rule 10.7
+. A link to the subsequent history will suffice if the original case is not available electronically:
+Port Gamble S’Klallam v. Lexington Ins., POR-CI-2020-0014-G (Port Gamble S’Klallam Community Ct. June 4, 2020),
+aff’d,
+19 NICS App. 12 (Port Gamble S’Klallam Tribal Ct. App. Oct. 7, 2021),
+https://www.codepublishing.com/WA/NICS/html/19NICSApp/19NICSApp012.html
+(on file with author).
+22.2.5 –
+Treaties
+For information on citing treaties with Tribal Nations, see
+rule 21.4
+.

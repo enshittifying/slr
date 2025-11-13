@@ -1,0 +1,69 @@
+TITLE: 2 Typography for Law Reviews (p.72)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 2-typefaces-for-law-reviews
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+2
+Typography for Law Reviews
+(p.72)
+Legal writing uses four typefaces, though choice of font may vary (e.g., Times New Roman,
+Courier
+, etc.):
+Ordinary Roman (Plain Text)
+U
+nderlined
+Italicized
+Small Capitals
+Law reviews use two sets of typeface conventions—one for law review text (either main text or footnote text) (
+rule 2.2
+) and one for law review citations (
+rule 2.1
+). Unless otherwise noted, the examples in
+The Bluebook
+correspond to the convention for law review footnotes.
+For an explanation of the typeface conventions commonly used in other forms of legal writing, see
+Bluepages B2
+. Practitioners can make ready use of the examples in
+The Bluebook
+by substituting the typeface conventions outlined in the
+Bluepages
+for those found in the examples throughout the rest of the book.
+For example, a practitioner’s brief might look like this:
+Directors manage the business and affairs of a corporation.
+See
+Revlon, Inc. v. MacAndrews & Forbes Holdings, Inc.
+, 506 A.2d 173, 179 (Del. 1986);
+see also
+Del. Code Ann. tit. 8, § 141(a) (2000). In
+Guth v. Loft
+, the court held that directors also owe a duty of loyalty to the shareholders. 5 A.2d 503, 510 (Del. 1939) (holding that directors‘ duty of loyalty demands that “there shall be no conflict between duty and self-interest”).
+A similar section of a law review article might read:
+Directors manage the business and affairs of a corporation.
+1
+In
+Guth v. Loft
+, the court held that directors also owe a duty of loyalty to the shareholders.
+2
+1
+See
+Revlon, Inc. v. MacAndrews & Forbes Holdings, Inc., 506 A.2d 173, 179 (Del. 1986);
+see also
+Del. Code Ann.
+tit. 8, § 141(a) (2000) (providing statutory basis).
+2
+5 A.2d 503, 510 (Del. 1939) (holding that directors’ duty of loyalty demands that “there shall be no conflict between duty and self-interest”).
+2.1
+Typeface Conventions for Citations
+2.2
+Typeface Conventions for Textual Material
+2.3
+Other Punctuation Conventions

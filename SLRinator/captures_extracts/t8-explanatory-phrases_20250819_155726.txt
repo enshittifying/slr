@@ -1,0 +1,103 @@
+TITLE: T8 Explanatory Phrases (p.339)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  slug: t8-explanatory-phrases
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T8
+Explanatory Phrases
+(p.339)
+The following table lists a number of explanatory phrases (some of which contain abbreviations) commonly used to indicate prior or subsequent history and weight of authority of judicial decisions. All explanatory phrases are followed by commas, which are
+not
+italicized. See
+rule 10.7
+for guidance in using explanatory phrases.
+acq.
+,
+acq. in result
+,
+aff’d
+,
+aff’d by an equally divided court
+,
+aff’d mem.
+,
+aff’d on other grounds
+,
+aff’d on reh’g
+,
+aff’g
+,
+amended by
+,
+appeal denied
+,
+appeal dismissed
+,
+appeal docketed
+,
+appeal filed
+,
+argued
+,
+cert. denied
+,
+cert. dismissed
+,
+cert. dismissed as improvidently granted,
+cert. granted
+,
+certifying question[s] to
+,
+dismissing appeal from
+,
+enforced
+,
+enforcing
+,
+invalidated by
+,
+mandamus denied
+,
+mandate held
+,
+modified
+,
+modifying
+,
+nonacq.
+,
+overruled by
+,
+perm. app. denied
+,
+perm. app. granted
+,
+petition for cert. filed
+,
+prob. juris. noted
+,
+reh’g granted [denied]
+,
+rev’d
+,
+rev’d on other grounds
+,
+rev’d summarily
+,
+rev’g
+,
+vacated
+,
+vacating as moot
+,
+withdrawn
+,

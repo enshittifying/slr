@@ -1,0 +1,27 @@
+TITLE: B22.1 Tribal Nations with an Established Citation Format (p.30)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  parent: b22-tribal-nations
+  slug: 22-1-tribal-nations-with-an-established-citation-format
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B22.1
+Tribal Nations with an Established Citation Format
+(p.30)
+When citing tribal law for submission to a particular Tribal Nation, follow the citation format prescribed by the respective Tribal Nation's rules or guidelines, if such a format is available.
+When citing tribal law for other purposes:
+(1) If the Tribal Nation cited has prescribed a citation format for its own legal materials, provide the citation in that format. Additionally, provide a parallel citation that conforms to
+rule 22
+.
+(2) If the Tribal Nation has not prescribed a citation format for its own legal materials, cite the law according to
+rule 22
+subject to the typeface changes present in the Bluepages examples.
+HCN Const. art. X, § 1(a)(8), [Const. of the Ho-Chunk Nation art. X, § 1(a)(8)].

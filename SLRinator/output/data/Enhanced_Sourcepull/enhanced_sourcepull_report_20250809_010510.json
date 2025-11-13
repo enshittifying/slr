@@ -1,0 +1,561 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T01:04:24.472465",
+  "footnote_range": "1-25",
+  "used_gpt": true,
+  "footnotes_processed": 25,
+  "total_citations": 15,
+  "successful_retrievals": 5,
+  "failed_retrievals": 10,
+  "pdf_files": [
+    {
+      "citation_id": "fn3_fed_919_1333",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_919_1333_SCOTUS_Vol919.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn3_fed_785_625",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_785_625_SCOTUS_Vol785.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn3_fed_633_1042",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_633_1042_SCOTUS_Vol633.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn23_us_566_399",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn23_us_566_399_SCOTUS_Vol566.pdf",
+      "source": "supreme_court_official",
+      "pages": 940,
+      "size_mb": 3.77
+    },
+    {
+      "citation_id": "fn24_fed_930_72",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn24_fed_930_72_SCOTUS_Vol930.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    }
+  ],
+  "parsing_results": [
+    {
+      "footnote_number": 1,
+      "original_text": "†   Professor of Law, College of Law; Professor of Medicine, Carle-Illinois College of Medicine; Professor, European Union Center; Affiliate, Carl R. Woese Institute for Genomic Biology; University of...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:26.316609",
+      "citations": []
+    },
+    {
+      "footnote_number": 2,
+      "original_text": "†   Professor of Law, University of Texas School of Law . For their comments, thanks to Jonas Anderson, Laura Dolbow, Jordi Goodman, Michael Goodyear, Tim Holbrook, Mark Janis, Mark Lemley, Amy Motomu...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:27.913781",
+      "citations": []
+    },
+    {
+      "footnote_number": 3,
+      "original_text": "21 U.S.C. § 355(c)(3)(C);  see also  Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019) (“[W] e ask whether the Hikma and Actavis labels instruct users to treat polyneuropathic...",
+      "citations_count": 4,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:29.540236",
+      "citations": [
+        {
+          "citation_id": "fn3_usc_21_355(c)(3)(C)",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(c)(3)(C)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "fn3_fed_919_1333",
+          "type": "case",
+          "full_text": "919 F.3d 1333",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "fn3_fed_785_625",
+          "type": "case",
+          "full_text": "785 F.3d 625",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "fn3_fed_633_1042",
+          "type": "case",
+          "full_text": "633 F.3d 1042",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 4,
+      "original_text": "See, e.g. , GlaxoSmithKline LLC v. Teva Pharms. USA, Inc., 7 F.4th 1320, 1328 (Fed. Cir. 2021) (reviewing expert evidence of how physicians would have read a drug label);  see also   id.  at 1342 (Pro...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:31.246509",
+      "citations": [
+        {
+          "citation_id": "fn4_fed_7_1320",
+          "type": "case",
+          "full_text": "7 F.4th 1320",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 5,
+      "original_text": "See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365 -66  (Fed. Cir. 2003)  (noting that an infringement analysis, in this context, is “ hypothetical because the allegedly infringing product ...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:32.823275",
+      "citations": [
+        {
+          "citation_id": "fn5_fed_316_1348",
+          "type": "case",
+          "full_text": "316 F.3d 1348",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 6,
+      "original_text": "See infra  Section  II.D .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:34.431869",
+      "citations": []
+    },
+    {
+      "footnote_number": 7,
+      "original_text": "See infra  Section  III .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:36.121601",
+      "citations": []
+    },
+    {
+      "footnote_number": 8,
+      "original_text": "Susan K. Finston, Neil S. Davey, Ananda M. Chakrabarty  &  Raj S. Davé ,  The Biopharmaceutical Social Contract and U.S. Patent Social Contract: Historical Antecedents and Recent Developments ,  in  I...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:37.776972",
+      "citations": []
+    },
+    {
+      "footnote_number": 9,
+      "original_text": "  See  Matthew Lane,  Federal Circuit Should Restore Generics  ‘ Skinny Label ’  Process ,  Bloomberg Law  (Jan. 12, 2021),  https://news.bloomberglaw.com/business-and-practice/federal-circuit-should-...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:39.369886",
+      "citations": []
+    },
+    {
+      "footnote_number": 10,
+      "original_text": "  Skinny Labels, Big Savings Act, S.5573, 118th Cong. (2024).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:40.956551",
+      "citations": []
+    },
+    {
+      "footnote_number": 11,
+      "original_text": "21 U.S.C. § 321(m).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:42.716425",
+      "citations": [
+        {
+          "citation_id": "fn11_usc_21_321(m)_",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 321(m).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 12,
+      "original_text": "For more on this terminological distinction and how it is employed in this article, see  infra  Section  I.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:44.399066",
+      "citations": []
+    },
+    {
+      "footnote_number": 13,
+      "original_text": "21 C.F.R. § 201.57;  see also  Naitee Ting, Ding-Geng Chen, Shuyen Ho & Joseph C. Cappelleri,   Phase II Clinical Development of New Drugs  18 - 19 (2017)  (describing these negotiations) .  Other asp...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:45.919008",
+      "citations": [
+        {
+          "citation_id": "fn13_cfr_21_201_57",
+          "type": "regulation",
+          "full_text": "21 C.F.R. § 201.57",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 14,
+      "original_text": "See   Daniel Carpenter, Reputation and Power: Organizational Image and Pharmaceutical Regulation At the FDA  73 - 117 (2010) (describing FDA’s authority under the Federal Food Drug & Cosmetics Act of ...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:47.386291",
+      "citations": []
+    },
+    {
+      "footnote_number": 15,
+      "original_text": "E.g. , 21 U.S.C. §§ 331(a)-(c).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:49.057349",
+      "citations": []
+    },
+    {
+      "footnote_number": 16,
+      "original_text": "Id.  § 352(a)(1).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:50.656559",
+      "citations": []
+    },
+    {
+      "footnote_number": 17,
+      "original_text": "Id.  § 355(j)(2)(A)(v).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:52.450175",
+      "citations": []
+    },
+    {
+      "footnote_number": 18,
+      "original_text": "35 U.S.C. § 271(e)(2)(A).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:54.011719",
+      "citations": [
+        {
+          "citation_id": "fn18_usc_35_271(e)(2)(A)_",
+          "type": "statute",
+          "full_text": "35 U.S.C. § 271(e)(2)(A).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 19,
+      "original_text": "  Id.  § 282(b).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:55.703055",
+      "citations": []
+    },
+    {
+      "footnote_number": 20,
+      "original_text": "21 U.S.C. § 355(j)(2)(A)(i).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:57.427155",
+      "citations": [
+        {
+          "citation_id": "fn20_usc_21_355(j)(2)(A)(i)_",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(j)(2)(A)(i).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 21,
+      "original_text": "35 U.S.C. § 271(b);  see also   case s cited  supra  note  1 . In this circumstance, the doctors are what patent lawyers would call “direct infringers”—they are the ones actually  using  the brand’s p...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:59.202189",
+      "citations": [
+        {
+          "citation_id": "fn21_usc_35_271(b)",
+          "type": "statute",
+          "full_text": "35 U.S.C. § 271(b)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 22,
+      "original_text": "21 U.S.C. § 355(j)(2)(A)(viii).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:05:00.891201",
+      "citations": [
+        {
+          "citation_id": "fn22_usc_21_355(j)(2)(A)(viii)_",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(j)(2)(A)(viii).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 23,
+      "original_text": "  Caraco Pharm. Lab’ys, Ltd. v. Novo Nordisk A/S, 566 U.S. 399, 415 (2012) (“The statutory scheme . . . contemplates that one patented use will not foreclose marketing a generic drug for other unpaten...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:05:02.646924",
+      "citations": [
+        {
+          "citation_id": "fn23_us_566_399",
+          "type": "case",
+          "full_text": "566 U.S. 399",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 24,
+      "original_text": "In re  Barr Lab ’ ys, Inc., 930 F.2d 72, 76 (D.C. Cir. 1991) .",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:05:04.465488",
+      "citations": [
+        {
+          "citation_id": "fn24_fed_930_72",
+          "type": "case",
+          "full_text": "930 F.2d 72",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 25,
+      "original_text": " The Federal Circuit has exclusive jurisdiction over all appeals in patent cases nationwide. 28 U.S.C. § 1295(a)(1). ",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:05:06.064669",
+      "citations": [
+        {
+          "citation_id": "fn25_usc_28_1295(a)(1)_",
+          "type": "statute",
+          "full_text": "28 U.S.C. § 1295(a)(1).",
+          "retrieval_priority": 1
+        }
+      ]
+    }
+  ],
+  "retrieval_results": [
+    {
+      "citation_id": "fn3_usc_21_355(c)(3)(C)",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:06.766460"
+    },
+    {
+      "citation_id": "fn3_fed_919_1333",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_919_1333_SCOTUS_Vol919.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/919bv.pdf",
+      "retrieved_at": "2025-08-09T01:05:07.092536"
+    },
+    {
+      "citation_id": "fn3_fed_785_625",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_785_625_SCOTUS_Vol785.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/785bv.pdf",
+      "retrieved_at": "2025-08-09T01:05:07.281722"
+    },
+    {
+      "citation_id": "fn3_fed_633_1042",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_633_1042_SCOTUS_Vol633.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/633bv.pdf",
+      "retrieved_at": "2025-08-09T01:05:07.470751"
+    },
+    {
+      "citation_id": "fn4_fed_7_1320",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:07.471049"
+    },
+    {
+      "citation_id": "fn5_fed_316_1348",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:07.471231"
+    },
+    {
+      "citation_id": "fn11_usc_21_321(m)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:07.811420"
+    },
+    {
+      "citation_id": "fn13_cfr_21_201_57",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:07.811898"
+    },
+    {
+      "citation_id": "fn18_usc_35_271(e)(2)(A)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:08.125173"
+    },
+    {
+      "citation_id": "fn20_usc_21_355(j)(2)(A)(i)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:08.493437"
+    },
+    {
+      "citation_id": "fn21_usc_35_271(b)",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:08.773744"
+    },
+    {
+      "citation_id": "fn22_usc_21_355(j)(2)(A)(viii)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:09.191457"
+    },
+    {
+      "citation_id": "fn23_us_566_399",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn23_us_566_399_SCOTUS_Vol566.pdf",
+      "file_size_bytes": 3952578,
+      "is_valid_pdf": true,
+      "page_count": 940,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/566bv.pdf",
+      "retrieved_at": "2025-08-09T01:05:10.226262"
+    },
+    {
+      "citation_id": "fn24_fed_930_72",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn24_fed_930_72_SCOTUS_Vol930.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/930bv.pdf",
+      "retrieved_at": "2025-08-09T01:05:10.413437"
+    },
+    {
+      "citation_id": "fn25_usc_28_1295(a)(1)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:05:10.795278"
+    }
+  ],
+  "completed_at": "2025-08-09T01:05:10.795473",
+  "duration_seconds": 46.323008,
+  "success_rate": 33.33333333333333
+}

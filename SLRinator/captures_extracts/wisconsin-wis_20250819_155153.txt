@@ -1,0 +1,106 @@
+TITLE: Wisconsin (Wis.) (pp. 323–24)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: wisconsin-wis
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Wisconsin (Wis.)
+(pp. 323–24)
+http://www.wicourts.gov
+http://docs.legis.wisconsin.gov/statutes
+Public domain citation format:
+Wisconsin has adopted a public domain citation format for cases decided after December 31, 1999. The format is:
+Glaeske v. Shaw, 2003 WI App 71, 261 Wis. 2d 549, 661 N.W.2d 72.
+Glaeske v. Shaw, 2003 WI App 71, ¶ 9, 261 Wis. 2d 549, 661 N.W.2d 72.
+For additional information, consult Wisconsin Supreme Court Rule 80.
+Supreme Court
+(
+Wis.
+): Cite to
+N.W., N.W.2d,
+or
+N.W.3d
+, if therein.
+North Western Reporter
+1879–date
+N.W., N.W.2d, N.W.3d
+Wisconsin Reports
+1853–date
+Wis., Wis. 2d
+Pinney
+1839–1852
+Pin.
+Chandler
+1849–1852
+Chand.
+Burnett
+1842–1843
+Bur.
+Burnett (bound with session laws for Dec. 1841)
+1841
+Bur.
+Court of Appeals
+(
+Wis. Ct. App.
+): Cite to
+N.W.2d
+or
+N.W.3d
+, if therein.
+North Western Reporter
+1978–date
+N.W.2d, N.W.3d
+Wisconsin Reports
+1978–date
+Wis. 2d
+Statutory compilations:
+Cite to
+Wis. Stat.
+, if therein.
+Wisconsin Statutes
+Wis. Stat.
+§ x.x (
+<year>
+)
+West’s Wisconsin Statutes Annotated
+Wis. Stat. Ann.
+§ x.x (West
+<year>
+)
+Session laws:
+Cite to
+Wis. Sess. Laws
+, if therein.
+Wisconsin Session Laws
+<year>
+Wis. Sess. Laws
+<page no.>
+West’s Wisconsin Legislative Service
+<year>
+Wis. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Wisconsin Administrative Code
+Wis. Admin. Code
+<agency abbreviation>
+§ x-x (
+<year>
+)
+Administrative register
+Wisconsin Administrative Register
+<iss. no.>
+Wis. Admin. Reg.
+<page no.>
+(
+<month day, year>
+)

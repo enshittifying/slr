@@ -1,0 +1,86 @@
+TITLE: T2.20 Iraq, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-20-iraq-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.20
+Iraq, Republic of
+(Civil Law)
+Romanization
+Use the
+ALA-LC RomanizationTables: Transliteration Schemes for Non-Roman Scripts
+, approved by the Library of Congress and the American Library Association, available at
+http://www.loc.gov/catdir/cpso/romanization/arabic.pdf
+.
+Cases
+Citation format:
+<name of court> [<short name of court>] [<name of court and/or chamber in English>] [<short name of court in English>], <region if applicable>, <decision number, if available> of <date of decision, spelled out>, <reporter or journal>
+[
+<name of reporter or journal in English>
+]
+, <volume of journal, if applicable>, <year of publication>, <first page> (<country abbreviation if not evident from context>).
+Mah. kamat al-Tamyīz [Tamyīz] [Court of Cassation] [Cassation], deci- sion No. 1428 of March 6, 1974, Al-Nashrah al-Qadā’īyah [Judicial Report], vol. 1, year 5, p. 161 (Iraq).
+Courts
+Mah
+.
+kamat al-Tamyīz
+(Tamyīz) (Court of Cassation: highest court of ordinary jurisdiction, sits only in the capital and has several chambers). Citation is sufficiently recognized by referring to this court as “Mah. kamat al-Tamyīz” or simply “Tamyīz.”
+Tamyīz [Cassation, civil chamber], decision No. 1509 of March 18, 1974, al-Nashrah al-Qadā’īyah, vol. 1, year 5, p. 11 (Iraq).
+Mah. kamat al-Isti’nāf
+(Isti’nāf) (Court of Appeal: general court of second instance). Cite with the name followed by the geographic area.
+Isti’nāf Baghdād [Court of Appeal, Baghdad], decision No. 48 of September 1985, Majmū‘at al-Ahkām al-‘Adlīyah [Compilation of Judicial Decisions], issues 3 and 4 of 1985, p. 141 (Iraq).
+Sources
+Cite to the following publications of the Iraqi Government:
+al-Nashrah al-Qaḍā’īyah
+Tamyīz [Cassation], decision No. 901 of 1973, al-Nashrah al-Qaḍā’īyah, vol. 1, year 5, p. 247 (Iraq).
+Majmūʻat al-Aḥkām al-ʻAdlīyah
+Istiʼnāf Baghdad [Court of Appeal, Baghdad], decision No. 1872 of 1979, Majmūʻat al-Aḥkām al-ʻAdlīyah, vol. 4, year 5, p. 112 (Iraq).
+Statutes, codes, and decrees
+Citation format:
+<name and number of the law> of <year> (<country abbreviation if not evident from context>).
+Or:
+<subject of the law> Law of <year> (<country abbreviation if not evident from context>).
+Or:
+<name or subject of the law> (<country abbreviation if not evident from context>).
+Residency of Foreigners Law No. 118 of 1987 (Iraq).
+Weapons Law of 1992 (Iraq).
+Civil Procedures Law (Iraq).
+Official Gazette
+The official gazette of Iraq is called
+al-Waqā’i‘ al-‘Irāqīyah
+and is published periodically by the Iraqi government. Cite by the issue number and date of
+publication.
+Citation format:
+<title of the law>
+, al-Waqā’i‘ al-‘Irāqīyah [Iraqi Official Gazette]
+<issue number>
+of
+<date of issue> <page number, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Constitutions
+Iraq has had several constitutions since its creation after World War I. If referring to a particular provision, provide the article and section number before the name.
+Article 12, al-Qānūn al-Asāsī al-‘Irāqī [The Organic Law] of 1924 (Iraq).
+al-Dustūr al-‘Irāqī al-Mu’aqqat [The Interim Iraqi Constitution] of 1958.
+al-Dustūr al-‘Irāqī al-Mu’aqqat [The Interim Iraqi Constitution] of 1964.
+al-Dustūr al-‘Irāqī al-Mu’aqqat [The Interim Iraqi Constitution] of 1968.
+al-Dustūr al-‘Irāqī al-Mu’aqqat [The Interim Iraqi Constitution] of 1970.
+Article 4, Section 2, Dustūr Jumh. ūrīyat al-‘Irāq [The Constitution of the Republic of Iraq] of 2005.
+Internet sources
+http://ar.parliament.iq
+(Iraqi Parliament website with a number of laws and proposed draft laws)
+http://www.moj.gov.iq/tmeez
+(Iraqi Ministry of Justice website; includes limited number of Court of Cassation decisions)
+http://www.moj.gov.iq/facts
+(Iraqi official gazette)

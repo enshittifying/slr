@@ -1,0 +1,103 @@
+TITLE: 21.11 World Trade Organization (pp. 239–40)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-11-world-trade-organization
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.11
+World Trade Organization
+(pp. 239–40)
+If it is unclear from the context that a citation refers to a WTO or GATT document, explain the reference in a parenthetical following the citation.
+(a) WTO panel and Appellate Body materials.
+Cite reports of WTO panels and the Appellate Body by their official document symbol:
+Panel Report,
+United States—Sections 301–310 of the Trade Act of 1974
+, WTO Doc. WT/DS152/R (adopted Jan. 27, 2000) [hereinafter Section 301 Panel Report].
+Appellate Body Report,
+Brazil—Export Financing Programme for Aircraft
+, ¶ 19, WTO Doc. WT/DS46/AB/R (adopted Aug. 20, 1999).
+Cite communications of panels and the Appellate Body, as well as members’ communications to panels and the Appellate Body, in a like format:
+Preliminary Ruling by the Panel,
+Canada—Measures Relating to Exports of Wheat and Treatment of Imported Grain
+, ¶ 23, WTO Doc. WT/DS276/12 (July 21, 2003).
+Request for Consultations by the United States,
+European Communities—Measures Affecting the Approval and Marketing of Biotech Products
+, WTO Doc. WT/DS291/1 (May 20, 2003).
+Request for the Establishment of a Panel by Brazil,
+United States—Subsidies on Upland Cotton
+, WTO Doc. WT/DS267/7 (Feb. 7, 2003).
+A member’s written submissions and oral statements to panels and the Appellate Body are made public at the discretion of the individual member. Because these documents are not normally publicly available, include precise information regarding their location:
+First Written Submission of the United States,
+United States—Subsidies on Upland Cotton
+, WT/DS267 (July 11, 2003),
+https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds267_e.htm
+(on file with author).
+(b) General Agreement on Tariffs and Trade (GATT) panel decisions.
+Cite
+Basic Instruments and Selected Documents
+(
+B.I.S.D.
+), if therein. Include the title; case number, if listed; the document date; the ordinal number of the supplement (annual volume); the page; and the year of publication:
+Report of the Panel,
+Japan—Restrictions on Imports of Certain Agricultural Products
+, L/6253 (Feb. 2, 1988), GATT B.I.S.D. (35th Supp.), at 163, 229 (1989).
+Netherlands Measure of Suspension of Obligations to the United States
+(Nov. 8, 1952), GATT B.I.S.D. (1st Supp.), at 32 (1953).
+(c) Reports.
+Cite reports from the WTO Secretariat and other bodies as you would those from the United Nations according to
+rule 21.7.3
+:
+Council for Trade-Related Aspects of Intell. Prop. Rts.,
+Note by the Secretariat: Available Information on the Existence of Patents in Regard to the Diseases Referred to in the Declaration on the TRIPS Agreement and Public Health
+, WTO Doc. IP/C/W/348 (June 11, 2002).
+Special Session of the Council for Trade in Servs.,
+Guidelines and Procedures for the Negotiations on Trade in Services
+, WTO Doc. S/L/93 (Mar. 29, 2001).
+GATT Secretariat,
+An Analysis of the Proposed Uruguay Round Agreement, with Particular Emphasis on Aspects of Interest to Developing Countries
+, GATT Doc. MTN.TNC/W/122 (Nov. 29, 1993).
+(d) Founding agreements.
+Cite founding agreements according to
+rule 21.4.5
+:
+Marrakesh Agreement Establishing the World Trade Organization, Apr. 15, 1994, 1867 U.N.T.S. 154 [hereinafter Marrakesh Agreement].
+General Agreement on Tariffs and Trade, Oct. 30, 1947, 61 Stat. A-11, 55 U.N.T.S. 194 [hereinafter GATT].
+The Marrakesh Agreement concluded the Uruguay Round, which resulted in a set of agreements and appended annexes, some of which constitute agreements on separate trade issues. Indicate the part(s) of the agreement(s) they attach to, if any:
+Understanding on Rules and Procedures Governing the Settlement of Disputes art. 1, Apr. 15, 1994, Marrakesh Agreement Establishing the World Trade Organization, Annex 2, 1869 U.N.T.S. 401 [hereinafter DSU].
+GATT-era side agreements should be cited to an unofficial treaty source, such as
+B.I.S.D.
+:
+Agreement Regarding International Trade in Textiles, Dec. 20, 1973, GATT B.I.S.D. (21st Supp.), at 4 (1975).
+Subsequent citations should use the appropriate short form, citing only to articles or paragraphs:
+Marrakesh Agreement ¶ 5.
+DSU art. 3.7.
+(e) Ministerial documents.
+Cite ministerial documents by name of issuing body and document number, and to an unofficial source, such as
+International Legal Materials
+, if therein:
+World Trade Organization, Ministerial Declaration of 14 November 2001, WTO Doc. WT/MIN(01)/DEC/1, 41 I.L.M. 746 (2002) [hereinafter Doha Declaration].
+(f) Other documents.
+(i)
+Arbitration documents
+. Cite ICSID arbitration documents according to
+rule 21.6
+.
+(ii)
+Press Releases
+. Cite press releases according to
+rule 17.2.3
+.
+(iii)
+WTO website
+. Some documents may be found on the WTO’s website, and should be cited in accordance with
+rule 18.2
+.

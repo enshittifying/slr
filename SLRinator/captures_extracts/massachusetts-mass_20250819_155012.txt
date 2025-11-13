@@ -1,0 +1,170 @@
+TITLE: Massachusetts (Mass.) (pp. 292–94)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: massachusetts-mass
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Massachusetts (Mass.)
+(pp. 292–94)
+http://www.mass.gov/orgs/massachusetts-court-system
+https://malegislature.gov/Laws/GeneralLaws
+Supreme Judicial Court
+(
+Mass.
+): Cite to
+N.E.,
+N.E.2d
+,  or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1885–date
+N.E., N.E.2d, N.E.3d
+Massachusetts Reports
+97 Mass
+. to date
+1867–date
+Mass.
+Allen
+1861–1867
+e.g.,
+83 Mass. (1 Allen)
+Gray
+1854–1860
+e.g.,
+67 Mass. (1 Gray)
+Cushing
+1848–1853
+e.g.,
+55 Mass. (1 Cush.)
+Metcalf
+1840–1847
+e.g.,
+42 Mass. (1 Met.)
+Pickering
+1822–1839
+e.g.,
+18 Mass. (1 Pick.)
+Tyng
+1805–1822
+e.g.,
+2 Mass. (1 Tyng)
+Williams
+1804–1805
+1 Mass. (1 Will.)
+Appeals Court
+(
+Mass. App. Ct.
+): Cite to
+N.E.2d
+or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1972–date
+N.E.2d, N.E.3d
+Massachusetts Appeals Court Reports
+1972–date
+Mass. App. Ct.
+Lower Courts
+(
+Mass. Dist. Ct.
+,
+Bos. Mun. Ct.
+): Cite to
+Mass. App. Div.
+, if therein; otherwise cite to
+Mass. Supp.
+or
+Mass. App. Dec.
+, if therein.
+Reports of Massachusetts
+Appellate Division
+1936–1950
+1980–date
+Mass. App. Div.
+Massachusetts Reports Supplement
+1980–1983
+Mass. Supp.
+Massachusetts Appellate Decisions
+1941–1977
+Mass. App. Dec.
+Appellate Division Advance Sheets
+1975–1979
+<year>
+Mass. App. Div. Adv. Sh.
+<page no.>
+Statutory compilations:
+Cite to
+Mass. Gen. Laws
+, if therein.
+General Laws of Massachusetts (Mass. Bar Ass’n/West)
+Mass. Gen. Laws
+ch. x, § x (
+<year>
+)
+Massachusetts General Laws Annotated (West)
+Mass. Gen. Laws Ann.
+ch. x, § x (West
+<year>
+)
+Annotated Laws of Massachusetts (LexisNexis)
+Mass. Ann. Laws
+ch. x, § x (LexisNexis
+<year>
+)
+Session laws:
+Cite to
+Mass. Acts
+, if therein.
+Acts and Resolves of Massachusetts
+<year>
+Mass. Acts
+<page no.>
+Massachusetts Legislative Service (West)
+<year>
+Mass. Legis. Serv.
+<page no.>
+(West)
+Massachusetts Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Mass. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilations:
+Cite to official
+Mass. Code Regs.
+, if therein.
+Code of Massachusetts Regulations
+<tit. no.>
+Mass. Code Regs.
+<sec. no.>
+(
+<year>
+)
+Code of Massachusetts Regulations (LexisNexis)
+<tit. no.>
+Mass. Code Regs.
+<sec. no.>
+(LexisNexis
+<year>
+)
+Administrative register
+Massachusetts Register
+<iss. no.>
+Mass. Reg.
+<page no.>
+(
+<month day, year>
+)

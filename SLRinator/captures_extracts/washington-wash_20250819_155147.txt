@@ -1,0 +1,98 @@
+TITLE: Washington (Wash.) (p.322)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: washington-wash
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Washington (Wash.)
+(p.322)
+http://www.courts.wa.gov
+http://app.leg.wa.gov/rcw
+Supreme Court
+(
+Wash.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1880–date
+P., P.2d, P.3d
+Washington Reports
+1889–date
+Wash., Wash. 2d, Wash. 3d
+Washington Territory Reports
+1854–1888
+Wash. Terr.
+Court of Appeals
+(
+Wash. Ct. App.
+): Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1969–date
+P.2d, P.3d
+Washington Appellate Reports
+1969–date
+Wash. App.
+Statutory compilations:
+Cite to
+Wash. Rev. Code
+, if therein.
+Revised Code of Washington
+Wash. Rev. Code
+§ x.x.x (
+<year>
+)
+West's Revised Code of Washington Annotated
+Wash. Rev. Code Ann.
+§ x.x.x (West
+<year>
+)
+Annotated Revised Code of Washington (LexisNexis)
+Wash. Rev. Code Ann.
+§ x.x.x (LexisNexis
+<year>
+)
+Session laws:
+Cite to
+Wash. Sess. Laws
+, if therein.
+Session Laws of Washington
+<year>
+Wash. Sess. Laws
+<page no.>
+West’s Washington Legislative Service
+<year>
+Wash. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Washington Administrative Code
+Wash. Admin. Code
+§ x-x-x (
+<year>
+)
+Administrative register
+Washington State Register
+<iss. no.>
+Wash. Reg.
+<page no.>
+(
+<month day, year>
+)

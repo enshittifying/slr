@@ -1,0 +1,71 @@
+TITLE: 21.17 Short Citation Forms (p.244)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-17-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.17
+Short Citation Forms
+(p.244)
+(a) Treaties and other international agreements.
+Subsequent citations to treaties and other international agreements may use both “
+id.
+” and “
+supra
+.
+” Provide the name of the treaty, followed by “
+supra
+,” and the page(s) on which the cited material appears:
+Convention for the Avoidance of Double Taxation,
+supra
+note 6, at 25.
+Treaty on the Non-proliferation of Nuclear Weapons,
+supra
+note 1, 21 U.S.T. at 486, 729 U.N.T.S. at 167.
+If the first citation contains a “
+hereinafter
+” short title, use that short title in subsequent “
+supra
+” cites.
+(b) International law cases and arbitrations.
+Use short forms analogous to those provided in
+rule 10.9
+.
+(c) United Nations and other intergovernmental organization materials.
+Subsequent citations to materials of intergovernmental organizations may use both “
+id.
+” and “
+supra
+”:
+G.A. Res. 1962,
+supra
+note 4, at 22.
+Permanent Missions to the United Nations: Report of the Secretary-General
+,
+supra
+note 6, at 18.
+If the first citation contains a “
+hereinafter
+” short title, use the short title in subsequent “
+supra
+” cites:
+Completing the Internal Market,
+supra
+note 12, at 9.
+(d) Yearbooks and digests.
+Subsequent citations to articles in yearbooks and digests should follow the short forms for periodicals (
+rule 16.9
+). Subsequent citations may use both “
+id.
+” and “
+supra
+.”

@@ -1,0 +1,39 @@
+TITLE: 22 Tribal Nations (p.245)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 22-tribal-nations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+22
+Tribal Nations
+(p.245)
+The
+Bluebook
+recognizes the unique legal status and sovereignty of Tribal Nations within the United States. To facilitate accurate and respectful legal scholarship and practice, this section provides guidelines for citing official materials produced by Tribal Nations. As the legal frameworks of Tribal Nations are inherently distinct and autonomous, this rule aims to provide guidance on citation practices while honoring the diversity and specificity of Tribal legal systems.
+Given the variety of official documents produced by the 574 currently federally recognized Tribal Nations, this rule offers guidelines on the most common forms of existing materials. When filing documents with Tribal governments and Tribal courts that have their own citation conventions, follow Tribal citation conventions.
+For a comprehensive enumeration of federally recognized Tribal Nations, consult the following resources:
+- Department of the Interior:
+https://www.bia.gov/service/tribal-leaders-directory/federally-recognized-tribes
+- Federal Register: List of Federally Recognized Tribes (2024)
+https://www.govinfo.gov/content/pkg/FR-2024-01-08/pdf/2024-00109.pdf
+For a list of Tribal Nations, please visit
+http://www.legalbluebook.com
+for access to
+table T1.5
+.
+These rules aim to foster a legal practice and scholarship environment that is inclusive, accurate, and respectful of the legal traditions and authorities of Tribal Nations.
+Some Tribal Nations are recognized by individual states rather than the federal government. For information on state-recognized Tribal Nations, consult the relevant resources provided by each state's government or tribal affairs office.
+22.1
+Tribal Nations with an Established Citation Format
+22.2
+Tribal Nations Without an Established Citation Format
+22.3
+Short Citation Form

@@ -1,0 +1,344 @@
+[
+  {
+    "description": "Basic federal case - correct",
+    "citation": "_Smith v. Jones_, 123 F.3d 456 (2d Cir. 2020)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Federal case missing italics",
+    "citation": "Smith v. Jones, 123 F.3d 456 (2d Cir. 2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "United States as party - incorrect abbreviation",
+    "citation": "U.S. v. Smith, 456 U.S. 789 (1982)",
+    "passed": false,
+    "reason": "Expected violations ['abbreviation'], got ['case_name_italics', 'year_required']"
+  },
+  {
+    "description": "State case with parallel citations",
+    "citation": "State v. Brown, 123 Cal. App. 4th 456, 789 P.3d 123 (2020)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Case with subsequent history",
+    "citation": "Johnson v. State, 456 F.2d 789 (9th Cir. 1999), rev'd, 534 U.S. 123 (2001)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Case with prior history",
+    "citation": "Miller v. City, 534 U.S. 123 (2001), rev'g 456 F.2d 789 (9th Cir. 1999)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Year required']"
+  },
+  {
+    "description": "Case with weight of authority parenthetical",
+    "citation": "Davis v. County, 789 F.3d 456 (5th Cir. 2015) (en banc)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Case with explanatory parenthetical",
+    "citation": "Wilson v. State, 321 F.3d 654 (7th Cir. 2010) (holding that defendant waived appeal)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Case with quoting parenthetical",
+    "citation": "Taylor v. United States, 495 U.S. 575, 580 (1990) (quoting Chapman v. California, 386 U.S. 18, 24 (1967))",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Year required']"
+  },
+  {
+    "description": "Case with alteration parenthetical",
+    "citation": "Lee v. State, 234 F.3d 789, 791 (3d Cir. 2000) (emphasis added)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Case with multiple parentheticals - wrong order",
+    "citation": "Garcia v. City, 567 F.3d 890 (9th Cir. 2018) (explaining jurisdiction) (en banc)",
+    "passed": false,
+    "reason": "Expected violations ['parenthetical_order'], got ['case_name_italics']"
+  },
+  {
+    "description": "Federal statute - correct",
+    "citation": "42 U.S.C. \u00a7 1983 (2018)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Federal statute with subsections",
+    "citation": "26 U.S.C. \u00a7 501(c)(3) (2018)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Federal statute range",
+    "citation": "18 U.S.C. \u00a7\u00a7 1961\u20131968 (2018)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Year required']"
+  },
+  {
+    "description": "State statute - California",
+    "citation": "Cal. Penal Code \u00a7 187 (West 2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "State statute - New York",
+    "citation": "N.Y. C.P.L.R. \u00a7 3211 (McKinney 2019)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Statute with supplement",
+    "citation": "42 U.S.C. \u00a7 1983 (2018 & Supp. II 2020)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Year required']"
+  },
+  {
+    "description": "Statute missing year",
+    "citation": "42 U.S.C. \u00a7 1983",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Statute with bad section spacing",
+    "citation": "42 U.S.C. \u00a71983 (2018)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "CFR citation - correct",
+    "citation": "45 C.F.R. \u00a7 164.502 (2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Federal Register citation",
+    "citation": "85 Fed. Reg. 54,876 (Sept. 3, 2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Federal Register to be codified",
+    "citation": "85 Fed. Reg. 54,876, 54,880 (Sept. 3, 2020) (to be codified at 45 C.F.R. pt. 164)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "State regulation",
+    "citation": "Cal. Code Regs. tit. 22, \u00a7 51003.1 (2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "U.S. Constitution article",
+    "citation": "U.S. Const. art. I, \u00a7 8, cl. 3",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "U.S. Constitution amendment",
+    "citation": "U.S. Const. amend. XIV, \u00a7 1",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "State constitution",
+    "citation": "Cal. Const. art. IV, \u00a7 2",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "See signal",
+    "citation": "See Smith v. Jones, 123 F.3d 456 (2d Cir. 2020)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Incorrect signal punctuation']"
+  },
+  {
+    "description": "See also signal",
+    "citation": "See also Brown v. Board of Educ., 347 U.S. 483 (1954)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Incorrect signal punctuation', 'Year required']"
+  },
+  {
+    "description": "Cf. signal",
+    "citation": "Cf. Johnson v. State, 789 P.2d 123 (Cal. 1990)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Compare signal",
+    "citation": "Compare Smith v. Jones, 123 F.3d 456 (2d Cir. 2020), with Brown v. Board, 347 U.S. 483 (1954)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Incorrect signal punctuation']"
+  },
+  {
+    "description": "But see signal",
+    "citation": "But see Miller v. California, 413 U.S. 15 (1973)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Incorrect signal punctuation', 'Year required']"
+  },
+  {
+    "description": "String cite with wrong signal order",
+    "citation": "But see Case1; See Case2",
+    "passed": false,
+    "reason": "Expected violations ['signal_order'], got ['signal_punctuation']"
+  },
+  {
+    "description": "Id. citation",
+    "citation": "Id.",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Id. with pinpoint",
+    "citation": "Id. at 458",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Id. without previous citation",
+    "citation": "Id. at 458",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Supra for article",
+    "citation": "Smith, supra note 5, at 123",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Supra for case (incorrect)",
+    "citation": "Smith v. Jones, supra note 5",
+    "passed": false,
+    "reason": "Expected violations ['supra_usage'], got ['case_name_italics', 'year_required']"
+  },
+  {
+    "description": "Short case form",
+    "citation": "Smith, 123 F.3d at 458",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Website with permalink",
+    "citation": "John Doe, Article Title, WEBSITE (Jan. 1, 2024), https://example.com/article [https://perma.cc/ABCD-1234]",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Website without permalink in law review",
+    "citation": "John Doe, Article Title, WEBSITE (Jan. 1, 2024), https://example.com/article",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Website with last visited date",
+    "citation": "Article Title, https://example.com/article (last visited Jan. 1, 2024)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Database citation",
+    "citation": "Smith v. Jones, No. 20-1234, 2020 WL 123456, at *5 (S.D.N.Y. Jan. 1, 2020)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Year required']"
+  },
+  {
+    "description": "Book citation",
+    "citation": "JOHN DOE, TITLE OF BOOK 123 (2d ed. 2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Book with multiple authors",
+    "citation": "JOHN DOE & JANE SMITH, TITLE OF BOOK (2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Law review article",
+    "citation": "John Doe, Article Title, 100 HARV. L. REV. 1234 (2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Article with pinpoint",
+    "citation": "John Doe, Article Title, 100 HARV. L. REV. 1234, 1245 (2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Student note",
+    "citation": "Note, Title of Note, 100 HARV. L. REV. 1234 (2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Forthcoming article",
+    "citation": "John Doe, Article Title, 100 HARV. L. REV. (forthcoming 2024)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Treaty citation",
+    "citation": "Treaty Name, Jan. 1, 2020, Country1-Country2, 123 U.N.T.S. 456",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "UN document",
+    "citation": "U.N. Doc. A/RES/75/123 (Dec. 15, 2020)",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "ICJ case",
+    "citation": "Case Name (Country1 v. Country2), 2020 I.C.J. 123 (Jan. 1)",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles', 'Year required']"
+  },
+  {
+    "description": "EU directive",
+    "citation": "Council Directive 2020/123, 2020 O.J. (L 45) 67",
+    "passed": true,
+    "reason": ""
+  },
+  {
+    "description": "Citation with multiple violations",
+    "citation": "u.s. v smith 123 F3d 456",
+    "passed": false,
+    "reason": "Expected valid=False, got valid=True"
+  },
+  {
+    "description": "Nested parentheticals",
+    "citation": "Case v. State, 123 F.3d 456 (2d Cir. 2020) (quoting Other v. Case, 789 F.2d 123 (3d Cir. 2019) (emphasis added))",
+    "passed": false,
+    "reason": "Expected valid=True, got valid=False. Violations: ['Case names must be italicized in law review articles']"
+  },
+  {
+    "description": "Page range with hyphen instead of en dash",
+    "citation": "Smith v. Jones, 123 F.3d 456, 458-461 (2d Cir. 2020)",
+    "passed": false,
+    "reason": "Expected violations ['page_span'], got ['case_name_italics', 'year_required']"
+  },
+  {
+    "description": "Ordinal with improper spacing",
+    "citation": "Smith v. Jones, 123 F. 3d 456 (2 nd Cir. 2020)",
+    "passed": false,
+    "reason": "Expected violations ['ordinal_spacing'], got ['case_name_italics']"
+  },
+  {
+    "description": "Mixed language citation",
+    "citation": "Cour de cassation [Cass.] [supreme court for judicial matters] crim., June 15, 2020, Bull. crim., No. 123 (Fr.)",
+    "passed": true,
+    "reason": ""
+  }
+]

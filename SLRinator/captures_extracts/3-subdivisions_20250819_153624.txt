@@ -1,0 +1,30 @@
+TITLE: 3 Subdivisions (p.76)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 3-subdivisions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+3
+Subdivisions
+(p.76)
+Most subdivisions (such as columns or sections) in citations are abbreviated. See
+table T16
+for a list of subdivision abbreviations.
+3.1
+Volumes, Parts, and Supplements
+3.2
+Pages, Footnotes, Endnotes, and Graphical Materials
+3.3
+Sections and Paragraphs
+3.4
+Appended Material
+3.5
+Internal Cross-References

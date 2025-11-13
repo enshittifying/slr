@@ -1,0 +1,115 @@
+TITLE: B10.2 Short Form Citation (pp. 17–18)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  parent: b10-cases
+  slug: b10-2-short-form-citation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B10.2
+Short Form Citation
+(pp. 17–18)
+Once you have provided a full citation to an authority, you may use a “short form” in later citations of the same authority, so long as (1) it is clear to the reader which authority is referenced; (2) the full citation falls in the same general discussion; and (3) the reader will have little trouble locating the full citation. There are several acceptable short forms for case citations. All of these forms include “
+at
+” followed, if necessary, by a pincite.
+The following are all acceptable short form citations of page 100 of
+Palsgraf v. Long Island R.R. Co.
+, 162 N.E. 99 (N.Y. 1928)
+:
+Palsgraf
+, 162 N.E. at 100.
+162 N.E. at 100.
+Id.
+at 100.
+When using only one party name in a short form citation, use the name of the first party, unless that party is a geographical unit, a governmental entity, or another type of common litigant. You may also shorten a long party name, for example from
+First Nat’l Trust & Inv. Corp.
+to
+First Nat’l
+, so long as the reference remains unambiguous.
+Short citations take a slightly different form for cases with parallel citations.
+Chalfin v. Specter
+, 426 Pa. 464, 465, 233 A.2d 562, 563 (1967)
+, becomes one of the following:
+Chalfin
+, 426 Pa. at 465, 233 A.2d at 563.
+426 Pa. at 465, 233 A.2d at 563.
+Id.
+“
+Id.
+” is the short form used to refer to the immediately preceding authority.
+Bluepages Tip:
+The “
+i
+” in “
+id.
+” is only capitalized when it begins a citation sentence. The underline always runs under the period.
+(i) When used alone, “
+id.
+” refers to the identical pincite referenced in the immediately preceding citation:
+The Supreme Court has stated unequivocally that “apprehension by the use of deadly force is a seizure subject to the reasonableness requirement of the Fourth Amendment.”
+Tennessee v. Garner
+, 471 U.S. 1, 7 (1985). By contrast, minimal police interference will not always constitute a “seizure” for Fourth Amendment purposes.
+Id.
+(ii) To refer to a different page or footnote within the immediately preceding authority, add “
+at
+” and the new pincite:
+To determine whether a particular exercise of non-lethal police force was reasonable, courts engage in a balancing process that weighs the nature of the intrusion against the “governmental interests.”
+Id.
+at 8.
+(iii) “
+Id.
+” may only be used when the preceding citation cites only
+one
+source:
+This process weighs the nature of the exertion of force against the governmental interests at stake.
+See
+Heath
+, 854 F.2d at 9. This is an “objective reasonableness” test.
+Id.
+In the example above, it is clear that “
+id.
+” refers to
+Heath
+. By contrast, the use of “
+id.
+” in the following example is improper because it is not clear to which authority “
+id.
+” refers:
+Not:
+To determine whether a particular exercise of non-lethal police force was reasonable, courts engage in a balancing process.
+Tennessee v. Garner
+, 471 U.S. 1, 8 (1985);
+see also
+Heath v. Henning
+, 854 F.2d 6, 8 (2d Cir. 1988). This process weighs the nature of the exertion of force against the governmental interests at stake.
+See
+id.
+at 9.
+Bluepages Tip:
+Sources identified in explanatory parentheticals, explanatory phrases, and prior or subsequent history are ignored for the purposes of this rule.
+(iv) The “
+id.
+” form for cases requiring parallel citations is as follows:
+The Pennsylvania Supreme Court grappled with a similarly complicated issue in an election dispute in 1967.
+See
+Chalfin v. Specter
+, 426 Pa. 464, 477, 233 A.2d 562, 568 (1967). In
+Chalfin
+, the court was forced to reach a decision under a severely rushed schedule.
+See
+id.
+at 468, 233 A.2d at 564.
+(v) “
+Id.
+” can be used for various types of authorities—not only for cases. For further guidance on the use of “
+id.
+,” see
+rule 4.1
+.

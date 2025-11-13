@@ -1,0 +1,56 @@
+2025-08-08 23:25:22,691 - src.core.sourcepull_system - INFO - Processing FN1: Alice Corp. v. CLS Bank Int'l, 573 U.S. 208, 216 (2014)...
+2025-08-08 23:25:22,691 - src.core.sourcepull_system - INFO -   Identified as: supreme_court (priority: 1)
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✓ Success with supreme_court_website
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO - Processing FN2: Mayo Collaborative Servs. v. Prometheus Labs., Inc., 566 U.S. 66, 72 (2012)...
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN2
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO - Processing FN3: 35 U.S.C. § 101 (2018)...
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN3
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO - Processing FN4: 17 C.F.R. § 240.10b-5 (2021)...
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   Identified as: federal_regulation (priority: 2)
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with ecfr: eCFR retrieval not implemented
+2025-08-08 23:25:22,802 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN4
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO - Processing FN5: Mark A. Lemley, Software Patents and the Return of Functional Claiming, 2013 Wis. L. Rev. 905...
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN5
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO - Processing FN6: Diamond v. Chakrabarty, 447 U.S. 303, 309 (1980)...
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   Identified as: supreme_court (priority: 1)
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with supreme_court_website: Not available from Supreme Court website
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with courtlistener: CourtListener API token not configured
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN6
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO - Processing FN7: Apple Inc. v. Samsung Elecs. Co., 839 F.3d 1034, 1040 (Fed. Cir. 2016)...
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN7
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO - Processing FN8: H.R. Rep. No. 114-114, at 2 (2015)...
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   Identified as: book (priority: 9)
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with publisher_website: Strategy 'publisher_website' not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with google_books: Strategy 'google_books' not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with worldcat: Strategy 'worldcat' not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with library_catalog: Strategy 'library_catalog' not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - INFO -   ✗ Failed with amazon: Strategy 'amazon' not implemented
+2025-08-08 23:25:22,803 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN8
+2025-08-08 23:25:22,804 - src.core.sourcepull_system - INFO - Report saved to output/data/Sourcepull/sourcepull_report.json

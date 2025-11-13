@@ -1,0 +1,141 @@
+TITLE: 16.6 Newspapers (pp. 168–70)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-6-newspapers
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.6
+Newspapers
+(pp. 168–70)
+(a) In general.
+Materials appearing in newspapers are generally cited in the same manner as those found in nonconsecutively paginated periodicals (
+rule 16.5
+) with three exceptions: (i) when appropriate, designate the work as an “
+Editorial
+,” “
+Opinion
+,” or “
+Letter to the Editor
+,” in ordinary roman type, after the author’s name but before the title, or at the beginning of the citation if there is no author; (ii) after the date, give the designation of the section in which the piece is found in a parenthetical if necessary to identify the page unambiguously; and (iii) give only the first page of the piece and do not indicate the location of specific material. Substitute “
+Letter to the Editor
+” or another designation for the title when no separate title is provided. Citations to signed articles should include the author’s full name (
+rule 16.2
+); citations to unsigned pieces should begin with the title of the piece:
+Ari L. Goldman,
+O’Connor Warns Politicians Risk Excommunication over Abortion
+,
+N.Y. Times
+, June 15, 1990, at A1.
+Cop Shoots Tire, Halts Stolen Car
+,
+S.F. Chron
+., Oct. 10, 1975, at 43.
+Jane Gross,
+Silent Right: Lawyer Defends Principles from Her Jail Cell
+,
+Chi. Trib
+., Mar. 3, 1991 (§ 6), at 6.
+Nancy Reagan, Editorial,
+Just Say “Whoa
+,
+”
+Wall St
+. J., Jan. 23, 1996, at A14.
+William J. Clinton, Opinion,
+AIDS Is Not a Death Sentence
+,
+N.Y. Times
+, Dec. 1, 2002 (§ 4), at 9.
+Editorial,
+Pricing Drugs
+,
+Wash. Post
+, Feb. 17, 2004, at A18.
+Michael Harwood,
+The Ordeal: Life as a Medical Resident
+,
+N.Y. Times
+, June 3, 1984 (§ 6), at 38.
+(b) Place of publication.
+Include the place of publication in ordinary roman type in parentheses following the name of the newspaper if not clear from the name:
+Trial Judge Will Not Give Enquiry Evidence
+,
+Times
+(London), June 13, 1990, at 3.
+Nancy Johnson, Letter to the Editor,
+Chron. Higher Educ
+. (D.C.), Oct. 8, 2004, at A55.
+(c) Consecutively paginated newspapers.
+Cite an article in a newspaper paginated consecutively by volume according to
+rule 16.4
+:
+New York County Lawyers Association: Edwin M. Otterbourg to Represent the Association in House of Delegates of American Bar Association
+, 124 N.Y.L.J. 1221 (1950).
+(d) Wire services.
+Articles derived from wire services should be cited to a print newspaper in which they are published (
+rule 16.6(a)
+), a commercial electronic database (
+rule 16.6(e)
+), or a webpage (
+rule 16.6(f)
+). Include the name of the wire service (in small capitals) only if the citation is to the wire service itself:
+Richard Carelli,
+Judges' Financial Reports Hit Web
+,
+Associated Press
+, June 22, 2000, 2000 WL 23358974.
+Kevin Drawbaugh,
+Obama, Edwards Hit Lobbyists on Private Equity Tax
+,
+Reuters (
+Oct. 9, 2007),
+http://www.reuters.com/article/politicsNews/idUSN0942219020071009
+(on file with the Yale Law Journal).
+Record Labels Sue LimeWire for Enabling Music File-Sharing
+,
+FOX
+(Aug. 6, 2007),
+https://www.foxnews.com/story/record-labels-sue-limewire-for-enabling-music-file-sharing
+[
+https://perma.cc/JRY7-6LAZ
+].
+(e) Commercial electronic databases.
+News reports published in electronic databases may be cited according to
+rule 16.8
+:
+Justice Minister Calls for Solving International Legal Conflicts
+,
+Japan Econ. Newswire Plus,
+Apr. 22, 1991, at 1, DIALOG, File No. 612.
+InfoUSA Tells Shareholders to Ignore Hedge Fund
+,
+Reuters
+, May 4, 2006, Factiva, Doc. No. LBA000020060504e254001vp.
+(f) Internet and online newspapers.
+Online newspapers may be used in place of print newspapers.  Cite to the online source directly in accordance with
+rule 18.2.2
+. Pagination can be included if available but is not necessary. If the time of posting is available, include it in the parentheses in accordance with
+rule 18.2.2
+:
+John M. Broder,
+Geography Is Dividing Democrats over Energy
+,
+N.Y. Times
+, Jan. 27, 2009, at A1.
+becomes:
+John M. Broder,
+Geography Is Dividing Democrats over Energy
+,
+N.Y. Times
+(Jan. 27, 2009),
+http://www.nytimes.com/2009/01/27/science/earth/27coal.html
+(on file with author).

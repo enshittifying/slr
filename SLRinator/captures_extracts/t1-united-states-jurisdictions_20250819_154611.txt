@@ -1,0 +1,32 @@
+TITLE: T1 United States Jurisdictions (p.257)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  slug: t1-united-states-jurisdictions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T1
+United States Jurisdictions
+(p.257)
+The abbreviations and citation conventions listed in this table, except as noted, are primarily intended to serve a national audience. Practitioners should also adhere to local citation rules (see
+Bluepages table BT2
+). The preferred sources of citation are suggested when relevant. In the absence of such preference, the user may cite to any listed sources, as appropriate. In general, when citing to online sources, be sure to cite to stable URLs of the specific provision cited in accordance with the principles of
+rule 18
+.
+T1.1
+Federal Judicial and Legislative Materials
+T1.2
+Federal Administrative and Executive Materials
+T1.3
+States and the District of Columbia
+T1.4
+Other United States Jurisdictions
+T1.5
+Tribal Nations

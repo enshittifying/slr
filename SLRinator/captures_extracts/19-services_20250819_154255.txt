@@ -1,0 +1,26 @@
+TITLE: 19 Services (p.205)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 19-services
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+19
+Services
+(p.205)
+Cases, administrative materials, and brief commentaries are often published unofficially in topical compilations called “services,” which appear in looseleaf form initially and are sometimes published later as bound volumes. Consult
+Legal Looseleafs in Print
+, which is updated annually, for a comprehensive listing of services.
+Rule 19.1
+provides rules for citing services. Some services are no longer published in print or are otherwise available online.
+19.1
+Citation Form for Services
+19.2
+Short Citation Forms

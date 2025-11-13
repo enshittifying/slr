@@ -1,0 +1,21 @@
+TITLE: 1.4 Order of Authorities Within Each Signal (p.69)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 1-structure-and-use-of-citations
+  slug: 1-4-order-of-authorities-within-each-signal
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+1.4
+Order of Authorities Within Each Signal
+(p.69)
+Authorities within each signal are separated by semicolons.
+Authorities should be ordered in a logical manner. If one authority or several authorities together are considerably more helpful or authoritative than the other authorities cited within a signal, they should precede the others.
+Authorities cited in short form are ordered as though cited in full.

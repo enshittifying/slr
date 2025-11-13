@@ -1,0 +1,37 @@
+TITLE: 23.4 Institutional Affiliation (pp. 251–52)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-4-institutional-affiliation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.4
+Institutional Affiliation
+(pp. 251–52)
+When a document was prepared for a particular institution (e.g., a government agency, a company, or a nonprofit) and is not archived with that institution, add an institutional affiliation into the citation for clarity. Abbreviate according to
+tables T6
+,
+T7
+,
+T10
+, and
+T13
+. However, do not omit “
+in
+” or “
+of
+”:
+Kristof Zeitman, Report on the Feasibility of a Reversible Tourbillion Movement, Jaegar LeCoultre SA 28 (1993) (on file with Am. Horological Archive, Foreign Horology Collection, Box 2, Folder 1).
+This rule does not apply to Justices’ papers (
+rule 23.7.1
+) or other courts’ papers (
+rule 23.7.2(b)
+).

@@ -1,0 +1,181 @@
+TITLE: Pennsylvania (Pa.) (pp. 311–12)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: pennsylvania-pa
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Pennsylvania (Pa.)
+(pp. 311–12)
+https://ujsportal.pacourts.us/
+https://www.legis.state.pa.us/cfdocs/legis/li/public/
+Supreme Court
+(
+Pa.
+): Cite to
+A.
+,
+A.2d
+, or
+A.3d
+, if therein.
+Atlantic Reporter
+1885–date
+A., A.2d, A.3d
+Pennsylvania State Reports
+1845–date
+Pa.
+Monaghan
+1888–1890
+Monag.
+Sadler
+1885–1889
+Sadler
+Walker
+1855–1885
+Walk.
+Pennypacker
+1881–1884
+Pennyp.
+Grant
+1814–1863
+Grant
+Watts and Sergeant
+1841–1845
+Watts & Serg.
+Wharton
+1835–1841
+Whart.
+Watts
+1832–1840
+Watts
+Rawle
+1828–1835
+Rawle
+Penrose and Watts
+1829–1832
+Pen. & W.
+Sergeant and Rawle
+1814–1828
+Serg. & Rawle
+Binney
+1799–1814
+Binn.
+Yeates
+1791–1808
+Yeates
+Addison
+1791–1799
+Add.
+Dallas
+1754–1806
+Dall.
+Alden
+1754–1814
+Ald.
+Superior Court
+(
+Pa. Super. Ct.
+): Cite to
+A.
+,
+A.2d
+, or
+A.3d
+, if therein. For cases decided after December 31, 1998, use the following public domain citation format:
+Rapagnani v. Judas Co., 1999 PA Super 203, ¶ 3.
+Atlantic Reporter
+1931–date
+A., A.2d, A.3d
+Pennsylvania Superior Court Reports
+1895–1997
+Pa. Super.
+Commonwealth Court
+(Pa. Commw. Ct.): Cite to
+A.2d
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1970–date
+A.2d, A.3d
+Pennsylvania Commonwealth Court Reports
+1970–1994
+Pa. Commw.
+Other lower courts:
+Cite to
+Pa. D. & C., Pa. D. & C.2d, Pa. D. & C.3d, Pa. D. & C.4th
+, or
+Pa. D. & C.5th
+, if therein. Not all lower court decisions are reproduced in the reporters listed below, and it may be necessary, on occasion, to cite to the legal reporter for an individual county, if available. For a comprehensive list of Pennsylvania county court reports, consult chapter seven, appendix four,
+Frank Y. Liu et al., Pennsylvania Legal Research Handbook
+(2008).
+Pennsylvania District and County Reports
+1918–date
+Pa. D. & C., Pa. D. & C.2d, Pa. D. & C.3d, Pa. D. & C.4th, Pa. D. & C.5th
+Pennsylvania District Reports
+1892–1921
+Pa. D.
+Pennsylvania County Court Reports
+1870–1921
+Pa. C.
+Statutory compilations:
+Cite to
+Pa. Cons. Stat.
+, if therein. These publications should not be confused with
+Pa. Code
+, which is a code of regulations, not of legislation.
+Pennsylvania Consolidated Statutes
+<tit. no.>
+Pa. Cons. Stat.
+§ x (
+<year>
+)
+Purdon’s Pennsylvania Statutes and Consolidated Statutes Annotated (West)
+<tit. no.>
+Pa. Stat. and Cons. Stat. Ann.
+§ x (West
+<year>
+)
+Purdon’s Pennsylvania Statutes and Consolidated Statutes (West)
+<tit. no.>
+PA. Stat. and Cons. Stat.
+§ x (West
+<year>
+)
+Session laws:
+Cite to
+Pa. Laws
+, if therein.
+Laws of Pennsylvania
+<year>
+Pa. Laws
+<page no.>
+Purdon’s Pennsylvania Legislative Service (West)
+<year>
+Pa. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Pennsylvania Code (Fry Communications)
+<tit. no.>
+Pa. Code
+§ x.x (
+<year>
+)
+Administrative register
+Pennsylvania Bulletin (Fry Communications)
+<vol. no.>
+Pa. Bull.
+<page no.>
+(
+<month day, year>
+)

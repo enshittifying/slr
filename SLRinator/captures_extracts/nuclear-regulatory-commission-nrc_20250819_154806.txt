@@ -1,0 +1,27 @@
+TITLE: Nuclear Regulatory Commission (NRC) (p.270)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: nuclear-regulatory-commission-nrc
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Nuclear Regulatory Commission (NRC)
+(p.270)
+Cite decisions of the Nuclear Regulatory Commission
+to the
+Nuclear Regulatory Commission Issuances
+(
+N.R.C
+.). Cite decisions of its predecessor, the Atomic Energy Commission (1956–1975), to the
+Atomic Energy Commission Reports
+(
+A.E.C
+.).

@@ -1,0 +1,9 @@
+selenium
+pypdf2
+reportlab
+openai
+openpyxl
+weasyprint
+python-docx
+pandas
+flask

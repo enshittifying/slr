@@ -1,0 +1,116 @@
+TITLE: T2 Foreign Jurisdictions (p.328)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  slug: t2-foreign-jurisdictions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2
+Foreign Jurisdictions
+(p.328)
+Beginning with the 21st Edition of
+The Bluebook
+,
+table T2
+is available free to the general public on this website. Individual country entries are updated on an ongoing basis.
+T2.1
+Argentine Republic
+T2.2
+Australia
+T2.3
+Austria, Republic of
+T2.4
+Belgium, Kingdom of
+T2.5
+Brazil, Federative Republic of
+T2.6
+Canada
+T2.7
+Catholic Church (Holy See)
+T2.8
+Chile, Republic of
+T2.9
+China, People's Republic of
+T2.10
+Colombia, Republic of
+T2.11
+Czechia
+T2.12
+Egypt, Arab Republic of
+T2.13
+France, Republic of
+T2.14
+Germany, Federal Republic of
+T2.15
+Greece
+T2.16
+Hong Kong
+T2.17
+Hungary, Republic of
+T2.18
+India
+T2.19
+Iran, Islamic Republic of
+T2.20
+Iraq, Republic of
+T2.21
+Ireland (Éire), Republic of
+T2.22
+Israel
+T2.23
+Italy, Republic of
+T2.24
+Japan
+T2.25
+Kenya
+T2.26
+Lebanon, Republic of
+T2.27
+Malaysia
+T2.28
+Mexico
+T2.29
+Netherlands, Kingdom of the
+T2.30
+New Zealand
+T2.31
+Nicaragua
+T2.32
+Nigeria
+T2.33
+Pakistan, Islamic Republic of
+T2.34
+Philippines
+T2.35
+Portugal, Republic of
+T2.36
+Roman Law
+T2.37
+Russian Federation
+T2.38
+South Africa
+T2.39
+South Korea
+T2.40
+Spain
+T2.41
+Sri Lanka
+T2.42
+Sweden
+T2.43
+Switzerland
+T2.44
+Taiwan, Republic of China
+T2.45
+Türkiye, Republic of
+T2.46
+United Kingdom
+T2.47
+Zambia, Republic of

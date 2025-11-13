@@ -1,0 +1,10 @@
+{
+  "title": "Index",
+  "meta": {
+    "description": "Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…",
+    "canonical_url": "https://www.legalbluebook.com/bluebook"
+  },
+  "body_html": "<section class=\"w-screen block bg-white-400 mb-20\"><div class=\"flex lg:pl-0 sm:pl-5 xl:pl-25 xl:justify-center flex-wrap m-auto justify-normal w-full md:w-820 lg:w-920\"><div class=\"w-full max-w-full\"><div class=\"w-full m-auto pb-10 ml-0 md:ml-16 relative\"><div class=\"fixed bg-white-400 pb-4 w-full md:w-820 lg:w-920 pt-2\"><h1 class=\"font-light tracking-tight text-4xl md:text-5xl md:tracking-normal pl-3 mt-6 md:mt-8\">\n                            Index\n                        </h1> <div class=\"absolute top-2 md:top-6 right-0 translate-x-2 md:right-2 w-72 scale-85 md:scale-100\"><label class=\"m-2 text-blue-500 text-black font-condensed block absolute top-1 text-xxxxs left-1.5 z-1 uppercase\" for=\"term-filter\">\n                                Type To Search The Index\n                            </label> <input class=\"border border-gray-700 pb-3 px-3 pt-6 block rounded bg-white-100 w-full mb-2\" id=\"term-filter\" name=\"filter\"/></div> </div> <div class=\"pt-44 px-4 leading-loose md:leading-normal\"></div></div> <!-- --></div></div></section>",
+  "body_text": "Index\nType To Search The Index",
+  "extracted_at": "2025-08-19T16:11:44.154423"
+}

@@ -1,0 +1,21 @@
+     0                    1                                                              2
+0  NaN                  NaN                                                            NaN
+1  NaN               Volume                                                             78
+2  NaN                Issue                                                              4
+3  NaN        Article Title  Beyond Infringement: Rethinking DMCA § 1202 for Generative AI
+4  NaN               Author                                                          Bersh
+5  NaN                   SE                                           Lisa Qian & Mia Xing
+6  NaN      Drive Folder ID                              1DhsCtGW5YJWf-3NVImcXvwdb_naD_PWX
+7  NaN  Drive Sourcepull ID                              1_c9PMEmY6p5fy0JfRgO73et4UEf_S33L
+8  NaN          Drive R1 ID                              1BGi30bnGJHkOlTgjX49c3Ulabb3KXXTi
+9  NaN          Drive R2 ID                              1vRcph56A8rwJTYWcwD9Vsk-woUn8v0tR
+10 NaN           Primary ME                                                Managing Editor
+11 NaN                 MEMs                                                  Ben Rosenthal
+12 NaN                  NaN                                                    Sandra Chen
+13 NaN                  NaN                                                   Huailun Chen
+14 NaN                  NaN                                                     Ben Thomas
+15 NaN                  NaN                                                    Lucia Zheng
+16 NaN                  NaN                                                   Madeline Noh
+17 NaN                  NaN                                                      Jinna Lee
+18 NaN                  NaN                                                  Michelle Phan
+19 NaN                  NaN                                                   Jane H. Wang

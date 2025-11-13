@@ -1,0 +1,27 @@
+TITLE: B11 Constitutions (p.18)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  slug: b11-constitutions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B11
+Constitutions
+(p.18)
+U.S. Const. art. I, § 8, cl. 10.
+U.S. Const. amend. XVIII, § 1.
+Wash. Const. art. I, § 32.
+Bluepages Tip:
+Do not use a short citation form (other than “
+id.
+”) for constitutions.
+For further guidance on citing constitutions, see
+rule 11
+.

@@ -1,0 +1,197 @@
+TITLE: Quick Style Guide
+============================================================
+
+METADATA:
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Quick Style Guide
+The following examples illustrate how to cite commonly used sources in accordance with
+The Bluebook
+'s Whitepages, which are intended for use in law review footnotes.
+For citations in court documents and legal memoranda, please refer to the
+Bluepages
+.
+Cases –
+rule 10
+reporter
+Jackson v. Metro. Edison Co., 348 F. Supp. 954, 956–58 (M.D. Pa. 1972),
+aff’d
+, 483 F.2d 754 (3d Cir. 1973),
+aff’d
+, 419 U.S. 345 (1974).
+pending and unreported cases
+Albrecht v. Stranczek, No. 87-C9535, 1991 U.S. Dist. LEXIS 5088, at *1 n.1 (N.D. Ill. Apr. 15, 1991).
+Jackson v. Virginia, No. 77-1205, slip op. at 3 (4th Cir. Aug. 3, 1978) (per curiam),
+aff’d
+, 443 U.S. 307 (1979).
+Ross v. Weissman, No. 90-345 (D. Mass. filed Sep. 18, 1990).
+Grohman v. Tice, 925 F. 2d 314 (1st Cir. 1991),
+petition for cert. filed
+, 60 U.S.L.W. 3422 (U.S. Jan. 14, 1992) (No. 92-212).
+court documents
+Brief for Appellant at 7, Kitchens v. Scotten, 925 F.2d 314 (1st Cir. 1991) (No. 90-567).
+Constitutions –
+rule 11
+U.S. Const.
+art. I, § 9, cl. 2.
+Ark. Const.
+of 1868, art. III, § 2 (1873).
+Statutes –
+rule 12
+code
+Administrative Procedure Act § 6, 5 U.S.C. § 555.
+22 U.S.C. § 2567 (Supp. I 1983).
+session laws
+Department of Transportation Act, Pub. L. No. 89-670, § 9, 80 Stat. 931, 944–47 (1966).
+National Environmental Policy Act of 1969, Pub. L. No. 91-190, § 102, 83 Stat. 852, 853 (1970) (prior to 1975 amendment).
+Legislative Materials –
+rule 13
+unenacted bill
+S. 516, 105th Cong. § 2 (1997).
+hearing
+Transforming the Federal Government to Protect America from Terrorism: Hearing Before the H. Select Comm. on Homeland Sec.
+, 107th Cong. 23–25 (2002) (statement of John Ashcroft, Att’y Gen. of the U.S.).
+report
+S. Rep. No.
+95-797, at 4 (1978),
+as
+reprinted
+in
+1978 U.S.C.C.A.N. 9260, 9263.
+Administrative Materials –
+rule 14
+FTC Credit Practices Rule, 16 C.F.R. § 444.1 (2019).
+Importation of Fruits and Vegetables, 60 Fed. Reg. 50379 (Sep. 29, 1995) (to be codified at 7 C.F.R. pt. 300).
+Reichhold Chems., Inc., 91 F.T.C. 246 (1978).
+Books and Reports –
+rule 15
+books
+Deborah L. Rhode
+,
+Justice and Gender
+56 (1989).
+Charles Dickens
+,
+Bleak House
+49–55 (Normal Page ed., Penguin Books 1971) (1853).
+21
+Wright & Miller’s Federal Practice & Procedure
+§ 1006 (2d ed. 1987).
+pamphlets
+Women’s Bureau, U.S. Dep’t of Lab., Leaflet No. 55, A Working Woman’s Guide to Her Job Rights
+4 (1978).
+works in collection
+Kay Deaux & Brenda Major,
+A Social-Psychological Model of Gender, in
+Theoretical Perspectives on Sexual Difference
+89, 89 (Deborah L. Rhode ed., 1990).
+Oliver Wendell Holmes
+,
+Law
+in
+Science
+and
+Science
+in
+Law
+,
+in
+Collected Legal Papers
+210, 210 (1920).
+Periodical Materials –
+rule 16
+consecutively paginated journals
+David Rudovsky,
+Police Abuse: Can the Violence Be Contained?
+, 27
+Harv. C.R.-C.L. L. Rev.
+465, 500 (1992).
+Thomas R. McCoy & Barry Friedman,
+Conditional Spending: Federalism’s Trojan Horse
+, 1988
+Sup. Ct. Rev.
+85, 100.
+nonconsecutively paginated journals
+Barbara Ward,
+Progress for a Small Planet,
+Harv. Bus. Rev.
+, Sep.–Oct. 1979, at 89, 90.
+student-written work
+Ellen London, Comment,
+A Critique of the Strict Liability Standard for Determining Child Support in Cases of Male Victims of Sexual Assault and Statutory Rape,
+152
+U. Pa. L. Rev.
+1957, 1959–63 (2004).
+Note,
+The Death of a Lawyer,
+56
+Colum. L. Rev.
+606 (1956).
+book review
+Bruce Ackerman,
+Robert Bork’s Grand Inquisition
+, 99
+Yale L.J.
+1419, 1422–25 (1990) (book review).
+newspapers
+Andrew Rosenthal,
+White House Tutors Kremlin in How a Presidency Works
+,
+N.Y. Times
+, June 15, 1990, at A1.
+Cop Shoots Tire, Halts Stolen Car
+,
+S.F. Chron.
+, Oct. 10, 1975, at 43.
+Unpublished and Forthcoming Sources –
+rule 17
+unpublished manuscripts
+Victoria E. Anderson, Company Outing: How Consensual Relationship Agreements Adversely Affect Homosexual Employees 12 (Mar. 15, 2004) (unpublished comment) (on file with the University of Pennsylvania Journal of Labor and Employment Law).
+letters
+Letter from Burke Craighead, Bluebook Ed. Chair, Harv. L. Rev., to Varsha Midha, Bluebook Bus. Chair, Harv. L. Rev. (June 9, 2024) (on file with the Harvard Law School Library).
+interviews
+Telephone Interviews with Michael Leiter, President, Harvard Law Review (Oct. 22, 1999).
+forthcoming publications
+Sarah Greenberger, Comment,
+Enforceable Rights, No Child Left Behind, and Political Patriotism: A Case for Open-Minded Section 1983 Jurisprudence,
+153
+U. Pa. L. Rev.
+(forthcoming Jan. 2005).
+The Internet –
+rule 18
+David Pozen,
+Reading
+the
+Tea
+Leaves
+on
+Marijuana
+Rescheduling
+,
+Balkinization
+(May 20, 2024, at 16:07 ET),
+https://balkin.blogspot.com/2024/05/reading-tea-leaves-on-marijuana.html
+[
+https://perma.cc/AN4W-RX42
+].
+Stephen E. Sachs (@StephenESachs), X (Aug. 8, 2024, at 11:04 ET),
+https://x.com/StephenESachs/status/1821563171825446958
+[https://perma.cc/WN4S-8CKK].
+Services –
+rule 19
+In
+re
+Looney, [1987–1989 Transfer Binder] Bankr. L. Rep. (CCH) ¶ 72,447 (Bankr. W.D. Va. Sep. 9, 1988).
+Foreign Materials –
+rule 20
+Chase v. Campbell, [1962] S.C.R. 425 (Can.).
+International Materials –
+rule 21
+Treaties
+Treaty of Friendship, Commerce and Navigation, Japan-U.S., art. X, Apr. 2, 1953, 4 U.S.T. 2063.
+United Nations Official Records
+U.N. GAOR, 56th Sess., 1st plen. mtg. at 3, U.N. Doc. A/56/PV.1 (Sept. 12, 2001).

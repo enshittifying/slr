@@ -1,0 +1,38 @@
+TITLE: B16.2 Short Form Citation (p.25)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  parent: b16-periodical-materials
+  slug: b16-2-short-form-citation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B16.2
+Short Form Citation
+(p.25)
+After providing a full citation of a periodical, you should use “
+id.
+” or “
+supra
+” in subsequent citations. Use “
+id.
+” to refer to periodical material cited in the immediately preceding citation. Otherwise, use the “
+supra
+” form introduced in
+Bluepages B15.2
+.
+Bluepages Tip:
+When your document includes citations of more than one source by the same author, include an abbreviated reference to the title of the cited source in any
+supra
+citation:
+Llewellyn,
+Remarks
+,
+supra
+, at 401–06.

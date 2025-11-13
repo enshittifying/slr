@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+logs/*.log
+data/cache/
+data/Sourcepull/Retrieved/*
+data/Sourcepull/Redboxed/*
+!data/Sourcepull/Retrieved/.gitkeep
+!data/Sourcepull/Redboxed/.gitkeep
+
+# API Keys and Credentials
+config/api_keys.json
+config/credentials.json
+*.key
+*.pem
+
+# Test outputs
+tests/test_output/
+*.test.pdf
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~*
+
+# Reports (keep templates)
+reports/*.pdf
+reports/*.csv
+reports/*.json
+!reports/templates/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Distribution
+dist/
+build/
+*.egg-info/

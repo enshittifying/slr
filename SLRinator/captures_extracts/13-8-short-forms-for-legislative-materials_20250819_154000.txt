@@ -1,0 +1,69 @@
+TITLE: 13.8 Short Forms for Legislative Materials (pp. 146–47)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 13-legislative-materials
+  slug: 13-8-short-forms-for-legislative-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13.8
+Short Forms for Legislative Materials
+(pp. 146–47)
+(a) Main text.
+In law review text, use the forms listed in the “Text” column of the table below to refer to legislative materials. Provide a citation in full or short form according to
+rule 13.8(c)
+in an accompanying footnote when appropriate.
+(b) Footnote text.
+Similarly, when referring to legislative materials in law review footnote text, use the forms listed in the “Text” column of the table below. Provide a citation in full or short form according to
+rule 13.8(c)
+in an accompanying citation clause or sentence when appropriate.
+(c) Citations.
+In law review citations, use any of the forms listed in the “Short Citation” column of the table below that clearly identifies the legislative material if the legislative material is already cited (in either full or short form, including
+id.
+) in either the
+same footnote
+or in a manner such that it can be readily found in
+one of the preceding five footnotes
+. Otherwise, use the “Full Citation” form. See
+rule 4.2(a)
+regarding the use of “
+supra
+.”
+Full Citation
+Text
+Short Citation
+Federal Bill (unenacted)
+H.R. 3055, 94th Cong. (1976)
+House Bill 3055
+H.R. 3055
+State Resolution
+S. Res. 20, 37th Leg., 2d Sess. (Okla. 1979)
+Oklahoma Senate Resolution 20
+Okla. S. Res. 20
+Federal Report
+H.R.
+Rep. No
+. 92-98 (1971)
+House Report 98
+H.R.
+Rep. No
+. 92-98
+Federal Document
+H.R. Doc. No.
+94-208 (1975)
+House Document 208
+H.R. Doc. No.
+94-208
+(d) Electronic sources.
+For materials available in an electronic database, use a unique database identifier, if one has been assigned, in constructing a short form:
+H.R. 3781, 104th Cong. § 1 (1996), 1996 Cong US HR 3781 (Westlaw).
+becomes:
+H.R. 3781 § 1, 1996 Cong US HR 3781 (Westlaw).
+For materials available only online, use the normal short form appropriate for the source. A URL need not be repeated after a full citation.

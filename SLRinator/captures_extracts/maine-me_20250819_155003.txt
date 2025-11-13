@@ -1,0 +1,80 @@
+TITLE: Maine (Me.) (pp. 290–91)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: maine-me
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Maine (Me.)
+(pp. 290–91)
+http://www.courts.maine.gov
+http://www.legislature.maine.gov/legis/statutes
+Public domain citation format:
+Maine has adopted a public domain citation format for cases after December 31, 1996. The format is:
+Bangor Publ’g Co. v. Union St. Mkt., 1998 ME 37, 706 A.2d 595.
+Bangor Publ’g Co. v. Union St. Mkt., 1998 ME 37, ¶ 3, 706 A.2d 595, 595.
+Supreme Judicial Court
+(
+Me.
+): Cite to
+A., A.2d,
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1885–date
+A., A.2d, A.3d
+Maine Reports
+1820–1965
+Me.
+Statutory compilations:
+Cite to
+Me. Stat
+.
+, if therein.
+West’s Maine Statutes
+Me. Stat.
+tit. x, § x (
+<year>
+)
+Maine Revised Statutes Annotated (West)
+Me. Rev. Stat. Ann.
+tit. x, § x (
+<year>
+)
+Session laws:
+Cite to
+Me. Laws
+, if therein.
+Laws of the State of Maine
+<year>
+Me. Laws
+<page no.>
+Maine Legislative Service (West)
+<year>
+Me. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Code of Maine Rules (LexisNexis)
+x-x-x
+Me. Code R.
+§ x (LexisNexis
+<year>
+)
+Administrative register
+Maine Government Register (LexisNexis)
+<iss. no.>
+Me. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

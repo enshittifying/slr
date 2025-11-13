@@ -1,0 +1,91 @@
+TITLE: T3.9 Intergovernmental Organizations (pp. 331–32)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-9-intergovernmental-organizations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.9
+Intergovernmental Organizations
+(pp. 331–32)
+Comprehensive Nuclear-Test-Ban Treaty Organization
+CTBTO
+Food and Agriculture Organization
+FAO
+Global Environment Facility
+GEF
+Intergovernmental Panel on Climate Change
+IPCC
+International Atomic Energy Agency
+IAEA
+International Bank for Reconstruction and Development
+IBRD
+International Centre for Settlement of Investment Disputes
+ICSID
+International Civil Aviation Organization
+ICAO
+International Criminal Police Organization
+INTERPOL
+International Development Association
+IDA
+International Finance Corporation
+IFC
+International Fund for Agricultural Development
+IFAD
+International Labour Organization
+ILO
+International Maritime Organization
+IMO
+International Monetary Fund
+IMF
+International Refugee Organization
+IRO
+International Telecommunication Union
+ITU
+International Union for Conservation of Nature
+IUCN
+Multilateral Investment Guarantee Agency
+MIGA
+Organisation for Economic Co-operation and Development
+OECD
+Organisation for the Prohibition of Chemical Weapons
+OPCW
+United Nations
+U.N.
+United Nations Children’s Fund
+UNICEF
+United Nations Development Programme
+UNDP
+United Nations Educational, Scientific and Cultural
+Organization
+UNESCO
+United Nations Environment Programme
+UNEP
+United Nations Industrial Development Organization
+UNIDO
+Universal Postal Union
+UPU
+World Bank Group
+WBG
+World Customs Organization
+WCO
+World Health Organization
+WHO
+World Intellectual Property Organization
+WIPO
+World Meteorological Organization
+WMO
+World Tourism Organization
+UNWTO
+World Trade Organization
+WTO
+You may abbreviate other intergovernmental organizations as well. On first mention, provide the full name of the organization, while indicating the abbreviation you will use in brackets.
+Intergovernmental Organizations

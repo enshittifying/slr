@@ -1,0 +1,27 @@
+TITLE: B20 Foreign Materials (p.29)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  slug: b20-foreign-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B20
+Foreign Materials
+(p.29)
+When citing to any non-U.S. source, whether in English or in another language, indicate the jurisdiction parenthetically at the end of the citation.
+For foreign common law cases, indicate the court parenthetically:
+R v. Lockwood, (1782) 99 Eng. Rep. 379 (KB).
+Cite foreign statutes from common law countries, like statutes of the United Kingdom (
+table T2.46
+), noting the jurisdiction parenthetically at the end of the citation:
+Emergency Powers Act (Act No. 3/1976) (Ir.).
+For further guidance on citing foreign sources, see
+rule 20
+.

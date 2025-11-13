@@ -1,0 +1,38 @@
+TITLE: T3.2 League of Nations (p.329)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-2-league-of-nations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.2
+League of Nations
+(p.329)
+Courts:
+Permanent Court of International Justice
+(
+P.C.I.J.
+): Cite decisions, pleadings, rules, and acts to
+P.C.I.J.
+, indicating the series and the case or document number.
+Judgements, Advisory Opinions, and Orders
+1920–1945
+<year>
+P.C.I.J. (ser. x) No. x
+Treaties and international agreements:
+Cite to
+L.N.T.S
+.
+League of Nations Treaty Series
+1920–1945
+<volume> L.N.T.S. xxx (
+<year>
+)

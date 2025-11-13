@@ -1,0 +1,110 @@
+{
+  "session_info": {
+    "timestamp": "2025-08-08T16:07:34.779136",
+    "article": "Sherkow & Gugliuzza Patent Law Citations",
+    "system_version": "2.0",
+    "demo_mode": true
+  },
+  "retrieval_summary": {
+    "total_sources": 5,
+    "successful": 5,
+    "partial": 0,
+    "failed": 0,
+    "pdfs_retrieved": 5,
+    "html_retrieved": 0,
+    "cache_hits": 0
+  },
+  "redboxing_summary": {
+    "enabled": true,
+    "documents_processed": 5,
+    "successful": 3,
+    "partial": 2,
+    "failed": 0,
+    "total_boxes_applied": 36,
+    "manual_review_required": 2
+  },
+  "source_details": [
+    {
+      "source_id": "001",
+      "citation": "Alice Corp. v. CLS Bank International, 573 U.S. 208 (2014)",
+      "retrieval_status": "success",
+      "file_type": "pdf",
+      "file_path": "./data/Sourcepull/SP-001-Alice_Corp.pdf",
+      "source_url": "https://www.supremecourt.gov/opinions/boundvolumes/573US.pdf",
+      "redboxing": {
+        "status": "success",
+        "boxes_applied": 11,
+        "elements_found": 6,
+        "elements_missing": 0,
+        "redboxed_file": "./data/Sourcepull/Redboxed/SP-001-Alice_Corp_REDBOXED.pdf"
+      }
+    },
+    {
+      "source_id": "002",
+      "citation": "Mayo Collaborative Services v. Prometheus Laboratories, Inc., 566 U.S. 66 (2012)",
+      "retrieval_status": "success",
+      "file_type": "pdf",
+      "file_path": "./data/Sourcepull/SP-002-Mayo.pdf",
+      "source_url": "https://www.supremecourt.gov/opinions/boundvolumes/566US.pdf",
+      "redboxing": {
+        "status": "success",
+        "boxes_applied": 7,
+        "elements_found": 6,
+        "elements_missing": 0,
+        "redboxed_file": "./data/Sourcepull/Redboxed/SP-002-Mayo_REDBOXED.pdf"
+      }
+    },
+    {
+      "source_id": "003",
+      "citation": "Diamond v. Chakrabarty, 447 U.S. 303 (1980)",
+      "retrieval_status": "success",
+      "file_type": "pdf",
+      "file_path": "./data/Sourcepull/SP-003-Diamond.pdf",
+      "source_url": "https://www.supremecourt.gov/opinions/boundvolumes/447US.pdf",
+      "redboxing": {
+        "status": "partial",
+        "boxes_applied": 8,
+        "elements_found": 5,
+        "elements_missing": 1,
+        "redboxed_file": "./data/Sourcepull/Redboxed/SP-003-Diamond_REDBOXED.pdf"
+      }
+    },
+    {
+      "source_id": "004",
+      "citation": "35 U.S.C. \u00a7 101 (2018)",
+      "retrieval_status": "success",
+      "file_type": "pdf",
+      "file_path": "./data/Sourcepull/SP-004-35USC101.pdf",
+      "source_url": "https://api.govinfo.gov/collections/USCODE/packages/USCODE-2018-title35/granules/USCODE-2018-title35-partII-chap10-sec101",
+      "redboxing": {
+        "status": "partial",
+        "boxes_applied": 3,
+        "elements_found": 2,
+        "elements_missing": 1,
+        "redboxed_file": "./data/Sourcepull/Redboxed/SP-004-35USC101_REDBOXED.pdf"
+      }
+    },
+    {
+      "source_id": "005",
+      "citation": "Mark A. Lemley, Software Patents and the Return of Functional Claiming, 2013 Wis. L. Rev. 905",
+      "retrieval_status": "success",
+      "file_type": "pdf",
+      "file_path": "./data/Sourcepull/SP-005-Lemley.pdf",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2117880",
+      "redboxing": {
+        "status": "success",
+        "boxes_applied": 7,
+        "elements_found": 6,
+        "elements_missing": 0,
+        "redboxed_file": "./data/Sourcepull/Redboxed/SP-005-Lemley_REDBOXED.pdf"
+      }
+    }
+  ],
+  "recommendations": [
+    "Manual redboxing review required for 2 document(s)",
+    "Manually locate 2 citation elements that automated redboxing could not find",
+    "Review all redboxed documents for citation accuracy",
+    "Verify all quotes match exactly with source text",
+    "Check page numbers and years for any discrepancies"
+  ]
+}

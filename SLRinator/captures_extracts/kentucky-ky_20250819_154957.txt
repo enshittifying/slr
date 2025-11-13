@@ -1,0 +1,190 @@
+TITLE: Kentucky (Ky.) (pp. 288–89)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: kentucky-ky
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Kentucky (Ky.)
+(pp. 288–89)
+https://kycourts.gov/
+https://apps.legislature.ky.gov/law/statutes/
+Supreme Court
+(
+Ky.
+): Before 1976 the
+Court of Appeals
+(
+Ky.
+) was the highest state court. Cite to
+S.W.
+,
+S.W.2d
+, or
+S.W.3d
+, if therein.
+South Western Reporter
+1886–date
+S.W., S.W.2d, S.W.3d
+Kentucky Reports
+78 Ky. to 314 Ky.
+1879–1951
+Ky.
+Bush
+1866–1879
+e.g.
+,
+64 Ky. (1 Bush)
+Duvall
+1863–1866
+e.g.
+,
+62 Ky. (1 Duv.)
+Metcalf
+1858–1863
+e.g.
+,
+58 Ky. (1 Met.)
+Monroe, Ben
+1840–1857
+e.g.
+,
+40 Ky. (1 B. Mon.)
+Dana
+1833–1840
+e.g.
+,
+31 Ky. (1 Dana)
+Marshall, J.J.
+1829–1832
+e.g.
+,
+24 Ky. (1 J.J. Marsh.)
+Monroe, T.B.
+1824–1828
+e.g.
+,
+17 Ky. (1 T.B. Mon.)
+Littell
+1822–1824
+e.g.
+,
+11 Ky. (1 Litt.)
+Littell’s Selected Cases
+1795–1821
+e.g.
+,
+16 Ky. (1 Litt. Sel. Cas.)
+Marshall, A.K.
+1817–1821
+e.g.
+,
+8 Ky. (1 A.K. Marsh.)
+Bibb
+1808–1817
+e.g.
+,
+4 Ky. (1 Bibb)
+Hardin
+1805–1808
+3 Ky. (Hard.)
+Sneed
+1801–1805
+2 Ky. (Sneed)
+Hughes
+1785–1801
+1 Ky. (Hughes)
+Kentucky Opinions
+1864–1886
+Ky. Op.
+Kentucky Law Reporter
+1880–1908
+Ky. L. Rptr.
+Kentucky Appellate Reporter
+1994–2000
+Ky. App.
+Kentucky Attorneys Memo
+2001–2007
+Ky. Att’y Memo
+Kentucky Law Summary
+1966–date
+Ky. L. Summ.
+Court of Appeals
+(
+Ky. Ct. App.
+) (for decisions before 1976, see
+Kentucky Supreme Court
+): Cite to
+S.W.2d
+or
+S.W.3d
+, if therein.
+South Western Reporter
+1976–date
+S.W.2d, S.W.3d
+Kentucky Appellate Reporter
+1994–2000
+Ky. App.
+Kentucky Attorneys Memo
+2001–2007
+Ky. Att’y Memo
+Kentucky Law Summary
+1966–date
+Ky. L. Summ.
+Statutory compilations:
+Cite to one of the following codes:
+Baldwin’s Kentucky Revised Statutes Annotated (West)
+Ky. Rev. Stat. Ann
+. § x.x (West
+<year>
+)
+Michie’s Kentucky Revised Statutes Annotated (LexisNexis)
+Ky. Rev. Stat. Ann.
+§ x.x (LexisNexis
+<year>
+)
+Session laws:
+Cite to
+Ky. Acts
+, if therein.
+Acts of Kentucky
+<year>
+Ky. Acts
+<page no.>
+Kentucky Revised Statutes and Rules Service (West)
+<year>
+Ky. Rev. Stat. & R. Serv.
+<page no.>
+(West)
+Michie’s Kentucky Revised Statutes Advance
+Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Ky. Rev. Stat. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilation
+Kentucky Administrative Regulations Service
+<tit. no.>
+Ky. Admin. Regs.
+<rule no.>
+(
+<year>
+)
+Administrative register
+Administrative Register of Kentucky
+<vol. no.>
+Ky. Admin. Reg.
+<page no.>
+(
+<month year>
+)

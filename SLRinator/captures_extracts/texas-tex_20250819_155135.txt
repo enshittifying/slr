@@ -1,0 +1,274 @@
+TITLE: Texas (Tex.) (pp. 316–19)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: texas-tex
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Texas (Tex.)
+(pp. 316–19)
+http://www.txcourts.gov
+http://www.statutes.legis.state.tx.us
+Supreme Court
+(
+Tex.
+): Cite to
+S.W.
+,
+S.W.2d
+, or
+S.W.3d
+, if therein.
+South Western Reporter
+1886–date
+S.W., S.W.2d, S.W.3d
+Texas Reports
+1846–1962
+Tex.
+Synopses of the Decisions of the Supreme Court of Texas Arising from Restraints by Conscript and Other Military Authorities (Robards)
+1862–1865
+Robards
+(no vol. number)
+Texas Law Review (containing previously unpublished cases from the 1845 term)
+1845–1846
+65 Tex. L. Rev.
+[
+e.g.,
+Lamar v. Houston (Tex. 1845), 65
+Tex. L. Rev
+. 382 (Paulsen rep. 1986)]
+Digest of the Laws of Texas (Dallam’s Opinions)
+1840–1844
+Dallam
+(
+no vol. number
+)
+Texas Supreme Court Journal
+1957
+–
+date
+Tex. Sup. Ct. J.
+Court of Criminal Appeals
+(
+Tex. Crim. App.
+), previously
+Court of Appeals
+(
+Tex. Ct. App.
+): Cite to
+S.W.
+,
+S.W.2d
+, or
+S.W.3d
+, if therein.
+South Western Reporter
+1892–date
+S.W., S.W.2d, S.W.3d
+Texas Criminal Reports
+1892–1962
+Tex. Crim.
+Texas Court of Appeals Reports
+1876–1892
+Tex. Ct. App.
+Condensed Reports of Decisions in Civil Causes in the Court of Appeals (White & Willson vol. 1) (Willson vols. 2–4)
+1876–1883
+1883–1892
+White & W.
+Willson
+Commission of Appeals
+(
+Tex. Comm’n App.
+): Cite to
+S.W.
+or
+S.W.2d
+, if therein.
+South Western Reporter
+1886–1892
+1918–1945
+S.W., S.W.2d
+Texas Reports
+1879–1892
+1918–1945
+Tex.
+Texas Unreported Cases (Posey)
+1879–1884
+Posey
+Condensed Reports of Decisions in Civil Causes in the Court of Appeals (White & Willson)
+1879–1883
+White & W.
+Officially published opinions of the Commission of Appeals from 1879 to 1892 were adopted by the Supreme Court and should be cited as opinions of the Supreme Court. Opinions of the Commission of Appeals from 1918 to 1945 have a notation from the Supreme Court that usually appears in the final paragraph of the opinion, e.g., “opinion adopted,” “holding approved,” or “judgment adopted.” Commission opinions that were adopted by the Supreme Court should be cited as opinions of the Supreme Court. “Holding approved” and “judgment adopted” opinions are cited by using “holding approved” or “judgm’t adopted,” e.g., Savage v. Cowen, 33 S.W.2d 433 (Tex. Comm’n App. 1930, judgm’t adopted).
+Courts of Appeals
+(
+Tex. App.
+), previously
+Courts of Civil Appeals
+(
+Tex. Civ. App.
+): Cite to
+S.W.
+,
+S.W.2d
+, or
+S.W.3d
+, if therein.
+South Western Reporter
+1892–date
+S.W., S.W.2d, S.W.3d
+Texas Civil Appeals Reports
+1892–1911
+Tex. Civ. App.
+For additional information on the history and structure of Texas courts and on local citation rules, the following sources are suggested:
+Texas Law Review Ass’n, The Greenbook: Texas Rules of Form
+(15th ed. 2022);
+Lydia M.V. Brandt, Texas Legal Research
+(1995); and
+A Reference Guide to Texas Law and Legal History
+(Karl T. Gruben & James E. Hambleton eds., 2d ed. 1987).
+Statutory compilations:
+Texas is nearing the completion of a recodification of its laws. Cite to the new subject-matter
+Tex. Code Ann.
+, if therein; otherwise, cite to
+Tex. Rev. Civ. Stat. Ann.
+or to one of the independent codes contained in the series
+Vernon’s Texas Civil Statutes
+or
+Vernon’s Texas Statutes Annotated
+. Note that the independent codes are not part of the new subject-matter
+Tex. Code Ann.
+Vernon’s Texas Codes Annotated (West)
+Tex.
+<Subject>
+Code Ann.
+§ x (West
+<year>
+)
+Vernon’s Texas Revised Civil Statutes Annotated (West)
+Tex. Rev. Civ. Stat. Ann.
+art. x, § x (West
+<year>
+)
+Vernon’s Texas Business Corporation Act Annotated (West)
+Tex. Bus. Corp. Act Ann.
+art. x (West
+<year>
+)
+Vernon’s Texas Code of Criminal Procedure Annotated (West)
+Tex. Code Crim. Proc. Ann
+. art. x (West
+<year>
+)
+Vernon’s Texas Insurance Code Annotated (West)
+Tex. Ins. Code Ann.
+art. x (West
+<year>
+)
+Vernon’s Texas Probate Code Annotated (West)
+Tex. Prob. Code Ann.
+§ x (West
+<year>
+)
+Agriculture
+Agric.
+Alcoholic Beverage
+Alco. Bev.
+Business and Commerce
+Bus. & Com.
+Business Organizations
+Bus. Orgs.
+Civil Practice and Remedies
+Civ. Prac. & Rem.
+Education
+Educ.
+Election
+Elec.
+Estates
+Est.
+Family
+Fam.
+Finance
+Fin.
+Government
+Gov’t
+Health and Safety
+Health & Safety
+Human Resources
+Hum. Res.
+Insurance
+Ins.
+Labor
+Lab.
+Local Government
+Loc. Gov’t
+Natural Resources
+Nat. Res.
+Occupations
+Occ.
+Parks and Wildlife
+Parks & Wild.
+Penal
+Penal
+Property
+Prop.
+Special District Local Laws
+Spec. Dists.
+Tax
+Tax
+Transportation
+Transp.
+Utilities
+Util.
+Water
+Water
+Session laws:
+Cite to
+Tex. Gen. Laws
+, if therein.
+General and Special Laws of the State of Texas
+<year>
+Tex. Gen. Laws
+<page no.>
+Vernon’s Texas Session Law Service (West)
+<year>
+Tex. Sess. Law Serv.
+<page no.>
+(West)
+Laws of the Republic of Texas
+<year>
+Repub. Tex. Laws
+<page no.>
+Session laws passed before 1941 must be cited according to the exact title, e.g.,
+Tex. Loc. & Spec. Laws, Tex. Gen. & Spec. Laws
+, and
+Tex. Gen. Laws
+. The Revised Statutes were enacted and published separately in 1879, 1895, 1911, and 1925 and should be cited as
+<year>
+Tex. Rev. Civ. Stat. xxx
+. The Code of Criminal Procedure and Penal Code were enacted and published separately in 1856, 1879, 1895, 1911, and 1925 and should be cited as
+<year>
+Tex. Crim. Stat. xxx
+.
+Administrative compilation
+Texas Administrative Code (West)
+<tit. no.>
+Tex. Admin. Code
+§ x.x (
+<year>
+)
+Administrative register
+Texas Register (LexisNexis)
+<vol. no.>
+Tex. Reg.
+<page no.>
+(
+<month day, year>
+)

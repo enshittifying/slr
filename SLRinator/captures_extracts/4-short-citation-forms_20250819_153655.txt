@@ -1,0 +1,69 @@
+TITLE: 4 Short Citation Forms (p.83)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 4-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+4
+Short Citation Forms
+(p.83)
+This rule provides general guidance for all short forms. For guidance as to specific short forms see the following rules:
+Cases
+rule 10.9
+Constitutions
+rule 11
+Statutes
+rule 12.10
+Legislative Materials
+rule 13.8
+Regulations
+rule 14.6
+Books, Reports, and Other Nonperiodic Materials
+rule 15.10
+Periodical Materials
+rule 16.9
+Unpublished and Forthcoming Sources
+rule 17.6
+Internet, Electronic Media, and Other Nonprint Resources
+rule 18.12
+Services
+rule 19.2
+Foreign Materials
+rule 20.7
+International Materials
+rule 21.17
+Tribal Materials
+rule 22.3
+Archival Materials
+rule 23.12
+For additional guidance on the use of short forms in court documents and legal memoranda, see
+Bluepages B4
+,
+B10.2
+,
+B12.2
+,
+B15.2
+,
+B16.2
+,
+B17.2
+, and
+B18.2
+.
+4.1
+“
+Id.
+”
+4.2
+“
+Supra
+” and “Hereinafter”

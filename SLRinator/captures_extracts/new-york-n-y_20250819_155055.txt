@@ -1,0 +1,516 @@
+TITLE: New York (N.Y.) (pp. 301–06)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: new-york-n-y
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+New York (N.Y.)
+(pp. 301–06)
+http://nycourts.gov
+http://nyassembly.gov/leg
+Court of Appeals
+(
+N.Y.
+) after 1847: Cite to
+N.E.,
+N.E.2d
+, or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1885–date
+N.E., N.E.2d, N.E.3d
+New York Reports
+1847–date
+N.Y., N.Y.2d, N.Y.3d
+West’s New York Supplement
+1956–date
+N.Y.S.2d, N.Y.S.3d
+(The first series of N.Y. is reprinted in N.Y.S. and N.Y.S.2d without separate pagination. Do not include a parallel cite to N.Y.S. or N.Y.S.2d in citations to the first series of N.Y.)
+Court for the Correction of Errors
+(
+N.Y.
+) and
+Supreme Court of Judicature
+(
+N.Y. Sup. Ct.
+) (highest state courts of law before 1847): Cite to one of the following reporters.
+Lockwood’s Reversed Cases
+1799–1847
+Lock. Rev. Cas.
+Denio’s Reports
+1845–1848
+Denio
+Hill and Denio Supplement (Lalor)
+1842–1844
+Hill & Den.
+Hill’s Reports
+1841–1844
+Hill
+Edmond’s Select Cases
+1834–1853
+Edm. Sel. Cas.
+Yates’ Select Cases
+1809
+Yates Sel. Cas.
+Anthon’s Nisi Prius Cases
+1807–1851
+Ant. N.P. Cas.
+Wendell’s Reports
+1828–1841
+Wend.
+Cowen’s Reports
+1823–1829
+Cow.
+Johnson’s Reports
+1806–1823
+Johns.
+Caines’ Reports
+1803–1805
+Cai.
+Caines’ Cases
+1796–1805
+Cai. Cas.
+Coleman & Caines’ Cases
+1794–1805
+Cole. & Cai. Cas.
+Johnson’s Cases
+1799–1803
+Johns. Cas.
+Coleman’s Cases
+1791–1800
+Cole. Cas.
+Court of Chancery
+(
+N.Y. Ch.
+) (highest state court of equity before 1847): Cite to one of the following reporters.
+Edwards’ Chancery Reports
+1831–1850
+Edw. Ch.
+Barbour’s Chancery Reports
+1845–1848
+Barb. Ch.
+Sandford’s Chancery Reports
+1843–1847
+Sand. Ch.
+Saratoga Chancery Sentinel
+1841–1847
+Sarat. Ch. Sent.
+Paige’s Chancery Reports
+1828–1845
+Paige Ch.
+Clarke’s Chancery Reports
+1839–1841
+Cl. Ch.
+Hoffman’s Chancery Reports
+1839–1840
+Hoff. Ch.
+Hopkins’ Chancery Reports
+1823–1826
+Hopk. Ch.
+Lansing’s Chancery Reports
+1824–1826
+Lans. Ch.
+Johnson’s Chancery Reports
+1814–1823
+Johns. Ch.
+New York Chancery Reports Annotated
+1814–1847
+N.Y. Ch. Ann.
+Supreme Court, Appellate Division
+(
+N.Y. App. Div.
+), previously
+Supreme Court, General Term
+(
+N.Y. Gen. Term
+): Cite to
+N.Y.S.
+,
+N.Y.S.2d
+, or
+N.Y.S.3d
+, if therein.
+West’s New York Supplement
+1888–date
+N.Y.S., N.Y.S.2d, N.Y.S.3d
+Appellate Division Reports
+1896–date
+A.D., A.D.2d, A.D.3d
+Supreme Court Reports
+1874–1896
+N.Y. Sup. Ct.
+Lansing’s Reports
+1869–1873
+Lans.
+Barbour’s Supreme Court Reports
+1847–1877
+Barb.
+Other lower courts
+(e.g.,
+N.Y. App. Term
+,
+N.Y. Sup. Ct.
+,
+N.Y. Ct. Cl.
+,
+N.Y. Civ. Ct.
+,
+N.Y. Crim. Ct.
+,
+N.Y. Fam. Ct.
+): Cite to
+N.Y.S.
+,
+N.Y.S.2d
+, or
+N.Y.S.3d
+, if therein.
+West’s New York Supplement
+1888–date
+N.Y.S., N.Y.S.2d, N.Y.S.3d
+New York Miscellaneous Reports
+1892–date
+Misc., Misc. 2d
+Other lower courts before 1888:
+Cite to one of the following reporters.
+Abbott’s New Cases
+1876–1894
+Abb. N. Cas.
+Abbott’s Practice Reports
+1854–1875
+Abb. Pr., Abb. Pr. (n.s.)
+Howard’s Practice Reports
+1844–1886
+How. Pr., How. Pr. (n.s.)
+Statutory compilations:
+Cite to one of the following sources, if therein.
+McKinney’s Consolidated Laws of
+New York Annotated (West)
+N.Y.
+<
+subject
+>
+Law
+§ x
+(McKinney
+<year>
+)
+New York Consolidated Laws Service
+(LexisNexis)
+N.Y.
+<
+subject
+>
+Law
+§ x (Consol.
+<year>
+)
+New York Consolidated Laws
+Unannotated (LexisNexis)
+N.Y.
+<
+subject
+>
+Law
+§ x
+(LexisNexis
+<year>
+)
+Abandoned Property
+Aband. Prop.
+Agricultural Conservation
+Agric. Conserv.
+Agriculture and Markets
+Agric. & Mkts.
+Alcoholic Beverage Control
+Alco. Bev. Cont.
+Alternative County Government
+Alt. County Gov’t
+Arts and Cultural Affairs
+Arts & Cult. Aff.
+Banking
+Banking
+Benevolent Orders
+Ben. Ord.
+Business Corporation
+Bus. Corp.
+Canal
+Canal
+Civil Practice Law and Rules
+N.Y. C.P.L.R.
+<rule no.>
+(
+McKinney
+<year>
+)
+or:
+N.Y. C.P.L.R.
+<rule no.>
+(
+Consol.
+<year>
+)
+Civil Rights
+Civ. Rights
+Civil Service
+Civ. Serv.
+Commerce
+Com.
+Cooperative Corporations
+Coop. Corp.
+Correction
+Correct.
+County
+County
+Criminal Procedure
+Crim. Proc.
+Debtor and Creditor
+Debt. & Cred.
+Domestic Relations
+Dom. Rel.
+Economic Development
+Econ. Dev.
+Education
+Educ.
+Elder
+Elder
+Election
+Elec.
+Eminent Domain Procedure
+Em. Dom. Proc.
+Employers’ Liability
+Empl’rs Liab.
+Energy
+Energy
+Environmental Conservation
+Env’t Conserv.
+Estates, Powers and Trusts
+Est. Powers & Trusts
+Executive
+Exec.
+Financial Services
+Fin. Serv.
+General Associations
+Gen. Ass’ns
+General Business
+Gen. Bus.
+General City
+Gen. City
+General Construction
+Gen. Constr.
+General Municipal
+Gen. Mun.
+General Obligations
+Gen. Oblig.
+Highway
+High.
+Indian
+Indian
+Insurance
+Ins.
+Judiciary
+Jud.
+Judiciary Court Acts
+Jud. Ct. Acts
+Labor
+Lab.
+Legislative
+Legis.
+Lien
+Lien
+Limited Liability Company
+Ltd. Liab. Co.
+Local Finance
+Local Fin.
+Mental Hygiene
+Mental Hyg.
+Military
+Mil.
+Multiple Dwelling
+Mult. Dwell.
+Multiple Residence
+Mult. Resid.
+Municipal Home Rule and Statute of
+Local Governments
+Mun. Home Rule
+Navigation
+Nav.
+Not-for-Profit Corporation
+Not-for-Profit Corp.
+Optional County Government
+Opt. Cnty. Gov’t
+Parks, Recreation and Historic Preservation
+Parks Rec. & Hist. Preserv.
+Partnership
+P’ship
+Penal
+Penal
+Personal Property
+Pers. Prop.
+Private Housing Finance
+Priv. Hous. Fin.
+Public Authorities
+Pub. Auth.
+Public Buildings
+Pub. Bldgs.
+Public Health
+Pub. Health
+Public Housing
+Pub. Hous.
+Public Lands
+Pub. Lands
+Public Officers
+Pub. Off.
+Public Service
+Pub. Serv.
+Racing, Pari-Mutuel Wagering and Breeding
+Rac. Pari-Mut. Wag. & Breed.
+Railroad
+R.R.
+Rapid Transit
+Rapid Trans.
+Real Property
+Real Prop.
+Real Property Actions and Proceedings
+Real Prop. Acts.
+Real Property Tax
+Real Prop. Tax
+Religious Corporations
+Relig. Corp.
+Retirement and Social Security
+Retire. & Soc. Sec.
+Rural Electric Cooperative
+Rural Elec. Coop.
+Second Class Cities
+Second Class Cities
+Social Services
+Soc. Serv.
+Soil and Water Conservation Districts
+Soil & Water Conserv. Dist.
+State
+State
+State Administrative Procedure Act
+A.P.A.
+State Finance
+State Fin.
+State Printing and Public Documents
+State Print. & Pub. Docs.
+State Technology
+State Tech.
+Statutes
+Stat.
+Surrogate’s Court Procedure Act
+Surr. Ct. Proc. Act
+Tax
+Tax
+Town
+Town
+Transportation
+Transp.
+Transportation Corporations
+Transp. Corp.
+Unconsolidated
+Unconsol.
+Uniform Commercial Code
+U.C.C.
+Vehicle and Traffic
+Veh. & Traf.
+Village
+Village
+Volunteer Ambulance Workers’ Benefit
+Vol. Ambul. Workers’ Ben.
+Volunteer Firefighters’ Benefit
+Vol. Fire. Ben.
+Workers’ Compensation
+Workers’ Comp.
+Uncompiled laws:
+Cite to one of the following sources, if therein. For the user’s convenience, the McKinney’s volume in which the law appears is indicated parenthetically below.
+McKinney’s Consolidated Laws
+N.Y.
+<
+law
+>
+§ x (McKinney
+<year>
+)
+Consolidated Laws Service
+N.Y.
+<
+law
+>
+§ x (Consol.
+<year>
+)
+LexisNexis New York Consolidated Laws Unannotated
+N.Y.
+<
+law
+>
+§ x (LexisNexis
+<year>
+)
+New York City Civil Court Act (29A)
+City Civ. Ct. Act
+New York City Criminal Court Act (29A)
+City Crim. Ct. Act
+Code of Criminal Procedure (11A)
+Code Crim. Proc.
+Court of Claims Act (29A)
+Ct. Cl. Act
+Family Court Act (29A)
+Fam. Ct. Act
+Uniform City Court Act (29A)
+Uniform City Ct. Act
+Uniform District Court Act (29A)
+Uniform Dist. Ct. Act
+Uniform Justice Court Act (29A)
+Uniform Just. Ct. Act
+Session laws:
+Cite to official
+N.Y. Laws
+, if therein; otherwise, cite to
+N.Y. Sess. Laws
+, if therein.
+Laws of New York
+<year>
+N.Y. Laws
+<page no.>
+McKinney's Session Laws of
+New York (West)
+<year>
+N.Y. Sess. Laws
+<page no.>
+(McKinney)
+New York Consolidated Laws Service
+Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+N.Y. Consol. Laws Adv.
+Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilation
+Official Compilation of Codes, Rules & Regulations of the State of New York (West)
+N.Y. Comp. Codes R. & Regs.
+tit. x, § x (
+<year>
+)
+Administrative register
+New York State Register
+<vol. no.>
+N.Y. Reg.
+<page no.>
+(
+<month day, year>
+)

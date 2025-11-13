@@ -1,0 +1,100 @@
+TITLE: Georgia (Ga.) (pp. 282–83)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: georgia-ga
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Georgia (Ga.)
+(pp. 282–83)
+https://georgiacourts.gov/
+https://www.legis.ga.gov/
+Supreme Court
+(
+Ga.
+): Cite to
+S.E.
+or
+S.E.2d
+, if therein.
+South Eastern Reporter
+1887–date
+S.E., S.E.2d
+Georgia Reports
+1846–date
+Ga.
+Court of Appeals
+(
+Ga. Ct. App.
+): Cite to
+S.E.
+or
+S.E.2d
+, if therein.
+South Eastern Reporter
+1907–date
+S.E., S.E.2d
+Georgia Appeals Reports
+1907–date
+Ga. App.
+Statutory compilations:
+Cite to
+Ga. Code Ann.
+(published by LexisNexis), if therein.
+Official Code of Georgia Annotated
+(LexisNexis)
+Ga. Code Ann.
+§ x-x-x (
+<year>
+)
+West’s Code of Georgia Annotated
+Ga. Code Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+Ga. Laws
+, if therein.
+Georgia Laws
+<year>
+Ga. Laws
+<page no.>
+Georgia
+<year>
+Advance Legislative Service
+(LexisNexis)
+<year>
+-
+<pamph. no.>
+Ga. Code Ann. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Georgia Legislative Service
+<year>
+Ga. Code Ann. Adv. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Official Compilation Rules and
+Regulations of the State of Georgia
+Ga. Comp. R. & Regs.
+x-x-x.x (
+<year>
+)
+Administrative register
+Georgia Government Register (LexisNexis)
+<iss. no.>
+Ga. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

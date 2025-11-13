@@ -1,0 +1,215 @@
+TITLE: T2.10 Colombia, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-10-colombia-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.10
+Colombia, Republic of
+(Civil Law)
+Cases
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+],
+<chamber, if applicable>
+<date of decision in Spanish>
+,
+<writer of ruling if applicable>
+,
+<decision number>
+,
+<publication name>
+[
+<publication abbreviation>
+] (
+<publication volume and/or number>
+, p.
+<page number>
+) (
+<country abbreviation if not evident from context>
+).
+Corte Suprema de Justicia [C.S.J.] [Supreme Court], Sala. Lab. febrero 9, 1994, M.P: E. Ramirez, Expediente 1994-0002346, Gaceta Judicial [G.J.] (No. 10, p. 120) (Colom.).
+Corte Constitucional [C.C.] [Constitutional Court], noviembre 15, 1995, Sentencia C-225/95, Gaceta de la Corte Constitucional [G.C.C.] (vol. 4, p. 39) (Colom.).
+Ordinary jurisdiction
+(particular disputes and crimes, including family law, civil law, commercial law, and labor law)
+Corte Suprema de Justicia
+(C.S.J.) (Supreme Court of Justice: divided into three chambers: Civil, Criminal, and Labor),
+Tribunales Superiores
+(T. Sup.) (appellate courts: divided into three chambers: Civil, Criminal, and Labor),
+Juzgados de Circuito
+(Juzg. Circ.) (circuit courts: labor, civil, and criminal jurisdiction), and
+Juzgados Municipales
+(Juz. Mun.) (lower courts: civil and criminal jurisdiction).
+Constitutional jurisdiction
+(all Colombian Courts have jurisdiction to rule on constitutional matters through
+Acciones de Tutela
+(actions in defense of constitutional rights))
+Corte Constitucional
+(C.C.)  (Highest Court on Constitutional Matters: rules on the constitutionality of laws, codes, and decrees with force of law and is the highest court of review on
+Acciones de Tutela
+) and
+Consejo de Estado
+(C.E.) (Highest Court on Administrative Law: rules on the constitutionality of decrees).
+Administrative jurisdiction
+Consejo de Estado
+(
+C.E.
+) (Highest Court on Administrative Law: divided into five chambers: General Matters; Labor; Public Contracts, Arbitration Control & Torts; Taxes; and Electoral),
+Tribunales Administrativos
+(
+T. Admtivos.
+) (administrative superior courts: divided into four chambers: General Matters; Labor; Public Contracts, Arbitration Control & Torts; and Taxes), and
+Juzgados Administrativos
+(
+J. Admtivos.
+) (administrative circuit courts).
+Reporters
+Generally follow the examples below when citing to the volumes and/or numbers of these reporters. Where appropriate, use “
+t.
+” to refer to “tomo,” the Spanish word for “volume.”
+Gaceta de la Corte Constitucional
+1992–date
+e.g.,
+G.C. t. 1, p. 104
+Gaceta Judicial
+1887–date
+e.g.,
+G.J. vol. 10, p. 74
+Anales del Consejo de Estado
+1915–date
+e.g.,
+An.C.E. t. 10, p. 13
+There is no comprehensive official or unofficial regular publication of appellate or lower court opinions. Some of the lower courts have their own journals:
+Autos y Sentencias
+A.S.
+Tribunal Superior de Medellín
+T.S.M.
+Casos Civiles Jurisprudencia
+(civil cases)
+C.C.J.
+Gaceta Administrativa
+(administrative cases)
+G.A.
+Constitution
+Constitución Política de Colombia
+C.P.
+Constitución Política de Colombia
+[C.P.] art. 3.
+Codes
+Código Civil
+(Civil Code)
+C.C.
+Código de Comercio
+(Commercial Code)
+C. Com.
+Código Penal
+(Criminal Code)
+C. Pen.
+Código de Procedimiento Civil
+(Civil Procedure Code)
+C.P.C.
+Código de Procedimiento Penal
+(Criminal Procedure Code)
+C.P.P.
+Código Contencioso Administrativo
+(Administrative Litigation Code)
+C.C.A.
+Código de la Infancia y la Adolescencia
+(Childhood and Adolescence Code)
+Cod. Inf. Adol.
+Código Sustantivo del Trabajo
+(Labor Code)
+C.S.T.
+Código Procesal del Trabajo
+(Labor Procedure Code)
+C.P.T.
+Código Nacional de los Recursos Naturales Renovables y de Protección al Medio Ambiente
+(Natural Resources and Environmental Protection Code)
+Cód. Nac. Rec. Nat. y Prot. Med. Amb.
+Código Sanitario
+(Health Code)
+Cód. Sanit.
+Código de Minas
+(Mining Code)
+Cód. Min.
+Statutes and decrees
+Citation format:
+L.
+<law number>
+,
+<promulgation date in Spanish>
+, [
+<volume number, if applicable>
+]
+<reporter name>
+[
+<reporter abbreviation>
+]
+<page, if desired>
+(
+<country abbreviation if not evident from context>
+).
+L. 50/90, marzo 7, 1990,
+Diario Oficial
+[D.O.] (Colom.).
+D
+iario Oficial
+1864–date
+D.O.
+Periodicals
+Jurisprudencia al Día
+J.D.
+Revista Legislación
+R. Leg.
+Revista Jurisprudencia y Doctrina
+R.J. y D.
+Revista de Derecho Privado
+R.D.P.
+Revista de Derecho Penal y Criminologí
+a
+R.D.P.C.
+Revista de la Facultad de Derecho y Ciencias Políticas
+(Universidad Pontificia Bolivariana, Medellín)
+R.F.D.C.P.
+Jurisprudencia Penal
+J.P.
+Revista Derecho del Estado
+R.D.E.
+Internet sources
+http://www.ramajudicial.gov.co
+(official site of the judiciary; free access to court decisions)
+http://www.secretariasenado.gov.co
+(official site of the Colombian Congress; free access to legislation since 1992 and bills since July 2000)
+http://www.lexadin.nl/wlg/legis/nofr/oeur/lxwecol.htm
+(unofficial site; free access to legislation)
+http://www.todoelderecho.com
+(unofficial site for legal information; partially paid subscription)
+http://cienciasjuridicas.javeriana.edu.co/publicaciones
+(free access to selected law journals of the Pontificia Universidad Javeriana in Bogotá)
+http://www.gacetaconstitucional.com.pe/constitucional-gaceta/gc.php
+(free access to the Gaceta Constitucional)
+http://www.legismovil.com
+(legal information online; private publishing company; paid subscription)
+http://www.imprenta.gov.co/portal/page/portal/IMPRENTA/Productos/Gaceta_Congreso
+(provides the Diario Oficial and Gaceta del Congreso; paid subscription)
+http://www.coljuristas.org
+(official site of the Colombian Commission of Jurists; free access to legal information on human rights)
+http://www.jurisprudenciaaldia.com
+(court decisions of the Constitutional Court, Supreme Court, and Council of State; paid subscription)
+http://www.notinet.com.co
+(legal news, legislation, and court decisions; paid subscription)
+http://www.corteconstitucional.gov.co/secretaria
+(free access to Constitutional Court decisions in Spanish, and summaries of main decisions of the Constitutional Court in English)

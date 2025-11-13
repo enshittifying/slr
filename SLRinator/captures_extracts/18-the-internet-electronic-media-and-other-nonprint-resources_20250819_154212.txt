@@ -1,0 +1,62 @@
+TITLE: 18 The Internet, Electronic Media, and Other Nonprint Resources (p.181)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 18-the-internet-electronic-media-and-other-nonprint-resources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18
+The Internet, Electronic Media, and Other Nonprint Resources
+(p.181)
+This rule covers citation of information found on the internet (
+rule 18.2
+); AI-generated content (
+rule 18.3
+); electronic databases (
+rule 18.4
+); electronic storage media (
+rule 18.5
+); microform (
+rule 18.6
+); videographer media (
+rule 18.7
+); audio recordings and streaming (
+rule 18.8
+); images (
+rule 18.9
+); social media (
+18.10
+); and hardware and software (
+18.11
+).
+18.1
+Basic Citation Forms
+18.2
+The Internet
+18.3
+AI-Generated Content
+18.4
+Electronic Databases
+18.5
+Electronic Storage Media
+18.6
+Microform
+18.7
+Videographic Media
+18.8
+Audio Recordings and Streaming
+18.9
+Images
+18.10
+Social Media
+18.11
+Hardware and Software
+18.12
+Short Citation Forms

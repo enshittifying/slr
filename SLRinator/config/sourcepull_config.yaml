@@ -1,0 +1,125 @@
+# Stanford Law Review Sourcepull System Configuration
+
+# Output directories
+directories:
+  output_dir: "./data/Sourcepull"
+  cache_dir: "./cache" 
+  logs_dir: "./logs"
+  redboxed_dir: "./data/Sourcepull/Redboxed"
+
+# Redboxing settings
+redboxing:
+  enabled: true
+  colors:
+    high_priority: [1.0, 0.0, 0.0]    # Bright red
+    medium_priority: [0.8, 0.0, 0.0]  # Medium red
+    low_priority: [0.6, 0.0, 0.0]     # Dark red
+  line_widths:
+    high_priority: 2.5
+    medium_priority: 2.0
+    low_priority: 1.5
+  add_metadata_page: true
+  create_summary_report: true
+
+# Source retrieval settings
+retrieval:
+  max_retries: 3
+  timeout_seconds: 60
+  cache_enabled: true
+  parallel_downloads: false  # Set to true for faster processing
+  
+  # Preferred source order (first available will be used)
+  source_priority:
+    cases: 
+      - "supremecourt.gov"
+      - "courtlistener"
+      - "justia"
+      - "caselaw_harvard"
+      - "google_scholar"
+    
+    statutes:
+      - "govinfo"
+      - "uscode_house_gov" 
+      - "cornell_lii"
+    
+    articles:
+      - "ssrn"
+      - "crossref"
+      - "google_scholar"
+      - "law_review_direct"
+
+# API endpoints and settings
+apis:
+  courtlistener:
+    base_url: "https://www.courtlistener.com/api/rest/v3"
+    rate_limit: 100  # requests per hour
+    
+  govinfo:
+    base_url: "https://api.govinfo.gov"
+    rate_limit: 1000  # requests per hour
+    
+  justia:
+    base_url: "https://supreme.justia.com"
+    rate_limit: null  # no official limit
+    
+  google_books:
+    base_url: "https://www.googleapis.com/books/v1"
+    rate_limit: 1000  # requests per day
+    
+  crossref:
+    base_url: "https://api.crossref.org"
+    rate_limit: null  # no official limit
+
+# Specific settings for Sherkow & Gugliuzza article
+sherkow_gugliuzza:
+  sources:
+    - id: "001"
+      citation: "Alice Corp. v. CLS Bank International, 573 U.S. 208 (2014)"
+      priority_elements: ["case_name", "volume", "reporter", "page", "year"]
+      key_quotes:
+        - "Laws of nature, natural phenomena, and abstract ideas are not patentable subject matter under § 101."
+      
+    - id: "002" 
+      citation: "Mayo Collaborative Services v. Prometheus Laboratories, Inc., 566 U.S. 66 (2012)"
+      priority_elements: ["case_name", "volume", "reporter", "page", "year"]
+      key_quotes:
+        - "The Court has long held that laws of nature are not patentable."
+      
+    - id: "003"
+      citation: "Diamond v. Chakrabarty, 447 U.S. 303 (1980)"
+      priority_elements: ["case_name", "volume", "reporter", "page", "year"]
+      key_quotes:
+        - "Congress intended statutory subject matter to include anything under the sun that is made by man."
+      
+    - id: "004"
+      citation: "35 U.S.C. § 101 (2018)"
+      priority_elements: ["title", "section", "statute_text"]
+      key_text:
+        - "Whoever invents or discovers any new and useful process, machine, manufacture, or composition of matter"
+      
+    - id: "005"
+      citation: "Mark A. Lemley, Software Patents and the Return of Functional Claiming, 2013 Wis. L. Rev. 905"
+      priority_elements: ["author", "title", "journal", "year", "page"]
+      key_quotes:
+        - "The real problem with software patents is not subject matter but functional claiming."
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_logging: true
+  console_logging: true
+
+# Quality control settings
+quality_control:
+  require_manual_review_for_partial: true
+  verify_quotes_manually: true
+  check_page_numbers: true
+  validate_citations: true
+  
+  # Elements that MUST be found and redboxed
+  critical_elements:
+    - "case_name"
+    - "key_quotes"
+    - "year"
+    - "page"

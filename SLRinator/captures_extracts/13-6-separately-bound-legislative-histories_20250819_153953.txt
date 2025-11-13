@@ -1,0 +1,31 @@
+TITLE: 13.6 Separately Bound Legislative Histories (p.145)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 13-legislative-materials
+  slug: 13-6-separately-bound-legislative-histories
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13.6
+Separately Bound Legislative Histories
+(p.145)
+The legislative histories of several important acts are published separately (e.g., the Administrative Procedure Act, Titles VII and IX of the Civil Rights Act of 1964, the Clean Air Act Amendments of 1970, the Equal Employment Opportunity Act, the Internal Revenue Acts, the National Labor Relations Act, the Occupational Safety and Health Act of 1970, and the Securities Exchange Act of 1934). If it would aid the reader in locating the source, a parallel citation may be given to such a separate publication. Cite these publications according to
+rule 15
+(books, reports, and other nonperiodic materials):
+H.R. Rep. No
+. 80-245, at 6 (1947),
+reprinted in
+1 NLRB,
+Legislative History of the Labor-Management Relations Act
+, 1947, at 292, 297 (1948).
+Internal Revenue Amendments, Pub. L. No. 87-834, § 15(a), 76 Stat. 960, 1041–42 (1962) (codified at I.R.C. § 1248(a)),
+reprinted in
+Joint Comm. on Internal Revenue Tax’n, 90th Cong., Legislative History of the Internal Revenue Code of 1954
+, at 473–74 (1967).

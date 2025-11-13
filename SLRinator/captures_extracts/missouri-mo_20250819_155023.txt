@@ -1,0 +1,92 @@
+TITLE: Missouri (Mo.) (pp. 296–97)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: missouri-mo
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Missouri (Mo.)
+(pp. 296–97)
+https://www.courts.mo.gov/
+https://revisor.mo.gov/main/Home.aspx
+Supreme Court
+(
+Mo.
+): Cite to
+S.W.
+,
+S.W.2d
+, or
+S.W.3d
+, if therein.
+South Western Reporter
+1886–date
+S.W., S.W.2d, S.W.3d
+Missouri Reports
+1821–1956
+Mo.
+Court of Appeals
+(
+Mo. Ct. App.
+): Cite to
+S.W.
+,
+S.W.2d
+, or
+S.W.3d
+, if therein.
+South Western Reporter
+1902–date
+S.W., S.W.2d, S.W.3d
+Missouri Appeals Reports
+1876–1954
+Mo. App.
+Statutory compilations:
+Cite to
+Mo. Rev. Stat.
+, if therein.
+Missouri Revised Statutes
+Mo. Rev. Stat.
+§ x.x (
+<year>
+)
+Vernon’s Annotated Missouri Statutes (West)
+Mo. Ann. Stat
+. § x.x (West
+<year>
+)
+Session laws:
+Cite to
+Mo. Laws
+, if therein.
+Session Laws of Missouri
+<year>
+Mo. Laws
+<page no.>
+Missouri Legislative Service (West)
+<year>
+Mo. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Missouri Code of State Regulations Annotated
+Mo. Code Regs. Ann
+. tit. x, § x-x.x (
+<year>
+)
+Administrative register
+Missouri Register
+<vol. no.>
+Mo. Reg.
+<page no.>
+(
+<month day, year>
+)

@@ -1,0 +1,122 @@
+TITLE: Arkansas (Ark.) (pp. 274–75)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: arkansas-ark
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Arkansas (Ark.)
+(pp. 274–75)
+https://www.arcourts.gov/
+https://www.arkleg.state.ar.us/
+Public domain citation format:
+Arkansas has adopted a public domain citation format for cases after February 13, 2009. The format is:
+Smith v. Hickman, 2009 Ark. 12, at 1, 273 S.W.3d 340, 343.
+Doe v. State, 2009 Ark. App. 318, at 7, 2009 WL 240613, at *8.
+For additional instruction, consult Arkansas Supreme Court Rule 5-2.
+Supreme Court
+(
+Ark.
+)
+: Cite to
+S.W
+.
+,
+S.W.2d
+,
+or
+S.W.3d
+, if therein.
+South Western Reporter
+1886–date
+S.W., S.W.2d, or S.W.3d
+Arkansas Reports
+1837–2009
+Ark.
+Court of Appeals
+(
+Ark. Ct. App.
+)
+: Cite to
+S.W.2d
+or
+S.W.3d
+, if therein.
+South Western Reporter
+1979–date
+S.W.2d, S.W.3d
+Arkansas Appellate Reports
+1981–2009
+Ark. App.
+Arkansas Reports
+1979–1981
+Ark.
+Statutory compilations:
+Cite to
+Ark. Code Ann.
+(published by LexisNexis), if therein.
+Arkansas Code of 1987 Annotated (LexisNexis)
+Ark. Code Ann.
+§ x-x-x (
+<year>
+)
+West's Arkansas Code Annotated
+Ark. Code Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+Ark. Acts
+, if therein.
+Acts of Arkansas (West)
+<year>
+Ark. Acts
+<page no.>
+Arkansas Code of 1987 Annotated
+<year>
+Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Ark. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West's Arkansas Legislative Service
+<year>
+Ark. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Code of Arkansas Rules (LexisNexis)
+x-x-x
+Ark. Code
+R. § x (LexisNexis
+<year>
+)
+Administrative registers:
+Cite to
+Ark. Reg.
+, if therein.
+Arkansas Register
+<vol. no.>
+Ark. Reg.
+<page no.>
+(
+<month year>
+)
+Arkansas Government Register
+<iss. no.>
+Ark. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

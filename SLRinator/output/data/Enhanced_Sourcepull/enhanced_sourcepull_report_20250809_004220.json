@@ -1,0 +1,16 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T00:42:20.429311",
+  "footnote_range": "20-23",
+  "used_gpt": false,
+  "footnotes_processed": 4,
+  "total_citations": 0,
+  "successful_retrievals": 0,
+  "failed_retrievals": 0,
+  "pdf_files": [],
+  "parsing_results": [],
+  "retrieval_results": [],
+  "completed_at": "2025-08-09T00:42:20.460956",
+  "duration_seconds": 0.031645,
+  "success_rate": 0.0
+}

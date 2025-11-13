@@ -1,0 +1,186 @@
+TITLE: North Carolina (N.C.) (pp. 306–07)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: north-carolina-n-c
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+North Carolina (N.C.)
+(pp. 306–07)
+http://www.nccourts.gov
+http://www.ncleg.gov/laws/generalstatutes
+Supreme Court
+(
+N.C.
+): Cite to
+S.E.
+or
+S.E.2d
+, if therein.
+South Eastern Reporter
+1887–date
+S.E., S.E.2d
+North Carolina Reports
+63 N.C. to date
+1868–date
+N.C.
+Phillips’ Equity
+1866–1868
+62 N.C. (Phil. Eq.)
+Phillips’ Law
+1866–1868
+61 N.C. (Phil.)
+Winston
+1863–1864
+60 N.C. (Win.)
+Jones’ Equity (54–59)
+1853–1863
+e.g.
+,
+54 N.C. (1 Jones Eq.)
+Jones’ Law (46–53)
+1853–1862
+e.g.
+,
+46 N.C. (1 Jones)
+Busbee’s Equity
+1852–1853
+45 N.C. (Busb. Eq.)
+Busbee’s Law
+1852–1853
+44 N.C. (Busb.)
+Iredell’s Equity (36–43)
+1840–1852
+e.g.
+,
+36 N.C. (1 Ired. Eq.)
+Iredell’s Law (23–35)
+1840–1852
+e.g.
+,
+23 N.C. (1 Ired.)
+Devereux & Battle’s Equity (21–22)
+1834–1839
+e.g.
+,
+21 N.C. (1 Dev. & Bat. Eq.)
+Devereux & Battle’s Law (18–20)
+1834–1839
+e.g.
+,
+20 N.C. (3 & 4 Dev. & Bat.)
+Devereux’s Equity (16–17)
+1826–1834
+e.g.
+,
+16 N.C. (1 Dev. Eq.)
+Devereux’s Law (12–15)
+1826–1834
+e.g.
+,
+12 N.C. (1 Dev.)
+Hawks (8–11)
+1820–1826
+e.g.
+,
+8 N.C. (1 Hawks)
+Murphey (5–7)
+1804–1813
+1818–1819
+e.g.
+,
+5 N.C. (1 Mur.)
+Taylor’s North Carolina Term Reports
+1816–1818
+4 N.C. (Taylor)
+Carolina Law Repository
+1813–1816
+4 N.C. (Car. L. Rep.)
+Haywood (2–3)
+1789–1806
+e.g.
+,
+2 N.C. (1 Hayw.)
+Conference by Cameron & Norwood
+1800–1804
+1 N.C. (Cam. & Nor.)
+Taylor
+1798–1802
+1 N.C. (Tay.)
+Martin
+1778–1797
+1 N.C. (Mart.)
+Court of Appeals
+(
+N.C. Ct. App.
+): Cite to
+S.E.2d
+, if therein.
+South Eastern Reporter
+1968–date
+S.E.2d
+North Carolina Court of  Appeals Reports
+1968–date
+N.C. App.
+Statutory compilations
+:
+Cite to
+N.C. Gen. Stat.
+(published by LexisNexis), if therein.
+General Statutes of North Carolina (LexisNexis)
+N.C. Gen. Stat
+. § x-x (
+<year>
+)
+West’s North Carolina General Statutes Annotated
+N.C. Gen. Stat. Ann
+. § x-x (West
+<year>
+)
+Session laws
+: Cite to
+N.C. Sess. Laws
+, if therein.
+Session Laws of North Carolina
+<year>
+N.C. Sess. Laws
+<page no.>
+North Carolina
+<year>
+Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+N.C. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+North Carolina Legislative Service (West)
+<year>
+N.C. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+North Carolina Administrative Code (West)
+<tit. no.>
+N.C.
+Admin. Code
+<rule no.>
+(
+<year>
+)
+Administrative register
+North Carolina Register (LexisNexis)
+<vol. no.>
+N.C. Reg.
+<page no.>
+(
+<month day, year>
+)

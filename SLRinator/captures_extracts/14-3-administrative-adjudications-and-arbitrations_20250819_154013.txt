@@ -1,0 +1,95 @@
+TITLE: 14.3 Administrative Adjudications and Arbitrations (pp. 150–52)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 14-administrative-and-executive-materials
+  slug: 14-3-administrative-adjudications-and-arbitrations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+14.3
+Administrative Adjudications and Arbitrations
+(pp. 150–52)
+Citations to administrative cases, arbitrations, and filings or other documents in those cases and arbitrations should conform to
+rule 10
+, except as follows:
+14.3.1 –
+Names
+(a) Administrative adjudications.
+Cite by the reported name of the first-listed private party (abbreviated according to
+rule 10.2
+) or by the official subject-matter title. Omit all procedural phrases:
+Trojan Transp., Inc., 249 NLRB 642 (1980).
+Not:
+In the Matter of Trojan Transp., Inc., 249 NLRB 642 (1980).
+Not:
+In re
+Trojan Transp., Inc., 249 NLRB 642 (1980).
+For agencies that have multiple layers of internal adjudication, include a parenthetical indicating the adjudicatory body (abbreviated according to
+tables T6
+and
+T11
+):
+Tyson Farms, Inc., 72 Agric. Dec. 399 (U.S.D.A. A.L.J. 2013).
+Steve Lane, 77 Agric. Dec. 246 (U.S.D.A. Jud. Officer 2018).
+Subject-matter titles may sometimes indicate the nature and stage of an adjudicatory proceeding. It is permissible to shorten such titles, and, if the nature and stage of the proceeding are not clear from the context, such information may be included in a parenthetical phrase at the end of the citation. The parenthetical phrase may consist of terms such as “
+notice
+,” “
+initiation
+,” “
+prelim. neg.
+,” or “
+determination
+,” or may be more elaborate:
+Bottled Green Olives from Spain, 50 Fed. Reg. 28237 (Dep’t of Com. July 11, 1985) (final admin. rev.).
+Not:
+Bottled Green Olives from Spain, Final Results of Admin. Rev. of Countervailing Duty Order, 50 Fed. Reg. 28237 (Dep’t of Com. July 11, 1985).
+(b) Arbitrations.
+Cite as court cases if adversary parties are named and as administrative adjudications if they are not. The arbitrator’s name should be indicated parenthetically:
+Kroger Co. v. Amalgamated Meat Cutters, Local 539, 74 Lab. Arb. Rep. (BL) 785, 787 (1980) (Doering, Arb.).
+Charles P. Ortmeyer, 23 Indus. Arb. 272 (1980) (Stern, Arb.).
+14.3.2 –
+Which Source(s) to Cite
+(a) Official reporters.
+Cite the official reporter of the agency if the opinion appears therein:
+Tenn. Intrastate Rates & Charges, 286 I.C.C. 41 (1952).
+For the official reporters of many federal agencies, see
+table T1.2
+.
+(b) Official releases and slip opinions.
+If the opinion does not appear in an official reporter, cite the official release or slip opinion. Provide the full date, any helpful publication number, and the number of the case or investigation:
+Iron Constr. Castings from Braz., Can., India & China, Inv. No. 701-TA-249, USITC Pub. 1720 (June 1985) (Preliminary).
+If the opinion will later be published in an official bound volume, provide the volume number and the initial page number, if available; if the initial page number is not available, retain the case number:
+Rosenberg Libr. Ass’n, 269 NLRB No. 197 (Apr. 24, 1984).
+Whenever possible, append a parallel citation to an unofficial reporter, service, or other source, in that order of preference:
+Rosenberg Libr. Ass’n, 269 NLRB No. 197, 1983–1984 NLRB Dec. (CCH) ¶ 16,238 (Apr. 24, 1984).
+Once the official reporter is issued, however, cite only to that reporter:
+Rosenberg Libr. Ass’n, 269 NLRB 1173 (1984).
+(c) Services and electronic databases.
+Where an agency decision is only available from a service or on the agency's website, cite according to
+rule 19
+(for services) or
+rule 18.2
+(for internet sources):
+Carr
+, [1990–1992 Transfer Binder] Comm. Fut. L. Rep. (CCH) ¶ 24,933 (Oct. 2, 1990).
+MatchNet PLC v. Gordon, Case No. AF-001060 (eResolution Dec. 4, 2001),
+http://www.disputes.org/decisions/1060.htm
+(on file with the Yale Law Journal).
+Many agencies have adopted unique citation formats for opinions not listed in official reporters. Consult
+table T1.2
+for agency-specific citation formats. For a list of services and service abbreviations, see
+table T15
+.
+14.3.3 –
+Issuing Agency
+If the name of the issuing agency is not apparent from the name of the source, include the name of the agency abbreviated according to
+rule 15.1(e)
+in the parenthetical containing the date:
+Gen. Dynamics Corp., 50 Fed. Reg. 45949 (U.S. Dep’t of Lab. Nov. 5, 1985).

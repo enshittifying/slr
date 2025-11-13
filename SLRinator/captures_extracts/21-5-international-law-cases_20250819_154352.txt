@@ -1,0 +1,429 @@
+TITLE: 21.5 International Law Cases (pp. 219–28)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-5-international-law-cases
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.5
+International Law Cases
+(pp. 219–28)
+Cite according to
+rule 10
+as modified by the following instructions. If no authoritative English-language source is available, cite foreign-language sources according to
+rule 20.2
+.
+The standard citation for an international law case includes: (1) the name of the case; (2) the case number; (3) the reporter (if any); (4) the characterization of the decision (judgment, provisional measures, etc.); (5) a pincite (using paragraph numbers, if available, rather than page numbers); and (6) a parenthetical with the date, prefaced by name of court if not otherwise evident from the citation.
+For online-only decisions, refer readers to the court or tribunal’s website (preferably to the specific webpage or PDF that includes the court or tribunal’s decision).
+21.5.1 –
+The International Court of Justice and the Permanent Court of International Justice
+The International Court of Justice (
+I.C.J.
+), also known as the World Court, replaced the Permanent Court of International Justice (
+P.C.I.J.
+) in 1946.
+Cite a case before the International Court of Justice or the Permanent Court of International Justice by: (1) the case name (
+rule 21.5.1(a)
+); (2) the parties' names, if any (
+rule 21.5.1(b)
+); (3) the characterization of the decision (
+Preliminary Objection, Provisional Measure, Advisory Opinion, Judgment,
+etc.), if relevant; (4) the volume and name of the publication in which the decision is found (
+rule 21.5.1(c)
+); (5) the page or case number (
+rule 21.5.1(d)
+); (6) the pincite, if any, with preference for paragraph number when available (indicated by the pilcrow symbol "¶"); and (7) the date (
+rule 21.5.1(e)
+):
+Military and Paramilitary Activities in and Against Nicaragua (Nicar. v. U.S.), Judgment, 1986 I.C.J. 14, ¶ 190 (June 27).
+Reservations to Convention on Prevention and Punishment of Crime of Genocide, Advisory Opinion, 1951 I.C.J. 15 (May 28).
+Diversion of Water from Meuse (Neth. v. Belg.), Judgment, 1937 P.C.I.J. (ser. A/B) No. 70, at 7 (June 28).
+Delimitation of Maritime Boundary in Gulf of Maine Area (Can./U.S.), Judgment, 1982 I.C.J. 560, ¶ 22 (Oct. 12).
+When citing a separate opinion of a judgment in a published report, include the first page of the judgment and a pincite for the separate opinion. Include a parenthetical identifying the author of the separate opinion:
+Military and Paramilitary Activities in and Against Nicaragua (Nicar. v. U.S.), Judgment, 1986 I.C.J. 14, ¶ 3 (June 27) (separate opinion by Ago, J.).
+Do not include the first page of the judgment when short citing:
+Nicar. v. U.S., 1986 I.C.J. at 181.
+Cite pleadings according to
+rule 21.5.1(f)
+and court rules and acts according to
+rule 21.5.1(g)
+. If necessary, cite yearbooks and annual reports of the World Court according to
+rules 21.7.8
+and
+21.15
+.
+(a) Case name.
+Give the case name as found on the first page of the report. Omit the word “
+Case
+.” Omit articles, such as “
+the
+.” Do not abbreviate the names of countries where they appear in case names:
+Continental Shelf
+Not:
+Case Concerning the Continental Shelf
+Note that an application may appear as the case name:
+Application of Convention on Prevention and Punishment of Crime of Genocide (Bosn. & Herz. v. Serb. & Montenegro), 1996 I.C.J. 595, ¶ 31 (July 11).
+(b) Parties’ names.
+Give the names of the parties involved in a parenthetical phrase immediately following the case name. Abbreviate the names of countries according to
+table T10
+. When a dispute is brought by a unilateral application of one country against another, the countries’ names are separated by “
+v
+.” If the case is brought on the basis of a special agreement between two countries, the names of the parties are separated by a slash:
+(Nicar. v. U.S.)
+(Indon./Malay.)
+In advisory opinions, no parties are listed:
+Interpretation of Peace Treaties with Bulgaria, Hungary and Romania, Advisory Opinion, 1950 I.C.J. 65 (Mar. 30).
+Polish Postal Service in Danzig, Advisory Opinion, 1925 P.C.I.J. (ser. B) No. 11, at 6 (May 16).
+(c) Volume number and name of publication.
+Identify the volume by the date, as required by
+rule 3.1(a)
+. The International Court of Justice publishes its opinions in
+Reports of Judgments, Advisory Opinions and Orders
+(
+I.C.J.
+):
+1950 I.C.J. 65
+Decisions and other documents of the P.C.I.J. were published in seven series (lettered A through F, including A/B). Indicate the series in citations to P.C.I.J. documents:
+1925 P.C.I.J. (ser. B) No. 11
+(d) Page or case number.
+Cite I.C.J. cases to the page on which they begin. Cite cases of the P.C.I.J. by number:
+2006 I.C.J. 107
+1937 P.C.I.J. (ser. A/B) No. 70
+Use pincites to refer to specific paragraphs, if available, or pages:
+1986 I.C.J. 14, ¶ 15
+1933 P.C.I.J. (ser. C) No. 62, at 12
+See
+rule 3.3
+for more information about paragraph numbers.
+(e) Date.
+Provide the month and day:
+Nuclear Tests (N.Z. v. Fr.), Interim Protection Order, 1973 I.C.J. 135 (June 22).
+(f) Separately published pleadings.
+Cite separately published pleadings by the designation given in the document itself, followed by the name of the case (
+rule 21.5.1(a)
+); the names of the parties in a parenthetical (
+rule 21.5.1(b)
+); the volume number and name of the publication (
+rule 21.5.1(c)
+); and the full date of the pleading. Separately published pleadings before the I.C.J. are published in
+Pleadings, Oral Arguments, Documents
+(
+I.C.J. Pleadings
+):
+Memorial of United Kingdom, Corfu Channel (U.K. v. Alb.), 1949 I.C.J. Pleadings 19 (Sep. 30, 1947).
+Memorial of Denmark, Legal Status of Eastern Greenland (Den. v. Nor.), 1933 P.C.I.J. (ser. C) No. 62, at 12 (Oct. 31, 1931).
+(g) Court rules and acts.
+Cite court rules and acts by title, volume number and name of publication, and page or document number. I.C.J. rules and acts are published in
+Acts and Documents Concerning the Organization of the Court
+(
+I.C.J. Acts & Docs.
+), while P.C.I.J. rules and acts were published in
+P.C.I.J.
+:
+Travel and Subsistence Regulations of the International Court of Justice, 1947 I.C.J. Acts & Docs. 94.
+Revised Rules of the Court, 1926 P.C.I.J. (ser. D) No. 1, at 33.
+(h) Online materials.
+I.C.J. materials that have not been published may be cited to International Legal Materials (
+I.L.M.
+) (
+rule 21.4.5(c)
+) or to the I.C.J. website (
+rule 18.2
+):
+Maritime Delimitation in Black Sea (Rom. v. Ukr.), Judgment, ¶ 5 (Feb. 3, 2009),
+http://www.icj-cij.org/files/case-related/132/132-20090203-JUD-01-00-BI.pdf
+(on file with the Harvard Law Review).
+For oral pleadings, the date parenthetical should include the specific date and session time:
+LaGrand Case (Ger. v. U.S.), Verbatim Record, ¶¶ 5.1–5.19 (Nov. 14, 2000, at 15:00 CET),
+https://www.icj-cij.org/sites/default/files/case-related/104/104-20001114-ORA-02-00-BI.pdf
+(on file with the Yale Law School Library).
+21.5.2 –
+European Union Courts
+Cite a case before the Court of Justice of the European Union (formerly the Court of Justice of the European Communities) or the General Court (formerly the Court of First Instance) by case number; the names of the parties, abbreviated according to
+rule 10.2
+and
+table T6
+; and the official reports of the Court, including the year of decision (
+rule 21.5.2(a)
+). A parallel citation to a private service may be made, if necessary (
+rule 21.5.2(b)
+).
+For cases lodged before the Court of Justice since 1989, the case number will contain the prefix “
+C
+”; older cases will not have a prefix. Cases lodged before the General Court, created in 1989, will carry the prefix “
+T
+,” and the Civil Service Tribunal will carry the prefix "
+F
+." Where the Commission, Council, or Parliament of the European Union is one of the parties, give its name as “
+Commission,” “Council
+,” or “
+Parliament
+,” respectively:
+Case T-198/98, Micro Leader Bus. v. Comm’n, 1999 E.C.R. II-3989.
+Case C-213/89, The Queen v. Sec’y of State for Transp. (
+Factortame Ltd.
+), 1990 E.C.R. I-2433.
+Case 58/69, Elz v. Comm’n, 1970 E.C.R. 507.
+Cases on European Union law are often decided in the courts of member states. These cases should be cited to the reporters of the particular member state. If necessary, such cases may also be cited to one of the unofficial reporters collecting materials regarding the European Union (see
+rule 21.5.8
+). When citing such a case to European Union materials, indicate the court and jurisdiction if not clear from the context, as provided by
+rule 20.1
+.
+(a) Official reports.
+For pre-1990 cases, cite the
+Reports of Cases Before the Court of Justice of the European Communities
+(
+E.C.R.
+). For cases between 1990 and 2011, cite the
+Reports of Cases Before the Court of Justice and the Court of First Instance
+(also abbreviated
+E.C.R.
+). Place the year designation before the reporter abbreviation. Starting in 1990, page numbers in the E.C.R. begin with a “
+I,” “II,
+” or “
+III
+”:
+Case C-286/01, Comm’n v. France, 2002 E.C.R. I-5463.
+Case 30/79, Land Berlin v. Wigei, 1980 E.C.R. 151.
+Joined Cases 56 & 58/64, Établissements Consten, S.A.R.L. v. Comm’n, 1966 E.C.R. 299.
+The E.C.R. was discontinued after 2011.
+Starting in 2012, use the European Case-Law Identifier (
+ECLI
+) to cite to EU Court cases. All decided EU cases will have a generated ECLI. The format has four components, in addition to the prefix “
+ECLI
+”:
+“
+EU
+” indicates a decision delivered by one of the Courts of the European Union; an abbreviation corresponding to the court or tribunal that delivered the decision: “
+C
+” indicates the Court of Justice, “
+T
+” indicates the General Court, and “
+F
+” indicates the Civil Service Tribunal; the year of the decision; an ordinal number indicating that the decision is the nth ECLI assigned that year.
+Post-2011, EU Court citations should include: (1) the case number; (2) the parties’ names; (3) the ECLI, if available; (4) a pincite (using paragraph numbers, if available, rather than page numbers); and (5) the date:
+Case C-434/16, Nowak v. Data Prot. Comm’r, ECLI:EU:C:2014:994, ¶¶ 54—55 (Dec. 20, 2017).
+For pre-2011 official reports not available in print, cite to Curia, the official website of the Court of Justice of the European Union (
+http://curia.europa.eu
+) (
+rule 18.2
+), an electronic database (
+rule 18.4
+), or a private service (
+rule 21.5.2(b)
+). Citations to Curia should include: (1) the case number; (2) the parties’ names; (3) a pincite (using paragraph numbers, if available, rather than page numbers); (4) the date; and (5) the website URL:
+Case C-279/06, CEPSA Estaciones de Servicio SA v. LV Tobar e Hijos SL, ¶ 62 (Sept. 11, 2008),
+https://curia.europa.eu/juris/document/document.jsf?text=&docid=70502&pageIndex=0&doclang=en&mode=lst&dir=&occ=first&part=1&cid=2832097
+(on file with author).
+Case C-8/96, Locamion SA v. Directeur des Services Fiscaux d'Indreet-Loire, ¶ 2 (Dec. 11, 1997),
+http://curia.europa.eu/juris/showPdf.jsf?docid=43541&doclang=EN
+(on file with the Columbia Law Review).
+(b) Private services.
+If necessary, provide a parallel citation to one of the private services providing selected reports of the court’s opinions.
+Common Market Law Reports
+(
+C.M.L.R.
+) is preferred. When citing volumes through 1973, include the full volume number; when citing volumes 1974 and later, include the issue number to reflect cessation of continuous issue numbering. Otherwise, use
+Common Market Reporter
+(
+Common Mkt. Rep. (CCH)
+) (through 1988) or
+European Community Cases
+(
+CEC (CCH)
+). See
+rule 19
+for treatment of CCH looseleaf services:
+Case 148/78, Pubblico Ministero v. Ratti, 1979 E.C.R. 1629, 1 C.M.L.R. 96 (1980).
+Case 48/69, Imperial Chem. Indus. v. Comm’n, 18 E.C.R. 619, [1971–1973 Transfer Binder] Common Mkt. Rep. (CCH) ¶ 8161 (1972).
+21.5.3 –
+European Court of Human Rights
+Cite cases before the European Court of Human Rights to
+European Court of Human Rights, Reports of Judgments and Decisions
+(
+Eur. Ct. H.R
+.).
+Reports of Judgments and Decisions
+were discontinued after 2015. For cases after 2015 or cases before 2015 not found in
+Reports of Judgements and Decisions
+, cite the Court’s official website, HUDOC (
+http://www.echr.coe.int
+) (
+rule 18.2
+). Citations of HUDOC should include: (1) the parties’ names (abbreviated according to
+rule 10.2
+); (2) the application number for the case; (3) a pincite (using paragraph numbers, if available, rather than page numbers); (4) the date; and (5) the document URL:
+S.M. v. Croatia, App. No. 60561/14, ¶ 81 (July 19, 2018),
+http://hudoc.echr.coe.int/eng?i=001-184665
+(on file with the Harvard Law School Library).
+Recent volumes are numbered by year of publication and do not require a separate reference to the year. Older decisions may also be cited to
+Publications of the European Court of Human Rights
+, which was issued in multiple series (e.g.,
+Eur. Ct. H.R. (ser. A)
+) or
+Yearbook of the European Convention on Human Rights
+(
+Y.B. Eur. Conv. on H.R.
+):
+Papon v. France (No. 2), 2001-XII Eur. Ct. H.R. 235.
+Kampanis v. Greece, 318-B Eur. Ct. H.R. (ser. A) 29, 35 (1995).
+For cases before the court between 1999 and 2015, cite by case name (abbreviated according to
+rule 10.2
+); volume number; reporter; page number, where applicable; and year.
+Recent volumes contain several cases, but some earlier volumes contain only one case. Where a volume contains only one case, citing a beginning page is unnecessary, and all page numbers may be indicated directly by “
+at
+”:
+Ireland v. United Kingdom, 23 Eur. Ct. H.R. (ser. B) at 23 (1976).
+Until 1999, cases were also heard before the now-defunct European Commission on Human Rights. These cases should be cited to
+Collections of Decisions of the European Commission on Human Rights
+(
+Eur. Comm’n H.R. Dec. & Rep.
+) or
+Y.B. Eur. Conv. on H.R.
+, if therein. If not, cite
+European Human Rights Reports
+(
+Eur. H.R. Rep.
+). When citing
+Y.B. Eur. Conv. on H.R.
+, indicate parenthetically whether the case was before the Commission or the Court. Indicate both the parties and the application number for the case:
+Y. v. Netherlands, App. No. 7245/32, 32 Eur. Comm’n H.R. Dec. & Rep. 345, 358 (1982).
+Smith v. Belgium, App. No. 3324/76, 8 Eur. H.R. Rep. 445, 478 (1982).
+Iversen v. Norway, App. No. 1468/62, 1963 Y.B. Eur. Conv. on H.R. 278 (Eur. Comm’n on H.R.).
+If a case before the European Court is not available in print, you may cite an unofficial printed source or the Court’s official website, HUDOC (
+http://www.echr.coe.int
+) (
+rule 18.2
+).
+21.5.4 –
+Inter-American Commission on Human Rights
+Cite cases before the Inter-American Commission on Human Rights to the
+Annual Report of the Inter-American Commission on Human Rights
+(
+Inter-Am. Comm’n H.R.
+). The citation should include the case name; the case number; the volume name; the report number, which includes the year of the decision; the series and docket numbers; the paragraph number, if applicable; and the year of the reporter:
+Tortrino v. Argentina, Case 11.597, Inter-Am. Comm’n H.R., Report No. 7/98, OEA/Ser.L./V/II.98, doc. 7 rev. ¶ 15 (1997).
+Calderón v. Colombia, Case 10.454, Inter-Am. Comm’n H.R., Report No. 32/92, OEA/Ser.L./V/II.83, doc. 14 (1992–1993).
+Cite the English version whenever possible. If an official report is not yet available, cite the Commission’s official website (
+http://www.cidh.org
+) (
+rule 18.2
+).
+21.5.5 –
+Inter-American Court of Human Rights
+For cases before the Inter-American Court of Human Rights, cite the
+Inter-American Court of Human Rights, Decisions and Judgments
+(
+Inter-Am. Ct. H.R.
+). The citation should include the case name; the volume number; the series; the case number; the page number, if needed; and the date. Cite the English version whenever possible.
+(a) Advisory Opinions.
+Cite Advisory Opinions by the name of the opinion; “
+Advisory Opinion
+” and opinion code; the report and volume number; the pincite, if any; and the date. Cite to Series A:
+Restrictions to the Death Penalty (Arts. 4(2) and 4(4) American Convention on Human Rights), Advisory Opinion OC-3/83, Inter-Am. Ct. H.R. (ser. A) No. 3, ¶ 70 (Sept. 8, 1983).
+(b) Contentious Cases.
+Cite Contentious Cases by the name of the case; the matter of decision; the type of opinion; the report and volume number; the pincite, if any; and the date. Cite to Series C:
+Baldeon-Garcia v. Peru, Merits, Reparations, and Costs, Judgment, Inter-Am. Ct. H.R. (ser. C) No. 147, ¶ 169 (Apr. 6, 2006).
+(c) Provisional Measures.
+Cite Provisional Measures by the name of the case or matter; “
+Provisional Measures
+”; and the type of opinion. When citing the print reports, cite Series E with the volume number and the first page of the decision; the section name in quotes; the pincite, if any; and the date. When citing an online version, cite the section name in quotes; the pincite, if any; the court and the date; and the website URL (
+rule 18.2
+):
+Bámaca Velázquez v. Guatemala, Provisional Measures, Order of the Court, Inter-Am. Ct. H.R. (ser. E) No. 4, at 1, “Decides,” ¶ 2 (Sept. 5, 2001).
+Mendoza Prisons Regarding Argentina, Provisional Measures, Order of the President of the Court, “Having Seen,” ¶ 21 (Inter-Am. Ct. H.R. Aug. 22, 2007),
+http://www.corteidh.or.cr/docs/medidas/penitenciariamendoza_se_04_ing.pdf
+(on file with the Yale Law Journal).
+(d) Compliances with Judgment.
+Cite Compliances with Judgment by the name of the case; “
+Monitoring Compliance with Judgment
+”; and the type of opinion. When citing the print reports, cite the volume number, the report name, and the first page of the decision; the section name in quotes; the pincite, if any; and the date. When citing an online version, cite to the section name in quotes; the pincite, if any; the court and date; and the website URL (
+rule 18.2
+):
+Genie Lacayo v. Nicaragua, Monitoring Compliance with Judgment, Order of the Court, 1998 Rep. Inter-Am. Ct. H.R. 335, “Resolves,” ¶ 1 (Aug. 29, 1998).
+270 Workers v. Panama, Monitoring Compliance with Judgment, Order of the President of the Court, “Considering,” ¶ 14 (Inter-Am. Ct. H.R. Feb. 11, 2008),
+https://www.corteidh.or.cr/docs/supervisiones/baena_11_02_08.pdf
+(on file with the Columbia Law School Library).
+21.5.6 –
+International Tribunal for the Law of the Sea
+Cite cases of the International Tribunal for the Law of the Sea to the
+International Tribunal for the Law of the Sea Reports of Judgments, Advisory Opinions and Orders
+(
+ITLOS Rep.
+). Cite cases before the Tribunal by the case name and the names of the parties in a parenthetical, abbreviated according to
+table T10
+; the case number; the type of ruling and date; the volume number, the name of the publication, and the page number; and the pincite, if any, with preference for paragraph numbers where available:
+M/V Saiga (No. 2) (St. Vincent v. Guinea), Case No. 2, Order of Jan. 20, 1998, 2 ITLOS Rep. 4, 5.
+When print reports are unavailable, cite to the Tribunal’s official website (
+http://www.itlos.org
+) (
+rule 18.2
+):
+M/V Louisa (St. Vincent v. Spain), Case No. 18, Order 2011/1 of Jan. 12, 2011,
+http://www.itlos.org/fileadmin/itlos/documents/cases/case_no_18_merits/18_order_120111_en.pdf
+(on file with author).
+21.5.7 –
+International Criminal Court and Other Tribunals
+Cite cases of international criminal tribunals (e.g.,
+the International Criminal Court, the International Criminal Tribunal for the Former Yugoslavia, the International Criminal Tribunal for Rwanda, the Extraordinary Chambers in the Courts of Cambodia, the Special Court for Sierra Leone, and the Special Tribunal for Lebanon
+) as follows: (1) case name (include only one party on each side of the “
+v
+.” and include only the last name of individuals); (2) case number; (3) type of ruling (include only the last name of judges); (4) paragraph number, if necessary; and (5) date. If the tribunal’s name is not contained in the case number, add the tribunal’s name before the date:
+Prosecutor v. Katanga, ICC-01/04-01/07-3436-AnxI, Minority Opinion of Judge Wyngaert, ¶ 320 (Mar. 7, 2014).
+Prosecutor v. Tadić, IT-94-1-I, Decision on Defence Motion for Interlocutory Appeal on Jurisdiction, ¶ 70 (Int’l Crim. Trib. for the Former Yugoslavia Oct. 2, 1995).
+Prosecutor v. Kayishema, ICTR 95-1-T, Judgment, ¶ 126 (May 21, 1999).
+Many cases can be found on official websites and should be cited pursuant to
+rule 18.2
+:
+Prosecutor v. Gombo, ICC-01/05-01/08, Warrant of Arrest, ¶ 22 (May 23, 2008),
+https://www.icc-cpi.int/sites/default/files/CourtRecords/CR2008_03546.PDF
+(on file with the Yale Law Journal).
+Prosecutor v. Simba, ICTR-01-76-T, Judgement and Sentence, ¶ 23 (Dec. 13, 2005),
+https://ucr.irmct.org/LegalRef/CMSDocStore/Public/English/Judgement/NotIndexable/ICTR-01-76/MSC42505R0000548878.PDF
+(on file with author).
+Prosecutor v. Lukić, IT-98-32/1-T, Order to Disclose Portions of the Transcript (Int’l Crim. Trib. for the Former Yugoslavia Jan. 22, 2009),
+https://ucr.irmct.org/LegalRef/CMSDocStore/Public/English/Order/NotIndexable/IT-98-32%231/MSC6887R0000252270.TIF
+(on file with the University of Pennsylvania Law Review).
+21.5.8 –
+Other International Courts
+When citing other international courts, analogize the citation format to the format used for citing the courts described above in
+rule 21.5.7
+. An international court citation will generally contain the following information: (1) the parties to the case, if adversarial; (2) the court-assigned case number, if any; (3) the official reporter in which the case is published, with pincites, if the reporter has numbered pages and/or paragraphs; (4) the type of decision; (5) the court name, if not obvious from other parts of the citation; (6) the date of the decision; and (7) a web link, if any:
+Dabalorivhuwa Patriotic Front v. South Africa, Communication 335/2006, African Commission on Human and Peoples' Rights [Afr. Comm'n H.P.R.], ¶ 15 (Apr. 23, 2013),
+https://achpr.au.int/en/decisions-communications/dabalorivhuwa-patriotic-front-republic-south-africa-33506
+(on file with the Harvard Law Review).
+Ababou v. Morocco, No. 007/2011, Decision, African Court on Human and Peoples' Rights [Afr. Ct. H.P.R.], ¶ 6 (Sept. 2, 2011),
+https://www.african-court.org/cpmt/storage/app/uploads/public/62a/c84/2f0/62ac842f0aa3e363271190.pdf
+(on file with author).
+If cases cannot be found in official reports, cite the
+International Law Reports
+(
+I.L.R.
+) (1950–present) or
+Annual Digest and Reports of Public International Law Cases
+(
+Ann. Dig.
+) (1919–49). Volume numbers, rather than years, should be used. Early volumes of the Annual Digest have been renumbered according to tables appearing in all volumes after volume 25. Include the name of the court and the year of the decision in a parenthetical:
+Loomba v. Food & Agric. Org. of the United Nations, 47 I.L.R. 382 (Int’l Lab. Org. Admin. Trib. 1970).
+Mayras v. Sec'y-Gen. of the League of Nations, 13 Ann. Dig. 199 (Admin. Trib. of the League of Nations 1946).
+21.5.9 –
+International Cases in National Courts
+If an international case is decided by a national court whose reporter is not indicated in
+table T2
+, cite
+I.L.R., Ann. Dig., C.M.L.R., Common Mkt. Rep. (CCH)
+, a yearbook (
+rule 21.15
+), or an online source (
+rule 18.2
+). Indicate the country and court of origin parenthetically if not otherwise clear from the citation:
+Abdul Ghani v. Subedar Shoedar Khan, 38 I.L.R. 3 (W. Pak. High Ct. 1964).
+Ko Maung Tin v. U Gon Man, 14 Ann. Dig. 233 (High Ct. 1947) (Burma).

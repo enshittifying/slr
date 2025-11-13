@@ -1,0 +1,49 @@
+TITLE: 13 Legislative Materials (p.140)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 13-legislative-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13
+Legislative Materials
+(p.140)
+Besides statutes (
+rule 12
+), the legislative process generates bills and resolutions (
+rule 13.2
+); committee hearings (
+rule 13.3
+); reports, documents, and committee prints (
+rule 13.4
+); floor debates (
+rule 13.5
+); and, sometimes, separately bound legislative histories (
+rule 13.6
+). When citing any United States legislative material except debates, include the title (if relevant), the abbreviated name of the house, the number of the Congress, the number assigned to the material, and the year of publication. State legislative materials are cited similarly except when indicated otherwise. Abbreviations for commonly used words in legislative materials are listed in
+table T9
+.
+In addition, include parenthetically the session number for House and Senate documents published before the 60th Congress (1907), House Reports published before the 47th Congress (1881), and Senate Reports published before the 40th Congress (1867). For House and Senate materials published after these dates, the session number can be inferred from the year of publication: First sessions always fall in odd-numbered years, while second sessions always fall in even-numbered years. On rare occasions, Congress holds a third session. When citing materials produced during a third session, provide this information parenthetically.
+13.1
+Basic Citation Forms
+13.2
+Bills and Resolutions
+13.3
+Hearings
+13.4
+Reports, Documents, and Committee Prints
+13.5
+Debates
+13.6
+Separately Bound Legislative Histories
+13.7
+Electronic Media and Online Sources
+13.8
+Short Forms for Legislative Materials

@@ -1,0 +1,54 @@
+TITLE: 20.7 Short Citation Forms (pp. 212–13)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 20-foreign-materials
+  slug: 20-7-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20.7
+Short Citation Forms
+(pp. 212–13)
+(a) Cases.
+For common law citations, use short forms analogous to those provided in
+rule 10.9
+, when permitted. For civil law citation forms, the short form should include enough information to uniquely identify the original source and any additional information that would be helpful to the reader:
+1
+Corte Suprema de Justicia de la Nación [CSJN] [National Supreme Court of Justice], 18/7/2001, “Frenquel, Adolfo c. Centro de Ortopedias / recurso extraordinario,” La Ley [L.L.] (2001-D-22) (Arg.).
+But see
+Corte Suprema de Justicia [C.S.J.] [Supreme Court], 15 noviembre 1954, “Suárez, Alfredo c. Perez, Estela,” Rol de la causa: 124-2008 s., divorcio,
+Revista Gaceta Jurídica
+[R.G.J.] No. 190 p. 145 (Chile).
+2
+CSJN, 18/7/2001, “Frenquel, Adolfo,” L.L. (2001-D-23).
+But see
+C.S.J., 15 noviembre 1954, “Suárez, Alfredo,” R.G.J. No. 190 p. 146.
+(b) Constitutions.
+Do not use a short form, other than “
+id.
+,” for constitutions.
+(c) Statutes.
+Use short forms analogous to those provided in
+rule 12.10
+, when possible. Otherwise, include enough information to uniquely identify the original source and any additional information that would be helpful to the reader. The jurisdiction parenthetical may be included in the short form if it is not evident from the elements of the short form citation:
+1
+Loi 85-699 du 11 juillet 1985 tendant à la constitution d'archives audiovisuelles de la justice [Law 85-699 of July 11, 1985 for the Formation of Audiovisual Archives of the Judiciary],
+Journal Officiel de la République Française [J.O.] [Official Gazette of France]
+, July 12, 1985, p. 7885.
+2
+Ley No. 217, 2 May 1996, Ley General del Medio Ambiente y los Recursos Naturales [Ley del Medio Ambiente] [Environmental and Natural Resources Law] tit. III, ch. II, sec. I,
+La Gaceta, Diario Oficial
+[L.G.], 6 June 1996 (Nicar.).
+3
+Law 85-699 of July 11, 1985, art. 4 (Fr.); Environmental and Natural Resources Law, tit. III, ch. II, sec. II (Nicar.).
+(d) Periodicals.
+Use short forms analogous to those provided in
+rule 16.9
+.

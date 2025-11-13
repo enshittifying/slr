@@ -1,0 +1,51 @@
+TITLE: 16.3 Title (pp. 166–67)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-3-title
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.3
+Title
+(pp. 166–67)
+Cite the full periodical title as it appears on the title page but capitalize according to
+rule 8
+(unless the title is not in English, as described in
+rule 20.2.2(b)
+). Do not abbreviate words or omit articles in the title. Use italics:
+Edward B. Rock,
+The Logic and (Uncertain) Significance of Institutional Shareholder Activism
+, 79
+Geo
+. L.J. 445 (1991).
+Cecilia Lacey O’Connell, Comment,
+The Role of the Objector and the Current Circuit Court Confusion Regarding Federal Rule of Civil Procedure 23.1: Should Non-Named Shareholders Be Permitted to Appeal Adverse Judgments?
+,
+48 Cath. U. L. Rev
+. 939, 943–46 (1999).
+When the title contains a reference to material that would be italicized when appearing in the main text according to
+rule 2.2(a)
+, such material should appear in ordinary roman type:
+Nathaniel A. Vitan, Book Note,
+Grounded Paratroopers: On Collins and Skover’s
+The Death of Discourse, 13
+J.L. & Pol.
+207, 210 (1997).
+Seth F. Kreimer,
+Does Pro-Choice Mean Pro-Kevorkian? An Essay on
+Roe
+,
+Casey
+, and
+the Right to Die
+, 44
+Am. U. L. Rev.
+803, 812 (1995).

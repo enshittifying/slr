@@ -1,0 +1,24 @@
+TITLE: T3.8 International Tribunal for the Law of the Sea (p.331)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-8-international-tribunal-for-the-law-of-the-sea
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.8
+International Tribunal for the Law of the Sea
+(p.331)
+Cite to
+ITLOS Rep.
+International Tribunal for the Law of the Sea Reports of Judgments, Advisory Opinions
+and Orders
+1956–date
+ITLOS Rep.

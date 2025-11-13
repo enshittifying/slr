@@ -1,0 +1,50 @@
+TITLE: T4.1 Official U.S. Sources (p.332)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t4-treaty-sources
+  slug: t4-1-official-u-s-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T4.1
+Official U.S. Sources
+(p.332)
+United States Treaties in Force
+1994–date
+<year>
+U.S.T.I.F. xxx
+Treaties and Other International
+Acts Series
+1945–date
+T.I.A.S. No. x
+Senate Treaty Documents
+1981–date
+S. Treaty Doc No.
+x
+United States Treaties and Other
+International Agreements
+1950–1984
+<volume>
+U.S.T. xxx
+Senate Executive Documents
+1778–1980
+S. Exec. Doc No.
+x
+Statutes at Large
+(indexed at 64 Stat. B1107)
+1778–1949
+<volume>
+Stat. xxx
+Treaty Series
+1778–1945
+T.S. No. x
+Executive Agreement Series
+1922–1945
+E.A.S. No. x

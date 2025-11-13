@@ -1,0 +1,116 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T01:02:46.243048",
+  "footnote_range": "30-40",
+  "used_gpt": true,
+  "footnotes_processed": 11,
+  "total_citations": 0,
+  "successful_retrievals": 0,
+  "failed_retrievals": 0,
+  "pdf_files": [],
+  "parsing_results": [
+    {
+      "footnote_number": 30,
+      "original_text": "104 F.4th 1370 , 1379 (Fed. Cir. 2024);  see also  Janssen Pharms., Inc. v. Mylan Lab'ys Ltd., No. 23-2042, 2025 WL 946390, at *3 (Fed. Cir. Mar. 28, 2025)  (affirming a ruling of induced infringement...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:02:48.266035",
+      "citations": []
+    },
+    {
+      "footnote_number": 31,
+      "original_text": "No. CV1803632, 2023 WL 9017081, at *7-8 (D.N.J. Dec. 29, 2023) ,  appeal filed , No. 2024-1346 (Fed. Cir. Jan. 11, 2024). ",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:02:50.009326",
+      "citations": []
+    },
+    {
+      "footnote_number": 32,
+      "original_text": "See infra  Section  I.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:02:51.641851",
+      "citations": []
+    },
+    {
+      "footnote_number": 33,
+      "original_text": "See infra  Section  II.D .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:02:53.148449",
+      "citations": []
+    },
+    {
+      "footnote_number": 34,
+      "original_text": "See infra  Section  III .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:02:54.839221",
+      "citations": []
+    },
+    {
+      "footnote_number": 35,
+      "original_text": "  See  Dani Kass,  GSK Redo Doesn’t Cure Generics’ ‘Skinny Label’ Uncertainty ,  Law360  (Aug. 9, 2021),  https://www.law360.com/articles/1410679/gsk-redo-doesn-t-cure-generics-skinny-label-uncertaint...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:02:56.574804",
+      "citations": []
+    },
+    {
+      "footnote_number": 36,
+      "original_text": "  Bryan S. Walsh et al.,  Frequency of First Generic Drug Approvals With “Skinny Labels” in the United States , 181  JAMA Internal Med.  995 (2021).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:02:58.437238",
+      "citations": []
+    },
+    {
+      "footnote_number": 37,
+      "original_text": "See infra  Section  III.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:03:00.480204",
+      "citations": []
+    },
+    {
+      "footnote_number": 38,
+      "original_text": "See infra  Section  III.B .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:03:02.180386",
+      "citations": []
+    },
+    {
+      "footnote_number": 39,
+      "original_text": "See infra  Section  III.C .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:03:03.846544",
+      "citations": []
+    },
+    {
+      "footnote_number": 40,
+      "original_text": "See infra  Section  IV .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:03:05.532763",
+      "citations": []
+    }
+  ],
+  "retrieval_results": [],
+  "completed_at": "2025-08-09T01:03:05.533486",
+  "duration_seconds": 19.290438,
+  "success_rate": 0.0
+}

@@ -1,0 +1,63 @@
+TITLE: 20.3 Cases (pp. 210–11)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 20-foreign-materials
+  slug: 20-3-cases
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20.3
+Cases
+(pp. 210–11)
+Cite foreign cases according to
+rule 10
+as modified by the following instructions and
+table T2
+.
+20.3.1 –
+Common Law Cases
+Indicate the deciding court parenthetically:
+R v. Lockwood (1782) 99 Eng. Rep. 379 (KB).
+But if the court involved is the highest court in the jurisdiction, only the jurisdiction needs to be identified:
+Chase v. Campbell, [1962] S.C.R. 425 (Can.).
+20.3.2 –
+Civil Law and Other Non-Common Law Cases
+Cite cases from non-common law countries according to
+table T2
+as modified by the following instructions.
+(a) Name of the court.
+Identify courts as indicated in
+rule 20.1
+. If not otherwise clear from the context, include an English translation of the court designation:
+Bundesgerichtshof [BGH] [Federal Court of Justice] Apr. 7, 2003, 154
+Entscheidungen des Bundesgerichtshofes in Zivilsachen
+[BGHZ] 53, 126 (Ger.).
+(b) Source.
+Cite the sources listed, with their abbreviations, in
+table T2
+. As required by
+rule 20.2.3
+, give the full form the first time a source is cited, indicating in brackets the abbreviation that will be used subsequently.
+Many civil law decisions do not appear in official reporters. If a case cited does not appear in an official source, cite a journal or periodical, issued within the jurisdiction if possible, or a reprint or translation of the decision according to
+rules 1.6(a)
+or
+20.2.5
+respectively.
+(c) Jurisdiction.
+Always include the jurisdiction, abbreviated according to
+table T10
+, in parentheses at the end of the citation, as required by
+rule 20.1
+.
+(d) Annotations.
+Annotations to civil law cases are cited according to
+rule 3.4
+:
+Cour de cassation [Cass.] [Supreme Court for Judicial Matters] 1e civ., Dec. 14, 1982, Bull. civ. I, No. 360 note (Fr.) (note of Aynès).

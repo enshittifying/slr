@@ -1,0 +1,42 @@
+TITLE: 1 Structure and Use of Citations (p.65)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 1-structure-and-use-of-citations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+1
+Structure and Use of Citations
+(p.65)
+Provide citations to authorities so that readers may identify and find those authorities for future research. Citations are made in citation sentences and clauses (
+rule 1.1
+) and are introduced by signals. Signals organize authorities and show how those authorities support or relate to a proposition given in the text (
+rule 1.2
+). Citation sentences and clauses may contain more than one signal. Order signals according to
+rule 1.3
+. Within each signal, arrange authorities according to
+rule 1.4
+. Parentheticals may be necessary to explain the relevance of a particular authority to the proposition given in the text (
+rule 1.5
+). Certain additional information, specific to that authority, may also be appended according to
+rule 1.6
+.
+1.1
+Citation Sentences and Clauses in Law Reviews
+1.2
+Introductory Signals
+1.3
+Order of Signals
+1.4
+Order of Authorities Within Each Signal
+1.5
+Parenthetical Information
+1.6
+Related Authority

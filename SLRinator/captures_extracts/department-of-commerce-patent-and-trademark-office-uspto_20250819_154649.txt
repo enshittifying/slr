@@ -1,0 +1,100 @@
+TITLE: Department of Commerce, Patent and Trademark Office (USPTO) (pp. 262–63)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: department-of-commerce-patent-and-trademark-office-uspto
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Department of Commerce, Patent and Trademark Office (USPTO)
+(pp. 262–63)
+Decisions:
+Cite decisions of the Commissioner of Patents to
+Decisions of the Commissioner of Patents
+(
+Dec. Comm’r Pat.
+) following
+rule 14.3
+, except that if the party name includes a procedural phrase, it should be included.
+Ex parte
+Latimer, 1889 Dec. Comm’r Pat. 123.
+Cite decisions by the Patent Trial and Appeal Board (
+P.T.A.B.
+) as:
+<case name>
+, No.
+<docket number>
+,
+<citation to secondary source if available>
+(P.T.A.B.
+<date>
+).
+Cite decisions of its predecessor, the Board of Patent Appeals and Interferences
+(B.P.A.I.)
+as
+:
+<case name>
+, No.
+<docket number>, <citation to secondary source if available>
+(B.P.A.I.
+<date>
+).
+SAP Am., Inc. v. Versata Dev. Grp., Inc., No. CBM2012-00001 (P.T.A.B. June 11, 2013).
+Ex parte
+Baggett, No. 2007-2648 (B.P.A.I. Mar. 10, 2008).
+Ex parte
+Fallaux, No. 2008-2251, 2008 WL 2463014 (B.P.A.I. June 17, 2008).
+Cite decisions of the Trademark Trial and Appeal Board (
+T.T.A.B.
+) as:
+<case name>, <citation to secondary source>
+(T.T.A.B.
+<year>
+).
+Bos. Red Sox Baseball Club, Ltd. v. Sherman, 88 U.S.P.Q.2d (BL) 1581 (T.T.A.B. 2008).
+Patents:
+Cite the patent number.
+U.S. Patent No. 4,405,829.
+The patent name, filing date, or issuing date may be included if relevant.
+Cryptographic Commc’ns Sys. & Method, U.S. Patent No. 4,405,829 (filed Dec. 14, 1977) (issued Sept. 20, 1983).
+To cite a specific field of the title page, include the field code in brackets.
+U.S. Patent No. 4,405,829, at [75] (filed Dec. 14, 1977).
+Cite a specific portion of patent text, a patent figure, or an item within a figure according to the following examples:
+U.S. Patent No. 4,405,829 col. 2 l. 30 (filed Dec. 14, 1977).
+U.S. Patent No. 4,405,829 fig.3 (filed Dec. 14, 1977).
+U.S. Patent No. 4,405,829 fig.3, item 22 (filed Dec. 14, 1977).
+The short form for a patent includes an apostrophe followed by the last three digits of the patent number.
+'829 Patent.
+Trademarks:
+Cite registered trademarks as:
+<TRADEMARK NAME>
+, Registration No.
+<registration number>.
+INTERNATIONAL WALKIE TALKIE, Registration No. 3,016,449.
+Where the trademark is unnamed, the description filed with the Trademark Office may be used.
+The mark consists of a stylized representation of a peacock, Registration No. 1,931,255.
+Cite trademarks that have been filed, but not approved, as:
+U.S. Trademark Application Serial No.
+<Serial Number>
+(filed
+<date>
+).
+U.S. Trademark Application Serial No. 77/341,910 (filed Dec. 1, 2007).
+Official Publications:
+Official Gazette of the United States Patent Office (1872–1971)
+Off. Gaz. Pat. Office
+Official Gazette of the United States Patent and Trademark Office
+Off. Gaz. Pat. & Trademark Office
+Trademark Manual of Examining Procedure
+TMEP (5th ed. Sept. 2007)
+Manual of Patent Examining Procedure
+MPEP (8th ed. Rev. 7, Sept. 2008)
+Trademark Trial and Appeal Board Manual of Procedure
+TBMP (3d ed. Rev. 2, June 2013)

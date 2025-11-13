@@ -1,0 +1,148 @@
+TITLE: 15.10 Short Citation Forms (pp. 163–64)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-10-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.10
+Short Citation Forms
+(pp. 163–64)
+Once a book, report, or other nonperiodic material has been cited in full in a law review footnote, a short form employing either “
+id
+.
+” or “
+supra
+” may be used to refer to the work in subsequent citations. Never use “
+infra
+” to refer to these materials. In general, follow
+rule 4
+for short citation forms; however, use
+rule 15.10.1
+when referring to a shorter work in collection or the collection as a whole.
+15.10.1 –
+Short Forms for Works in Collection
+To cite an essay, article, or document found within a volume of collected shorter works when the shorter work has already been cited in full, you may use “
+id.
+” to refer to the shorter work if it was cited as the immediately preceding authority within the same footnote or as the sole authority within the immediately preceding footnote. Do not use “
+id.
+” to refer to the collection as a whole when citing another shorter work within the collection.
+Use a “
+supra
+” form to refer to the collection as a whole. The “
+supra
+” form for the entire volume should include the title of the collection (rather than an author) regardless of whether the collected pieces have a single author or multiple authors.
+Use a “
+supra
+” form to refer to the shorter work if it was not cited as the immediately preceding authority in the same footnote or as the sole authority in the immediately preceding footnote. The “
+supra
+” form for the individual work should include the last name of the author or authors, or, if none, the title of the shorter work:
+1
+Feminism/Postmodernism
+(Linda J. Nicholson ed., 1990);
+see
+Thomas Schelling, A Process of Residential Segregation: Neighborhood Tipping
+,
+reprinted in
+Economic Foundations of Property Law
+307, 308 (Bruce A. Ackerman ed., 1975).
+2
+Letter from Virginia Woolf to Vita Sackville-West (Dec. 22, 1925),
+reprinted
+in
+3
+The Letters of Virginia Woolf
+, 1923–1928, at 224 (N. Nicolson & Joanne Trautmann eds., 1st Am. ed. 1978);
+cf.
+Judith Butler,
+Gender Trouble, Feminist Theory, and Psychoanalytic Discourse
+,
+in
+Feminism/Postmodernism
+,
+supra
+note 1, at 324, 324–25; Andreas Huyssen,
+Mapping the Postmodern
+,
+in
+Feminism/Postmodernism
+,
+supra
+note 1, at 234, 234–35. Butler does not think “woman” can be adequately defined, Butler,
+supra
+, at 325, but Woolf’s observations are especially compelling, Letter from Virginia Woolf to Vita Sackville-West,
+supra
+.
+3
+A wholly different perspective is presented in
+Ayn Rand
+,
+The
+Cashing-In
+:
+The Student
+“Rebellion
+,
+” in
+The New Left
+13, 20–24 (1971).
+But see
+Huyssen,
+supra
+note 2, at 234–35 (questioning whether postmodern transformation has generated genuinely new forms).
+4
+E.g.
+,
+Schelling
+,
+supra
+note 1, at 310.
+5
+Id.
+;
+see also
+The Federalist
+No. 81
+, at 393 (Alexander Hamilton) (Terrence Ball ed., 2003).
+But see
+Ayn Rand
+,
+The Comprachicos
+(arguing that the educational establishment teaches ideas that destroy children’s minds),
+in
+The New Left
+,
+supra
+note 3, at 152, 203.
+6
+See
+Rand
+,
+supra
+note 3, at 99;
+Rand
+,
+supra
+note 5, at 201.
+7
+4
+Richard R. Powell, Powell on Real Property
+¶ 513[3], at 41–42 (Patrick J. Rohan ed., 1995).
+8
+2
+id.
+¶ 203, at 20–17;
+see
+The Federalist No
+. 5,
+supra
+note 5, at 17 (John Jay).
+For materials available only online, use the normal short form appropriate for the source. A URL need not be repeated after a full citation.

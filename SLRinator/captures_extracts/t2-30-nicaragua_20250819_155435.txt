@@ -1,0 +1,246 @@
+TITLE: T2.31 Nicaragua
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-30-nicaragua
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.31
+Nicaragua
+(Civil Law)
+Cases
+The Nicaraguan Supreme Court is comprised of four Chambers: the Sala Constitucional (Constitutional Chamber), Sala Civil (Civil Chamber), Sala Penal (Penal Chamber), and Sala de lo Contencioso Administrativo (Administrative Litigation Chamber).
+Citation of a Nicaraguan Supreme Court of Justice case:
+Sentencia [S.]
+No.
+<judgment number>
+,
+<time of judgment, in Spanish>
+,
+<date of judgment in day month year format>
+,
+<name of chamber that issued the judgment>
+,
+<publication name>
+[
+<publication abbreviation>
+] [
+<English translation of court name>
+]
+p.
+<first page>
+,
+<page(s) of specific material, if desired>
+,
+Cons.
+<paragraph number(s)>
+(
+<country abbreviation if not evident from context>
+).
+Sentencia [S.] No. 77, de las 10:45 a.m., 26 May 1992, Sala Civil,
+Boletín Judicial
+[B.J.] [Supreme Court of Justice] p. 102, Cons. I (Nicar.).
+Because the
+Boletín Judicial
+(
+B.J
+.
+) is only published at the end of each year, the Supreme Court also publishes its most important cases in its quarterly magazine,
+Justicia
+.
+Citation of a case published in the magazine
+Justicia
+: Sentencia [S.] No.
+<judgment number>
+,
+<time of judgment, in Spanish
+>,
+<date of judgment in day
+month year format>
+,
+<name of the chamber that issued the judgment>
+,
+Revista
+Justicia
+[
+<English translation of court name>
+] No.
+<volume number> <month and
+year of publication>
+p.
+<page number(s)>
+, Cons.
+<paragraph number(s) of opinion>
+(
+<country abbreviation if not evident from context>
+).
+Sentencia [S.] No. 2, de las 12:00 p.m., 15 July 1997, Sala Constitucional,
+Revista Justicia
+[Supreme Court of Justice] No. 11 Jan. 1998 p. 35, Cons. II (Nicar.).
+The cases of the nine Nicaraguan Tribunals of Appeals and other lower courts were previously (but not regularly) published in
+Boletín Informativo
+(
+B.I.
+) by the Center of Judicial Documents (Centro de Documentación Judicial) of the Judicial Branch. The
+Boletín Informativo
+was first published in 1999, and again in 2000, 2002, and 2005. It was discontinued after 2005.
+Citation of a Nicaraguan Tribunal of Appeals case:
+Sentencia [S.] No.
+<judgment number>
+,
+<time of judgment, in Spanish>
+,
+<date of judgment in day month year format>
+,
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+],
+<chamber>
+,
+<city>
+,
+<publication name>
+[
+<publication abbreviation>
+] No.
+<volume number>
+,
+<month and year of publication>
+, p.
+<page number(s)>
+(
+<country abbreviation if not evident from context>
+).
+Sentencia [S.] No. 27, de las 10:00 a.m., 1 March 2000, Tribunal de Apelación, Circumscripción Norte [TACN] [Appellate Tribunal of the North Region], Sala de lo Penal, Matagalpa,
+Boletín Informativo
+[B.I.] No. 4, July 2002, p. 266 (Nicar.).
+Courts
+:
+Corte Suprema de Justicia
+(
+CSJ
+) (Supreme Court of Justice): Cite to
+B.J.
+, if therein;
+Tribunales de Apelación
+(
+TA
+) (tribunals of appeals: one for each judicial region of the country),
+Juzgados de Distrito
+(district courts), and
+Juzgados Locales
+(local courts).
+Tribunals of Appeals
+Tribunal de Apelación, Circumscripción Las Segovias
+TACLS
+Tribunal de Apelación, Circumscripción Norte
+TACN
+Tribunal de Apelación, Circumscripción Occidental
+TACO
+Tribunal de Apelación, Circumscripción Managua
+TACM
+Tribunal de Apelación, Circumscripción Sur
+TACS
+Tribunal de Apelación, Circumscripción Oriental
+TACOr.
+Tribunal de Apelación, Circumscripción Central
+TACC
+Tribunal de Apelación, Circumscripción Atlántico Norte
+TACAN
+Tribunal de Apelación, Circumscripción Atlántico Sur
+TACAS
+Constitution
+Citation format for the Nicaraguan constitution published in the official
+gazette:
+<
+Constitution Name
+>
+[
+<constitution abbreviation>
+]
+<relevant
+subdivisions, if desired>
+,
+La Gaceta
+,
+Diario Oficial
+[L.G.]
+<date of publication in
+day month year format>
+, as amended by
+<citation of amending act, if necessary>
+,
+L.G.
+<date of publication of amending act>
+(
+<country abbreviation if not evident
+from context>
+).
+Constitución Política de la República de Nicaragua
+[Cn.] tit. VIII, ch. III,
+La Gaceta
+,
+Diario Oficial
+[L.G.] 9 January 1987, as amended by Ley No. 330, Jan. 18, 2000, Reforma Parcial a la Constitución Política de la República de Nicaragua, L.G. Jan. 19, 2000.
+Statutes
+There are three types of legislative enactments:
+ley
+(statute promulgated by the National Assembly),
+decreto A.N.
+(decree promulgated by the National Assembly), and
+decreto
+(decree promulgated by the President of the Republic).
+Citation format:
+<type of legislative enactment>
+No.
+<enactment number>
+,
+<date of enactment in day month year format>
+,
+<full law or decree name>
+[
+<law or decree abbreviation, if available>
+] [
+<English translation of law or decree name>
+]
+<title(s), chapter(s), and section(s), if any; or article(s) and clause(s) or paragraph(s), if any>
+,
+La Gaceta, Diario Oficial [L.G.],
+<date of publication in day month year format>
+(
+<country abbreviation if not evident from context>
+).
+Ley No. 217, 2 May 1996, Ley General del Medio Ambiente y los Recursos Naturales [Ley del Medio Ambiente] [Environmental and Natural Resources Law] tit. III, ch. II, sec. I,
+La Gaceta, Diario Oficial
+[L.G.], 6 June 1996
+(
+Nicar.
+)
+.
+Citations to a law subsequent to the first citation to that law may include only the abbreviated law or decree name and the abbreviation of the official gazette instead of the full law or decree name and full name of the official gazette.
+Official Gazette
+The official publication of all legislation, including the constitution and international treaties ratified by Nicaragua, is the Official Gazette,
+La Gaceta, Diario Oficial
+(
+L.G.
+). The legislation becomes binding after it has been published in
+La Gaceta
+.
+Internet sources
+http://www.asamblea.gob.ni
+(Asamblea Nacional (National Assembly))
+http://www.poderjudicial.gob.ni
+(Poder Judicial ( Judicial Branch))
+https://www.loc.gov/item/guide-to-law-online/nicaragua/
+(Library of Congress Guide to Law Online: Nicaragua)

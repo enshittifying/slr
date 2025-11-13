@@ -1,0 +1,26 @@
+TITLE: Consumer Financial Protection Bureau (CFPB) (p.261)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: consumer-financial-protection-bureau-cfpb
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Consumer Financial Protection Bureau (CFPB)
+(p.261)
+Decisions:
+Cite decisions as:
+<case name>
+, CFPB No.
+<decision number>, <citation to secondary source if available>
+(
+<date>
+).
+ACE Cash Express, Inc., CFPB No. 2014-CFPB-0008 (July 8, 2014).

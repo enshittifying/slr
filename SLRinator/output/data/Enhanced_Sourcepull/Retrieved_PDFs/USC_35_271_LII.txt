@@ -1,0 +1,9 @@
+USC Title 35, Section 271(a)
+Source: Cornell Legal Information Institute
+URL: https://www.law.cornell.edu/uscode/text/35/271
+Citation: 35 U.S.C. § 271(a)
+Retrieved at: 2025-08-09T13:59:53.507848
+
+============================================================
+Note: Full HTML content parsing would be implemented here
+to extract the actual statute text and create a proper PDF.

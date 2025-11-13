@@ -1,0 +1,52 @@
+TITLE: 21.16 Digests (pp. 243–44)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-16-digests
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.16
+Digests
+(pp. 243–44)
+Citations to digests should be avoided whenever a more official source is available.
+(a) Annual digests.
+Since 1973, the United States Department of State has published an annual
+Digest of United States Practice in International Law
+. Provide the title for the subsection, the year, the title of the digest, the chapter and subsection number, and a pincite if available:
+U.N. Plan for Namibian Independence, 1989–90
+Digest of United States Practice in International Law
+, ch. 7, §A(1) at 198.
+(b) Named digests.
+Early digests were multi-volume sets edited by a single editor and known by that editor’s name. For these digests, provide the title of the section (including subtitles, if relevant, as under
+rule 15.3
+), the volume cited, the editor’s name followed by the word “
+Digest
+,” and the chapter and section number as appropriate, if any:
+Access to Courts, 8
+Whiteman Digest
+, ch. 23, § 7, at 408.
+(c) Foreign digests.
+When citing digests of another country, cite analogously to those published in the United States. If the digest is published as an annual series, cite according to
+rule 21.16(a)
+. If the digest is identified by its editor’s name, cite according to
+rule 21.16(b)
+. The first time a foreign digest is cited, always provide the full title, followed by the abbreviation in brackets if useful for subsequent citations, similar to
+rule 20.2.3
+.
+(d) Digests published as periodical sections.
+When a digest appears as an annual or periodical section of a journal, cite the digest as an article under
+rule 16
+. Otherwise, cite the particular section in question as included in a larger work:
+John R. Crook,
+Contemporary Practice of the United States Relating to International Law
+, 104
+Am. J. Int’l L.
+489 (2010).

@@ -1,0 +1,237 @@
+TITLE: T2.16 Hong Kong
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-16-hong-kong
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.16
+Hong Kong
+(Common Law)
+Chinese and English language sources
+Hong Kong has two official languages: English and Chinese. Where a source is available in both languages, generally cite to the English source, unless there is a specific reason to cite to the Chinese version. When citing an English language primary source, it is not necessary to preface the source with the words “
+translated in
+.
+”
+Romanization
+For romanization of Chinese language citations, follow instructions in
+rule 20.2.4(b)
+.
+English abbreviations
+Follow abbreviation guidelines for U.S. materials, using
+tables T6
+and
+T10
+, unless an exception is provided in
+table T2.43 United Kingdom
+. Render “Hong Kong Special Administrative Region” or “HKSAR” as “Hong Kong.”
+Cases
+Citation format:
+<case name>
+, [
+<year of decision>
+]
+<volume number or part>
+<reporter abbreviation>
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<court abbreviation>
+) (
+<jurisdiction abbreviation if not evident from context>
+).
+Law Soc’y of H.K. v. Brook, [1997–1998] 1 H.K.C.F.A.R. 228, 231D (C.F.I.).
+Hong Kong v. Chan Hing Hung, [1998] 4 H.K.C. 487, 488C (C.F.I.).
+Tong Ping-chuen v. AG, [1990] 1 H.K.L.R. 551, 559E (H.C.).
+Privy Council
+(
+P.C.
+) (all criminal and civil final appeals until July 1, 1997): Cite to reports listed under
+table T2.43 United Kingdom
+.
+Court of Final Appeal
+(
+C.F.A.
+) (all criminal and civil final appeals after July 1, 1997): Cite to
+H.K.C.F.A.R.
+,
+H.K.C.
+, or
+Legal Reference System
+, if therein.
+Hong Kong Court of Final Appeal Reports
+1997/1998–date
+H.K.C.F.A.R.
+Hong Kong Cases
+1946–date
+H.K.C.
+Legal Reference System
+1997–date
+Legal Reference System
+Court of Appeal of the High Court
+(
+C.A.
+): Cite to
+H.K.L.R.D.
+,
+H.K.L.R.
+,
+H.K.C.
+, or
+Legal Reference System
+, in that order of preference.
+The Authorized Hong Kong
+Law Reports and Digest
+1997–date
+H.K.L.R.D.
+Hong Kong Law Reports
+1905/1906–1996
+H.K.L.R.
+Hong Kong Cases
+1946–date
+H.K.C.
+Legal Reference System
+1946–date
+Legal Reference System
+Court of First Instance of the High Court
+(
+C.F.I.
+) (
+High Court of Justice
+(
+H.C.
+) from 1975 to 1998): Cite to
+H.K.L.R.D.
+,
+H.K.L.R.
+,
+H.K.C.
+, or
+Legal Reference System
+, if therein.
+District Court
+(
+D.C.
+): For an online source, cite using application number, abbreviation, and date as provided in the judgment. Cite to
+D.C.L.R.
+or
+Legal Reference System
+, if therein. Provide a parallel print source citation where available.
+District Court Law Reports
+(Supplement to Hong Kong Law Reports)
+1953–1996
+D.C.L.R.
+Legal Reference System
+1968–date
+Legal Reference System
+Ward v. Harting (HK) Ltd., DCCJ 2744/2004 (D.C. Dec. 14, 2005) (Legal Reference System) (H.K.).
+Family Court
+(
+F.C.
+): Cite using application number, abbreviation, and date as provided in the judgment. Cite to
+Legal Reference System
+. Provide a parallel print source citation where available.
+Legal Reference System
+1972–date
+Legal Reference System
+C v. L, [2004] 2 H.K.L.R.D. 1, FCMC 7268/2000 (F.C. Jan. 18, 2002) (Legal Reference System) (H.K.).
+Lands Tribunal
+(
+L.D.
+): Cite using application number, abbreviation, and year as provided in the judgment. Cite to
+Legal Reference System
+.
+Legal Reference System
+1970–date
+Legal Reference System
+Naylor v. Konmill Ltd., LDNT 61/2004 (L.D. July 27, 2004) (Legal Reference System) (H.K.).
+Constitution
+See also listing under
+table T2.9 China, People’s Republic of
+.
+The Basic Law of the Hong Kong Special Administrative Region of the People’s Republic of China
+Xianggang Jiben Fa
+Xianggang Jiben Fa
+art. 24, § 1 (H.K.).
+Laws and ordinances
+Cite to one or more of the following sources, if therein and available. Provide a parallel citation where available.
+The Laws of Hong Kong (香港法例)
+1991–date
+L.H.K.
+Ordinances of the Hong Kong Special Administrative Region for the year
+<year>
+(Legal Supplement No. 1 to The Government of the Hong Kong Special Administrative Region Gazette)
+1855–date
+O.H.K.
+Bilingual Laws Information System (雙語法例資料系統)
+1997–date
+BLIS
+Citation format for
+The Laws of Hong Kong
+:
+<statute or ordinance name>
+, (
+<edition year>
+) Cap.
+<chapter number>
+,
+<page number>
+, §
+<section>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Matrimonial Proceedings and Property Ordinance, (1990) Cap. 192, 1, § 1(1) (H.K.).
+Citation format for the
+Ordinances of the Hong Kong Special Administrative Region
+:
+<statute or ordinance name>
+, No.
+<ordinance number>
+, (
+<year of publication>
+)
+<volume>
+O.H.K., §
+<section>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Hong Kong Reunification Ordinance, No. 110, (1997) 3 O.H.K., § 29(1).
+Regulations
+Cite to one or more of the following sources, if therein and available.
+The Laws of Hong Kong (香港法例)
+1991–date
+L.H.K.
+Regulations of the Hong Kong Special Administrative Region for the year
+<year>
+(Legal Supplement No. 2 to The Government of the Hong Kong Special Administrative Region Gazette)
+1948–date
+R.H.K.
+Bilingual Laws Information System (雙語法例資料系統)
+1997–date
+BLIS
+Internet sources
+http://www.basiclaw.gov.hk
+(The Basic Law of Hong Kong)
+https://www.elegislation.gov.hk
+(Bilingual Laws Information System, 雙語法 例資料系統 (BLIS))
+http://www.gld.gov.hk/egazette
+(The Government of the Hong Kong Special Administrative Region Gazette (Hong Kong Gaz.))
+http://www.hklii.org
+(Hong Kong Legal Information Institute (HKLII))
+http://legalref.judiciary.gov.hk
+(Legal Reference System of the Hong Kong Judiciary)
+http://www.doj.gov.hk/eng/laws/treaties.html
+(Treaties and International Agreements (In Force and Applicable to the Hong Kong SAR) (HK TIA))
+http://www.law.hku.hk/hrportal/international-obligations/hong-kong-treaty-project/database
+(Hong Kong Treaty Database)

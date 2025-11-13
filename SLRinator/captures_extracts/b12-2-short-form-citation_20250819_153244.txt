@@ -1,0 +1,45 @@
+TITLE: B12.2 Short Form Citation (pp. 21–22)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  parent: b12-statutes-rules-and-restatements
+  slug: b12-2-short-form-citation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B12.2
+Short Form Citation
+(pp. 21–22)
+The first mention of a statute, rule, regulation, or legislative material requires a full citation. Subsequent citations in the same general discussion may employ any short form that clearly identifies the source.
+Rules 12.10
+,
+13.8
+, and
+14.6
+include tables illustrating acceptable short forms for statutes, regulations, and legislative materials.
+You may use “
+id.
+” to refer to a statute or regulation codified within the same title as the statute or regulation cited in the immediately preceding citation:
+Full Citation
+Id.
+Citation for Identical Provision
+Id.
+Citation for Different Provision Within Same Title
+28 U.S.C. § 1331.
+Id.
+Id.
+§ 1332.
+50 C.F.R. § 10.12 (2019).
+Id.
+Id.
+§ 10.13(c)(1).
+Restatement (Second) of Contracts § 90 (A.L.I. 1981).
+Id.
+Id.
+§ 92

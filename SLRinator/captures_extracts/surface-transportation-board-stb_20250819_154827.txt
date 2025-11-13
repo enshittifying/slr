@@ -1,0 +1,27 @@
+TITLE: Surface Transportation Board (STB) (p.272)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: surface-transportation-board-stb
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Surface Transportation Board (STB)
+(p.272)
+Cite to the
+Surface Transportation Board Reporter
+(
+S.T.B.
+). Cite materials from its predecessor, the Interstate Commerce Commission (
+ICC
+), to the
+Interstate Commerce Commission Reporter
+(I.C.C., I.C.C.2d).
+For unpublished decisions, the official date is the date on which the STB (or ICC) served the decision on the parties or otherwise filed it, not the date of the decision itself.

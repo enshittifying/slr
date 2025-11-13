@@ -1,0 +1,27 @@
+TITLE: 23.8 Pre-1900 Newspapers (p.254)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-8-pre-1900-newspapers
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.8
+Pre-1900 Newspapers
+(p.254)
+For original images of pre-1900 newspapers catalogued in an archival database, use
+rule 16.6
+and append the standard archival parenthetical. If the the database only exists online and has no physical equivalent, you may use the URL of the exact image for the archival location:
+News and Gossip from Washington
+,
+Springfield Wkly. Republican
+, Jan. 12, 1861, at 5 (on file with Libr. of Cong., Chronicling America,
+https://chroniclingamerica.loc.gov/lccn/sn83020847/1861-01-12/ed-1/seq-5
+).

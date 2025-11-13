@@ -1,0 +1,497 @@
+TITLE: T2.13 France, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-13-france-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.13
+France, Republic of
+(Civil Law)
+Cases
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<city, if applicable>
+,
+<chamber, if applicable>
+,
+<date of decision in month day, year format>
+,
+<case number, if available>
+,
+<reporter or journal abbreviation, if available> <year of publication, if applicable>
+,
+<section of journal, if applicable>
+,
+<page on which decision appears, or decision number, if applicable>
+,
+<author of case observation or note, if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Cour d'appel [CA] [regional court of appeal] Limoges, civ., Oct. 1, 2012, 11/01081.
+CE Ass., Nov. 8, 1974, 90.368, Rec. Lebon 541.
+When citing to a reporter or journal, follow the particular formats below where they differ from the general format above.
+Tribunal de grande instance [TGI] [ordinary court of original jurisdiction] Nice, May 30, 1990, D. 1991 Somm. 113, obs. F. Derrida (Fr.).
+Cour d’appel [CA] [regional court of appeal] Paris, 1e ch., Dec. 20, 1994, JCP 1994, II, 22250, note Neirinck (Fr.).
+Ordinary jurisdiction
+Cour de cassation
+(
+Cass.
+) (Supreme Court for Judicial Matters (
+Tribunal de cassation
+prior to 1804)): highest court of ordinary jurisdiction. It ordinarily sits in separate chambers (called “sections” prior to 1826), which are abbreviated as follows:
+Assemblée plénière
+1978–date
+ass. plén.
+Chambres réunies
+1790–1978
+ch. réuns.
+Chambre mixte
+1976–date
+ch. mixte
+Première chambre civile
+1790–date
+1e civ.
+Deuxième chambre civile
+1952–date
+2e civ.
+Troisième chambre civile
+1952–date
+3e civ.
+Chambre criminelle
+1790–date
+crim.
+Chambre commerciale et financière
+1947–date
+com.
+Chambre sociale
+1938–date
+soc.
+Chambre des requêtes
+1790–1947
+req.
+Chambres temporaires des expropriations
+1964–1967
+chs. exprops.
+Cour de cassation decisions are published in an official reporter set in two series:
+Bulletin des arrêts de la Cour de cassation rendus en matierè, civile
+1792–date
+Bull. civ.
+Bulletin des arrêts de la Cour de cassation rendus en matierè, criminelle
+1798–date
+Bull. crim.
+Cite to
+Bull. civ.
+or
+Bull. crim.
+, as appropriate, if therein, indicating part and case number. Otherwise cite to one of the legal reviews listed below if possible. The parts for the five civil chambers are as follows:
+1e civ.
+Bull. civ. I
+2e civ.
+Bull. civ. II
+3e civ.
+Bull. civ. III
+com.
+Bull. civ. IV
+oc.
+Bull. civ. V
+Cour de cassation [Cass.] [supreme court for judicial matters] 2e civ., Mar. 16, 2000, Bull. civ. II, No. 46 (Fr.).
+Cour de cassation [Cass.] [supreme court for judicial matters] soc., July 7, 1983, Bull. civ. V, No. 433 (Fr.).
+Cour de cassation [Cass.] [supreme court for judicial matters] crim., Jan. 16, 2001, Bull. crim., No. 14 (Fr.).
+Cours d’appel
+(
+CA
+) (regional courts of appeal),
+Tribunaux de grande instance
+(
+TGI
+) (ordinary courts of original jurisdiction (
+Tribunaux de première instance
+(
+TPI
+) prior to 1958)),
+Cours d’assises
+(do not abbreviate) (courts of original jurisdiction for very serious crimes), and
+Tribunaux d’instance
+(
+Trib. inst.
+) (courts of petty jurisdiction (
+Juges de paix
+(
+JP
+) prior to 1958)): All cites should include the city and the chamber, if any.
+There are no official reporters for lower judicial court decisions. They are reported in general and specialized commercial legal journals or reviews. The editorial boards of these journals choose what to report and to include either the full text or a summary of a decision. Lower court decisions are also reported in commercial databases or on government websites.
+The following legal reviews are among the best known. Some of them have changed name and/or format through the years. They usually contain several parts. The full text of a court decision is generally under the heading “jurisprudence,” while summaries are under “sommaires” or “panorama.”
+Recueil Dalloz
+Formerly Dalloz-Sirey
+1965–1996
+Actualité Jurisprudentielle
+2007–date
+e.g.,
+D.
+<year>
+A.J.
+<page>
+Jurisprudence
+1965–2007
+e.g.,
+D.
+<year>
+,
+<page>
+Informations Rapides
+1965–2007
+e.g.,
+D.
+<year>
+inf. rap.
+<page>
+Sommaires Commentés
+1965–2007
+e.g.,
+D.
+<year>
+Somm.
+<page>
+Dalloz,
+Jurisprudence
+1945
+–
+1964
+D. Jur.
+Analytique,
+Jurisprudence
+1941–1944
+D.A. Jur.
+Critique,
+Jurisprudence
+Périodique et critique
+1941–1944
+1825–1940
+D.C. Jur.
+Cour de cassation
+D.P. I
+Cours royales, cours impériales,   cours d’appel
+D.P. II
+Conseil d’État
+D.P. III
+Recueil Sirey (entitled
+Recueil Général des Lois et des Arrêts
+until 1950)
+Sirey,
+Jurisprudence
+1956–1964
+1791–1955
+S. Jur.
+Cour de cassation
+S. Jur. I
+Other courts
+S. Jur. II
+Jurisprudence administrative
+S. Jur. III
+Gazette du Palais
+1881–date
+Jurisprudence
+e.g.,
+Gaz. Pal.
+<year>
+, 2,
+<page>
+Sommaires des cours et tribunaux
+e.g.,
+Gaz. Pal.
+<year>
+, Somm.
+<page>
+Juris-Classeur Périodique
+Edition Général (La Semaine Juridique)
+1942–date
+Jurisprudence
+e.g.,
+JCP
+<year>
+II
+<number>
+Panorama de Jurisprudence
+e.g.,
+JCP
+<year>
+IV
+<number>
+Bulletin Joly
+e.g.,
+Bull. Joly
+<year>
+,
+<page>
+Juris-Classeur Périodique
+Édition Entreprise et Affaires
+e.g.,
+JCP E.
+<year>
+,
+<number>
+Édition Notariale et Immobilière
+e.g.,
+JCP N.
+<year>
+,
+<number>
+Édition Sociale
+e.g.,
+JCP S.
+<year>
+,
+<number>
+JurisData
+e.g.,
+JurisData
+<number>
+Administrative jurisdiction
+Tribunal des conflits
+(
+TC
+) (reconciles disputes between the judicial and administrative adjudicative bodies),
+Conseil d’État
+(
+CE
+) (highest administrative court: sits in sub-section (
+CE
+), section (
+CE Sect.
+), or assembly (
+CE Ass.
+)),
+Cour administrative d'appel
+(
+CAA
+) (regional administrative courts of appeal), and
+Tribunaux administratifs
+(
+TA
+) (regional administrative courts of first instance): If possible, cite to
+Rec. Lebon
+or to
+one of the legal reviews listed above.
+Recueil des arrêts du Conseil d’État
+1821–date
+Rec. Lebon
+CE Sect., Mar. 5, 1943, Rec. Lebon 62
+CE Ass., Nov. 8, 1974, 90.368, Rec. Lebon 541
+CAA Douai, 3
+e
+ch., Aug. 7, 2013, 12DA01725
+TA Amiens, Apr. 10, 1973, Rec. Lebon 780
+Constitutional jurisdiction
+Citation format:
+Conseil constitutionnel [CC] [Constitutional Court] decision No.
+<decision number><category of decision>
+,
+<date of decision in month day, year format>
+,
+<publication abbreviation> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Conseil constitutionnel [CC] [Constitutional Court] decision No. 82-154DC, Dec. 29, 1982, Rec. 80 (Fr.).
+Conseil constitutionnel
+(
+CC
+) (Constitutional Court): Cite to
+J.O.
+or
+Rec.
+, if therein. The Conseil constitutionnel reviews the constitutionality of laws before they are promulgated. When it finds a provision unconstitutional, the provision is not promulgated.
+There are several categories of decisions. Déclaration de conformité (DC), which reviews the constitutionality of laws and parliamentary standing orders, is the category cited most often.
+Journal Officiel de la République Française (Official Gazette of France)
+1870–date
+J.O.
+Journal Official de l’Empire Français
+1852–1870
+Moniteur Universel
+1811–1852
+Gazette Nationale
+1789–1810
+Bulletin des Lois
+1791–1931
+Recueil des décisions du Conseil constitutionnel
+1960–date
+Rec.
+Constitution
+La Constitution
+Const.
+Citation format:
+<year>
+Const.
+<article>
+(
+<country abbreviation if not evident from context>
+).
+France has had fifteen different constitutions since its first in 1791. The current constitution was adopted in 1958.
+Codes
+Citation format:
+<code name>
+[
+<code abbreviation>
+] [<
+English translation of code name>
+]
+<article>
+(
+<country abbreviation if not evident from context>
+).
+Code civil [C. civ.] [Civil Code] art. 23 (Fr.).
+Code administratif (Administrative Code)
+C. adm.
+Code civil (Civil Code)
+C. civ.
+Code de commerce (Commercial Code)
+C. com.
+Code pénal (Penal Code)
+C. pén.
+Code de procédure pénale (Criminal Procedure Code)
+C. pr. pén.
+Code du travail (Labor Code)
+C. trav.
+Code de procédure civile (Civil Procedure Code)
+C.P.C.
+Statutes and decrees
+Citation format for a French law or decree:
+Loi (or Décret)
+<law or decree number>
+du
+<date in French of law or decree> <law or decree name>
+[
+<English translation of law or decree number, date, and name>
+],
+<reporter or journal name>
+[
+<reporter or journal abbreviation>
+] [
+<English translation of reporter or journal>
+],
+<date of publication>
+, p.
+<page number>
+(
+<country abbreviation if not evident from context>
+).
+Loi 2008-776 du 4 août 2008 de modernisation de l’économie [Law 2008-776 of August 4, 2008 on the Modernization of the Economy],
+Journal Officiel de la République Française [J.O.] [Official Gazette of France
+], Aug. 5, 2008, p. 12471.
+Loi 85-699 du 11 juillet 1985 tendant à la constitution d'archives audiovisuelles de la justice [Law 85-699 of July 11, 1985 for the Formation of Audiovisual Archives of the Judiciary],
+La Semaine Juridique [JCP] [Juridical Weekly]
+III
+, No. 57447.
+Cite to the
+J.O.
+, if therein; otherwise, cite to one of the following:
+Journal Officiel de la République Française
+J.O.
+Recueil Dalloz
+Dalloz-Sirey,
+Législation
+1965–1996
+D.S.L.
+Dalloz,
+Législation
+1945–1964
+D.L.
+Analytique,
+Législation
+1941–1944
+D.A.L.
+Critique,
+Législation
+1941–1944
+D.C.L.
+Périodique et critique
+1848–1940
+1825–1847
+D.P. IV
+D.P. III
+Bulletin législatif Dalloz
+1918–1982
+B.L.D.
+Actualité législative Dalloz
+1983–1995
+A.L.D.
+La Semaine Juridique
+(Juris-Classeur Périodique)
+1942–2004
+1927–date
+e.g.,
+JCP III, No.
+<number>
+Collection complète, décrets, ordonnances, règlements et avis du Conseil d’État (Duvergier & Bocquet)
+1788–1949
+Duv. & Boc.
+Treaties and conventions
+Citation format:
+<treaty or convention name>
+,
+<date of signing>
+,
+<abbreviated names of parties>
+,
+Journal Officiel de la République Française [J.O.] [Official Gazette of France
+],
+<date of publication>
+, p.
+<page number>
+(
+<country abbreviation if not evident from context>
+)
+.
+Tourism Accord, Oct. 26, 1979, Fr.-Mex.,
+Journal Officiel de la République Française [J.O.] [Official Gazette of France]
+, June 15, 1980, p. 1478.
+Cite to the
+J.O.
+, if therein; otherwise, cite to one of the following:
+Recueil des traités et accords de la France
+1961–date
+e.g.,
+<year>
+Recueil des traités
+, No.
+<number>
+Recueil des traités de la France
+1713–1906
+e.g.,
+<volume>
+Recueil des traités
+<page>
+Internet sources
+http://www.legifrance.gouv.fr
+(government portal to French law: provides access to the constitution; codes (some translated into English); official gazettes since 1990; treaties; recent decisions from the Cour de cassation, Conseil d’État, and Conseil constitutionnel; and links to European laws)
+http://www.assemblee-nationale.fr
+(National Assembly)
+http://www.journal-officiel.gouv.fr
+(Official Gazette)
+http://www.senat.fr
+(Senate)
+http://www.courdecassation.fr
+(Cour de cassation)
+http://www.conseil-etat.fr
+(Conseil d’État)
+http://www.conseil-constitutionnel.fr
+(Conseil constitutionnel)
+http://www.loc.gov/law/help/guide/nations/france.php
+(Library of Congress Guide to Law Online: France)

@@ -1,0 +1,39 @@
+TITLE: 18.6 Microform (pp. 192–93)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-5-microform
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.6
+Microform
+(pp. 192–93)
+(a) Microform collections reproducing preexisting materials.
+In general, when a document is reproduced in microform, it is not necessary to indicate this fact unless it would otherwise be difficult for a reader to identify and obtain the source. When citing material as “
+microformed on
+” a service, provide a complete citation to the original document and a citation to the microform in accordance with rule 1.6 regarding citations to related authority. If the microform service assigns a unique identifier or code to each document reproduced, include that identifier to assist the reader in locating the document cited. Include the name of the publisher of the microform series in parentheses, abbreviated according to
+rule 15.1(e)
+:
+Cal. Code Regs
+. tit. 26, § 23-2631(g) (Barclay’s 1990),
+microformed on
+Cal. Code of Reg. 1990 Revised Format, Fiche 143 (Univ. Microforms Int’l).
+Application of Employer Sanctions to Longshore Work, H.R. Rep. No
+. 101-208 (1989),
+microformed on
+CIS No. 89-H523-17 (Cong. Info. Serv.).
+S. 1237, 99th Cong. § 505 (1985),
+microformed on
+Sup. Docs. No. Y 1.4/1:99-1237 (U.S. Gov’t Publ'g Off.).
+(b) Microform collections containing original materials.
+When a microform collection contains materials original to that collection, identify the microform set and its publisher, and use the publisher’s system for identifying individual forms within the set. Use
+rule 18.6(a)
+as a guide.

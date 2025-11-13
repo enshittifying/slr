@@ -1,0 +1,21 @@
+TITLE: 6 Abbreviations, Numerals, and Symbols (p.92)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 6-abbreviations-numerals-and-symbols
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+6
+Abbreviations, Numerals, and Symbols
+(p.92)
+6.1
+Abbreviations
+6.2
+Numerals and Symbols

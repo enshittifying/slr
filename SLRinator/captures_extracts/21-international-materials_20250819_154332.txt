@@ -1,0 +1,51 @@
+TITLE: 21 International Materials (p.213)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 21-international-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21
+International Materials
+(p.213)
+21.1
+Basic Citation Forms
+21.2
+Non-English-Language Documents
+21.3
+Jurisdiction Not Evident from Context
+21.4
+Treaties and Other International Agreements
+21.5
+International Law Cases
+21.6
+International Arbitrations and Claims Commissions
+21.7
+United Nations Sources
+21.8
+League of Nations
+21.9
+European Union
+21.10
+Council of Europe
+21.11
+World Trade Organization
+21.12
+International Monetary Fund
+21.13
+Other Intergovernmental Organizations
+21.14
+International Non-Governmental Organizations (NGOs)
+21.15
+Yearbooks
+21.16
+Digests
+21.17
+Short Citation Forms

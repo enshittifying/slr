@@ -1,0 +1,32 @@
+TITLE: B18.2 Short Form Citation (p.28)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  parent: b18-the-internet
+  slug: b18-2-short-form-citation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B18.2
+Short Form Citation
+(p.28)
+After providing a full citation to an internet source, you may use “
+id.
+”
+or “
+supra
+”
+in subsequent citations per
+rules 4
+and
+18.12
+:
+Lat,
+supra
+.

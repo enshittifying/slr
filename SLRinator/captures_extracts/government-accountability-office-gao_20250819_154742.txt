@@ -1,0 +1,37 @@
+TITLE: Government Accountability Office (GAO) (p.269)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: government-accountability-office-gao
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Government Accountability Office (GAO)
+(p.269)
+Bid Protest Decisions
+:
+Cite to
+Decisions of the Comptroller General of the United States
+(
+Comp. Gen.
+), if therein.
+Astrophysics Rsch. Corp., 66 Comp. Gen. 211 (1987).
+Cite unpublished decisions to a readily accessible source, as follows:
+<protesting party>, <docket number>, <volume number or year> <source> <location within source volume or year>
+(Comp. Gen.
+<date>
+).
+Note that when citing these cases to the
+Comptroller General’s Procurement Decisions
+, published by West, the publisher is not indicated:
+Def. Sys. Grp., B-240295, 1990 WL 293536 (Comp. Gen. Nov. 6, 1990).
+Info. Ventures, Inc., B-232094, 88-2 CPD ¶ 443 (Comp. Gen. Nov. 4, 1988).
+Where a decision resolves multiple bid protests, each of which has its own docket number, indicate this by inserting “et al.” after the docket number.
+Midland Supply, Inc., B-298720 et al., 2007 CPD ¶ 2 (Comp. Gen. Nov. 29, 2006).

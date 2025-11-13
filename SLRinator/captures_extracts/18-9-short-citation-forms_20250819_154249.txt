@@ -1,0 +1,162 @@
+TITLE: 18.12 Short Citation Forms (pp. 203–04)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-9-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.12
+Short Citation Forms
+(pp. 203–04)
+(a) Internet.
+When citing to previously referenced web-based sources or digital media content, use a “
+supra
+” form with the last name of the author, if any, or the title or description of the document. “
+Id
+.
+” may also be used in accordance with
+rule 4
+. If various subsections of a web-based source or digital media content with no author are cited or if more than one posting by a given author is cited, include the subsection title. A URL need not be repeated after a full citation:
+1
+See
+S.A. Karpukhin,
+On Silence
+,
+Ploughshares: Blog
+(Dec. 1, 2022),
+https://pshares.org/blog/on-silence/%C2%A0
+[
+https://perma.cc/32LB-7NMC
+].
+2
+Pfizer, Inc.
+,
+http://www.pfizer.com
+(on file with the Yale Law Journal) (last visited July 17, 2024).
+3
+Karpukhin,
+supra
+note 1;
+Pfizer, Inc.
+,
+supra
+note 2.
+(b) Commercial electronic databases.
+For materials available on an electronic database, use a unique database identifier, if one has been assigned, in constructing a short form:
+Int’l Snowmobile Mfrs. Ass’n v. Norton, No. 00-CV-229-B, 2004 WL 2337372, at *3 (D. Wyo. Oct. 14, 2004).
+becomes:
+Int’l Snowmobile
+, 2004 WL 2337372, at *3.
+Chavez v. Metro. Dist. Comm’n, No. 3:02CV458, 2004 U.S. Dist. LEXIS 11266, at *5 n.3 (D. Conn. June 1, 2004).
+becomes:
+Chavez
+, 2004 U.S. Dist. LEXIS 11266, at *5 n.3.
+(c) Electronic storage media and microform.
+When citing a separately published document available on an electronic storage device or microform, use the short form appropriate for the original document; it is not necessary to indicate the storage source once it has been given in the first full citation. “
+Id.
+” and “
+supra
+” may be used according to
+rule 4
+.
+(d) Films, broadcasts, audio recordings, and works of visual art.
+When citing films, broadcasts, audio recordings, photographs, and illustrations, “
+id.
+” and “
+supra
+” may be used according to
+rule 4
+:
+4
+Nightline
+:
+Microsoft Monopoly
+(ABC television broadcast, aired Apr. 3, 2000) (transcript on file with the Columbia Law Review).
+5
+Id.
+6
+See id.
+;
+Meat Loaf
+,
+For Crying out Loud
+,
+on
+Bat out of Hell
+(Apple Music, Epic Recs. Oct. 21, 1977).
+7
+Meat Loaf
+,
+supra
+note 6;
+see
+also
+Nightline
+:
+Microsoft Monopoly
+,
+supra
+note 4 (describing Microsoft’s response to the court ruling).
+(e) Social media and communication.
+When citing a previously referenced social media post (including federated social media and reposts), a “
+supra
+”
+form may be used with the name (if available) and the handle of the poster according to
+rule 4
+. Likewise, "
+id.
+" may be used according to
+rule 4
+:
+11
+u/orhazelw,
+supra
+note 10.
+14
+Anu Bradford (@anubradford),
+supra
+note 12.
+For audio and video communications, also omit the other parties present in the call, but keep the identification of the individual whose statement is cited:
+95
+Statement by Cain Marko,
+supra
+note 87.
+(f) Hardware and software.
+When citing a previously referenced hardware device, a “
+supra
+” form may be used with the model name according to
+rule 4
+. Likewise, “
+id.
+”
+may be used according to
+rule 4
+:
+108
+GeForce RTX 4090 Founders Edition,
+supra
+note 100.
+When citing a previously referenced software, a “
+supra
+”
+form may be used with the name and version of the software (if available) according to
+rule 4
+. Likewise, “
+id
+.
+” may be used according to
+rule 4
+:
+120
+Discord
+, ver. 235,
+supra
+note 116.

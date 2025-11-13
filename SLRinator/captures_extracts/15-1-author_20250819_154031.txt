@@ -1,0 +1,114 @@
+TITLE: 15.1 Author (pp. 154–56)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-1-author
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.1
+Author
+(pp. 154–56)
+The first time a work is cited, always give the author’s full name as it appears on the publication, including any designation such as “
+Jr.
+” or “
+III
+” (inserting a comma before the designation only if the author does). Do not include a designation such as “
+Dr.
+,” “
+Prof.
+,” "
+Judge
+," or "
+Justice
+" even if it appears on the title page. Use small capitals:
+Michael Vorenberg, Final Freedom: The Civil War, the Abolition of Slavery, and the Thirteenth Amendment
+143–44 (2001).
+When citing a single volume of a multivolume work, give only the author(s) of the volume cited. Include the volume number, if any, at the beginning of the citation:
+3
+James Kent, Commentaries on American Law
+(New York, O. Halsted 1826).
+(a) Two or three authors.
+List the authors’ names in the order in which they appear on the title page. For two authors, separate the names with an ampersand. For three authors, separate the names with commas except the final name, which should be set off with an ampersand (and without a comma):
+Chris Hedges & Joe Sacco, Days of Destruction, Days of Revolt
+109 (2012).
+If the title page establishes an alternative relationship between the two authors, e.g., “
+with
+” or “
+as told to
+,” use this phrase to separate the authors’ names:
+Earvin “Magic” Johnson with William Novak, My Life
+39 (1993).
+(b) More than three authors.
+Use the first author’s name followed by “
+et al.
+” when saving space is desired and in short form citations. List all of the authors’ names when particularly relevant. When listing all of the authors' names, separate the names with commas except the final name, which should be set off with an ampersand (and without a comma):
+A. Leo Levin et al., Dispute Resolution Devices in a Democratic Society
+77 (1985).
+Richard H. Fallon, Jr. et al., Hart and Wechsler’s the Federal Courts and the Federal System
+330 (7th ed. 2015).
+Richard H. Fallon, Jr., John F. Manning, Daniel J. Meltzer & David L. Shapiro, Hart and Wechsler’s the Federal Courts and the Federal System
+330 (6th ed. 2009).
+(c) Institutional authors.
+Citations to works by institutional authors begin with the author’s complete name. Abbreviate according to
+rule 15.1(e)
+:
+City of New Haven, Recycle Now New Haven (1991).
+When an individual author is credited on behalf of an institution, use the individual’s name and then the institution's name. Only include subdivisions of the institution if particularly relevant:
+Judith A. Lhamon, Nat’l Ass’n for L. Placement, A Fair Shake: Lawful and Effective Interviewing
+3 (1987).
+S. Elizabeth Gibson, Fed. Jud. Ctr., Case Studies of Mass Tort Limited Fund Class Action Settlements & Bankruptcy Reorganizations
+39–45 (2000).
+Not:
+S. Elizabeth Gibson, Fed. Jud. Ctr., Working Group on Mass Torts, Case Studies of Mass Tort Limited Fund Class Action Settlements & Bankruptcy Reorganizations
+39–45 (2000).
+When no individual author is credited, use the smallest subdivision that prepared the work and then the overall body of which that subdivision is a part:
+Statistical Analysis Ctr., State Crime Comm’n, Crime in Georgia
+41 (1980).
+(d) Pen names.
+When an author of an article, newspaper publication, correspondence, pamphlet, or book uses an obvious alias, please use quotation marks around the alias or pen name. If the real author is verifiably known, put their name in parentheses following the alias. This rule does not alter
+rule 15.8(c)(i)
+:
+"William Penn" (Jeremiah Everts), Essays on the Present Crisis in the Condition of the American Indians, First Published in the National Intelligencer, Under the Signature of William Penn
+(Boston, Perkins & Marvin, 1829).
+If a work was originally published under an alias but the real author is verified and common knowledge, and the work is almost universally attributed to the author in subsequent editions or reprintings, you should eliminate the alias from the citation:
+Thomas Paine, Common Sense
+(Philadelphia, R. Bell 1776).
+Likewise, when an author becomes known primarily by their pen name, you may omit their legal name from the citation:
+Mark Twain, The Adventures of Huckleberry Finn
+(Union Square & Co. 2024) (1884).
+(e) Abbreviations.
+Abbreviate the name of an institutional author only if the result will be completely unambiguous. When abbreviating, use the abbreviations found in
+tables T6
+and
+T10
+. Omit “
+Inc
+.,” “
+Ltd.
+,” and similar terms if the name also contains a word such as “
+Ass’n
+,” “
+Bros
+.,” “
+Co
+.,” or “
+Corp.
+,” clearly indicating that the institution is a business firm:
+Consumer Deputy Program, U.S. Consumer Prod. Safety Comm’n, Children’s Sleepwear
+7 (1975).
+Nat’l Mun. League, A Model Election System
+3 (1973).
+(f) Tribal affiliation.
+If an author indicates a tribal affiliation, it may be included in parentheses after the first mention of the person's name. The tribal affiliation only needs to be listed once. Use the specific Tribal Nation(s) or Indigenous group(s) to which the person belongs or with which they are affiliated. Avoid broad terms like “Native American.” Use the author's preferred terminology:
+Ned Blackhawk
+(Western Shoshone),
+The Rediscovery of America
+15 (2023).

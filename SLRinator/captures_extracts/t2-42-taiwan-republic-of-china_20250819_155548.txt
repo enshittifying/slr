@@ -1,0 +1,198 @@
+TITLE: T2.44 Taiwan, Republic of China
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-42-taiwan-republic-of-china
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.44
+Taiwan, Republic of China
+(Civil Law)
+Jurisdictional note
+Apply these guidelines to sources relating to the Republic of China on Taiwan (1949–date) and to the Republic of China during its Mainland period (1912–1949). For sources relating to Taiwan under Japanese occupation (1895–1945), adapt the guidelines for
+table T2.24 Japan
+as needed. For sources related to the People’s Republic of China (1949–date), see the guidelines for
+table T2.9 China, People’s Republic of
+. For sources related to China prior to the founding of the Republic of China in 1912, adapt these guidelines as necessary.
+Romanization and capitalization
+For romanization and capitalization of Chinese language citations, follow instructions in
+rule 20.2.4
+.
+Translated sources
+For citations to translated or bilingual sources, choose one of the following options:
+1)
+Follow
+rule 20.2.5
+, giving parallel citations to the original language source and a translated version.
+2)
+Where the original is difficult or impossible to 
+verify, cite to the translated source without reference to the original 
+language version. In this case, it is not necessary to preface the 
+source with “
+translated in
+.”
+Choice of authorities
+Where not specified otherwise herein, prefer any source published by or with the cooperation of a court or government agency (including agency websites). Chinese language sources are always more authoritative than translations, but it may be more appropriate to cite to a translation where available.
+Cases
+Citation format:
+<case name>
+,
+<year of publication> <source> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<court abbreviation> <date of decision>
+) (
+<jurisdiction abbreviation if not evident from context>
+).
+Abbreviate English language court names according to
+table T7
+.
+Chen Hsiao v. Ministry of Foreign Affairs, 2002
+Chinese (Taiwan) Y.B. Int’l L. & Aff.
+129 (Taipei Admin. High Ct. May 15, 2002).
+Xianfa Fating
+(Council of Grand Justices: constitutional court),
+Zuigao Fayuan
+(Supreme Court),
+Gaodeng Fayuan
+(High Court),
+Difang Fayuan
+(district courts): Cite to one of the following sources, if therein.
+Dafaguan Huiyi Jieshi Huibian (Collection of Grand Justices Council Interpretations) (title varies slightly by edition)
+Shizi
+Dafaguan Jieshi (Grand Justices Interpretations)
+Jieshi
+Zuigao Fayuan Minshi Caipanshu Huibian (Supreme Court Civil Judgments Collection)
+Minshi Huibian
+Zuigao Fayuan Xingshi Caipanshu Huibian (Supreme Court Criminal Judgments Collection)
+Xingshi Huibian
+Sifayuan Faxue Ziliao Jiansuo Xitong (Law and Regulation Retrieving System)
+Sifayuan Jiansuo Xitong
+Xianfa Fating Panjue Huibian Ji Zhongyao Caiding Xuanbian (Constitutional Court Judgments Collections)
+Xianfa Huibian
+Constitution
+Give the promulgation year of the version or revision cited.
+Zhonghua Minguo Xianfa
+(Constitution of the Republic of China)
+Minguo Xianfa
+Minguo Xianfa
+art. 1 (1947) (Taiwan).
+Statutes, regulations, and decrees
+For laws, regulations, and official decrees of the Republic of China, cite to the sources named below, if therein. Otherwise, cite to any source published by or with the cooperation of a court or government agency (including agency or court websites), if therein, then any source.
+Zhonghua Minguo Xianxing Fagui Huibian
+1994–date
+Xianxing Fagui Huibian
+Fawubu Quanguo Fagui Ziliaoku (Ministry of Justice Laws and Regulations Database)
+Fawubu Fagui Ziliaoku
+Zongtongfu Gongbao (Office of the President Gazette)
+1948–date
+Zongtongfu Gongbao
+Treaties and conventions
+Citation of a bilateral treaty, convention, or international agreement:
+<name of agreement>
+,
+<date of signing>
+,
+<subdivision, if desired>
+,
+<abbreviated names of parties to agreement>
+,
+<source>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Citation of a multilateral treaty, convention, or international agreement:
+<name of agreement>
+,
+<date of signing>
+,
+<subdivision, if desired>
+,
+<one Taiwan treaty source>
+,
+<one international treaty source, if applicable>
+(
+<jurisdiction abbreviation if not evident from context>
+).
+Cite to one of the sources named below, if therein and available. Otherwise cite to any source published by or with the cooperation of a court or government agency (including agency or court websites), if therein.
+Zhongwai Tiaoyue Jibian (Treaties Between the Republic of China and Foreign States)
+1927–1998
+Zhongwai Tiaoyue Jibian
+Waijiaobu Gongbao
+1999–date
+Waijiaobu Gongbao
+Fawubu Quanguo Fagui Ziliaoku (Ministry of Justice Laws and Regulations Database)
+Fawubu Fagui Ziliaoku
+Sources
+Dafaguan Huiyi Jieshi Huibian
+大法官會議解釋彙編
+Shizi
+The Republic of China Constitutional Court (Grand
+Justices Council) Reporter: Interpretations
+Const. Ct. Interp.
+Waijiaobu Gongbao
+外交部公報
+Waijiaobu Gongbao
+Zhonghua Minguo Xianfa
+中華民國憲法
+Minguo Xianfa
+Zhonghua Minguo Xianxing Fagui Huibian
+中華民國現行法規彙編
+Xianxing Fagui Huibian
+Zhongwai Tiaoyue Jibian
+中外條約輯編
+Zhongwai Tiaoyue Jibian
+Zuigao Fayuan Minshi Caipanshu Huibian
+最高法院民事裁判書彙編
+Minshi Huibian
+Zuigao Fayuan Xingshi Caipanshu Huibian
+最高法院刑事裁判書彙編
+Xingshi Huibian
+Xianfa Fating Panjue Huibian Ji Zhongyao Caiding Xuanbian 憲法法庭判決彙編暨重要裁定選編
+Xianfa Huibian
+Internet sources
+https://tpl.ncl.edu.tw/NclService/
+(PerioPath Index to Taiwan Periodical Literature System 臺灣期刊論文索引系統 (Taiwan Qikan Lunwen Suoyin Xitong))
+https://www.president.gov.tw/Page/129#service
+(Presidential Office Gazette 總統府公報查詢 (Zongtongfu Gongbao Chaxun), Chinese only)
+http://www.asianlii.org/tw/cases/TWCC
+(Constitutional Court of Taiwan Decisions (Const. Ct. Taiwan Decisions), English only)
+https://gaz.ncl.edu.tw/
+(National Central Library Gazette Online 政府公報資訊網 (Zhengfu Gongbao Zixunwang), Chinese only)
+http://www.judicial.gov.tw/publish/publish02.asp
+( Judicial Yuan Gazette 司 法院公報 (Sifayuan Gongbao Xitong), Chinese only)
+http://www.judicial.gov.tw/publish/publish02.asp
+( Judicial Yuan Gazette 司法院公報系統 (Sifayuan Gongbao Xitong), Chinese only)
+https://law.judicial.gov.tw/
+( Judicial Yuan Laws and Regulations Retrieving System 司法院法學資料檢索系統 (Sifayuan Faxue Ziliao Jiansuo Xitong), Chinese)
+http://cons.judicial.gov.tw/jcc/zh-tw/jep03
+(Justices of the Constitutional Court, Judicial Yuan: Interpretations 大法官解釋 (Jieshi), Chinese)
+http://cons.judicial.gov.tw/jcc/en-us/jep03
+( Justices of the Constitutional Court, Judicial Yuan: Interpretations 大法官解釋 (Taiwan Const. Ct. Interp.), English)
+http://gcis.nat.gov.tw/elaw/index.jsp
+(Law Source Retrieving System of Business and Industry, Ministry of Economic Affairs 經濟部商工行政法規檢索系統 (Jingjibu Shanggong Xingzheng Fagui Jiansuo Xitong), Chinese)
+http://gcis.nat.gov.tw/elaw/English/index.jsp
+(Law Source Retrieving System of Business and Industry, Ministry of Economic Affairs 經濟部商工行 政法規檢索系統 (MOEA L. Source), English)
+http://www.lawbank.com.tw
+(Lawbank 法源法律網 (Fayuan Falu Wang), Chinese)
+http://db.lawbank.com.tw/Eng
+(Lawbank 法源法律網 (Lawbank), English)
+http://law.moj.gov.tw
+(Ministry of Justice Laws and Regulations Database of the Republic of China 法務部全國法規資料庫 (Fawubu Quanguo Fagui Ziliaoku), Chinese)
+http://law.moj.gov.tw/eng
+(Ministry of Justice Laws and Regulations Database of the Republic of China 法務部全國法規資料庫 (L. & Reg. DB), English)
+http://lci.ly.gov.tw
+(Legislative Yuan Proceedings and Official Gazette Network 立法院議事暨公報管理系統 (Lifayuan Gongbao Xitong), Chinese only)
+http://www.rootlaw.com.tw
+(Rootlaw 植根法律網 (Zhigen Falu Wang), Chinese)
+https://www.rootlaw.com.tw/en/LastUpdate.aspx
+(Rootlaw 植根法律網 (Rootlaw), English)

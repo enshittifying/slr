@@ -1,0 +1,27 @@
+TITLE: 22.1 Tribal Nations with an Established Citation Format (p.245)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 22-tribal-nations
+  slug: 22-1-tribal-nations-with-an-established-citation-format
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+22.1
+Tribal Nations with an Established Citation Format
+(p.245)
+When citing legal materials originating from a Tribal Nation with an established and distinct citation format, the respective Tribal Nation’s format should be used as the primary citation. If using the Tribal Nation’s citation format, provide a parallel citation according to the following rules in square brackets. If the tribe does not specify its own citation method, use the format in
+rule 22.2
+:
+Section 1,
+SNI Constitution of
+1848 (amended 1993), [
+Const. of the Seneca Nation of Indians
+of 1848, § 1, (amended 1993)].
+For any clarifications or specific questions regarding a particular Tribal Nation’s lawmaking process, court system or citation format, or other matters, consult the Tribal Nation or tribal court clerk.

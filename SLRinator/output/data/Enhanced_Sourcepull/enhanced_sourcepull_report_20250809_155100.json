@@ -1,0 +1,108 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T15:50:49.535542",
+  "footnote_range": "3-3",
+  "used_gpt": true,
+  "footnotes_processed": 1,
+  "total_citations": 4,
+  "successful_retrievals": 1,
+  "failed_retrievals": 3,
+  "pdf_files": [
+    {
+      "citation_id": "2",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/2_CourtListener.pdf",
+      "source": "courtlistener_pdf",
+      "pages": 29,
+      "size_mb": 0.24
+    }
+  ],
+  "parsing_results": [
+    {
+      "footnote_number": 3,
+      "original_text": "21 U.S.C. § 355(c)(3)(C);  see also  Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019) (“[W] e ask whether the Hikma and Actavis labels instruct users to treat polyneuropathic...",
+      "citations_count": 4,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains one statute citation and three case citations. Each citation is parsed to extract the required components such as case name, volume, reporter, page, court, and year for cases, and title number, code name, and section for the statute. The parsing confidence is high due to the clear structure of legal citations.",
+      "parsed_at": "2025-08-09T15:50:55.339300",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(c)(3)(C)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "2",
+          "type": "case",
+          "full_text": "Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "3",
+          "type": "case",
+          "full_text": "Takeda Pharms. U.S.A., Inc. v. W.-Ward Pharm. Corp., 785 F.3d 625, 631 (Fed. Cir. 2015)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "4",
+          "type": "case",
+          "full_text": "AstraZeneca LP v. Apotex, Inc., 633 F.3d 1042, 1060 (Fed. Cir. 2010)",
+          "retrieval_priority": 1
+        }
+      ]
+    }
+  ],
+  "retrieval_results": [
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T15:50:56.002801"
+    },
+    {
+      "citation_id": "2",
+      "source_name": "courtlistener_pdf",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/2_CourtListener.pdf",
+      "file_size_bytes": 254088,
+      "is_valid_pdf": true,
+      "page_count": 29,
+      "error_message": null,
+      "retrieval_url": "https://cafc.uscourts.gov/opinions-orders/22-2153.OPINION.4-11-2024_2300049.pdf",
+      "retrieved_at": "2025-08-09T15:50:56.828020"
+    },
+    {
+      "citation_id": "3",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T15:50:59.799629"
+    },
+    {
+      "citation_id": "4",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T15:51:00.856293"
+    }
+  ],
+  "completed_at": "2025-08-09T15:51:00.857088",
+  "duration_seconds": 11.321546,
+  "success_rate": 25.0
+}

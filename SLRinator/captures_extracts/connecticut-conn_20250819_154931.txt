@@ -1,0 +1,167 @@
+TITLE: Connecticut (Conn.) (pp. 278–79)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: connecticut-conn
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Connecticut (Conn.)
+(pp. 278–79)
+http://www.jud.ct.gov
+http://www.cga.ct.gov/current/pub/titles.htm
+Supreme Court
+(
+Conn.
+), previously
+Supreme Court of Errors
+(
+Conn.
+): Cite to
+A., A.2d,
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1885–date
+A., A.2d, A.3d
+Connecticut Reports
+1814–date
+Conn.
+Day
+1802–1813
+Day
+Root
+1789–1798
+Root
+Kirby
+1785–1789
+Kirby
+Appellate Court
+(
+Conn. App. Ct.
+): Cite to
+A.2d
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1983–date
+A.2d, A.3d
+Connecticut Appellate Reports
+1983–date
+Conn. App.
+Superior Court
+(
+Conn. Super. Ct.
+) and
+Court of Common Pleas
+(
+Conn. C.P.
+): Cite to
+A.2d
+or
+A.3d
+, if therein; otherwise, cite to
+Conn. Supp.
+, if therein, or else to one of the other reporters listed below.
+Atlantic Reporter
+1954–date
+A.2d, A.3d
+Connecticut Supplement
+1935–date
+Conn. Supp.
+Connecticut Law Reporter
+1990–date
+Conn. L. Rptr.
+Connecticut Superior Court Reports
+1986–1994
+Conn. Super. Ct.
+Circuit Court
+(
+Conn. Cir. Ct.
+): Cite to
+A.2d,
+if therein.
+Atlantic Reporter
+1961–1974
+A.2d
+Connecticut Circuit Court Reports
+1961–1974
+Conn. Cir. Ct.
+Statutory compilations:
+Cite to
+Conn. Gen. Stat.
+, if therein.
+General Statutes of Connecticut
+Conn. Gen. Stat.
+§ x-x (
+<year>
+)
+Connecticut General Statutes Annotated (West)
+Conn. Gen. Stat. Ann.
+§ x-x (West
+<year>
+)
+Session laws:
+Cite to
+Conn. Acts
+,
+Conn. Pub. Acts
+,
+or
+Conn. Spec. Acts
+, if therein.
+Connecticut Public & Special Acts
+1972–date
+<year>
+Conn. Acts
+<page no.>
+([Reg. or Spec.] Sess.)
+Connecticut Public Acts
+1650–1971
+<year>
+Conn. Pub. Acts
+<page no.>
+Connecticut Special Acts
+1789–1971
+<year>
+Conn. Spec. Acts
+<page no.>
+(published under various titles—i.e., Resolves & Private Laws, Private & Special Laws, Special Laws, Resolves & Private Acts, Resolutions & Private Acts, Private Acts & Resolutions, and Special Acts & Resolutions—and with various volume designations—i.e., by year or volume number)
+Connecticut Legislative Service (West)
+<year>
+Conn. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Regulations of Connecticut State Agencies
+Conn. Agencies Regs.
+§ x-x-x (
+<year>
+)
+Administrative registers:
+Cite to
+Conn. L.J.
+, if therein.
+Connecticut Law Journal
+<vol. no.>
+Conn. L.J.
+<page no.>
+(
+<month day, year>
+)
+Connecticut Government Register (LexisNexis)
+<iss. no.>
+Conn. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

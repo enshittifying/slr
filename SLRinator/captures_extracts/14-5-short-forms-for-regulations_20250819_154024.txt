@@ -1,0 +1,47 @@
+TITLE: 14.6 Short Forms for Regulations (p.153)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 14-administrative-and-executive-materials
+  slug: 14-5-short-forms-for-regulations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+14.6
+Short Forms for Regulations
+(p.153)
+(a) Main text.
+In law review text, use the forms listed in the “Text” column of the table below to refer to regulations. Provide a citation (in full or short form according to
+rule 14.6(c)
+) in an accompanying footnote when appropriate.
+(b) Footnote text.
+Similarly, when referring to regulations in law review footnote text, use the forms listed in the “Text” column of the table below. Provide a citation (in full or short form according to
+rule 14.6(c)
+) in an accompanying citation clause or sentence when appropriate.
+(c) Citations.
+In law review citations, use any of the forms listed in the “Short citation” column of the table below that clearly identifies the regulation if the regulation is already cited (in full or short form) in either the same footnote or in a manner such that it can be readily found (including “
+id.
+”) in one of the preceding five footnotes or the same general textual discussion. Otherwise, use the “Full citation” form.
+Full citation
+Text
+Short citation
+Code of Federal Regulations
+FTC Credit Practices Rule, 16 C.F.R. § 444.1 (2014)
+16 C.F.R. § 444.1
+16 C.F.R. § 444.1
+or
+§ 444.1
+Federal Register
+Importation of Fruits and Vegetables, 60 Fed. Reg. 50379, 50381 (Sep. 29, 1995) (to be codified at 7 C.F.R. pt. 300)
+Importation of Fruits and Vegetables
+Importation of Fruits and Vegetables, 60 Fed. Reg. at 50381
+(d) Electronic sources.
+See
+rule 18.12
+.

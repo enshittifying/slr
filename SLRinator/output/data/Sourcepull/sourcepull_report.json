@@ -1,0 +1,103 @@
+{
+  "document": "SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "processed_at": "2025-08-09T00:12:25.608896",
+  "statistics": {
+    "total_footnotes": 50,
+    "total_citations": 50,
+    "sources_processed": 10,
+    "successful_retrievals": 9,
+    "failed_retrievals": 1
+  },
+  "sources": [
+    {
+      "source_id": "SP-001",
+      "footnote": 3,
+      "citation": "21 U.S.C. \u00a7 355",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-001-21USC355.pdf",
+      "source_name": "21USC355"
+    },
+    {
+      "source_id": "SP-002",
+      "footnote": 11,
+      "citation": "21 U.S.C. \u00a7 321",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-002-21USC321.pdf",
+      "source_name": "21USC321"
+    },
+    {
+      "source_id": "SP-003",
+      "footnote": 15,
+      "citation": "21 U.S.C. \u00a7\u00a7 331",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-003-21USC331.pdf",
+      "source_name": "21USC331"
+    },
+    {
+      "source_id": "SP-004",
+      "footnote": 18,
+      "citation": "35 U.S.C. \u00a7 271",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-004-35USC271.pdf",
+      "source_name": "35USC271"
+    },
+    {
+      "source_id": "SP-005",
+      "footnote": 20,
+      "citation": "21 U.S.C. \u00a7 355",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-005-21USC355.pdf",
+      "source_name": "21USC355"
+    },
+    {
+      "source_id": "SP-006",
+      "footnote": 21,
+      "citation": "35 U.S.C. \u00a7 271",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-006-35USC271.pdf",
+      "source_name": "35USC271"
+    },
+    {
+      "source_id": "SP-007",
+      "footnote": 22,
+      "citation": "21 U.S.C. \u00a7 355",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-007-21USC355.pdf",
+      "source_name": "21USC355"
+    },
+    {
+      "source_id": "SP-008",
+      "footnote": 23,
+      "citation": "Ltd. v. Novo Nordisk A/S, 566 U.S. 399",
+      "type": "case",
+      "status": "success",
+      "file": null,
+      "source_name": "Ltd_v_Novo"
+    },
+    {
+      "source_id": "SP-009",
+      "footnote": 25,
+      "citation": "28 U.S.C. \u00a7 1295",
+      "type": "statute",
+      "status": "success",
+      "file": "output/data/Sourcepull/Retrieved/SP-009-28USC1295.pdf",
+      "source_name": "28USC1295"
+    },
+    {
+      "source_id": "SP-010",
+      "footnote": 41,
+      "citation": "21 U.S.C. \u00a7 3",
+      "type": "statute",
+      "status": "failed",
+      "file": null,
+      "source_name": "21USC3"
+    }
+  ]
+}

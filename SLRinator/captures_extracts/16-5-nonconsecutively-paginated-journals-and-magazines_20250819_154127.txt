@@ -1,0 +1,54 @@
+TITLE: 16.5 Nonconsecutively Paginated Journals and Magazines (p.168)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-5-nonconsecutively-paginated-journals-and-magazines
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.5
+Nonconsecutively Paginated Journals and Magazines
+(p.168)
+Works appearing in periodicals that are separately paginated within each issue should be cited by author, title of work, periodical name, date of issue as it appears on the cover, the word “at” (
+rule 3.2(a)
+), first page of work, and, if applicable, page or pages on which specific material appears. If there is no author listed, begin the citation with the title of the piece. Consult
+tables T6
+,
+T10
+, and
+T13
+to abbreviate the names of periodicals:
+Barbara Ward,
+Progress for a Small Planet
+,
+Harv. Bus. Rev
+., Sep.–Oct. 1979, at 89, 90.
+Barbara Ehrenreich,
+Iranscam: The Real Meaning of Oliver North
+,
+Ms
+., May 1987, at 24, 24.
+Joan B. Kelly,
+Mediated and Adversarial Divorce: Respondents’ Perceptions of Their Processes and Outcomes
+,
+Mediation Q
+., Summer 1989, at 71.
+Damages for a Deadly Cloud: The Bhopal Tragedy Will Cost Union Carbide $470 Million
+,
+Time,
+Feb. 27, 1989, at 53.
+If no date of issue is available, provide the issue number in its place and indicate the volume number before the title of the periodical per
+rule 16.4
+; also include the year and month of copyright, if available:
+Charles E. Mueller,
+The American Who Wants to Give Away His Country but Doesn't Know That's What He's Voting for
+, 34
+Antitrust L. & Econ. Rev
+., no. 1, 2008, at 1, 7.

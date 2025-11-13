@@ -1,0 +1,63 @@
+TITLE: 15.9 Electronic Databases and Online Sources (pp. 162–63)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-9-electronic-media-and-online-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.9
+Electronic Databases and Online Sources
+(pp. 162–63)
+(a) Commercial electronic databases.
+When citing secondary materials to a database, provide a complete citation to the document according to
+rule 15
+as well as a citation to the database. If the database assigns a unique identifier or code to the document, include that identifier or code to assist the reader in locating the document cited. When a source is available both in print and in a commercial electronic database, a citation to the database may be supplied:
+Abbey G. Hairston, Leave and Disability Coordination Handbook
+¶ 110 (2009), Westlaw LDCHBK.
+25
+Am. Jur. 2d
+Elections
+§ 100, Westlaw (database updated May 2014).
+(b) Internet and online sources.
+Because books found online may differ in format from the print version, the two sources should not be treated interchangeably unless the online source is an exact copy of the original as dictated by
+rule 18.2.1(a)
+. If a book or report is only available online, cite to it directly in accordance with
+rule 18.2.2
+:
+U.S. Dep’t of Just., Legal Authorities Supporting the Activities of the National Security Agency Described by the President
+25 (2006) [hereinafter
+NSA White Paper
+],
+http://nsarchive.gwu.edu/NSAEBB/NSAEBB178/surv39.pdf
+[
+https://perma.cc/4RUY-BBU4
+].
+Lampoon
+,
+Dictionary.com
+,
+http://dictionary.reference.com/browse/lampoon
+[
+https://perma.cc/7C8D-S59A
+] (last visited Mar. 19, 2020).
+(c) Ebooks.
+Print versions of books are authoritative; ebooks should be cited only if they are the sole media through which the book is available. Because books published as ebooks may differ in format from the print version, the two sources should not be treated interchangeably. To indicate that an ebook is being cited, place an “
+ebook
+” parenthetical after the date:
+Anne Umland & Blair Hartzell, Picasso: The Making of Cubism 1912–1914
+, at 25 (2014) (ebook).
+If an ebook uses location numbers rather than page numbers, use “
+loc.
+” to indicate where the cited material can be found:
+Ronald Collins & David Skover, When Money Speaks
+loc. 2992 (2014) (ebook) (“[T]he
+Buckley
+wall between contributions and expenditures . . . has been breached.”).

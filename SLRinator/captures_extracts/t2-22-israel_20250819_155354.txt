@@ -1,0 +1,478 @@
+TITLE: T2.22 Israel
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-22-israel
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.22
+Israel
+(Mixed Jurisdiction)
+Cases
+In general, citations to Israeli court cases must denote the case type. For Case type abbreviations, see Case Type Abbreviations Table below. If the relevant case type is not found in in the Appendix, use the word “Case” instead.
+Supreme Court
+Israel’s highest court functions both as the country’s Supreme
+Court of
+Appeals
+, hearing appeals from lower courts, and as the
+High Court of Justice
+(HCJ), hearing constitutional and certain administrative petitions. Cite to
+Piske
+Din
+reporter (PD), sometimes referred to as IsrSC.
+Citation format:
+<case type abbreviation> <case number> <party A>
+v.
+<party B>
+,
+<volume number>
+(
+<part number>
+)
+<reporter abbreviation> <first page>
+,
+<page(s)
+of specific material, if desired>
+(
+<Gregorian calendar year of decision>
+) (
+<country
+abbreviation if not evident from context>
+).
+CivA 1482/92 Hager v. Hager, 47(2) PD 793 (1993) (Isr.).
+HCJ 852/86 Aloni v. Minister of Justice, 41(2) PD 1, 5 (1987) (Isr.).
+District Courts
+(DC)
+These courts operate in six judicial districts–Jerusalem (Jer), Tel-Aviv-Jaffa
+(TA), Haifa (Hi), Be’er-Sheva (BS), Nazareth (Nz), and Central District (CT),
+hearing appeals from Magistrate Courts, and serving as court of first instance,
+usually in certain administrative, civil, and criminal matters. Some district
+courts also serve as special courts, e.g., DC TA and DC Hi also serve as DC
+for Economic Affairs, and DC Jer also serves as the Competition Law Court.
+Cite to applicable reporter, such as Psakim Mehoziim (PM).
+Citation format:
+<case type abbreviation>
+(DC
+<court location>
+)
+<case number> <party A>
+v.
+<party B>
+,
+<reporter abbreviation> <Hebrew calendar year of volume>
+(
+<part number>
+)
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<Gregorian calendar year of decision>
+) (
+<country abbreviation if not evident from context>
+).
+CrimC (DC TA) 521/91 Ben Moshe Kokhavi v. State of Israel, PM 5753(2) 267 (1993) (Isr.).
+Magistrate Courts
+(MC)
+These courts operate in twenty-eight cities and serve as the courts of first
+instance in most civil and criminal cases. Cite to applicable reporter, such as
+Psakim Mehoziim (PM). If court location is other than one of the District
+Courts’ locations, do not abbreviate and use full name of location.
+Citation format:
+<case type abbreviation>
+(MC
+<court location>
+)
+<case number>
+<party A>
+v.
+<party B>
+,
+<reporter abbreviation> <Hebrew calendar year of volume>
+(
+<part number>
+)
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<Gregorian
+calendar year of decision>
+) (
+<country abbreviation if not evident from context>
+).
+Religious Courts
+For recognized communities, religious courts generally have jurisdiction in matters of marriage and divorce. Some decisions of the Rabbinical Courts are periodically published in Piske din shel batei ha-din ha-rabaniyim be-Yisrael (PDR). To distinguish between first-instance cases and cases on appeal, note the location of the first-instance courts in order to be consistent with citation of the decisions of the District Courts.
+Citation format: Case (
+<court name> <court location, if applicable>
+)
+<case number>
+<party A>
+v.
+<party B>
+,
+<reporter abbreviation> <volume number> <first page>
+,
+<page(s)
+of specific material, if desired>
+(
+<Gregorian calendar year of decision, if available>
+)
+(
+<country abbreviation if not evident from context>
+).
+Case (Rabbinical Court TA) 103/717 A. v. B., PDR 2 65 (1956) (Isr.).
+Other Courts
+If the case cited is from a different tribunal, such as local or national Labor Court or Military tribunals, follow the District Courts citation format and indicate the full name of the tribunal.
+Electronic databases
+Many reported and unreported decisions are available on widely used electronic databases, such as the Nevo Legal Database at
+http://www.nevo.co.il
+or the Takdin Legal Database at
+http://www.takdin.co.il
+(both by subscription, in Hebrew). For Supreme Court cases, do not mention court name and court location.
+Citation format:
+<case type abbreviation>
+(
+<court name> <court location>
+)
+<case number> <party A>
+v.
+<party B>
+,
+<page(s) of specific material, if desired> <database name>
+(
+<date of decision>
+) (
+<country abbreviation if not evident from context>
+),
+<URL, if available>
+.
+CivC (DC TA) 42549-03-16 Ben Menahem v. Weiss, Nevo Legal Database (Nov. 1, 2018) (Isr.), https://www.nevo.co.il/psika_html /mechozi/ME-16-03-42549-33.htm.
+Case (Military Court of Appeals Judea & Samaria) 4987/08 Hasin Nafa v. Military Prosecution, Nevo Legal Database (Nov. 13, 2008) (Isr.).
+Case Type Abbreviations Table
+Administrative Appeal
+AdminA
+Administrative Case
+AdminC
+Bankruptcy Case (individuals)
+BankC
+Civil Appeal
+CivA
+Civil Case
+CivC
+Criminal Appeal
+CrimA
+Criminal Case
+CrimC
+Derivative Case
+DerivC
+Family Appeal
+FamA
+Family Case
+FamC
+High Court of Justice
+HCJ
+Leave to Administrative Appeal
+LAdminA
+Leave to Civil Appeal
+LCivA
+Leave to Criminal Appeal
+LCrimA
+Leave to Family Appeal
+LFamA
+Leave to Small Claim Appeal
+LSClaimA
+Liquidation Case (corporations)
+LiqC
+Request for Leave to Appeal
+ReqLA
+Severe Criminal Case
+SCrimC
+Small Claim
+SClaim
+Statutes
+The Knesset of Israel serves as the parliament and legislates all primary legislation, including the Basic Laws (a string of laws of constitutional statute). Cite to Laws of the State of Israel (LSI), which contains the authorized English translation of legislative enactments from 1949 to 1989. Citation to LSI is useful for English readers for laws enacted prior to 1989 and for the original text of legislation that has since been amended.
+Citation format:
+<section, if desired>
+,
+<statute name>
+,
+<Hebrew calendar year of enactment (if appended to statute name)>
+–
+<Gregorian calendar year of enactment (if appended to statute name)>
+,
+<compilation abbreviation>
+<volume number> <first page>
+(
+<coverage date range of volume>
+),
+<as amended (if relevant)>
+(
+<country abbreviation if not evident from context>
+),
+<URL, if available>
+.
+§ 2, Extradition Law, 5714–1954, LSI 8 144 (1953–54), as amended (Isr.).
+If citation to the LSI is impossible (for example, if the translation is partial or is not available), cite to the applicable official reporter, including
+Sefer HaHukim
+(SH) (“The Laws Book,” the main reporter); Dinei Medinat Israel (DMI) (“State of Israel Laws”); Hu’kei Eretz Israel (HEI) (“Statutes of the Land of Israel”); I’ton Rishmi Mandatori (IRM) (“Official Bulletin of the Mandate Government”); I’ton Rishmi–Mo’etzet HaMedina HaZmanit (IRMMZ) (“Official Bulletin–the Provisional State Council”).
+Citation format:
+<section, if desired>
+,
+<statute name>
+,
+<Hebrew calendar year (if appended to statute name)>
+–
+<Gregorian calendar year (if appended to statute name)>
+,
+<reporter abbreviation> <issue number>
+(
+<Gregorian calendar year of reporter, if not appended to statute name, or if different than statute year>
+)
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+),
+<URL, if available>
+.
+§2, Protection of Witnesses Law, 5769–2008, SH 2192 98, 99 (Isr.), http://www.nevo.co.il/Law_word/law14/LAW-2192.pdf.
+Basic Law: the Knesset, SH 244 (1958) 69 (Isr.).
+A shorter citation format can be used when a citation is made to the updated version of the statute (as opposed to a citation of the original version):
+Citation format:
+<section, if desired
+>,
+<statute name>
+,
+<Hebrew calendar year (if
+appended to statute name)>
+–
+<Gregorian calendar year (if appended to statute
+name)>
+(
+<country abbreviation if not evident from context>
+),
+<URL, if available>
+.
+Basic Law: the Judiciary (Isr.).
+Penal Law, 5737–1977.
+Legislative history
+For draft bills from 1949 to 2002 cite to Hatza’ot Hok (HH). Starting in 2003, for draft bills submitted by the Government cite to HH (Gov.); for those submitted by the Knesset (Israel’s parliament) cite to HH (Knesset). Private member bills are only available on the Knesset website, at
+https://main .knesset.gov.il/Activity/Legislation/Laws/Pages/LawSuggestionsSearch .aspx?st=allsuggestions&ki=-1&ls=54.
+Identify such bills as private member bills and cite to the Knesset website.
+Citation format:
+<section, if desired>
+,
+<proposed statute name>
+,
+<Hebrew calendar year (if appended to statute name)>
+–
+<Gregorian calendar year (if appended to statute name)>
+,
+<reporter abbreviation (with identification of general, government, Knesset, or private member bill, as appropriate)> <issue number> <first page>
+,
+<page(s) of specific material, if desired> (<country abbreviation if not evident from
+context>
+),
+<URL, if available>
+.
+Draft Bill Basic Law: Human Dignity and Liberty, HH 2086 60 (Isr.), https://www.nevo.co.il/law_word/Law17/PROP-2086.pdf.
+Draft Bill for Replacement of the Term Employer (Legislative Amend- ments), 5774–2014, HH (Knesset) 535 44 (Isr.), https://www.nevo.co .il/law_word/Law16/knesset-535.pdf.
+Draft Bill for the Prescription Law, 5764–2004, HH (Gov.) 125 611 (Isr.), https://www.nevo.co.il/law_html/Law15/MEMSHALA-125.pdf.
+Draft Bill for Service by Electronic Mail, 5777-2017 (Private Member Bill) (Isr.), https://fs.knesset.gov.il//20/law/20_lst_381859.docx
+For protocols of Knesset proceedings, cite to Divrei HaKnesset (DK) from 1949 to date; available online, at
+https://m.knesset.gov.il/Activity/plenum/ Pages/Sessions.aspx
+.
+Citation format: DK,
+<Knesset term>
+, Knesset, Session No.
+<session number>
+, (
+<Gregorian calendar year of proceedings>
+)
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+),
+<URL, if available>
+.
+DK, 20th Knesset, Session No. 56 (2015) (Isr.), https://fs.knesset.gov.il//20/Plenum/20_ptm_315141.doc.
+DK, 6th Knesset, Session No. 129 (1966) (Isr.), https://fs.knesset.gov.il/6/Plenum/6_ptm_252678.pdf.
+Secondary legislation
+If allowed by the primary legislation of the Knesset, designated government ministers or other governmental departments and commissioners may enact secondary legislation (such as regulations, municipal bylaws, and other rules) under the relevant statute. Cite secondary legislation materials to the appropriate reporter, including
+Kovetz HaTakanot
+(KT) (“Collection of Regulations,” which contains regulations of the State of Israel from 1949 to date);
+Kovetz HaTakanot–Hi’kukei Shilton Mekomi
+(KTHSM); and
+Yalkut HaPirsumim
+(YP).
+Citation format:
+<section, if desired>
+,
+<secondary legislation name
+>,
+<Hebrew calendar year (if appended to statute name)>
+–<
+Gregorian calendar year (if appended to statute name)
+>,
+<reporter abbreviation> <issue number> <first page>
+,
+<page(s) of specific material, if desired
+> (
+<country abbreviation if not evident from context>
+),
+<URL, if available
+>.
+Knesset Elections Regulations (Instructions Regarding Voting Proce- dures by Soldiers, Employees, and Persons under Military Custody), 5773–2012, KT 7196 362 (Isr.).
+Bylaw for Tel Aviv-Yafo (Street Paving), 5763–2003, KTHSM 663 166 (Isr.), https://www.nevo.co.il/law_word/Law07/MEKOMI-0663.pdf.
+Guidelines by governmental agencies
+Attorney General and State Attorney
+Citation format:
+<title of guidelines>
+,
+<guidelines number> <name of agency>
+Guidelines,
+<page number, if desired>
+(
+<date>
+),
+<URL, if available>
+.
+Handling Matters Concerning Unauthorized Propaganda
+, 1.1903 Attorney General Guidelines (updated Jul. 2003),
+https://www.justice.gov.il/Units/ YoezMespati/HanchayotNew/Seven/11903.pdf
+.
+Other Governmental Agencies
+Citation format:
+<number of guidelines/instructions> <type of guidelines/
+instructions>
+,
+<title>
+(
+<full date>
+),
+<URL, if available>
+.
+301 Proper Bank Management Guidelines, The Board of Directors (Nov. 13, 2018), https://www.boi.org.il/he/BankingSupervision /SupervisorsDirectives/DocLib/301.pdf.
+Orders by the Military, Police, Prison Services, and National Fire and Rescue Authority
+Citation format:
+<order number> <type>
+,
+<title> <URL, if available>
+.
+21.0113 General Staff of the IDF Order,
+Limitations on Use of Personal
+Phones in the IDF
+, https://www.idf.il/media/16624/210113.pdf.
+Treaties
+Cite to
+Kitvei Amana
+(
+KA
+), which contains treaties and conventions signed by Israel.
+Citation format:
+<treaty name>
+,
+<volume number> <reporter abbreviation> <issue number>
+,
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<Gregorian calendar year of publication>
+) (
+<country abbreviation if not evident from context>
+),
+<URL, if available>
+.
+Convention for the Suppression of the Financing of Terrorism, 1401 KA 50 1 (2004) (Isr.), https://www.nevo.co.il/law_html/Law09/AMANA- 1401.pdf.
+Secondary sources
+Law review articles
+Citation format:
+<author(s) full name>
+,
+<
+title of article
+>
+,
+<issue number> <journal name>
+(
+<volume number, if appropriate>
+)
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<Gregorian calendar year of publication>
+),
+<URL, if available>
+.
+Alon Klement and Daphna Kapeliuk, Procedural Contracts, 33 Iyuney Mishpat 187 (2010).
+Hebrew law (Mishpat Ivri)
+When citing to the Hebrew Bible, use the full name of the book. If the book
+name includes a number, place the number before the name. Chapters and
+verses are denominated using Hebrew letters; therefore, they should be
+translated to numbers.
+Citation format:
+<book number, if appropriate> <name of book> <chapter number>
+,
+<verse number>
+.
+Exodus 20, 12.
+1 Samuel 1, 12.
+When citing to the Talmud, use the full form name, i.e., Mishnah, Babylonian Talmud (
+Talmud Babvli
+) or Jerusalem Talmud (
+Talmud Yerushalmi
+). Page numbers are denominated by Hebrew letters, which should be translated into numbers, and each page has two sides (“a” and “b”).
+Citation format:
+<name of source>
+,
+<tractate name>
+,
+<verse/page/halakha
+number>
+.
+Babylonian Talmud, Megillah 15a.
+When citing to the Mishnah, cite to the appropriate chapter and paragraph
+(mishnah) after translating the Hebrew letters into numbers.
+Citation format:
+<name of source>
+,
+<tractate name> <chapter number>
+:
+<paragraph/mishnah>
+.
+Mishnah Berakhot 1:3.
+Internet sources
+http://www.knesset.gov.il
+(The Knesset (Israeli parliament); available in English)
+https://www.gov.il/en/Departments/the_judicial_authority
+(Judicial Authority; available in English)
+https://supreme.court.gov.il/sites/en/Pages/home.aspx
+(Supreme Court; available in English)
+https://www.gov.il/en/departments/prime_ministers_office
+(The Prime Minister’s Office; available in English)
+https://www.gov.il/en/departments/ministry_of_foreign_affairs
+(Ministry of Foreign Affairs; available in English)
+https://www.gov.il/en/Departments/the_rabbinical_courts
+(Rabbinical Courts; available in English)
+http://nevo.co.il
+(Nevo Legal Database; by subscription, in Hebrew)
+http://takdin.co.il
+(Takdin Legal Database; by subscription, in Hebrew)
+https://www.loc.gov/law/help/guide/nations/israel.php
+(Library of Congress, Guide to Law Online: State of Israel)
+https://www.llrx.com/2001/01/features-a-guide-to-the-israeli-legal-system
+(guide to the Israeli legal system by Ruth Levush via LLRX)
+https://www.gov.il/en/subjects/law_and_government
+(main government portal)

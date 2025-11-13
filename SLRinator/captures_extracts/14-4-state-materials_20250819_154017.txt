@@ -1,0 +1,57 @@
+TITLE: 14.4 State Materials (pp. 152–53)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 14-administrative-and-executive-materials
+  slug: 14-4-state-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+14.4
+State Materials
+(pp. 152–53)
+(a) Rules and regulations.
+For both proposed and final rules and regulations cite according to
+table T1.3
+:
+Cal. Code Regs.
+tit. 2, § 22999 (2024).
+XLIV 8 N.Y. Reg. 8 (Feb. 21, 2024).
+(b) Reports and other publications.
+Cite according to
+rules 14.2(c)
+and
+14.2(d)
+:
+2023
+Ohio Dep’t of Admin. Servs. Fiscal Year Ann. Rep.
+7.
+Ill. State Bd. of Educ., Review of the Chicago Board of Education’s Ability to Operate with the Financial Resources Available to It as an Independent Unit of Local Government
+(2023).
+(c) Administrative adjudications and arbitrations.
+Cite according to
+rule 14.3
+if there is an official reporter or if the decision will later be published in an official reporter. Most state administrative adjudications are not reported in an official reporter. In those cases, cite the name of the adjudication pursuant to
+rule 14.3.1
+, the number of the case, an electronic database citation where the source can be found, and include a parenthetical with the state name abbreviated pursuant to
+table T10
+, the agency name abbreviated pursuant to
+table T6
+, and the year of the decision:
+Emily Burke, No. 12-0008 RI, 2012 WL 1061151 (Mo. Admin. Hearing Comm’n 2012).
+Fiesta Liquors, Inc., No. 615846, 2007 WL 3315029 (Tex. Off. of Admin. Hearings 2007).
+If the decision has not yet been published on an electronic database, append a link to the slip opinion following the parenthetical and omit the electronic database citation:
+S. River Watershed All., No. 2404045, (Ga. Off. of State Admin. Hearings 2023),
+https://administrativelawreport.com/wp-content/uploads/2024/02/2404045_Howells_WQC_2023_11_29.pdf
+.
+For pincites where there is no official reporter, append an "at" and the pincite following the electronic database citation if present or the case number if no electronic database citation is present:
+Dep’t of Nat. Res. Grant of the Confidentiality Request of Badger Mining Corp., No. DNR-16-0006, 2017 WL 8222649, at *3 (Wis. Div. of Hearings & Appeals 2017).
+Frank Boslet, No. 21-0763, at 5 (Pa. Liquor Control Bd. 2024),
+https://collab.pa.gov/lcb/Extranet/Adjudications%20and%20Appeals/21-0763A.pdf
+.

@@ -1,0 +1,79 @@
+2025-08-09 00:12:20,754 - __main__ - INFO - Starting SLRinator workflow for: output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx
+2025-08-09 00:12:20,754 - __main__ - INFO - Step 1: Extracting footnotes from document...
+2025-08-09 00:12:20,786 - __main__ - INFO -   Extracted 50 footnotes
+2025-08-09 00:12:20,786 - __main__ - INFO - Step 2: Parsing citations with GPT-4...
+2025-08-09 00:12:20,786 - __main__ - INFO -   Found 50 citations across 50 footnotes
+2025-08-09 00:12:20,786 - __main__ - INFO - Step 3: Running sourcepull...
+2025-08-09 00:12:20,787 - __main__ - INFO -   Processing SP-001: 21 U.S.C. § 355...
+2025-08-09 00:12:20,787 - src.core.sourcepull_system - INFO - Processing FN3: 21 U.S.C. § 355...
+2025-08-09 00:12:20,788 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:21,645 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:21,645 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:21,948 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:21,949 - __main__ - INFO -     ✓ Retrieved and saved as: SP-001-21USC355.pdf
+2025-08-09 00:12:21,949 - __main__ - INFO -   Processing SP-002: 21 U.S.C. § 321...
+2025-08-09 00:12:21,949 - src.core.sourcepull_system - INFO - Processing FN11: 21 U.S.C. § 321...
+2025-08-09 00:12:21,949 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:22,163 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:22,164 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:22,217 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:22,218 - __main__ - INFO -     ✓ Retrieved and saved as: SP-002-21USC321.pdf
+2025-08-09 00:12:22,218 - __main__ - INFO -   Processing SP-003: 21 U.S.C. §§ 331...
+2025-08-09 00:12:22,218 - src.core.sourcepull_system - INFO - Processing FN15: 21 U.S.C. §§ 331...
+2025-08-09 00:12:22,218 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:22,436 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:22,437 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:22,489 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:22,489 - __main__ - INFO -     ✓ Retrieved and saved as: SP-003-21USC331.pdf
+2025-08-09 00:12:22,489 - __main__ - INFO -   Processing SP-004: 35 U.S.C. § 271...
+2025-08-09 00:12:22,489 - src.core.sourcepull_system - INFO - Processing FN18: 35 U.S.C. § 271...
+2025-08-09 00:12:22,489 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:22,707 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:22,707 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:22,763 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:22,763 - __main__ - INFO -     ✓ Retrieved and saved as: SP-004-35USC271.pdf
+2025-08-09 00:12:22,764 - __main__ - INFO -   Processing SP-005: 21 U.S.C. § 355...
+2025-08-09 00:12:22,764 - src.core.sourcepull_system - INFO - Processing FN20: 21 U.S.C. § 355...
+2025-08-09 00:12:22,764 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:23,124 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:23,124 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:23,275 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:23,275 - __main__ - INFO -     ✓ Retrieved and saved as: SP-005-21USC355.pdf
+2025-08-09 00:12:23,275 - __main__ - INFO -   Processing SP-006: 35 U.S.C. § 271...
+2025-08-09 00:12:23,276 - src.core.sourcepull_system - INFO - Processing FN21: 35 U.S.C. § 271...
+2025-08-09 00:12:23,276 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:23,637 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:23,637 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:23,685 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:23,685 - __main__ - INFO -     ✓ Retrieved and saved as: SP-006-35USC271.pdf
+2025-08-09 00:12:23,686 - __main__ - INFO -   Processing SP-007: 21 U.S.C. § 355...
+2025-08-09 00:12:23,686 - src.core.sourcepull_system - INFO - Processing FN22: 21 U.S.C. § 355...
+2025-08-09 00:12:23,686 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:24,098 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:24,099 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:24,227 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:24,228 - __main__ - INFO -     ✓ Retrieved and saved as: SP-007-21USC355.pdf
+2025-08-09 00:12:24,228 - __main__ - INFO -   Processing SP-008: Ltd. v. Novo Nordisk A/S, 566 U.S. 399...
+2025-08-09 00:12:24,228 - src.core.sourcepull_system - INFO - Processing FN23: Ltd. v. Novo Nordisk A/S, 566 U.S. 399...
+2025-08-09 00:12:24,228 - src.core.sourcepull_system - INFO -   Identified as: supreme_court (priority: 1)
+2025-08-09 00:12:24,544 - src.core.sourcepull_system - INFO -   ✓ Success with supreme_court_website
+2025-08-09 00:12:24,544 - __main__ - INFO -   Processing SP-009: 28 U.S.C. § 1295...
+2025-08-09 00:12:24,544 - src.core.sourcepull_system - INFO - Processing FN25: 28 U.S.C. § 1295...
+2025-08-09 00:12:24,544 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:24,746 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:24,746 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:24,848 - src.core.sourcepull_system - INFO -   ✓ Success with cornell_lii
+2025-08-09 00:12:24,849 - __main__ - INFO -     ✓ Retrieved and saved as: SP-009-28USC1295.pdf
+2025-08-09 00:12:24,849 - __main__ - INFO -   Processing SP-010: 21 U.S.C. § 3...
+2025-08-09 00:12:24,850 - src.core.sourcepull_system - INFO - Processing FN41: 21 U.S.C. § 3...
+2025-08-09 00:12:24,850 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-09 00:12:25,224 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-09 00:12:25,225 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-09 00:12:25,265 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Document not found in Cornell LII
+2025-08-09 00:12:25,607 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Document not found in Justia
+2025-08-09 00:12:25,607 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-09 00:12:25,608 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-09 00:12:25,608 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-09 00:12:25,608 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN41
+2025-08-09 00:12:25,608 - __main__ - INFO - Step 4: Generating report...
+2025-08-09 00:12:25,615 - __main__ - INFO - ✅ Workflow complete! Report saved to: output/data/Sourcepull/sourcepull_report.json

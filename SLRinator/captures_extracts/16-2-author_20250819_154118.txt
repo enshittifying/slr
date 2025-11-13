@@ -1,0 +1,52 @@
+TITLE: 16.2 Author (p.166)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-2-author
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.2
+Author
+(p.166)
+For signed materials appearing in periodicals (including student-written materials), follow
+rule 15.1
+, but print in ordinary roman type. Thus:
+Kim Lane Scheppele,
+Foreword: Telling Stories
+, 87
+Mich. L. Rev
+. 2073, 2082 (1989).
+Robert P. Inman & Michael A. Fitts,
+Political Institutions and Fiscal Policy: Evidence from the U.S. Historical Record
+, 6
+J.L. Econ. & Org
+. 79, 79–82 (1990).
+Paul Butler et al.,
+Race, Law and Justice: The Rehnquist Court and the American Dilemma
+, 45
+Am. U. L. Rev
+. 567, 569 (1996).
+Georgette C. Poindexter, LizabethAnn Rogovoy & Susan Wachter,
+Selling Municipal Property Tax Receivables: Economics, Privatization, and Public Policy in an Era of Urban Distress
+, 30
+Conn. L. Rev
+. 157 (1997).
+R. Gregory Cochran, Comment,
+Is the Shrink’s Role Shrinking? The Ambiguity of Federal Rule of Criminal Procedure 12.2 Concerning Government Psychiatric Testimony in Negativing Cases
+, 147
+U. Pa. L. Rev.
+1403 (1999).
+Peter Carlson,
+Tales Out of Law School; Repeat After Us: It’s Nothing Like ‘L.A. Law
+,
+’
+Wash. Post
+, July 2, 1989, at W13.

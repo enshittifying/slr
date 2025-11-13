@@ -1,0 +1,16 @@
+{
+  "scriptId": "120hURbSddI2kmrBa5efHRIBd3z3WhXHpaGq2a1XuQYy4ZqJHi9U7UUFZ",
+  "rootDir": "./",
+  "scriptExtensions": [
+    ".js",
+    ".gs"
+  ],
+  "htmlExtensions": [
+    ".html"
+  ],
+  "jsonExtensions": [
+    ".json"
+  ],
+  "filePushOrder": ["Code.js", "DAL.js", "TaskEngine.js", "FormEngine.js", "AttendanceEngine.js", "Dashboard.js", "client_side_script.html", "index.html"],
+  "skipSubdirectories": false
+}

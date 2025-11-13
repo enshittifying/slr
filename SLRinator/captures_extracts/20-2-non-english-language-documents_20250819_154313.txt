@@ -1,0 +1,103 @@
+TITLE: 20.2 Non-English-Language Documents (pp. 207–10)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 20-foreign-materials
+  slug: 20-2-non-english-language-documents
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20.2
+Non-English-Language Documents
+(pp. 207–10)
+20.2.1 –
+Documents Appearing in More than One Language
+Unless otherwise required by the citation, always cite the most official or authoritative version of the document. The document itself should clarify which version(s) is authoritative. For documents published in multiple languages, use the English-language version whenever it is as authoritative as (or more authoritative than) other versions. If the document is silent on the issue of authority, always cite the English-language version unless the purpose served by the citation requires otherwise. If citing an English-language version of an authority that would otherwise be in a non-English language, it is appropriate to include a parenthetical clarifying where the original source can be found:
+UNESCO, Basic Texts of the 2003 Convention for the Safeguarding of the Intangible Cultural Heritage (2022),
+https://ich.unesco.org/doc/src/2003_Convention_Basic_Texts-_2022_version-EN.pdf
+[
+https://perma.cc/3HFV-G9M8
+].
+Not:
+UNESCO, Basic Texts of the 2003 Convention for the Safeguarding of the Intangible Cultural Heritage (2022),
+https://ich.unesco.org/doc/src/2003_Convention_Basic_Texts_2022_version-FR.pdf
+[
+https://perma.cc/X387-A6FG
+].
+20.2.2 –
+Titles and Names of Documents in Languages Other than English
+(a) Original language and translation.
+When citing a document in a language other than English, always give the document’s full title or name in the original language the first time the document is cited. The original-language title should be followed by brackets containing its shortened or full-length, unabbreviated English title in the same typeface as the original:
+Verdrag tot het Vermijden van Dubbele Belasting [Agreement for the Avoidance of Double Taxation]
+(b) Capitalization.
+Capitalize names and titles in languages other than English as they appear on the page. Capitalize translations according to
+rule 8
+.
+20.2.3 –
+Abbreviations in Languages Other than English
+The abbreviations of reporters, codes, statutes, statutory collections, constitutions, and periodicals in languages other than English may be unfamiliar to the reader. Therefore, the full form should be given the first time the source is cited, and the abbreviation should be given in brackets. Thereafter for the whole piece, the abbreviated form may be used without cross-reference:
+Abbreviations for many legal materials in languages other than English are given in
+table T2
+; for periodicals, see
+rule 20.6
+. When abbreviating foreign legal materials for which an abbreviation is not provided, follow the usage of the source.
+1
+Bürgerliches Gesetzbuch [BGB] [Civil Code]
+art. 13 (Ger.).
+2
+Bundesgerichtshof [BGH] [Federal Court of Justice] Apr. 16, 2008, 140
+Entscheidungen des Bundesgerichtshofes in Zivilsachen
+[BGHZ] 245 (Ger.).
+3
+BGB art. 12 (Ger.);
+see also
+BGH Mar. 3, 2009, 141 BGHZ 245, 250 (Ger.).
+20.2.4 –
+Languages That Do Not Use the Roman Alphabet
+For instructions regarding transliteration that are specific to particular countries, check the relevant entries in
+table T2
+for proper citation format. Where no relevant citation example is provided, the following generalized rules should be applied.
+(a) Languages generally.
+When citing to a source written in a language using characters that are not a part of the Roman alphabet, the author, title, and publication name should be cited using the language in which it was originally published. Unless an exception is otherwise provided below, all uses of non-Roman text should be immediately followed by a bracketed English translation of the non-Roman text. If the source provides an English translation for the non-Roman text, that translation should be used as the bracketed translation, otherwise a fluent writer should be consulted to provide the translation. Text in the translation bracket should be capitalized in accordance with
+rule 8
+.
+(b) Specialized use cases.
+(i) Personal names.
+When citing a source that provides an author’s name in non-Roman characters, a bracketed transliteration of that author's name should be provided in lieu of a translation:
+이민아 [Lee Min Ah], 푸바오 할부지 “이름 부르니 반응… 알아보는듯” [Fu Bao the Panda Installment “You Seem to Recognize . . . When I Call Your Name”],  동아일보 [Dong-a Ilbo] (July 6, 2024, at 07:42 ET),
+https://www.donga.com/news/People/article/all/20240706/125795718/2
+(on file with author).
+While surname placement conventions vary from language to language, when providing a transliteration for a name, the transliteration should always reflect the exact order of the author’s name in the original language publication and should not be modified to conform to standard romanized formatting conventions.
+(ii) Location names.
+When citing a source that includes the name of a geographic location in non-Roman characters, a bracketed transliteration of that geographic location should be provided in lieu of a translation:
+董云虎 [Dong Yunhu], 大上海 [Big Shanghai] (2020).
+Not:
+董云虎 [Dong Yunhu], 大上海 [Big On the Sea] (2020).
+(iii) Institutional authors
+When citing an institutional author’s name that is written in non-Roman characters, a bracketed translation should be provided for the name of the author; however, any words in the institutional author’s name that would otherwise require a transliteration should be treated as such:
+नीति आयोग [NITI Aayog], वार्षिक रिपोर्ट [Annual Report] (2023).
+Not:
+नीति आयोग [Planning Commission], वार्षिक रिपोर्ट [Annual Report] (2023).
+(iv) Designated word use.
+When a citation uses a non-English word written in non-Roman text, if the citation is referring to the particular use of a word that is intended to be retained in its original language, transliteration of that work should be used in lieu of translation.
+20.2.5 –
+Citations to Translations of Non-English-Language Documents
+If desired, a work that conveniently reprints the primary authority in translation may be cited when referring to a foreign-language source that is not widely available to researchers in the United States. In such cases, provide the citation to the original source in accordance with
+rules 20
+and
+21
+, and provide a parallel citation to the translated version, according to
+rule 1.6(a)
+, introduced by “
+translated in
+”:
+Ley Federal de Derechos de Autor [LFDA], Diario Oficial de la Federación [DOF] 21-12-1963 (Mex.),
+translated in
+Copyright Laws and Treaties of the World
+521 (UNESCO et al. eds., 1992).

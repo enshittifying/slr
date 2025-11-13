@@ -1,0 +1,149 @@
+TITLE: Colorado (Colo.) (pp. 277–78)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: colorado-colo
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Colorado (Colo.)
+(pp. 277–78)
+https://www.courts.state.co.us/
+http://www.leg.colorado.gov/
+Public domain citation format:
+Colorado has adopted a public domain citation format for cases after January 1, 2012. The format is:
+Iannone v. Callahan, 2012 CO 22, ¶ 13.
+Callahan v. Iannone, 2015 COA 14, ¶¶ 8–12.
+For additional information, consult Rules of the Supreme Court of Colorado, Chief Justice Directive 12-01.
+Supreme Court
+(
+Colo.
+)
+: Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein; otherwise, cite to
+Colo.
+,
+if therein
+, or to
+Colo. Law.
+or
+Brief Times Rptr.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+Colorado Reports
+1864–1980
+Colo.
+Colorado Lawyer
+1972–date
+Colo. Law.
+Brief Times Reporter
+1977–1996
+Brief Times Rptr.
+Colorado Journal
+1996–2002
+Colo. J.
+Law Week Colorado
+2002–date
+L. Week Colo.
+Court of Appeals
+(
+Colo. App.
+)
+: Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein; otherwise, cite to
+Colo. App.
+, if therein, or else to one of the other reporters listed below.
+Pacific Reporter
+1970–date
+1912–1915
+1891–1905
+P.2d, P.3d
+P.
+P.
+Colorado Court of Appeals Reports
+1891–1905
+1912–1915
+1970–1980
+Colo. App.
+Colo. App.
+Colo. App.
+Colorado Lawyer
+1972–date
+Colo. Law.
+Brief Times Reporter
+1977–1996
+Brief Times Rptr.
+Colorado Journal
+1996–2002
+Colo. J.
+Law Week Colorado
+2002–date
+L. Week Colo.
+Statutory compilations:
+Cite to
+Colo. Rev. Stat.
+, if therein.
+Colorado Revised Statutes (LexisNexis)
+Colo. Rev. Stat.
+§ x-x-x (
+<year>
+)
+West’s Colorado Revised Statutes Annotated
+Colo. Rev. Stat. Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+Colo. Sess. Laws
+, if therein.
+Session Laws of Colorado (LexisNexis)
+<year>
+Colo. Sess. Laws
+<page no.>
+Colorado Legislative Service (West)
+<year>
+Colo. Legis. Serv.
+<page no.>
+(West)
+Administrative compilations:
+Cite to
+Colo. Code Regs.
+, if therein.
+Colorado Code of Regulations
+Colo. Code Regs.
+§ x-x (
+<year>
+)
+Code of Colorado Regulations (LexisNexis)
+<vol. no.>
+Colo. Code Regs
+. § x-x (LexisNexis
+<year>
+)
+Administrative register
+Colorado Register
+<iss. no.>
+Colo. Reg.
+<page no.>
+(
+<month year>
+)

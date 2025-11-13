@@ -1,0 +1,2008 @@
+{
+  "total_files": 400,
+  "processed": 400,
+  "failed": 0,
+  "skipped": 0,
+  "files": [
+    {
+      "source": "t7-court-names_20250819_155722.html",
+      "title": "T7 Court Names (pp. 337\u201339)",
+      "size": 4009
+    },
+    {
+      "source": "t3-intergovernmental-organizations_20250819_155621.html",
+      "title": "T3 Intergovernmental Organizations (p.329)",
+      "size": 359
+    },
+    {
+      "source": "e_20250819_155831.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "h_20250819_155838.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "department-of-labor_20250819_154700.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "t2-14-germany-federal-republic-of_20250819_155323.html",
+      "title": "T2.14 Germany, Federal Republic of",
+      "size": 14251
+    },
+    {
+      "source": "federal-energy-regulatory-commission-ferc_20250819_154724.html",
+      "title": "Federal Energy Regulatory Commission (FERC) (p.268)",
+      "size": 123
+    },
+    {
+      "source": "r_20250819_155901.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "b5-1-generally_20250819_153126.html",
+      "title": "B5.1 Generally (p.8)",
+      "size": 1293
+    },
+    {
+      "source": "b9-titles-of-judges_20250819_153217.html",
+      "title": "B9 Titles of Judges (p.11)",
+      "size": 362
+    },
+    {
+      "source": "1-1-citation-sentences-and-clauses-in-law-reviews_20250819_153510.html",
+      "title": "1.1 Citation Sentences and Clauses in Law Reviews (pp. 65\u201366)",
+      "size": 3343
+    },
+    {
+      "source": "bt2-1-federal-courts_20250819_153447.html",
+      "title": "BT2.1 Federal Courts (pp. 33\u201349)",
+      "size": 34318
+    },
+    {
+      "source": "utah-utah_20250819_155138.html",
+      "title": "Utah (Utah) (pp. 319\u201320)",
+      "size": 1398
+    },
+    {
+      "source": "17-1-basic-citation-forms_20250819_154155.html",
+      "title": "17.1 Basic Citation Forms (p.176)",
+      "size": 1069
+    },
+    {
+      "source": "b4-short-citation-forms_20250819_153120.html",
+      "title": "B4 Short Citation Forms (p.8)",
+      "size": 913
+    },
+    {
+      "source": "bluebook_20250819_152917.html",
+      "title": "Dashboard | The Bluebook Online",
+      "size": 259
+    },
+    {
+      "source": "18-11-hardware-and-software_20250819_154245.html",
+      "title": "18.11 Hardware and Software (pp. 201\u201303)",
+      "size": 6281
+    },
+    {
+      "source": "t2-31-nigeria_20250819_155438.html",
+      "title": "T2.32 Nigeria",
+      "size": 4127
+    },
+    {
+      "source": "x_20250819_155921.html",
+      "title": "Index",
+      "size": 1049
+    },
+    {
+      "source": "t14-publishing-terms_20250819_155801.html",
+      "title": "T14 Publishing Terms (p.349)",
+      "size": 602
+    },
+    {
+      "source": "v_20250819_155911.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "international-trade-commission-usitc_20250819_154747.html",
+      "title": "International Trade Commission (USITC) (p.269)",
+      "size": 572
+    },
+    {
+      "source": "12-5-electronic-media-and-online-sources_20250819_153902.html",
+      "title": "12.5 Electronic Databases and Online Sources (pp. 132\u201333)",
+      "size": 1799
+    },
+    {
+      "source": "1-6-related-authority_20250819_153532.html",
+      "title": "1.6 Related Authority (pp. 71\u201372)",
+      "size": 2898
+    },
+    {
+      "source": "17-3-forthcoming-publications_20250819_154201.html",
+      "title": "17.3 Forthcoming Publications (pp. 179\u201380)",
+      "size": 1012
+    },
+    {
+      "source": "2-1-typeface-conventions-for-citations_20250819_153604.html",
+      "title": "2.1 Typeface Conventions for Citations (pp. 73\u201374)",
+      "size": 3208
+    },
+    {
+      "source": "tennessee-tenn_20250819_155131.html",
+      "title": "Tennessee (Tenn.) (pp. 315\u201316)",
+      "size": 2103
+    },
+    {
+      "source": "new-york-n-y_20250819_155055.html",
+      "title": "New York (N.Y.) (pp. 301\u201306)",
+      "size": 7760
+    },
+    {
+      "source": "pennsylvania-pa_20250819_155115.html",
+      "title": "Pennsylvania (Pa.) (pp. 311\u201312)",
+      "size": 2792
+    },
+    {
+      "source": "22-2-tribal-nations-without-an-established-citation-format_20250819_154514.html",
+      "title": "22.2 Tribal Nations Without an Established Citation Format (pp. 246\u201349)",
+      "size": 7385
+    },
+    {
+      "source": "10-6-parenthetical-information-regarding-cases_20250819_153821.html",
+      "title": "10.6 Parenthetical Information Regarding Cases (pp. 113\u201314)",
+      "size": 5115
+    },
+    {
+      "source": "department-of-homeland-security-bureau-of-customs-and-border-protection_20250819_154654.html",
+      "title": "Department of Homeland Security, Bureau of Customs and Border Protection (p.264)",
+      "size": 315
+    },
+    {
+      "source": "1-4-order-of-authorities-within-each-signal_20250819_153520.html",
+      "title": "1.4 Order of Authorities Within Each Signal (p.69)",
+      "size": 408
+    },
+    {
+      "source": "alabama-ala_20250819_154836.html",
+      "title": "Alabama (Ala.) (pp. 272\u201373)",
+      "size": 1374
+    },
+    {
+      "source": "18-2-the-internet_20250819_154217.html",
+      "title": "18.2 The Internet (pp. 185\u201390)",
+      "size": 17532
+    },
+    {
+      "source": "t2-25-kenya_20250819_155407.html",
+      "title": "T2.25 Kenya",
+      "size": 2980
+    },
+    {
+      "source": "21-1-basic-citation-forms_20250819_154336.html",
+      "title": "21.1 Basic Citation Forms (pp. 213\u201315)",
+      "size": 4078
+    },
+    {
+      "source": "b10-1-full-citation_20250819_153222.html",
+      "title": "B10.1 Full Citation (pp. 11\u201317)",
+      "size": 14425
+    },
+    {
+      "source": "1-5-parenthetical-information_20250819_153527.html",
+      "title": "1.5 Parenthetical Information (pp. 69\u201371)",
+      "size": 5240
+    },
+    {
+      "source": "t2-17-hungary-republic-of_20250819_155336.html",
+      "title": "T2.17 Hungary, Republic of",
+      "size": 5713
+    },
+    {
+      "source": "6-1-abbreviations_20250819_153725.html",
+      "title": "6.1 Abbreviations (pp. 92\u201393)",
+      "size": 2631
+    },
+    {
+      "source": "12-statutes_20250819_153843.html",
+      "title": "12 Statutes (p.126)",
+      "size": 583
+    },
+    {
+      "source": "t2-34-portugal-republic-of_20250819_155448.html",
+      "title": "T2.35 Portugal, Republic of",
+      "size": 12174
+    },
+    {
+      "source": "19-1-citation-form-for-services_20250819_154258.html",
+      "title": "19.1 Citation Form for Services (pp. 205\u201306)",
+      "size": 3876
+    },
+    {
+      "source": "15-10-short-citation-forms_20250819_154107.html",
+      "title": "15.10 Short Citation Forms (pp. 163\u201364)",
+      "size": 3350
+    },
+    {
+      "source": "2-1-typeface-conventions-for-citations_20250819_153541.html",
+      "title": "2.1 Typeface Conventions for Citations (pp. 73\u201374)",
+      "size": 3208
+    },
+    {
+      "source": "north-carolina-n-c_20250819_155058.html",
+      "title": "North Carolina (N.C.) (pp. 306\u201307)",
+      "size": 2374
+    },
+    {
+      "source": "t2-15-greece_20250819_155326.html",
+      "title": "T2.15 Greece",
+      "size": 5164
+    },
+    {
+      "source": "20-5-statutes_20250819_154322.html",
+      "title": "20.5 Statutes (p.211)",
+      "size": 1135
+    },
+    {
+      "source": "arkansas-ark_20250819_154848.html",
+      "title": "Arkansas (Ark.) (pp. 274\u201375)",
+      "size": 1663
+    },
+    {
+      "source": "t2-45-t_C3_BCrkiye_20250819_155553.html",
+      "title": "T2.45 T\u00fcrkiye, Republic of",
+      "size": 7979
+    },
+    {
+      "source": "t2-21-ireland-_C3_A9ire-republic-of_20250819_155350.html",
+      "title": "T2.21 Ireland (\u00c9ire), Republic of",
+      "size": 4969
+    },
+    {
+      "source": "surface-transportation-board-stb_20250819_154827.html",
+      "title": "Surface Transportation Board (STB) (p.272)",
+      "size": 430
+    },
+    {
+      "source": "t10-geographical-terms_20250819_155733.html",
+      "title": "T10 Geographical Terms (p.340)",
+      "size": 688
+    },
+    {
+      "source": "10-9-short-forms-for-cases_20250819_153836.html",
+      "title": "10.9 Short Forms for Cases (pp. 121\u201324)",
+      "size": 5917
+    },
+    {
+      "source": "15-books-reports-and-other-nonperiodic-materials_20250819_154027.html",
+      "title": "15 Books, Reports, and Other Nonperiodic Materials (p.154)",
+      "size": 795
+    },
+    {
+      "source": "delaware-del_20250819_154933.html",
+      "title": "Delaware (Del.) (pp. 279\u201380)",
+      "size": 2146
+    },
+    {
+      "source": "23-11-tangible-objects_20250819_154602.html",
+      "title": "23.11 Tangible Objects (p.255)",
+      "size": 1976
+    },
+    {
+      "source": "18-the-internet-electronic-media-and-other-nonprint-resources_20250819_154212.html",
+      "title": "18 The Internet, Electronic Media, and Other Nonprint Resources (p.181)",
+      "size": 736
+    },
+    {
+      "source": "u_20250819_155909.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "21-16-digests_20250819_154430.html",
+      "title": "21.16 Digests (pp. 243\u201344)",
+      "size": 1756
+    },
+    {
+      "source": "15-2-editor-or-translator_20250819_154035.html",
+      "title": "15.2 Editor or Translator (pp. 156\u201357)",
+      "size": 1869
+    },
+    {
+      "source": "georgia-ga_20250819_154940.html",
+      "title": "Georgia (Ga.) (pp. 282\u201383)",
+      "size": 1186
+    },
+    {
+      "source": "17-4-working-papers_20250819_154204.html",
+      "title": "17.4 Working Papers (p.180)",
+      "size": 758
+    },
+    {
+      "source": "t10-2-australian-states-and-canadian-provinces-and-territories_20250819_155740.html",
+      "title": "T10.2 Australian Cities and States; Canadian Cities, Provinces, and Territories; and U.K. Cities and Constituent Countries, (p.342)",
+      "size": 868
+    },
+    {
+      "source": "t2-16-hong-kong_20250819_155332.html",
+      "title": "T2.16 Hong Kong",
+      "size": 5665
+    },
+    {
+      "source": "p_20250819_155856.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "indiana-ind_20250819_154950.html",
+      "title": "Indiana (Ind.) (p.286)",
+      "size": 1603
+    },
+    {
+      "source": "nebraska-neb_20250819_155035.html",
+      "title": "Nebraska (Neb.) (p.298)",
+      "size": 1023
+    },
+    {
+      "source": "10-7-prior-and-subsequent-history_20250819_153827.html",
+      "title": "10.7 Prior and Subsequent History (pp. 114\u201317)",
+      "size": 7214
+    },
+    {
+      "source": "t2-6-canada_20250819_155254.html",
+      "title": "T2.6 Canada",
+      "size": 19082
+    },
+    {
+      "source": "kentucky-ky_20250819_154957.html",
+      "title": "Kentucky (Ky.) (pp. 288\u201389)",
+      "size": 2327
+    },
+    {
+      "source": "10-cases_20250819_153800.html",
+      "title": "10 Cases (p.100)",
+      "size": 767
+    },
+    {
+      "source": "guam-guam_20250819_155207.html",
+      "title": "Guam (Guam) (p.326)",
+      "size": 893
+    },
+    {
+      "source": "t3-6-inter-american-commission-on-human-rights_20250819_155646.html",
+      "title": "T3.6 Inter-American Commission on Human Rights (p.330)",
+      "size": 163
+    },
+    {
+      "source": "21-12-international-monetary-fund_20250819_154413.html",
+      "title": "21.12 International Monetary Fund (p.241)",
+      "size": 1640
+    },
+    {
+      "source": "securities-and-exchange-commission-sec_20250819_154818.html",
+      "title": "Securities and Exchange Commission (SEC) (pp. 270\u201371)",
+      "size": 2660
+    },
+    {
+      "source": "18-3-commercial-electronic-databases_20250819_154223.html",
+      "title": "18.4 Electronic Databases (p.192)",
+      "size": 806
+    },
+    {
+      "source": "b3-subdivisions_20250819_153116.html",
+      "title": "B3 Subdivisions (p.7)",
+      "size": 898
+    },
+    {
+      "source": "t2-9-china-peoples-republic-of_20250819_155307.html",
+      "title": "T2.9 China, People's Republic of",
+      "size": 12401
+    },
+    {
+      "source": "10-4-court-and-jurisdiction_20250819_153813.html",
+      "title": "10.4 Court and Jurisdiction (pp. 110\u201311)",
+      "size": 3356
+    },
+    {
+      "source": "executive-office-of-the-president_20250819_154715.html",
+      "title": "Executive Office of the President (pp. 267\u201368)",
+      "size": 1865
+    },
+    {
+      "source": "21-5-international-law-cases_20250819_154352.html",
+      "title": "21.5 International Law Cases (pp. 219\u201328)",
+      "size": 23227
+    },
+    {
+      "source": "national-transportation-safety-board-ntsb_20250819_154802.html",
+      "title": "National Transportation Safety Board (NTSB) (p.269)",
+      "size": 172
+    },
+    {
+      "source": "north-dakota-n-d_20250819_155101.html",
+      "title": "North Dakota (N.D.) (pp. 307\u201308)",
+      "size": 1479
+    },
+    {
+      "source": "4-short-citation-forms_20250819_153655.html",
+      "title": "4 Short Citation Forms (p.83)",
+      "size": 811
+    },
+    {
+      "source": "t2-8-chile-republic-of_20250819_155304.html",
+      "title": "T2.8 Chile, Republic of",
+      "size": 4805
+    },
+    {
+      "source": "canal-zone-c-z_20250819_155205.html",
+      "title": "Canal Zone (C.Z.) (p.325)",
+      "size": 779
+    },
+    {
+      "source": "13-8-short-forms-for-legislative-materials_20250819_154000.html",
+      "title": "13.8 Short Forms for Legislative Materials (pp. 146\u201347)",
+      "size": 1875
+    },
+    {
+      "source": "21-11-world-trade-organization_20250819_154410.html",
+      "title": "21.11 World Trade Organization (pp. 239\u201340)",
+      "size": 4720
+    },
+    {
+      "source": "department-of-the-interior_20250819_154702.html",
+      "title": "Department of the Interior (p.265)",
+      "size": 486
+    },
+    {
+      "source": "b1-2-introductory-signals_20250819_153100.html",
+      "title": "B1.2 Introductory Signals (pp. 4\u20135)",
+      "size": 2398
+    },
+    {
+      "source": "22-1-tribal-nations-with-an-established-citation-format_20250819_153406.html",
+      "title": "B22.1 Tribal Nations with an Established Citation Format (p.30)",
+      "size": 771
+    },
+    {
+      "source": "b15-2-short-form-citation_20250819_153307.html",
+      "title": "B15.2 Short Form Citation (p.24)",
+      "size": 796
+    },
+    {
+      "source": "23-4-institutional-affiliation_20250819_154539.html",
+      "title": "23.4 Institutional Affiliation (pp. 251\u201352)",
+      "size": 661
+    },
+    {
+      "source": "t2-42-taiwan-republic-of-china_20250819_155548.html",
+      "title": "T2.44 Taiwan, Republic of China",
+      "size": 7433
+    },
+    {
+      "source": "michigan-mich_20250819_155015.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "13-7-electronic-media-and-online-sources_20250819_153956.html",
+      "title": "13.7 Electronic Media and Online Sources (p.146)",
+      "size": 1334
+    },
+    {
+      "source": "14-4-commercial-electronic-databases_20250819_154020.html",
+      "title": "14.5 Commercial Electronic Databases (p.153)",
+      "size": 600
+    },
+    {
+      "source": "21-3-jurisdiction-not-evident-from-context_20250819_154344.html",
+      "title": "21.3 Jurisdiction Not Evident from Context (p.215)",
+      "size": 401
+    },
+    {
+      "source": "5-2-alterations-and-quotations-within-quotations_20250819_153715.html",
+      "title": "5.2 Alterations and Quotations Within Quotations (pp. 88\u201390)",
+      "size": 4363
+    },
+    {
+      "source": "connecticut-conn_20250819_154931.html",
+      "title": "Connecticut (Conn.) (pp. 278\u201379)",
+      "size": 2331
+    },
+    {
+      "source": "10-8-special-citation-forms_20250819_153831.html",
+      "title": "10.8 Special Citation Forms (pp. 117\u201321)",
+      "size": 9578
+    },
+    {
+      "source": "occupational-safety-and-health-review-commission-oshrc_20250819_154812.html",
+      "title": "Occupational Safety and Health Review Commission (OSHRC) (p.270)",
+      "size": 945
+    },
+    {
+      "source": "t3-8-international-tribunal-for-the-law-of-the-sea_20250819_155654.html",
+      "title": "T3.8 International Tribunal for the Law of the Sea (p.331)",
+      "size": 195
+    },
+    {
+      "source": "t1-2-federal-administrative-and-executive-materials_20250819_154620.html",
+      "title": "T1.2 Federal Administrative and Executive Materials (p.260)",
+      "size": 1795
+    },
+    {
+      "source": "17-2-unpublished-materials_20250819_154158.html",
+      "title": "17.2 Unpublished Materials (pp. 177\u201379)",
+      "size": 6961
+    },
+    {
+      "source": "m_20250819_155849.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "t2-35-roman-law_20250819_155451.html",
+      "title": "T2.36 Roman Law",
+      "size": 1395
+    },
+    {
+      "source": "small-business-administration-sba_20250819_154821.html",
+      "title": "Small Business Administration (SBA) (p.271)",
+      "size": 512
+    },
+    {
+      "source": "t2-44-zambia-republic-of_20250819_155615.html",
+      "title": "T2.47 Zambia, Republic of",
+      "size": 2890
+    },
+    {
+      "source": "t2-43-united-kingdom_20250819_155610.html",
+      "title": "T2.46 United Kingdom (p.328)",
+      "size": 37112
+    },
+    {
+      "source": "23-1-basic-citation-formats_20250819_154528.html",
+      "title": "23.1 Basic Citation Forms (p.250)",
+      "size": 1074
+    },
+    {
+      "source": "t2-26-lebanon-republic-of_20250819_155410.html",
+      "title": "T2.26 Lebanon, Republic of",
+      "size": 4274
+    },
+    {
+      "source": "idaho-idaho_20250819_154945.html",
+      "title": "Idaho (Idaho) (p.284)",
+      "size": 1156
+    },
+    {
+      "source": "t2-7-catholic-church_20250819_155257.html",
+      "title": "T2.7 Catholic Church (Holy See)",
+      "size": 817
+    },
+    {
+      "source": "commodity-futures-trading-commission-cftc_20250819_154635.html",
+      "title": "Commodity Futures Trading Commission (CFTC) (p.261)",
+      "size": 820
+    },
+    {
+      "source": "16-periodical-materials_20250819_154111.html",
+      "title": "16 Periodical Materials (p.164)",
+      "size": 487
+    },
+    {
+      "source": "merit-systems-protection-board-mspb_20250819_154751.html",
+      "title": "Merit Systems Protection Board (MSPB) (p.269)",
+      "size": 143
+    },
+    {
+      "source": "department-of-agriculture-usda_20250819_154642.html",
+      "title": "Department of Agriculture (USDA) (pp. 261\u201362)",
+      "size": 1283
+    },
+    {
+      "source": "t2-13-france-republic-of_20250819_155319.html",
+      "title": "T2.13 France, Republic of",
+      "size": 10939
+    },
+    {
+      "source": "bt1-court-documents_20250819_153438.html",
+      "title": "BT1 Court Documents (pp. 32\u201333)",
+      "size": 2024
+    },
+    {
+      "source": "21-2-non-english-language-documents_20250819_154339.html",
+      "title": "21.2 Non-English-Language Documents (p.215)",
+      "size": 95
+    },
+    {
+      "source": "17-unpublished-and-forthcoming-sources_20250819_154151.html",
+      "title": "17 Unpublished and Forthcoming Sources (p.176)",
+      "size": 220
+    },
+    {
+      "source": "21-15-yearbooks_20250819_154425.html",
+      "title": "21.15 Yearbooks (p.243)",
+      "size": 1042
+    },
+    {
+      "source": "iowa-iowa_20250819_154952.html",
+      "title": "Iowa (Iowa) (p.287)",
+      "size": 1015
+    },
+    {
+      "source": "21-6-international-arbitrations-and-claims-commissions_20250819_154356.html",
+      "title": "21.6 International Arbitrations and Claims Commissions (p.228)",
+      "size": 1825
+    },
+    {
+      "source": "rhode-island-r-i_20250819_155118.html",
+      "title": "Rhode Island (R.I.) (pp. 312\u201313)",
+      "size": 1264
+    },
+    {
+      "source": "b1-1-citation-sentences-and-clauses_20250819_153056.html",
+      "title": "B1.1 Citation Sentences and Clauses (pp. 3\u20134)",
+      "size": 2204
+    },
+    {
+      "source": "b5-3-modifying-quotations-and-citations-for-clarity_20250819_153134.html",
+      "title": "B5.3 Modifying Quotations and Citations for Clarity (p.9)",
+      "size": 1773
+    },
+    {
+      "source": "20-7-short-citation-forms_20250819_154329.html",
+      "title": "20.7 Short Citation Forms (pp. 212\u201313)",
+      "size": 2058
+    },
+    {
+      "source": "department-of-commerce-patent-and-trademark-office-uspto_20250819_154649.html",
+      "title": "Department of Commerce, Patent and Trademark Office (USPTO) (pp. 262\u201363)",
+      "size": 2930
+    },
+    {
+      "source": "consumer-financial-protection-bureau-cfpb_20250819_154638.html",
+      "title": "Consumer Financial Protection Bureau (CFPB) (p.261)",
+      "size": 243
+    },
+    {
+      "source": "c_20250819_155822.html",
+      "title": "Index",
+      "size": 18327
+    },
+    {
+      "source": "14-1-basic-citation-forms_20250819_154007.html",
+      "title": "14.1 Basic Citation Forms (p.147)",
+      "size": 454
+    },
+    {
+      "source": "15-4-edition-publisher-and-date_20250819_154042.html",
+      "title": "15.4 Edition, Publisher, and Date (pp. 157\u201359)",
+      "size": 3743
+    },
+    {
+      "source": "f_20250819_155834.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "b10-2-short-form-citation_20250819_153227.html",
+      "title": "B10.2 Short Form Citation (pp. 17\u201318)",
+      "size": 3742
+    },
+    {
+      "source": "mississippi-miss_20250819_155021.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "national-mediation-board-nmb_20250819_154759.html",
+      "title": "National Mediation Board (NMB) (p.269)",
+      "size": 114
+    },
+    {
+      "source": "colorado-colo_20250819_154929.html",
+      "title": "Colorado (Colo.) (pp. 277\u201378)",
+      "size": 2046
+    },
+    {
+      "source": "t1-1-federal-judicial-and-legislative-materials_20250819_154615.html",
+      "title": "T1.1 Federal Judicial and Legislative Materials (pp. 257\u201360)",
+      "size": 7577
+    },
+    {
+      "source": "massachusetts-mass_20250819_155012.html",
+      "title": "Massachusetts (Mass.) (pp. 292\u201394)",
+      "size": 2249
+    },
+    {
+      "source": "federal-trade-commission-ftc_20250819_154739.html",
+      "title": "Federal Trade Commission (FTC) (p.269)",
+      "size": 97
+    },
+    {
+      "source": "t1-4-other-united-states-jurisdictions_20250819_155200.html",
+      "title": "T1.4 Other United States Jurisdictions (p.325)",
+      "size": 170
+    },
+    {
+      "source": "21-17-short-citation-forms_20250819_154450.html",
+      "title": "21.17 Short Citation Forms (p.244)",
+      "size": 1369
+    },
+    {
+      "source": "south-dakota-s-d_20250819_155127.html",
+      "title": "South Dakota (S.D.) (p.315)",
+      "size": 1151
+    },
+    {
+      "source": "t5-arbitral-reporters_20250819_155712.html",
+      "title": "T5 Arbitral Reporters (p.333)",
+      "size": 917
+    },
+    {
+      "source": "b16-2-short-form-citation_20250819_153317.html",
+      "title": "B16.2 Short Form Citation (p.25)",
+      "size": 523
+    },
+    {
+      "source": "23-3-title_20250819_154536.html",
+      "title": "23.3 Title (p.251)",
+      "size": 1188
+    },
+    {
+      "source": "15-5-shorter-works-in-collection_20250819_154046.html",
+      "title": "15.5 Shorter Works in Collection (pp. 159\u201360)",
+      "size": 2324
+    },
+    {
+      "source": "b1-3-explanatory-parentheticals_20250819_153105.html",
+      "title": "B1.3 Explanatory Parentheticals (pp. 5\u20136)",
+      "size": 1587
+    },
+    {
+      "source": "b7-italicization-for-style-and-in-unique-circumstances_20250819_153144.html",
+      "title": "B7 Italicization for Style and in Unique Circumstances (p.10)",
+      "size": 547
+    },
+    {
+      "source": "t3-4-european-commission-of-human-rights_20250819_155635.html",
+      "title": "T3.4 European Commission of Human Rights (p.330)",
+      "size": 395
+    },
+    {
+      "source": "t10-1-u-s-states-cities-and-territories_20250819_155736.html",
+      "title": "T10.1 U.S. States, Cities, and Territories (pp. 340\u201342)",
+      "size": 1391
+    },
+    {
+      "source": "6-abbreviations-numerals-and-symbols_20250819_153721.html",
+      "title": "6 Abbreviations, Numerals, and Symbols (p.92)",
+      "size": 88
+    },
+    {
+      "source": "t4-1-official-u-s-sources_20250819_155703.html",
+      "title": "T4.1 Official U.S. Sources (p.332)",
+      "size": 526
+    },
+    {
+      "source": "23-12-short-citation-forms_20250819_154605.html",
+      "title": "23.12 Short Citation Forms (p.256)",
+      "size": 532
+    },
+    {
+      "source": "t1-united-states-jurisdictions_20250819_154611.html",
+      "title": "T1 United States Jurisdictions (p.257)",
+      "size": 766
+    },
+    {
+      "source": "t13-periodicals_20250819_155757.html",
+      "title": "T13 Institutional Names in Periodical Titles (pp. 346\u201348)",
+      "size": 4690
+    },
+    {
+      "source": "20-4-constitutions_20250819_154319.html",
+      "title": "20.4 Constitutions (p.211)",
+      "size": 444
+    },
+    {
+      "source": "b17-2-short-form-citation_20250819_153327.html",
+      "title": "B17.2 Short Form Citation (p.27)",
+      "size": 883
+    },
+    {
+      "source": "21-9-european-union_20250819_154406.html",
+      "title": "21.9 European Union (pp. 235\u201338)",
+      "size": 8855
+    },
+    {
+      "source": "2-3-other-punctuation-conventions_20250819_153621.html",
+      "title": "2.3 Other Punctuation Conventions (p.76)",
+      "size": 432
+    },
+    {
+      "source": "federal-labor-relations-authority-flra_20250819_154727.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "b13-legislative-materials_20250819_153251.html",
+      "title": "B13 Legislative Materials (pp. 22\u201323)",
+      "size": 1762
+    },
+    {
+      "source": "t2-28-netherlands-kingdom-of-the_20250819_155419.html",
+      "title": "T2.29 Netherlands, Kingdom of the",
+      "size": 10265
+    },
+    {
+      "source": "civilian-board-of-contract-appeals-cbca_20250819_154632.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "22-1-tribal-nations-with-an-established-citation-format_20250819_154458.html",
+      "title": "22.1 Tribal Nations with an Established Citation Format (p.245)",
+      "size": 791
+    },
+    {
+      "source": "6-2-numerals-and-symbols_20250819_153729.html",
+      "title": "6.2 Numerals and Symbols (pp. 93\u201394)",
+      "size": 2959
+    },
+    {
+      "source": "t10-3-countries-and-regions_20250819_155744.html",
+      "title": "T10.3 Countries and Regions (pp. 343\u201345)",
+      "size": 2752
+    },
+    {
+      "source": "new-hampshire-n-h_20250819_155047.html",
+      "title": "New Hampshire (N.H.) (p.299)",
+      "size": 1571
+    },
+    {
+      "source": "3-subdivisions_20250819_153624.html",
+      "title": "3 Subdivisions (p.76)",
+      "size": 326
+    },
+    {
+      "source": "14-5-short-forms-for-regulations_20250819_154024.html",
+      "title": "14.6 Short Forms for Regulations (p.153)",
+      "size": 1429
+    },
+    {
+      "source": "16-7-special-citation-forms_20250819_154134.html",
+      "title": "16.7 Special Citation Forms (pp. 170\u201374)",
+      "size": 11001
+    },
+    {
+      "source": "t3-5-european-court-of-human-rights_20250819_155642.html",
+      "title": "T3.5 European Court of Human Rights (p.330)",
+      "size": 288
+    },
+    {
+      "source": "b15-1-full-citation_20250819_153302.html",
+      "title": "B15.1 Full Citation (pp. 23\u201324)",
+      "size": 1570
+    },
+    {
+      "source": "oregon-or_20250819_155112.html",
+      "title": "Oregon (Or.) (pp. 310\u201311)",
+      "size": 1257
+    },
+    {
+      "source": "t2-33-philippines_20250819_155444.html",
+      "title": "T2.34 Philippines",
+      "size": 8864
+    },
+    {
+      "source": "10-5-date-or-year_20250819_153816.html",
+      "title": "10.5 Date or Year (p.112)",
+      "size": 2405
+    },
+    {
+      "source": "t2-36-russian-federation_20250819_155454.html",
+      "title": "T2.37 Russian Federation",
+      "size": 14379
+    },
+    {
+      "source": "15-7-serial-number_20250819_154055.html",
+      "title": "15.7 Serial Number (p.160)",
+      "size": 938
+    },
+    {
+      "source": "t2-18-india_20250819_155340.html",
+      "title": "T2.18 India",
+      "size": 8983
+    },
+    {
+      "source": "13-legislative-materials_20250819_153934.html",
+      "title": "13 Legislative Materials (p.140)",
+      "size": 1604
+    },
+    {
+      "source": "wisconsin-wis_20250819_155153.html",
+      "title": "Wisconsin (Wis.) (pp. 323\u201324)",
+      "size": 1493
+    },
+    {
+      "source": "18-1-basic-citation-forms_20250819_154214.html",
+      "title": "18.1 Basic Citation Forms (pp. 182\u201384)",
+      "size": 7241
+    },
+    {
+      "source": "16-1-basic-citation-forms_20250819_154115.html",
+      "title": "16.1 Basic Citation Forms (pp. 165\u201366)",
+      "size": 3340
+    },
+    {
+      "source": "t2-19-iran-islamic-republic-of_20250819_155344.html",
+      "title": "T2.19 Iran, Islamic Republic of",
+      "size": 6671
+    },
+    {
+      "source": "23-7-case-materials_20250819_154549.html",
+      "title": "23.7 Case Materials (pp. 253\u201354)",
+      "size": 2897
+    },
+    {
+      "source": "15-1-author_20250819_154031.html",
+      "title": "15.1 Author (pp. 154\u201356)",
+      "size": 5147
+    },
+    {
+      "source": "b17-1-full-citation_20250819_153322.html",
+      "title": "B17.1 Full Citation (pp. 25\u201327)",
+      "size": 3607
+    },
+    {
+      "source": "bt2-3-territories_20250819_153455.html",
+      "title": "BT2.3 Territories (pp. 63\u201364)",
+      "size": 2256
+    },
+    {
+      "source": "13-6-separately-bound-legislative-histories_20250819_153953.html",
+      "title": "13.6 Separately Bound Legislative Histories (p.145)",
+      "size": 1062
+    },
+    {
+      "source": "12-4-session-laws_20250819_153856.html",
+      "title": "12.4 Session Laws (pp. 131\u201332)",
+      "size": 3738
+    },
+    {
+      "source": "5-3-omissions_20250819_153718.html",
+      "title": "5.3 Omissions (pp. 90\u201391)",
+      "size": 3838
+    },
+    {
+      "source": "vermont-vt_20250819_155141.html",
+      "title": "Vermont (Vt.) (pp. 320\u201321)",
+      "size": 1444
+    },
+    {
+      "source": "3-1-volumes-parts-and-supplements_20250819_153628.html",
+      "title": "3.1 Volumes, Parts, and Supplements (pp. 76\u201377)",
+      "size": 2303
+    },
+    {
+      "source": "t4-2-intergovernmental-treaty-sources_20250819_155706.html",
+      "title": "T4.2 Intergovernmental Treaty Sources (p.332)",
+      "size": 367
+    },
+    {
+      "source": "23-9-databases-reprinting-primary-sources_20250819_154555.html",
+      "title": "23.9 Databases Reprinting Primary Sources (p.254)",
+      "size": 775
+    },
+    {
+      "source": "social-security-administration-ssa_20250819_154824.html",
+      "title": "Social Security Administration (SSA) (pp. 271\u201372)",
+      "size": 554
+    },
+    {
+      "source": "23-6-archival-information_20250819_154545.html",
+      "title": "23.6 Archival Information (pp. 252\u201353)",
+      "size": 1918
+    },
+    {
+      "source": "t2-1-argentine-republic_20250819_155236.html",
+      "title": "T2.1 Argentine Republic",
+      "size": 7183
+    },
+    {
+      "source": "18-5-microform_20250819_154229.html",
+      "title": "18.6 Microform (pp. 192\u201393)",
+      "size": 1443
+    },
+    {
+      "source": "wyoming-wyo_20250819_155156.html",
+      "title": "Wyoming (Wyo.) (pp. 324\u201325)",
+      "size": 1274
+    },
+    {
+      "source": "16-4-consecutively-paginated-journals_20250819_154124.html",
+      "title": "16.4 Consecutively Paginated Journals (pp. 167\u201368)",
+      "size": 2140
+    },
+    {
+      "source": "t2-10-colombia-republic-of_20250819_155309.html",
+      "title": "T2.10 Colombia, Republic of",
+      "size": 6028
+    },
+    {
+      "source": "17-6-short-citation-forms_20250819_154209.html",
+      "title": "17.6 Short Citation Forms (p.181)",
+      "size": 1628
+    },
+    {
+      "source": "11-constitutions_20250819_153840.html",
+      "title": "11 Constitutions (pp. 124\u201325)",
+      "size": 3107
+    },
+    {
+      "source": "7-italicization-for-style-and-in-unique-circumstances_20250819_153747.html",
+      "title": "7 Italicization for Style and in Unique Circumstances (pp. 95\u201396)",
+      "size": 2185
+    },
+    {
+      "source": "3-2-pages-footnotes-endnotes-and-graphical-materials_20250819_153632.html",
+      "title": "3.2 Pages, Footnotes, Endnotes, and Graphical Materials (pp. 77\u201380)",
+      "size": 6545
+    },
+    {
+      "source": "t2-41-sri-lanka_20250819_155510.html",
+      "title": "T2.41 Sri Lanka",
+      "size": 8003
+    },
+    {
+      "source": "16-3-title_20250819_154121.html",
+      "title": "16.3 Title (pp. 166\u201367)",
+      "size": 1098
+    },
+    {
+      "source": "t3-7-inter-american-court-of-human-rights_20250819_155649.html",
+      "title": "T3.7 Inter-American Court of Human Rights (pp. 330\u201331)",
+      "size": 726
+    },
+    {
+      "source": "t2-12-egypt-arab-republic-of_20250819_155316.html",
+      "title": "T2.12 Egypt, Arab Republic of",
+      "size": 5012
+    },
+    {
+      "source": "a_20250819_155813.html",
+      "title": "Index",
+      "size": 9293
+    },
+    {
+      "source": "18-4-cd-rom-and-other-electronic-storage-media_20250819_154226.html",
+      "title": "18.5 Electronic Storage Media (p.192)",
+      "size": 1664
+    },
+    {
+      "source": "o_20250819_155854.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "b14-administrative-and-executive-materials_20250819_153256.html",
+      "title": "B14 Administrative and Executive Materials (p.23)",
+      "size": 1179
+    },
+    {
+      "source": "illinois-ill_20250819_154947.html",
+      "title": "Illinois (Ill.) (pp. 284\u201386)",
+      "size": 2355
+    },
+    {
+      "source": "10-1-basic-citation-forms_20250819_153803.html",
+      "title": "10.1 Basic Citation Forms (pp. 100\u201301)",
+      "size": 1994
+    },
+    {
+      "source": "west-virginia-w-va_20250819_155150.html",
+      "title": "West Virginia (W. Va.) (pp. 322\u201323)",
+      "size": 1235
+    },
+    {
+      "source": "b6-abbreviations-numerals-and-symbols_20250819_153140.html",
+      "title": "B6 Abbreviations, Numerals, and Symbols (pp. 9\u201310)",
+      "size": 1272
+    },
+    {
+      "source": "new-mexico-n-m_20250819_155052.html",
+      "title": "New Mexico (N.M.) (p.301)",
+      "size": 1630
+    },
+    {
+      "source": "18-8-photographs-and-illustrations_20250819_154239.html",
+      "title": "18.9 Images (pp. 197\u201398)",
+      "size": 2748
+    },
+    {
+      "source": "3-3-sections-and-paragraphs_20250819_153635.html",
+      "title": "3.3 Sections and Paragraphs (pp. 80\u201381)",
+      "size": 3339
+    },
+    {
+      "source": "w_20250819_155913.html",
+      "title": "Index",
+      "size": 690
+    },
+    {
+      "source": "oklahoma-okla_20250819_155109.html",
+      "title": "Oklahoma (Okla.) (pp. 309\u201310)",
+      "size": 1850
+    },
+    {
+      "source": "y_20250819_155923.html",
+      "title": "Index",
+      "size": 1049
+    },
+    {
+      "source": "b2-typeface-for-court-documents_20250819_153112.html",
+      "title": "B2 Typeface for Court Documents (p.6)",
+      "size": 2133
+    },
+    {
+      "source": "20-foreign-materials_20250819_154306.html",
+      "title": "20 Foreign Materials (p.207)",
+      "size": 495
+    },
+    {
+      "source": "n_20250819_155852.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "california-cal_20250819_154926.html",
+      "title": "California (Cal.) (pp. 275\u201377)",
+      "size": 2828
+    },
+    {
+      "source": "1-2-introductory-signals_20250819_153512.html",
+      "title": "1.2 Introductory Signals (pp. 66\u201368)",
+      "size": 5699
+    },
+    {
+      "source": "minnesota-minn_20250819_155017.html",
+      "title": "Minnesota (Minn.) (p.295)",
+      "size": 886
+    },
+    {
+      "source": "14-administrative-and-executive-materials_20250819_154004.html",
+      "title": "14 Administrative and Executive Materials (p.147)",
+      "size": 826
+    },
+    {
+      "source": "t_20250819_155906.html",
+      "title": "Index",
+      "size": 5645
+    },
+    {
+      "source": "department-of-the-treasury_20250819_154707.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "nevada-nev_20250819_155038.html",
+      "title": "Nevada (Nev.) (pp. 298\u201399)",
+      "size": 1052
+    },
+    {
+      "source": "21-8-league-of-nations_20250819_154403.html",
+      "title": "21.8 League of Nations (p.235)",
+      "size": 461
+    },
+    {
+      "source": "s_20250819_155903.html",
+      "title": "Index",
+      "size": 13265
+    },
+    {
+      "source": "bt2-2-state-courts_20250819_153452.html",
+      "title": "BT2.2 State Courts (pp. 50\u201363)",
+      "size": 28058
+    },
+    {
+      "source": "16-2-author_20250819_154118.html",
+      "title": "16.2 Author (p.166)",
+      "size": 1084
+    },
+    {
+      "source": "15-9-electronic-media-and-online-sources_20250819_154103.html",
+      "title": "15.9 Electronic Databases and Online Sources (pp. 162\u201363)",
+      "size": 2172
+    },
+    {
+      "source": "b8-capitalization_20250819_153210.html",
+      "title": "B8 Capitalization (pp. 10\u201311)",
+      "size": 1844
+    },
+    {
+      "source": "13-3-hearings_20250819_153943.html",
+      "title": "13.3 Hearings (pp. 142\u201343)",
+      "size": 1935
+    },
+    {
+      "source": "j_20250819_155843.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "9-titles-of-judges-officials-and-terms-of-court_20250819_153754.html",
+      "title": "9 Titles of Judges, Officials, and Terms of Court (p.99)",
+      "size": 1373
+    },
+    {
+      "source": "22-3-short-citations_20250819_154519.html",
+      "title": "22.3 Short Citation Form (p.249)",
+      "size": 328
+    },
+    {
+      "source": "13-4-reports-documents-and-committee-prints_20250819_153947.html",
+      "title": "13.4 Reports, Documents, and Committee Prints (pp. 143\u201345)",
+      "size": 3676
+    },
+    {
+      "source": "federal-aviation-administration-faa_20250819_154718.html",
+      "title": "Federal Aviation Administration (FAA) (p.268)",
+      "size": 1086
+    },
+    {
+      "source": "12-6-other-secondary-sources_20250819_153908.html",
+      "title": "12.6 Other Secondary Sources (pp. 133\u201334)",
+      "size": 2280
+    },
+    {
+      "source": "22-2-tribal-nations-without-an-established-citation-format_20250819_153427.html",
+      "title": "B22.2 Tribal Nations Without an Established Citation Format (pp. 30\u201331)",
+      "size": 2528
+    },
+    {
+      "source": "k_20250819_155845.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "23-8-pre-1900-newspapers_20250819_154552.html",
+      "title": "23.8 Pre-1900 Newspapers (p.254)",
+      "size": 522
+    },
+    {
+      "source": "t11-judges-and-officials_20250819_155749.html",
+      "title": "T11 Judges and Officials (pp. 345\u201346)",
+      "size": 593
+    },
+    {
+      "source": "www_legalbluebook_com_20250819_152859.html",
+      "title": "Introducing the Bluebook Online",
+      "size": 522
+    },
+    {
+      "source": "t2-3-austria-republic-of_20250819_155244.html",
+      "title": "T2.3 Austria, Republic of",
+      "size": 11351
+    },
+    {
+      "source": "15-8-special-citation-forms_20250819_154059.html",
+      "title": "15.8 Special Citation Forms (pp. 161\u201362)",
+      "size": 2914
+    },
+    {
+      "source": "louisiana-la_20250819_155000.html",
+      "title": "Louisiana (La.) (pp. 289\u201390)",
+      "size": 2349
+    },
+    {
+      "source": "i_20250819_155840.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "23-10-handwritten-and-or-typewritten-documents_20250819_154559.html",
+      "title": "23.10 Handwritten and Typewritten Documents (pp. 254\u201355)",
+      "size": 1931
+    },
+    {
+      "source": "16-6-newspapers_20250819_154130.html",
+      "title": "16.6 Newspapers (pp. 168\u201370)",
+      "size": 4043
+    },
+    {
+      "source": "12-3-current-official-and-unofficial-codes_20250819_153853.html",
+      "title": "12.3 Current Official and Unofficial Codes (pp. 128\u201331)",
+      "size": 5875
+    },
+    {
+      "source": "northern-mariana-islands-n-mar-i_20250819_155210.html",
+      "title": "Northern Mariana Islands (N. Mar. I.) (pp. 326\u201327)",
+      "size": 1314
+    },
+    {
+      "source": "missouri-mo_20250819_155023.html",
+      "title": "Missouri (Mo.) (pp. 296\u201397)",
+      "size": 1019
+    },
+    {
+      "source": "district-of-columbia-d-c_20250819_154936.html",
+      "title": "District of Columbia (D.C.) (pp. 280\u201381)",
+      "size": 2347
+    },
+    {
+      "source": "t2-30-nicaragua_20250819_155435.html",
+      "title": "T2.31 Nicaragua",
+      "size": 5931
+    },
+    {
+      "source": "t9-legislative-documents_20250819_155730.html",
+      "title": "T9 Legislative Documents (pp. 339\u201340)",
+      "size": 1013
+    },
+    {
+      "source": "12-2-choosing-the-proper-citation-form_20250819_153849.html",
+      "title": "12.2 Choosing the Proper Citation Form (pp. 127\u201328)",
+      "size": 4135
+    },
+    {
+      "source": "d_20250819_155828.html",
+      "title": "Index",
+      "size": 5024
+    },
+    {
+      "source": "t2-5-brazil-federative-republic-of_20250819_155251.html",
+      "title": "T2.5 Brazil, Federative Republic of",
+      "size": 8118
+    },
+    {
+      "source": "t8-explanatory-phrases_20250819_155726.html",
+      "title": "T8 Explanatory Phrases (p.339)",
+      "size": 1058
+    },
+    {
+      "source": "14-3-administrative-adjudications-and-arbitrations_20250819_154013.html",
+      "title": "14.3 Administrative Adjudications and Arbitrations (pp. 150\u201352)",
+      "size": 4114
+    },
+    {
+      "source": "t15-services_20250819_155804.html",
+      "title": "T15 Services (pp. 349\u201353)",
+      "size": 8651
+    },
+    {
+      "source": "1-3-order-of-signals_20250819_153517.html",
+      "title": "1.3 Order of Signals (p.68)",
+      "size": 1433
+    },
+    {
+      "source": "b12-2-short-form-citation_20250819_153244.html",
+      "title": "B12.2 Short Form Citation (pp. 21\u201322)",
+      "size": 803
+    },
+    {
+      "source": "20-1-jurisdiction_20250819_154309.html",
+      "title": "20.1 Jurisdiction (p.207)",
+      "size": 645
+    },
+    {
+      "source": "q_20250819_155858.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "virgin-islands-v-i_20250819_155223.html",
+      "title": "Virgin Islands (V.I.) (p.328)",
+      "size": 1348
+    },
+    {
+      "source": "19-2-short-citation-forms_20250819_154301.html",
+      "title": "19.2 Short Citation Forms (pp. 206\u201307)",
+      "size": 1333
+    },
+    {
+      "source": "15-6-prefaces-forewords-introductions-and-epilogues_20250819_154049.html",
+      "title": "15.6 Prefaces, Forewords, Introductions, and Epilogues (p.160)",
+      "size": 645
+    },
+    {
+      "source": "13-1-basic-citation-forms_20250819_153937.html",
+      "title": "13.1 Basic Citation Forms (pp. 140\u201341)",
+      "size": 1340
+    },
+    {
+      "source": "2-typefaces-for-law-reviews_20250819_153538.html",
+      "title": "2 Typography for Law Reviews (p.72)",
+      "size": 1935
+    },
+    {
+      "source": "new-jersey-n-j_20250819_155050.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "ohio-ohio_20250819_155105.html",
+      "title": "Ohio (Ohio) (pp. 308\u201309)",
+      "size": 3059
+    },
+    {
+      "source": "t4-treaty-sources_20250819_155700.html",
+      "title": "T4 Treaty Sources (p.332)",
+      "size": 261
+    },
+    {
+      "source": "b18-2-short-form-citation_20250819_153341.html",
+      "title": "B18.2 Short Form Citation (p.28)",
+      "size": 181
+    },
+    {
+      "source": "10-2-case-names_20250819_153806.html",
+      "title": "10.2 Case Names (pp. 101\u201307)",
+      "size": 13257
+    },
+    {
+      "source": "23-archival-sources_20250819_154525.html",
+      "title": "23 Archival Sources (p.249)",
+      "size": 1033
+    },
+    {
+      "source": "16-5-nonconsecutively-paginated-journals-and-magazines_20250819_154127.html",
+      "title": "16.5 Nonconsecutively Paginated Journals and Magazines (p.168)",
+      "size": 1335
+    },
+    {
+      "source": "national-labor-relations-board-nlrb_20250819_154754.html",
+      "title": "National Labor Relations Board (NLRB) (p.269)",
+      "size": 147
+    },
+    {
+      "source": "20-6-non-english-language-and-foreign-periodicals_20250819_154325.html",
+      "title": "20.6 Non-English-Language and Foreign Periodicals (p.212)",
+      "size": 2167
+    },
+    {
+      "source": "12-8-explanatory-parenthetical-phrases_20250819_153919.html",
+      "title": "12.8 Explanatory Parenthetical Phrases (p.135)",
+      "size": 678
+    },
+    {
+      "source": "g_20250819_155836.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "t1-3-states-and-the-district-of-columbia_20250819_154831.html",
+      "title": "T1.3 States and the District of Columbia (p.272)",
+      "size": 904
+    },
+    {
+      "source": "5-quotations_20250819_153709.html",
+      "title": "5 Quotations (p.87)",
+      "size": 111
+    },
+    {
+      "source": "10-3-reporters-and-other-sources_20250819_153809.html",
+      "title": "10.3 Reporters and Other Sources (pp. 108\u201310)",
+      "size": 5817
+    },
+    {
+      "source": "department-of-state_20250819_154705.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "21-14-international-non-governmental-organizations-ng-os_20250819_154421.html",
+      "title": "21.14 International Non-Governmental Organizations (NGOs) (p.243)",
+      "size": 460
+    },
+    {
+      "source": "hawaii-haw_20250819_154943.html",
+      "title": "Hawaii (Haw.) (pp. 283\u201384)",
+      "size": 1429
+    },
+    {
+      "source": "t3-9-intergovernmental-organizations_20250819_155657.html",
+      "title": "T3.9 Intergovernmental Organizations (pp. 331\u201332)",
+      "size": 1771
+    },
+    {
+      "source": "15-3-title_20250819_154038.html",
+      "title": "15.3 Title (p.157)",
+      "size": 786
+    },
+    {
+      "source": "florida-fla_20250819_154938.html",
+      "title": "Florida (Fla.) (pp. 281\u201382)",
+      "size": 1597
+    },
+    {
+      "source": "t4-3-unofficial-treaty-sources_20250819_155709.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "21-13-other-intergovernmental-organizations_20250819_154417.html",
+      "title": "21.13 Other Intergovernmental Organizations (pp. 241\u201342)",
+      "size": 3550
+    },
+    {
+      "source": "t2-20-iraq-republic-of_20250819_155347.html",
+      "title": "T2.20 Iraq, Republic of",
+      "size": 3721
+    },
+    {
+      "source": "22-tribal-nations_20250819_154455.html",
+      "title": "22 Tribal Nations (p.245)",
+      "size": 1826
+    },
+    {
+      "source": "department-of-justice_20250819_154657.html",
+      "title": "Department of Justice (p.264)",
+      "size": 935
+    },
+    {
+      "source": "quick-style-guide_20250819_152942.html",
+      "title": "Quick Style Guide",
+      "size": 5286
+    },
+    {
+      "source": "t2-39-spain_20250819_155505.html",
+      "title": "T2.40 Spain",
+      "size": 6041
+    },
+    {
+      "source": "t1-5-tribal-nations_20250819_155228.html",
+      "title": "T1.5 Tribal Nations (p.328)",
+      "size": 20868
+    },
+    {
+      "source": "t16-subdivisions_20250819_155808.html",
+      "title": "T16 Subdivisions (pp. 353\u201354)",
+      "size": 1249
+    },
+    {
+      "source": "arizona-ariz_20250819_154844.html",
+      "title": "Arizona (Ariz.) (p.274)",
+      "size": 1125
+    },
+    {
+      "source": "t3-1-united-nations_20250819_155625.html",
+      "title": "T3.1 United Nations (p.329)",
+      "size": 847
+    },
+    {
+      "source": "20-3-cases_20250819_154316.html",
+      "title": "20.3 Cases (pp. 210\u201311)",
+      "size": 1754
+    },
+    {
+      "source": "b5-2-block-quotations_20250819_153130.html",
+      "title": "B5.2 Block Quotations (pp. 8\u20139)",
+      "size": 1170
+    },
+    {
+      "source": "t2-37-south-africa_20250819_155459.html",
+      "title": "T2.38 South Africa",
+      "size": 6554
+    },
+    {
+      "source": "t2-4-belgium-kingdom-of_20250819_155248.html",
+      "title": "T2.4 Belgium, Kingdom of",
+      "size": 11244
+    },
+    {
+      "source": "south-carolina-s-c_20250819_155122.html",
+      "title": "South Carolina (S.C.) (pp. 313\u201314)",
+      "size": 2914
+    },
+    {
+      "source": "l_20250819_155847.html",
+      "title": "Index",
+      "size": 30
+    },
+    {
+      "source": "12-9-special-citation-forms_20250819_153924.html",
+      "title": "12.9 Special Citation Forms (pp. 135\u201339)",
+      "size": 8188
+    },
+    {
+      "source": "23-2-author_20250819_154532.html",
+      "title": "23.2 Author (pp. 250\u201351)",
+      "size": 1645
+    },
+    {
+      "source": "23-5-date_20250819_154542.html",
+      "title": "23.5 Date (p.252)",
+      "size": 681
+    },
+    {
+      "source": "department-of-commerce-national-oceanic-and-atmospheric-administration-noaa_20250819_154646.html",
+      "title": "Department of Commerce, National Oceanic and Atmospheric Administration (NOAA) (p.262)",
+      "size": 1277
+    },
+    {
+      "source": "5-1-formatting-of-quotations_20250819_153712.html",
+      "title": "5.1 Formatting of Quotations (pp. 87\u201388)",
+      "size": 4313
+    },
+    {
+      "source": "b12-1-full-citation_20250819_153239.html",
+      "title": "B12.1 Full Citation (pp. 19\u201321)",
+      "size": 6340
+    },
+    {
+      "source": "t3-3-european-union_20250819_155632.html",
+      "title": "T3.3 European Union (pp. 329\u201330)",
+      "size": 1415
+    },
+    {
+      "source": "maine-me_20250819_155003.html",
+      "title": "Maine (Me.) (pp. 290\u201391)",
+      "size": 1109
+    },
+    {
+      "source": "puerto-rico-p-r_20250819_155214.html",
+      "title": "Puerto Rico (P.R.) (p.327)",
+      "size": 1189
+    },
+    {
+      "source": "t12-months_20250819_155752.html",
+      "title": "T12 Months (p.346)",
+      "size": 220
+    },
+    {
+      "source": "t6-case-names-and-institutional-authors-in-citations_20250819_155716.html",
+      "title": "T6 Case Names and Institutional Authors in Citations (pp. 333\u201336)",
+      "size": 7165
+    },
+    {
+      "source": "4-1-id_20250819_153700.html",
+      "title": "4.1 \u201c Id. \u201d (pp. 83\u201385)",
+      "size": 3089
+    },
+    {
+      "source": "federal-mine-safety-and-health-review-commission-fmshrc_20250819_154730.html",
+      "title": "Federal Mine Safety and Health Review Commission (FMSHRC) (p.268)",
+      "size": 158
+    },
+    {
+      "source": "alaska-alaska_20250819_154840.html",
+      "title": "Alaska (Alaska) (p.273)",
+      "size": 1679
+    },
+    {
+      "source": "18-6-films-broadcasts-and-noncommercial-video-materials_20250819_154232.html",
+      "title": "18.7 Videographic Media (pp. 193\u201395)",
+      "size": 4704
+    },
+    {
+      "source": "t2-41-switzerland_20250819_155542.html",
+      "title": "T2.43 Switzerland",
+      "size": 11792
+    },
+    {
+      "source": "t2-38-south-korea_20250819_155502.html",
+      "title": "T2.39 South Korea",
+      "size": 6777
+    },
+    {
+      "source": "18-7-audio-recordings_20250819_154235.html",
+      "title": "18.8 Audio Recordings and Streaming (pp. 195\u201397)",
+      "size": 6216
+    },
+    {
+      "source": "washington-wash_20250819_155147.html",
+      "title": "Washington (Wash.) (p.322)",
+      "size": 1161
+    },
+    {
+      "source": "b18-1-full-citation_20250819_153336.html",
+      "title": "B18.1 Full Citation (p.28)",
+      "size": 1853
+    },
+    {
+      "source": "16-8-electronic-media-and-online-sources_20250819_154139.html",
+      "title": "16.8 Electronic Media and Online Sources (pp. 174\u201375)",
+      "size": 1756
+    },
+    {
+      "source": "virginia-va_20250819_155144.html",
+      "title": "Virginia (Va.) (pp. 321\u201322)",
+      "size": 1784
+    },
+    {
+      "source": "t2-40-sweden_20250819_155513.html",
+      "title": "T2.42 Sweden",
+      "size": 7808
+    },
+    {
+      "source": "20-2-non-english-language-documents_20250819_154313.html",
+      "title": "20.2 Non-English-Language Documents (pp. 207\u201310)",
+      "size": 6432
+    },
+    {
+      "source": "b20-foreign-materials_20250819_153351.html",
+      "title": "B20 Foreign Materials (p.29)",
+      "size": 565
+    },
+    {
+      "source": "18-9-short-citation-forms_20250819_154249.html",
+      "title": "18.12 Short Citation Forms (pp. 203\u201304)",
+      "size": 3361
+    },
+    {
+      "source": "18-3-ai-generated-content_20250819_154220.html",
+      "title": "18.3 AI-Generated Content (p.191)",
+      "size": 2990
+    },
+    {
+      "source": "texas-tex_20250819_155135.html",
+      "title": "Texas (Tex.) (pp. 316\u201319)",
+      "size": 5340
+    },
+    {
+      "source": "environmental-protection-agency-epa_20250819_154710.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "12-1-basic-citation-forms_20250819_153846.html",
+      "title": "12.1 Basic Citation Forms (pp. 126\u201327)",
+      "size": 2443
+    },
+    {
+      "source": "t2-2-australia_20250819_155240.html",
+      "title": "T2.2 Australia",
+      "size": 19039
+    },
+    {
+      "source": "8-capitalization_20250819_153751.html",
+      "title": "8 Capitalization (pp. 96\u201399)",
+      "size": 6291
+    },
+    {
+      "source": "american-samoa_20250819_155202.html",
+      "title": "American Samoa (p.325)",
+      "size": 478
+    },
+    {
+      "source": "14-2-rules-regulations-and-other-publications_20250819_154010.html",
+      "title": "14.2 Rules, Regulations, and Other Publications (pp. 147\u201350)",
+      "size": 6278
+    },
+    {
+      "source": "b16-1-full-citation_20250819_153313.html",
+      "title": "B16.1 Full Citation (pp. 24\u201325)",
+      "size": 1760
+    },
+    {
+      "source": "t3-2-league-of-nations_20250819_155629.html",
+      "title": "T3.2 League of Nations (p.329)",
+      "size": 420
+    },
+    {
+      "source": "introduction_20250819_153047.html",
+      "title": "Introduction (p.3)",
+      "size": 2214
+    },
+    {
+      "source": "t2-27-malaysia_20250819_155413.html",
+      "title": "T2.27 Malaysia",
+      "size": 3277
+    },
+    {
+      "source": "14-4-state-materials_20250819_154017.html",
+      "title": "14.4 State Materials (pp. 152\u201353)",
+      "size": 2155
+    },
+    {
+      "source": "department-of-education_20250819_154652.html",
+      "title": "Department of Education (p.264)",
+      "size": 522
+    },
+    {
+      "source": "t2-24-japan_20250819_155404.html",
+      "title": "T2.24 Japan",
+      "size": 16630
+    },
+    {
+      "source": "b11-constitutions_20250819_153232.html",
+      "title": "B11 Constitutions (p.18)",
+      "size": 263
+    },
+    {
+      "source": "21-4-treaties-and-other-international-agreements_20250819_154348.html",
+      "title": "21.4 Treaties and Other International Agreements (pp. 215\u201319)",
+      "size": 8571
+    },
+    {
+      "source": "3-5-internal-cross-references_20250819_153650.html",
+      "title": "3.5 Internal Cross-References (pp. 82\u201383)",
+      "size": 1256
+    },
+    {
+      "source": "17-5-electronic-media-and-online-sources_20250819_154206.html",
+      "title": "17.5 Electronic Databases and Online Sources (p.180)",
+      "size": 1341
+    },
+    {
+      "source": "equal-employment-opportunity-commission-eeoc_20250819_154712.html",
+      "title": "Equal Employment Opportunity Commission (EEOC) (p.267)",
+      "size": 412
+    },
+    {
+      "source": "21-7-united-nations-sources_20250819_154400.html",
+      "title": "21.7 United Nations Sources (pp. 229\u201335)",
+      "size": 15410
+    },
+    {
+      "source": "4-2-supra-and-hereinafter_20250819_153704.html",
+      "title": "4.2 \u201c Supra \u201d and \u201cHereinafter\u201d (pp. 85\u201387)",
+      "size": 5306
+    },
+    {
+      "source": "b19-services_20250819_153346.html",
+      "title": "B19 Services (p.29)",
+      "size": 812
+    },
+    {
+      "source": "federal-reserve-system_20250819_154735.html",
+      "title": "Federal Reserve System (pp. 268\u201369)",
+      "size": 367
+    },
+    {
+      "source": "12-7-invalidation-repeal-amendment-and-prior-history_20250819_153915.html",
+      "title": "12.7 Invalidation, Repeal, Amendment, and Prior History (pp. 134\u201335)",
+      "size": 1812
+    },
+    {
+      "source": "t2-23-italy-republic-of_20250819_155401.html",
+      "title": "T2.23 Italy, Republic of",
+      "size": 4594
+    },
+    {
+      "source": "t2-29-new-zealand_20250819_155432.html",
+      "title": "T2.30 New Zealand",
+      "size": 13069
+    },
+    {
+      "source": "b_20250819_155817.html",
+      "title": "Index",
+      "size": 3674
+    },
+    {
+      "source": "t2-foreign-jurisdictions_20250819_155231.html",
+      "title": "T2 Foreign Jurisdictions (p.328)",
+      "size": 1250
+    },
+    {
+      "source": "b21-international-materials_20250819_153356.html",
+      "title": "B21 International Materials (pp. 29\u201330)",
+      "size": 1390
+    },
+    {
+      "source": "19-services_20250819_154255.html",
+      "title": "19 Services (p.205)",
+      "size": 534
+    },
+    {
+      "source": "maryland-md_20250819_155007.html",
+      "title": "Maryland (Md.) (pp. 291\u201392)",
+      "size": 2642
+    },
+    {
+      "source": "government-accountability-office-gao_20250819_154742.html",
+      "title": "Government Accountability Office (GAO) (p.269)",
+      "size": 930
+    },
+    {
+      "source": "1-structure-and-use-of-citations_20250819_153507.html",
+      "title": "1 Structure and Use of Citations (p.65)",
+      "size": 971
+    },
+    {
+      "source": "21-international-materials_20250819_154332.html",
+      "title": "21 International Materials (p.213)",
+      "size": 591
+    },
+    {
+      "source": "3-4-appended-material_20250819_153645.html",
+      "title": "3.4 Appended Material (p.82)",
+      "size": 1637
+    },
+    {
+      "source": "z_20250819_155927.html",
+      "title": "Index",
+      "size": 82
+    },
+    {
+      "source": "16-9-short-citation-forms_20250819_154145.html",
+      "title": "16.9 Short Citation Forms (pp. 175\u201376)",
+      "size": 3431
+    },
+    {
+      "source": "b23-archival-sources_20250819_153433.html",
+      "title": "B23 Archival Sources (p.31)",
+      "size": 484
+    },
+    {
+      "source": "t2-11-czech-republic_20250819_155313.html",
+      "title": "T2.11 Czechia",
+      "size": 5707
+    },
+    {
+      "source": "t2-32-pakistan-islamic-republic-of_20250819_155441.html",
+      "title": "T2.33 Pakistan, Islamic Republic of",
+      "size": 5570
+    },
+    {
+      "source": "kansas-kan_20250819_154955.html",
+      "title": "Kansas (Kan.) (pp. 287\u201388)",
+      "size": 1044
+    },
+    {
+      "source": "13-2-bills-and-resolutions_20250819_153940.html",
+      "title": "13.2 Bills and Resolutions (pp. 141\u201342)",
+      "size": 3441
+    },
+    {
+      "source": "2-2-typeface-conventions-for-textual-material_20250819_153616.html",
+      "title": "2.2 Typeface Conventions for Textual Material (pp. 74\u201376)",
+      "size": 4046
+    },
+    {
+      "source": "13-5-debates_20250819_153950.html",
+      "title": "13.5 Debates (p.140)",
+      "size": 991
+    },
+    {
+      "source": "18-10-social-media_20250819_154242.html",
+      "title": "18.10 Social Media (pp. 198\u2013201)",
+      "size": 7002
+    },
+    {
+      "source": "nuclear-regulatory-commission-nrc_20250819_154806.html",
+      "title": "Nuclear Regulatory Commission (NRC) (p.270)",
+      "size": 283
+    },
+    {
+      "source": "armed-services-board-of-contract-appeals-asbca_20250819_154630.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "federal-communications-commission-fcc_20250819_154721.html",
+      "title": "The Bluebook Online",
+      "size": 0
+    },
+    {
+      "source": "quick-style-guide_20250819_153041.html",
+      "title": "Quick Style Guide",
+      "size": 5286
+    },
+    {
+      "source": "montana-mont_20250819_155027.html",
+      "title": "Montana (Mont.) (p.297)",
+      "size": 1349
+    },
+    {
+      "source": "t2-22-israel_20250819_155354.html",
+      "title": "T2.22 Israel",
+      "size": 15006
+    },
+    {
+      "source": "12-10-short-forms-for-statutes_20250819_153931.html",
+      "title": "12.10 Short Forms for Statutes (pp. 139\u201340)",
+      "size": 2330
+    },
+    {
+      "source": "t2-27-mexico_20250819_155416.html",
+      "title": "T2.28 Mexico",
+      "size": 43595
+    }
+  ]
+}

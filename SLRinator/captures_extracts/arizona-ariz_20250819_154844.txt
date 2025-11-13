@@ -1,0 +1,106 @@
+TITLE: Arizona (Ariz.) (p.274)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: arizona-ariz
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Arizona (Ariz.)
+(p.274)
+https://www.azcourts.gov/
+https://www.azleg.gov/
+Supreme Court
+(
+Ariz.
+)
+: Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+Arizona Reports
+1866–date
+Ariz.
+Court of Appeals
+(
+Ariz. Ct. App.
+):
+Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1965–date
+P.2d, P.3d
+Arizona Reports
+1976–date
+Ariz.
+Arizona Appeals Reports
+1965–1977
+Ariz. App.
+Tax Court
+(
+Ariz. Tax Ct.
+): Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1988–date
+P.2d, P.3d
+Statutory compilations:
+Cite to one of the following codes.
+Arizona Revised Statutes Annotated (West)
+Ariz. Rev. Stat. Ann.
+§ x-x
+(
+<year>
+)
+Arizona Revised Statutes (LexisNexis)
+Ariz. Rev. Stat.
+§ x-x
+(LexisNexis
+<year>
+)
+Session laws:
+Cite to
+Ariz. Sess. Laws
+, if therein.
+Session Laws, Arizona
+<year>
+Ariz. Sess. Laws
+<page no.>
+Arizona Legislative Service (West)
+<year>
+Ariz. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Arizona Administrative Code
+Ariz. Admin. Code
+§ x-x-x (
+<year>
+)
+Administrative register
+Arizona Administrative Register
+<vol. no.>
+Ariz. Admin. Reg.
+<page no.>
+(
+<month day, year>
+)

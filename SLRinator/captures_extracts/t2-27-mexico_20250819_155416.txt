@@ -1,0 +1,974 @@
+TITLE: T2.28 Mexico
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-27-mexico
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.28
+Mexico
+(Civil Law)
+Cases
+Mexico does not have an official system of citation for cases decided by courts at the federal level. It is customary to cite federal cases provided in the Court Reporter's digital system in the following format:
+Citation format for cases decided by the Mexican Supreme Court and federal courts:
+<rubro>
+,
+<court name>
+[
+<court abbreviation>]
+<reporter name>
+<Época>, Tomo
+<volume number>
+<month and year of reporter>
+<number of decision in reporter>
+<case number>
+página
+<first page of decision>
+(
+<country abbreviation if not evident from context>
+).
+Personalidad. En contra de la resolución que dirime esta cuestión, previamente al fondo, procede el amparo indirecto, Pleno de la Suprema Corte de Justicia [SCJN], Semanario Judicial de la Federación y su Gaceta, Novena Época, Tomo XIII, Enero de 2001, Tesis P./J. 4/2001, página 11 (Mex.).
+The "rubro," or "case title" in English, is a short statement prepared by a court on the topic and issue discussed in the case.  "Épocas" or "time periods" in English, are periods of time determined by the Supreme Court of Mexico in order to organize cases by chronological order.  As of 2021, the Supreme Court was in the eleventh época.  The first four épocas are no longer in force.  The last seven épocas (from the fifth through the eleventh) include cases that are currently in force.  All cases decided by federal courts indicate the época in which the case was decided.
+Federal court structure
+The Suprema Corte de Justicia de la Nación
+(
+SCJN
+) is the highest court of constitutional and federal jurisdiction in Mexico and sits as a full court (
+pleno
+) or in chambers. The Tribunales Colegiados de Circuito (
+TCC
+) are the equivalents, to some extent, of the U.S. federal courts of appeals.
+Juzgado de Distrito (District Courts)
+JD
+Plenos de Circuito (Full Circuit Courts)
+PC
+Suprema Corte de Justicia de la Nación (Supreme Court of Justice of the Nation)
+SCJN
+Tribunal Agrarios (Agrarian Courts)
+TA
+Tribunal Colegiado (Three-Judge Appellate Court)
+TC
+Tribunales Colegiados de Circuito (Three-Judge Circuit Courts)
+TCC
+Tribunal Electoral del Poder Judicial de la Federación (Electoral Court of the Judiciary of the Federation)
+TEPJF
+Tribunal Federal de Conciliación y Arbitraje (Federal Court of Conciliation and Arbitration)
+TFCA
+Tribunal Federal Electoral (Federal Electoral Court)
+TFE
+Tribunal Federal de Justicia Fiscal y Administrativa (Federal Court of Tax and Administrative Justice)
+TFJFA
+Tribunal Superior Agrario (Superior Agrarian Court)
+TSA
+Tribunales Unitarios Agrarios (One-Judge Agrarian Courts)
+TUA
+Tribunales Unitarios de Circuito (One-Judge Circuit Courts)
+TUC
+Case law publications
+Cases decided by federal courts in Mexico are currently published in the
+Semanario Judicial de la Federación y su Gaceta
+(
+SJFG
+) (Federal Judicial Weekly Report and its Gazzette). Only cases decided by
+SCJN, PC,
+and the
+TCC
+are published in the
+SJFG
+. The
+SJFG
+volumes are published monthly.
+Anales de Jurisprudencia (Annals of Jurisprudence)
+AJ
+Apéndice al Semanario Judicial de la Federación (Appendix to the Federal Judicial Weekly Report)
+ASJF
+Boletín Judicial (Judicial Bulletin)
+BJ
+Boletín de Información Judicial (Bulletin of Judicial Information)
+BIJ
+Boletín del Semanario Judicial de la Federación (Bulletin of the Federal Judicial Weekly Report)
+BSJF
+Informe de la Suprema Corte de Justicia (Report of the Supreme Court of Justice)
+Info.
+Jurisprudencia por Contradicción de Tesis (Jurisprudence by Contradiction)
+JCT
+Juzgados de Distrito (District Courts)
+JD
+Precedentes Relevantes (Relevant Precedents)
+PR
+Semanario Judicial de la Federación (Federal Judicial Weekly Report)
+SJF
+Semanario Judicial de la Federación y su Gaceta (Federal Judicial Weekly Report and Its Gazette); or Gaceta del Semanario Judicial de la Federación (Gazette of the Federal Judicial Weekly Report)
+SJFG or GSJF
+Tribunal Federal Electoral (Federal Electoral Court)
+TFE
+Tribunal Fiscal de la Federación (Tax Court of the Federation)
+TFF
+Tribunal Federal de Justicia Fiscal y Administrativa (Federal Court of Tax and Administrative Justice)
+TFJFyA
+Constitution
+Constitución Política de los Estados Unidos Mexicanos
+CP or CPEUM
+Citation format:
+<Constitution Name
+>
+[
+<constitution abbreviation>
+]
+,
+<specific provision(s) cited, if applicable>
+,
+Diario Oficial de la Federación [DOF]
+<date of original publication>
+,
+<date of latest revision
+,
+if applicable>
+(
+<country abbreviation if not evident from context>
+)
+.
+Constitución Política de los Estados Unidos Mexicanos, CP, Diario Oficial de la Federación [DOF] 05-02-1917, últimas reformas DOF 10-02-2014.
+Constitución Política de los Estados Unidos Mexicanos, CPEUM, Diario Oficial de la Federación [DOF] 05-02-1917, últimas reformas DOF 10-02-2014.
+Codes
+Citation format:
+<code name>
+[
+<code abbreviation>
+],
+<specific provision(s) cited, if applicable>
+,
+Diario Oficial de la Federación [DOF]
+<original date of publication>
+,
+<date of latest revision, if applicable>
+(
+<country abbreviation if not evident from context>
+)
+.
+Código Civil [CC], Diario Oficial de la Federación [DOF] 14-05-1928, últimas reformas DOF 24-12-2013 (Mex.).
+Código Civil [CC], art. 214, Diario Oficial de la Federación [DOF] 14-05-1928, últimas reformas DOF 24-12-2013 (Mex.).
+Código Civil Federal (Federal Civil Code)
+CC
+Código Aduanero (Customs Code)
+CA
+Código Agrario (Agrarian Code)
+CAgr
+Código de Comercio (Commercial Code)
+CCom
+Código de Justicia Militar (Military Justice Code)
+CJM
+Código Federal de Instituciones y Procedimientos Electorales (Federal Code of Electoral Institutions and Procedures)
+CFIPE
+Código Federal de Procedimientos Civiles (Federal Code of Civil Procedures)
+CFPC
+Código Nacional  de Procedimientos Penales (Federal Code of Criminal Procedures)
+CNPP
+Código Fiscal de la Federación (Federal Tax Code)
+CFF
+Código Penal Federal (Federal Criminal Code)
+CPF
+The Mexican government publishes legislative and executive materials in the
+Diario Oficial de la Federación
+(
+DOF
+), which is the official gazette of the federal government in Mexico.  The
+DOF
+provides ready access to the official text of federal laws, presidential documents, administrative regulations and notices, treaties, and descriptions of federal organizations, programs, and activities. Some administrative orders issued by the Supreme Court are published in the
+DOF
+as well. Cite to
+DOF
+for all federal legislation.
+Subdivisions
+apéndice (appendix)
+apénd.
+artículo (article)
+art.
+capítulo (chapter)
+cap.
+colección (collection)
+colecc.
+columna (column)
+col.
+edición (edition)
+ed.
+fracción, fracciones (section[s])
+frac., fracc.
+página, páginas (page[s])
+p., pp.
+párrafo (paragraph)
+Pfo.
+parte (part)
+pt.
+reglamento (regulation)
+reg.
+sección (section)
+sec.
+suplemento (supplement)
+supl.
+título (title)
+tit.
+tomo (tome)
+t.
+volumen (volume)
+vol.
+Statutes
+Citation format:
+<statute name>
+[
+<statute abbreviation>
+]
+<specific provision(s) cited, if applicable>
+,
+Diario Oficial de la Federación [DOF]
+<original date of publication>
+,
+<date of latest revision, if applicable>
+(
+<country abbreviation if not evident from context>
+)
+.
+Ley Aduanera [LAD],
+Diario Oficial de la Federación [DOF] 15-12-1995, últimas reformas DOF 09-12-2013 (Mex.).
+Ley Aduanera (Customs Law)
+LAD
+Ley Agraria (Agrarian Law)
+LAG
+Ley de Migración (Immigration Law)
+LM
+Ley de Adquisiciones y Obras Públicas (Acquisitions and Public Works Law)
+LAOP
+Ley de Aeropuertos (Airport Law)
+LA
+Ley de Aguas Nacionales (National Water Law)
+LAN
+Ley de Ahorro y Crédito Popular (Law on Savings and Popular Credit)
+LACP
+Ley de Amnistía (Amnesty Law)
+LAM
+Ley de Amparo, Reglamentaria de los Artículos 103 y 107 de la Constitución Política de los Estados Unidos Mexicanos (Constitutional Law, Regulating Articles 103 and 107 of the Political Constitution of the Mexican United States)
+LARACPEUM
+Ley de Ascensos de la Armada de México (Promotions Law of the Navy of Mexico)
+LAAM
+Ley de Ascensos y Recompensas del Ejército y Fuerza Aérea Mexicanos (Promotions and Salary Law of the Army and Air Force)
+LAREFAM
+Ley de Asistencia Social (Social Assistance Law)
+LAS
+Ley de Asociaciones Religiosas y Culto Público (Law of Religious Associations and Public Worship)
+LARCP
+Ley de Aviación Civil (Civil Aviation Law)
+LAC
+Ley de Cámaras Empresariales y Sus Confederaciones (Law of Chambers of Commerce and Their Confederations)
+LCEC
+Ley de Caminos, Puentes y Autotransporte Federal (Law of Federal Roads, Bridges and Autotransportation)
+LCPAF
+Ley de Ciencia y Tecnología (Law of Science and Technology)
+LCT
+Ley de Comercio Exterior (Foreign Commerce Law)
+LCE
+Ley de Concursos Mercantiles (Bankruptcy Law)
+LCM
+Ley de Cooperación Internacional para el Desarollo (Law on International Cooperation for Development)
+LCID
+Ley de Coordinación Fiscal (Fiscal Coordination Law)
+LCF
+Ley de Desarrollo Rural Sustenable (Law of Rural Sustainable Development)
+LDRS
+Ley de Disciplina del Ejército y Fuerza Aérea Mexicanos (Disciplinary Law of the Mexican Army and Air Force)
+LDEFA
+Ley de Disciplina para el Personal de la Armada de México (Disciplinary Law for Personnel of the Navy of Mexico)
+LDPAM
+Ley de Educación Militar del Ejército y Fuerza Aérea Mexicanos (Military Education Law of the Army and Air Force)
+LEMAFAM
+Ley de Expropiación (Expropriation Law)
+LE
+Ley de Extradición Internacional (International Extradition Law)
+LEI
+Ley de Fondos de Inversión (Investment Funds Law)
+LFI
+Ley de Ingresos de la Federación para el Ejercicio Fiscal de 2024 (Law of Federal Revenue for the Fiscal Year of 2024)
+LIFEF
+Ley de Inspección de Contratos y Obras Públicas (Contract Inspection and Public Works Law)
+LICOP
+Ley de Instituciones de Crédito (Credit Institutions Law)
+LIC
+Ley de Instituciones de Seguros y de Fianzas (Law of Insurance Institutions and Surety)
+LISF
+Ley de Inversión Extranjera (Foreign Investment Law)
+LIEX
+Ley de la Casa de Moneda de México (Law of Mexico Mint)
+LCMM
+Ley de la Comisión Nacional Bancaria y de Valores (Law of the National Banking and Securities Commission)
+LCNBV
+Ley de la Comisión Nacional de los Derechos Humanos (Law of the National Commission of Human Rights)
+LCNDH
+Ley de la Comisión Nacional para el Desarrollo de los Pueblos Indígenas (Law of the National Commission for the Development of Indigenous Peoples)
+LCNDPI
+Ley de la Polícia Federal (Federal Police Law)
+LPF
+Ley de la Propiedad Industrial (Law of Industrial Property)
+LPI
+Ley de los Derechos de las Personas Adultas Mayores (Law of the Rights of the Elderly)
+LDPAM
+Ley de los Impuestos Generales de Importación y de Exportación (General Tax Law of Importation and Exportation)
+LIGIE
+Ley de los Institutos Nacionales de Salud (Law of the National Institutes of Health)
+LINS
+Ley de los Sistemas de Ahorro para el Retiro (Savings Law for Retirement)
+LSAR
+Ley de Nacionalidad (Nationality Law)
+LN
+Ley de Navegación y Comercio Marítimos (Navigation Law and Maritime Commerce)
+LNCM
+Ley de Obras Públicas y Servicios Relacionados con las Mismas (Law of Public Works and Related Services)
+LOPSRM
+Ley de Petróleos Mexicanos (Law of Mexican Petroleums)
+LPM
+Ley de Planeación (Planning Law)
+LP
+Ley de Productos Orgánicos (Organic Products Law)
+LPO
+Ley de Protección al Ahorro Bancario (Law on the Protection of Bank Savings Accounts)
+LPAB
+Ley de Protección al Comercio y la Inversión de Normas Extranjeras que Contravengan el Derecho Internacional (Law on Protection of Trade and Foreign Investments that Violate International Law)
+LPCINECDI
+Ley de Protección y Defensa al Usuario de Servicios Financieros (Law on the Protection and Defense of Financial Services Users)
+LPDUSF
+Ley de Puertos (Law of Seaports)
+LP
+Ley de Responsabilidad Civil por Daños Nucleares (Law of Civil Liability for Nuclear Damages)
+LRCDN
+Ley de Seguridad Nacional (National Security Law)
+LSN
+Ley de Sistemas de Pagos (Payments Systems Law)
+LSP
+Ley de Sociedades de Responsabilidad Limitada de Interés Público (Law on Limited Liability Companies of Public Interest)
+LSRLIP
+Ley de Transparencia y de Fomento a la Competencia en el Crédito Garantizado (Transparency Act and Promotion of Competition in the Credit Guarantee)
+LTFCCG
+Ley de Uniones de Crédito  (Credit Unions Law)
+LUC
+Ley de Vías Generales de Comunicación (General Law of Means of Communications)
+LVGC
+Ley de Vivienda (Housing Law)
+LV
+Ley del Banco de México (Mexican Bank Law)
+LBM
+Ley del Diario Oficial de la Federación y Gacetas Gubernamentales (Law of the Official Daily and Government Gazettes)
+LDOFGG
+Ley del Impuesto al Valor Agregado  (Added Value Tax Law)
+LIVA
+Ley del Impuesto Especial Sobre Producción y Servicios  (Special Tax Law on Production and Services)
+LIEPS
+Ley del Impuesto Sobre la Renta (Income Tax Law)
+LIR
+Ley del Instituto del Fondo Nacional de la Vivienda para los Trabajadores (Law of the Institute of the National Housing Fund for Workers)
+LIFNVT
+Ley del Instituto Nacional de las Mujeres (Law of the National Institute for Women)
+LINM
+Ley del Mercado de Valores (Stock Market Law)
+LMV
+Ley del Registro Nacional de Datos de Personas Extraviadas o Desaparecidas (Law on the National Register of Personal Data on Missing Persons or Disappeared Persons)
+LRNDPED
+Ley del Registro Público Vehicular (Law of the Vehicular Public Registry)
+LRPV
+Ley del Seguro Social (Social Security Law)
+LSS
+Ley del Servicio de Administración Tributaria (Law of the Tax Administration Service)
+LSAT
+Ley del Servicio de Tesorería de la Federación (Service Law of the Federal Treasury)
+LSTF
+Ley del Servicio Exterior Mexicano (Mexican Foreign Service Law)
+LSEM
+Ley del Servicio Militar (Military Service Law)
+LSM
+Ley del Servicio Postal Mexicano (Mexican Postal Service Law)
+LSPM
+Ley Federal Anticorrupción en Contrataciones Públicas (Federal Corruption Law in Public Procurement)
+LFACP
+Ley Federal Contra la Delincuencia Organizada (Federal Law Against Organized Crime)
+LFDO
+Ley Federal de Archivos (Federal Archives Law)
+LFA
+Ley Federal de Armas de Fuego y Explosivos (Federal Law of Firearms and Explosives)
+LFAFE
+Ley Federal de Competencia Económica (Federal Antitrust Law)
+LFCE
+Ley Federal de Correduría Pública (Federal Law on Public Brokerage)
+LFCP
+Ley Federal de Defensoría Pública (Federal Public Defender Law)
+LFDP
+Ley Federal de Derechos (Federal Rights Law)
+LFD
+Ley Federal de Derechos de Autor (Authors' Rights Law)
+LFDA
+Ley Federal de Instituciones de Fianza (Federal Law for Bond Institutions)
+LIF
+Ley Federal de Justicia para Adolescentes (Federal Justice Law for Adolescents)
+LFJA
+Ley Federal de las Entidades Paraestatales (Federal Law of Public Entities)
+LFEP
+Ley Federal de los Derechos del Contribuyente (Federal Law of Taxpayers Rights)
+LFDC
+Ley Federal de los Trabajadores al Servicio del Estado (Federal Civil Service Law)
+LFTSE
+Ley Federal de Presupuesto y Responsabilidad Hacendaria  (Federal Budget and Fiscal Responsibility Law)
+LFPRH
+Ley Federal de Procedimiento Administrativo (Federal Administrative Procedure Law)
+LFPA
+Ley Federal de Procedimineto Contencioso Administrativo (Federal Law of Administrative Disputes Procedures)
+LFPCA
+Ley Federal de Protección al Consumidor (Federal Consumer Protection Law)
+LPC
+Ley Federal de Protección de Datos Personales en Posesión de los Particulares (Federal Law on the Protection of Personal Data in Possession of Individuals)
+LFPDPP
+Ley Federal de Radio y Televisión (Federal Law of Radio and Television)
+LFRT
+Ley Federal de Responsabilidad Ambiental (Federal Law on Environmental Responsibility)
+LFRA
+Ley Federal de Responsabilidades Administrativas de los Servidores Públicos (Federal Law of Administrative Responsibilities of Public Servants)
+LFRASP
+Ley Federal de Seguridad Privada (Federal Law on Private Security)
+LFSP
+Ley Federal de Telecomunicaciones (Federal Telecommunications Law)
+LFT
+Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental (Federal Law of Transparency and Access to Public Government Information)
+LFTAIPG
+Ley Federal del Derecho de Autor (Federal Copyright Law)
+LFDA
+Ley Federal del Impuesto Sobre Automóviles Nuevos (Federal Tax Law on New Automobiles)
+LFIAN
+Ley Federal del Mar (Federal Law of the Seas)
+LFM
+Ley Federal del Trabajo (Federal Labor Law)
+LFT
+Ley Federal Para la Administración y Enajenación de Bienes del Sector Público (Federal Law for the Administration and Disposition of Assets of the Public Sector)
+LFAEBSP
+Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita (Federal Law on the Prevention and Identification of Operations Using Illegal Resources)
+LFPIORPI
+Ley Federal para la Protección a Personas que Intervienen en el Procedimiento Penal (Federal Law for the Protection of Persons Testifying in Criminal Matters)
+LFPPIPP
+Ley Federal Para Prevenir y Eliminar la Discriminación (Federal Law for the Prevention and Elimination of Discrimination)
+LFPED
+Ley Federal Para Prevenir y Sancionar la Tortura (Federal Law for the Prevention and Punishment of Torture)
+LFPST
+Ley Federal Sobre Monumentos y Zonas Arqueológicas (Federal Law for Monuments and Archaeological Areas)
+LMZAA
+Ley Firma Electrónica Avanzada (Advanced Electronic Signature Law)
+LFEA
+Ley General de Acceso de las Mujeres a Una Vida Libre de Violencia  (General Law of a Woman's Right to a Life Free of Violence)
+LGAMVLV
+Ley General de Asentamientos Humanos (General Law on Population Centers)
+LAH
+Ley General de Bibliotecas (General Law of Libraries)
+LGB
+Ley General de Bienes Nacionales (General Law on National Property)
+LGBN
+Ley General de Cambio Climático (General Law on Climate Change)
+LGCC
+Ley General de Contabilidad Gubernamental (General Accounting Law)
+LGCG
+Ley General de Derechos Lingüisticos de los Pueblos Indígenas (General Law of the Linguistic Rights of Indigenous People)
+LGDLP
+Ley General de Desarrollo Forestal Sustentable (General Law for Sustainable Forest Development)
+LGDFS
+Ley General de Desarrollo Social (General Law for Social Development)
+LGDS
+Ley General de Deuda Pública (General Law of the Public Debt)
+LGDP
+Ley General de Educación (General Education Law)
+LGE
+Ley General de Equilibrio Ecológico y Protección al Ambiente (General Environment Law)
+LGEEPA
+Ley General de Instituciones y Sociedades Mutualistas de Seguros (General Law of Institutions and Mutual Insurance Companies)
+LGISMS
+Ley General de Organizaciones y Actividades Auxiliares de Crédito (General Law of Organizations and Activities Related to Credit)
+LGOC
+Ley General de Población  (General Population Law)
+LGP
+Ley General de Prestación de Servicios para la Atención, Cuidado y Desarrollo Integral Infantil (Children Law for the Delivery of Care and Integral Development of Infants)
+LGPSACDII
+Ley General de Protección Civil (General Civil Protection Law)
+LGPC
+Ley General de Salud  (General Health Law)
+LGS
+Ley General de Sociedades Cooperativas  (General Law for Cooperative Associations)
+LGSC
+Ley General de Sociedades Mercantiles (General Law for Commercial Corporations)
+LGSM
+Ley General de Títulos y Operaciones de Crédito (General Law for Securities and Credit Operations)
+LGTOC
+Ley General de Turismo (General Tourism Law)
+LGT
+Ley General de Víctimas (General Law of Victims)
+LGV
+Ley General de Vida Silvestre (General Law of Wildlife)
+LGVS
+Ley General del Equilibrio Ecológico y la Protección al Ambiente (General Law of Ecological Equilibrium and Environmental Protection)
+LGEPA
+Ley General del Sistema de Medios de Impugnación en Materia Electoral (General Law of the System of Electoral Challenges)
+LGSMIME
+Ley General del Sistema Nacional de Seguridad Pública (General Law of the National System of Public Security)
+LGSNSP
+Ley General Para el Control del Tabaco  (General Law for the Control of Tobacco)
+LGCT
+Ley General Para la Igualdad Entre Mujeres y Hombres (General Law for Equality Between Women and Men)
+LGMIH
+Ley General para la Prevención Social de la Violencia y la Delincuencia (General Law for Social Prevention of Violence and Delinquency)
+LGPSVD
+Ley Minera (Mining Law)
+LMin
+Ley Monetaria de los Estados Unidos Mexicanos (Monetary Law of the United Mexican States)
+LM
+Ley Orgánica de la Administración Pública Federal  (Organic Law of Federal Public Administration)
+LOAPF
+Ley Orgánica de la Armada de México (Organic Law of the Navy of Mexico)
+LOA
+Ley Orgánica de la Lotería Nacional para la Asistencia Pública (Organic Law of the National Lottery for Public Assistance)
+LOLNAP
+Ley Orgánica de la Procuraduría de la Defensa del Contribuyente (Organic Law of the Office of the Advocate for Taxpayer)
+LOPDC
+Ley Orgánica de la Procuraduría General de la República (Organic Law of the Attorney General's Office)
+LOPGR
+Ley Orgánica de los Tribunales Agrarios (Organic Law of Agrarian Courts)
+LOTA
+Ley Orgánica de Sociedad Hipotecaria Federal (Organic Law of the Federal Mortgage Corporation)
+LOSHF
+Ley Orgánica del Banco del Ahorro Nacional y Servicios Financieros (Organic Law of the National Savings Bank and Financial Services)
+LOBNSF
+Ley Orgánica del Banco del Bienestar (Organic law of the Welfare Bank)
+LOBB
+Ley Orgánica del Banco Nacional de Comercio Exterior (Organic Law of the National Bank for Foreign Trade)
+LOBNCE
+Ley Orgánica del Banco Nacional de Obras y Servicios Públicos (Organic Law of the National Bank for Public Works and Services)
+LOBNOS
+Ley Orgánica del Congreso General de los Estados Unidos Mexicanos (Organic Law of the Congress of the United Mexican States)
+LOCEUM
+Ley Orgánica del Poder Judicial de la Federación (Enabling Law for the Federal Judiciary)
+LOPJF
+Ley Orgánica del Tribunal de lo Contencioso Administrativo (Enabling Law for the Administrative Disputes Court)
+LOTCA
+Ley Orgánica del Tribunal Federal de Justicia Fiscal y Administrativa (Organic Law of the Federal Court for Tax and Administrative Justice)
+LOTFJFA
+Ley Orgánica del Tribunal Fiscal de la Federación (Enabling Law for the Federal Fiscal Court)
+LOTFF
+Ley Para Conservar la Neutralidad del País (National Neutrality Law)
+LCNP
+Ley Para el Aprovechamiento Sustentable de la Energía (Law for the Sustainable Use of Energy)
+LASE
+Ley Para el Desarrollo de la Competitividad de la Micro, Pequeña y Mediana Empresa (Law for the Development of the Competitiveness of Micro, Small and Medium Enterprises)
+LDCMPME
+Ley Para la Depuración y Liquidación de Cuentas de la Hacienda Pública Federal (Law for the Elimination and Settlement of Accounts of the Federal Treasury)
+LDLCHPF
+Ley Para la Protección de los Derechos de Niñas, Niños y Adolescentes (Law for the Protection of the Rights of Children and Adolescents)
+LPDNNA
+Ley Para la Transparencia y Ordenamiento de los Servicios Financieros (Law for the Transparency and Regulation of the Financial Services)
+LTOSF
+Ley Para Promover la Inversión Mexicana y Vigilar la Inversión Extranjera (Law to Promote Mexican Investments and Monitor Foreign Investments)
+LIE
+Ley Para Regular las Sociedades de Información Crediticia (Law to Regulate Credit Information Companies)
+LRSIC
+Ley Sobre Delitos de Imprenta (Law on Publishing Crimes)
+LDI
+Ley Sobre el Contrato de Seguro (Law on Insurance Contracts)
+LSCS
+Ley Sobre el Escudo, la Bandera y el Himno Nacionales (Law on the Coat of Arms, Flag and National Anthem)
+LEBHN
+Ley Sobre la Aprobación de Tratados Internacionales en Materia Económica  (Law on the Adoption of International Economic Treaties)
+LATIME
+Ley Sobre la Celebración de Tratados (Law of Treaties)
+LCT
+Ley de Impuestos sobre Ingresos Mercantiles (Tax Law on Commercial Income)
+LIIM
+Ley del Impuesto a los Depósitos en Efectivo (Tax Law on Cash Deposits)
+LIDE
+Ley del Impuesto Empresarial a Tasa Única (Law of the Flat Tax for Corporations)
+LIETU
+Ley del Impuesto sobre Tenecia o Uso de Vehículos (Tax Law of Vehicles or Use of Vehicles)
+LISTUV
+Ley del Servicio de Inspección Fiscal (Law of the Tax Inspections Service)
+LSIF
+Administrative and executive materials
+Citation format:
+<document title>
+,
+<document number, if applicable>
+,
+<specific provision(s) cited, if applicable>
+,
+Diario Oficial de la Federación [DOF]
+<original date of publication>
+,
+<date of latest revision, if applicable>
+(
+<country abbreviation if not evident from context>
+)
+.
+Decreto de Promulgación de la Convención de Viena, sobre el Derecho de los Tratados entre Estados y Organización Internacionales, Diario Oficial de la Federación [DOF] 24-12-1992 (Mex.).
+Norma Oficial Mexicana, NOM-001-SESH-2014, Plantas de distibución de Gas L.P. Diseño, construcción y condiciones seguras en su operación, Diario Oficial de la Federación [DOF] 22-10-2014 (Mex.).
+Regulations
+Citation format:
+<regulation name>
+[
+<regulation abbreviation>
+],
+<specific provision(s) cited, if applicable>
+,
+Diario Oficial de la Federación [DOF]
+<original date of publication>
+,
+<date of latest revision, if applicable>
+(
+<country abbreviation if not evident from context>
+)
+.
+Reglamento de la Ley Aduanera [RLA], Diario Oficial de la Federación [DOF] 06-06-1996, últimas reformas DOF 28-10-2003 (Mex.).
+Reglamento de Afiliación (Incorporation Regulations)
+RA
+Reglamento de Financiamiento Público (Public Finance Regulations)
+RFP
+Reglamento de Ingeniería Sanitaria Relativo a Edificios (Building Health Regulations)
+RISRE
+Reglamento de la Cámara de Diputados (Regulations of the House of Deputies)
+RCD
+Reglamento de la Ley Aduanera (Regulations of the Customs Law)
+RLA
+Reglamento de la Ley Agraria en Materia de Certificación de Derechos Ejidales y Titulación de Solares (Regulations of the Law on Agrarian Matters of Certification of Ejido Rights and Titling of Lots)
+RLAMCDETS
+Reglamento de la Ley Agraria en Materia de Ordenamiento de la Propiedad Rural (Regulations of the Law on Land Management of Rural Property)
+RLAMOPR
+Reglamento de la Ley Agraria Para Fomentar la Organización y Desarrollo de la Mujer Campesina (Regulation of Land Act for Promoting the Organization and Development of Rural Women)
+RLAFOyDMCR
+Reglamento de la Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público (Regulations of the Law of Acquisitions, Leases and Services of the Public Sector)
+RLAASSP
+Reglamento de la Ley de Aeropuertos (Regulations of the Law of Airports)
+RLA
+Reglamento de la Ley de Aguas Nacionales (Regulations of the National Water Law)
+RLAN
+Reglamento de la Ley de Ascensos de la Armada de México (Regulations of the Law on Promotion of the Navy of Mexico)
+RLAAM
+Reglamento de la Ley de Ascensos y Recompensas del Ejército y Fuerza Aérea Mexicanos (Regulations of the Law for Promotion and Pay of the Mexican Army and Air Force)
+RLAREFAM
+Reglamento de la Ley de Asociaciones Público Privadas (Regulations of the Law on Public-Private Partnerships)
+RLAPP
+Reglamento de la Ley de Asociaciones Religiosas y Culto Público (Regulations of the Law of Religious Associations and Public Worship)
+RLARCP
+Reglamento de la Ley de Aviación Civil (Regulation of the Law of Civil Aviation)
+RLAC
+Reglamento de la Ley de Bioseguridad de Organismos Genéticamente Modificados (Regulations of the Law on Biosafety of Genetically Modified Organisms)
+RLBOGM
+Reglamento de la Ley de Cámaras Empresariales y Sus Confederaciones (Regulations of the Law of Commercial Chambers and Their Confederations)
+RLCEyC
+Reglamento de la Ley de Comercio Exterior (Regulations of the Foreign Trade Law)
+RLCE
+Reglamento de la Ley de Energía Para el Campo (Regulations of the Energy Law for the Countryside)
+RLEC
+Reglamento de la Ley de Información Estadística y Geográfica (Regulations of the Law on Statistical and Geographic Information)
+RLIEG
+Reglamento de la Ley de Inversión Extranjera y del Registro Nacional de Inversiones Extranjeras (Regulations of the Law on Foreign Investment and National Register of Foreign Investment)
+RLIERNIE
+Reglamento de la Ley de la Policía Federal (Regulations of the Law of the Federal Police)
+RLPF
+Reglamento de la Ley de la Propiedad Industrial (Regulations of the Law of Intellectual Property)
+RLPI
+Reglamento de la Ley de los Sistemas de Ahorro Para el Retiro (Regulations of the Law on Saving Systems for Retirement)
+RLSAR
+Reglamento de la Ley de Migración (Regulations of the Immigration Law)
+RLM
+Reglamento de la Ley de Nacionalidad (Regulations of the Nationality Law)
+RLNac
+Reglamento de la Ley de Navegación (Regulations of the Law of Navigation)
+RLN
+Reglamento de la Ley de Obras Públicas y Servicios Relacionados Con las Mismas (Regulations of the Law of Public Works and Related Matters)
+RLOPSRM
+Reglamento de la Ley de Organizaciones Ganaderas (Regulations of the Law of Livestock Organizations)
+RLOG
+Reglamento de la Ley de Pesca (Regulations of the Fishing Law)
+RLP
+Reglamento de la Ley de Petróleos Mexicanos (Regulations of the Law of Mexican Petroleum)
+RLPM
+Reglamento de la Ley de Productos Orgánicos (Regulations of the Law of Organic Products)
+RLPO
+Reglamento de la Ley de Promoción y Desarrollo de los Bioenergéticas (Regulations of the Law on the Promotion and Development of Bioenergy)
+RLPyDB
+Reglamento de la Ley de Puertos (Regulations of the Law of Ports)
+RLP
+Reglamento de la Ley de Sociedades Cooperativas (Cooperative Law Regulations)
+RLSC
+Reglamento de la Ley del Impuesto al Valor Agregado (Regulations of the Added Value Tax Law)
+RLIVA
+Reglamento de la Ley del Impuesto Especial Sobre Producción y Servicios (Regulations of the Law on Special Taxation on Production and Services)
+RLIEPS
+Reglamento de la Ley del Impuesto Sobre la Renta (Regulations of the Income Tax Law)
+RSIR
+Reglamento de la Ley del Registro Público Vehicular (Regulations of the Law of the Public Register of Vehicles)
+RLRPV
+Reglamento de la Ley del Servicio de Tesorería de la Federación (Regulations of the Law of Service of the Treasury of the Federation)
+RLSTF
+Reglamento de la Ley del Servicio Exterior Mexicano (Regulations of the Law of the Mexican Foreign Service)
+RLSEM
+Reglamento de la Ley Federal de Armas de Fuego y Explosivos (Regulations of the Federal Law on Firearms and Explosives)
+RLFAFE
+Reglamento de la Ley Federal de Competencia Económica (Regulations of the Federal Law on Economic Competition)
+RLFCE
+Reglamento de la Ley Federal de Correduría Pública (Regulations of the Federal Law of Public Brokerage)
+RLFCP
+Reglamento de la Ley Federal de Juegos y Sorteos (Regulations of the Federal Law of Games and Sweepstakes)
+RLFJS
+Reglamento de la Ley Federal de las Entidades Paraestatales (Regulations of the Federal Law on the Parastate Entities)
+RLFEP
+Reglamento de la Ley Federal de Presupuesto y Responsabilidad Hacendaria (Regulations of the Federal Law on the Budget and Responsibility of the Treasury)
+RLFPRH
+Reglamento de la Ley Federal de Protección Al Consumidor (Regulations of the Federal Law of Consumer Protection)
+RLFPC
+Reglamento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (Regulations of the Federal Law on the Protection of Personal Data in Held by Private Parties)
+RLFPDPPP
+Reglamento de la Ley Federal de Seguridad Privada (Regulations of the Federal Law on Private Security)
+RLFSP
+Reglamento de la Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental (Regulations of the Federal Law of Transparency and Access to Public Government Information)
+RLFTAIPG
+Reglamento de la Ley Federal de Turismo (Regulations of the Federal Law on Tourism)
+RLFT
+Reglamento de la Ley Federal del Derecho de Autor (Regulations of the Federal Copyright Law)
+RLFDA
+Reglamento de la Ley Federal Para la Prevención e Identificación de Operaciones Con Recursos de Procedencia Ilícita (Regulations of the Federal Law for the Prevention and Identification of Operations with Illicit Resources)
+RLFPIORPI
+Reglamento de la Ley Federal Sobre Monumentos y Zonas Arqueológicas, Artísticos E Históricos (Regulations of the Federal Law on Monuments and Archaeological Zones, Artistic and Historical)
+RLFSMZAAH
+Reglamento de la Ley General de Acceso de las Mujeres a Una Vida Libre de Violencia (Regulations of the General Act on Access of Women to a Life Free From Violence)
+RLGAMVLV
+Reglamento de la Ley General de Cultura Física y Deporte (Regulation of the General Law on Physical Culture and Sports)
+RLGCFD
+Reglamento de la Ley General de Desarrollo Forestal Sustentable (Regulations of the General Law for Sustainable Forestry Development)
+RLGDFS
+Reglamento de la Ley General de Desarrollo Social (Regulations of the General Law on Social Development)
+RLGDS
+Reglamento de la Ley General de Población (Regulations of the General Law on Population)
+RLGP
+Reglamento de la Ley General de Salud en Materia de Prestación de Servicios de Atención Médica (Regulations of the General Health Law Responsible for Providing Healthcare Service)
+RLGSMPSAM
+Reglamento de la Ley General de Salud en Materia de Protección Social en Salud (Regulations of the General Health Law Regarding Social Protection)
+RLGSMPSS
+Reglamento de la Ley General de Salud en Materia de Publicidad (Regulations of the General Law of Health in Relation to Advertising)
+RLGSMP
+Reglamento de la Ley General de Salud en Materia de Sanidad Internacional (Regulations of the General Law of Health Regarding International Health)
+RLGSMSI
+Reglamento de la Ley General de Vida Silvestre (Regulations of the General Law on Wildlife)
+RLGVS
+Reglamento de la Ley General del Equilibrio Ecológico y la Protección al Ambiente en Materia de Áreas Naturales Protegidas (Regulations of the General Law of the Ecological Balance and Protection of the Environment on Matters of Protected Natural Areas)
+RLGEEPAMANP
+Reglamento de la Ley General del Equilibrio Ecológico y la Protección al Ambiente en Materia de Autorregulación y Auditorías Ambientales (Regulations of the General Law of Ecological Balance and Environmental Protection in the Field of Environmental Audits and Self-Regulation)
+RLGEEyPAMyAA
+Reglamento de la Ley General del Equilibrio Ecológico y la Protección al Ambiente en Materia de Evaluación del Impacto Ambiental (Regulations of the General Law of Ecological Balance and Environmental Protection in the Field of Environmental Impact Assessment)
+RLGEEyPAMEIA
+Reglamento de la Ley General del Equilibrio Ecológico y la Protección al Ambiente en Materia de Registro de Emisiones y Transferencia de Contaminantes (Regulations of the General Law on the Ecological Balance and Environmental Protection in Matters of Registering Pollutant Release and Transfer)
+RLGEEPAMRETC
+Reglamento de la Ley General Para el Control del Tabaco (Regulations of the General Law for the Control of Tobacco)
+RLGCT
+Reglamento de la Ley General Para la Prevención y Gestión Integral de los Residuos (Regulations of the General Law on the Prevention and Integral Management of Wastes)
+RLGPGIR
+Reglamento de la Ley General Para la Inclusión de las Personas Con Discapacidad (Regulations of the General Law for the Inclusion of Persons with Disabilities)
+RLGIPD
+Reglamento de la Ley Minera (Regulations of the Mining Law)
+RLM
+Reglamento de la Ley Orgánica de la Fracción I del Articulo 27 Constitucional (Regulations of the Organic Law of Paragraph I of Article 27 of the Constitution)
+RLOFRI
+Reglamento de la Ley Orgánica de la Procuraduría General de la República (Regulations of the Organic Law of the Attorney General of the Republic)
+RLOPGR
+Reglamento de la Ley Para el Desarrollo de la Competitividad de la Micro, Pequeña y Mediana Empresa (Regulations of the Law to Develop Competitiveness of Micro, Small and Medium Enterprises)
+RLDCMPME
+Reglamento de la Ley Para la Protección de Personas Defensoras de Derechos Humanos y Periodistas (Regulations of the Law for the Protection of Human Rights Advocates and Journalists)
+RPPPDDHyP
+Reglamento de la Ley Para Promover la Inversión Mexicana y Regular la Extranjera (Regulations of the Law to Promote Mexican Investment and Regulate Foreign Investment)
+RIMRE
+Reglamento de la Ley Que Crea El Fondo de Garantía y Fomento Para la Agriculture, Ganadería y Avicultura (Regulations of the Law Establishing the Guarantee Fund and Development for Agriculture, Livestock and Poultry)
+RLCFGFAGA
+Reglamento de la Ley Reglamentaria del Artículo 27 Constitucional en el Ramo del Petróleo (Regulations of the Regulatory Law of Constitutional Article 27 Relating to Petroleum)
+RLRACRP
+Reglamento de la Ley Sobre Producción, Certificación y Comercio de Semillas (Regulations of the Law on Production, Certification and Seed Trade)
+RSPCCS
+Reglamento de la Ley Sobre Refugiados y Protección Complementaria (Regulations of the Law on Refugees and Complementary Protections)
+RLRPC
+Reglamento del Artículo 122 de la Ley Federal de Protección al Consumidor (Regulations of Article 122 of the Federal Consumer Protection Law)
+RALFPC
+Reglamento del Código Fiscal de la Federación (Regulations of the Federal Tax Code)
+RCFF
+Reglamento del Impuesto Sobre la Renta (Income Tax Regulations)
+RISR
+Reglamento del Registro Federal de Contribuyentes (Regulations of the Federal Register of Taxpayers)
+RRFC
+Reglamento del Registro Nacional de Inversiones Extranjeras (Regulations of the National Registry of Foreign Investments)
+RRNIE
+Reglamento del Senado de la República (Regulations of the Senate of the Republic)
+RSR
+Reglamento Interior de la Secretaría de Hacienda y Créditos Públicos (Regulations of the Department of Treasury and Public Credit
+RISH
+Reglamento Para el Gobierno Interior del Congreso General de los Estados Unidos Mexicanos (Internal Regulations for the Government of the Congress of the United Mexican States)
+RGICG
+Reglamento de la Ley General del Equilibrio Ecológico y la Protección al Ambiente en Materia de Ordenamiento Ecológico (Regulations of the General Law of the Ecological Balance and Environmental Protection in the Field of Ecology)
+LGEEPAMOE
+Reglamento de la Ley de la Guardia Nacional (Regulation on the Law of the National Guard)
+RLGN
+Reglamento de la Ley del Impuesto sobre la Renta (Income Tax Regulations)
+RLIR
+Reglamentos del Código Fiscal de la Federación y de la Ley del Impuesto al Activo (Regulations of the Federal Tax Fiscal Code and the Asset Tax Law)
+RCFFLIA
+State materials
+It is common to cite local materials analogously to the federal examples given in the above table.
+State governments have websites where local statutes and codes are often available. A comprehensive list of state government official websites is provided in the federal government’s online legal repository, which is maintained by the Mexican Department of the Interior, at
+http://www.ordenjuridico.gob.mx
+.
+Periodicals
+Citation format:
+<last name of author>
+,
+<first name of author>
+, “
+<title of article>
+,”
+<name of periodical>
+[
+<periodical abbreviation>
+], vol.
+<volume number>
+, núm.
+<issue
+number>
+,
+<date>
+, p.
+<page number>
+.
+Acosta Romero, Miguel, "Derecho bancario," Boletín Mexicano de Derecho Comparado [BMDC], vol. 151, núm. 24, 29 de agosto de 2013, p. 105.
+Anuario Mexicano de Historia del Derecho (Mexican Yearbook of Legal History)
+Anu. Mex. Hist. Derecho
+Boletín del Instituto de Derecho Comparado de México (Bulletin of the Institute of Comparative Law of Mexico)
+1948–1967
+BIDCM
+Boletín Mexicano de Derecho Comparado (Mexican Bulletin of Comparative Law)
+1968–date
+BMDC
+Boletín Oficial (Official Bulletin)
+BO
+Criminalia (Criminology "Periodical")
+C
+Diario del Gobierno de los Estados Unidos Mexicanos (Daily Journal of the Government of the United Mexican States)
+DG
+Diario Oficial de la Federación (Official Daily Journal)
+1916–date
+DOF
+Gaceta de Tribunales (Gazette of the Courts)
+GT
+Gaceta del Foro (Bar Gazette)
+GF
+Gaceta del Gobierno (Government Gazette)
+GG
+Gaceta Oficial (Official Gazette, Official Daily Journal
+GO
+Jurídica Boletín de Información Jurídica, Órgano del Instituto Mexicano del Seguro Social (Legal Informational Bulletin, Publication of the Mexican Institute of Social Security)
+BI
+Revista Compromiso (Commitment Journal)
+RC
+Revista Critica de Derecho Inmobiliario (Critical Journal of Real Estate Law)
+1861–date
+RCDI
+Revista de Derecho Administrativo (Journal of Administrative Law)
+1989–date
+RDA
+Revista de Derecho Mercantil (Journal of Commercial Law)
+RM
+Revista de Derecho Mexicano (Journal of Mexican Law)
+RDM
+Revista de Derecho Notarios (Journal of Notary Law)
+1956–1968
+RDN
+Revista de Derecho Privado (Journal of Private Law)
+1990–date
+RDP
+Revista de Derecho Público (Journal of Public Law)
+1946–date
+RDPP
+Revista de Derecho y Ciencias Sociales Jus (Journal of Law and Social Science)
+Jus
+Revista de Investigaciones Jurídicas (Journal of Legal Studies)
+RIJ
+Revista de la Escuela Nacional de Jurisprudencia (Journal of the National School of Jurisprudence)
+RENJM
+Revista de la Facultad de Derecho de Mexico (Journal of the Law Faculty of Mexico)
+1951–2005
+RDFM
+Revista de la Facultad de Jurisprudencia (Journal of the Faculty of Jurisprudence)
+RFJ
+Revista del Instituto de la Judicatura Federal (Journal of the Institute of the Federal Judiciary)
+RIJF
+Revista del Instituto Federal de Defensoria Pública (Journal of the Federal Institute of Public Defenders)
+RIFDP
+Revista del Tribunal Fiscal de la Federación (Journal of the Federal Tax Court)
+RTFF
+Revista General de Derecho y Jurisprudencia (General Journal of Law and Jurisprudence)
+RGDJ
+Revista General de Legislación y Jurisprudencia (Journal of Legislation and Jurisprudence)
+1926–1930
+RGLJ
+Revista Investigación Fiscal (Journal of Fiscal Research)
+RIF
+Revista Jurídica (Law Journal)
+RJ
+Revista Mexicana de la Propiedad Industrial y Artística (Mexican Journal of Industrial and Artistic Property)
+RMPIA
+Books
+Citation format:
+<last name of author>
+,
+<first name of author>
+,
+<title of book>
+,
+<edition>
+,
+<location of publication>
+:
+<publisher>
+,
+<year of publication>
+,
+<volume/ tome number or name of series or collection, if applicable>
+, p.
+<page number>
+.
+Acosta Romero, Miguel, Teoría general del derecho administrativo, 17ª. ed., México: Porrúa, 2004, p. 321.
+To cite a chapter in a book, insert the title of the chapter and "
+en
+" before the title of the book.
+Acosta Romero, Miguel, Títulos valores, en: Derecho bancario, México, Porrúa, 2013, p 219.
+If a book has four or more authors, place "
+et al.
+" after the name of the first author.
+Acosta Romero, Miguel, "et al," Tratado de sociedades mercantiles con énfasis en la sociedad anónima: México, 2ª ed., México, Porrúa, 2004, p. 169.
+If a book has been translated, place the name of the translator after the edition.
+Acosta Romero, Miguel, Teoría general del derecho administrativo, 17ª. ed., trad. de Jorge Ochoa Tena, México: Porrúa, 2004, p. 321.
+Internet sources
+When citing any source that is found online, it is necessary to include the type of electronic format of the source, the URL, and the date of the last time the source was viewed.
+Constitución Política de los Estados Unidos Mexicanos, CP, Diario Oficial de la Federación [DOF] 05-02-1917, últimas reformas DOF 10-02-2014 (Mex.), formato HTML, http://www.diputados.gob.mx /LeyesBiblio/htm/1.htm (consultada el 27 de febrero de 2014).
+Código Civil [CC], Diario Oficial de la Federación [DOF] 14-05-1928, últimas reformas DOF 24-12-2013 (Mex.), formato PDF, http://www .diputados.gob.mx/LeyesBiblio/pdf/2_241213.pdf (consultada el 27 de febrero de 2014).
+Ley Aduanera [LAD], Diario Oficial de la Federación [DOF] 15-12-1995, últimas reformas DOF 09-12-2013 (Mex.), formato HTML, http://www. dof.gob.mx/nota_detalle.php?codigo=5324941&fecha=09/12/2013 (consultada el 27 de febrero de 2015) (Mex.).
+Official government websites:
+http://www.diputados.gob.mx/inicio.htm
+http://www.senado.gob.mx/index.php
+http://www.normateca.gob.mx/NF_Disposiciones.php?Status=1
+http://www.dof.gob.mx/
+The following websites provide links to the law and codes of Mexico:
+http://www.loc.gov/law/help/guide/nations/mexico.php
+http://www.juridicas.unam.mx/
+http://leyco.org/index.html
+http://mexico.justia.com/
+http://www.mexicanlaws.com/
+http://www.worldlii.org/catalog/2076.html

@@ -1,0 +1,51 @@
+TITLE: 10 Cases (p.100)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 10-cases
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+10
+Cases
+(p.100)
+Citation of a U.S. Supreme Court case:
+Citation of a case decided by the U.S. Court of Appeals for the Fourth Circuit, later reversed by the U.S. Supreme Court, with parenthetical information about the Fourth Circuit decision:
+Short form for the above case after it has been cited in full:
+Main Elements
+Case Names
+Rule 10.2
+Reporters and Other Sources
+Rule 10.3
+Court and Jurisdiction
+Rule 10.4
+Date or Year
+Rule 10.5
+Parenthetical Information
+Rule 10.6
+Prior and Subsequent History
+Rule 10.7
+10.1
+Basic Citation Forms
+10.2
+Case Names
+10.3
+Reporters and Other Sources
+10.4
+Court and Jurisdiction
+10.5
+Date or Year
+10.6
+Parenthetical Information Regarding Cases
+10.7
+Prior and Subsequent History
+10.8
+Special Citation Forms
+10.9
+Short Forms for Cases

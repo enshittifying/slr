@@ -1,0 +1,85 @@
+TITLE: 21.13 Other Intergovernmental Organizations (pp. 241–42)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-13-other-intergovernmental-organizations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.13
+Other Intergovernmental Organizations
+(pp. 241–42)
+Cite documents by other international organizations in the same manner as United Nations documents (
+rule 21.7
+) or the forms in
+rules 21.8–.12
+. Citations should generally include: (1) the full name of the author or organization (including an abbreviation from
+table T3
+in brackets); (2) the title; (3) a pincite, if available; (4) a document number, if available; (5) the full date in parentheses; and (6) a web link or other information essential for locating the document:
+International Atomic Energy Agency [IAEA],
+Supply Agreement for a Research Reactor in Romania
+, at 3, IAEA Doc. INFCIRC/206 (June 12, 1974).
+International Civil Aviation Organization [ICAO],
+Manual of All-Weather Operations
+, at 2-2, ICAO Doc. 9365-AN/910 (3d ed. 2013),
+http://www.caa.md/files/2013_12/543.pdf
+(on file with author).
+Organization of African Unity [OAU] Charter art. 3, ¶ 2.
+Decision on the Report of the African Committee of Experts on the Rights and the Wellbeing of Infants
+, Executive Council, Seventeenth Ordinary Session, EX.CL/Dec. 569(XVII) (July 19, 2010).
+AMISOM in Action
+,
+African Union Mission in Somalia Newsletter
+, Issue 1, Aug. 2008, at 10.
+Pact of the League of Arab States [LAS] art. 10.
+Association of Southeast Asian Nations [ASEAN] Charter art. 6, ¶ 2(a).
+Agreement on the Use and Maintenance of the Premises of the ASEAN Secretariat
+, art. 2, ¶ 3 (Nov. 25, 1981),
+http://agreement.asean.org/media/download/20140416152504.pdf
+(on file with the Columbia Law Review).
+Moazzam Ali et al.,
+A Global Research Agenda for Family Planning
+, 92
+Bull. of the World Health Org.
+[WHO] 93, 95 (2013),
+https://iris.who.int/bitstream/handle/10665/271458/PMC3949533.pdf?sequence=1&isAllowed=y
+(on file with the University of Pennsylvania Law Review).
+Christopher Dye et al.,
+The World Health Report 2013
+,
+World Health Organizatio
+n
+[WHO] (2013),
+http://apps.who.int/iris/bitstream/10665/85761/2/9789240690837_eng.pdf
+(on file with author).
+Cite resolutions in a similar fashion to U.N. General Assembly and Security Council resolutions (
+rule 21.7.2
+), listing the organization, the document number, and the date:
+International Atomic Energy Agency [IAEA], General Conference Res. 434, at 2, IAEA Doc. GC(XXVIII)/RES/434 (Sep. 28, 1984).
+International Atomic Energy Agency [IAEA], Assembly Res. A15-7 (1964) (no longer in force),
+in
+Assembly Resolutions in Force, at I-21, ICAO Doc. 9509 (1986).
+If useful, provide the title of a resolution or regulation. As with U.N. resolutions, the title comes after the resolution or regulation number:
+International Atomic Energy Agency [IAEA], Assembly Res. A15-7,
+Condemnation of the Policies of Apartheid and Racial Discrimination of South Africa
+(1964) (no longer in force),
+in
+Assembly Resolutions in Force, at I-21, ICAO Doc. 9509 (1986).
+International Telecommunications Union [ITU], Reg. 4.2,
+Geographical Distribution and Gender Distribution
+,
+in
+General Secretariat of the International Telecommunication Union, Staff Regulations and Staff Rules, at 32 (2013).
+A citation of a source that is difficult to find except online should include information indicating the online location, preferably citing to an official database of sources:
+International Maritime Organization [IMO], A. 585 (14),
+Provision of Facilities in Ports for the Reception of Oily Wastes from Ships
+(Nov. 20, 1985),
+https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.585(14)%20Rev.1.pdf
+(on file with the Harvard Law Review).

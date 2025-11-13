@@ -1,0 +1,82 @@
+[
+  {
+    "footnote_number": 1,
+    "citation_text": "Alice Corp. v. CLS Bank Int'l, 573 U.S. 208, 216 (2014)",
+    "source_type": "supreme_court",
+    "final_status": "success",
+    "final_file_path": null,
+    "requires_manual": false,
+    "manual_instructions": null,
+    "attempts": 1
+  },
+  {
+    "footnote_number": 2,
+    "citation_text": "Mayo Collaborative Servs. v. Prometheus Labs., Inc., 566 U.S. 66, 72 (2012)",
+    "source_type": "unknown",
+    "final_status": "failed",
+    "final_file_path": null,
+    "requires_manual": true,
+    "manual_instructions": "Manual search required",
+    "attempts": 2
+  },
+  {
+    "footnote_number": 3,
+    "citation_text": "35 U.S.C. \u00a7 101 (2018)",
+    "source_type": "federal_statute",
+    "final_status": "failed",
+    "final_file_path": null,
+    "requires_manual": true,
+    "manual_instructions": "Check United States Code online (Title 35, Section 101)",
+    "attempts": 7
+  },
+  {
+    "footnote_number": 4,
+    "citation_text": "17 C.F.R. \u00a7 240.10b-5 (2021)",
+    "source_type": "federal_regulation",
+    "final_status": "failed",
+    "final_file_path": null,
+    "requires_manual": true,
+    "manual_instructions": "Check Code of Federal Regulations (Title 17, Section 240.10b-5)",
+    "attempts": 6
+  },
+  {
+    "footnote_number": 5,
+    "citation_text": "Mark A. Lemley, Software Patents and the Return of Functional Claiming, 2013 Wis. L. Rev. 905",
+    "source_type": "unknown",
+    "final_status": "failed",
+    "final_file_path": null,
+    "requires_manual": true,
+    "manual_instructions": "Manual search required",
+    "attempts": 2
+  },
+  {
+    "footnote_number": 6,
+    "citation_text": "Diamond v. Chakrabarty, 447 U.S. 303, 309 (1980)",
+    "source_type": "supreme_court",
+    "final_status": "failed",
+    "final_file_path": null,
+    "requires_manual": true,
+    "manual_instructions": "Check Supreme Court website or Westlaw/Lexis (447 U.S. 303)",
+    "attempts": 7
+  },
+  {
+    "footnote_number": 7,
+    "citation_text": "Apple Inc. v. Samsung Elecs. Co., 839 F.3d 1034, 1040 (Fed. Cir. 2016)",
+    "source_type": "unknown",
+    "final_status": "failed",
+    "final_file_path": null,
+    "requires_manual": true,
+    "manual_instructions": "Manual search required",
+    "attempts": 2
+  },
+  {
+    "footnote_number": 8,
+    "citation_text": "H.R. Rep. No. 114-114, at 2 (2015)",
+    "source_type": "book",
+    "final_status": "failed",
+    "final_file_path": null,
+    "requires_manual": true,
+    "manual_instructions": "Check library catalog or request ILL",
+    "attempts": 5
+  }
+]

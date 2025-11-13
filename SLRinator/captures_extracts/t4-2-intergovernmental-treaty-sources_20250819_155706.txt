@@ -1,0 +1,38 @@
+TITLE: T4.2 Intergovernmental Treaty Sources (p.332)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t4-treaty-sources
+  slug: t4-2-intergovernmental-treaty-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T4.2
+Intergovernmental Treaty Sources
+(p.332)
+United Nations Treaty Series
+1946–date
+<volume>
+U.N.T.S. xxx
+League of Nations Treaty Series
+1920–1945
+<volume>
+L.N.T.S. xxx
+Council of Europe Treaty Series
+1949-date
+C.E.T.S. No. xxx
+Organization of American States
+Treaty Series
+1940–date
+O.A.S.T.S. No. xxx
+Pan-American Treaty Series
+1949–date
+<volume>
+Pan-Am.
+T.S. xxx

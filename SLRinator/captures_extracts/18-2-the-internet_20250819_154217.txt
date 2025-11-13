@@ -1,0 +1,336 @@
+TITLE: 18.2 The Internet (pp. 185–90)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-2-the-internet
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.2
+The Internet
+(pp. 185–90)
+The Bluebook
+requires the use and citation of traditional printed sources when available, unless there is a digital copy of the source available that is authenticated, official, or an exact copy of the printed source, as described in
+rule 18.2.1
+.
+The rules that follow offer guidance in formatting citations to webpages and other internet sources not addressed elsewhere in rule 18, collectively referred to as web-based sources.
+Rule 18.2.1
+lays out general principles applicable to these citations.
+Rule 18.2.2
+sets out rules for direct citations to web-based internet sources.
+18.2.1 –
+General Internet Citation Principles
+(a) Sources that can be cited as if to the original print source.
+When an authenticated, official, or exact copy of a source is available online, citation can be made as if to the original print source (without any URL information appended).
+(i) Authenticated documents.
+When citing web-based documents,
+The Bluebook
+encourages citation to “authenticated” sources: those that use an encryption-based authentication method, such as a digital signature or public key infrastructure, to ensure the accuracy of the online source. Generally, an authenticated document will have a certificate or logo indicating that a government entity verified that the document is complete and unaltered.
+(ii) Official versions.
+Generally,
+The Bluebook
+prefers citation to an authenticated source, or, if no authenticated source is available, to a source as proximate to the original as possible. Documents designated as official are considered, for citation purposes, to be proximate to the original. Some states have designated, either by legislation or other official mechanism, that the online source is the “official” source for a particular legal document. Documents published on government websites and authored by government entities are to be considered official versions. Similarly, some online publishers make a distinction as to whether the document has been approved by, contributed by, or harvested from an official source by the content originator, designating such a document “official.”
+(iii) Exact copies.
+An exact copy is one that is an unaltered copy of the printed source in a widely used format that preserves pagination and other attributes of the printed work (such as a PDF). An exact copy is treated similarly to an official version.
+(b) Sources where the URL should be appended.
+(i) Obscure sources.
+If the cited information is available in a traditional source but such source is so obscure as to be practically unavailable, or if a parallel citation to an internet source will substantially improve access to the source cited, the citation should be made both to the traditional source and to the internet source by appending the URL directly to the end of the citation and providing for archival preservation of the source under
+rule 18.2.1(d)
+.
+(ii) Web-based sources with print characteristics.
+If a web-based source shares the characteristics of a print source such that it could be fully cited according to another rule in
+The Bluebook
+, the citation should be made as if to the print source and the URL appended directly to the end of the citation, even if it is unknown whether the cited information is available in print:
+Fed. Trade Comm’n, Consumer Fraud in the United States
+12 (2007),
+https://www.ftc.gov/sites/default/files/documents/reports/consumer-fraud-united-states-second-federal-trade-commission-survey-staff-report-federal-trade/fraud.pdf
+[
+https://perma.cc/YM39-55N8
+].
+Jens Frankenreiter, Talia B. Gillis & Eric L. Talley,
+Sex & Startups
+25–29 (Eur. Corp. Governance Inst., Working Paper No. 759/2024, 2024),
+https://ssrn.com/abstract=4730878
+[
+https://dx.doi.org/10.2139/ssrn.4730878
+].
+To share the characteristics of a print source, an online source must be a version permanently divided into pages with permanent page numbers, as in a PDF, and have the elements that characterize a given print source, such as a volume number (for law review articles and the like) or publication date (for magazine articles and the like).
+If an online source can be formatted in full compliance with another rule in
+The Bluebook
+, for purposes of citation style it does not matter whether that source has in fact been published in print. As noted above, traditional printed sources or authenticated digital copies are required as a matter of authority; this does not, however, affect the citation rules for print-like online sources.
+(c) Order of parentheticals.
+When such a citation requires multiple parentheticals, place them in the order indicated in
+rule 1.5(b)
+.  Thus, the URL of a source cited in accordance with
+rule 18.2.1(b)
+should follow format-related parenthetical information (such as “
+alteration in original
+,” “
+unpublished manuscript
+,” or “
+emphasis added
+”) and related authority parentheticals (such as “
+citing
+” or “
+quoting
+”), but precede explanatory parentheticals:
+Manoj Viswanathan,
+Making Social Security Progressive
+, 124
+Colum. L. Rev. F.
+67, 69 (2024) (emphasis added) (citing Karen M. Tani,
+Welfare and Rights Before the Movement: Rights as a Language of the State
+, 122
+Yale L.J.
+314, 325 (2012)),
+https://columbialawreview.org/wp-content/uploads/2024/04/April-2024-Forum-Viswanathan.pdf
+[
+https://perma.cc/7XGW-ZGML
+] (noting that taxes on wages fund social security).
+(d) Archival.
+The Bluebook
+requires that all online content cited or generated by authors be captured and stored in a permanent setting. Due to increased algorithmic individuation of internet-browsing experiences, internet-based sources, such as a search engine’s query results, may produce dramatically different results across different periods of time. Archiving can be achieved by using a reliable archival tool, or by saving the web-based source in a fixed form such as a PDF, and storing the saved version on file.
+When using an archival tool, append the archive URL to the full citation in brackets:
+Rebecca J. Rose,
+The Law as Justice Gorsuch Sees It
+,
+Atlantic (
+Aug. 5, 2024),
+https://www.theatlantic.com/ideas/archive/2024/08/interview-justice-neil-gorsuch-over-ruled/679342/
+[
+https://perma.cc/PT32-56LR
+].
+When archiving the source by saving a version on file, indicate where the saved source may be found in a parenthetical following the URL:
+Christine Chung & Derek M. Norman,
+Airlines and Passengers Still Struggling, a Day After Global Outage
+,
+N.Y. Times
+(July 20, 2024),
+https://www.nytimes.com/2024/07/20/travel/outage-airlines-passengers-effects.html
+(on file with the Columbia Law Review).
+18.2.2 –
+Citations to Web-Based Sources
+A web-based source that cannot be cited according to another rule in
+The Bluebook
+as stated in accordance with
+rule 18.2.1(b)(ii)
+, should be cited as if to the original print source in accordance with rule
+18.2.1(a)
+or according to this rule. All efforts should be made to cite to the most stable electronic location available. The web-based source citation should include information designed to facilitate the clearest path of access to the cited reference, including the title, pagination, and publication date as they appear on the webpage. The internet URL should be separated by a comma and appended to the end of the citation. Archival preservation should also be provided for in accordance with
+rule 18.2.1(d)
+.
+(a) Author of relevant object.
+When available, provide author information in ordinary roman type. When no author is clearly announced, omit author information from the citation unless there is a clear institutional owner of the domain. Abbreviate the name of an institutional author according to
+rule 15.1(e)
+:
+Randy E. Barnett,
+What the Declaration of Independence Said and Meant
+,
+Reason: Volokh Conspiracy
+(July 4, 2024, at 10:13 ET),
+https://reason.com/volokh/2024/07/04/what-the-declaration-of-independence-said-and-meant-6/
+[
+https://perma.cc/C32D-SH5C
+].
+Applications of Big Data in the Casino Industry
+,
+Glide Mag.
+(July 2, 2024),
+https://glidemagazine.com/302642/applications-of-big-data-in-the-casino-industry/
+[
+https://perma.cc/9USE-VNC6
+].
+If domain ownership is clear from the website’s title, omit the name of the institutional author:
+Krispy Kreme
+,
+https://www.krispykreme.com/
+[
+https://perma.cc/Z5HU-HSA8
+] (last visited July 20, 2024).
+Davis Family Butterfly Vivarium
+,
+Am. Museum Nat. Hist.
+,
+https://www.amnh.org/exhibitions/butterflies
+[
+https://perma.cc/A85V-Y9Y9
+] (last visited July 20, 2024).
+To cite a comment made on a website, begin with the word “
+comment
+” followed by the commentator's name or username and a parenthetical containing the date and time of the comment (if possible), followed by the word “
+on
+” in italics, and a citation to the webpage where the article can be found:
+Comment, Fancher Gotesky (June 5, 2024, at 12:04 ET),
+on
+Clellan Coe,
+Camouflage
+,
+Am. Scholar
+(June 5, 2024),
+https://theamericanscholar.org/camouflage-2/
+[
+https://perma.cc/P666-WN66
+].
+(b) Webpage or web-object titles.
+Titles should be used to indicate the location of the page being viewed in relation to the rest of the site. Titles should be taken either from the “title bar” at the top of the browser or from any clearly announced heading identifying the page as it appears in the browser. All efforts should be made to include a title that sufficiently identifies the page but that is not unwieldy, long, uninformative, or confusing:
+Nathalie Beauchamps,
+Originalism: A Conservative Doctrine or an Opportunity to Expand Rights?
+,
+Harv. C.R.-C.L. L. Rev. Amicus Blog
+(Mar. 21, 2024),
+https://journals.law.harvard.edu/crcl/originalism-a-conservative-doctrine-or-an-opportunity-to-expand-rights/
+[
+https://perma.cc/ATJ3-MH9X
+].
+Not:
+Nathalie Beauchamps,
+Amicus Blog
+,
+Harv. C.R.-C.L. L. Rev.
+(Mar. 21, 2024),
+https://journals.law.harvard.edu/crcl/originalism-a-conservative-doctrine-or-an-opportunity-to-expand-rights/%C2%A0
+[
+https://perma.cc/ATJ3-MH9X
+].
+(i) Main page titles.
+The citation should always include the homepage or domain name of which the particular citation is a part, referred to here as a “main page title.” The website’s main page title should be cited using small capitals. Capitalization should conform to the title as it appears on the site. Main page titles should be abbreviated in accordance with
+tables T6
+,
+T10
+, and
+T13
+:
+SCOTUSBlog
+,
+http://www.scotusblog.com/
+(on file with the Columbia Law Review) (last visited Oct. 6, 2023).
+(ii) Titles for subdivisions contained within a larger web-based source.
+If the cited source is published under the name of a blog or other subdivision that has its own content and presence within a larger web-based source, both the name of the site and the name of the subdivision should be included. Titles for subdivisions should be preceded by a colon. Follow standard rules for capitalizing the titles of sources in accordance with
+rule 8
+, even if the title bar uses nonstandard capitalization. Where appropriate, subheadings should include language indicating the page’s relation to the page to which it responds:
+Ella Wiley,
+Unraveling the Many Costs of Discriminatory Redistricting
+,
+Legal Def. Fund: Blog
+(Oct. 30, 2023),
+https://www.naacpldf.org/the-cost-of-discriminatory-redistricting/
+[
+https://perma.cc/SL7D-Y58H
+].
+Transcript of Sam Bankman-Fried’s Interview at the DealBook Summit
+,
+N.Y. Times: DealBook
+(Dec. 1, 2022),
+https://www.nytimes.com/2022/12/01/business/dealbook/sam-bankman-fried-dealbook-interview-transcript.html
+(on file with the Yale Law Journal).
+(iii) Descriptive titles.
+If the page’s headings are not sufficiently clear, a descriptive title can be used. Do not italicize descriptive titles:
+Archive of Columns by Pete Wells,
+N.Y. Times
+,
+https://www.nytimes.com/by/pete-wells
+(on file with the University of Pennsylvania Law Review) (last visited July 16, 2024).
+Reviews of “The Proposal
+,” Rotten Tomatoes
+,
+https://www.rottentomatoes.com/m/10010458-proposal
+[
+https://perma.cc/P3HG-LXAB
+] (last visited Jan. 28, 2024).
+(c) Date and time.
+The date should be provided as it appears on the internet site. Use only dates that refer clearly to the material cited. The date should be indicated after the main page title and any pinpoint citation:
+Dylan Tokar,
+Supreme Court’s Agency Power Rulings Could Change Regulatory Landscape for Years to Come
+,
+Wall St. J.: Risk & Compliance J.
+(July 3, 2024, at 05:30 ET),
+https://www.wsj.com/articles/supreme-courts-agency-power-rulings-could-change-regulatory-landscape-for-years-to-come-cec2cfef
+(on file with the Harvard Law Review).
+If the online resource has been updated or corrected on a date different from the online publication date, use that date in lieu of the original online publication date:
+Pete Wells,
+The Chef is Human. The Reviewer Isn’t.
+,
+N.Y. Times
+(June 25, 2024),
+https://www.nytimes.com/2024/06/24/dining/ai-restaurant-reviews.html
+(on file with the Yale Law Journal).
+When material is otherwise undated, the date that the website was last visited should be placed in a parenthetical after the URL:
+Yahoo!
+,
+http://www.yahoo.com
+[
+https://perma.cc/94S2-LKJW
+] (last visited Aug. 12, 2024).
+If an archival tool that indicates when a source was archived is utilized, indicate the date of archival as the date in the “
+last visited
+” parenthetical after the URL.
+It is recommended that citations for web-based sources include a timestamp whenever possible. Timestamps should be provided in twenty-four-hour clock formatting with a time zone designation following the timestamp. The time zone designation is determined by the time zone provided by the source. If no time zone designation is provided by the source, use the time zone of the device accessing the source. When the time zone provided is a subdivision of a larger time zone differentiated due to the observance of daylight savings, use the larger time zone designation:
+David Pozen,
+Reading the Tea Leaves on Marijuana Rescheduling
+,
+Balkinization
+(May 20, 2024, at 16:07 ET),
+https://balkin.blogspot.com/2024/05/reading-tea-leaves-on-marijuana.html
+[
+https://perma.cc/AN4W-RX42
+].
+Timestamps are especially encouraged when the citation is for a comment to a posting or is otherwise easily identifiable by the time of its posting.
+(d) The URL.
+A site’s internet address, or URL, should point readers directly to the source cited rather than to an intervening page of links. If there is a shortlink available that clearly indicates the source of the site (e.g.,
+wapo.st
+,
+imdb.to
+, but not
+bit.ly
+), then cite the shortlink. If no shortlink is available, but the full URL is straightforward, then cite the entire URL as it appears in the address bar of the browser:
+Stanley Kubrick Biography
+, IMDB,
+http://www.imdb.com/name/nm0000040/bio?ref_=nm_ql_1
+[
+https://perma.cc/4PP5-48TW
+] (last visited July 22, 2024).
+Not:
+Stanley Kubrick Biography
+, IMDB,
+http://imdb.com
+(search in search bar for "Stanley Kubrick"; then follow "Biography" hyperlink under "Quick Links") (last visited July 22, 2024).
+Alternatively, the root URL of the site from which information is accessed may be used if (1) the URL is long, unwieldy, or full of nontextual characters (such as question marks, percentage signs, or ampersands); or (2) the source can only be obtained only by submitting a form or query. If the root URL is used and the site’s format is not clear from the rest of the citation, a clarifying parenthetical should be added to explain how to access the specific information to which the citation refers:
+http://fjsrc.urban.org/noframe/wqs/q_data_1.htm#2001
+(choose “2001" from dropdown; then choose "Defendants in Criminal Cases-Administrative Office of the U.S. Courts (AOUSC)"; then click "out" and "submit"; then follow "TTSECMO" hyperlink).
+Not:
+http://fjsrc.urban.org/noframe/wqs/q_e.cfm?cat=3&year=2001&agency=AOUSC&saf=out&var1=TTSECMSO
+.
+Note that some URLs are case sensitive, so cite URLs as they appear in the internet browser.
+(e) Multiple URLs.
+Some popular sites are served by more than one URL. In these cases, a proper citation should use the primary URL rather than a URL that links to an alternate server:
+Macy's
+, http://www.macys.com [https://perma.cc/S2LQ-CSYS] (last visited July 23, 2024).
+Not:
+Macy's
+, http://www1.macys.com (last visited July 23, 2024).
+(f) Document format.
+When a document is available both in a format that preserves pagination and other attributes of a printed work (such as PDF) and one that does not, the former should always be cited:
+Consumer Fin. Prot. Bureau
+,
+Small Business Lending Sample Form
+,
+https://files.consumerfinance.gov/f/documents/cfpb_sbl_sample-data-collection-form.pdf
+[
+https://perma.cc/5QUS-49MJ
+] (last visited July 23, 2024).
+Not:
+Consumer Fin. Prot. Bureau, Small Business Lending Sample Form
+,
+https://www.consumerfinance.gov/compliance/compliance-resources/small-business-lending-resources/small-business-lending-collection-and-reporting-requirements/small-business-lending-sample-form/
+[
+https://perma.cc/5QUS-49MJ
+] (last visited July 23, 2024).
+(g) Pinpoint citations.
+If the cited document is rendered in a format that preserves the pagination of a print version (such as a PDF file), pinpoint citations should be provided when appropriate. Page numbers should always refer to the numbers that appear on the document itself. Do not use “screen numbers” or other numbers that may appear in a software-viewing window or scroll bar. When there is pagination information available, it should be included between the domain name and the date or URL, whichever comes first.

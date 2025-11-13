@@ -1,0 +1,98 @@
+TITLE: Utah (Utah) (pp. 319–20)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: utah-utah
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Utah (Utah)
+(pp. 319–20)
+https://www.utcourts.gov/
+https://le.utah.gov/documents/code_const.htm
+Public domain citation format:
+Utah has adopted a public domain citation format for cases after December 31, 1998. The format is:
+Wickham v. Galetka, 2002 UT 72, 61 P.3d 979.
+Gilley v. Blackstock, 2002 UT App 414, ¶ 10, 61 P.3d 305.
+For additional information, consult Utah Supreme Court Standing Order No. 4 (effective Jan. 18, 2000).
+Supreme Court
+(
+Utah
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1881–date
+P., P.2d, P.3d
+Utah Reports
+1873–1974
+Utah, Utah 2d
+Court of Appeals
+(
+Utah Ct. App.)
+: Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1987–date
+P.2d, P.3d
+Statutory compilations:
+Cite to one of the following codes, if therein.
+Utah Code Annotated (LexisNexis)
+Utah Code Ann.
+§ x-x-x (LexisNexis
+<year>
+)
+West’s Utah Code Annotated
+Utah Code Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+Utah Laws
+, if therein.
+Laws of Utah
+<year>
+Utah Laws
+<page no.>
+Utah Code <year> Advance Legislative
+Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Utah Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+Utah Legislative Service (West)
+<year>
+Utah. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Utah Administrative Code (LexisNexis)
+Utah Admin. Code
+Rx-x-x (LexisNexis
+<year>
+)
+Administrative register
+Utah State Bulletin
+<iss. no.>
+Utah Bull.
+<page no.>
+(
+<month day, year>
+)

@@ -1,0 +1,326 @@
+TITLE: T2.1 Argentine Republic
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-1-argentine-republic
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.1
+Argentine Republic
+(Civil Law)
+Cases
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+],
+<date in day/month/year format>
+, “
+<case name
+>
+/
+<type of case>
+,”
+<name of publication>
+[
+<abbreviation of publication>
+] (
+<year>
+-
+<volume>
+-
+<page number>
+) (
+<country abbreviation if not evident from context>
+).
+The party names are separated by “
+c.
+,” which refers to “contra,” the Spanish translation of “versus.”
+Corte Suprema de Justicia de la Nación [CSJN] [National Supreme Court of Justice], 18/7/2001, “Frenquel, Adolfo c. Centro de Ortopedias / recurso extraordinario,” La Ley [L.L.] (2001-D-22) (Arg.).
+Federal jurisdiction
+Corte Suprema de Justicia de la Nación
+(
+CSJN
+) (National Supreme Court of Justice: highest court on constitutional and federal matters): Cite to
+Fallos
+, if therein; otherwise cite to
+L.L.
+,
+E.D.
+, or
+J.A.
+;
+Cámara Nacional de Casación Penal
+(
+C.N.C.P.
+) (National Court of Appeal on Criminal Matters: highest federal court on criminal matters): Cite to
+L.L.
+,
+E.D.
+, or
+J.A.
+;
+Cámara Federal de Apelaciones
+(
+CFed.
+) (federal courts of appeals) and
+Juzgado Federal
+(
+Juzg. Fed.
+) (lower federal courts): Cite to
+L.L.
+,
+E.D.
+, or
+J.A.
+, appending the specific jurisdiction to the court name and court abbreviation.
+Fallos de la Corte Suprema de Justicia de la Nación
+1864
+–
+date
+e.g.,
+Fallos (1997-299-142)
+Revista Jurídica Argentina—La Ley
+1936
+–
+date
+e.g.,
+L.L. (1985-E-292)
+El Derecho
+1962
+–
+date
+e.g.,
+E.D. (1972-42-934)
+Jurisprudencia Argentina
+1918
+–
+date
+e.g.,
+J.A. (1961-VI-332)
+Ordinary jurisdiction
+Provincial courts: Corte de Justicia
+(
+CJ
+) (Court of Justice: highest provincial court in the provinces of Catamarca (
+Cat.
+), Salta (
+Sta.
+), and San Juan (
+SJn.
+)),
+Corte Suprema de Justicia
+(
+CSJ
+) (Supreme Court of Justice: highest provincial court in the provinces of Santa Fe (
+SFe.
+) and Tucumán (
+Tuc.
+)),
+Superior Tribunal de Justicia
+(
+STJ
+) (Superior Tribunal of Justice: highest provincial court in the provinces of Chaco (
+Cha.
+), Chubut (
+Cht.
+), Corrientes (
+Ctes.
+), Entre Ríos (
+ERs.
+), Formosa (
+For.
+), Jujuy (
+Juj.
+), La Pampa (
+LPa.
+), Misiones (
+Mis.
+), Río Negro (
+RNg.
+), San Luis (
+SLs.
+), Santiago del Estero (
+Sgo.
+), and Tierra del Fuego (
+TFg.
+)),
+Suprema Corte de Justicia
+(
+SCJ
+) (Supreme Court of Justice: highest provincial court in the provinces of Buenos Aires (
+BAs.
+) and Mendoza (
+Mza.
+)),
+Tribunal Superior de Justicia
+(
+Trib. Sup.
+) (Superior Tribunal of Justice: highest provincial court in the provinces of Córdoba (
+Cba.
+), La Rioja (
+LRj.
+), Neuquén (
+Nqn.
+), and Santa Cruz (
+SCz.
+)),
+Cámara de Apelaciones en lo Civil y Comercial
+(
+CApel
+.
+CC
+) (provincial courts of appeals in civil and commercial matters),
+Cámara de Apelaciones en lo Penal
+(
+CApel. Penal
+) (provincial courts of appeals in criminal matters),
+Cámara del Trabajo
+(
+CTrab.
+) (provincial courts of appeals in labor matters), and
+Juzgado de Primera Instancia
+(
+1a Inst.
+) (provincial lower courts of ordinary jurisdiction): Cite to
+L.L.
+,
+E.D.
+, or
+J.A.
+, adding the name of the province or region when the report is local.
+Append the specific province to the court name and court abbreviation. Include the sala (section or panel), if applicable, after the court and province name.
+Civ. y Com. Mendoza, sala 4a, 14/4/1980, Rep. LL XL-1724, n. 50.
+Courts with jurisdiction over the federal district of Buenos Aires: Cámara Nacional de Apelaciones en lo Civil de la Capital Federal
+(
+CNCiv.
+) (National Court of Civil Appeals of the Federal Capital: court of appeals in civil matters, divided into sections
+A
+,
+B
+,
+C
+, etc.),
+Cámara Nacional de Apelaciones en lo Comercial de la Capital Federal
+(
+CNCom.
+) (National Court of Commercial Appeals of the Federal Capital: court of appeals in commercial matters, divided into sections
+A
+,
+B
+,
+C
+, etc.),
+Cámara Nacional de Apelaciones Especial Civil y Comercial de la Capital Federal
+(
+CNEspecial Civ. y Com.
+) (National Court of Special Civil and Commercial Appeals of the Federal Capital: court of appeals in civil and commercial matters),
+Cámara Nacional de Apelaciones en lo Penal Económico de la Capital Federal
+(
+CNPenal Económico
+) (National Court of Economic Criminal Appeals of the Federal Capital: court of appeals in economic criminal matters),
+Cámara Nacional de Apelaciones del Trabajo de la Capital Federal
+(
+CNTrab.
+) (National Court of Labor Appeals of the Federal Capital: court of appeals in labor matters),
+Cámara Nacional de Apelaciones en lo Federal y Contencioso Administrativo de la Capital Federal
+(
+CNFed.
+) (National Court of Appeals in Federal and Administrative Litigation of the Federal Capital: court of appeals in administrative matters), and
+Juzgado Nacional de Primera Instancia
+(
+1a Inst.
+) (lower courts of ordinary jurisdiction): Cite to
+L.L.
+,
+E.D.
+, or
+J.A.
+Constitution
+Constitución Nacional
+Const. Nac.
+Art. 4,
+Constitución Nacional [Const. Nac.]
+(Arg.).
+Codes
+Código Civil
+(Civil Code)
+Cód. Civ.
+Código de Comercio
+(Commercial Code)
+Cód. Com.
+Código Penal
+(Criminal Code)
+Cód. Pen.
+Código Procesal Civil y Comercial de la Nación
+(Civil and Commercial Procedure Code)
+Cód. Proc. Civ. y Com.
+Código Procesal Penal de la Nación
+(Criminal Procedure Code)
+Cód. Proc. Pen.
+Include publication information for the version cited, if available:
+Código Penal [Cód. Pen.] [Criminal Code]
+art. 22 (Abeledo Perrot, Buenos Aires, 1971) (Arg.).
+Statutes and decrees
+Citation format:
+Law No.
+<law number>
+,
+<province abbreviation, if relevant>
+,
+<promulgation date>
+, [
+<volume number>
+]
+<reporter abbreviation> <first page>
+(
+<country abbreviation if not evident from context>
+).
+Law No. 23098, Oct. 19, 1984, [XLIV-D] A.D.L.A. 3733 (Arg.).
+Cite to one of the following:
+Boletín Oficial
+B.O.
+Anales de Legislación Argentina
+A.D.L.A.
+El Derecho—Legislación Argentina
+E.D.L.A.
+Anuario De Legislación (Jurisprudencia Argentina)
+A.L.J.A.
+Periodicals
+Revista Juridica La Ley
+L.L.
+Jurisprudencia Argentina
+J.A.
+El Derecho
+E.D.
+Internet sources
+http://www.boletinoficial.gob.ar
+(Official Gazette; paid subscription and free access to current issue)
+http://www.diariojudicial.com.ar
+(legal portal with free subscription)
+http://www.boletinoficial.gob.ar
+(paid subscription)
+http://www.abeledoperrot.com
+(paid subscription)
+http://www.infojus.gob.ar
+(database of the Ministry of Justice; free subscription includes national, provincial, and municipal legislation, court decisions, and scholarly sources)
+http://www.infoleg.gob.ar
+(Ministry of Economy Database of legislation in PDF format; free access)
+http://www.diputados.gob.ar/index.html
+(National Congress portal; free access to legislation since 1983, Decrees of the Executive Power since 1993, and bills since 1862)
+http://www.csjn.gob.ar
+(database of the Supreme Court; free access to full text of Supreme Court decisions from 1994 to present; summaries of Supreme Court decisions from 1863 to September 2012)
+http://www.ijeditores.com.ar
+(Law Library Online; paid subscription with daily updates; free newsletter)
+http://www.nyulawglobal.org/globalex/argentina1.htm#_Provincial_Judicial_Power
+(free research guide to the Argentine Legal System written in English)

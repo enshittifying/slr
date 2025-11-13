@@ -1,0 +1,11 @@
+2025-08-08 23:39:05,639 - src.core.sourcepull_system - INFO - Processing FN18: 35 U.S.C. § 271(e)(2)(A)....
+2025-08-08 23:39:05,639 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:39:06,289 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-08 23:39:06,290 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:39:06,290 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:39:06,290 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:39:06,290 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:39:06,290 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:39:06,290 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:39:06,290 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN18
+2025-08-08 23:39:06,292 - src.core.sourcepull_system - INFO - Report saved to output/data/Sourcepull/sourcepull_report.json

@@ -1,0 +1,61 @@
+TITLE: 15.2 Editor or Translator (pp. 156–57)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-2-editor-or-translator
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.2
+Editor or Translator
+(pp. 156–57)
+(a) Basic format.
+Always give the full name of an editor and/or translator according to
+rule 15.1
+, followed by “
+ed
+.,” or “
+trans
+.,” in that order if both apply, in the parenthetical containing information about the edition, publisher, and date (see
+rule 15.4
+). A comma should separate the designation of an editor and/or translator from other publication information:
+Michel Foucault, Discipline and Punish
+30–31 (Alan Sheridan trans., Vintage Books 2d ed. 1995) (1975).
+Ethics of Consumption: The Good Life, Justice, and Global Stewardship
+118–19 (David A. Crocker & Toby Linden eds., 1998).
+Sir Gawain and the Green Knight
+(Christopher Tolkien ed., J.R.R. Tolkien trans., George Allen & Unwin Ltd. 1975).
+Karl Marx & Frederich Engels, The Communist Manifesto
+(Joseph Katz ed., Samuel Moore trans., Washington Square Press 1964) (1848).
+(b) Institutional editors.
+Follow
+rule 15.1(c)
+, substituting the name of the institution for the name of the individual editor. Abbreviate the institutional editor’s name according to
+rule 15.1(e)
+:
+T
+he Role of Mediation in Divorce Proceedings
+33 (Vt. L. Sch. Disp. Resol. Project ed., 1987).
+The Bluebook: A Uniform System of Citation
+(Columbia L. Rev. Ass’n et al. eds., 21st ed. 2020).
+(c) Multiple volumes with different editors.
+When different volumes of a published work have different editors, only list the editors of the volume cited:
+1
+The Documentary History of the Ratification of the Constitution
+254 (Merrill Jensen ed., 1976).
+16
+The Documentary History of the Ratification of the Constitution
+387, 389 (John P. Kaminski & Gaspare J. Saladino eds., 1986).
+(d) No named parties.
+If a work has no named author, editor, or translator, then the work may be designated by the publisher of the edition (
+rule 15.4
+). Abbreviate the publisher's name according to
+rule 15.1(e)
+.

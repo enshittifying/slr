@@ -1,0 +1,9 @@
+USC Title 21, Section 321(m)
+Source: Cornell Legal Information Institute
+URL: https://www.law.cornell.edu/uscode/text/21/321
+Citation: 21 U.S.C. § 321(m)
+Retrieved at: 2025-08-09T13:59:51.413105
+
+============================================================
+Note: Full HTML content parsing would be implemented here
+to extract the actual statute text and create a proper PDF.

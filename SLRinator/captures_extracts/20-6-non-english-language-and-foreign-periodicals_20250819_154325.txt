@@ -1,0 +1,92 @@
+TITLE: 20.6 Non-English-Language and Foreign Periodicals (p.212)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 20-foreign-materials
+  slug: 20-6-non-english-language-and-foreign-periodicals
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20.6
+Non-English-Language and Foreign Periodicals
+(p.212)
+(a) In general.
+For all foreign periodicals, including both English- and non-English-language sources, abbreviate the periodical name according to
+tables T6
+,
+T10
+, and
+T13
+. Include the country of origin in a parenthetical:
+Nihal Sahu & Sheerene Mohamed,
+Inessential Practices: Charting a Non-Normative Future for Indian Religion Jurisprudence
+, 6
+Indian L. Rev.
+37 (2022) (India).
+Catherine Labrusse-Riou,
+La filiation et la médecine moderne
+, 38
+Revue Internationale de Droit Comparé
+[R.I.D.C.] 419 (1986) (Fr.).
+For foreign newspapers, cite according to
+rule 16.6
+:
+Marianne Kearney,
+Indonesia Risks Becoming Like Balkans: Mega
+,
+Straits Times
+(Sing.), Oct. 29, 2001, at 3.
+(b) Foreign-language sources.
+Cite foreign-language periodicals according to
+rule 16
+, as modified by
+rule 20.2
+. Give the author; the title in the original language, followed by a translation or shortened name in English (
+rule 20.2.2
+); the volume number of the periodical if appropriate (
+rule 16.4
+); the full name of the periodical, if it is being cited for the first time, followed by the official abbreviation in brackets (
+rule 20.2.3
+); the page number(s); the year (
+rules 16.4
+and
+16.5
+); and the abbreviation of the country of publication. A
+hereinafter
+form, provided in brackets at the end of the citation, may be given if desired:
+1
+Marie-Thérèse Meulders-Klein,
+Le droit de l’enfant face au droit à l’enfant et les procréations médicalement assistées
+[
+The Right of a Child Versus the Right to Have a Child and Medically Assisted Procreation
+], 87
+Revue Trimestrielle de Droit Civil
+[
+Rev. Trim. Dr. Civ.
+] 645, 657 (1988) (Fr.).
+2
+Aktuelle Fragen der Schutzbereichsbestimmung im deutschen und europäischen Patentrecht
+[
+Current Issues in Identifying the Scope of Protection in German and European Patent Law
+], 2003
+Gewerblicher Rechtsschutz und Urheberrecht
+[GRUR] 905 (Ger.) [hereinafter
+Scope of Protection
+].
+4
+Scope of Protection
+,
+supra
+note 2, at 906;
+see also
+Benjamin Taibleson & Rebecca Krauss,
+Embracing Convergence: Forty Countries in Comparative Perspective
+, 106
+Rev. Trim. Dr. Civ.
+119 (2007) (Fr.).

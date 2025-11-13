@@ -1,0 +1,74 @@
+TITLE: T2.7 Catholic Church (Holy See)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-7-catholic-church
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.7
+Catholic Church (Holy See)
+Codes before 1917
+:
+Cite by the name of the individual document or fragment, as in the examples below, not by the title of a collection that includes the material. For other examples, see the
+Bulletin of Medieval Canon Law
+.
+Gratian
+Part 1
+Part 2
+Part 3
+c. 1140
+e.g.,
+D.33 c.1 (d.a.)
+e.g.,
+C.9 q.3 c.1
+e.g.,
+De cons.
+D.2 c.84
+Decretals of Gregory IX
+1234
+e.g.,
+X 3.24.2
+Decretals of Boniface VIII
+1298
+e.g.,
+VI 1.11.1
+Constitutions of Clement V
+1317
+e.g.,
+Clem.
+3.5.7
+Extravagants of John XXII
+1316–1334
+e.g.,
+Extrav. Jo.
+14.3
+Common Extravagants
+1261–1484
+e.g.,
+Extrav. Com.
+2.1.1
+Codes after 1917
+:
+Cite to either the 1917 or 1983
+Codex Iuris Canonici
+.
+Codex Iuris Canonici (1917)
+1917–1983
+e.g.,
+1917
+Code
+c.430, § 1
+Codex Iuris Canonici (1983)
+1983–date
+e.g.,
+1983
+Code
+c.515, § 3

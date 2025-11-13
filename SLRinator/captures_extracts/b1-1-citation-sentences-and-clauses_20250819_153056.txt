@@ -1,0 +1,53 @@
+TITLE: B1.1 Citation Sentences and Clauses (pp. 3–4)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  slug: b1-1-citation-sentences-and-clauses
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B1.1
+Citation Sentences and Clauses
+(pp. 3–4)
+In non-academic legal documents, such as briefs and opinions, citations generally appear within the text of the document immediately following the propositions they support. Footnotes should only be used in non-academic legal documents when permitted or required by local court rules.
+A citation may be inserted into the text of a document in one of two ways: as a stand-alone citation sentence or as a citation clause.
+Citation sentences
+begin with a capital letter and end with a period. One citation sentence may contain multiple citations separated by semicolons. Use citation sentences to cite sources and authorities that relate to the
+entire
+preceding sentence:
+The U.S. Supreme Court has the power to invalidate statutes that are repugnant to the U.S. Constitution.
+Marbury v. Madison
+, 5 U.S. (1 Cranch) 137, 177–79 (1803) (federal laws);
+Fletcher v. Peck
+, 10 U.S. (6 Cranch) 87, 139 (1810) (state laws);
+Dred Scott v. Sandford
+, 60 U.S. (19 How.) 393, 395 (1856),
+superseded by constitutional amendment
+, U.S. Const. amend. XIII. The U.S. Supreme Court also has the power to review state court decisions.
+Martin v. Hunter’s Lessee
+, 14 U.S. (1 Wheat.) 304, 377–78 (1816) (civil cases);
+Cohens v. Virginia
+, 19 U.S. (6 Wheat.) 264, 350 (1821) (criminal cases).
+Citation clauses
+are set off from the text by commas and immediately follow the proposition to which they relate. Do not begin a citation clause with a capital letter unless the citation clause begins with a source that would otherwise be capitalized. Do not end a citation clause with a period, unless it is the last clause in the sentence. Use citation clauses to cite sources and authorities that relate to only
+part
+of a sentence:
+The Supreme Court adopted a broad reading of the Commerce Clause during the New Deal,
+see
+Wickard v. Filburn
+, 317 U.S. 111, 128–29 (1942), though in recent years the Supreme Court has somewhat reined in its broad reading,
+see
+United States v. Lopez
+, 514 U.S. 549, 624 (1995);
+United States v. Morrison
+, 529 U.S. 598, 612–13 (2000);
+Nat’l Fed’n of Indep. Bus. v. Sebelius
+, 567 U.S. 519, 552 (2012).
+But see
+Gonzales v. Raich
+, 545 U.S. 1, 39 (2005).

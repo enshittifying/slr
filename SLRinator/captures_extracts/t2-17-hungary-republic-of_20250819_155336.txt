@@ -1,0 +1,185 @@
+TITLE: T2.17 Hungary, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-17-hungary-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.17
+Hungary, Republic of
+(Civil Law)
+Cases
+Citation format:
+<court name>
+(
+<court abbreviation, if applicable>
+) [
+<English translation of court name>
+]
+<full date of judgment, if available>
+,
+<gazette abbreviation, if citing to a gazette>
+.
+<case number, or if none available, docket number>
+(
+<country abbreviation if not evident from context>
+).
+Kúria [Curia of Hungary] Kfv.III.37 512/2012/9 (Hung.).
+Kúria [Curia of Hungary] Pfv.V.20.125/2013/5 (Hung.).
+Fővárosi Ítélőtábla [Budapest-Capital Regional Court of Appeal] March 4, 2014, 9.Pf.20.408/2013/10 (Hung.).
+Debreceni Törvényszék [Debrecen Regional Court] July 4, 2013, 10.P.20.075/2013/22 (Hung.).
+Constitutional and civil law courts
+Alkotmánybíróság
+(AB) (Constitutional Court): Cite to MK or AK, if therein;
+Kúria (Curia of Hungary): Cite to BH, if therein;
+Szegedi Ítélőtábla
+,
+Pécsi Ítélőtábla
+,
+Győri Ítélőtábla
+,
+Debreceni Ítélőtábla
+, and
+Fővárosi Ítélőtábla
+(regional court of appeal and the Budapest-Capital Regional Court of Appeal; adjudicates civil and criminal matters as a second- or third-instance forum and othercasesreferredtoitsjurisdiction);
+TörvényszékésFővárosiTörvényszék
+(regional court and Budapest-Capital Regional Court) and
+Járásbíróság
+or
+kerületi bíróság
+(district court): Cite to BH, if therein;
+Közigazgatási és
+munkaügyi bíróság
+(administrative and labor court).
+Major gazettes
+Magyar Közlöny (Official Gazette of Hungary)
+MK
+Alkotmánybíróság Határozatai (Decisions of the Constitutional Court: Official Gazette of the Constitutional Court)
+AK
+Kúriai Döntések: Bírósági Határozatok (Resolutions of the Curia: Court Cases)
+BH
+Ítélőtáblai Határozatok (Cases of the Courts of Appeal)
+ÍH
+Alkotmánybírósági Szemle (Constitutional Court Review)
+Bírósági Döntések Tára (Reports of Court Resolutions)
+BDT
+Közigazgatási-Gazdasági Döntvénytár (Court Decisions on Public Administration and Economy)
+KGD
+Bírósági Közlöny (Official Journal of the National Office for the Judiciary)
+Law journals
+Magyar Jog (Hungarian Law)
+MJ
+Jogtudományi Közlöny (Gazette of Legal Science)
+JK
+Európai Jog (European Law)
+Acta Humana: Emberi Jogi Közlemények (Human Rights Bulletin)
+Acta Juridica Hungarica
+Családi Jog (Family Law)
+Infokommunikáció és Jog (Infocommunications and Law)
+Közjogi Szemle (Public Law Journal)
+Constitution
+Magyarország Alaptörvénye [The Fundamental Law of Hungary], Alaptörvény.
+Statutes and decrees
+Where available, cite statutes to
+Magyar Közlöny
+(
+MK
+) (Official Gazette of Hungary) and decrees to the specific ministerial gazette, e.g.,
+Honvédelmi Közlöny
+(
+HK
+) (Gazette of National Defense).
+Citation format for
+törvény(ek)
+(act(s)):
+<year of issuance>
+.
+<number of the act within that year>
+.
+<scope of regulation>
+(
+<English translation of the name of the act>
+) (
+<country abbreviation if not evident from context>
+).
+2012. évi XXXVI. törvény az Országgyűlésről(Act XXXVI of 2012 on the Parliament) (Hung.).
+2013. évi V. törvény a Polgári Törvénykönyvről (Act V of 2013 on the Civil Code) (Hung.).
+Citation format for decrees:
+<decree number>
+/
+<year of issuance>
+. (
+<month of issuance, in roman numerals>
+.
+<day>
+.)
+<abbreviation of issuer>
+<abbreviation of type of decree>
+<scope of regulation>
+(
+<English translation of the name of the decree>
+) (
+<country abbreviation if not evident from context>
+).
+When following the format above, use “
+Korm.
+” (Government), “
+FVM
+” (Minister of Agriculture and Rural Development), “
+EüM
+” (Minister of Health), and so on. For governmental and ministerial decrees, use “
+r.
+” for “rendelet” (decree); for municipal decrees, use “
+ör.
+” for “önkormányzati rendelet.”
+303/2010. (XII. 23.) Korm. r. a Nemzeti Innovációs Hivatalról (Governmental Decree No. 303/2010 (XII.23.) on the National Innovation Office) (Hung.).
+31/2008. (XII. 31.) IRM r. az igazságügyi szakértői működésről (Decree of the Minister of Law and Law Enforcement on the Operation of Forensic Experts) (Hung.).
+Codes
+Polgári Törvénykönyv (Civil Code)
+Ptk.
+Büntető Törvénykönyv (Criminal Code)
+Btk.
+Polgári perrendtartás (Civil Procedure Code)
+Pp.
+Büntetőeljárási törvény (Criminal Procedure Code)
+Be.
+Közigazgatási eljárásról szóló törvény (Administrative Procedure Act)
+Ket.
+Munka Törvénykönyve (Labor Code)
+MUNKA TV
+Gazdasági társaságokról szóló törvény (Company Law)
+GT
+Kereskedelmi Törvény (Commercial Law)
+KERTV
+Cégtörvény (Act on Company Registration Procedure)
+CTV
+Törvény a külföldiek magyarországi befektetéseiről (Law on Investments of Foreigners in Hungary)
+Bírósági Törvény (Law on the Organization of the Courts)
+Bszi.
+Internet sources
+https://hunconcourt.hu/az-alkotmanybirosag-hatarozatai-ab-kozlony
+(Alkotmánybíróság Határozatai — Decisions of the Constitutional Court: Official Gazette of the Constitutional Court)
+https://hunconcourt.hu/az-alkotmanybirosag-hatarozatai-eves-kotetek-abh
+(Annual Collection of Alkotmánybíróság Határozatai — Decisions of the Constitutional Court)
+https://magyarkozlony.hu
+(Magyar Közlöny — Official Gazette of Hungary)
+http://www.kozlonyok.hu/kozlonyok/valaszt.htm
+(current official gazettes)
+https://birosag.hu/ugyfeleknek/birosagi-hatarozatok-gyujtemenye
+(Bírósági Határozatok Gyűjteménye — full text database of court cases and decisions)
+http://www.birosag.hu/en/szakmai-informaciok/birosagi-kozlony
+(Bíró`sági Közlöny — Official Journal of the National Office for the Judiciary)
+https://njt.hu/jogszabaly/2011-4301-02-00
+(the fundamental law of Hungary in Hungarian)
+https://www.parlament.hu/documents/125505/138409/Fundamental+law/
+(the fundamental law of Hungary in English)
+http://net.jogtar.hu
+(Hatályos Jogszabályok Gyűjteménye — database of valid statutes, decrees, free access)

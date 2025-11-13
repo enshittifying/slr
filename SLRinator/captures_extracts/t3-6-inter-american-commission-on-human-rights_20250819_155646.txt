@@ -1,0 +1,22 @@
+TITLE: T3.6 Inter-American Commission on Human Rights (p.330)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-6-inter-american-commission-on-human-rights
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.6
+Inter-American Commission on Human Rights
+(p.330)
+Cite to
+Inter-Am. Comm’n H.R.
+Inter-American Commission on Human Rights Annual Reports
+Inter-Am. Comm’n H.R.

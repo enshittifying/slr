@@ -1,0 +1,97 @@
+TITLE: 13.2 Bills and Resolutions (pp. 141–42)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 13-legislative-materials
+  slug: 13-2-bills-and-resolutions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13.2
+Bills and Resolutions
+(pp. 141–42)
+(a) Unenacted federal bills and resolutions.
+When citing federal bills, include the name of the bill (if relevant), the abbreviated name of the house, the number of the bill, the number of the Congress, the section (if any), and the year of publication:
+S. 516, 105th Cong. § 2 (1997).
+H.R. 422, 106th Cong. (1999).
+Clear Skies Act, S. 485, 108th Cong. (2003).
+Protection from Personal Intrusion Act, H.R. 2448, 105th Cong. § 2(a) (1997).
+A parenthetical indicating the date and stage of the bill may be provided in order to distinguish among multiple versions of the same bill in the same Congress.  Subcommittee and committee names may be abbreviated according to
+tables T6
+,
+T9
+, and
+T10
+:
+S. 593, 101st Cong. § 2 (as passed by Senate, May 31, 1989).
+S. 593, 101st Cong. § 2 (as reported by S. Comm. on the Judiciary, May 12, 1989).
+Cite resolutions analogously, using the following abbreviations:
+House Resolution
+H.R. Res.
+Senate Resolution
+S. Res.
+House Concurrent Resolution
+H.R. Con. Res.
+Senate Concurrent Resolution
+S. Con. Res.
+House Joint Resolution
+H.R.J. Res.
+Senate Joint Resolution
+S.J. Res.
+Senate Executive Resolution
+S. Exec. Res.
+Thus:
+H.R.J. Res. 124, 105th Cong. (1998).
+A parallel citation to a published committee hearing, a legislative report, or the
+Congressional Record
+may also be provided if it would assist the reader in locating the bill (
+rules 13.3
+,
+13.4
+, and
+13.5
+).
+(b) Enacted federal bills and resolutions.
+Enacted bills and joint resolutions are statutes (
+rule 12
+). They are cited as statutes except when used to document legislative history, in which case they are cited as unenacted bills.
+Enacted simple resolutions, which bind only one house of Congress, and enacted concurrent resolutions, which bind either one or both houses of Congress, should be cited as unenacted bills. Unless otherwise clear in context, the fact of enactment should be noted parenthetically:
+S. Res. 141, 106th Cong. (1999) (enacted).
+H.R. Con. Res. 196, 106th Cong. (1999) (enacted).
+H.R. Res. 811, 108th Cong. (2004) (enacted).
+A parallel citation to the
+Congressional Record
+(for simple resolutions) or to the
+Statutes at Large
+(for concurrent resolutions) may be provided if it would assist the reader in locating the enacted resolution. Because only enacted resolutions are printed in the
+Statutes at Large
+(“
+Stat
+.
+”), a parenthetical noting enactment is not necessary when a parallel citation to
+Stat
+. is given:
+S. Res. 218, 83d Cong., 100
+Cong. Rec
+. 2972 (1954) (enacted).
+S. Con. Res. 97, 94th Cong., 90 Stat. 3024 (1976).
+(c) State bills and resolutions.
+When citing state bills and resolutions, include the name of the legislative body, abbreviated according to
+tables T6
+,
+T9
+, and
+T10
+, the number of the bill or resolution, the number of the legislative body (or, if not numbered, the year of the body), and the number or designation of the legislative session. Parenthetically indicate the name of the state, abbreviated according to
+table T10
+, and the year of enactment (for an enacted bill or resolution) or the year of publication (for an unenacted bill or resolution):
+H.B. 636, 1999 Gen. Assemb., 413th Sess. (Md. 1999).
+H.R. 189, 145th Gen. Assemb., Reg. Sess. (Ga. 1999).
+A parallel citation to state session laws may be provided if it would assist the reader in locating an enacted resolution:
+H.R.J. Res. 1, 40th Leg., 2d Spec. Sess., 1974 Utah Laws 7.

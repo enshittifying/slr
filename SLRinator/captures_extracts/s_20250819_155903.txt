@@ -1,0 +1,1611 @@
+TITLE: Index
+============================================================
+
+METADATA:
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Index
+Type To Search The Index
+Sales number, U.N.
+,
+21.7
+Saskatchewan
+sources of law
+,
+T2.6
+Scattered sections of code
+,
+3.3
+“Schedule(s),”
+abbreviation of
+,
+T16
+Scotland
+sources of law
+,
+T2.46
+SEC materials
+no-action letters
+,
+T1.2
+releases
+,
+T1.2
+Secondary authorities
+administrative reporters
+,
+14.3
+books, reports, and other nonperiodic materials
+,
+15.1
+citation order
+,
+1.4
+,
+B1.2
+congressional materials
+,
+13.1
+law journals and reviews
+,
+16.7
+legislative histories
+,
+13.6
+letters, speeches, interviews
+,
+17.2
+magazines
+,
+T13
+newsletters
+,
+16.7
+newspapers
+,
+16.6
+order within signal
+,
+1.4
+,
+B1.2
+periodicals
+,
+16.7
+periodicals, English-language
+,
+T13
+periodicals, foreign-language
+,
+20.6
+services
+,
+T15
+statutes cited to
+,
+12
+Treasury regulations
+,
+T1.2
+unpublished works
+,
+17.2
+Section number
+generally
+,
+3.3
+,
+6.2
+,
+T16
+services
+,
+19.1
+Sections
+A.B.A. section reports
+,
+16.7
+A.L.I. proceedings
+,
+16.7
+administrative compilations
+,
+14.2
+amending act
+,
+3.3
+books, reports, and other nonperiodic materials
+,
+3.3
+,
+B15.1
+citation to
+,
+12.4
+,
+B12.1
+Code of Federal Regulations
+,
+14.2
+codes, consecutive
+,
+3.3
+codes, statutory
+,
+12.3
+,
+B12.1
+generally
+,
+3.3
+,
+6.2
+institutes, publications by
+,
+16.7
+international agreements
+,
+21.4
+model codes
+,
+12.9
+newspapers
+,
+16.6
+ordinances, municipal
+,
+12.9
+proceedings
+,
+16.7
+restatements
+,
+12.9
+scattered
+,
+3.3
+sentencing guidelines
+,
+12.9
+services
+,
+19.1
+session laws
+,
+12.4
+,
+B12.1
+standards
+,
+12.9
+statutes
+,
+12.3
+treaties
+,
+21.4
+“Section(s),”
+3.3
+,
+6.2
+,
+T16
+abbreviation of
+,
+3.3
+,
+6.2
+,
+T16
+scattered
+,
+3.3
+sentencing guidelines
+,
+12.9
+services
+,
+19.1
+session laws
+,
+12.4
+standards
+,
+12.9
+statutes
+,
+12.3
+treaties
+,
+21.4
+Securities Exchange Act of 1934
+,
+13.6
+Security Council official records, U.N.
+,
+21.7
+“
+See also
+,”
+as signal
+,
+1.2
+,
+B1.2
+“
+See generally
+,”
+as signal
+,
+1.2
+,
+B1.2
+“
+See
+,”
+as signal
+,
+1.2
+,
+B1.2
+“
+See, e.g.
+,”
+as signal
+,
+1.2
+,
+B1.2
+Senate materials
+(see
+Congressional materials
+)
+“Senator,”
+abbreviation of
+,
+T9
+,
+T11
+Sentencing guidelines
+,
+12.9
+Separate decisions of other issues, in case history
+,
+10.7
+Separate opinions
+indication of
+,
+10.6
+slip opinions
+,
+10.8
+Serial numbers
+books, reports, and other nonperiodic materials
+,
+15.7
+European Union materials
+,
+21.9
+executive orders
+,
+T1.2
+intergovernmental organizations’ materials
+,
+21.13
+,
+21.14
+International Court of Justice cases
+,
+21.5
+leaflets
+,
+15.7
+League of Nations documents
+,
+21.8
+monographs
+,
+15.7
+proclamations
+,
+T1.2
+publications in series
+,
+15.7
+reorganization plans
+,
+T1.2
+U.N. documents
+,
+21.7
+“Series”
+and
+“Serial(s),”
+abbreviation of
+,
+T16
+Series, books, reports, and other nonperiodic materials in
+,
+15.7
+Series, renumbered
+,
+10.3
+,
+T13
+Services and topical reporters
+,
+B19
+abbreviations
+,
+T15
+abbreviations of publishers
+,
+T15
+administrative rules and announcements
+,
+14.2
+basic citation form
+,
+19.1
+cases
+,
+10.1
+,
+19.1
+citation of cases
+,
+10.3
+Common Market materials
+,
+21.5
+,
+T3.3
+components of citation
+,
+19.1
+dates
+,
+19.1
+dates of materials in
+,
+19.1
+European Community materials
+,
+21.5
+,
+T3.3
+generally
+,
+19.1
+looseleaf, citations of
+,
+19.1
+name
+,
+19.1
+pages
+,
+19.1
+paragraphs
+,
+19.1
+parallel citations, for administrative cases
+,
+14.5
+parenthetical indications of later bound form
+,
+19.1
+publishers
+,
+19.1
+,
+T15
+sections
+,
+19.1
+short citation forms
+,
+19.2
+statutes
+,
+12.6
+subdivisions
+,
+19.1
+title of service
+,
+T15
+transfer binders
+,
+19.1
+typeface
+,
+19.1
+U.S. Law Week
+,
+T15
+volumes and editions
+,
+19.1
+years
+,
+19.1
+Session laws
+(see also
+Codes
+,
+Statutes
+)
+abbreviations
+,
+12.4
+“Act of,”
+12.3
+,
+12.4
+amendments cited to
+,
+12.4
+chapter numbers
+,
+12.4
+,
+T1.1
+citation, basic forms
+,
+12.1
+cited by page
+,
+12.4
+codification, future
+,
+12.4
+dates
+,
+12.4
+effective date of statutes
+,
+12.4
+enactment, year or date
+,
+12.4
+federal
+,
+12.4
+foreign countries
+,
+20.5
+former version of statute
+,
+12.2
+historical fact, statutes cited as
+,
+12.2
+jurisdiction, abbreviated name of
+,
+12.4
+municipal ordinances
+,
+12.9
+name
+,
+12.4
+official and privately published
+,
+12.1
+omission of words in title
+,
+12.4
+ordinances, uncodified
+,
+12.9
+pages, when cited to
+,
+12.4
+parallel citation of
+,
+12.4
+,
+13.2
+pinpoint citations
+,
+12.4
+printed in roman type
+,
+12.4
+public law number
+,
+12.4
+recent statutes
+,
+12.7
+scattered sections of code
+,
+12.2
+sections and subsections
+,
+3.3
+,
+12.4
+short title of statute
+,
+12.3
+signature by executive, year of
+,
+12.6
+statute cited as historical fact
+,
+12.2
+statute not in current code but in force
+,
+12.2
+statute not in force
+,
+12.2
+statute, name of
+,
+12.4
+Statutes at Large
+,
+12.4
+,
+T1.1
+,
+B12.1
+statutes, when cited to
+,
+12.2
+subsections and sections
+,
+3.3
+,
+12.4
+typeface
+,
+12.4
+U.S. Code Congressional and Administrative News,
+cited to
+,
+12.4
+,
+12.6
+volume
+,
+12.4
+year as volume number
+,
+12.4
+Shakespeare
+,
+15.8
+Short citation forms
+,
+23.12
+administrative materials
+,
+14.6
+,
+B12.2
+audio recordings
+,
+18.12
+books, reports, and other nonperiodic materials
+,
+15.10
+,
+B15.2
+broadcasts
+,
+18.12
+cases
+,
+10.9
+,
+22.3
+,
+B10.2
+CD-ROM
+,
+18.12
+constitutions
+,
+11
+,
+22.3
+court documents and legal memoranda
+,
+B17.2
+electronic media
+,
+18.12
+films
+,
+18.12
+foreign materials
+,
+20.7
+forthcoming sources
+,
+17.6
+generally
+,
+3.5
+,
+4
+international materials
+,
+21.17
+Internet sources
+,
+18.12
+legislative materials
+,
+13.8
+,
+B12.2
+nonprint resources
+,
+18.12
+periodicals
+,
+16.9
+,
+B16.2
+regulations
+,
+14.6
+,
+B12.2
+repeating citations
+,
+3.5
+,
+4.2
+services
+,
+19.2
+statutes
+,
+12.10
+,
+22.3
+,
+B12.2
+treaties
+,
+21.17
+,
+22.3
+unpublished sources
+,
+17.6
+,
+23.12
+works in collection
+,
+15.10
+,
+23.12
+Shorter works in collection
+citation form
+,
+15.5
+editor
+,
+15.5
+“
+in
+,”
+15.5
+parallel citation
+,
+1.6
+“
+supra
+”
+short form
+,
+4.2
+“[Sic],”
+use of
+,
+5.2
+Signals
+analogous support
+,
+1.2
+authority from different jurisdiction
+,
+1.2
+authority stating proposition
+,
+1.2
+background material
+,
+1.2
+comparison
+,
+1.2
+contradiction
+,
+1.2
+direct contradiction
+,
+1.2
+direct support
+,
+1.2
+generally
+,
+1.2
+identification
+,
+1.2
+order of authorities within signal
+,
+1.4
+order of citation
+,
+1.2
+,
+1.3
+sampling of authorities
+,
+1.2
+source of quotation
+,
+1.2
+string citations
+,
+1.1
+,
+1.3
+support
+,
+1.2
+table of signals
+,
+1.2
+typeface used in court documents and legal memoranda
+,
+B2
+typeface used in law review citations
+,
+2.1
+Slave cases
+,
+10.7
+Slip opinions
+,
+10.8
+,
+10.9
+,
+14.3
+Small Business Administration
+,
+T1.2
+Social media
+,
+18.1
+Social Security Administration
+,
+T1.2
+Songs
+,
+18.8
+Sound recordings
+,
+18.8
+South Africa
+sources of national law
+,
+T2.38
+South Carolina
+citation rules and style guides
+,
+BT2.2
+sources of law
+,
+T1.3
+South Dakota
+citation rules and style guides
+,
+BT2.2
+sources of law
+,
+T1.3
+South Korea
+sources of national law
+,
+T2.39
+Spacing of abbreviations and initials
+,
+6.1
+,
+B6
+Spain
+sources of national law
+,
+T2.40
+Special issues in law journals and reviews
+,
+16.4
+Special pagination
+,
+15.8
+Special projects in periodicals
+,
+16.7
+Special reports of government agencies
+,
+14.2
+Speeches
+,
+17.2
+Split decision
+indication of
+,
+10.7
+Sri Lanka
+sources of national law
+,
+T2.41
+SSRN
+,
+18.2
+Standards
+,
+12.9
+State administrative agencies
+generally
+,
+T1.3
+reports
+,
+14.4
+State cases
+court of decision, abbreviations
+,
+T1.3
+court of decision, indication of
+,
+10.4
+department or division of court
+,
+10.4
+official and unofficial reporters
+,
+10.3
+parallel citations
+,
+T1.3
+reporters
+(see name of individual state)
+State courts
+citation to cases of
+,
+10.4
+generally
+,
+T1.3
+rules of court
+,
+12.9
+State Department publications
+,
+21.4
+,
+T1.2
+“State of,”
+omitted in case names
+,
+10.2
+States
+(see also name of individual jurisdiction)
+abbreviated in case names
+,
+10.2
+abbreviation of
+,
+T10.1
+omitted in case names
+,
+10.2
+reporters
+,
+T1.3
+session laws
+,
+T1.3
+statutes
+,
+T1.3
+statutory codes
+,
+T1.3
+Statutes
+(see also
+Codes
+,
+Session laws
+)
+administrative rules and regulations
+,
+14.2
+,
+14.6
+amended
+,
+12.7
+amended, uniform acts
+,
+12.9
+amendments
+,
+12.7
+appendices to codes, appearing in
+,
+12.3
+basic forms of citation
+,
+12.1
+bills and resolutions
+,
+13.1
+,
+13.2
+case construing statute, cited with
+,
+1.6
+citation analyzed
+,
+12.1
+citation order
+,
+1.4
+cited by page
+,
+12.4
+city ordinances
+,
+12.9
+code appendices, appearing in
+,
+12.3
+commentary on, cited with
+,
+1.6
+compilations
+,
+12.3
+components of citation
+,
+12.1
+,
+13.1
+concurrent resolutions
+,
+13.1
+,
+13.2
+county ordinances
+,
+12.9
+current code
+,
+12.3
+date, Internal Revenue Code
+,
+12.9
+dates
+,
+12.3
+dates of amendment
+,
+12.7
+effective date
+,
+12.3
+electronic databases and online sources
+,
+12.5
+ethics, rules of
+,
+12.9
+explanatory parenthetical phrases
+,
+12.7
+,
+12.8
+federal and state
+,
+12.3
+foreign jurisdictions
+,
+21.3
+future codification
+,
+12.4
+generally
+,
+12
+historical fact, cited as
+,
+12.2
+history of, as amended
+,
+12.7
+Internal Revenue Code
+,
+12.9
+,
+B12.1
+Internet sources
+,
+18.2
+,
+18.4
+invalidated
+,
+12.7
+joint resolutions
+,
+13.1
+,
+13.2
+legislative history
+,
+13
+,
+13.1
+,
+13.2
+,
+13.6
+legislative materials
+,
+13.1
+,
+13.2
+materially different from code
+,
+12.2
+miscellaneous citation forms
+,
+12.9
+multiple sections and subsections
+,
+3.3
+municipal ordinances
+,
+12.9
+name of, in session laws
+,
+12.4
+names
+,
+12.3
+newspapers, cited to
+,
+16.6
+no longer in force
+,
+12.2
+not in current code
+,
+12.7
+online, authenticated or official
+,
+18.2
+order within signal
+,
+1.4
+ordinances, municipal and county
+,
+12.9
+original enactment, indication of
+,
+12.7
+pages, when cited to
+,
+12.4
+parenthetical indications
+,
+12.7
+,
+12.8
+parenthetical indications of amendment
+,
+12.7
+,
+12.8
+periodicals, cited to
+,
+12.1
+prior history
+,
+12.7
+private editor or compiler
+,
+12.3
+private laws
+,
+12.1
+privately published, Internal Revenue Code
+,
+12.9
+publication of
+,
+12.1
+publisher
+,
+12.3
+recent
+,
+12.6
+related authority
+,
+1.6
+repealed
+,
+12.7
+reprinted in appendix of code
+,
+12.3
+resolutions
+,
+13.1
+,
+13.2
+scattered sections of code
+,
+3.3
+secondary sources
+,
+12.6
+sections, citation to
+,
+3.3
+services and topical reporters
+,
+12.6
+short citation forms
+,
+12.10
+source to cite
+,
+12.3
+special citation forms
+,
+12.9
+state
+,
+T1.3
+state, uniform acts
+,
+12.9
+subsequent history
+,
+12.7
+substance, parenthetical indication of
+,
+12.7
+,
+12.8
+superseded
+,
+12.7
+supplements
+,
+12.3
+Treasury regulations
+,
+T1.2
+uncodified
+,
+12.3
+,
+12.9
+uniform acts
+,
+12.9
+United States Code Annotated
+(
+U.S.C.A.
+)
+,
+12.3
+,
+T1.1
+United States Code Service
+(
+U.S.C.S.
+)
+,
+12.3
+,
+T1.1
+United States Code
+(
+U.S.C.
+)
+,
+12.3
+,
+T1.1
+withdrawn, uniform acts
+,
+12.9
+Statutes at Large
+(see also
+Session laws
+)
+,
+12.4
+,
+13.2
+,
+T1.1
+,
+T4.1
+Statutes of Canada
+,
+T2.6
+String citations
+,
+1.1
+Structure of the
+Bluebook
+,
+Student work, in periodicals
+,
+16.7
+Style
+abbreviations
+,
+T6
+,
+T7
+,
+T8
+,
+T9
+,
+T10
+,
+T10.3
+,
+T13
+,
+T14
+,
+T16
+capitalization
+,
+8
+Chicago Manual of Style
+,
+8
+quotations
+,
+5.1
+titles of officials
+,
+9
+,
+T11
+typeface
+,
+2
+,
+2.1
+,
+2.2
+U.S. Government Publishing Office Style Manual
+,
+8
+“
+Sub nom.
+,”
+in case history
+,
+10.7
+Subdivisions in cited material
+,
+B3
+A.B.A. section reports
+,
+16.7
+A.L.I. proceedings
+,
+16.7
+abbreviations
+,
+T16
+appended material
+,
+3.4
+“at,”
+used to indicate page citations
+,
+3.2
+Code of Federal Regulations
+,
+14.2
+codes, statutory
+,
+12.3
+constitutions
+,
+11
+cross-references, internal
+,
+3.5
+endnotes
+,
+3.2
+English statutes
+,
+T2.46
+flush language
+,
+3.3
+footnotes
+,
+3.2
+generally
+,
+3.1
+graphical materials
+,
+3.2
+“
+in
+,”
+used to indicate location in an entire work
+,
+1.6
+,
+15.5
+institutes, publications by
+,
+16.7
+international agreements
+,
+21.4
+model codes
+,
+12.9
+multipart articles
+,
+16.7
+multiple pages
+,
+3.2
+multiple paragraphs
+,
+3.3
+multiple sections
+,
+3.3
+newspapers
+,
+16.6
+ordinances, municipal
+,
+12.9
+pages or sections, in books
+,
+3.2
+,
+3.3
+pages or sections, in codes
+,
+12.3
+pages or sections, in session laws
+,
+12.4
+pages, generally
+,
+3.2
+paragraphs
+,
+3.3
+parts
+,
+3.1
+“
+passim
+,”
+use of
+,
+3.2
+proceedings
+,
+16.7
+restatements
+,
+12.9
+sections and subsections
+,
+3.3
+separately paginated
+,
+3.2
+services
+,
+19.1
+session laws
+,
+3.3
+,
+12.4
+standards
+,
+12.9
+statutes
+,
+3.3
+,
+12.4
+supplements
+,
+3.1
+treaties
+,
+21.4
+U.N. materials
+,
+21.7
+volumes
+,
+3.1
+Subject-matter codes
+,
+12.3
+Subsections
+,
+B3
+multiple, in statutes
+,
+3.3
+session laws
+,
+12.4
+Subsequent citations, short forms
+,
+3.5
+,
+4.1
+,
+4.2
+Subsequent history
+(see
+History of cases
+,
+History of statutes
+)
+Substitutions in quotations
+,
+5.2
+Subtitles of books
+,
+15.3
+Successive citations, short forms
+,
+3.5
+,
+4.1
+,
+4.2
+“
+Superseded by statute
+,”
+in case history
+,
+10.7
+Supplementing citations
+introductory signals to
+,
+1.2
+Supplements
+books, reports, and other nonperiodic materials
+,
+3.1
+codes
+,
+12.3
+Internal Revenue Code
+,
+12.9
+separately paginated
+,
+3.1
+statutory
+,
+12.3
+Supporting citation
+introductory signals to
+,
+1.2
+“
+Supra
+”
+,
+B4
+groups of authorities in work
+,
+3.5
+,
+4.2
+order of authorities
+,
+1.4
+previously cited authority
+,
+15.10
+,
+B15.2
+,
+B16.2
+textual material in work
+,
+3.5
+Supreme Court Foreword
+,
+16.7
+Supreme Court Justice sitting as Circuit Justice
+,
+10.4
+Supreme Court note
+,
+16.7
+Supreme Court Reporter
+,
+10.3
+,
+10.4
+,
+T1.1
+,
+B10.1
+Supreme Court Review
+,
+16.7
+Supreme Court, U.S.
+(see
+United States Supreme Court
+)
+,
+23.7
+Surface Transportation Board
+,
+T1.2
+Surnames, composed of more than one word
+,
+10.2
+Surveys, in periodicals
+,
+16.7
+Sweden
+sources of national law
+,
+T2.42
+Switzerland
+Cantons
+,
+T2.43
+sources of national law
+,
+T2.43
+Symbols
+,
+6.2
+Symposia, in periodicals
+,
+16.7

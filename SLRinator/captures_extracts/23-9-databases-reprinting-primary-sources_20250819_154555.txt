@@ -1,0 +1,32 @@
+TITLE: 23.9 Databases Reprinting Primary Sources (p.254)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-9-databases-reprinting-primary-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.9
+Databases Reprinting Primary Sources
+(p.254)
+When originally unpublished materials covered by
+rule 17
+that were published in hard-copy compilations are subsequently reprinted in an online database, you may cite to that online database. The citation should include in small capitals both the names of the database’s owner abbreviated according to
+rule 18.2.2(b)
+and the database:
+Thomas Jefferson, Notes on British and American Alienage (c. 1783),
+reprinted by
+Nat’l Archives: Founders Online
+,
+https://founders.archives.gov/documents/Jefferson/01-06-02-0346
+[
+https://perma.cc/9B8A-S35T
+].
+“Reprinting” does not refer to primary source databases that display original images of the documents, which should remain cited according to the standard archival citation format.

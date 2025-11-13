@@ -1,0 +1,194 @@
+TITLE: T2.11 Czechia
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-11-czech-republic
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.11
+Czechia
+(Civil Law)
+Cases
+Citation format:
+<court> <date of adoption of decision in day.month.year format>
+(
+<court abbreviation, if available>
+) [
+<English translation>
+],
+<docket identification and number>
+publ. in:
+<reporter name, if the decision is reported>
+,
+<subdivisions, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Rozsudek Krajského soudu v Plzni ze dne 14.11.2006 (KS) [Decision of the Circuit Court in Plzeň of Nov. 14, 2006], sp.zn. 31 Odo 50/2004 (Czech.).
+Rozsudek Nejvyššího soudu ze dne 30.11.1999 (NS) [Decision of the Supreme Court of Nov. 30, 1999], sp.zn. 20 Cdo 1601/1998 (Czech.).
+Rozsudek Nejvyššího správního soudu ze dne 27.9.2007 (NSS) [Decision of the Supreme Administrative Court of Sep. 27, 2007], čj. 4 Azs 31/2007-58 (Czech.).
+Nález Ústavního soudu ze dne 29.05.1997 (ÚS) [Decision of the Constitutional Court of May 29, 1997], sp.zn. III. ÚS 31/97 publ. in: Sbírka nálezů a usnesení ÚS, sv. 8, č. 66 (Czech.), abbreviated citation: III US 31/97 Snu.
+When citing to a reporter, cite to
+Sbírka rozhodnutí Nejvyššího správního soudu
+(Collection of Court Decisions of the Supreme Administrative Court), in which selected decisions of Nejvyšší správní soud České republiky (
+NSS
+) and lower courts are reported. Note, however, that apart from decisions of the Constitutional Court (
+ÚS
+), court decisions are not systematically reported by any published court reporter. All decisions of the
+NS
+(Supreme Court),
+NSS
+(Supreme Administrative Court), and
+ÚS
+(Constitutional Court) are systematically published in Czech on the courts’ respective websites.
+Ordinary jurisdiction
+Nejvyšší soud České republiky
+(
+NS
+) (Supreme Court),
+Vrchní soud
+(
+VS
+) (high courts),
+Krajský soud
+(
+KS
+) (circuit courts),
+Městský soud
+(
+MS
+) (Circuit Court in the City of Prague and District Court in the City of Brno),
+Okresní soud
+(district courts), and
+Obvodní soud
+(District Court in the City of Prague): Cite using the docket identification “
+sp.zn.
+”
+Administrative jurisdiction
+Krajský soud (KS) (Circuit Court),
+Městský soud v Praze
+(MS) (Circuit Court in the City of Prague),
+Nejvyšší správní soud České republiky
+(NSS) (Supreme Administrative Court): Cite using the docket identification “čj.”
+Constitutional jurisdiction
+Ústavní soud České republiky
+(
+ÚS
+) (Constitutional Court): Cite by identifying the court, the date on which the decision was adopted, the docket identification “
+sp.zn.
+,” and, optionally, the court reporter
+Sbírka nálezů a usnesení Ústavního soudu
+(Collection of Constitutional Court Rulings and Opinions). Cite as “
+USn
+” for
+nalez
+(judgment) and “
+Usu
+” for
+usnesen
+í
+(opinion).
+Constitution
+Czech law reflects the following hierarchical order: The Constitution, European Union legislation, constitutional laws, codes, ordinary laws, and other legal acts. There are several laws that are considered to be of constitutional importance in Czech law. Cite according to the format for statutes, appending the description of the law if desired:
+Ústavní zákon č. 1/1993 Sb., Ústava České Republiky [Constitution of Czechia].
+Statutes and regulations
+Cite a
+zákon
+(statute),
+ústavní zákon
+(constitutional statute), or
+vyhláška
+(regulation) to
+Sbírka zákonů
+(
+Sb.
+) (Collection of Laws (
+Coll.
+)).
+Citation format:
+<title>
+[
+<English translation>
+]
+,
+<type of act> <number of publication> <abbreviation for publication>
+(
+<country abbreviation if not evident from context>
+).
+Vodný zákon [Water Act], Zákon č. 364/2004 Sb. (Czech.).
+Codes comprise a specific category of laws that provide comprehensive regulatory coverage of a legal field. Major codes include:
+občanský zákoník
+(Civil Code),
+obchodní zákoník
+(Commercial Code),
+občanský soudní řád
+(Civil Procedure Code),
+trestní zákon
+(Criminal Code),
+trestní řád
+(Criminal Procedure Code),
+správní řád
+(Administrative Procedure Code),
+zákoník práce
+(Labor Code), and
+daňový řád
+(Tax Code). Codes are cited by their title and the law that promulgated them.
+Trestni zákoník, Zákon č. 40/2009 Sb. (Czech.).
+There are two types of administrative rules:
+nařízení
+(decree issued by the
+vláda České republiky
+(cabinet)) and
+vyhláška
+(regulation issued either by a
+ministerstvo
+(ministry) or another
+ústrední orgán státní správy
+(central administrative agency)).
+Nařízení č. 303/1995 Sb. (Czech.).
+Vyhl. č. 313/2012 Sb. (Czech.).
+Treaties
+Cite international treaties promulgated through 1999 to
+Sbírka zákonů
+(
+Sb.
+) (Collection of Laws (
+Coll.
+)). Cite international treaties promulgated since 2000 to
+Sbírka mezinárodních smluv
+(
+Sb.m.s.
+) (Collection of International Treaties) using the same format as for laws.
+Internet sources
+http://www.nsoud.cz
+(Supreme Court of Czechia)
+http://www.nssoud.cz
+(Supreme Administrative Court of Czechia)
+http://www.usoud.cz/en/
+(Constitutional Court of Czechia)
+http://www.psp.cz/sqw/hp.sqw
+(Poslanecká sněmovna [Chamber of Deputies])
+http://www.senat.cz/
+(Senát [Senate])
+http://www.psp.cz/sqw/hp.sqw?k=183
+(documents of the Chamber of Deputies)
+http://www.sbirka.cz/
+(Sbírka předpisů, official collection of government regulations)
+http://www.mvcr.cz/clanek/sbirka-zakonu.aspx
+(Ministry of the Interior: provides access to archived issues of the Collection of Laws (Coll.) from 1945, but not updated frequently)
+http://www.sagit.cz/pages/zakony.asp
+(free access to legislation and treaties published in the Collection of Laws (Coll.) from 1993 to date)
+http://www.lexdata.cz
+(searchable database of case law and legislation available upon subscription; maintained by Beck publishing)
+http://www.lexgalaxy.cz
+(searchable database of case law and legislation available upon subscription)
+http://www.justice.cz
+(internet portal for the Czech national judiciary)

@@ -1,0 +1,654 @@
+TITLE: T2.2 Australia
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-2-australia
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.2
+Australia
+(Common Law)
+Cases
+Reported decisions
+Citation format:
+<case name, in italics>
+(
+<year of publication, when different from volume number>
+)
+<volume number> <reporter abbreviation> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<case name, in italics>
+[
+<year of volume, if it constitutes volume number>
+]
+<part number, if applicable> <reporter abbreviation> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Only the name of the first plaintiff and first defendant should be cited. Where there are multiple proceedings between the same parties, the number of the decision, if included in the case name itself, should be indicated in square brackets. For example:
+Mabo v Queensland [No. 2]
+(1992) 175 CLR 1, 5 (Austl.).
+Note that all case names are in italics, and the abbreviation “
+v
+” for “
+versus
+” is not followed by a period. Case names may be abbreviated according to
+tables T6
+and
+T10
+but should also not include periods. For example:
+GA v Dep’t of Educ & Training
+[2004] NSWADT 2 (Austl.).
+Where the Commonwealth of Australia is a party, retain only “
+Commonwealth
+” as the party name. Where a state or territory is a party, omit “State of” or “Territory of” and retain only the state or territory name as the party name (for example, “
+Queensland
+” rather than “State of Queensland”). Where an Attorney-General is a party, cite as “
+A-G
+.” Where the Department of Public Prosecutions is a party, cite as “
+DPP
+.” Both “
+A-G
+” and “
+DPP
+” should be followed by the relevant jurisdiction short abbreviation in parentheses. For example:
+Silbert v DPP (WA)
+[2004] HCA 9 (Austl.).
+Jurisdiction short abbreviations are as follows:
+Commonwealth
+(
+Cth
+),
+New South Wales
+(
+NSW
+),
+Victoria
+(
+Vic
+),
+South Australia
+(
+SA
+),
+Western Australia
+(
+WA
+),
+Tasmania
+(
+Tas
+),
+Queensland
+(
+Qld
+),
+Northern Territory
+(
+NT
+), and
+Australian Capital Territory
+(
+ACT
+). The Crown is abbreviated as “
+R
+” except as a respondent, when it is cited as either “
+The Queen
+” or “
+The King
+.” For example:
+Dickson v The Queen
+(2010) 241 CLR 491 (Austl.).
+In some reporters, the year acts as the volume number, so there is no separate volume number and parentheses should not be placed around the year. When the year is the volume number, the year is cited in square brackets. The volume year should be cited even when it differs from the year of the decision. When more than one part is issued per volume, the part number is cited after the volume number. For example:
+Perini Corp v Commonwealth
+[1969] 2 NSWLR 530 (Austl.).
+In some instances, a reporter uses paragraph references or other indicia rather than page numbers. In such instances, cite to the subdivision reference used by the reporter. For example:
+Hart v Herron
+[1984] Aust Torts Report ¶¶ 80-201 (Austl.).
+The best available report of a case should be cited. When available, an official reporter should be cited. A generalist reporter is preferred to a subject-specific reporter. When including more than one citation, cite the official reporter first. The correct abbreviation for a reporter will be included in the front of the reporters. Official reporters include the
+Commonwealth Law Reports
+(
+CLR
+), the
+Federal Court Reports
+(
+FCR
+), the
+Victorian Reports
+(
+VR
+), and the
+New South Wales Law Reports
+(
+NSWLR
+).
+If relevant, the court may be cited in parentheses subsequent to a citation. For example:
+Aldrick v EM Invs (Qld) Pty Ltd
+[2000] 2 Qd R 346 (Court of Appeal) (Austl.).
+Courts
+High Court of Australia
+(the final court of appeal with both original and appellate jurisdiction since 1901): Cite to
+CLR
+, if therein. An avenue of appeal to the
+Privy Council
+(
+PC
+) was previously permitted, but limited in 1968 and abolished in 1975. All appeals from state and territory courts to the PC were abolished in the 1980s. For Privy Council decisions, cite to a reporter listed under
+table T2.43 United Kingdom
+, if therein; otherwise, cite to an official Australian reporter.
+Federal Court of Australia
+(established in 1976, sits in each state and in the Australian Capital Territory and the Northern Territory, with original jurisdiction and appellate jurisdiction from single judges of the Federal Court, decisions (other than family law decisions) of the Federal Circuit Court, and some decisions of State and Territory Supreme Courts): Cite to
+FCR
+, if therein.
+Family Court of Australia
+(established in 1975, with original and appellate jurisdiction regarding family and child support disputes (other than in Western Australia); hears mainly complex cases and appeals): Cite to
+Fam LR
+, if therein.
+Federal Circuit Court of Australia
+(formerly the
+Federal Magistrates Court
+, which was established in 2000) (established in 2013, sits in each state capital and other major regional centers and is the only federal court that regularly conducts regional circuits; provides an accessible alternative to litigation in the Federal Court of Australia and Family Court of Australia, with which it broadly shares jurisdiction): Cite to
+FCR
+, if therein.
+There are several authorized federal law reports in Australia, and a number of additional subject-specific reports that may also be used. Some law school websites list various law reports and their abbreviations, including:
+The University of Melbourne,
+https://law.unimelb.edu.au/law-library/research-tools/authorised-cases
+.
+University of Adelaide,
+https://libguides.adelaide.edu.au/Law/Caselaw
+.
+University of Western Australia,
+https://guides.library.uwa.edu.au/case_law
+.
+The following are major Australian federal law reports (* indicates an authorized reporter):
+Commonwealth Law Reports*
+1903–date
+CLR
+Federal Court Reports*
+1984–date
+FCR
+Family Law Reports*
+1976–date
+Fam LR
+Australian Argus Law Reports (previously the Argus Law Reports (Vic) (1895–1959) (ALR) and continues as Australian Law Reports (ALR))
+1960–1973
+AALR
+Australian Law Reports
+1973–date
+ALR
+Federal Law Reports
+1956–date
+FLR
+Australian Law Journal Reports
+1927–date
+ALJR
+Administrative Law Decisions
+1976–date
+ALD
+Australian Criminal Reports
+1979–date
+A Crim R
+Commonwealth Arbitration Reports
+1905–1994
+CAR
+Commonwealth Public Service Arbitration Reports
+1921–1984
+CPSAR
+Australian Company Law Reports
+1974–1989
+ACLR
+Australian Corporations and Securities Reports
+1989–date
+ACSR
+Australian Bankruptcy Cases
+1928–1964
+ABC
+Intellectual Property Reports
+1982–date
+IPR
+Industrial Reports
+1981–date
+IR
+Australasian Tax Reports
+1970–1990
+ATR
+Australian Tax Reports
+1990–date
+ATR
+Australian and New Zealand Income Tax Reports
+1940–1969
+AITR
+Australian Tax Cases
+1969–date
+ATC
+Commonwealth Taxation Board of Review Decisions
+1950–1986
+CTBR (NS)
+Decisions of the Income Tax Board of Review, Commonwealth
+1925–1937
+CTBR
+Decisions of the Board of Review, Commonwealth Taxation Board of Review Decisions
+1937–1950
+CTBR
+Unreported decisions
+When the court has adopted an unreported case, cite in medium neutral format as:
+<
+case name, in italics
+>
+[
+<
+year
+>
+]
+<
+unique court identifier
+> <
+case number or reference assigned by the court; if none assigned, then court name
+>
+(
+<
+date of judgment in day month year format
+>
+)
+<
+page(s) of specific material, if desired
+>
+(
+<
+country abbreviation if not evident from context
+>
+).
+SZQM v Minister for Immigration and Citizenship
+[2013] FCA 5 (15 January 2013) (Austl.).
+Otherwise, cite unreported decisions as:
+<case name, in italics>
+(Unreported,
+<court name>
+,
+<name of judge>
+,
+<date of judgment in day month year format>
+)
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Browne v Dunne
+(Unreported, Supreme Court of Queensland, Bland J, 22 July 1999) 2 (Austl.).
+References to judicial officers
+Abbreviations are as follows:
+Chief Justice
+CJ
+Acting Chief Justice
+ACJ
+Justice(s)
+J, JJ
+Acting Justice
+AJ
+Judge
+Judge
+Justice(s) of Appeal
+JA, JJA
+Magistrate
+Magistrate
+Master
+Master
+President
+P
+Vice-President
+VP
+Constitution
+The enacting legislation for the Australian Constitution is the
+Commonwealth of Australia Act, 1900 (Imp), 63 & 64 Victoria, c. 12, § 9 (U.K.)
+. Citation may be made directly to the Australian Constitution. For example:
+Australian Constitution
+s 51.
+Constitutions of Australian states should be cited as ordinary statutes.
+Statutes and regulations
+Citation format for statutes:
+<short title of the act, in italics> <year of passage, in italics>
+(
+<jurisdiction short abbreviation>
+)
+<subdivision, if relevant>
+(
+<country abbreviation if not evident from context>
+).
+(Statutes of the Australian Capital Territory and the Northern Territory were referred to as ordinances prior to self-government.)
+The short title of an act is found within the text of the act. When an act does not have a short title, the long title should be used. For example:
+Trade Practices Act 1974
+(Cth) s 2 (Austl.).
+Subdivisions of acts and corresponding abbreviations include the following:
+chapter(s)
+ch, chs
+section(s)
+s, ss
+schedule(s)
+sch, schs
+part(s)
+pt, pts
+division(s)
+div, divs
+subdivision(s)
+sub-div, sub-divs
+paragraph(s)
+para, paras
+Where multiple abbreviations and numbers are needed, no comma should be used between them (e.g., pt III div 2).
+Acts cited are presumed to be as amended. Amending acts do not need to be cited unless the amending statute is being directly cited. Reference to the year should be to the year the act was originally passed, not the year of amendment.
+Citation format for delegated legislation (regulations, orders, etc.):
+<name of delegated legislation, in italics> <year of passage, in italics>
+(
+<jurisdiction short abbreviation>
+)
+<subdivision, if relevant>
+(
+<country abbreviation if not evident from context>
+).
+Family Law Regulations 1984
+(Cth) reg 20(3) (Austl.).
+Provisions within a regulation are simply referred to as regulations. Subdivisions with corresponding abbreviations include the following:
+regulation(s)
+reg, regs
+chapter(s)
+ch, chs
+order
+O
+rule(s)
+r, rr
+sub-regulation(s)
+sub-reg, sub-regs
+sub-rule(s)
+sub-r, sub-rr
+Citation format for bills:
+<bill name> <year of submission>
+(
+<jurisdiction short abbreviation>
+)
+<
+subdivision, if relevant
+>
+(
+<country abbreviation if not evident from context>
+).
+Note that the titles of bills are not italicized. Provisions within a bill are usually referred to as clauses (cl or cls) or schedules (sch or schs). Provisions within a table or schedule may be referred to as items.
+Migration Amendment Bill 2013 (Cth) sch 1 item 9 (Austl.).
+Copies of bills are available from the relevant parliament’s website. For example, Commonwealth bills are available at
+http://www.aph.gov.au/Parliamentary_Business/Bills_Legislation
+.
+Citation format for explanatory memoranda of bills:
+Explanatory Memorandum,
+<bill name> <year of submission>
+(
+<jurisdiction short abbreviation>
+)
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Explanatory Memorandum, Clean Energy Legislation (Carbon Tax Repeal) Bill 2013 (Cth) 2 (Austl.).
+Citation format for parliamentary debates (Hansard):
+<jurisdiction full name>
+,
+Parliamentary Debates
+,
+<legislative chamber>
+,
+<date of debate in day month year format>
+,
+<page(s) of specific material, if desired>
+(
+<full name of speaker and position if applicable>
+) (
+<country abbreviation if not evident from context>
+).
+Commonwealth,
+Parliamentary Debates,
+House of Representatives, 25 June 2008, 5823 (Robert McClelland, Attorney-General) (Austl.).
+Copies of parliamentary debates are available from the relevant parliament’s website. For example, copies of Commonwealth parliament debates are available at
+http://www.aph.gov.au/parliamentary_business/hansard
+.
+Treaties
+Citation format for treaties in the Australian Treaty Series:
+<treaty name, in italics>
+, signed
+<date of conclusion in day month year format>
+, [
+<year>
+] ATS
+<reference number>
+(
+<status and date, if applicable>
+)
+<article number>
+.
+Treaty on Judicial Assistance in Civil and Commercial Matters Between Australia and the Republic of Korea
+, signed 17 September 1999, [2000] ATS 5 (entered into force 16 January 2000) art 9.
+Citation Guide
+The most recent guide to legal citation in Australia is the 2018 fourth edition of the
+Australian Guide to Legal Citation
+, available at
+https://law.unimelb.edu.au/__data/assets/pdf_file/0005/3181325/AGLC4-with-Bookmarks-1.pdf
+.
+Internet sources
+There are several free internet sources for primary legal materials.
+ComLaw is managed by the Office of Parliamentary Counsel and is intended to provide low- or no-cost access to the law. ComLaw includes Commonwealth primary legislation (and ancillary documents) and the Federal Register of Legislative Instruments (FRLI) (established in January 2005 under the Legislative Instruments Act 2003). ComLaw also contains all Commonwealth Gazette Notices published since July 1, 2013; copies of General and Special Notices published between October 1, 2012 and June 30, 2013; and PDF versions of Gazettes published between July 1, 2002 and December 31, 2012. Gazettes are no longer printed.
+The PDF versions of all legislative instruments and many Acts on ComLaw are authoritative. Authoritative text is stamped with the document’s unique identifier on every page and relevant records are marked with one of two variations of a “tick” logo. This logo displays a map of Australia in blue overlaid with a red check mark. ComLaw is accessible at
+http://www.comlaw.gov.au
+.
+AustLII, the Australasian Legal Information Institute, is a joint facility of the University of Technology Sydney and the University of New South Wales. AustLII contains primary and secondary materials, including Commonwealth and state and territory legislation and case law. AustLII is not an authoritative source. It does not always contain the most up-to-date legislation, although it usually contains the most recent cases as well as oral argument transcripts from the High Court of Australia. AustLII is available at
+http://www.austlii.edu.au
+.
+All Australian states and territories publish their statutes on the internet, as indicated below. Not all databases are comprehensive.
+http://www.legislation.act.gov.au
+(Australian Capital Territory Legislation Register)
+https://guides.sl.nsw.gov.au/government_legislation_and_publications_nsw/bills_and_explanatory_notes
+(New South Wales Bills and Explanatory Notes)
+http://www.legislation.nsw.gov.au
+(New South Wales legislation)
+http://www.legislation.qld.gov.au/OQPChome.htm
+(Queensland legislation and bills)
+https://www.legislation.sa.gov.au/legislation/bills
+(South Australia bills)
+http://www.legislation.sa.gov.au/index.aspx
+(South Australia bills since 2005 and legislation)
+https://www.parliament.tas.gov.au/Bills/MainBill.html
+(Tasmania bills)
+https://www.legislation.tas.gov.au/
+(current Tasmania legislation)
+http://www.legislation.vic.gov.au
+(Victoria legislation and bills)
+https://www.legislation.wa.gov.au/
+(Western Australia legislation and bills)
+http://www.nt.gov.au/dcm/legislation/current.html
+(Northern Territory legislation)
+http://www.nt.gov.au/dcm/legislation/register.html
+(Northern Territory bills)
+http://www.norfolkisland.gov.nf
+(Norfolk Island legislation and bills)
+Some Australian courts also publish judgments on the internet (sometimes via AustLII). Databases may not be comprehensive. For example:
+http://www.jade.barnet.com.au/
+( Judgments and Decisions Enhanced database)
+http://www.austlii.edu.au/au/cases/cth/HCA
+(High Court of Australia)
+http://www.fedcourt.gov.au
+(Federal Court of Australia)
+http://www.supremecourt.justice.nsw.gov.au
+(Supreme Court of New South Wales)
+http://www.supremecourt.vic.gov.au
+(Supreme Court of Victoria)
+http://www.supremecourt.tas.gov.au
+(Supreme Court of Tasmania)
+http://www.supremecourt.wa.gov.au
+(Supreme Court of Western Australia)
+http://www.sclqld.org.au
+(Supreme Court of Queensland)
+http://www.supremecourt.nt.gov.au
+(Supreme Court of the Northern Territory)
+http://www.courts.act.gov.au/supreme/
+(Supreme Court of the Australian Capital Territory since 2002)
+Guides to online resources for Australian law are available at the following website:
+http://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/Browse_by_Topic/Auslaw
+(Federal Parliament’s Parliamentary Library)
+Other legal materials, including various secondary sources, are available from commercial publishers, including Thomson Reuters (includes Westlaw Australia), CCH Australia, and LexisNexis Australia.
+T2.2.1 –
+Australian States and Territories
+Cases
+Cite to a reporter below, in the following order of preference:
+Australian Capital Territory
+Australian Capital Territory Law Reports
+2008–date
+ACTLR
+Australian Capital Territory Reports
+1973–2008
+ACTR
+New South Wales
+New South Wales Law Reports
+1970–date
+NSWLR
+New South Wales Reports
+1960–1970
+NSWR
+State Reports, New South Wales
+1901–1970
+SR (NSW)
+New South Wales Law Reports
+1880–1900
+LR (NSW)
+New South Wales Supreme Court Reports, Equity
+1862–1876
+NSWSCR (Eq)
+New South Wales Supreme Court Reports, Law
+1862–1879
+NSWSCR (L)
+New South Wales Supreme Court Reports, New Series
+1825–1879
+NSWSCR NS
+Weekly Notes
+1884–1970
+WN (NSW)
+Industrial Arbitration Reports, New South Wales
+1902–1911
+1912–1926
+1927–date
+AR (NSW)
+New South Wales Industrial Gazette
+1912–date
+NSW Indus Gaz
+New South Wales Local Government Reports
+1911–1956
+LGR (NSW)
+Land Appeal Court Cases
+1890–1921
+LACC
+Land and Valuations Court Reports, New South Wales
+1922–1970
+NSW LVR
+New South Wales Workers’ Compensation Reports
+1926–1980
+WCR (NSW)
+Northern Territory
+Northern Territory Law Reports
+1991–date
+NTLR
+Northern Territory Reports
+1979–1991
+NTR
+Queensland
+Queensland Reports
+1958–date
+Qd R
+Queensland State Reports
+1902–1957
+SR (Qd)
+Queensland Law Journal Reports
+1881–1901
+QLJ
+Queensland Law Reports by Beor
+1876–1878
+QLR (Beor)
+Queensland Supreme Court Reports
+1859–1881
+QSCR
+Queensland Lawyer, Reports
+1973–date
+Qld Lawyer Rep
+Queensland Justice of the Peace and Local Authorities’ Journal, Reports
+1907–1972
+QJP Rep
+Queensland Land Court Reports
+1974–date
+QLCR
+Crown Lands Law Report, Queensland Land Court
+1859–1973
+CL (Q)
+South Australia
+South Australian State Reports
+1927–date
+SASR
+State Reports South Australia
+1921–1950
+SRSA
+South Australian Law Reports
+1865–1892
+1899–1921
+SALR
+South Australian Industrial Reports
+1916–date
+SAIR
+Tasmania
+Tasmanian Reports
+1979–date
+Tas R
+Tasmanian State Reports
+1941–1978
+Tas SR
+Tasmanian Law Reports
+1905–1940
+Tas LR
+Victoria
+Victorian Reports
+1957–date
+VR
+Victorian Law Reports
+1875–1956
+VLR
+Victorian Law Reports, Equity
+1875–1884
+VLR (E)
+Victorian Law Reports, Insolvency, Probate and Matrimonial Causes
+1875–1884
+VLR (I)
+Victorian Law Reports, Law
+1875–1884
+VLR (L)
+Victorian Law Reports, Mining
+1875–1884
+VLR (M)
+Australian Jurist Reports (Victoria)
+1870–1874
+A Jur Rep
+Western Australia
+Western Australian Reports
+1960–date
+WAR
+West Australian Law Reports
+1898–1958
+WALR
+State Reports, Western Australia
+1979–date
+SR (WA)

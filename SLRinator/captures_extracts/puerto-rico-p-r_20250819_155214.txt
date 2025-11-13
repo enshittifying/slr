@@ -1,0 +1,77 @@
+TITLE: Puerto Rico (P.R.) (p.327)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-4-other-united-states-jurisdictions
+  slug: puerto-rico-p-r
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Puerto Rico (P.R.)
+(p.327)
+http://www.ramajudicial.pr
+(in Spanish)
+Public domain citation format:
+Puerto Rico has adopted a public domain citation format for cases decided after December 31, 1997. The format is:
+Spanish:
+Guzman Rosario v. Departamento de Hacienda, 98 TSPR 148.
+English:
+Guzman Rosario v. Departamento de Hacienda, 98 PRSC 148.
+Supreme Court
+(
+P.R.
+): Cite to
+P.R.
+or
+P.R. Offic. Trans.
+, if therein; otherwise, cite to
+P.R. Dec.
+or
+P.R. Sent.
+, in that order of preference.
+Puerto Rico Reports
+1899–1978
+P.R.
+Official Translations of the Opinions of the Supreme Court of Puerto Rico
+1978–date
+P.R. Offic. Trans.
+Decisiones de Puerto Rico
+1899–date
+P.R. Dec.
+Sentencias del Tribunal Supremo de Puerto Rico
+1899–1902
+P.R. Sent.
+Circuit Court of Appeals
+(
+P.R. Cir.
+): Cite to
+T.C.A.
+Decisiones del Tribunal de Circuito de Apelaciones de Puerto Rico
+1995–date
+T.C.A.
+Statutory compilation
+Laws of Puerto Rico Annotated (LexisNexis)
+P.R. Laws Ann
+. tit. x, § x (
+<year>
+)
+Leyes de Puerto Rico Anotadas (LexisNexis)
+P.R. Leyes An.
+tit. x, § x (
+<year>
+)
+Session laws
+Laws of Puerto Rico
+<year>
+P.R. Laws
+<page no.>
+Leyes de Puerto Rico (LexisNexis)
+<year>
+P.R. Leyes
+<page no.>

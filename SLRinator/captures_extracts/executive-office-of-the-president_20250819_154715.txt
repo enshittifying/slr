@@ -1,0 +1,77 @@
+TITLE: Executive Office of the President (pp. 267–68)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: executive-office-of-the-president
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Executive Office of the President
+(pp. 267–68)
+Executive Orders, Presidential Proclamations, and Reorganization Plans
+:
+Cite by page number to
+3 C.F.R.
+as per
+rule 14.2
+except that, because not all executive orders are reprinted in successive years of the C.F.R., cite to the year of the first edition of the C.F.R.  where the executive order was reprinted,
+rather than that of the most recent edition of the C.F.R. Append a parallel
+citation to the U.S.C. if also therein.
+Exec. Order No. 11,609, 3 C.F.R. 586 (1971–1975),
+reprinted as amended in
+3 U.S.C. § 301 app. at 404–07 (2006).
+Cite to the
+Federal Register
+if the material is not in the C.F.R.
+Proclamation No. 5366, 50 Fed. Reg. 37635 (Sept. 14, 1985).
+A parallel citation to the
+Statutes at Large
+may also be given.
+Reorganization Plan No. 1 of 1978, 3 C.F.R. 321 (1979),
+reprinted in
+5 U.S.C. app. at 1366 (2006),
+and in
+92 Stat. 3781 (1978).
+Other Presidential Papers:
+Cite to the
+Public Papers of the Presidents
+(
+Pub. Papers
+), if therein. For material not recorded in the Public Papers, cite the
+Weekly Compilation of Presidential Documents
+(
+Weekly Comp. Pres. Doc.
+), published from 1965 to January 29, 2009, the
+Daily Compilation of Presidential Documents
+(
+Daily Comp. Pres. Doc.
+), published from January 29, 2009 to date, or the
+U.S. Code Congressional and Administrative News
+(
+U.S.C.C.A.N.
+) (
+rule 12.6
+).
+Memorandum on New Tools to Help Parents Balance Work and Family, 1
+Pub. Papers
+841 (May 24, 1999).
+Presidential Statement on Signing the Consolidated Appropriations Resolution 2003, 39
+Weekly Comp. Pres. Doc
+. 225 (Feb. 20, 2003).
+Remarks on the National Economy, 2009
+Daily Comp. Pres. Doc.
+2 (Feb. 4, 2009).
+Budgets
+:
+Cite governmental budgets as books (
+rule 15
+).
+Off. of Mgmt. & Budget, Exec. Off. of the President, Budget of the United States Government, Fiscal Year
+2003 (2002).

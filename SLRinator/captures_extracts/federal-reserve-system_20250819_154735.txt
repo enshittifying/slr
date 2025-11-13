@@ -1,0 +1,30 @@
+TITLE: Federal Reserve System (pp. 268–69)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: federal-reserve-system
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Federal Reserve System
+(pp. 268–69)
+Enforcement Actions
+:
+Cite written agreements resulting from enforcement actions as:
+Written Agreement Between
+<private bank name>
+and
+<Federal Reserve Bank name>
+, Dkt. No.
+<docket number>
+(
+<date>
+).
+Written Agreement Between Ridgedale State Bank and Federal Reserve Bank of Minneapolis, Dkt. No. 03-024-WA/RB-SM (July 29, 2003).

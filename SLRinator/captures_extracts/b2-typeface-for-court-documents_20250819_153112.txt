@@ -1,0 +1,87 @@
+TITLE: B2 Typeface for Court Documents (p.6)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  slug: b2-typeface-for-court-documents
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B2
+Typeface for Court Documents
+(p.6)
+Court documents and legal memoranda use two typefaces: ordinary type and
+italics
+(or
+underscoring
+).
+While the Bluepages use underscoring rather than italics, keep in mind that underscoring is the equivalent of italics. For citations appearing in non-academic legal documents, follow these general rules:
+Italicize (or underscore) the following information in a citation clause:
+Case names, including procedural phrases introducing case names;
+Titles of books and articles;
+Titles of some legislative materials;
+Introductory signals;
+Explanatory phrases introducing subsequent case history;
+Cross references, such as
+id.
+and
+supra
+; and
+Words and phrases introducing related authority, such as “
+quoted in
+.”
+Italicize (or underscore) the following information in the text of a legal document:
+Titles of publications, such as
+The New York Times
+;
+Words italicized in the original source of a quotation; and
+Any other word that would otherwise be italicized, such as an uncommon foreign word.
+Key differences between academic citations (the Whitepages) and non-academic citations (the Bluepages):
+Non-Academic Citations (Bluepages)
+Academic Citations (Whitepages)
+Typeface: Italics
+The following are
+italicized
+or
+underscored
+:
+Introductory signals
+Full and short case names
+Procedural and explanatory phrases in case citations
+"
+Id.
+" or "
+Id.
+"
+Titles of books, articles, and essays
+Titles of some legislative materials
+Punctuation that falls within italicized or underscored material
+Introductory phrases for related authority
+Internal cross-references
+The following are
+italicized
+:
+Introductory signals
+Short form case names
+Procedural and explanatory phrases in case citations
+"
+Id.
+"
+Titles of articles in periodicals
+Titles of congressional committee hearings
+Punctuation that falls within italicized material
+Introductory phrases for related authority
+Internal cross-references
+Typeface: Caps
+Small Capitals
+are not required (but may be used for stylistic purposes).
+The following are in
+Small Capitals
+:
+Authors and titles of books, including institutional authors
+Titles of periodicals

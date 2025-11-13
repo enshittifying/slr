@@ -1,0 +1,23 @@
+TITLE: 14.5 Commercial Electronic Databases (p.153)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 14-administrative-and-executive-materials
+  slug: 14-4-commercial-electronic-databases
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+14.5
+Commercial Electronic Databases
+(p.153)
+When citing to administrative materials contained in a commercial electronic database, give the name of the database and any identifying codes or numbers that uniquely identify the material. If the name of the database is not clear from the database identifier, include it parenthetically at the end of the citation:
+FTC Credit Practices Rule, 16 C.F.R. § 444.1 (2000), WL 16 CFR § 444.1.
+Reichhold Chems., Inc., 91 F.T.C. 246 (1978), 1978 WL 206094.
+39 Op. Att’y Gen. 484 (1940), 1940 US AG LEXIS 16.
+Rev. Rul. 86-71, 1986-1 C.B. 102, 1986 IRB LEXIS 189.

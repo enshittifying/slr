@@ -1,0 +1,64 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T01:04:13.009136",
+  "footnote_range": "30-32",
+  "used_gpt": true,
+  "footnotes_processed": 3,
+  "total_citations": 1,
+  "successful_retrievals": 0,
+  "failed_retrievals": 1,
+  "pdf_files": [],
+  "parsing_results": [
+    {
+      "footnote_number": 30,
+      "original_text": "104 F.4th 1370 , 1379 (Fed. Cir. 2024);  see also  Janssen Pharms., Inc. v. Mylan Lab'ys Ltd., No. 23-2042, 2025 WL 946390, at *3 (Fed. Cir. Mar. 28, 2025)  (affirming a ruling of induced infringement...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:15.035036",
+      "citations": [
+        {
+          "citation_id": "fn30_fed_104_1370",
+          "type": "case",
+          "full_text": "104 F.4th 1370",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 31,
+      "original_text": "No. CV1803632, 2023 WL 9017081, at *7-8 (D.N.J. Dec. 29, 2023) ,  appeal filed , No. 2024-1346 (Fed. Cir. Jan. 11, 2024). ",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:16.734270",
+      "citations": []
+    },
+    {
+      "footnote_number": 32,
+      "original_text": "See infra  Section  I.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "parsed_at": "2025-08-09T01:04:18.421204",
+      "citations": []
+    }
+  ],
+  "retrieval_results": [
+    {
+      "citation_id": "fn30_fed_104_1370",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T01:04:18.422558"
+    }
+  ],
+  "completed_at": "2025-08-09T01:04:18.422957",
+  "duration_seconds": 5.413821,
+  "success_rate": 0.0
+}

@@ -1,0 +1,30 @@
+TITLE: 23.12 Short Citation Forms (p.256)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-12-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.12
+Short Citation Forms
+(p.256)
+Follow
+rule 4
+for short form citations of archival materials:
+1
+Justice William Rehnquist, Third Draft Opinion 13, Edelman v. Jordan, No. 72-1410 (Jan. 17, 1974) (on file with Wash. & Lee Univ. Sch. of L. Lewis F. Powell, Jr. Papers, Box 399, Folders 1-3).
+2
+Id.
+; Ledger of Goods Sold in the General Store of Longmeadow, Massachusetts (1774) (on file with Longmeadow Town Archives, Record Group. 5, Box 312).
+3
+Ledger of Goods Sold in the General Store of Longmeadow, Massachusetts,
+supra
+note 2.

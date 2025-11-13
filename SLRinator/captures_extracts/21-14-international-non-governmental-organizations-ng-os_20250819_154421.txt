@@ -1,0 +1,26 @@
+TITLE: 21.14 International Non-Governmental Organizations (NGOs) (p.243)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-14-international-non-governmental-organizations-ng-os
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.14
+International Non-Governmental Organizations (NGOs)
+(p.243)
+Cite materials from international NGOs analogously to United Nations materials in
+rule 21.7
+. Include the name of the organization, including the appropriate abbreviation according to
+rule 21.13
+; the title of the document; the document number, if any; and the date:
+Amnesty International,
+Sierra Leone: Ending Impunity an Opportunity Not to Be Missed
+, AI Index AFR 51/60/2000 (July 26, 2000).

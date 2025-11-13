@@ -1,0 +1,34 @@
+TITLE: Social Security Administration (SSA) (pp. 271–72)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: social-security-administration-ssa
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Social Security Administration (SSA)
+(pp. 271–72)
+Rulings and Acquiescence Rulings
+:
+Cite to the
+Social Security Rulings, Cumulative Edition
+(
+S.S.R. Cum. Ed.
+), if therein. If not located therein, cite to another official source, such as the
+Code of Federal Regulations
+or the
+Federal Register
+. Otherwise, cite a commercial database or other readily available source. Cite Social Security Rulings as “
+SSR”
+and Social Security Acquiescence Rulings as “
+SSAR”
+.
+SSAR 92-2(6), 57 Fed. Reg. 9262 (Mar. 17, 1992).
+SSR 00-4p, 2000 WL 1898704 (Dec. 4, 2000).

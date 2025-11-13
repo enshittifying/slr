@@ -1,0 +1,102 @@
+Run failed on attempt 1/2: LastError(code='server_error', message='Sorry, something went wrong.')
+Run failed on attempt 2/2: LastError(code='server_error', message='Sorry, something went wrong.')
+All 2 attempts failed
+Run failed on attempt 1/2: LastError(code='server_error', message='Sorry, something went wrong.')
+Run failed on attempt 2/2: LastError(code='server_error', message='Sorry, something went wrong.')
+All 2 attempts failed
+Run failed on attempt 1/2: LastError(code='server_error', message='Sorry, something went wrong.')
+Run failed on attempt 2/2: LastError(code='server_error', message='Sorry, something went wrong.')
+All 2 attempts failed
+================================================================================
+ASSISTANT API vs GPT+BLUEBOOK.JSON COMPARISON TEST
+Testing citations: FN78-1, FN78-2, FN78-3
+================================================================================
+
+Extracted 3 citations from FN78
+
+
+################################################################################
+CITATION 1: *SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 10...
+################################################################################
+
+================================================================================
+TESTING WITH ASSISTANT API: FN78-1
+================================================================================
+
+✗ FAILED: Assistant call failed after 2 attempts
+
+================================================================================
+TESTING WITH GPT + FULL BLUEBOOK.JSON: FN78-1
+================================================================================
+
+✓ SUCCESS
+Is Correct: False
+Errors Found: 1
+  1. abbreviation_error: The abbreviation for 'Limited Liability Company' is missing in the case name....
+Tokens: 71514
+Cost: $0.0108
+
+================================================================================
+COMPARISON FOR FN78-1
+================================================================================
+⚠ Cannot compare - one or both methods failed
+
+
+################################################################################
+CITATION 2: *Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S...
+################################################################################
+
+================================================================================
+TESTING WITH ASSISTANT API: FN78-2
+================================================================================
+
+✗ FAILED: Assistant call failed after 2 attempts
+
+================================================================================
+TESTING WITH GPT + FULL BLUEBOOK.JSON: FN78-2
+================================================================================
+
+✓ SUCCESS
+Is Correct: False
+Errors Found: 2
+  1. docket_number_error: The judge's initials (PKC) should be omitted from the citation....
+  2. spacing_error: There should be a non-breaking space between the section symbol and the number i...
+Tokens: 72086
+Cost: $0.0110
+
+================================================================================
+COMPARISON FOR FN78-2
+================================================================================
+⚠ Cannot compare - one or both methods failed
+
+
+################################################################################
+CITATION 3: Crusey, *supra* note 21 at 515 ("Unlike a copyright infringement claim under Sec...
+################################################################################
+
+================================================================================
+TESTING WITH ASSISTANT API: FN78-3
+================================================================================
+
+✗ FAILED: Assistant call failed after 2 attempts
+
+================================================================================
+TESTING WITH GPT + FULL BLUEBOOK.JSON: FN78-3
+================================================================================
+
+✓ SUCCESS
+Is Correct: False
+Errors Found: 1
+  1. parenthetical_capitalization: The explanatory parenthetical starts with a capital letter, which is not allowed...
+Tokens: 72398
+Cost: $0.0111
+
+================================================================================
+COMPARISON FOR FN78-3
+================================================================================
+⚠ Cannot compare - one or both methods failed
+
+
+================================================================================
+TEST COMPLETE
+================================================================================

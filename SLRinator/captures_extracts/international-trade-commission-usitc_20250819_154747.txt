@@ -1,0 +1,33 @@
+TITLE: International Trade Commission (USITC) (p.269)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: international-trade-commission-usitc
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+International Trade Commission (USITC)
+(p.269)
+Publications
+:
+For investigations, cite as:
+<title or case name>,
+Inv. No.
+<number>
+, USITC Pub.
+<number>
+(
+<date>
+) (
+<status>
+)
+. Where a single decision contains multiple investigation numbers, this should be indicated. For other publications, omit investigation number and status.
+Certain Tissue Paper Prods. from China, Inv. No. 731-TA-1070B, USITC Pub. 3758 (Mar. 25, 2005) (Final).
+Grain-Oriented Silicon Elec. Steel from It. & Japan, Inv. Nos. 701-TA-355, 731-TA-659-660, USITC Pub. 3396 (Feb. 7, 2001) (Preliminary).

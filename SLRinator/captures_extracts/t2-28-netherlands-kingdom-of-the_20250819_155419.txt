@@ -1,0 +1,409 @@
+TITLE: T2.29 Netherlands, Kingdom of the
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-28-netherlands-kingdom-of-the
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.29
+Netherlands, Kingdom of the
+(Civil Law)
+Cases
+Citation format:
+<court abbreviation> <city (except when citing HR)> <date of decision in Dutch>
+,
+<reporter abbreviation>
+<publication year>
+,
+<publication number>
+m.nt.
+<initials or name of annotator>
+(
+<plaintiff name>
+/
+<defendant name>
+) (
+<country abbreviation if not evident from context>
+).
+HR 30 januari 1959, NJ 1959, 548 m.nt. DJV (Quint/Te Poel) (Neth.).
+Hof ’s-Gravenhage 27 mei 2004, JOR 2004, 206 m.nt. Van Ravels en Van Andel (Vie d’Or/Stichting Pensioen- en Verzekeringskamer en Staat) (Neth.).
+Until June 28, 2013, many court decisions published in the Netherlands received a National Reports Number (LJN), consisting of two letters and four digits. After that date, decisions are to have a European Case Law Identifier (ECLI), a standard that was adopted in late 2010. For purposes of conversion into ECLI coding, the LJN is included in the final (numeric) part of ECLI, e.g., ECLI:NL:GHAMS:2014:566, where NL is for Netherlands and GHAMS is Gerechtshof Amsterdam. A search for cases on websites such as
+Rechtspraak.nl
+,
+https://uitspraken.rechtspraak.nl/#!/
+, can be done using the identifier.
+Ordinary jurisdiction
+Hoge Raad der Nederlanden
+(
+HR
+) (Supreme Court of the Netherlands),
+Gerechtshof
+(
+Hof
+) (ordinary courts of appeals),
+Hoog Militair Gerechtshof
+(
+HMG
+) (Military Court of Appeals) (abolished in 1991), and
+Krijgsraad
+(
+Kr.
+) (Court Martial) (no longer in existence): Cite to
+NJ
+or
+W
+, if therein.
+Prior to 2002, there were two courts of first instance:
+Arrondissementsrechtbank
+(Rb.) (ordinary court of first instance and court of appeals to the Kantongerecht) and
+Kantongerecht
+(Ktg.) (court of first instance for labor, rent, and misdemeanor cases). In 2002, these two courts merged, eliminating the latter court as a separate court (instead, it is now a subdivision of the former court). Currently, labor, rent, and small claims (rather than misdemeanor) cases are still decided by a different kind of judge—the
+Kantonrechter
+(Ktr.)—than are other civil cases. Because of the merger, the
+Arrondissementsrechtbank
+(Rb.) is no longer a court of appeals to the
+Kantongerecht
+(Ktg.). After the merger, those specific types of cases should be cited to the
+Kantonrechter
+(Ktr.) instead of the
+Kantongerecht
+(Ktg.), following the form mentioned above. Cite to Prg. or NJF, if therein.
+Reporters
+Nederlandse Jurisprudentie
+1913–date
+NJ
+Weekblad van het Recht (by issue number)
+1839–1943
+W
+Kort Geding
+1981–2003
+KG
+Kort Geding Kort
+1981–2003
+KGK
+Rechtspraak van de Week
+1939–date
+RvdW
+Administratiefrechtelijke beslissingen
+1985–date
+AB
+Beslissingen in belastingzaken
+1910–1953
+B.
+Beslissingen in belastingzaken / Nederlandse Belastingrechtspraak
+1953–date
+BNB
+Practijkgids
+1963–date
+Prg.
+Nederlandse jurisprudentie Feitenrechtspraak
+2003–date
+NJF
+Nederlandse jurisprudentie Feitenrechtspraak Strafzaken
+2005–date
+NJFS
+Jurisprudentie bestuursrecht
+1994–date
+JB
+Belastingblad
+1982–date
+BB
+Jurisprudentie Onderneming en Recht
+1996–date
+JOR
+Weekblad voor Fiscaal Recht
+1955–date
+WvFR
+Special jurisdiction
+Afdeling Bestuursrechtspraak van de Raad
+van State
+(
+ABRvS
+) (Administrative Court of Highest Instance (
+Afdeling Rechtspraak van de Raad van State
+(
+ARRvS
+) prior to 1994)),
+Centrale Raad van Beroep
+(
+CRvB
+) (Central Council of Appeal), and
+College van Beroep voor het Bedrijfsleven
+(
+CBB
+) (Administrative Court for Trade and Industry): Cite to
+AB
+, if therein.
+Constitutions
+Citation format:
+Statuut Ned
+[
+Charter
+] art.
+<article number>
+.
+Or: Gw. [
+Constitution
+] art.
+<article number
+>, sub.
+<subdivision number>
+.
+Statuut Ned
+[
+Charter
+] art. 91.
+Gw.
+[
+Constitution
+] art. 6, sub. 1.
+BelastingrechtspraakStatuut voor het Koninkrijk der Nederlanden (Charter of the Kingdom of the Netherlands)
+Statuut Ned
+Grondwet voor het Koninkrijk der Nederlanden (Constitution of the Kingdom of the Netherlands)
+Gw.
+Codes
+Citation format:
+Art
+.
+(or Artikel)
+<book number if multiple books>
+:
+<article number>
+para.
+(or lid)
+<paragraph/lid number> <code abbreviation>
+(
+<country abbreviation if not evident from context>
+)
+.
+Art. 3:66 para. 1 BW.
+Artikel 30, lid 2,
+Sv
+.
+Artikel 36e lid 2
+Sr (oud).
+Burgerlijk Wetboek (Civil Code) (established in 1992)
+BW
+Wetboek van Burgerlijke Rechtsvordering  (Code of Civil Procedure)
+Rv
+Wetboek van Koophandel (Commercial Code)
+WvK
+Wetboek van Strafrecht (Criminal Code)
+Sr
+Wetboek van Strafvordering  (Code of Criminal Procedure)
+Sv
+Faillisementswet (Bankruptcy Code)
+Fw
+Wet op de Rechterlijke Organisatie (Law on Judicial Organization)
+Wet RO
+Burgerlijk Wetboek van 1838 (Civil Code of 1838) (in force until 1992)
+BW
+(
+oud
+)
+The
+Algemene Wet Bestuursrecht
+(
+Awb.
+) (General Administrative Law Act), enacted in 1992, is not technically a code, but it provides a general foundational framework for Dutch administrative law.
+Statutes and decrees
+Citation format:
+<law or decree> <date>
+,
+<gazette abbreviation> <year>
+,
+<page number>
+(
+<country abbreviation if not evident from context>
+)
+.
+Wet van 4 februari 1994, Stb. 1994, 99.
+Besluit van 20 mei 1987, Stb. 1987, 278.
+Regeling risicobeoordeling nieuwe stoffen Wms, Stcrt. 1994, 133.
+The
+Staatsblad van het Koninkrijk der Nederlanden
+(
+Stb.
+, sometimes cited as
+S.
+) is the official gazette of the Kingdom of the Netherlands. It is the official source for finding and citing the authoritative text of all codes, laws, general administrative measures, and royal decrees.
+The
+Nederlandse Staatscourant
+(
+Stcrt.
+) is an official daily journal used for the publication of some royal decrees, ministerial decrees, ministerial circulars, and other official statements.
+A parallel citation to
+Nedersandse Staatswetten
+(
+Schuurman & Jordens
+) or
+Nederlandse Wetgeving
+(
+Cremers
+) may be given.
+Staatsblad van het Koninkrijk der Nederlanden
+Stb.
+/
+S.
+Staatscourant
+Stcrt.
+Nederlandse Staatswetten (edited by L.N. Schuurman and P.H. Jordens)
+Schuurman & Jordens
+Nederlandse Wetgeving (edited by Cremers)
+Cremers
+Periodicals
+Militair-rechtelijk tijdschrift
+1905–date
+MRT
+Tijdschrift voor rechtsgeschiedenis (available online)
+1918–date
+TvR
+Nederlands Juristenblad
+1925–date
+NJB
+Ars Aequi
+1951–date
+AA
+Weekblad voor Privaatrecht, Notariaat en Registratie
+1870–date
+WPNR
+Handelingen – Nederlandse Juristen – Vereniging electroning
+1870–date
+Hand, NJV
+Advocatenblad
+1918–date
+Adv.bl.
+Rechtsgeleerd Magazijn Themis
+1839–date
+RM Themis
+Justitiële verkenningen
+1956–date
+JV
+Nederlands Tijdschrift voor Burgerlijk Recht
+NTBR
+Ondernemingsrecht
+1999–date
+Ondernemingsrecht
+Delikt en delinkwent
+1970–date
+DD
+Netherlands International Law Review (available online by subscription)
+1970–2012
+NILR
+Weekblad voor Fiscaal Recht
+1955–date
+WFR
+Maandblad Belastingbeschouwingen
+1958–date
+BB
+Tijdschrift voor privaatrecht (available online by subscription)
+1964–date
+TPR
+S.E.W.
+1975–date
+SEW
+Tijdschrift voor Criminologie
+1977–date
+TvCr
+Tijdschrift voor Familie- en Jeugdrecht
+1979–date
+FJR
+NCJM Bulletin (Nederlands Juristen Comité voor de Mensenrechten)
+1986–date
+NCJM-Bulletin
+Tijdschrift voor Civiele Rechtspleging
+1993–date
+TCR
+Tijdschrift voor Bouwrecht (available online)
+2008–date
+TBR
+Nederlands Tijdschrift voor Bestuursrecht
+1987–date
+NTB
+Milieu & Recht
+1995–date
+M en R
+AMI: Tijdschrift voor Auteurs-, Media- & Informatierecht
+1977–date
+AMI
+Journaal LuchtRecht
+2002–date
+JLR
+School en Wet
+2002–date
+School en Wet
+Utrecht Law Review (available online)
+2005–date
+ULR
+Treaties and conventions
+Citation format:
+<Treaty title>
+;
+<city (if provided)>
+,
+<date in day month year format>
+Trb
+.
+<year>
+,
+<number>
+(
+<country abbreviation if not evident from context>
+)
+.
+Verdrag inzake de heffing van rechten voor het gebruik van bepaalde wegen door zware vrachtwagens; Brussel, 9 februari 1994
+Trb
+. 2014, 126.
+Het Verdrag van Straatsburg, Straatsburg; 8 november 1990
+Trb
+. 1990, 172.
+Tractatenblad van het Koninkrijk der Nederlanden
+1950–date
+Trb.
+Internet sources
+Legislation passed since January 1, 1995 that has been published in the Staatsblad or the Staatscourant is available on the government’s website at
+https://www.officielebekendmakingen.nl
+. Treaties and Parliamentary Papers are also available from this site. This site gives further access to all Ministries and other government organizations.
+The de Rechtspraak website, available at
+http://www.rechtspraak.nl
+, provides free access to cases.
+Decisions of the Administrative Court of Highest Instance are searchable and available in full text at
+http://www.raadvanstate.nl/uitspraken.html
+.
+Parliamentary documents from 1814–1995 for both houses of the Dutch Parliament (Staten-Generaal) are available on its website, at Staten-Generaal Digitaal,
+http://www.statengeneraaldigitaal.nl/
+.
+The website of the Eerste Kamer (First Chamber of the Parliament) is
+http://www.eerstekamer.nl/home
+.
+The website of the Tweede Kamer (Second Chamber of the Parliament) is
+http://www.tweedekamer.nl/
+.
+Comprehensive online access to legislation may be obtained through a paid subscription to the SDU online database,
+http://www.sdu.nl
+, or to the Lexplicatie database offered by Kluwer,
+http://www.lexplicatie.nl/
+.
+The general government website,
+http://www.government.nl/
+, provides links to the individual ministries and includes more than two hundred documents and publications, among other features.
+The website of the Ministry of Security and Justice is
+https://www .rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid
+.
+The online portal Boom Legal (Boom Juridische, or BJu) Publishers has articles from twenty-eight Dutch law journals, available by paid subscription to one or more, and five open access journals: BJu Tijdschriften,
+http://www.bjutijdschriften.nl/pagina/informatie
+.
+The commercial website Dutch Civil Law (DCL) provides “free information online in English on the principles and provisions of Dutch Civil Law, the Dutch legal order and the rules of private international law of the Netherlands,”
+http://www.dutchcivillaw.com/
+. The website’s translations are done by DCL unless otherwise noted and are not official.
+The Advisory Administrative Law Foundation (Stichting Adviesgroep Bestuursrecht, St-AB) has a website devoted to laws on social security, with a view to providing free legal assistance,
+http://www.st-ab.nl/index.html
+.

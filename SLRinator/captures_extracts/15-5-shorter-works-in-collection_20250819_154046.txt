@@ -1,0 +1,89 @@
+TITLE: 15.5 Shorter Works in Collection (pp. 159–60)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-5-shorter-works-in-collection
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.5
+Shorter Works in Collection
+(pp. 159–60)
+Cite essays and articles in collections according to
+rule 15.5.1
+. Cite collections of other materials, such as letters, speeches, manuscripts, diaries, debates, newspaper articles, tracts, etc., according to
+rule 15.5.2
+.
+15.5.1 –
+Works in Collection Generally
+(a) Works by various authors.
+To cite an individual shorter work within a volume of collected works by various authors, list the author’s full name according to
+rule 15.1
+in ordinary roman type followed by the title of the shorter work in italics, the word “
+in
+” in italics, the volume number, if any (
+rule 3.1(a)
+), and the name of the volume as a whole in small capitals. Always note the page on which the shorter work begins as well as any pages on which specific material appears (
+rule 3.2(a)
+). Editors, translators, edition, publisher, and date should be noted parenthetically according to
+rules 15.2
+and
+15.4
+:
+Andrew G. Ferguson,
+Continuing Seizure: Fourth Amendment Seizure in Section 1983 Malicious Prosecution Cases
+,
+in
+15
+Nat’l Laws. Guild, Civil Rights Litigation and Attorney Fees Annual Handbook
+54-1 (Steven Saltzman ed., 1999).
+Kay Deaux & Brenda Major,
+A Social-Psychological Model of Gender
+,
+in
+Theoretical Perspectives on Sexual Difference
+89, 89 (Deborah L. Rhode ed., 1990).
+(b) Works by the same author.
+If all the shorter works within a volume are by the same author, use the same form as above, but print the author’s name in small capitals and place the volume number, if any, before the author’s name (
+rule 3.1(a)
+):
+Oliver Wendell Holmes
+,
+Law in Science and Science in Law
+,
+in
+Collected Legal Papers
+210, 210 (1920).
+Adrienne Rich
+,
+Transcendental Etude
+,
+in
+The Fact of a Doorframe
+264, 267–68 (1984).
+15.5.2 –
+Collected Documents
+(a) Documents originally published.
+Use the “
+reprinted in
+” form (
+rule 1.6(a)(ii)
+) to cite collected materials that were previously published. As far as possible, provide a complete citation for the original work followed by “
+reprinted in
+” and the citation of the volume containing the reprint:
+Marquis de Condorcet, Essay on the Application of Mathematics to the Theory of Decision-Making
+(1785),
+reprinted in
+Condorcet: Selected Writings
+33, 48–49 (Keith M. Baker ed., 1976).
+(b) Documents originally unpublished.
+Cite according to
+rule 23
+.

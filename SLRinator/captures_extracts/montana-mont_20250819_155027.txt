@@ -1,0 +1,79 @@
+TITLE: Montana (Mont.) (p.297)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: montana-mont
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Montana (Mont.)
+(p.297)
+http://montanacourts.org/
+https://archive.legmt.gov/statute/
+Public domain citation format:
+Montana has adopted a public domain citation format for cases after January 1, 1998. The format is:
+Mont. Env’t Info. Ctr. v. Dep’t of Env’t Quality, 1999 MT 248, 296 Mont. 207, 988 P.2d 1236.
+Mont. Env’t Info. Ctr. v. Dep’t of Env’t Quality, 1999 MT 248, ¶ 21, 296 Mont. 207, 988 P.2d 1236.
+For additional instruction, consult Order
+In re
+: Opinion Forms and Citation Standards of the Supreme Court of Montana, and the Adoption of Public Domain and Neutral-Format Citation (Dec. 16, 1997), and Order in the Matter of Amending Citations Standards for the Montana Supreme Court (Jan. 22, 2009).
+Supreme Court
+(
+Mont.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+Montana Reports
+1868–date
+Mont.
+State Reporter
+1945–date
+State Rptr.
+Statutory compilations:
+Cite to
+Mont. Code Ann.
+, if therein.
+Montana Code Annotated
+Mont. Code Ann.
+§ x-x-x (
+<year>
+)
+West's Montana Code Annotated
+Mont. Code Ann.
+§ x-x-x (West
+<year>
+)
+Session laws
+Laws of Montana
+<year>
+Mont. Laws
+<page no.>
+Administrative compilation
+Administrative Rules of Montana
+Mont. Admin. R.
+<rule no.>
+(
+<year>
+)
+Administrative register
+Montana Administrative Register
+<iss. no.>
+Mont. Admin. Reg.
+<page no.>
+(
+<month day, year>
+)

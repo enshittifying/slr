@@ -1,0 +1,65 @@
+TITLE: Securities and Exchange Commission (SEC) (pp. 270–71)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: securities-and-exchange-commission-sec
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Securities and Exchange Commission (SEC)
+(pp. 270–71)
+Interpretive Letters, No-Action Letters, and Exemptive Letters
+:
+Cite a service (
+rule 19
+) or an electronic database (
+rule 18.4
+). Include the full name of the correspondent and the full date on which the letter became publicly available.
+Union Carbide Corp., SEC Staff No-Action Letter, [1994–1995 Transfer Binder] Fed. Sec. L. Rep. (CCH) ¶ 76,911 (Apr. 15, 1994).
+Squadron, Ellenoff, Plesent & Lehrer, SEC Interpretive Letter, 1992 WL 55818 (Feb. 28, 1992).
+Releases
+:
+Cite the
+Federal Register
+, SEC Docket, or a service (
+rule 19
+). If the release has a subject-matter title, it may be presented in a shortened form. Include the act under which the release was issued, the release number, and the full date.
+Customer Limit Orders, Exchange Act Release No. 34,753, [1994-1995 Transfer Binder] Fed. Sec. L. Rep. (CCH) ¶ 85,434 (Sept. 29, 1994).
+Regulation of Securityholder Communications, Exchange Act Release No. 29,315, 49 SEC Docket 147 (June 17, 1991).
+If the release is an adjudication, abbreviate the parties’ names according to
+rule 14.3.1(a)
+.
+Am. Kiosk Corp., Exchange Act Release No. 58504, 2008 WL 2574438 (June 27, 2008).
+If the adjudication occurred before an administrative law judge, indicate this fact in the date parenthetical.
+Am. Kiosk Corp., Exchange Act Release No. 57866, 2008 WL 2229644 (ALJ May 30, 2008) (default order).
+If a particular release is issued under the Securities Act, the Exchange Act, or the Investment Company Act, a parallel citation should be given in that order.
+Implementation of Standards of Professional Conduct for Attorneys, Securities Act Release No. 8150, Exchange Act Release No. 46,868, Investment Company Act Release No. 25,829, 67 Fed. Reg. 71670 (proposed Dec. 2, 2002).
+Staff Interpretations
+:
+Cite
+SEC Staff Accounting Bulletins
+,
+Staff Legal Bulletins
+, and
+Telephone Interpretations
+as follows:
+SEC Staff Accounting Bulletin No. 56, 49 Fed. Reg. 4936 (May 23, 1984).
+SEC Filings
+:
+For annual reports, proxy statements, and other company filings required under federal securities laws, provide the name of the company (abbreviated according to
+rule 15.1(e)
+), the title as given in the document, the form type in parentheses, the page number if applicable, and the full date of filing with the SEC.
+Coca-Cola Co., Annual Report (Form 10-K) (Feb. 27, 2004).
+Sony Music Ent. Inc., Statement of Changes in Beneficial Ownership (Form 4/A) (Jan. 23, 2004).
+If citing annual reports, proxy statements, or other documents in a form other than that filed with the SEC, treat as books under
+rule 15
+.
+Coca-Cola Co., 2003 Summary Annual Report
+7 (2004).

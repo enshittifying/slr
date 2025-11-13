@@ -1,0 +1,758 @@
+TITLE: T2.24 Japan
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-24-japan
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.24
+Japan
+(Civil Law)
+Romanization
+For romanization, word division, and capitalization of Japanese words, apply the rules of the American Library Association and the Library of Congress: Use the modified Hepburn romanization system adopted by Japanese-English dictionaries, such as
+Kenkyūsha shin Wa-Ei daijiten
+(
+Kenkyūsha’s New Japanese-English Dictionary
+). Indicate long vowels with a macron as in “hōrei” or “hanreishū.” Add an apostrophe between ‘n’ and a vowel, and ‘n’ and ‘y’asin“gen’in,”or“kin’yū,”toclarifythemeaningofwords.Fordetails,seethe Library of Congress ALA-LC Romanization Tables at
+http://www.loc.gov/
+catdir/cpso/roman.html.
+Cases
+Citation format:
+<court name>
+[
+<English abbreviated translation of court name>
+]
+<date of decision>
+,
+<case number>
+,
+<volume number>
+<reporter or periodical name>
+[
+<reporter or periodical abbreviation>
+]
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+SaikōSaibansho[Sup.Ct.]Dec.4,2007,Hei18(kyo)no.45,61Saikō
+Saibansho minji hanreishū
+[
+Minshū
+] 3245, 3252 (Japan).
+Sendai Kōtō Saibansho Akita Shibu [Sendai High Ct. Akita Br.] Jan 25, 2012, Hei 23 (ne) no. 85, 1046
+Rōdō hanrei
+[
+Rōhan
+] 22 (Japan).
+Tōkyō Chihō Saibansho [Tokyo Dist. Ct.] June 8, 2006, Hei 15 (wa) no. 29850, 1271
+Hanrei taimuzu
+[
+Hanta
+] 183, 201 (Japan).
+Internet and database citations:
+when citing to electronic resources, follow
+rule 18
+.
+Citation format (if source is available only in electronic format, or printed format is difficult to obtain):
+<court name>
+[
+<English abbreviated translation of court name>
+]
+<date of decision>
+,
+<case number>
+,
+<database name>
+[
+<database abbreviation>
+]
+<first page>
+,
+<page(s) of specific material, if desired>
+,
+<URL>
+(
+<country abbreviation if not evident from context>
+).
+Chiteki Zaisan Kōtō Saibansho [Intellectual Prop. High Ct.] Nov. 13, 2008, Hei 20 (gyō ke) no. 10112,
+Saibansho saibanrei jōhō
+[
+Saibanshoweb
+]1,8,http://www.courts.go.jp(Japan).
+Citation format (parallel citation, if source is available in printed and electronic formats):
+<court name>
+[
+<English abbreviated translation of court name>
+]
+<date of decision>
+,
+<case number>
+,
+<volume number> <reporter or periodical name>
+[
+<reporter or periodical abbreviation>
+]
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+),
+available at
+<database name> <database case number>
+.
+Yamaguchi Chihō Saibansho [Yamaguchi Dist. Ct.] Mar. 13, 2013, Hei 21 (waワ) no. 197, 1070
+Rōdō hanrei
+[
+Rōhan
+] 6, 10 (Japan), available at LEX/DB 25500464.
+When unclear, append a case ID letter in Japanese Hiragana or Katakana to the case number, as shown above: Hei 21 (wa ワ) no. 197.
+Cases under the Constitution of 1946
+Saikō Saibansho
+最高裁判所 (Supreme Court: court of last appeal in all matters): Cite to reporters below, if therein; otherwise, cite to periodicals.
+Saikō Saibansho minji hanreishū
+最高裁判所民事判例集
+1947–date
+Minshū
+Saikō Saibansho keiji hanreishū
+最高裁判所刑事判例集
+1947–date
+Keishū
+Saikō Saibansho saibanshū minji
+最高裁判所裁判集民事
+1947–date
+Shūmin
+Saikō Saibansho saibanshū keiji
+最高裁判所裁判集刑事
+1947–date
+Shūkei
+Saibansho jihō
+裁判所時報
+1948–date
+Saiji
+Saikō Saibansho minji hanrei tokuhō
+最高裁判所民事判例特報
+1947–1950
+Saimin hantoku
+Saikō Saibansho keiji hanketsu tokuhō
+最高裁判所刑事判決特報
+1947–1950
+Saikei hantoku
+Saikō Saibansho hanreishū
+最高裁判所判例集
+(available at
+http://www.courts.go.jp
+)
+1947–date
+Saibansho web
+Kōtō Saibansho
+高等裁判所 (high courts: regional courts of appeal for sppeals from district, family, and summary courts),
+ChihōSaibansho
+地方裁 90 判所 (district courts: courts of original jurisdiction in general civil and criminal cases, which hear appeals from summary courts),
+Katei Saibansho
+家庭裁判所 (family courts: courts of original jurisdiction in domestic relations and juvenile delinquency cases),
+Kan’i Saibansho
+簡易裁判所 (summary courts: courts of petty jurisdiction in minor civil and criminal cases), and
+Chiteki Zaisan Kōtō Saibansho
+知的財産高等裁判所 (Intellectual Property High Court: hears appeals pertaining to intellectual property and suits against decisions made by the Japan Patent Office. A branch of the Tōkyō High Court): Cite to reporters below, if therein; otherwise, cite to topical reporters or periodicals.
+Daiisshin keiji saiban reishū
+第一審刑事裁判例集
+1958
+Isshin keishū
+Kakyū saibansho keiji saiban reishū
+下級裁判所刑事裁判例集
+1959–1968
+Kakei
+Kakyū saibansho minji saiban reishū
+下級裁判所民事裁判例集
+1950–1984
+Kamin
+Kakyū saibansho hanreishū
+下級裁判所判例集
+(available at
+http://www.courts.go.jp
+)
+2002–date
+Saibansho web
+Keiji saiban geppō
+刑事裁判月報
+1969–1986
+Keigetsu
+Kōtō saibansho hanreishū
+高等裁判所判例集
+(available at
+http://www.courts.go.jp
+)
+1947–date
+Saibansho web
+Kōtō saibansho keiji hanketsu tokuhō
+高等裁判所刑事判決特報
+1950–1956
+Hantoku
+Kōtō saibansho keiji hanreishū
+高等裁判所刑事判例集
+1947–2002
+Kōkei
+Kōtō saibansho keiji saiban sokuhōshū
+高等裁判所刑事裁判速報集
+1981–date
+Kōkeisoku
+Kōtō saibansho keiji saiban tokuhō
+高等裁判所刑事裁判特報
+1954–1958
+Kōkeitoku
+Kōtō saibansho minji hanreishū
+高等裁判所民事判例集
+1947–2002
+Kōmin
+Tōkyō Kōtō Saibansho hanketsu jihō
+(keiji)
+東京高等裁判所判決時報 (刑事)
+1953–date
+Tōkōkeijihō
+Tōkyō Kōtō Saibansho hanketsu jihō (minji)
+東京高等裁判所判決時報 (民事)
+1953–date
+Tōkōminjihō
+Tōkyō Kōtō Saibansho keiji hanketsu jihō
+東京高等裁判所刑事判決時報
+1951–1953
+Tōkōkeitoku
+Topical reporters
+Chiteki Zaisan Kōtō Saibansho saibanrei
+kensaku
+知的財産高等裁判所裁判例検索
+(available at
+https://www.ip.courts.go.jp/index.html
+)
+2004–date
+Chizai kōsai web
+Chiteki zaisan saiban reishū
+知的財産裁判例集
+(available at
+http://www.courts.go.jp
+)
+1965–date
+Saibansho web
+Chiteki zaisanken kankei minji gyōsei saiban reishū
+知的財産権関係民事・行政裁判例集
+1991–1998
+Chizaishū
+Gyōsei jiken saiban reishū
+行政事件裁判例集
+1950–1997
+Gyōshū
+Gyōsei jiken saiban reishū
+行政事件裁判例集
+(available at
+http://www.courts.go.jp
+)
+1969–date
+Saibansho web
+Gyōsei saiban geppō
+行政裁判月報
+1948–1950
+Gyōgetsu
+Katei saiban geppō
+家庭裁判月報
+1949–2014
+Kagetsu
+Mutai zaisanken kankei minji gyōsei saiban reishū
+無体財産権関係民事・行政裁判例集
+1969–1990
+Mutaishū
+Rōdō jiken saiban reishū
+労働事件裁判例集
+(available at
+http://www.courts.go.jp
+)
+1969–date
+Saibansho web
+Rōdō kankei minji jiken saibanshū
+労働関係民事事件裁判集
+1949–1950
+Rōsaishū
+Rōdō kankei minji saiban reishū
+労働関係民事裁判例集
+1950–1997
+Rōmin
+Shōmu geppō
+訟務月報
+1955–date
+Shōgetsu
+Periodicals
+Saikō Saibansho Hanrei Kaisetu Keiji Hen
+最高裁判所判例解説・刑事篇(法曹会)
+1954–date
+Hankaikei
+Saikō Saibansho Hanrei Kaisetu Minju Hen
+最高裁判所判例解説・民事篇(法曹会)
+1954–date
+Hankaimin
+Hanrei chihō jichi
+判例地方自治
+1984–date
+Hanrei jichi
+Hanrei jihō
+判例時報
+1953–date
+Hanji
+Hanrei taimuzu
+判例タイムズ
+1948–date
+Hanta
+Hōsō shinbun
+法曹新聞
+1946–1964
+Hōsō shinbun
+Junkan kin’yū hōmu jijō
+旬刊金融法務事情
+1953–date
+Kinhō
+Kin’yū hōmu jijō
+金融法務事情
+2010–date
+Kinhō
+Junkan shōji hōmu
+旬刊商事法務
+1972–date
+Shōji
+Shūkan kin'yū hanrei
+週刊金融判例(経済法令研究会)
+1966–1967
+Kinhan
+Shūkan kin'yū shōji hanrei
+週刊金融・商事判例 (経済法令研究会)
+1967–1975
+Kinhan
+Kin’yū shōji hanrei
+金融・商事判例 (経済法令研究会)
+1976–date
+Kinhan
+Kōtsū jiko minji saiban reishū
+交通事故民事裁判例集
+1968–date
+Kōmin
+Rōdō hanrei
+労働判例
+1969–date
+Rōhan
+Rōdō hanrei jānaru
+労働判例ジャーナル
+2012–date
+Rōhan Jānaru
+Rōdō hōritsu junpō/Rōjun
+労働法律旬報
+1949–date
+Rōjun
+Rōdō keizai hanrei sokuhō
+労働経済判例速報
+1950–date
+Rōkeisoku
+Shiryōban shōji hōmu
+資料版商事法務
+1984–date
+Shiryōshōji
+Shōhishahō nyūsu
+消費者法ニュース
+1989–date
+Shōhisha
+Shutoieru
+シュトイエル
+1962–1995
+Shuto
+Katei no hō to saiban
+家庭の法と裁判
+2015–date
+Kahan
+Chuō Rōdō Iinkai
+中央労働委員会 (decisions and orders of the Central
+Labor Relations Commission)
+chūō rōdō jihō
+中央労働時報
+1946–date
+Chūrōi
+Bessatsu chūō rōdō jihō
+別冊中央労働時報
+1968–date
+Bessatsu
+chūrōi
+Futō rōdō kōi jiken meireishū
+不当労働行為事件命令集
+1949–date
+Meireishū
+Rōdō Iinkai kankei meirei, saibanrei
+dētabēsu
+労働委員会関係 命令・裁判例データベース
+(available at
+https://www.mhlw.go.jp/churoi
+/meirei_db/
+)
+1959–date
+Churōi
+DB
+Kokuzei Fufuku Shinpanjo
+国税不服審判所 (decisions of the National Tax Tribunal)
+Saiketsu jireishū
+裁決事例集
+1970–date
+Saiketsu jirei
+Kōhyō saiketsu jirei
+公表裁決事例
+(available at
+http://www.kfs.go.jp/service/JP/index.html
+)
+1992–date
+Saiketsu Jirei
+Kōsei Torihiki Iinkai
+公正取引委員会 (decisions and orders of the Fair Trade Commission)
+Kōsei Torihiki Iinkai shinketsushū
+公正取引委員会審決集
+1947–date
+Shinketsushū
+Kōsei Torihiki Iinkai haijo meireishū
+公正取引委員会排除命令集
+1962–date
+Haimeishū
+Kōsei Torihiki Iinkai shinketsu tō dētabēsu
+公正取引委員会審決等データベース
+(available at
+https://www.jftc.go.jp/
+shinketsu/
+)
+1962–date
+Kōtorii DB
+Tokkyochō
+特許庁 ( Japan Patent Office) Tokkyo Jōhō Purattofōmu 特許情 報プラットフォーム,
+Japan Platform for Patent Information
+( J-PlatPat)
+Shinketsu Kensaku
+審決検索
+(available at
+https://www.j-platpat.inpit.go.jp/a0100
+)
+1940–date
+Shinketsu
+kensaku
+Tokkyochō kohō Shinketsu torikeshi
+soshō hanketsushū
+特許庁公報審決取消訴訟判決集
+1988–1999
+Torikeshishū
+Shinketsu kohō Shinketsu torikeshi Soshō
+hanketsushū
+審決公報審決取消訴訟判決集
+2000–date
+Torikeshishū
+Cases under the Constitution of 1889
+Daishin’in
+or
+Taishin’in
+大審院 (Great Court of Judicature; court of last appeal for civil and criminal matters, and the only court concerning matters of the imperial household and insurrection against the state): Cite to reporters below, if therein; otherwise, cite to newspapers or periodicals. Append the version or publisher, such as Tōkyō Hōgakuin 東京法学院, Sanwa Shobō 三 和書房, Shihōshō 司法省, Chuō Daigaku 中央大学, or Hōsōkai 法曹会.
+Daishin’in [Great Ct. of Jud.] Jan. 29, 1925, Tai 13 (re) no. 2071, v. 4, no. 1
+Daishin’in keiji hanreishū
+[
+Daihan keishu
+] (Hōsōkai) 21, 24 (Japan).
+Daishin’in minji hanketsuroku
+大審院民事判決録
+1875–1921
+Minroku
+Daishin’in keiji hanketsuroku
+大審院刑事判決録
+1875–1921
+Keiroku
+Daishin’in minji hanketsu shōroku
+大審院民事判決抄録
+1898–1921
+Minshōroku
+Daishin’in keiji hanketsu shōroku
+大審院刑事判決抄録
+1891–1921
+Keishōroku
+Daishin’in minji hanreishū
+大審院民事判例集
+1922–1946
+Minshū
+Daishin’in keiji hanreishū
+大審院刑事判例集
+1922–1947
+Keishū
+Gyōsei Saibansho
+行政裁判所 (Administrative Court, court for all adminis- trative cases): Cite to the following source:
+Gyōsei Saibansho hanketsuroku
+行政裁判所判決録
+1890–1947
+Gyōroku
+Newspapers and periodicals
+Daishin’in
+or
+Taishin’in
+大審院 (Great Court of Judicature),
+Kōsoin
+控訴 院 (Court of Appeal),
+Chihō Saibansho
+地方裁判所 (District Court), and
+Ku Saibansho
+区裁判所 (Ward Court): Cite to one of the sources below, if therein.
+Daishin’in hanketsu zenshū
+大審院判決全集 (法律新報社)
+1934–1944
+Hanketsu zenshū
+Daishin’in hanrei shūi
+大審院判例拾 (法律新聞社)
+1925–1927
+Hanrei shūi
+Daishin’in saibanrei
+大審院裁判例 (法律新聞社
+)
+1927–1938
+Saibanrei
+Hōgaku
+法学 (東北帝国大学法学会)
+1931–1944
+Hōgaku
+Hōritsu shinbun
+法律新聞 (法律新聞社)
+1900–1944
+Shinbun
+Hōritsu shinpō
+法律新報 (法律新報社)
+1924–1944
+Shinpõ
+Hōsō kiji
+法曹記事 (法曹会)
+1891–1923
+Hōsō kiji
+Hōsōkai zasshi
+法曹会雑誌
+1923–1944
+Hōsōkai zasshi
+Legislative materials
+Cite from authoritative sources, such as
+Kanpō
+官報,
+Hōrei zensho
+法令全書,
+Genkō hōki sōran
+現行法規総覧 (Daiichi Hōki),
+Genkō Nihon hōki
+現行日本 法規 (Gyōsei),
+Rōppō zensho
+六法全書 (Yūhikaku), and various tsūtatsushū 通達集, if therein. When citing to internet sources, follow
+rule 18
+.
+Constitutions
+Citation format:
+<
+Constitution Name
+>
+[
+<
+constitution abbreviation
+>
+]
+[
+Constitution
+], art.
+<article>
+, para.
+<paragraph>
+(
+<country abbreviation if not evident from context>
+).
+Nihonkoku Kenpō
+[
+Kenpō
+] [Constitution], art. 9, para. 2 (Japan).
+Nihonkoku Kenpō
+(1946)
+日本国憲法
+Kenpō
+Dai Nihon Teikoku Kenpō
+(1889)
+大日本帝国憲法
+Meiji Kenpō
+Codes
+Citation format:
+<code name>
+[
+<code abbreviation, if different from full name>
+] [
+<English translation of code abbreviation or name>
+]
+<year of enactment, if not evident>
+,
+<article, paragraph, number, if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Minpō [Minpō] [Civ. C
+.] art. 398-20, para. 1, no. 1 (Japan).
+Minpō
+[
+Minpō
+] [
+Civ. C.
+] art. 398-20, para. 1, no. 1 (Japan).
+Minji soshōhō
+[
+Minsohō
+] [
+C. Civ. Pro.
+] 1996, art. 4, para. 6 (Japan).
+Minpō (Civil Code)
+民法
+Minpō (Civ. C.)
+Shōhō (Commercial Code)
+商法
+Shōhō (Comm. C.)
+Minji soshōhō (Code of Civil Procedure
+)
+民事訴訟法
+Minsohō (C. Civ. Pro.)
+Keihō (Penal Code)
+刑法
+Keihō (Pen. C.)
+Keiji soshōhō (Code of Criminal Procedure)
+刑事訴訟法
+Keisohō (C. Crim. Pro.)
+Statutes, regulations, and orders
+The following citation format applies to
+hōritsu
+法律 (statutes),
+kisoku
+規則 (rules and regulations),
+chokurei
+勅令 (imperial orders),
+seirei
+政令 (cabinet orders),
+furei
+府令 (Prime Minister’s Office orders),
+shōrei
+省令 (ministry ordinances),
+jōrei
+条例 (ordinances),
+kunrei
+訓令 (instructions),
+kokuji
+告示 (notifications or notices), and
+tsūtatsu
+通達 (circulars).
+Citation format:
+<law name>
+[
+<law abbreviation, if different from full name>
+] [
+<English translation of law abbreviation or name>
+],
+<number>
+of
+<year>
+,
+<article, paragraph, number, if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Hakai katsudō bōshihō [Habōhō] [Subversive Activities Prevention Act], Law No. 240 of 1952, art. 4, para. 1 (Japan).
+Shōnen shinpan kisoku [Rules of Juvenile Proceedings], Sup. Ct. Rule No. 33 of 1948, art. 26 (Japan).
+Citation format in electronic sources:
+<law name>
+[
+<law abbreviation, if different from full name>
+] [
+<English translation of law abbreviation or name>
+],
+<number>
+of
+<year>
+,
+<article, paragraph, number, if applicable>
+(
+<database name>
+[
+<database abbreviation>
+]),
+<URL>
+(
+<country abbreviation if not evident from context>
+).
+Hōjinzeihō [Corporate Taxation Act], Law No. 34 of 1965, art. 6-2 (e-Gov Hōrei kensaku [Hōrei DB]),
+https://elaws.e-gov.go.jp
+/search/elawsSearch/elaws_search/lsg0100/ (Japan).
+When citing a translation, include the translation source in addition to the original version, following
+rule 20.2.5
+:
+Kankyō kihonhō [Basic Environmental Act], Law No. 91 of 1993, art. 37 (Japan),
+translated in
+7 EHS Law Bull. Ser. no. 7800 (1996).
+Shōhisha kyōiku no suishin ni kansuru hōritsu [Shōhisha kyōikusuishinhō] [Act on Promotion of Consumer Education], Law No. 61 of 2012, art.7,
+translated in
+(Japanese Law Translation [JLT DS]),
+http://www.japaneselawtranslat...
+(Japan).
+Treaties and conventions
+For citation of treaties and other international agreements, follow
+rule 21.4
+. Cite to treaty sets published by the Ministry of Foreign Affairs, Treaties Bureau, if therein; otherwise, cite to other authoritative sources such as
+Hōrei zensho
+法令全書 or
+Kanpō
+官報 (see the
+Legislative Materials
+section above).
+Jōyakushū
+条約集
+1922–1964
+Jōyakushū
+Jōyakushū: nikokukan jōyaku
+条約集: 二国間条約
+1964–2001
+Nikokukan jōyaku
+Jōyakushū: tasūkokukan jōyaku
+条約集: 多数国間条約
+1964–2001
+Takokukan jōyaku
+Gaimushō Jōyaku dēta kensaku
+外務省条約データ検索
+2002–date
+Jōyaku web
+Nihonkoku to Chūka Jinmin Kyōwakoku to no aida no heiwa yūkō jōyaku [Heiwa yūkō jōyaku] [Treaty of Peace and Friendship Between Japan and the People’s Republic of China], Japan-China, Aug. 12, 1978, Treaty No. 19, 1978 Nikokukan jōyaku, 323, 327 (Japan).
+Internet sources
+http://www.courts.go.jp
+(Saibansho Sanbanrei Jōhō 裁判所裁判例情報 (Saibansho web) Courts in Japan: cases from all courts under the Constitution of 1946)
+https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/
+(e-Gov Hōrei kensaku e-Gov 法令検索 (Hōrei DB) (Ministry of Internal Affairs and Communications Administrative Management Bureau: constitutions, statutes, orders, rules, regulations, and ordinances)
+https://hourei.ndl.go.jp/#/
+(National Diet Library Nihon hōrei sakuin 国 立国会図書館日本法令索引 (Hōrei sakuin) (Index to Japanese legislative materials: pending bills; statutes, orders, rules, regulations, and ordinances in force and repealed; treaties in force, lapsed and terminated))
+https://kanpou.npb.go.jp
+(Internet Kanpō インターネット版官報 (Kanpō) (National Printing Bureau: Official gazette))
+http://www.shugiin.go.jp/internet/itdb_housei.nsf/html/housei/menu.htm
+(Shūgiin seitei hōritsu 衆議院制定法律 (Seitei hōritsu) (House of Representatives: Session laws))
+http://www3.mofa.go.jp/mofaj/gaiko/treaty/index.php
+(Gaimushō Jōyaku dēta kensaku 外務省条約データ検索 ( Jōyaku web) (Ministry of Foreign Affairs: Treaties and other international agreements))
+https://www.courts.go.jp/toukei_siryou/kisokusyu/index.html
+(Courts in Japan, Saibansho kisokushū 裁判所規則集 (Saibansho kisoku web) (Supreme Court of Japan: Supreme Court rules))
+http://www.japaneselawtranslation.go.jp
+( Japanese Law Translation Database System in English ( JLT DS) Ministry of Justice: Constitution, statutes, regulations, orders, ordinances, and notifications)
+http://www.tkc.jp/law/lawlibrary
+(TKC Law Library: includes LEX/DB for cases and Gyōsei’s Super Hōrei Web for legislative materials)
+https://d1l-dh.d1-law.com/auth/smlogin196.jsp
+(includes Hanrei taikei 判例体系 and Genkō hōki 現行法規 (Daiichi Hōki 第一法規))
+https://www.hanreihisho.net/indexjp.html
+(LLI/DB Hanrei Hisho Internet 判例秘書インターネット (Legal Information Center))
+https://www.lexis-asone.jp/access/login?ReturnUrl=%2F%20f
+(Lexis AS ONE/LexisNexisJP)
+https://go.westlawjapan.com/wljp/app/signon/display
+(Westlaw Japan)

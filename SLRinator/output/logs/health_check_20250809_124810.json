@@ -1,0 +1,196 @@
+{
+  "timestamp": "2025-08-09T12:48:09.618002",
+  "overall_status": "CRITICAL",
+  "checks": {
+    "Python Version": {
+      "status": "PASS",
+      "message": "(v3.13.5)",
+      "timestamp": "2025-08-09T12:48:09.618126"
+    },
+    "openai": {
+      "status": "PASS",
+      "message": "- OpenAI GPT API",
+      "timestamp": "2025-08-09T12:48:09.891755"
+    },
+    "PyMuPDF": {
+      "status": "FAIL",
+      "message": "- PDF processing and redboxing",
+      "timestamp": "2025-08-09T12:48:09.891821"
+    },
+    "python-docx": {
+      "status": "FAIL",
+      "message": "- Word document processing",
+      "timestamp": "2025-08-09T12:48:09.891869"
+    },
+    "requests": {
+      "status": "PASS",
+      "message": "- HTTP requests",
+      "timestamp": "2025-08-09T12:48:09.923875"
+    },
+    "beautifulsoup4": {
+      "status": "FAIL",
+      "message": "- HTML parsing",
+      "timestamp": "2025-08-09T12:48:09.923936"
+    },
+    "pandas": {
+      "status": "FAIL",
+      "message": "- Data processing",
+      "timestamp": "2025-08-09T12:48:09.923983"
+    },
+    "PyYAML": {
+      "status": "FAIL",
+      "message": "- Configuration files",
+      "timestamp": "2025-08-09T12:48:09.924025"
+    },
+    "src": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924075"
+    },
+    "src/core": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924096"
+    },
+    "src/utils": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924115"
+    },
+    "src/stage1": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924131"
+    },
+    "src/retrievers": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924146"
+    },
+    "config": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924161"
+    },
+    "output": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924175"
+    },
+    "output/logs": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924189"
+    },
+    "output/data": {
+      "status": "PASS",
+      "message": "",
+      "timestamp": "2025-08-09T12:48:09.924204"
+    },
+    "enhanced_gpt_parser": {
+      "status": "PASS",
+      "message": "- GPT citation parser",
+      "timestamp": "2025-08-09T12:48:09.943508"
+    },
+    "fallback_citation_parser": {
+      "status": "PASS",
+      "message": "- Fallback parser",
+      "timestamp": "2025-08-09T12:48:09.943645"
+    },
+    "pdf_retriever": {
+      "status": "PASS",
+      "message": "- PDF retrieval",
+      "timestamp": "2025-08-09T12:48:10.012325"
+    },
+    "sourcepull_system": {
+      "status": "PASS",
+      "message": "- Main system",
+      "timestamp": "2025-08-09T12:48:10.013744"
+    },
+    "api_logger": {
+      "status": "PASS",
+      "message": "- API logging",
+      "timestamp": "2025-08-09T12:48:10.013761"
+    },
+    "action_logger": {
+      "status": "PASS",
+      "message": "- Action logging",
+      "timestamp": "2025-08-09T12:48:10.013773"
+    },
+    "retry_handler": {
+      "status": "PASS",
+      "message": "- Retry logic",
+      "timestamp": "2025-08-09T12:48:10.013782"
+    },
+    "footnote_extractor": {
+      "status": "PASS",
+      "message": "- Footnote extraction",
+      "timestamp": "2025-08-09T12:48:10.019936"
+    },
+    "enhanced_source_retriever": {
+      "status": "FAIL",
+      "message": "- No module named 'aiohttp'",
+      "timestamp": "2025-08-09T12:48:10.022920"
+    },
+    "OpenAI API": {
+      "status": "PASS",
+      "message": "- Configured",
+      "timestamp": "2025-08-09T12:48:10.023049"
+    },
+    "CourtListener API": {
+      "status": "PASS",
+      "message": "- Configured",
+      "timestamp": "2025-08-09T12:48:10.023058"
+    },
+    "GovInfo API": {
+      "status": "PASS",
+      "message": "- Configured",
+      "timestamp": "2025-08-09T12:48:10.023069"
+    },
+    "SherkowGugliuzza_PostSP_PostEEFormatting[70].docx": {
+      "status": "PASS",
+      "message": "- Sample document",
+      "timestamp": "2025-08-09T12:48:10.023123"
+    },
+    "WORKFLOW.md": {
+      "status": "WARN",
+      "message": "- Workflow documentation not found",
+      "timestamp": "2025-08-09T12:48:10.023151"
+    },
+    "requirements.txt": {
+      "status": "PASS",
+      "message": "- Dependencies list",
+      "timestamp": "2025-08-09T12:48:10.023168"
+    },
+    "Log Files": {
+      "status": "PASS",
+      "message": "- 29 log files found",
+      "timestamp": "2025-08-09T12:48:10.023345"
+    },
+    "Footnote Extractor": {
+      "status": "PASS",
+      "message": "- Module loads successfully",
+      "timestamp": "2025-08-09T12:48:10.023494"
+    },
+    "Functionality Test": {
+      "status": "FAIL",
+      "message": "- 'FallbackCitationParser' object has no attribute 'parse'",
+      "timestamp": "2025-08-09T12:48:10.024065"
+    }
+  },
+  "warnings": [
+    "Sample file 'readme/WORKFLOW.md' not found"
+  ],
+  "errors": [
+    "Package 'PyMuPDF' not installed",
+    "Package 'python-docx' not installed",
+    "Package 'beautifulsoup4' not installed",
+    "Package 'pandas' not installed",
+    "Package 'PyYAML' not installed",
+    "Cannot import src.stage1.enhanced_source_retriever: No module named 'aiohttp'",
+    "Functionality test failed: 'FallbackCitationParser' object has no attribute 'parse'"
+  ],
+  "recommendations": [
+    "Review and address warnings to improve system functionality"
+  ]
+}

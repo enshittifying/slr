@@ -1,0 +1,43 @@
+TITLE: 12 Statutes (p.126)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 12-statutes
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+12
+Statutes
+(p.126)
+Citation of an entire statute, the Comprehensive Environmental Response, Compensation, and Liability Act, as codified in the
+United States Code
+:
+Citation of an individual provision of the
+United States Code
+:
+12.1
+Basic Citation Forms
+12.2
+Choosing the Proper Citation Form
+12.3
+Current Official and Unofficial Codes
+12.4
+Session Laws
+12.5
+Electronic Databases and Online Sources
+12.6
+Other Secondary Sources
+12.7
+Invalidation, Repeal, Amendment, and Prior History
+12.8
+Explanatory Parenthetical Phrases
+12.9
+Special Citation Forms
+12.10
+Short Forms for Statutes

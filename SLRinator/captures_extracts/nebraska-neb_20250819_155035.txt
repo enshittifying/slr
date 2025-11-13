@@ -1,0 +1,86 @@
+TITLE: Nebraska (Neb.) (p.298)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: nebraska-neb
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Nebraska (Neb.)
+(p.298)
+https://supremecourt.nebraska.gov/
+https://nebraskalegislature.gov/laws/browse-statutes.php
+Supreme Court
+(
+Neb.
+): Cite to
+N.W., N.W.2d
+or
+N.W.3d
+, if therein.
+North Western Reporter
+1879–date
+N.W., N.W.2d, N.W.3d
+Nebraska Reports
+1860–date
+Neb.
+Court of Appeals
+(
+Neb. Ct. App.
+): Cite to
+N.W.2d
+or
+N.W.3d
+, if therein.
+North Western Reporter
+1992–date
+N.W.2d, N.W.3d
+Nebraska Appellate Reports
+1992–date
+Neb. App.
+Statutory compilations:
+Cite to
+Neb. Rev. Stat.
+, if therein.
+Revised Statutes of Nebraska
+Neb. Rev. Stat.
+§ x-x (
+<year>
+)
+Revised Statutes of Nebraska Annotated (LexisNexis)
+Neb. Rev. Stat. Ann.
+§ x-x (LexisNexis
+<year>
+)
+West's Revised Statutes of Nebraska Annotated
+Neb. Rev. Stat. Ann.
+§ x-x (West
+<year>
+)
+Session laws:
+Cite to
+Neb. Laws
+, if therein.
+Laws of Nebraska
+<year>
+Neb. Laws
+<page no.>
+West's Nebraska Legislative Service
+<year>
+Neb. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Nebraska Administrative Code
+<tit. no.>
+Neb. Admin. Code
+§ x-x (
+<year>
+)

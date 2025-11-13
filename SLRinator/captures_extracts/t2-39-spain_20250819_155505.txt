@@ -1,0 +1,238 @@
+TITLE: T2.40 Spain
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-39-spain
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.40
+Spain
+(Civil Law)
+Cases
+Citation format:
+<court decision abbreviation>
+,
+<date of decision>
+(
+<reporter abbreviation>
+, No.
+<decision number>
+, p.
+<first page, if desired>
+) (
+<country abbreviation if not evident from context>
+).
+For the court decision abbreviation, use “
+S.
+” for sentencia (decision), followed by the court abbreviation.
+S.T.S., Feb. 5, 1993 (R.J., No. 876, p. 1135) (Spain).
+Constitutional court: Tribunal Constitucional
+(
+T.C.
+) (highest court on constitutional matters; separate from the judiciary): Cite to
+B.J.C.
+or
+R.T.C.
+, if therein; otherwise, cite to
+S.T.C.
+Boletín de Jurisprudencia Constitucional
+B.J.C.
+Repertorio Aranzadi del Tribunal Constitucional
+R.T.C.
+Sentencias del Tribunal Constitucional Sistematizadas y Comentadas
+S.T.C.
+Ordinary courts: Tribunal Supremo
+(
+T.S.
+) (highest court of ordinary jurisdiction: divided into five chambers: civil, criminal, administrative, military, and labor),
+Audiencia Nacional
+(
+A.N.
+) (national appellate courts of ordinary jurisdiction: divided into three chambers),
+Audiencia Provincial
+(
+A.P.
+) (provincial appellate courts in criminal and civil matters sitting in the capital of each province),
+Tribunal Superior de Justicia
+(
+T.S.J.
+) (highest court in the autonomous regions: divided into four chambers with jurisdiction over cases arising from regional law),
+Juzgado de Primera Instancia
+(
+Juz. Prim.
+) (trial courts for both civil and criminal matters sitting in the major town of each judicial district),
+Juzgado de lo Contencioso Administrativo
+(
+Juz. Cont. Adm.
+) (administrative courts),
+Juzgado de lo Social
+(
+Juz. Soc.
+) (labor courts),
+Juzgado de Menores
+(
+Juz. Men.
+) (juvenile courts),
+Juzgado de Vigilancia
+(
+Juz. Vig.
+) (prison administration courts),
+Juzgado de Paz
+(
+Juz. Paz
+) (justices of the peace with jurisdiction over minor civil and criminal matters), and
+Tribunal Militar
+(military courts: sentences subject to appeal to the
+Tribunal Supremo
+and the
+Tribunal Constitucional
+): Cite to
+J.T.S.
+or
+R.J.
+, if therein; otherwise, cite to
+R.G.D.
+Jurisprudencia del Tribunal Supremo
+J.T.S.
+Repertorio Aranzadi de Jurisprudencia
+R.J.
+Revista General de Derecho
+R.G.D.
+Constitution
+Constitución Española
+C.E.
+Cite to the
+Boletín Oficial del Estado
+(B.O.E.).
+Citation format:
+<
+constitution name
+or, for short form, abbreviation>
+, B.O.E. n.
+<number>
+,
+<date>
+(
+<country abbreviation if not evident from context>
+).
+C.E., B.O.E. n. 311, Dec. 29, 1978 (Spain).
+Codes
+Código Civil
+(Civil Code)
+C.C.
+Código de Comercio
+(Commercial Code)
+C.
+Com
+.
+Código Penal
+(Criminal Code)
+C.P.
+Ley de Enjuiciamiento Civil
+(Code of Civil Procedure)
+L.E.
+Civ.
+Ley de Enjuiciamiento Criminal
+(Code of Criminal Procedure)
+L.E.
+Crim.
+Ley de Régimen Jurídico y Procedimiento Administrativo
+(Administrative Procedure Act)
+L.R.J.P.A.
+Estatuto de los Trabajadores
+(Workers Statute)
+E.T.
+Ley de Procedimiento Laboral
+(Labor Procedure Code)
+L.P.L.
+Ley Orgánica del Poder Judicial
+(Law on the Judiciary)
+L.O.P.J.
+Ley de la Jurisdicción Contencioso-Administrativa
+(Law on Administrative Jurisdiction)
+L.J.C.A.
+Ley Orgánica del Régimen Electoral General
+(Electoral Organization Act)
+L.O.R.E.G.
+Ley Orgánica del Tribunal Constitucional
+(Constitutional Court Organization Act)
+L.O.T.C.
+Statutes and decrees
+Citation format:
+<statute name> <subdivision, if desired>
+(
+<compilation abbreviation> <year of enactment>
+,
+<number assigned to statute>
+) (
+<country abbreviation if not evident from context>
+).
+The rank of the statute (e.g., L.O., R.D., R.D.L., R.D.-Ley) is not included in the citation.
+Labor Procedure Law art. X (R.C.L. 1990, 922) (Spain).
+Cite a
+Ley Ordinaria
+(
+L.O.
+),
+Real Decreto
+(
+R.D.
+),
+Real Decreto Legislativo
+(
+R.D.L.
+), or
+Real Decreto Ley
+(
+R.D.-Ley
+) to
+B.O.E.
+or
+R.C.L.
+, if therein.
+Boletín Oficial del Estado
+(Official Gazette)
+B.O.E.
+Repertorio Aranzadi Cronológico de Legislación
+R.C.L.
+B.O.E. 1985, 166
+R.C.L. 1985, 1463
+Internet sources
+http://www.boe.es
+(the Official Gazette, codes, and legislation in PDF; free access to the electronic format)
+http://www.tribunalconstitucional.es
+(official site of the Constitutional Court; free access to court decisions and summaries of selected decisions in English and French)
+http://www.poderjudicial.es
+(official site of Tribunal Supremo and Tribunales Superiores de Justicia; free access to court decisions)
+http://www.congreso.es/portal/page/portal/Congreso/Congreso
+(Portal of Congress; free access to bills)
+http://www.aranzadi.es
+(private legal publisher of legislation, court decisions, and journals online and in print; paid subscription and free access to latest legal news)
+http://www.elderecho.com
+(database of legal information; paid subscription)
+http://laleydigital.laley.es
+(database of legal information; paid subscription)
+http://www.tirant.com
+(database of legal information; law e-books; paid subscription)
+http://www.unirioja.es
+(Revista Electrónica de Derecho de la Universidad de la Rioja (University of Rioja Electronic Law Review); free access)
+http://criminet.ugr.es/recpc
+(Revista Electrónica de Ciencia Penal y Criminología (Electronic Law Review of Criminal Science and Criminology); free access)
+https://huespedes.cica.es/gimadus
+(Revista Electrónica de Derecho Ambiental (Electronic Law Review of Environmental Law); free access)
+https://vlex.com/coverage/spain
+(database of legal information; paid subscription)
+http://portaljuridico.lexnova.es
+(legal portal; paid subscription)
+http://www.cepc.gob.es/publicaciones/revistas/revistaselectronicas
+(Revista Española de Derecho Constitucional (Spanish Constitutional Law Review); Revista de Administración Pública (Public Administration Review); Revista de Estudios Políticos (Political Studies Review); Derecho Privado y Constitución (Private Law and Constitution); Anuario Iberoamericano de Justicia Constitucional (Iberoamerican Yearbook of Constitutional Justice); paid subscription online and in print)
+http://www.cepc.gob.es/publicaciones/publicacionesdigitales/coleccion-foro
+(free access to selected legal articles)

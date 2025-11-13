@@ -1,0 +1,327 @@
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN1: †   Professor of Law, College of Law; Professor of Medicine, Carle-Illinois College of Medicine; Pro...
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN1
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN2: †   Professor of Law, University of Texas School of Law . For their comments, thanks to Jonas Anders...
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN2
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN3: 21 U.S.C. § 355(c)(3)(C);  see also  Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed....
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN3
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN4: See, e.g. , GlaxoSmithKline LLC v. Teva Pharms. USA, Inc., 7 F.4th 1320, 1328 (Fed. Cir. 2021) (revi...
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN4
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN5: See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365 -66  (Fed. Cir. 2003)  (noting that an...
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN5
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN6: See infra  Section  II.D ....
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN6
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN7: See infra  Section  III ....
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN7
+2025-08-08 23:30:23,880 - src.core.sourcepull_system - INFO - Processing FN8: Susan K. Finston, Neil S. Davey, Ananda M. Chakrabarty  &  Raj S. Davé ,  The Biopharmaceutical Soci...
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN8
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN9:   See  Matthew Lane,  Federal Circuit Should Restore Generics  ‘ Skinny Label ’  Process ,  Bloomber...
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: website (priority: 12)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN9
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN10:   Skinny Labels, Big Savings Act, S.5573, 118th Cong. (2024)....
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: book (priority: 9)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with publisher_website: Strategy 'publisher_website' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_books: Strategy 'google_books' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with worldcat: Strategy 'worldcat' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with library_catalog: Strategy 'library_catalog' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with amazon: Strategy 'amazon' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN10
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN11: 21 U.S.C. § 321(m)....
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN11
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN12: For more on this terminological distinction and how it is employed in this article, see  infra  Sect...
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN12
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN13: 21 C.F.R. § 201.57;  see also  Naitee Ting, Ding-Geng Chen, Shuyen Ho & Joseph C. Cappelleri,   Phas...
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: federal_regulation (priority: 2)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with ecfr: eCFR retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN13
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN14: See   Daniel Carpenter, Reputation and Power: Organizational Image and Pharmaceutical Regulation At ...
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN14
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN15: E.g. , 21 U.S.C. §§ 331(a)-(c)....
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN15
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO - Processing FN16: Id.  § 352(a)(1)....
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,881 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN16
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN17: Id.  § 355(j)(2)(A)(v)....
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN17
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN18: 35 U.S.C. § 271(e)(2)(A)....
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN18
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN19:   Id.  § 282(b)....
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN19
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN20: 21 U.S.C. § 355(j)(2)(A)(i)....
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN20
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN21: 35 U.S.C. § 271(b);  see also   case s cited  supra  note  1 . In this circumstance, the doctors are...
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN21
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN22: 21 U.S.C. § 355(j)(2)(A)(viii)....
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN22
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN23:   Caraco Pharm. Lab’ys, Ltd. v. Novo Nordisk A/S, 566 U.S. 399, 415 (2012) (“The statutory scheme . ...
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN23
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN24: In re  Barr Lab ’ ys, Inc., 930 F.2d 72, 76 (D.C. Cir. 1991) ....
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: book (priority: 9)
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with publisher_website: Strategy 'publisher_website' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with google_books: Strategy 'google_books' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with worldcat: Strategy 'worldcat' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with library_catalog: Strategy 'library_catalog' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   ✗ Failed with amazon: Strategy 'amazon' not implemented
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN24
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO - Processing FN25:  The Federal Circuit has exclusive jurisdiction over all appeals in patent cases nationwide. 28 U.S....
+2025-08-08 23:30:23,882 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN25
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN26: 7 F.4th 1320 (Fed. Cir. 2021) (per curiam)....
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: book (priority: 9)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with publisher_website: Strategy 'publisher_website' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_books: Strategy 'google_books' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with worldcat: Strategy 'worldcat' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with library_catalog: Strategy 'library_catalog' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with amazon: Strategy 'amazon' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN26
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN27: Namely, that the generic was “therapeutically equivalent” to its branded counterpart.  Id.  at 1335-...
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: website (priority: 12)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN27
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN28: See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 136 4- 6 5  (Fed. Cir. 2003 ) (“[T]he reque...
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN28
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN29: 7 4  F.4th 1360, 1365 (Fed. Cir. 2023)....
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: book (priority: 9)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with publisher_website: Strategy 'publisher_website' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_books: Strategy 'google_books' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with worldcat: Strategy 'worldcat' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with library_catalog: Strategy 'library_catalog' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with amazon: Strategy 'amazon' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN29
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN30: 104 F.4th 1370 , 1379 (Fed. Cir. 2024);  see also  Janssen Pharms., Inc. v. Mylan Lab'ys Ltd., No. 2...
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN30
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN31: No. CV1803632, 2023 WL 9017081, at *7-8 (D.N.J. Dec. 29, 2023) ,  appeal filed , No. 2024-1346 (Fed....
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: book (priority: 9)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with publisher_website: Strategy 'publisher_website' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_books: Strategy 'google_books' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with worldcat: Strategy 'worldcat' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with library_catalog: Strategy 'library_catalog' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with amazon: Strategy 'amazon' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN31
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN32: See infra  Section  I.A ....
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN32
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN33: See infra  Section  II.D ....
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN33
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO - Processing FN34: See infra  Section  III ....
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,883 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN34
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN35:   See  Dani Kass,  GSK Redo Doesn’t Cure Generics’ ‘Skinny Label’ Uncertainty ,  Law360  (Aug. 9, 20...
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: website (priority: 12)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN35
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN36:   Bryan S. Walsh et al.,  Frequency of First Generic Drug Approvals With “Skinny Labels” in the Unit...
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: book (priority: 9)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with publisher_website: Strategy 'publisher_website' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_books: Strategy 'google_books' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with worldcat: Strategy 'worldcat' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with library_catalog: Strategy 'library_catalog' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with amazon: Strategy 'amazon' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN36
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN37: See infra  Section  III.A ....
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN37
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN38: See infra  Section  III.B ....
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN38
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN39: See infra  Section  III.C ....
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN39
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN40: See infra  Section  IV ....
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN40
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN41: 21 U.S.C. § 3 21 ( m ) ;  see also   id.  § 321(g)(1) (defining “drug”)....
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN41
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO - Processing FN42:   See   i d.  § 321(k);  see also  Frank I. Schechter,  The Rational Basis of Trademark Protection ,...
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   Identified as: law_review_article (priority: 8)
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with journal_website: Strategy 'journal_website' not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with ssrn: SSRN retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with crossref: CrossRef retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,884 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN42
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN43: Id.  § 201.56(d)....
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN43
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN44: Id.  § 201.56(a)(1)....
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN44
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN45: Id. ;  see  COREG® (carvedilol)  T ablets  (Oct. 2010 rev.),  https://www.accessdata.fda.gov/drugsat...
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: website (priority: 12)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN45
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN46: 21 C.F.R. § 201.56(d)(1)....
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: federal_regulation (priority: 2)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: GovInfo API key not configured
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with ecfr: eCFR retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN46
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN47: Id.  § 201.57(a)(6)....
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN47
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN48: Id.  § 201.57(a)(15)....
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN48
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN49: See id....
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN49
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO - Processing FN50: Id.  § 201.57(a)(10)-(11)....
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   Identified as: unknown (priority: 99)
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_scholar: Google Scholar retrieval not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - INFO -   ✗ Failed with google_search: Strategy 'google_search' not implemented
+2025-08-08 23:30:23,885 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN50
+2025-08-08 23:30:23,886 - src.core.sourcepull_system - INFO - Report saved to output/data/Sourcepull/sourcepull_report.json

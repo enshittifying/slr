@@ -1,0 +1,40 @@
+TITLE: T3.7 Inter-American Court of Human Rights (pp. 330–31)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-7-inter-american-court-of-human-rights
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.7
+Inter-American Court of Human Rights
+(pp. 330–31)
+Cite to
+Series
+, to
+Rep. Inter-Am. Ct. H.R.
+, or to official online sources.
+Series:
+A - Judgments and Opinions
+Inter-Am. Ct. H.R. (ser. A) No. xxx
+B - Pleadings, Oral Arguments and Documents (Relative to Series A)
+Inter-Am. Ct. H.R. (ser. B) No. xx, xxx
+C - Decisions and Judgments
+Inter-Am. Ct. H.R. (ser. C) No. xxx
+D - Pleadings, Oral Arguments and Documents (Relative to Series C)
+Inter-Am. Ct. H.R. (ser. D) No. xx, xxx
+E - Provisional Measures
+Inter-Am. Ct. H.R. (ser. E) No. xx, xxx
+F - Procedural Decisions
+Inter-Am. Ct. H.R. (ser. F) No. xx, xxx
+Annual Reports of the Inter-American Court of Human Rights:
+Complete Opinions
+1970–date
+Rep. Inter-Am. Ct. H.R. xxx

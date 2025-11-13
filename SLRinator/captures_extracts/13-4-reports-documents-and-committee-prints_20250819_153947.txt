@@ -1,0 +1,93 @@
+TITLE: 13.4 Reports, Documents, and Committee Prints (pp. 143–45)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 13-legislative-materials
+  slug: 13-4-reports-documents-and-committee-prints
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13.4
+Reports, Documents, and Committee Prints
+(pp. 143–45)
+(a) Numbered federal reports and documents.
+Citations to numbered federal reports should include the name of the house, the number of the Congress connected by a hyphen to the number of the report, the part and/or page number on which material being cited appears, and the year of publication. Use small capitals for the house, abbreviation of report, and abbreviation of number:
+H.R. Rep. No
+. 99-253, pt. 1, at 54 (1985).
+S. Rep. No.
+84-2, at 7 (1955).
+Cite conference reports using the following format:
+H.R. Rep. No.
+98-1037, at 3 (1984) (Conf. Rep.).
+S. Rep. No.
+95-601, at 5 (1977) (Conf. Rep.).
+Cite numbered federal documents analogously, using the following abbreviations:
+House Document
+H.R. Doc. No.
+Senate Document
+S. Doc. No.
+House Miscellaneous Document
+H.R. Misc. Doc. No.
+The following citation formats are often used to designate international agreements to which the United States is a party (
+rule 21.4.5(a)
+):
+Senate Executive Document
+S. Exec. Doc. No.
+Senate Treaty Document
+S. Treaty Doc. No.
+When possible (and particularly for documents published after 1974), give a parallel citation to the permanent edition of
+United States Code Congressional and Administrative News
+(
+rule 12.6
+):
+S. Rep. No
+. 95-797, at 4 (1978),
+as reprinted in
+1978 U.S.C.C.A.N. 9260, 9263.
+(b) Titles and authors.
+Titles of numbered reports or documents may be indicated; if the title is given, the author should also be named (see
+rule 15.1(c)
+regarding institutional authors):
+Carlton Koepge, The Road to Industrial Peace, H.R. Doc. No
+. 82-563, at 29–30 (1953).
+U.S. Immigr. Comm’n, Immigration Legislation, S. Doc. No
+. 61-758, at 613 (3d Sess. 1911).
+(c) Unnumbered federal documents and committee prints.
+Committee prints and unnumbered documents must be cited as works of institutional authors (
+rule 15.1(c)
+). Note that the number of the Congress is part of the author’s name:
+Staff of S. Comm. on the Judiciary, 81st Cong., Report on Antitrust Law
+17 (Comm. Print 1950).
+If the document or committee print is primarily the work of specific persons, that fact may be noted parenthetically.
+(d) Federal legislative agency reports.
+Legislative reports, like those of the Congressional Research Service (CRS) and the Government Accountability Office (GAO), must be cited as works of institutional authors (
+rule 15.1(c)
+); include the report number (as given by the agency) as part of the title:
+Louis Fisher, Cong. Rsch. Serv., RL31340, Military Tribunals: The Quirin Precedent
+30 (2002).
+U.S. Gov't Accountability Off., GAO-08-751, Food and Drug Administration: Approval and Oversight of the Drug Mifeprex
+27 (2008).
+(e) Federal legislative journals.
+Cite congressional journals according to the following model:
+S. Journal
+, 24th Cong., 2d Sess. 123–24 (1836).
+(f) State materials.
+Citations to state legislative reports, documents, and similar materials should include the title of the document and its author if available (see
+rule 15.1(c)
+), the name of the legislative body abbreviated according to
+tables T6
+,
+T9
+, and
+T10
+, the number of the legislative body or year, depending on the state's practice, connected by a hyphen to the number of the report or document if available, the number of the legislative session, the part or page number on which the material being cited appears, and the year of publication. Unless it is clear from the title or author information appearing in the citation, provide the name of the state abbreviated according to
+table T10
+parenthetically:
+Commonwealth of Pa. Dep't of Agric., Annual Report of the State Food Purchase Program
+, S. 178-247, 1st Sess., at 4 (1994).

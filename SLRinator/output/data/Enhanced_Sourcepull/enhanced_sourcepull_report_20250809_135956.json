@@ -1,0 +1,1053 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T13:58:18.491807",
+  "footnote_range": "1-30",
+  "used_gpt": true,
+  "footnotes_processed": 30,
+  "total_citations": 39,
+  "successful_retrievals": 5,
+  "failed_retrievals": 34,
+  "pdf_files": [
+    {
+      "citation_id": "2",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/2_SCOTUS_Vol919.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "3",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/3_SCOTUS_Vol785.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "4",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/4_SCOTUS_Vol633.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "1",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/1_SCOTUS_Vol566.pdf",
+      "source": "supreme_court_official",
+      "pages": 940,
+      "size_mb": 3.77
+    },
+    {
+      "citation_id": "citation_1",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/citation_1_SCOTUS_Vol930.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    }
+  ],
+  "parsing_results": [
+    {
+      "footnote_number": 1,
+      "original_text": "†   Professor of Law, College of Law; Professor of Medicine, Carle-Illinois College of Medicine; Professor, European Union Center; Affiliate, Carl R. Woese Institute for Genomic Biology; University of...",
+      "citations_count": 0,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote provided does not contain any legal citations. It only includes academic titles and affiliations of a professor.",
+      "parsed_at": "2025-08-09T13:58:20.269888",
+      "citations": []
+    },
+    {
+      "footnote_number": 2,
+      "original_text": "†   Professor of Law, University of Texas School of Law . For their comments, thanks to Jonas Anderson, Laura Dolbow, Jordi Goodman, Michael Goodyear, Tim Holbrook, Mark Janis, Mark Lemley, Amy Motomu...",
+      "citations_count": 0,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote does not contain any legal citations such as cases, statutes, regulations, articles, books, or websites. It primarily acknowledges individuals and institutions for their contributions and feedback.",
+      "parsed_at": "2025-08-09T13:58:21.793480",
+      "citations": []
+    },
+    {
+      "footnote_number": 3,
+      "original_text": "21 U.S.C. § 355(c)(3)(C);  see also  Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019) (“[W] e ask whether the Hikma and Actavis labels instruct users to treat polyneuropathic...",
+      "citations_count": 4,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains one statute and three case citations, each with clear identifiers such as volume, reporter, page, court, and year for cases, and title number, code name, and section for the statute.",
+      "parsed_at": "2025-08-09T13:58:28.960699",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(c)(3)(C)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "2",
+          "type": "case",
+          "full_text": "Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "3",
+          "type": "case",
+          "full_text": "Takeda Pharms. U.S.A., Inc. v. W.-Ward Pharm. Corp., 785 F.3d 625, 631 (Fed. Cir. 2015)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "4",
+          "type": "case",
+          "full_text": "AstraZeneca LP v. Apotex, Inc., 633 F.3d 1042, 1060 (Fed. Cir. 2010)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 4,
+      "original_text": "See, e.g. , GlaxoSmithKline LLC v. Teva Pharms. USA, Inc., 7 F.4th 1320, 1328 (Fed. Cir. 2021) (reviewing expert evidence of how physicians would have read a drug label);  see also   id.  at 1342 (Pro...",
+      "citations_count": 2,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains two references to the same case, with the second being a pinpoint citation to a specific page and dissenting opinion.",
+      "parsed_at": "2025-08-09T13:58:33.164267",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "case",
+          "full_text": "GlaxoSmithKline LLC v. Teva Pharms. USA, Inc., 7 F.4th 1320, 1328 (Fed. Cir. 2021)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "2",
+          "type": "case",
+          "full_text": "id. at 1342 (Prost, J., dissenting)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 5,
+      "original_text": "See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365 -66  (Fed. Cir. 2003)  (noting that an infringement analysis, in this context, is “ hypothetical because the allegedly infringing product ...",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is clearly a case citation with all necessary components such as case name, volume, reporter, page, court, and year.",
+      "parsed_at": "2025-08-09T13:58:37.010185",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "case",
+          "full_text": "Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365-66 (Fed. Cir. 2003)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 6,
+      "original_text": "See infra  Section  II.D .",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation refers to a section within the same document, not an external source.",
+      "parsed_at": "2025-08-09T13:58:38.396991",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "other",
+          "full_text": "See infra Section II.D",
+          "retrieval_priority": 3
+        }
+      ]
+    },
+    {
+      "footnote_number": 7,
+      "original_text": "See infra  Section  III .",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation refers to a section within the same document, not an external legal source.",
+      "parsed_at": "2025-08-09T13:58:40.522409",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "other",
+          "full_text": "See infra Section III",
+          "retrieval_priority": 3
+        }
+      ]
+    },
+    {
+      "footnote_number": 8,
+      "original_text": "Susan K. Finston, Neil S. Davey, Ananda M. Chakrabarty  &  Raj S. Davé ,  The Biopharmaceutical Social Contract and U.S. Patent Social Contract: Historical Antecedents and Recent Developments ,  in  I...",
+      "citations_count": 2,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains a book chapter citation and a law review article citation. Both are identified by their authors, titles, and publication details.",
+      "parsed_at": "2025-08-09T13:58:44.849048",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "book",
+          "full_text": "Susan K. Finston, Neil S. Davey, Ananda M. Chakrabarty & Raj S. Davé, The Biopharmaceutical Social Contract and U.S. Patent Social Contract: Historical Antecedents and Recent Developments, in Intellectual Property Issues in Microbiology 308 (Harikesh Bahadur Singh, Chetan Keswani, & Surya Pratap Singh eds., 2019)",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "2",
+          "type": "article",
+          "full_text": "John R. Thomas, Hatch - Waxman’s Renegades, 2023 U. Ill. L. Rev. 831, 876-77",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 9,
+      "original_text": "  See  Matthew Lane,  Federal Circuit Should Restore Generics  ‘ Skinny Label ’  Process ,  Bloomberg Law  (Jan. 12, 2021),  https://news.bloomberglaw.com/business-and-practice/federal-circuit-should-...",
+      "citations_count": 3,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains a citation to an article by Matthew Lane and two URLs, one of which is a permalink. The article citation includes the author, title, and publication date, while the URLs are classified as website citations.",
+      "parsed_at": "2025-08-09T13:58:49.289947",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "article",
+          "full_text": "Matthew Lane, Federal Circuit Should Restore Generics ‘ Skinny Label ’ Process, Bloomberg Law (Jan. 12, 2021)",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "citation_2",
+          "type": "website",
+          "full_text": "https://news.bloomberglaw.com/business-and-practice/federal-circuit-should-restore-generics-skinny-label-process",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "citation_3",
+          "type": "website",
+          "full_text": "https://perma.cc/34BQ-WE2K",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 10,
+      "original_text": "  Skinny Labels, Big Savings Act, S.5573, 118th Cong. (2024).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation refers to a legislative act, identified by its name, bill number, congressional session, and year, fitting the statute category.",
+      "parsed_at": "2025-08-09T13:58:52.485384",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "Skinny Labels, Big Savings Act, S.5573, 118th Cong. (2024)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 11,
+      "original_text": "21 U.S.C. § 321(m).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is clearly a reference to a section of the United States Code, which is a statute.",
+      "parsed_at": "2025-08-09T13:58:54.259049",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 321(m)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 12,
+      "original_text": "For more on this terminological distinction and how it is employed in this article, see  infra  Section  I.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote refers to a section within the same document ('infra Section I.A') and does not contain any external legal citations such as cases, statutes, or articles.",
+      "parsed_at": "2025-08-09T13:58:56.052643",
+      "citations": []
+    },
+    {
+      "footnote_number": 13,
+      "original_text": "21 C.F.R. § 201.57;  see also  Naitee Ting, Ding-Geng Chen, Shuyen Ho & Joseph C. Cappelleri,   Phase II Clinical Development of New Drugs  18 - 19 (2017)  (describing these negotiations) .  Other asp...",
+      "citations_count": 2,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains a regulation citation and a book citation, both of which are clearly identifiable by their format and context.",
+      "parsed_at": "2025-08-09T13:58:59.077217",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "regulation",
+          "full_text": "21 C.F.R. § 201.57",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "2",
+          "type": "book",
+          "full_text": "Naitee Ting, Ding-Geng Chen, Shuyen Ho & Joseph C. Cappelleri, Phase II Clinical Development of New Drugs 18 - 19 (2017)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 14,
+      "original_text": "See   Daniel Carpenter, Reputation and Power: Organizational Image and Pharmaceutical Regulation At the FDA  73 - 117 (2010) (describing FDA’s authority under the Federal Food Drug & Cosmetics Act of ...",
+      "citations_count": 2,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains two citations: one to a book by Daniel Carpenter and another to an article by Nathan Cortez. Both are clearly identified with author names, titles, and publication details.",
+      "parsed_at": "2025-08-09T13:59:02.807176",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "book",
+          "full_text": "Daniel Carpenter, Reputation and Power: Organizational Image and Pharmaceutical Regulation At the FDA 73 - 117 (2010)",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "citation_2",
+          "type": "article",
+          "full_text": "Nathan Cortez, The Statutory Case Against Off-Label Promotion, 83 U. Chi. L. Rev. Online 124, 128-33 (2017)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 15,
+      "original_text": "E.g. , 21 U.S.C. §§ 331(a)-(c).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is clearly a reference to a section of the United States Code, which is a statute.",
+      "parsed_at": "2025-08-09T13:59:05.471702",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "21 U.S.C. §§ 331(a)-(c)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 16,
+      "original_text": "Id.  § 352(a)(1).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation uses 'Id.' indicating a reference to a previously mentioned statute, with section 352(a)(1) specified.",
+      "parsed_at": "2025-08-09T13:59:07.731458",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "Id. § 352(a)(1)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 17,
+      "original_text": "Id.  § 355(j)(2)(A)(v).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation refers to a section of the United States Code, specifically 21 U.S.C. § 355(j)(2)(A)(v), which is a common reference in legal documents related to drug approval processes.",
+      "parsed_at": "2025-08-09T13:59:10.533127",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "Id. § 355(j)(2)(A)(v)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 18,
+      "original_text": "35 U.S.C. § 271(e)(2)(A).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is a reference to a specific section of the United States Code, which is a statute.",
+      "parsed_at": "2025-08-09T13:59:13.092941",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "35 U.S.C. § 271(e)(2)(A)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 19,
+      "original_text": "  Id.  § 282(b).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation uses 'Id.' indicating a reference to a previously mentioned statute, with section 282(b) specified.",
+      "parsed_at": "2025-08-09T13:59:15.260586",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "Id. § 282(b)",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 20,
+      "original_text": "21 U.S.C. § 355(j)(2)(A)(i).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is a reference to a specific section of the United States Code, which is a statute.",
+      "parsed_at": "2025-08-09T13:59:17.887348",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(j)(2)(A)(i)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 21,
+      "original_text": "35 U.S.C. § 271(b);  see also   case s cited  supra  note  1 . In this circumstance, the doctors are what patent lawyers would call “direct infringers”—they are the ones actually  using  the brand’s p...",
+      "citations_count": 2,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains two clear references to sections of the United States Code, which are identified as statutes. The context and structure of the citations are typical for legal references to statutory law.",
+      "parsed_at": "2025-08-09T13:59:21.899556",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "35 U.S.C. § 271(b)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "citation_2",
+          "type": "statute",
+          "full_text": "35 U.S.C. § 271(a)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 22,
+      "original_text": "21 U.S.C. § 355(j)(2)(A)(viii).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is clearly a reference to a section of the United States Code, which is a federal statute.",
+      "parsed_at": "2025-08-09T13:59:24.048615",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(j)(2)(A)(viii)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 23,
+      "original_text": "  Caraco Pharm. Lab’ys, Ltd. v. Novo Nordisk A/S, 566 U.S. 399, 415 (2012) (“The statutory scheme . . . contemplates that one patented use will not foreclose marketing a generic drug for other unpaten...",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is a U.S. Supreme Court case with clear volume, reporter, page, and year information.",
+      "parsed_at": "2025-08-09T13:59:26.909105",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "case",
+          "full_text": "Caraco Pharm. Lab’ys, Ltd. v. Novo Nordisk A/S, 566 U.S. 399, 415 (2012)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 24,
+      "original_text": "In re  Barr Lab ’ ys, Inc., 930 F.2d 72, 76 (D.C. Cir. 1991) .",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation follows a standard legal case citation format, including case name, volume, reporter, page, court, and year.",
+      "parsed_at": "2025-08-09T13:59:28.998737",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "case",
+          "full_text": "In re Barr Lab ’ ys, Inc., 930 F.2d 72, 76 (D.C. Cir. 1991)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 25,
+      "original_text": " The Federal Circuit has exclusive jurisdiction over all appeals in patent cases nationwide. 28 U.S.C. § 1295(a)(1). ",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is a statute from the United States Code, specifically Title 28, Section 1295(a)(1), which grants the Federal Circuit exclusive jurisdiction over patent case appeals.",
+      "parsed_at": "2025-08-09T13:59:31.103493",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "statute",
+          "full_text": "28 U.S.C. § 1295(a)(1)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 26,
+      "original_text": "7 F.4th 1320 (Fed. Cir. 2021) (per curiam).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is clearly a case citation from the Federal Circuit Court in 2021, with volume, reporter, and page number provided.",
+      "parsed_at": "2025-08-09T13:59:33.569854",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "case",
+          "full_text": "7 F.4th 1320 (Fed. Cir. 2021) (per curiam)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 27,
+      "original_text": "Namely, that the generic was “therapeutically equivalent” to its branded counterpart.  Id.  at 1335-39; Brief for the United States as Amicus Curiae, Teva Pharmaceuticals USA, Inc. v. GlaxoSmithKline ...",
+      "citations_count": 2,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains a case citation and a website citation. The case citation includes the case name, court, and year. The website citation includes the author, title, and URL.",
+      "parsed_at": "2025-08-09T13:59:37.366493",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "case",
+          "full_text": "Teva Pharmaceuticals USA, Inc. v. GlaxoSmithKline LLC, No. 22-37 (U.S. Mar. 29, 2023)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "2",
+          "type": "website",
+          "full_text": "Jonathan Stempel, U.S. Appeals Court Revives Glaxo $235.5 mln Verdict Against Teva, Reuters (Oct. 2, 2020), https://www.reuters.com/article/business/healthcare-pharmaceuticals/u-s-appeals-court-revives-glaxo-235-5-million-verdict-against-teva-idUSKBN26N2R7/ [https://perma.cc/U79Q-2QK8]",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 28,
+      "original_text": "See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 136 4- 6 5  (Fed. Cir. 2003 ) (“[T]he request to make and sell a drug labeled with a permissible (non-infringing) use cannot reasonably be inte...",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is a federal appellate case with clear identifiers for volume, reporter, page, court, and year.",
+      "parsed_at": "2025-08-09T13:59:40.023339",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "case",
+          "full_text": "Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1364-1365 (Fed. Cir. 2003)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 29,
+      "original_text": "7 4  F.4th 1360, 1365 (Fed. Cir. 2023).",
+      "citations_count": 1,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The citation is a case from the Federal Reporter, Fourth Series, with volume, page, court, and year clearly indicated.",
+      "parsed_at": "2025-08-09T13:59:42.688633",
+      "citations": [
+        {
+          "citation_id": "citation_1",
+          "type": "case",
+          "full_text": "74 F.4th 1360, 1365 (Fed. Cir. 2023)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 30,
+      "original_text": "104 F.4th 1370 , 1379 (Fed. Cir. 2024);  see also  Janssen Pharms., Inc. v. Mylan Lab'ys Ltd., No. 23-2042, 2025 WL 946390, at *3 (Fed. Cir. Mar. 28, 2025)  (affirming a ruling of induced infringement...",
+      "citations_count": 2,
+      "parsing_confidence": 0.95,
+      "gpt_reasoning": "The footnote contains two case citations from the Federal Circuit, identified by volume, reporter, page, court, and year.",
+      "parsed_at": "2025-08-09T13:59:46.166442",
+      "citations": [
+        {
+          "citation_id": "1",
+          "type": "case",
+          "full_text": "104 F.4th 1370, 1379 (Fed. Cir. 2024)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "2",
+          "type": "case",
+          "full_text": "Janssen Pharms., Inc. v. Mylan Lab'ys Ltd., No. 23-2042, 2025 WL 946390, at *3 (Fed. Cir. Mar. 28, 2025)",
+          "retrieval_priority": 1
+        }
+      ]
+    }
+  ],
+  "retrieval_results": [
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:46.891653"
+    },
+    {
+      "citation_id": "2",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/2_SCOTUS_Vol919.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/919bv.pdf",
+      "retrieved_at": "2025-08-09T13:59:48.205078"
+    },
+    {
+      "citation_id": "3",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/3_SCOTUS_Vol785.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/785bv.pdf",
+      "retrieved_at": "2025-08-09T13:59:48.279919"
+    },
+    {
+      "citation_id": "4",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/4_SCOTUS_Vol633.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/633bv.pdf",
+      "retrieved_at": "2025-08-09T13:59:48.396381"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:49.387882"
+    },
+    {
+      "citation_id": "2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:50.497753"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.057837"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.058179"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.058371"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.058557"
+    },
+    {
+      "citation_id": "2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.058769"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.058975"
+    },
+    {
+      "citation_id": "citation_2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.059173"
+    },
+    {
+      "citation_id": "citation_3",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.059346"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.059555"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.413614"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.413826"
+    },
+    {
+      "citation_id": "2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.413906"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.413990"
+    },
+    {
+      "citation_id": "citation_2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.414086"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.770972"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:51.771199"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:52.162927"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:52.472544"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:52.472737"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:52.894762"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:53.199814"
+    },
+    {
+      "citation_id": "citation_2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:53.508804"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:53.920582"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/1_SCOTUS_Vol566.pdf",
+      "file_size_bytes": 3952578,
+      "is_valid_pdf": true,
+      "page_count": 940,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/566bv.pdf",
+      "retrieved_at": "2025-08-09T13:59:54.172584"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/citation_1_SCOTUS_Vol930.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/930bv.pdf",
+      "retrieved_at": "2025-08-09T13:59:54.239297"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:54.507968"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:54.508392"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:55.540413"
+    },
+    {
+      "citation_id": "2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:55.540845"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:55.973221"
+    },
+    {
+      "citation_id": "citation_1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:55.973602"
+    },
+    {
+      "citation_id": "1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:55.973828"
+    },
+    {
+      "citation_id": "2",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:59:56.810540"
+    }
+  ],
+  "completed_at": "2025-08-09T13:59:56.811366",
+  "duration_seconds": 98.319559,
+  "success_rate": 12.82051282051282
+}

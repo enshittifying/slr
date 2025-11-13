@@ -1,0 +1,109 @@
+TITLE: Oregon (Or.) (pp. 310–11)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: oregon-or
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Oregon (Or.)
+(pp. 310–11)
+https://www.courts.oregon.gov/pages/default.aspx
+https://www.oregonlegislature.gov/bills_laws
+Supreme Court
+(
+Or.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+Oregon Reports
+1853–date
+Or.
+Court of Appeals
+(
+Or. Ct. App.
+): Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1969–date
+P.2d, P.3d
+Oregon Reports, Court of Appeals
+1969–date
+Or. App.
+Tax Court
+(
+Or. T.C.
+): Cite to
+Or. Tax
+.
+Oregon Tax Reports
+1962–date
+Or. Tax
+Statutory compilations:
+Cite to
+Or. Rev. Stat.
+, if therein.
+Oregon Revised Statutes
+Or. Rev. Stat
+. § x.x (
+<year>
+)
+West’s Oregon Revised Statutes Annotated
+Or. Rev. Stat. Ann.
+§ x.x (West
+<year>
+)
+Session laws:
+Cite to
+Or. Laws
+, if therein. When citing statutes repealed during or after 1953, indicate parenthetically the former
+Or. Rev. Stat.
+sections.
+Oregon Laws and Resolutions
+<year>
+Or. Laws
+<page no.> or
+<year>
+Or. Laws Spec. Sess.
+<page no.> or
+<year>
+Or. Laws Adv. Sh. No. x,
+<page no.>
+West’s Oregon Legislative Service
+<year>
+Or. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Oregon Administrative Rules
+Or. Admin. R
+.
+<rule no.>
+(
+<year>
+)
+Administrative register
+Oregon Bulletin
+<vol. no.>
+Or. Bull.
+<page no.>
+(
+<month day, year>
+)

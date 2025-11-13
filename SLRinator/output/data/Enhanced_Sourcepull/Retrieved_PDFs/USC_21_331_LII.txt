@@ -1,0 +1,9 @@
+USC Title 21, Section 331(a)-(c)
+Source: Cornell Legal Information Institute
+URL: https://www.law.cornell.edu/uscode/text/21/331
+Citation: 21 U.S.C. §§ 331(a)-(c)
+Retrieved at: 2025-08-09T13:59:51.770389
+
+============================================================
+Note: Full HTML content parsing would be implemented here
+to extract the actual statute text and create a proper PDF.

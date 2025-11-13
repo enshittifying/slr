@@ -1,0 +1,176 @@
+TITLE: Illinois (Ill.) (pp. 284–86)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: illinois-ill
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Illinois (Ill.)
+(pp. 284–86)
+https://www.illinoiscourts.gov/
+http://www.ilga.gov/legislation/ilcs/ilcs.asp
+Public domain format:
+Illinois has adopted a public domain citation format for cases filed after June 30, 2011. The format is:
+People v. Jolly, 2014 IL 117142, ¶ 32.
+People v. Jolly, 2016 IL App (4th) 150494-V, ¶¶ 7-11.
+For additional instruction, consult Illinois Supreme Court Rule 6.
+Supreme Court
+(
+Ill.
+): Cite to
+N.E.
+,
+N.E.2d
+, or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1884–date
+N.E., N.E.2d, N.E.3d
+Illinois Official Reports
+2011–date
+<year>
+IL
+<docket no.>
+Illinois Reports
+11 Ill
+. to 239 Ill. 2d
+1849–2011
+Ill., Ill. 2d
+Gilman
+1844–1849
+e.g.,
+6 Ill. (1 Gilm.)
+Scammon
+1832–1843
+e.g
+.,
+2 Ill. (1 Scam.)
+Breese
+1819–1831
+1 Ill. (Breese)
+West's Illinois Decisions
+1976–date
+Ill. Dec.
+Appellate Court
+(
+Ill. App. Ct.
+): Cite to
+N.E.2d
+, N.E.3d
+, if therein.
+North Eastern Reporter
+1936–date
+N.E.2d, N.E.3d
+Illinois Official Reports
+2011–date
+<year>
+IL (
+<docket no.>
+)
+lllinois Appellate Court Reports
+1877–2011
+Ill. App., Ill. App. 2d, Ill. App. 3d
+West’s Illinois Decisions
+1976–date
+Ill. Dec.
+Illinois Circuit Court
+(
+Ill. Cir. Ct.
+), previously
+Court of Claims
+(
+Ill. Ct. Cl.
+): Cite to
+Ill. Ct. Cl., if therein.
+Illinois Court of Claims Reports
+1889–date
+Ill. Ct. Cl.
+Statutory compilations:
+Cite to
+Ill. Comp. Stat.
+, if therein.
+Illinois Compiled Statutes
+<ch. no.>
+Ill. Comp. Stat
+.
+<act no.>
+/
+<sec. no.>
+(
+<year>
+)
+West’s Smith-Hurd Illinois Compiled
+Statutes Annotated
+<ch. no.>
+Ill. Comp. Stat. Ann
+.
+<act no.>
+/
+<sec. no.>
+(West
+<year>
+)
+Illinois Compiled Statutes Annotated
+(LexisNexis)
+<ch. no.>
+Ill. Comp. Stat. Ann.
+<act no.>
+/
+<sec. no.>
+(LexisNexis
+<year>
+)
+Session laws:
+Cite to
+Ill. Laws
+, if therein.
+Laws of Illinois
+<year>
+Ill. Laws
+<page no.>
+Illinois Legislative Service (West)
+<year>
+Ill. Legis. Serv.
+<page no.>
+(West)
+Illinois Compiled Statutes Annotated Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Ill. Comp. Stat. Ann. Adv.
+Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilations:
+Cite to
+Ill. Admin. Code
+, if therein.
+Illinois Administrative Code
+Ill. Admin. Code
+tit. x, § x (
+<year>
+)
+Code of Illinois Rules (LexisNexis)
+<vol. no.>
+Ill. Code R.
+<rule no.>
+(LexisNexis
+<year>
+)
+Administrative register
+Illinois Register
+<vol. no.>
+Ill. Reg.
+<page no.>
+(
+<month day, year>
+)

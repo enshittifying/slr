@@ -1,0 +1,297 @@
+TITLE: T2.42 Sweden
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-40-sweden
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.42
+Sweden
+(Civil Law)
+Swedish constitutions, codes, and statutes are usually divided into chapters, and are always organized by sections (§). Note that a section in Swedish is called
+paragraf
+, which may cause some confusion.
+Cases
+Ordinary jurisdiction
+Courts of ordinary jurisdiction include:
+Högsta Domstolen
+(HD) (Supreme Court), cite to
+Nytt Juridiskt Arkiv
+(NJA) (Supreme Court Reports);
+Hovrätt
+(HovR) (Court of Appeals), cite to Rättsfall från Hovrätterna (RH) (cases from the Courts of Appeal); and
+Tingsrätt
+(TR) (district courts, courts of first instance in civil and criminal matters), citation should include T for civil cases (Tvistemål) and B for criminal cases (Brottmål).
+Citation format for a Supreme Court case published in hard copy format:
+<publication name>
+[
+<publication abbreviation>
+] [
+<English translation of publication
+name>
+]
+<year of decision>
+p.
+<first page> <case number>
+(
+<country abbreviation if not
+evident from context>
+).
+Nytt Juridiskt Arkiv [NJA] [Supreme Court Reports] 2004
+p. 19 Ö 1944-02 (Swed.).
+Citation format for a Supreme Court case published e
+lectronically only:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<date of decision in year-month-day format> <case number>
+(
+<country abbreviation if not evident from context>
+),
+<URL>
+.
+Högsta Domstolen [HD] [Supreme Court] 2004-01-28 Ö 1944-02 (Swed.), http://www.hogstadomstolen.se /Domstolar/hogstadomstolen/Avgoranden/2004/2004-01-28 _%c3%b6_1944-02_beslut.pdf.
+Courts of ordinary jurisdiction can also exercise jurisdiction as specialized courts:
+Mark och Miljödomstolar (Land and Environmental Court)
+(part of Nacka, Vänersborg, Växjö, Umeå, and Östersund Tingsrätter [District Courts])
+MMD
+Mark-och miljööverdomstol (Land and Environmental Court of Appeal)
+(Svea Court of Appeals exercises this special jurisdiction; see
+http://www.markochmiljooverdomstolen.se
+)
+MÖD
+Administrative jurisdiction
+The administrative courts include:
+Högsta Förvaltningsdomstolen
+(
+HFD
+) (Supreme Administrative Court), cite to
+Högsta förvaltningsrättens årsbok
+(
+HFD
+) (Supreme Administrative Court Year Book);
+Kammarrätten
+(
+KR
+) (administrative courts of appeal), cite to
+Rättsfall från Kammarrätterna
+(
+RK
+) (Court Cases from the Administrative Courts of Appeals); and
+Förvaltningsrätten
+(
+FR
+) (county administrative courts). Four of the
+Förvaltningsrätter
+(in Stockholm, Göteborg, Malmö, and Luleå) also serve as Migration Courts, deciding migration cases on appeal from Migrationsverket (the Migration Board).  Kammarrätten in Stockholm serves as the Migrationsöverdomstolen (Court of Migration Appeal).
+Regeringsrättens årsbok (RÅ) (Supreme Administrative Court Year Book) covers 1909–2010; Högsta förvaltningsrättens årsbok (HFD) (Supreme Administrative Court Year Book) covers 2011–present.
+Citation format for a Supreme Administrative Court case published in hard copy format:
+<publication name>
+[
+<publication abbreviation
+>] [
+<English translation of publication name>
+]
+<year of decision>
+ref
+<case placement in publication>
+(
+<country abbreviation if not evident from context>
+).
+Regeringsrättens årsbok [RÅ] [Supreme Administrative Court Year Book] 2004 ref 34 (Swed.).
+Högsta förvaltningsrättens årsbok [HFD] [Supreme Administrative Court Year Book] 2012 ref 49 (Swed.).
+Citation format for a Supreme Administrative Court case published e
+lectronically only:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<year of decision>
+case no.
+<case number>
+,
+<URL>
+(
+<country abbreviation if not evident from context>
+).
+Högsta förvaltningsrättens beslut [HFD] [Supreme Administrative Court Decision] 2011 case no. 2563-10, http://www.hogstaforvaltningsdomstolen.se/Domstolar/regeringsratten/Avg%c3%b6randen/2011/Januari/2563-10.pdf (Swed.).
+Specialist administrative courts
+Arbetsdomstolen (Labor Court)
+AD
+Marknadsdomstolen (Market Court)
+MD
+Patentbesvärsrätten (Court of Patent Appeals)
+PBR
+Constitutions
+Citation format:
+<
+name of constitution
+>
+[
+<abbreviation of constitution>
+]
+[Constitution]
+<chapter number>
+:
+<section number>
+(
+<country abbreviation if not evident from context>
+).
+Regeringsformen [RF] [Constitution
+] 5:1 (Swed.).
+Regeringsformen
+(Instrument of Government)
+RF
+Successionsordningen
+(Act of Succession)
+SO
+Tryckfrihetsförordningen
+(Freedom of the Press Act)
+TF
+Yttrandefrihetsgrundlagen
+(Freedom of Expression Act)
+YGL
+Riksdagsordningen (
+The Riksdag Act
+)
+RO
+Codes
+The National Code of Sweden of 1734 is still formally in use but is not a systematic codification as is, for example, the Civil Code of France. The National Code serves to collect and organize laws on the same legal topic, but many statutes fall outside the scope of the National Code.
+Citation format:
+<code name>
+[
+<code abbreviation>
+] [
+<English translation of code name>
+]
+<chapter number>
+:
+<section number>
+(
+<country abbreviation if not evident from context>
+).
+Äktenskapsbalk [ÄktB] [Marriage Code
+] 1:1 (Swed.).
+Äktenskapsbalk
+(Marriage Code)
+ÄktB
+Föräldrabalk
+(Children and Parents Code)
+FB
+Ärvdabalk
+(Inheritance Code)
+ÄB
+Jordabalk
+(Land Code)
+JB
+Miljöbalk
+(Environmental Code)
+MB
+Byggningabalk
+(Book on Building)
+BB
+Handelsbalk
+(Commerce Code)
+HB
+Rättegångsbalken
+(Code of Judicial Procedure)
+RB
+Brottsbalken
+(Penal Code)
+BrB
+Utsökningsbalk
+(Enforcement Code)
+UB
+Socialförsäkringsbalken
+(Social Insurance Code)
+SFB
+Statutes
+Citation format:
+<chapter number>
+ch.
+<section number>
+§
+<statute name>
+(
+<publication name>
+[
+<publication abbreviation>
+]
+<year>
+:
+<law number>
+) (
+<country abbreviation if not evident from context>
+).
+Lag om utgivning av elektroniska pengar
+(Svensk författningssamling [SFS] 2002:149) (Swed.).
+Note that to cite a specific subdivision from a statute, the subdivision (section and/or chapter number) comes before the statute name.
+For short forms, give only the publication abbreviation:
+2 ch. 3 §
+Vapenlag
+(SFS 1996:1830) (Swed.).
+1 §
+Livsmedelslag
+(SFS 2006:804) (Swed.).
+Legislative history
+Government bills, government report series, and parliamentary committee reports are part of the legislative history of an enactment.
+Citation format for a government bill: Proposition [Prop.]
+<Parliament session years>
+:
+<bill number> <government bill name>
+[government bill] (
+<country abbreviation if not evident from context>
+).
+Proposition [Prop.] 2004/2005:19 Beskattning av utomlands bosatta [government bill] (Swed.).
+Citation format for government report series:
+Statens Offentliga Utredningar [SOU]
+<year>
+:
+<number> <government report name>
+[government report series] (
+<country abbreviation if not evident from context>
+).
+Statens Offentliga Utredningar [SOU] 2004:95 Nya regler om prospekt m.m. [government report series] (Swed.).
+Citation format for parliamentary committee reports:
+<name of the parliamentary committee> <parliament session years>
+:
+<committee and report acronym>
+[parliamentary committee report] (
+<country abbreviation if not evident from context>
+).
+Sammansatta konstitutions- och utrikesutskottets betänkande 2006/2007:KUU1 [parliamentary committee report] (Swed.).
+Periodicals
+Svensk Juristtidning
+SvJT
+Internet sources
+http://www.riksdagen.se
+(Riksdagen (Swedish Parliament))
+http://www.riksdagen.se/sv/Dok...
+(legislation)
+http://www.regeringen.se
+(Regeringen (Swedish Government); legislative history under “publikationer”)
+http://www.domstol.se
+(Sveriges Domstolar (Swedish courts))
+http://www.rattsinfosok.dom.se/lagrummet/index.jsp
+(Swedish courts’ website for decisions)
+http://www.lagrummet.se
+(Public Administration’s website for legal information)
+http://www.hogstadomstolen.se
+(Högsta Domstolen (Swedish Supreme Court))
+http://www.advokatsamfundet.se
+(Swedish Bar Association)
+http://www.loc.gov/law/help/guide/nations/sweden.php
+(Library of Congress Guide to Law Online: Sweden)

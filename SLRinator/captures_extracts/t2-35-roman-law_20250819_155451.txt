@@ -1,0 +1,101 @@
+TITLE: T2.36 Roman Law
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-35-roman-law
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.36
+Roman Law
+(Civil Law)
+Cite all Roman legal materials by the name of the individual document or fragment, as in the examples below, not by the title of a collection that includes the material. “
+Pr.
+” may be used for
+principio
+, which refers to the first paragraph or the fragment of a title of any of the sources below. Citations to a particular English translation may be included parenthetically.
+N
+ov
+. 15.pr. (535).
+G. Inst.
+1.144 (F. de Zuleta trans., 1946).
+Institutes of Justinian.
+Citation format:
+<work abbreviation> <book number>
+.
+<title number>
+.
+<section number(s)>
+.
+J. Inst.
+2.23.1.
+Digest of Justinian.
+Citation format:
+<work abbreviation>
+<book number>
+.
+<section number>
+.
+<item number>
+(
+<name of author>
+,
+<title of work of author>
+<book number of work of author>
+).
+Dig.
+9.2.23 (Ulpian, Ad Edictum 18).
+Code of Justinian
+.
+Citation format:
+<work abbreviation>
+<book number>
+.
+<title number>
+.
+<section number(s)>
+(
+<relevant emperor name(s)>
+<year(s)>
+).
+Code Just
+. 2.45.3 (Diocletian & Maximian 290/293).
+Novels of Justinian.
+Citation format:
+<work abbreviation>
+<number of novella>
+.
+<section number>
+(
+<year>
+).
+Nov
+. 15.1 (535).
+Institutes of Gaius.
+Citation format:
+<work abbreviation>
+<book number>
+.
+<section number>
+.
+G. Inst.
+1.144.
+Code of Theodosius
+.
+Citation format:
+<work abbreviation>
+<book number>
+.
+<title>
+.
+<section number(s)>
+.
+Code Theod.
+8.4.14.

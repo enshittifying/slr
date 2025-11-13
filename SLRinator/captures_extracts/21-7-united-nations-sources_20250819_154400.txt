@@ -1,0 +1,235 @@
+TITLE: 21.7 United Nations Sources (pp. 229–35)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-7-united-nations-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.7
+United Nations Sources
+(pp. 229–35)
+The Official Records are the preferred source for United Nations citations, but masthead documents and documents drawn from U.N. websites are acceptable. Press releases, sales documents, yearbooks, and periodicals should be cited only when preferred sources are unavailable.
+Whenever possible, paragraph and article numbers, rather than page numbers of the Official Records, should be used for pincites. Some documents utilize both unnumbered and numbered paragraphs, referred to as preambular and operative paragraphs, respectively; cite language in preambular paragraphs by page number and language in operative paragraphs by paragraph number. For General Assembly and Security Council resolutions, cite the Official Records and provide a parallel citation for the individual resolution.
+This section covers the principal organs of the United Nations and several subsidiaries of the General Assembly. Subsidiaries of organs or committees should be included in citations whenever appropriate. Other organs and committees not specifically covered by this section should be cited analogously to the examples in this rule. If a committee is known by an abbreviation, write out the committee’s full name and include an abbreviation in brackets if useful for subsequent citations.
+21.7.1 –
+Verbatim and Summary Records
+The General Assembly, the Security Council, and the Economic and Social Council have Official Records. All citations to verbatim and summary records should be to the Official Records whenever possible.
+Include the Official Records title; the subdivision of the organ, if necessary; the session and meeting number; the pincite, if necessary; the U.N. document symbol; and the date:
+U.N. GAOR, 56th Sess., 1st plen. mtg. at 3, U.N. Doc. A/56/PV.1 (Sep. 12, 2001).
+U.N. SCOR, 59th Sess., 4893d mtg. at 2, U.N. Doc. S/PV.4893 (Jan. 15, 2004).
+21.7.2 –
+Resolutions and Decisions
+Authorized versions of resolutions appear in the Official Records. It has become customary, however, to cite electronic versions or resolutions found in the Official Document System (
+ODS
+) of the United Nations using resolution symbols. For pincites to material within a resolution, use paragraph or article numbers.
+(a) General Assembly.
+After 1976, General Assembly resolution symbols are designated as session number/resolution number. The first resolution adopted during the forty-seventh General Assembly would thus be
+G.A. Res. 47/1
+.
+Prior to 1976, the resolution symbols continued increasing from year to year and the session number was indicated as a Roman numeral in parentheses after the resolution number.
+(i) General Assembly resolutions.
+General Assembly resolutions are cited by resolution number and date:
+G.A. Res. 832 (IX), at 19 (Oct. 21, 1954).
+G.A. Res. 47/163, ¶ 5 (Dec. 18, 1992).
+(ii) General Assembly decisions.
+General Assembly decisions are cited by resolution number and date:
+G.A. Dec. 62/557, U.N. Doc. A/63/49 (Vol. III), at 106 (Sep. 15, 2008).
+(iii) General Assembly resolutions known by a popular name.
+For General Assembly resolutions known by a specific title (e.g., the
+Universal Declaration of Human Rights
+), or for resolutions whose title is important in the context cited, insert the title after the resolution number. Note that some documents or statements, such as the last of the three below, are included as annexes to resolutions and need to be identified as such:
+G.A. Res. 217 (III) A, Universal Declaration of Human Rights (Dec. 10, 1948).
+G.A. Res. 60/1, 2005 World Summit Outcome (Sep. 16, 2005).
+G.A. Res. 47/135, annex, Declaration on the Rights of Persons Belonging to National or Ethnic, Religious and Linguistic Minorities (Dec. 18, 1992).
+(b) Security Council resolutions.
+Security Council resolutions and statements of the Security Council President are cited by resolution number and date:
+S.C. Res. 508, ¶ 3 (June 5, 1982).
+S.C. Res. 1325, ¶ 8 (Oct. 31, 2000).
+S.C. President Statement 2008/48 (Dec. 22, 2008).
+(c) Resolutions issued by other organs.
+Resolutions issued by other U.N. organs should be cited analogously to General Assembly and Security Council resolutions. List the title of the U.N. organ first:
+Economic and Social Council Res. 1990/26 (May 24, 1990).
+Trusteeship Council Res. 2014 (XXVI), at 2 (June 1, 1960).
+(d) Resolutions by subsidiary bodies.
+Resolutions by subsidiary bodies of the principal U.N. organs should be cited by the name of the subsidiary body and resolution number; the U.N. document symbol; the pincite, if any; and the date:
+Human Rights Council Res. 5/1, U.N. Doc. A/62/53, at 48 (June 18, 2007).
+(e) Short form.
+Resolutions can subsequently be cited in short form, with "
+supra
+" and a pincite:
+S.C. Res. 508,
+supra
+note 1, ¶ 2.
+H.R.C. Res. 5/1,
+supra
+note 2, ¶ 1.
+21.7.3 –
+U.N. Reports
+(a) In general.
+Reports from U.N. organs, committees, or the Secretariat should include the name of the body and the subcommittee (both abbreviated according to
+rule 15.1(e)
+), if any; the title of the report; the pincite, if any; the document symbol; and the date. If a personal author is given, that person should be named as the author, with official role noted in parentheses if relevant (e.g.,
+Maurice Kamto (Special Rapporteur)
+).
+(b) Reports of subsidiary bodies to parent organs.
+Reports of subsidiary bodies to parent organs are usually part of the Official Records of the parent organ, as are the reports of the principal organs to the General Assembly. Include the title of the report; the name of the body; the session number; the dates of the session; the pincite, if any; the document symbol; the Official Record supplement number; and the date of publication:
+Rep. of the S.C., at 16–17, U.N. Doc. A/63/2 (2008).
+Comm. on the Peaceful Uses of Outer Space, Rep. of the Legal Subcomm. on Its Fifty-Third Session, U.N. Doc. A/AC.105/1067 (2014).
+Int'l L. Comm'n, Rep. on the Work of Its Sixty-Fourth Session, at 46–51, U.N. Doc. A/67/10 (2012).
+Rep. of the Group of Experts on Côte d’Ivoire (2006), transmitted by Letter dated 17 October 2007 from the Chairman of the Security Council Comm. Established Pursuant to Res. 1572 (2004) Concerning Côte d’Ivoire Addressed to the President of the Security Council,  ¶¶ 61–80, U.N. Doc. S/2007/611 (Oct. 18, 2007).
+(c) Reports from the Secretary-General or other officials.
+When citing a report published by the Secretary-General, or anyone acting in an official capacity as a committee chair, representative, envoy, etc., include in the citation: the author of the report; the title of the report; the pincite, if any; the body to which the document is delivered, if needed; the document symbol; and the date. If a personal author is given, that person should be named as author, with his or her official role noted in parentheses if relevant:
+U.N. Secretary-General,
+An Agenda for Peace: Preventive Diplomacy, Peacemaking and Peace-Keeping
+, ¶ 14, U.N. Doc. A/47/277-S/24111 (June 17, 1992).
+Executive Chairman of the U.N. Monitoring, Verification and Inspection Comm'n (UNMOVIC),
+Eighth
+Quarterly Rep. of the Executive Chairman
+, U.N. Doc. S/2002/195, annex (Feb. 26, 2002).
+Maurice Kamto (Special Rapporteur on the Expulsion of Aliens),
+Fourth Rep. on the Expulsion of Aliens
+, U.N. Doc. A/CN.4/594 (Mar. 24, 2008).
+(d) Reports from conferences.
+If a report is the product of a conference or a series of conferences, include in the citation: the conference name; the report title; the pincite, if any; the document symbol, if available; and the official document date. Do not include the location and dates of conferences if listed separately on the title page of the document. Do not include dates if they are integrated into the title of the document (e.g., “
+Report of High-Level Conference of May 2012 Concerning Rights of Indigenous Peoples.
+”):
+World Conference on Human Rights,
+Vienna Declaration and Programme of Action
+, ¶ 37, U.N. Doc. A/CONF.157/23 (June 25, 1993).
+U.N. Conference on Environment and Development,
+Rio Declaration on Environment and Development
+, U.N. Doc. A/CONF.151/26/Rev.1 (Vol. I), annex I (Aug. 12, 1992).
+(e) Short forms.
+For reports with long names, it is appropriate to list a short form in brackets at the end of the full citation (
+rule 4.2(b)
+).
+21.7.4 –
+Masthead Documents
+Most U.N. documents are issued as masthead documents. Some documents originally published in masthead form, such as General Assembly and Security Council resolutions, are subsequently issued in the Official Records. Cite the Official Record when possible. Masthead documents should be cited by the name of the institutional author, if any (
+rule 21.7.4(a)
+); the title of the document (
+rule 21.7.4(b)
+); pincite, if any; the document symbol (
+rule 21.7.4(c)
+); and the date of publication:
+U.N. Secretary-General, Letter dated Mar. 2, 2006 from the Secretary-General addressed to the President of the General Assembly, U.N. Doc. A/60/706 (Mar. 3, 2006).
+U.N. President of the S.C., Letter dated Dec. 9, 2008 from the President of the Security Council to the Secretary-General, U.N. Doc. S/2008/757 (Dec. 9, 2008).
+Prevention Through Education, Ministerial Declaration of the First Meeting of the Ministers of Health and Education to Stop HIV/AIDS and Sexually Transmitted Infections in Latin America and the Caribbean, in Letter dated Aug. 15, 2008 from the Chargé d’affaires a.i. of the Permanent Mission of Mexico to the United Nations addressed to the Secretary-General, U.N. Doc. A/63/307 (Aug. 19, 2008).
+Permanent Rep. of Somalia to the U.N., Letter dated May 12, 2008 from the Permanent Rep. of Somalia to the United Nations addressed to the President of the Security Council, U.N. Doc. S/2008/323 (May 14, 2008).
+U.N. Secretariat, Expulsion of Aliens, Memorandum by the Secretariat, ¶¶ 702–44, U.N. Doc. A/CN.4/565 (July 10, 2006).
+(a) Author.
+Include the name of the author, as listed on the cover page of the document:
+U.N. Secretary-General, Letter dated Mar. 2, 2006 from the Secretary-General addressed to the President of the General Assembly, U.N. Doc. A/60/706 (Mar. 3, 2006).
+U.N., Econ. & Soc. Council, Comm. on Arrangements for Consultation with Non-Governmental Orgs., Dev. of Tourism on the African Continent, Statement Submitted by the Int’l Union of Off. Travel Orgs., U.N. Doc. E/C.2/562 (1960).
+(b) Title.
+Capitalize the title in accordance with
+rule 8
+.
+(c) United Nations document symbol.
+Include the U.N. document symbol (
+rule 21.7.1
+), if available.
+21.7.5 –
+U.N. Press Releases and Memoranda
+Cite U.N. press releases and memoranda according to
+rule 17.2.3
+, but also include the U.N. press release symbol:
+Press Release, Security Council, Security Council Takes Up Report on Diamonds, Arms in Sierra Leone; Expert Panel Says Council Sanctions Broken ‘with Impunity,’ U.N. Press Release SC/6997 (Jan. 25, 2001).
+21.7.6 –
+Adjudicatory Bodies Established by the United Nations
+The International Criminal Tribunals for the Former Yugoslavia and Rwanda, the Special Court for Sierra Leone, and other ad hoc and regional tribunals should be cited according to
+rule 21.5.7
+. The U.N. Administrative Tribunal should be cited to
+Judgments of the U.N. Administrative Tribunal
+(
+Judgments U.N. Admin. Trib.
+) by judgment number:
+Eldridge v. Secretary-General of the United Nations, Judgments U.N. Admin. Trib., No. 32, at 144, U.N. Doc. AT/DEC/32 (1953).
+21.7.7 –
+Sales Publications
+Numerous U.N. agencies publish reports, studies, proceedings, and other documents for sale. Citation of sales publications should include the author and title (
+rule 21.7.7(a)
+); the page(s) or paragraph(s) (
+rule 21.7.7(b)
+); the U.N. document symbol, if available (
+rule 21.7.7(c)
+); the sales number (
+rule 21.7.7(d)
+); and the year of publication (
+rule 21.7.7(e)
+).
+(a) Author and title.
+Include the author and title according to
+rules 15.1
+and
+15.3
+. Include the name of the author if it is not apparent from the title of the document:
+U.N. Dep’t of Int’l Econ. & Soc. Affs., U.N. Model Double Taxation Convention Between Developed and Developing Countries
+, at 243, U.N. Doc. ST/ESA/102, U.N. Sales No. E.80.XVI.3 (1980).
+U.N. Dep’t of Econ. & Soc. Affs., Comm. for Dev. Pol’y, Handbook on the Least Developed Country Category: Inclusion, Graduation and Special Support Measures
+, U.N. Sales No. E.07.II.A.9 (2008).
+(b) Pages or paragraphs.
+The volume and subdivision designations should be followed by the page(s) or paragraph(s) to which reference is made. Introduce page numbers with the word “at.”
+(c) United Nations document symbol.
+Include the U.N. document symbol (
+rule 21.7.1
+), if available.
+(d) United Nations sales number.
+Include the U.N. sales number:
+U.N. Dep’t of Int’l Econ. & Soc. Affs., World Economic Survey
+1977, at I-19, U.N. Doc. ST/ESA/82, U.N. Sales No. E.78.II.C.1 (1977).
+(e) Year.
+Give the year of publication.
+21.7.8 –
+Yearbooks and Periodicals
+United Nations yearbooks and periodicals collect summaries of the work of subsidiary organizations and related documents. Citations should include the author and/or title of the document or separately designated article (if any); the name of the yearbook or periodical (abbreviated according to
+rule 16.4
+); and the U.N. document symbol (
+rule 21.7.1
+) or, if none, the U.N. sales number (
+rule 21.7.7(d)
+):
+Summary Records of the 1447th Meeting
+, [1977] 1 Y.B. Int’l L. Comm’n 175, U.N. Doc. A/CN.4/SER.A/1977.
+Human Rights in the Union of Burma in 1953
+, 1953 Y.B. on H.R. 31, U.N. Sales No. 1955.XIV.1.
+1981 U.N. Jurid. Y.B. 41, U.N. Doc. ST/LEG/SER.C/19.
+1985 U.N.Y.B. 1391, U.N. Sales No. E.84.I.1.
+Material reprinted in yearbooks from other U.N. documents should be cited to the original source or to the official records of a U.N. organ:
+Report of the International Law Commission to the General Assembly
+, 19 U.N. GAOR Supp. No. 9, at 1, U.N. Doc. A/5509 (1963),
+reprinted in
+[1963] 2 Y.B. Int’l L. Comm’n 187, U.N. Doc. A/CN.4/SER.A/1963/Add.1.
+21.7.9 –
+Regional Organization Documents
+Resolutions, reports, and other similar documents produced by regional organizations, such as the Organization of American States or the African Union, should be cited analogously to the U.N. materials with pincites, if the reporter has numbered pages and/or paragraphs.
+21.7.10 –
+U.N. Charter
+See
+rule 21.4
+:
+U.N. Charter art. 43, ¶ 1.
+21.7.11 –
+U.N. Internet Materials
+You may cite a website URL for materials without document or press release symbols. United Nations websites are preferable to all other websites. Cite materials in accordance with
+rule 21.7.4
+and format them pursuant to
+rule 18.2
+:
+United Nations Secretary-General, High-Level Event on the Millennium Development Goals 25 September 2008: Committing to Action: Achieving the Millennium Development Goals: Background Note by the Secretary-General (July 25, 2008),
+http://www.un.org/millenniumgoals/2008highlevel/pdf/commiting.pdf
+(on file with author).
+Letter from the President of the General Assembly to all Permanent Representatives and Permanent Observers to the United Nations (Dec. 4, 2008),
+https://www.un.org/en/ga/president/63/pdf/letters/20081204-humanrightsprogramme.pdf
+(on file with the Yale Law Journal).
+United Nations President of the General Assembly, Remarks on the Work to Date of the Sixty-Third Session of the U.N. G.A. (Dec. 23, 2008),
+https://www.un.org/en/ga/president/63/pdf/statements/20081223-gawork.pdf
+(on file with the Columbia Law Review).

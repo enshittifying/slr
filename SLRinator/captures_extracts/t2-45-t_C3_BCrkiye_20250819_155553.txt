@@ -1,0 +1,206 @@
+TITLE: T2.45 Türkiye, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-45-türkiye
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.45
+Türkiye, Republic of
+(Civil Law)
+Cases
+Constitutional Court
+Citation format:
+<court name>
+[
+<abbreviation of court name>
+] [
+<English translation of court name>
+],
+<date of decision>, <matter number> <decision number>, <author of the individual opinion, if applicable>, <paragraph number, if applicable>, <optionally, URL of online publication on the Official Gazette website or the court’s website>
+(
+<country abbreviation if not evident from context>
+).
+Anayasa Mahkemesi [AYM] [Constitutional Court], July 5, 2018, E. 2018/100, K. 2018/79 (Turk.).
+Optional citation format for decisions published in the Constitutional Court’s official reporter:
+<court name>
+[
+<abbreviation of court name>
+] [
+<English translation of court name>
+],
+<date of decision>, <matter number> <decision number>, <author of the individual opinion, if applicable>, <paragraph number, if applicable>
+, AMKD
+<volume number>
+(
+<issue number, if applicable>
+),
+<page number(s)>
+(
+<country abbreviation if not evident from context>
+).
+Anayasa Mahkemesi [AYM] [Constitutional Court], Nov. 12, 2020, E. 2020/10, K. 2020/67, para. 15, AMKD 58(1), 239-40 (Turk.).
+Since 2012, the Constitutional Court has issued individual complaint (
+bireysel başvuru
+) decisions. For individual complaint decisions, use the following citation format:
+<court name>
+[
+<abbreviation of court name>
+] [
+<English translation of court name>
+],
+<name of applicant>
+, App. No.
+<application number>, <date of decision>, <author of the individual opinion, if applicable>, <paragraph number, if applicable>, <optionally, URL of online publication on the Official Gazette website or the court’s website>
+(
+<country abbreviation if not evident from context>
+).
+Anayasa Mahkemesi [AYM] [Constitutional Court], Dilan Dursun, App. No. 2015/18831, Nov. 2, 2022, para. 42, https://www.resmigazete.gov.tr/eskiler/2023/01/20230125-5.pdf (Turk.).
+Court of Cassation
+Türkiye’s Court of Cassation (
+Yargıtay
+) is the nation’s highest appellate court for both civil and criminal cases.
+Citation format:
+<court name>
+[
+<abbreviation of court name>
+] [
+<English translation of court name>
+],
+<name of the chamber issuing the decision>, <date of decision>, <matter number> <decision number>, <author of the individual opinion, if applicable>, <paragraph number, if applicable>, <optionally and if available, URL of online publication on the Official Gazette website or the court’s website>
+(
+<country abbreviation if not evident from context>
+).
+Yargıtay [Yarg.] [Court of Cassation], 4th Civil Chamber, Nov. 17, 1986, E. 1986/4898, K. 1986/7786 (Turk.).
+Council of State
+Türkiye’s Council of State (
+Danıştay
+) is the nation’s highest appellate court for administrative law cases, including tax law cases.
+Citation format:
+<court name>
+[
+<abbreviation of court name>
+] [
+<English translation of court name>
+],
+<name of the chamber issuing the decision>, <date of decision>, <matter number> <decision number>, <author of the individual opinion, if applicable>, <paragraph number, if applicable>, <optionally and if available, URL of online publication on the Official Gazette website or the court’s website>
+(
+<country abbreviation if not evident from context>
+).
+Danıştay [Danis.] [Council of State], 2nd Chamber, Jan. 19, 1996, E. 1994/2059, K. 1996/86 (Turk.).
+Court of Jurisdiction Disputes
+The Court of Jurisdictional Disputes (
+Uyuşmazlık Mahkemesi
+) acts as the final arbiter when there is a dispute over which court has jurisdiction and decides the court that will hear the case.
+Citation format:
+<court name>
+[
+<abbreviation of court name>
+] [
+<English translation of court name>
+],
+<name of the chamber issuing the decision>, <date of decision>, <matter number> <decision number>, <author of the individual opinion, if applicable>, <paragraph number, if applicable>, <optionally and if available, URL of online publication on the Official Gazette website or the court’s website>
+(
+<country abbreviation if not evident from context>
+).
+Uyuşmazlık Mahkemesi [Uyus. Mahk.] [Court of Jurisdictional Disputes], Civil Chamber, Sept. 24, 2018, E. 2018/530, K. 2018/467 (Turk.).
+Other Courts
+For other courts, including intermediary appellate (
+istinaf
+) and first-instance courts, use the following format, to the extent applicable:
+<court name>
+[
+<English translation of court name>
+],
+<date of decision>, <matter number> <decision number>, <author of the individual opinion, if applicable>, <paragraph number, if applicable>, <optionally and if available, URL of online publication on the Official Gazette website, the court’s website, or any other URL>
+(
+<country abbreviation if not evident from context>
+).
+Ankara 10. Asliye Ticaret Mahkemesi [Ankara 10th Commercial Court of First Instance], Jan. 11, 2023, E. 2022/886, K. 2023/17 (Turk.).
+For Turkish court names and their English translations, consult the following table:
+Sulh Ceza Mahkemesi
+Criminal Court of Peace
+Asliye Ceza Mahkemesi
+Criminal Court of First Instance
+Ağır Ceza Mahkemesi
+Heavy Criminal Court
+Sulh Hukuk Mahkemesi
+Civil Court of Peace
+Asliye Hukuk Mahkemesi
+Civil Court of First Instance
+Asliye Ticaret Mahkemesi
+Commercial Court of First Instance
+Aile Mahkemesi
+Family Court
+Bölge Adliye Mahkemesi
+Regional Court of Justice
+Bölge İdare Mahkemesi
+Regional Administrative Court
+Constitution
+Türkiye has had five constitutions since 1876: one in 1876, the second in 1921, the third in 1924, the fourth in 1961, and the fifth and current constitution in 1982. The current constitution of 1982 may be cited as follows:
+Türkiye Cumhuriyeti Anayasası [Constitution of the Republic of Türkiye], Nov. 9, 1982, art. 104, para. 2, cl. a (Turk.).
+Previous constitutions may be cited as follows:
+Türkiye Cumhuriyeti Anayasası [Constitution of the Republic of Türkiye], July 9, 1961, art. 45 (Turk.).
+Teşkilat-ı Esasiye Kanunu [Constitution of the Republic of Türkiye], Apr. 20, 1924, art. 104 (Turk.).
+Teşkilat-ı Esasiye Kanunu [Organic Law of Türkiye], Jan. 20, 1921, art. 1 (Turk.).
+Kanun-i Esasi [Constitution of the Ottoman Empire], Dec. 23, 1876, art. 55 (Turk.).
+Laws, Executive Decrees, and Decisions
+Citation format:
+<name of law or decree>
+[
+<English translation of law or decree>
+], <
+article, paragraph, clause citation, if applicable>,  <number of law or decree>, <date of law or decree>, <number of Official Gazette in which the law or decree is published>, <optionally and if available, URL of online publication on the Official Gazette website or URL of the official website of Turkish law>
+(
+<country abbreviation if not evident from context>
+).
+Türk Medeni Kanunu [Turkish Civil Code], art. 600, para. 3, No. 4721, Nov. 22, 2001, Official Gazette No. 24607, https://www.mevzuat.gov.tr/mevzuatmetin/1.5.4721.pdf (Turk.).
+For different types of executive decrees and legislative and executive decisions, consult the following table:
+Cumhurbaşkanlığı Kararnamesi
+Presidential Decree
+Kanun Hükmünde Kararname
+Decree With Force of Law
+TBMM Kararı
+Decision of the Turkish Grand National Assembly
+Cumhurbaşkanlığı Kararı
+Presidential Decision
+For commonly referenced Turkish laws and decrees and their English translations, consult the following table:
+Türk Ceza Kanunu
+Turkish Criminal Code
+Borçlar Kanunu
+Code of Obligations
+Türk Ticaret Kanunu
+Turkish Commercial Code
+İş Kanunu
+Labor Code
+Ceza Muhakemesi Kanunu
+Criminal Procedure Code
+Hukuk Muhakemeleri Kanunu
+Civil Procedure Code
+Vergi Usul Kanunu
+Tax Procedure Code
+Devlet Memurları Kanunu
+Public Servants Law
+Internet Sources
+https://www.tccb.gov.tr/en/
+(Office of the President of the Republic)
+https://www.tbmm.gov.tr/
+(Turkish Grand National Assembly, i.e., Parliament)
+https://www.anayasa.gov.tr/tr/anasayfa/
+(Turkish Constitutional Court)
+https://www.resmigazete.gov.tr/
+(Official Gazette)
+https://www.mevzuat.gov.tr/
+(Official website on Turkish laws, decrees, regulations, etc.)
+https://www.kanunum.com/
+(legal database; paid subscription)
+https://www.lexpera.com.tr/
+(legal database; paid subscription)

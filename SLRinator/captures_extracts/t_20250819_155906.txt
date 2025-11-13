@@ -1,0 +1,673 @@
+TITLE: Index
+============================================================
+
+METADATA:
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Index
+Type To Search The Index
+“
+Table
+,”
+3.2
+Taiwan, Republic of China
+sources of law
+,
+T2.44
+Tangible objects
+,
+23.11
+Tax Court, citation of cases
+,
+T1.2
+,
+BT2.1
+Tax materials
+cases
+,
+T1.2
+,
+BT2.1
+codes
+,
+12.9
+,
+B12.1
+Cumulative Bulletin
+,
+T1.2
+general counsel memoranda
+,
+T1.2
+,
+B12.1
+generally
+,
+T1.2
+Internal Revenue Bulletin
+,
+T1.2
+Internal Revenue Code
+,
+12.9
+,
+B12.1
+practitioners’ citation forms
+,
+B12.1
+private letter rulings
+,
+T1.2
+,
+B12.1
+revenue procedures
+,
+T1.2
+revenue rulings
+,
+T1.2
+technical advice memoranda
+,
+T1.2
+Treasury decisions
+,
+T1.2
+Treasury regulations
+,
+T1.2
+,
+B12.1
+Telephone interviews
+,
+17.2
+Television broadcasts
+,
+18.7
+Temporary Emergency Court of Appeals
+,
+T1.1
+,
+T7
+Tennessee
+citation rules and style guides
+,
+BT2.2
+sources of law
+,
+T1.3
+Tentative drafts, restatements, and model codes
+,
+12.9
+Term of court
+,
+9
+“Term,”
+capitalization of
+,
+9
+Territories, U.S.
+abbreviation of
+,
+T1.4
+,
+T1.4
+,
+T1.4
+,
+T1.4
+,
+T1.4
+citation rules and style guides
+,
+BT2.3
+souces of law
+,
+T1.4
+,
+T1.4
+,
+T1.4
+,
+T1.4
+,
+T1.4
+,
+T1.4
+Texas
+citation rules and style guides
+,
+BT2.2
+sources of law
+,
+T1.3
+Text
+abbreviation of case names in
+,
+10.2
+court documents and legal memoranda, typeface in
+,
+B2
+law reviews, typeface in
+,
+2.1
+,
+2.2
+numbers in
+,
+6.2
+Textual footnote materials
+typeface used in
+,
+2.1
+,
+2.2
+Textual material in same work, cross reference to
+,
+3.5
+,
+4.1
+Textual reference to statutes
+,
+12.1
+The Bluebook
+,
+15.8
+The Federalist
+,
+15.8
+“The,”
+in case name
+,
+10.2
+Theses, unpublished
+,
+17.2
+Titles
+abbreviations
+,
+15.3
+articles in periodicals
+,
+16.3
+book reviews
+,
+16.7
+books, reports, and other nonperiodic materials
+,
+15.3
+capitalization of
+,
+8
+,
+15.3
+codes, statutory
+,
+12.3
+collected documents
+,
+15.6
+,
+23.3
+congressional documents and reports
+,
+13.4
+,
+13.8
+direct Internet citations
+,
+18.2
+ending with date
+,
+15.3
+foreign
+,
+20.2
+hearings
+,
+13.3
+international agreements
+,
+21.4
+multivolume works
+,
+15.3
+newspaper articles
+,
+16.6
+personal titles
+,
+B9
+services
+,
+19.1
+student-written materials
+,
+16.7
+subtitles of books
+,
+15.3
+Supreme Court Justices
+,
+23.3
+,
+23.7
+,
+B9
+surveys and symposia
+,
+16.7
+treaties
+,
+21.4
+typeface
+,
+2.1
+,
+2.2
+U.N. materials
+,
+21.7
+unpublished works
+,
+17.2
+,
+23.3
+“Title(s),”
+abbreviation of
+,
+T16
+“To,”
+3.2
+“To be codified at,”
+12.6
+used in place of hyphen
+,
+3.2
+Topical reporters
+(see
+Services and topical reporters
+)
+Trademarks
+,
+T1.2
+Transcript of record
+,
+10.8
+,
+B17.1
+Transcripts
+,
+10.8
+audio recordings of court proceedings
+,
+10.8
+Transfer binders, services
+,
+19.1
+"Translating,"
+2.1
+Translations of titles
+,
+20.2
+Translators of books
+,
+15.2
+Treasury decisions
+,
+T1.2
+Treasury Decisions Under Internal Revenue Laws
+,
+T1.2
+Treasury regulations
+,
+T1.2
+Treaties
+(see also
+International agreements
+)
+,
+B21
+citation analyzed
+,
+21.4
+generally
+,
+21.4
+Tribal Nations
+,
+21.4
+,
+22.2
+,
+T4.3
+Treaties and Other International Acts Series
+(
+T.I.A.S.
+)
+,
+21.4
+,
+T4.1
+Treatises
+(see also
+Books, reports, and other nonperiodic materials
+)
+,
+15.1
+Treaty collections
+,
+T4.1
+,
+T4.2
+,
+T4.3
+Treaty Series
+(
+T.S.
+)
+,
+T4.1
+Tribal Nations
+,
+22
+,
+22.1
+,
+22.2
+,
+T1.5
+,
+B22.1
+,
+B22.2
+Türkiye
+sources of national law
+,
+T2.45
+Trusteeship Council Official Records, U.N.
+,
+T3.1
+Typed manuscripts
+,
+17.1
+,
+17.2
+Typeface
+,
+23.10
+articles, authors of
+,
+16.2
+,
+16.3
+articles, titles of
+,
+16.3
+authors, articles
+,
+16.2
+authors, books
+,
+15.1
+authors, works in collection
+,
+15.5
+bills and resolutions
+,
+13.1
+,
+13.2
+books, authors of
+,
+15.1
+books, cited in court documents and legal memoranda
+,
+B2
+books, cited in law reviews
+,
+15.1
+,
+15.3
+books, titles of
+,
+15.3
+bound services
+,
+19.1
+case history terms
+,
+10.6
+,
+10.7
+case names, in court documents and legal memoranda
+,
+B2
+case names, in explanatory parentheticals
+,
+2.2
+case names, in law review citations
+,
+2.1
+case names, in law review text
+,
+2.2
+citations in court documents and legal memoranda
+,
+B2
+codes
+,
+12.3
+collected works
+,
+15.5
+commentary, indication of
+,
+1.6
+constitutions
+,
+11
+court documents and legal memoranda
+,
+B2
+documents, legislative
+,
+13.4
+explanatory parentheticals
+,
+2.2
+explanatory phrases in court documents and legal memoranda
+,
+B2
+explanatory phrases in law review footnotes
+,
+2.1
+footnotes, citations in
+,
+1.1
+,
+1.2
+,
+2.1
+footnotes, text in
+,
+2.1
+,
+2.2
+generally
+,
+2
+,
+2.1
+,
+2.2
+hearings
+,
+13.3
+international agreements
+,
+21.4
+interviews
+,
+17.2
+italics
+,
+B2
+italics represented by underscoring
+,
+B2
+italics showing style
+,
+7
+italics, in footnote citations
+,
+2
+,
+2.1
+italics, in law review text
+,
+2.2
+law review citations
+,
+2
+,
+2.1
+law review text
+,
+2.2
+letters, memoranda, and press releases
+,
+17.2
+looseleaf services
+,
+19.1
+manuscripts
+,
+17.1
+,
+17.2
+model codes
+,
+12.9
+newspapers
+,
+16.6
+ordinances, municipal
+,
+12.9
+ordinary roman type
+,
+2
+,
+2.2
+periodicals, names of
+,
+16.4
+,
+16.5
+publications, cited in court documents and legal memoranda
+,
+B2
+publications, cited in law review text
+,
+2.2
+punctuation
+,
+2.2
+related authority, indication of
+,
+2
+reporters
+,
+10.3
+reports, legislative
+,
+13.4
+restatements
+,
+12.9
+roman type, in footnote citations
+,
+2
+,
+2.1
+roman type, in text
+,
+2.2
+rules of court procedure
+,
+12.9
+services
+,
+19.1
+session laws
+,
+12.4
+shortened citation form
+,
+3.5
+,
+4.1
+,
+4.2
+signals
+,
+2.1
+small capitals
+,
+2
+,
+15
+,
+16
+,
+18
+small capitals, in footnote citations
+,
+2
+,
+2.1
+speeches, citations to
+,
+17.2
+standards
+,
+12.9
+student-written materials
+,
+16.7
+subsequent and prior history of cases
+,
+10.6
+,
+10.7
+,
+T8
+textual footnote material
+,
+2.1
+,
+2.2
+textual material in law reviews
+,
+2.2
+theses
+,
+17.2
+titles
+,
+2.1
+,
+2.2
+treaties and other international agreements
+,
+21.4
+underscoring, use of to represent italics
+,
+B2
+uniform acts
+,
+12.9

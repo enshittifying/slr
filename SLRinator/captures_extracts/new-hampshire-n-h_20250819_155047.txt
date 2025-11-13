@@ -1,0 +1,110 @@
+TITLE: New Hampshire (N.H.) (p.299)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: new-hampshire-n-h
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+New Hampshire (N.H.)
+(p.299)
+https://www.courts.state.nh.us/
+https://www.gencourt.state.nh.us/rsa/html/indexes/default.html
+Supreme Court
+(
+N.H.
+): Cite to
+A., A.2d,
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1885–date
+A., A.2d, A.3d
+New Hampshire Reports
+1816–date
+N.H.
+Statutory compilations:
+Cite to
+N.H. Rev. Stat. Ann.
+(published by West), if therein.
+New Hampshire Revised Statutes Annotated (West)
+N.H. Rev. Stat. Ann
+. § x:x (
+<year>
+)
+LexisNexis New Hampshire Revised Statutes Annotated
+N.H. Rev. Stat. Ann.
+§ x:x (LexisNexis
+<year>
+)
+Session laws:
+Cite to
+N.H. Laws
+or
+N.H. Legis. Serv.
+, if therein.
+Laws of the State of New Hampshire (West)
+<year>
+N.H. Laws
+<page no.>
+New Hampshire Legislative Service (West)
+<year>
+N.H. Legis. Serv.
+<page no.>
+LexisNexis New Hampshire Revised Statutes
+Annotated
+<
+year
+>
+Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+N.H. Rev. Stat. Ann. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilations:
+Cite to
+N.H. Code Admin. R. Ann.
+, if therein.
+New Hampshire Code of Administrative Rules Annotated (LexisNexis)
+N.H. Code Admin. R. Ann.
+<
+dep't name as abbreviated in Rules>
+<rule no.>
+(
+<year>
+)
+Code of New Hampshire Rules (LexisNexis)
+N.H. Code R.
+<dep't name as abbreviated in Rules>
+<rule no.>
+(LexisNexis
+<year>
+)
+Administrative registers:
+Cite to
+N.H. Rulemaking Reg.
+, if therein.
+New Hampshire Rulemaking Register
+<vol. no.>
+N.H. Rulemaking Reg.
+<page no.>
+(
+<month day, year>
+)
+New Hampshire Government Register (LexisNexis)
+<iss. no.>
+N.H. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

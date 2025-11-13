@@ -1,0 +1,28 @@
+TITLE: 23.11 Tangible Objects (p.255)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-11-tangible-objects
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.11
+Tangible Objects
+(p.255)
+Cite a physical object in an archival collection just as you would a standard archival document, omitting the author field. Whenever known, use the date of the object’s creation—not of its discovery, purchase, or archival. As a default, use the title the archive housing the object has provided in the archive’s entry:
+Death Mask of Napolean Bonaparte (1833) (on file with Brown Univ., John Hay Library, Hoffman Collection on Napolean).
+The Gold Pen Used by Lincoln to Sign the Emancipation Proclamation in the Executive Mansion, Washington, D.C. (Jan. 1, 1863) (on file with Yale Univ., Beinecke Rare Book and Manuscript Library Repository, Abraham Lincoln Collection, Box 3, Folder 24).
+If the archive’s provided title is unnecessarily long, you may shorten the entry:
+Lincoln’s Emancipation Proclamation Pen (Jan. 1, 1863) (on file with Yale Univ., Beinecke Rare Book and Manuscript Library Repository, Abraham Lincoln Collection, Box 3, Folder 24).
+If the archive’s provided title does not provide critical information about the nature of the object (e.g., if the object is a photograph or painting), add that information into the title. Additionally, if the object is of a nature—artistic or otherwise—where the creator of the object is both known and relevant, include it:
+Vinyl Recording of “Pepperus Parker Plays INSANITY (An Original Composition)” (n.d.) (on file with John Carter Brown Libr., America Jazz Collection, Box VI:1).
+Charles Albertus, Photograph of Accelerator (1964) (on file with Yale Univ., Manuscripts and Archives Repository, Charles Alburtus Photograph Collection, Box 1, Folder 55).
+However, the mere possessor of an object should not be indicated in the author field. When relevant, such information can be included in an explanatory parenthetical, a textual sentence, or the citation’s title:
+Fandoras Arturian’s Bag of Tricks (c. 1873) (on file with Brown Univ., John Hay Library, Smith Magic Collection, Box 43).

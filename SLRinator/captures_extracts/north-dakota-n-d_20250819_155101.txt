@@ -1,0 +1,106 @@
+TITLE: North Dakota (N.D.) (pp. 307–08)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: north-dakota-n-d
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+North Dakota (N.D.)
+(pp. 307–08)
+http://www.ndcourts.gov
+http://www.legis.nd.gov
+Public Domain Citation Format:
+North Dakota has adopted a public domain citation format for cases after December 31, 1996. The format is:
+Kautzman v. Kautzman, 2003 ND 140, 668 N.W.2d 59.
+Kautzman v. Kautzman, 2003 ND 140, ¶ 9, 668 N.W.2d 59, 63.
+For additional information, consult North Dakota Rules of Court, Rule 11.6.
+Supreme Court
+(
+N.D.
+): Cite to
+N.W., N.W.2d,
+or
+N.W.3d
+, if therein.
+North Western Reporter
+1890–date
+N.W., N.W.2d, N.W.3d
+North Dakota Reports
+1890–1953
+N.D.
+Supreme Court of Dakota
+(
+Dakota
+): Cite to
+N.W.
+, if therein.
+North Western Reporter
+1879–1889
+N.W.
+Dakota Reports
+1867–1889
+Dakota
+Court of Appeals of North Dakota
+(
+N.D. Ct. App.
+): Cite to
+N.W.2d
+or
+N.W.3d
+.
+North Western Reporter
+1987–date
+N.W.2d, N.W.3d
+Statutory compilations:
+Cite to
+N.D. Cent. Code
+, if therein.
+North Dakota Century Code (LexisNexis)
+N.D. Cent. Code
+§ x-x-x (
+<year>
+)
+West’s North Dakota Century Code Annotated
+N.D. Cent. Code Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+N.D. Laws
+, if therein.
+Laws of North Dakota
+<year>
+N.D. Laws
+<page no.>
+North Dakota Century Code
+<
+year
+>
+Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+N.D. Cent. Code Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s North Dakota Legislative Service
+<year>
+N.D. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+North Dakota Administrative Code
+N.D. Admin. Code
+<rule no.>
+(
+<year>
+)

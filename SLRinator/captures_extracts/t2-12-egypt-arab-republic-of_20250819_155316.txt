@@ -1,0 +1,139 @@
+TITLE: T2.12 Egypt, Arab Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-12-egypt-arab-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.12
+Egypt, Arab Republic of
+(Civil Law)
+Egypt is a civil law jurisdiction. Article 2 of the 2014 Egyptian Constitution states that the principles of Islamic Sharia are the main source of legislation.
+Romanization
+Use the
+ALA-LCRomanization Tables: Trans literation Schemes for Non-Roman Scripts
+, approved by the Library of Congress and the American Library Association, available at
+https://www.loc.gov/catdir/cpso/romanization/arabic.pdf
+.
+Cases
+Judicial power is vested in three separate court systems: the
+Supreme Constitutional Court
+with jurisdiction over constitutional matters; the
+State Council
+with jurisdiction over administrative cases; and the regular court system with jurisdiction over civil and criminal matters. In addition, the military has its own court system with jurisdiction pertaining to military criminal affairs.
+Citation format:
+<court name>
+[
+<English translation of court name>
+],
+<region if applicable>
+,
+<number of decision, case, or petition>
+,
+session of
+<date of session in day month year format>
+,
+<publication name and volume number, if applicable>
+,
+year
+<judicial year number>
+,
+p.
+<page number if desired>
+(
+<country abbreviation if not evident from context>)
+.
+al-Mah. kamah al-Id. ārīyah al-‘Ulyā [Supreme Administrative Court],
+session of 21 Dec. 1987, year 22, p. 852 (Egypt).
+al-Mah. kamah al-Dustūrīyah al-‘Ulyā [Supreme Constitutional Court], case no. 10, session of 29 June 1974, year 4.
+Mah. kamat al-Naqd. [Court of Cassation], session of 17 Feb. 1972, year 32, p. 211.
+Mah. kamat al-Naqd. [Court of Cassation], petition no. 1042, session of 22 Feb. 1990, Majmū‘at Ahkām al-Naqd [Compilation of Cassation Decisions] vol. 1 (part 1), year 58, p. 855.
+Mah. kamat al-Isti’nāf [Court of Appeal], session of 11 Apr. 1923, Muhāmāh [Practice of Law] vol. 23 (part 4), p. 30.
+Constitutions
+Constitution of the Arab Republic of Egypt
+, 18 Jan. 2014.
+Egypt has had a series of written constitutional documents, beginning with the 1923 foundational instrument. The different constitutions must be cited to a consolidated text incorporating the revisions and substantial reforms adopted. For example, Constitution of the Arab Republic of Egypt, 11 Sept. 1971, as amended, 22 May 1980, 25 May 2005, 26 Mar. 2007.
+An unofficial English translation of the current Constitution, enacted in January 2014, is available at
+https://www.sis.gov.eg/Newvr/Dustor-en001.pdf
+.
+Codes, statutes, and decrees
+Citation format:
+<Law, Act, or Decision number>
+of
+<year of enactment>
+(
+<subject matter of code, statute, or decree, if available>
+),
+<name of publication in italics>
+, vol.
+<number of volume, if known>
+,
+<date of enactment in day month year format>
+,
+<page(s) or article(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Law No. 88 of 2003 (Law of the Central Bank, the Banking Sector, and Monetary Policy),
+al-Jarīdah al-Rasmīyah
+, vol. 24 (Duplicate), 15 June 2003 (Egypt).
+Law No. 117 of 1983 (Law on the Protection of Antiquities),
+al-Jarīdah al-Rasmīyah
+, vol. 32 bis, 11 Aug. 1983 (Egypt).
+Law No. 131 of 1948 (Civil Code),
+al-Waqā’i’al-Mis. rīyah
+, vol. 108 bis (a), 29 July 1948, arts. 418–81 (sales) (Egypt).
+Law No. 58 of 1937 (Criminal Code),
+al-Waqā’i’al-Mis. rīyah
+, vol. 71, 5 Aug. 1937 (Egypt).
+Act No. 81 of 1996 (To Amend Provisions of the Code of Civil and Commercial Procedure, Law No. 13 of 1968),
+al-Jarīdah al-Rasmīyah
+, vol. 19 bis, 22 May 1996, pp. 2–3 (Egypt).
+President of the Republic of Egypt Decision No. 32 of 2001 (Ratification of the African Charter on the Rights and Welfare of the Child),
+al-Jarīdah al-Rasmīyah
+, vol. 44, 28 Oct. 2004, pp. 2447–71 (Egypt).
+Subsequent references may cite only the name of the law and the relevant provision(s). For example:
+Civil Code, art. 373 (Egypt).
+The Official Gazette
+The Official Gazette (
+al-Jarīdah al-Rasmīyah
+) and its accompanying publication (
+al-Waqā’i‘ al-Misrīyah
+) are the authoritative sources for laws and presidential and ministerial decrees. Earlier laws should be cited to the relevant government newspaper of the time, as follows:
+al-Waqāʼiʻ al-Miṣrīyah
+Dec. 5, 1828–Feb. 22, 1958
+Journal officiel du gouvernement égyptien
+(French-language edition of
+al-Waqāʼiʻ al-Miṣrīyah
+)
+1873–1958
+al-Jarīdah al-Rasmīyah
+(al-Jumḥūrīyah al-ʻArabīyah al-Muttaḥidah
+[United Arab Republic])
+Mar. 1958–Aug. 1971
+al-Jarīdah al-Rasmīyah
+(Jumḥūrīyat Miṣr al-ʻArabīyah, Riyāsat al-
+Jumḥūrīyah [Arab Republic of Egypt, the Presidency of the
+Republic])
+Sept. 9, 1971–date
+Internet sources
+http://www.parliament.gov.eg
+(parliamentary information)
+http://www.cc.gov.eg
+(access to Egyptian laws and Court of Cassation decisions)
+http://www.sis.gov.eg/En/Default.aspx
+(State Information Service official website)
+http://www.alamiria.com/en-us/Pages/default.aspx
+(Al Amiria Printing House website, containing an index of
+al-Jarīdah al-Rasmīyah and al-Waqā’i‘al-Mi.srīyah
+)
+http://www.mohamoon-montada.com
+(The Arab Lawyers’ Forum, containing a number of Egyptian laws)

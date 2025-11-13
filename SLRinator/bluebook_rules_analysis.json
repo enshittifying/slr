@@ -1,0 +1,2225 @@
+{
+  "total_rules_found": 213,
+  "categories": {
+    "general": 104,
+    "ordering": 10,
+    "signals": 55,
+    "parentheticals": 21,
+    "formatting": 2,
+    "abbreviation": 16,
+    "capitalization": 2,
+    "punctuation": 3
+  },
+  "all_rules": {
+    "small-business-administration-sba_20250819_154821": [],
+    "21-9-european-union_20250819_154406": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ber that Commission and Council acts are given (e.g.,\nCouncil Directive (EC) No. 2504/90\n), then it should be cited as a report.\n(e) Press releases, Presidency Conclusions, and memoranda.\nEuropean Union and European"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ency Conclusions, and memoranda.\nEuropean Union and European Community press releases and memoranda should be cited by source (with an indication of the status of the press release, including a number if applicable)"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "europa.eu/en/index.htm\n. The online editions may be cited as official editions and should generally include the same information as citations to paper versions.\nCite volumes of\nO.J.\nand\nJ.O.\nby year.\nJ.O.\nvolume"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "\u201c\nL\n\u201d series, while other documents appear in the \u201c\nC\n\u201d series. Citations to\nJ.O.\nbefore 1968 must include the issue number, while citations to\nO.J.\nand\nJ.O\n. since 1968 must include both the series and the iss"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include both",
+        "context": "o\nJ.O.\nbefore 1968 must include the issue number, while citations to\nO.J.\nand\nJ.O\n. since 1968 must include both the series and the issue number:\n1971 J.O. (L 20) 1.\n1975 O.J. (L 337) 7.\n1964 J.O. (234) 5.\nCitati"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include in",
+        "context": "pean Union\n. It is acceptable to cite debates to the\nOfficial Journal\n(O.J.)\nbefore they are bound. Include in the citation the document number, the full date, and relevant information, including the name of th"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include the",
+        "context": "or to 1988), if therein; otherwise cite\nParlement Europ\u00e9en Documents de S\u00e9ance\n(\nParl.\u00a0Eur. Doc.\n). Include the document number:\nEur. Parl. Doc.\n(COM 258) 5 (1973).\nParl. Eur. Doc.\n(SEC 64) 6 (1963).\nThe name ma"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include in",
+        "context": "ons and working groups within the European Union or European Communities according to\nrule 21.7.3\n. Include in the citation of reports the issuing body and the committee, division, or group that produced the re"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "igious Leaders (June 10, 2014).\nTreat Presidency Conclusions of the Council like press releases and include the exact date as well as the meeting place of the Council:\nPresidency Conclusions, Brussels European C"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Acts of the Council and Commission."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Sources."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Documents of the European Parliament."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Debates."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Founding treaties."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Reports, Green Papers, and White Papers."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "e",
+        "text": "Press releases, Presidency Conclusions, and memoranda."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "f",
+        "text": "European Court of Justice materials."
+      },
+      {
+        "type": "example",
+        "text": ",\nCouncil Directive (EC) No. 2504/90\n), then it should be cited as a report.\n(e) Press releases, Presidency Conclusions, and memoranda.\nEuropean Union and European Community press releases and memoranda should be cited by source (with an indication of the status of the press release, including a number if applicable); the title; and the date in parentheses:\nEuropean Commission Press Release IP/14/650, The Commission, the Council and the Parliament Debate the Future of the European Union with Religious Leaders (June 10, 2014).\nTreat Presidency Conclusions of the Council like press releases and include the exact date as well as the meeting place of the Council:\nPresidency Conclusions, Brussels European Council (Dec. 12, 2003).\n(f) European Court of Justice materials.\nCite European Court of Justice materials according to\nrule 21.5.2"
+      }
+    ],
+    "22-1-tribal-nations-with-an-established-citation-format_20250819_153406": [
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing tribal",
+        "context": "-------------------------\n\nCONTENT:\nB22.1\nTribal Nations with an Established Citation Format\n(p.30)\nWhen citing tribal law for submission to a particular Tribal Nation, follow the citation format prescribed by the resp"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing tribal",
+        "context": "at prescribed by the respective Tribal Nation's rules or guidelines, if such a format is available.\nWhen citing tribal law for other purposes:\n(1) If the Tribal Nation cited has prescribed a citation format for its own"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1",
+        "text": "If the Tribal Nation cited has prescribed a citation format for its own legal materials, provide the citation in that format."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "2",
+        "text": "If the Tribal Nation has not prescribed a citation format for its own legal materials, cite the law according to\nrule 22\nsubject to the typeface changes present in the Bluepages examples."
+      }
+    ],
+    "tennessee-tenn_20250819_155131": [
+      {
+        "type": "example",
+        "text": ",\n48 Tenn. (1 Heisk.)\nColdwell\n1860\u20131870\ne.g.,\n41 Tenn. (1 Cold.)\nHead\n1858\u20131860\ne.g.,\n38 Tenn. (1 Head)\nSneed\n1853\u20131858\ne.g.,\n33 Tenn. (1 Sneed)\nSwan\n1851\u20131853\ne.g.,\n31 Tenn. (1 Swan)\nHumphreys\n1839\u20131851\ne.g.,\n20 Tenn. (1 Hum.)\nMeigs\n1838\u20131839\n19 Tenn. (Meigs)\nYerger\n1818\u20131837\ne.g.,\n9 Tenn. (1 Yer.)\nMartin & Yerger\n1825\u20131828\n8 Tenn. (Mart. & Yer.)\nPeck\n1821\u20131824\n7 Tenn. (Peck)\nHaywood\n1816\u20131818\ne.g.,\n4 Tenn. (1 Hayw.)\nCooke\n1811\u20131814\n3 Tenn. (Cooke)\nOverton\n1791\u20131815\ne.g.,\n1 Tenn. (1 Overt.)\nCourt of Appeals\n(\nTenn. Ct. App.\n): Cite to\nS.W.2d\nor\nS.W.3d\n, if therein.\nSouth Western Reporter\n1932\u2013date\nS.W.2d, S.W.3d\nTennessee Appeals Reports\n1925\u20131971\nTenn. App.\nCourt of Criminal Appeals\n(\nTenn. Crim. App.\n): Cite to\nS.W.2d\nor\nS.W.3d\n,\u00a0if therein.\nSouth Western Reporter\n1967\u2013date\nS.W.2d, S.W.3d\nTennessee Criminal Appeals Reports\n1967\u20131971\nTenn. Crim. App.\nStatutory compilations:\nCite to\nTenn. Code Ann\n.\n(published by LexisNexis), if therein.\nTennessee Code Annotated (LexisNexis)\nTenn. Code Ann\n. \u00a7 x-x-x (\n<year>\n)\nWest's Tennessee Code Annotated\nTenn. Code Ann.\n\u00a7 x-x-x (West\n<year>\n)\nSession laws:\nCite to\nTenn. Pub. Acts\nor\nTenn. Priv. Acts\n, if therein.\nPublic Acts of the State of Tennessee\n<year>\nTenn. Pub. Acts\n<page no.>\nPrivate Acts of the State of Tennessee\n<year>\nTenn. Priv. Acts\n<page no.>\nTennessee Code Annotated Advance Legislative Service (LexisNexis)\n<year>\n-\n<pamph. no.>\nTenn. Code Ann. Adv. Legis. Serv.\n<page no.>\n(LexisNexis)\nWest\u2019s Tennessee Legislative Service\n<year>\nTenn. Legis. Serv.\n<page no.>\n(West)\nAdministrative compilation\nOfficial Compilation Rules & Regulations of the State of Tennessee\nTenn. Comp. R\n.\n& Regs\n.\n<rule no.>\n(\n<year>\n)\nAdministrative register\nTennessee Administrative Register\n<vol. no.>\nTenn. Admin. Reg.\n<page no.>\n(\n<month year>\n)"
+      }
+    ],
+    "t3-8-international-tribunal-for-the-law-of-the-sea_20250819_155654": [],
+    "18-3-commercial-electronic-databases_20250819_154223": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be consistent",
+        "context": "le, in preference to the other sources covered by\nrule 18\n. Citations to these electronic databases should be consistent with this present rule regardless of whether the databases are accessed through proprietary softwar"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see the following rules:\nCases\nrule 10."
+      }
+    ],
+    "10-9-short-forms-for-cases_20250819_153836": [
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must\nbe indicated",
+        "context": "tation, no parenthetical is necessary. But when an \u201c\nid.\n\u201d refers to a\ndifferent\nopinion, that fact\nmust\nbe indicated parenthetically, even if the second opinion cited is the majority opinion. Thus, the following exam"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be italicized",
+        "context": "y if the reference is unambiguous. When only one party\u2019s name (or a short form thereof) is used, it should be italicized. Acceptable short forms include:\nYoungstown Sheet & Tube Co. v. Sawyer, 343 U.S. at 585.\nYoungstown"
+      },
+      {
+        "pattern": "omit\\s+(\\w+)",
+        "match": "Omit the",
+        "context": "town Sheet & Tube Co.\n, 343 U.S. at 585.\nYoungstown\n, 343 U.S. at 585.\n343 U.S. at 585.\nId.\nat 585.\nOmit the case name as in the last two examples only if the reader will have no doubt about the case to which"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "t 585.\nWhen citing an entire decision, and not a pinpoint therein, in short form, the citation must include the shorter version of the case name, the volume number, reporter designation, and first page; but do\nn"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "orter version of the case name, the volume number, reporter designation, and first page; but do\nnot\ninclude a jurisdiction/date parenthetical:\nThe Steel Seizure Case\n, 343 U.S. 579.\nWhen using only one party's"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "pinions for the same case, either give each decision a unique identifier in its initial citation or include a jurisdiction or date parenthetical in each short form. The following short forms are thus both acce"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing an",
+        "context": "Steel Seizure Case\n), 343 U.S. 579, 585 (1952).\nbecomes:\nThe Steel Seizure Case\n, 343 U.S. at 585.\nWhen citing an entire decision, and not a pinpoint therein, in short form, the citation must include the shorter v"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing multiple",
+        "context": "h v. Sam, No. 4359, slip op. at\u00a012 (Pa. Ct. Com. Pl. Oct. 20, 2005).\nbecomes:\nSam\n, slip op. at 12.\nWhen citing multiple slip opinions for the same case, either give each decision a unique identifier in its initial citat"
+      },
+      {
+        "pattern": "citation\\s+must\\s+include",
+        "match": "citation must include",
+        "context": "e\n, 343 U.S. at 585.\nWhen citing an entire decision, and not a pinpoint therein, in short form, the citation must include the shorter version of the case name, the volume number, reporter designation, and first page; but"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Footnotes."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Generally."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Two exceptions when using \u201c\nid."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Text."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nUnited States v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See Martinez-Fuerte\n, 428 U."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See id."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See Montoya de Hernandez\n, 473 U."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See Martinez-Fuerte\n, 428 U."
+      }
+    ],
+    "pennsylvania-pa_20250819_155115": [],
+    "t2-27-malaysia_20250819_155413": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ya v Ketua Pendakwa Syarie Terengganu\n[2015| 1 SHR 97.\nConstitution\nMalaysia\u2019s Federal Constitution should be cited as follows:\nFed. Const.\n, art. 8(5)(a) (Malay.).\nStatutes\nMalaysian statutes consist of federal Act"
+      },
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated as",
+        "context": "es:\nCLJ provides reports of Syariah Court decisions in Malaysia starting from 2004. The reporter is abbreviated as \u201c\nCLJ(Sya)\n\u201d prior to 2014 and as \u201c\nSHR\n\u201d 2014 onwards.\nIsmail Yahya v Ketua Pendakwa Syarie Tereng"
+      },
+      {
+        "pattern": "place\\s+(\\w+)\\s+in",
+        "match": "place it in",
+        "context": "ample below, the enacting state is Selangor. If the name of the state is not in the enactment name, place it in front as per the second example below:\n(\n<state name, if applicable>\n)\n<enactment name> <year of pa"
+      }
+    ],
+    "georgia-ga_20250819_154940": [],
+    "b17-1-full-citation_20250819_153322": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be identified",
+        "context": "ine references by a colon. Page references should not be preceded by \u201c\np.\n,\u201d but other subdivisions should be identified. You are generally not required to precede pincites with \u201c\nat\n,\u201d though it is customary to use \u201c\nat"
+      },
+      {
+        "pattern": "always\\s+(\\w+)",
+        "match": "always abbreviate",
+        "context": "able BT1\n. Where there is an official record, such as the Record on Appeal in appellate litigation, always abbreviate \u201cRecord\u201d to \u201c\nR.\n\u201d Do not abbreviate, however, when doing so will confuse the reader:\nPetitioner ad"
+      },
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never saw",
+        "context": "xcess of the posted speed limit. Compl. \u00b6 7. However, her sworn testimony is to the effect that she never saw the Defendant before the accident and was thus unable to gauge his speed. Perryman Dep. 34:15\u201318, A"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include any",
+        "context": "(2) the pinpoint citation; and (3) the date of the document, if required. The citation should also include any electronic docket number, if applicable.\nB17.1.1 \u2013\nAbbreviation\nAbbreviate the titles of court docu"
+      },
+      {
+        "type": "example",
+        "text": ",\nR. at 5\n):\nHawkins Aff. 6.\nTrial Tr. vol. 2, 31.\nPet\u2019r\u2019s Br. 6.\nClark Dep. 15:21\u201316:4.\nPls.\u2019 Am. Answer to Def.\u2019s Countercl. 3\u20134.\nTravis Decl. Ex. B, at 3.\nR. at 9.\nB17.1.3 \u2013\nDate\nProvide the date of the cited document when: (1) more than one document has the same title; (2) the date is relevant to the discussion; or (3) the date is needed to avoid confusion:\nPlaintiff alleged that Defendant was driving at a rate far in excess of the posted speed limit. Compl. \u00b6 7. However, her sworn testimony is to the effect that she never saw the Defendant before the accident and was thus unable to gauge his speed. Perryman Dep. 34:15\u201318, Aug. 7, 2002; Trial Tr. vol. 2, 51\u201352, Dec. 12, 2002.\nMr. Svensson attests that Plaintiff\u2019s president cared not about the age of the inventory but only about its marketability. Svensson Aff. \u00b6 5. In addition, Ms. Beatrice swears that Plaintiff\u2019s president had the authority to waive the condition concerning the age of the inventory, Beatrice Aff. \u00b6 9, May 10, 2003, and that no other corporate official had such authority, Beatrice Aff. \u00b6 2, June 2, 2003.\nB17.1.4 \u2013\nElectronic Dockets\nCourt documents filed with the electronic case management system employed by PACER for federal cases and the comparable state systems for state cases\u00a0are assigned document numbers. Add this electronic docket\u00a0number to the citations of electronically filed documents:\nFeder Dep. 5:30\u201312:10, Dkt. No. 6.\nDef.\u2019s Mot. Summ. J. 2, Dkt. No. 15.\nBluepages Tip:"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nJones Aff."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nJones Aff."
+      }
+    ],
+    "23-11-tangible-objects_20250819_154602": [
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never known",
+        "context": "n archival collection just as you would a standard archival document, omitting the author field. Whenever known, use the date of the object\u2019s creation\u2014not of its discovery, purchase, or archival. As a default, u"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include it",
+        "context": "ct is of a nature\u2014artistic or otherwise\u2014where the creator of the object is both known and relevant, include it:\nVinyl Recording of \u201cPepperus Parker Plays INSANITY (An Original Composition)\u201d (n.d.) (on file with"
+      },
+      {
+        "type": "example",
+        "text": ", if the object is a photograph or painting), add that information into the title. Additionally, if the object is of a nature\u2014artistic or otherwise\u2014where the creator of the object is both known and relevant, include it:\nVinyl Recording of \u201cPepperus Parker Plays INSANITY (An Original Composition)\u201d (n.d.) (on file with John Carter Brown Libr., America Jazz Collection, Box VI:1).\nCharles Albertus, Photograph of Accelerator (1964) (on file with Yale Univ., Manuscripts and Archives Repository, Charles Alburtus Photograph Collection, Box 1, Folder 55).\nHowever, the mere possessor of an object should not be indicated in the author field. When relevant, such information can be included in an explanatory parenthetical, a textual sentence, or the citation\u2019s title:"
+      }
+    ],
+    "t3-3-european-union_20250819_155632": [
+      {
+        "pattern": "cite\\s+as\\s+follows",
+        "match": "Cite as follows",
+        "context": "des Communaute\u0301s\nEurope\u0301ennes\n1958\u2013date\n<year>\nJ.O. (L\n<act number>\n) xxx\nParliamentary documents:\nCite as follows:\nEuropean Parliamentary Debates\nEur. Parl. Deb.\n(\n<debate number>\n) x\nEuropean Parliament Working S"
+      }
+    ],
+    "california-cal_20250819_154926": [],
+    "b11-constitutions_20250819_153232": [
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 11\n."
+      }
+    ],
+    "18-6-films-broadcasts-and-noncommercial-video-materials_20250819_154232": [
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must be appended",
+        "context": "g format should be used and a recording should be stored on file. In this instance, a parenthetical must be appended to indicate where the recording can be found.\n(a) Commercial.\nCommercial live streams are any video"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": "ced the film and the year of release in a parenthetical. If no access medium is available, the film should be made available on file and a parenthetical should be appended describing where it can be found.\nWhen cit"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be appended",
+        "context": "al. If no access medium is available, the film should be made available on file and a parenthetical should be appended describing where it can be found.\nWhen citing a specific quote or scene, use time markers to design"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": ".\n18.7.3 \u2013\nLive Streaming Media Services\nWhen possible, citation to a live stream or live broadcast should be made to the documented video of that live stream per\nrule 18.7.4\n. If no public recording of the live st"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be used",
+        "context": "ive stream per\nrule 18.7.4\n. If no public recording of the live stream exists, the following format should be used and a recording should be stored on file. In this instance, a parenthetical must be appended to ind"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be stored",
+        "context": "no public recording of the live stream exists, the following format should be used and a recording should be stored on file. In this instance, a parenthetical must be appended to indicate where the recording can be"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be stored",
+        "context": "tically the platform on which the video was streamed and the original date of the stream. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nNCAAW Iowa vs. Sou"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be appended",
+        "context": "treamed and the original date of the stream. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nNCAAW Iowa vs. South Carolina, at 1:49:50 (Fubo, aired Apr. 7, 20"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be stored",
+        "context": "lude the date and start time of the stream (when possible) in the platform parenthetical. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nDJAmber_D\n,\nStudio"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be appended",
+        "context": "hen possible) in the platform parenthetical. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nDJAmber_D\n,\nStudio Session\n(Twitch, streamed Apr. 12, 2024, at 15"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "published online. This does not include short-form social media content in the form of video, which should be cited in accordance with\nrule 18.10\n.\nFor web-based videos, cite by the name of the account that posted t"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be the",
+        "context": "aded and the date and time of the upload (when possible) in a parenthetical. The platform indicated should be the platform on which the video was first uploaded by the creator.\nTimestamps should be designated by p"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be designated",
+        "context": "m indicated should be the platform on which the video was first uploaded by the creator.\nTimestamps should be designated by pinpoint citations, using the phrase \u201c,\nat XX:XX\n\u201d or \u201c,\nat XX:XX\u2013XX:XX\n\u201d immediately after the"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include the",
+        "context": "ies, cite the name of the film in small capitals, the access medium, and timestamp (if applicable). Include the names of the individuals, company, or network that produced the film and the year of release in a p"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include in",
+        "context": "relevant episode name (if applicable) in italics, followed by the access medium in a parenthetical. Include in the medium parenthetical the date of the broadcast or the date of release (or, if unknown, the date"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "d\u00a0the name of the stream in italics. Parenthetically provide the name of the streaming platform and include the date and start time of the stream (when possible) in the platform parenthetical. The video should b"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include short",
+        "context": "Web-Based Videos\nWeb-based videos are videographic media originally published online. This does not include short-form social media content in the form of video, which should be cited in accordance with\nrule 18.10"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing commercial",
+        "context": "-------------------------------------\n\nCONTENT:\n18.7\nVideographic Media\n(pp. 193\u201395)\n18.7.1 \u2013\nFilms\nWhen citing commercial films, documentaries, or other full-length movies, cite the name of the film in small capitals, the"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "be made available on file and a parenthetical should be appended describing where it can be found.\nWhen citing a specific quote or scene, use time markers to designate pinpoint citations, using the phrase \u201c,\nat X"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Noncommercial."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Noncommercial."
+      }
+    ],
+    "t2-24-japan_20250819_155404": [
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "s://elaws.e-gov.go.jp\n/search/elawsSearch/elaws_search/lsg0100/ (Japan).\nWhen citing a translation, include the translation source in addition to the original version, following\nrule 20.2.5\n:\nKanky\u014d kihonh\u014d [Bas"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "when citing to",
+        "context": "15 (wa) no. 29850, 1271\nHanrei taimuzu\n[\nHanta\n] 183, 201 (Japan).\nInternet and database citations:\nwhen citing to electronic resources, follow\nrule 18\n.\nCitation format (if source is available only in electronic f"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing to",
+        "context": "Nihon h\u014dki\n\u73fe\u884c\u65e5\u672c \u6cd5\u898f (Gy\u014dsei),\nR\u014dpp\u014d zensho\n\u516d\u6cd5\u5168\u66f8 (Y\u016bhikaku), and various ts\u016btatsush\u016b \u901a\u9054\u96c6, if therein. When citing to internet sources, follow\nrule 18\n.\nConstitutions\nCitation format:\n<\nConstitution Name\n>\n[\n<\nconstit"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "i kensaku [H\u014drei DB]),\nhttps://elaws.e-gov.go.jp\n/search/elawsSearch/elaws_search/lsg0100/ (Japan).\nWhen citing a translation, include the translation source in addition to the original version, following\nrule 20."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see the\nLegislative Materials\nsection above)."
+      }
+    ],
+    "23-4-institutional-affiliation_20250819_154539": [
+      {
+        "type": "example",
+        "text": ", a government agency, a company, or a nonprofit) and is not archived with that institution, add an institutional affiliation into the citation for clarity. Abbreviate according to\ntables T6\n,\nT7\n,\nT10\n, and\nT13\n. However, do not omit \u201c\nin\n\u201d or \u201c\nof\n\u201d:\nKristof Zeitman, Report on the Feasibility of a Reversible Tourbillion Movement, Jaegar LeCoultre SA 28 (1993) (on file with Am. Horological Archive, Foreign Horology Collection, Box 2, Folder 1).\nThis rule does not apply to Justices\u2019 papers (\nrule 23.7.1\n) or other courts\u2019 papers (\nrule 23.7.2(b)"
+      }
+    ],
+    "guam-guam_20250819_155207": [],
+    "t2-29-new-zealand_20250819_155432": [
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must be cited",
+        "context": "urt Decisions\n)\n1906\u20131952\nMCR\nEach volume contains multiple years and therefore the year and volume must be cited. Citation format:\n<case name>\n(\n<year of decision>\n)\n<volume number>\n<reporter abbreviation>\n<first"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be used",
+        "context": "neutral citation formats since 2010. If a medium-neutral citation has been assigned by the court it should be used to cite the case. If the case has also been reported, cite the medium-neutral citation followed by"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be paid",
+        "context": "n such cases, square brackets are used instead of parentheses around the year. Particular attention should be paid to reports that have changed titles (see below).\nKerridge v. Kerridge\n[2008] NZFLR 30 (HC).\nKain v."
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be included",
+        "context": "court of decision is not obvious from the title of the report, the name of the court (abbreviated) should be included at the end of the citation. Common abbreviations are\nHigh Court\n(HC),\nCourt of Appeal\n(CA),\nSupreme"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ation if not evident from context>\n).\nMK v. Police\n[2007] DCR 770 (N.Z.).\nSpecialist series reports should be cited as directed within the report. The Legal Citations of Aotearoa (\nLCANZ\n) website also provides guid"
+      },
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated as",
+        "context": "\u2013[18] (N.Z.).\nStatutes, session laws, and regulations\nProvisions in statutes are cited as sections, abbreviated as \u201c\ns\n\u201d or \u201c\nss\n\u201d for multiple sections. Other subdivisions include subsections (\u201c\nsubs\n\u201d or \u201c\nsubss"
+      },
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated\u00a0as",
+        "context": "eviously \u201cStatutory Regulations.\u201d Provisions within a regulation are referred to as regulations and abbreviated\u00a0as \u201c\nreg\n\u201d or \u201c\nregs.\n\u201d\u00a0Provisions in rules are \u201c\nr\n\u201d or \u201c\nrr\n\u201d and provisions in orders are \u201c\ncl\n\u201d or"
+      },
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated as",
+        "context": ").\nAdoption Regulations 1959, reg 4(1) (N.Z.).\nProvisions within a bill are referred to as clauses, abbreviated as \u201c\ncl\n\u201d or \u201c\ncls\n\u201d. Citation format for bills:\n<bill name>\n<year>\n(\n<bill number and version>\n)\n,\ncl"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "95, 25 June 1998 (N.Z.).\nWhen citing any court other than the Supreme Court or the Court of Appeal, include the place of registry:\nGitmans v. Alexander\nHC Auckland CIV 2001-404-1937, 9 December 2003 at [16]\u2013[18]"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include subsections",
+        "context": "tes are cited as sections, abbreviated as \u201c\ns\n\u201d or \u201c\nss\n\u201d for multiple sections. Other subdivisions include subsections (\u201c\nsubs\n\u201d or \u201c\nsubss\n\u201d), paragraphs (\u201c\npara\n\u201d or \u201c\nparas\n\u201d), schedules (\u201c\nsch\n\u201d or \u201c\nschs\n\u201d), and p"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing to",
+        "context": "t>\n).\nBarker v. Edger\n(1898) NZPCC 422 (N.Z.).\nUnreported decisions with no medium-neutral citation\nWhen citing to an unreported decision for which a medium-neutral citation format has not been adopted, the format"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing any",
+        "context": "vident from context>\n).\nWaitikiri Links Ltd v. Windsor Golf Club Inc\nCA132/95, 25 June 1998 (N.Z.).\nWhen citing any court other than the Supreme Court or the Court of Appeal, include the place of registry:\nGitmans v"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1",
+        "text": "If the reports are in a consecutively numbered series from the first volume, use parentheses around the year, which references the year of the decision."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "2",
+        "text": "If the report series consists of one or more volumes per year with no consecutive number sequence, use square brackets."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "3",
+        "text": "All pre-1900 reports use parentheses and the year reference is to the year of the decision."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1881",
+        "text": "NZLR 3 CA 205."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1881",
+        "text": "NZLR 3 CA 205."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1898",
+        "text": "NZPCC 422 (N."
+      },
+      {
+        "type": "example",
+        "text": ":\nAylwin v. Police\n[2008] NZSC 113, [2009] 2 NZLR 1 at [8] (N.Z.).\nThe medium-neutral court abbreviations for those that have adopted this format, and the years of adoption, are as follows:\nSupreme Court\nNZSC\n2005\nCourt of Appeal\nNZCA\n2007\nHigh Court\nNZHC\n2012\nEmployment Court\nNZEmpC\n2010\nEnvironment Court\nNZEnvC\n2010\nFamily Court\nNZFC\n2012\nNote that the Privy Council also adopted medium-neutral citations in 2001, with the abbreviation\nUKPC\n.\nReported decisions\nIf a case is reported in more than one report, cite only to the most authoritative report. The New Zealand Law Reports is currently the only official report (see below). Citation format:\n<case name>\n<year of decision in parentheses or brackets>\n<volume number>\n<reporter abbreviation>\n<first page>\n(\n<court abbreviation>\n) at\n<page(s) or [paragraph(s)] of specific material, if desired>\nper\n<judge identifier, if applicable>\n(\n<country abbreviation if not evident from context>\n).\nYear of decision:\n1)\nIf the reports are in a consecutively numbered series from the first volume, use parentheses around the year, which references the year of the decision.\nR v. Noble\n(2006) 22 CRNZ 422 (HC) at 422.\n2)\nIf the report series consists of one or more volumes per year with no consecutive number sequence, use square brackets.\nIn some reports, the year acts as the volume number and therefore there is no separate volume number. In such cases, square brackets are used instead of parentheses around the year. Particular attention should be paid to reports that have changed titles (see below).\nKerridge v. Kerridge\n[2008] NZFLR 30 (HC).\nKain v. Hutton\n[2008] NZSC 61, [2008] 3 NZLR 589 at [47] per Tipping J.\nAttorney-General v. Zaoui\n[2005] NZSC 38, [2006] 1 NZLR 289.\n3)\nAll pre-1900 reports use parentheses and the year reference is to the year of the decision.\nWellington Gas Co v. Patten\n(1881) NZLR 3 CA 205.\nThe correct citation form with abbreviation is indicated in the front of the reports.\nWhere the court of decision is not obvious from the title of the report, the name of the court (abbreviated) should be included at the end of the citation. Common abbreviations are\nHigh Court\n(HC),\nCourt of Appeal\n(CA),\nSupreme Court\n(SC), and\nJudicial Committee of the Privy Council\n(PC).\nOfficial reports\nNew Zealand Law Reports\n1881\u20131887\nNZLR\nThese volumes contain separately numbered and paginated parts for Court of Appeal cases and Supreme Court cases. Citation format:\n<case name>\n(\n<year of publication>\n) NZLR\n<volume number>\n<court abbreviation>\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nWellington Gas Co. v. Patten\n(1881) NZLR 3 CA 205.\nNew Zealand Law Reports (vols. 6\u201334)\n1888\u20131915\nNZLR\nIn these volumes, Court of Appeal and Supreme Court decisions are mixed. Citation format:\n<case name>\n(\n<year of publication>\n)\n<volume number>\nNZLR\n<first page>\n(\n<court abbreviation>\n) at\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nCleland v. South British Insurance Co\n(1890) 9 NZLR 177 (CA) at 178.\nNew Zealand Law Reports (volume numbers discontinued)\n1916\u2013date\nNZLR\nSince 1973, more than one volume has been published each year and they are consecutively numbered only within each year. Citation format:\n<case name>\n[\n<year of publication>\n]\n<volume number, if applicable>\nNZLR\n<first page>\n,\u00a0(\n<court abbreviation>\n) at\u00a0[\n<paragraph(s)>\n]\n<or page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nMoreton v. Montrose Ltd (in liq)\n[1986] 2 NZLR 496 (CA).\nOther reports\nMagistrates\u2019 Court Decisions\n(continued as\nDistrict Court Reports\n)\n1939\u20131980\nMCD\nMagistrates\u2019 Court Reports (continued as\nMagistrates\u2019 Court Decisions\n)\n1906\u20131952\nMCR\nEach volume contains multiple years and therefore the year and volume must be cited. Citation format:\n<case name>\n(\n<year of decision>\n)\n<volume number>\n<reporter abbreviation>\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nChristchurch City Council v. McCleary\n(1966) 11 MCD 465 (N.Z.).\nPolice v. Martin\n(1931) 26 MCR 75 (N.Z.).\nDistrict Court Reports\n1980\u20131988\nDCR\nThese volumes contain multiple years. Citation format:\n<case name>\n(\n<year of decision>\n)\n<volume number>\n<reporter abbreviation>\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nTipple v. Attorney-General\n(1982) 1 DCR 358 (N.Z.).\nDistrict Court Reports\n1989\u2013date\nDCR\nIn these volumes, the year of the volume is the same as the year of decision. Citation format:\n<case name>\n[\n<year of volume>\n] DCR\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nMK v. Police\n[2007] DCR 770 (N.Z.).\nSpecialist series reports should be cited as directed within the report. The Legal Citations of Aotearoa (\nLCANZ\n) website also provides guidance on the citation of all major law reporting series, past and current:\nhttp://www.lcanz.auckland.ac.nz\n.\nJudicial Committee of the Privy Council\n(\nPC\n)\nUntil 2004, the Privy Council was New Zealand\u2019s highest court of appeal. When reported in\nNew Zealand Law Reports\n(\nNZLR\n) (since 1932), cite according to the\nNZLR\ncitation format above, with the court abbreviation following the citation. If a medium-neutral citation is available use this citation followed by the NZLR citation.\nO\u2019Connor v. Hart\n[1985] 1 NZLR 159 (PC).\nNew Zealand Privy Council Cases\n1840\u20131932\nNZPCC\nCitation format:\n<case name>\n(\n<year of decision>\n) NZPCC\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nBarker v. Edger\n(1898) NZPCC 422 (N.Z.).\nUnreported decisions with no medium-neutral citation\nWhen citing to an unreported decision for which a medium-neutral citation format has not been adopted, the format is:\n<case name>\n<court abbreviation>\u00a0<file number>\n,\n<date in day month year format>\nat\n<paragraph number(s) in brackets or page number(s), if desired>\n(\n<country abbreviation if not evident from context>\n).\nWaitikiri Links Ltd v. Windsor Golf Club Inc\nCA132/95, 25 June 1998 (N.Z.).\nWhen citing any court other than the Supreme Court or the Court of Appeal, include the place of registry:\nGitmans v. Alexander\nHC Auckland CIV 2001-404-1937, 9 December 2003 at [16]\u2013[18] (N.Z.).\nStatutes, session laws, and regulations\nProvisions in statutes are cited as sections, abbreviated as \u201c\ns\n\u201d or \u201c\nss\n\u201d for multiple sections. Other subdivisions include subsections (\u201c\nsubs\n\u201d or \u201c\nsubss\n\u201d), paragraphs (\u201c\npara\n\u201d or \u201c\nparas\n\u201d), schedules (\u201c\nsch\n\u201d or \u201c\nschs\n\u201d), and parts (\u201c\npt\n\u201d or \u201c\npts\n\u201d). Subdivisions in schedules are clauses (\u201c\ncl\n\u201d or \u201c\ncls\n\u201d). Citation format for statutes:\n<act short title> <year enacted>\n,\n<subdivision, if appropriate>\n(\n<country abbreviation if not evident from context>\n).\nAdoption Act 1955, s 11 (N.Z.).\nReferences to legislation are taken to be the latest version; there is no need to state that a statute has been amended. If an amending statute is being referred to, cite in the same way.\nChild Support Amendment Act 2013, sch 1, cl 4.\nDelegated legislation has been referred to as \u201cLegislative Instruments\u201d since August 2013; previously \u201cStatutory Regulations.\u201d Provisions within a regulation are referred to as regulations and abbreviated\u00a0as \u201c\nreg\n\u201d or \u201c\nregs.\n\u201d\u00a0Provisions in rules are \u201c\nr\n\u201d or \u201c\nrr\n\u201d and provisions in orders are \u201c\ncl\n\u201d or \u201c\ncls\n.\u201d\u00a0Citation format for regulations and other delegated legislation:\n<regulation name> <year of regulation>\n,\n<appropriate section abbreviation>\u00a0<section number(s)>\n(\n<country abbreviation if not evident from context>\n).\nAdoption Regulations 1959, reg 4(1) (N.Z.).\nProvisions within a bill are referred to as clauses, abbreviated as \u201c\ncl\n\u201d or \u201c\ncls\n\u201d. Citation format for bills:\n<bill name>\n<year>\n(\n<bill number and version>\n)\n,\ncl or cls\n<clause number(s)>\n(\n<country abbreviation if not evident from context>\n).\nDomestic Violence (Enhancing Safety) Bill 2008 (9-1), cl 7 (N.Z.).\nCitation format for select committee reports on, and explanatory notes to, bills:\n<bill name> <year>\n(\n<bill number and version>\n),\u00a0(select committee report OR explanatory note) at\n<page number(s)>\n(\n<country abbreviation if not evident from context>\n)\n.\nChild and Family Protection Bill 2009 (72-2) (select committee report) at 3 (N.Z.).\nTreaties\nNew Zealand Treaty Series\n1944\u2013date\nNZTS\nCitation format:\n<treaty name>\n<participants' names, if appropriate>\n[\n<year>\n]\u00a0NZTS\n<number>\n(\u201csigned\u201d or \u201copened for signature\u201d\n<applicable date in day month year format>\n,\u00a0\u201centered into force\u201d\n<applicable date in day month year format>\nor \u201cnot yet in force\u201d).\nFree Trade Agreement Between the Government of New Zealand and the Government of the People's Republic of China [2008] NZTS 19 (signed 7 April 2008, entered into force 1 October 2008), art 6.\nParliamentary debates\nCitation format (Hansard):\n(\n<date in day month year format>\n)\n<volume number>\nNZPD\n<page number>\n.\n(21 March 2013) 688 NZPD 8860.\nNew Zealand Gazette\nThe New Zealand Gazette is the official government newspaper and publishes notices that are required by legislation. Citation format:\n<\u201ctitle of notice, in quotation marks\u201d>\n(\n<date of notice in day month year format>\n)\n<issue number>\nNew Zealand Gazette\n<\nstarting page number of notice>\n.\n\u201cClassification of Reserve\u201d (31 January 2013) 11\nNew Zealand Gazette\n396.\nCitation guide\nThe Law Foundation of New Zealand first published the\nNew Zealand Law Style Guide\nin 2009. It has been adopted by all New Zealand law schools, publishers of law reports and journals, and most courts. The most recent version is the third edition, published in 2018, available online at\nhttps://www.lawfoundation.org.nz/style-guide2019/\n.\nInternet sources\nhttp://legislation.govt.nz\n(website owned by the Parliamentary Counsel Office, which contains official versions of statutes and legislative instruments. The PDF versions of all statutes and legislative instruments enacted or made since 2008 are authoritative; the PDF of the latest versions of all statutes and legislative instruments enacted or made between 1931 and 2007, and some earlier legislation, if still in force, are also authoritative. Also contains copies of bills, supplementary order papers, earlier versions of statutes and legislative instruments, and amendment legislation.)\nhttps://www.pco.govt.nz/online-legislation/\n(lists other online sources of legislation)\nhttp://www.parliament.nz\n(provides access to Hansard transcripts and other parliamentary materials from 2003 to present, as well as up-to-date information on the progress of bills currently before the House)\nhttp://www.nzlii.org\n(New Zealand Legal Information Institute (NZLII) website: New Zealand law journals and Law Commission reports, unofficial case law and statutes, including historical legislation and regulations; also publishes NZTS)\nhttps://forms.justice.govt.nz/jdo/Introduction.jsp\n(Judicial Decisions Online, New Zealand Ministry of Justice website: publishes all Supreme Court cases, Court of Appeal decisions after January 2003, and High Court decisions after August 2005)\nhttps://www.courtsofnz.govt.nz/judgments\n(court-issued PDF copies of all Supreme Court decisions and a few high-profile Court of Appeal and High Court decisions)\nhttp://gazette.govt.nz\n(New Zealand Gazette notices published since 1993; full PDF versions of editions published since 2000)\nhttp://www.lawcom.govt.nz\n(New Zealand Law Commission website: reports and papers on various aspects of New Zealand law)\nhttp://www.thomsonreuters.co.nz\n(Thomson Reuters (commercial source))\nhttps://www.courtsofnz.govt.nz/judgments\n(CCH New Zealand Ltd. (commercial source))\nhttp://www.legislationdirect.co.nz\n(Legislation Direct (contracted with the Parliamentary Counsel office for print and distribution of legislation) (commercial source))\nhttp://www.lexisnexis.co.nz\n(LexisNexis New Zealand (commercial source))"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see below)."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see below)."
+      }
+    ],
+    "21-2-non-english-language-documents_20250819_154339": [
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 20."
+      }
+    ],
+    "t2-33-philippines_20250819_155444": [
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include year",
+        "context": "t, legislation type and number, and amendment information if applicable. If superseded or repealed, include year of effectivity.\nAdministrative Code\n, Book III, Title I, Chapter 2, \u00a7 2, Exec. Ord. No. 292, as ame"
+      }
+    ],
+    "b1-1-citation-sentences-and-clauses_20250819_153056": [
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nWickard v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nUnited States v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nGonzales v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "But see",
+        "context": "But see\nGonzales v."
+      }
+    ],
+    "q_20250819_155858": [],
+    "federal-communications-commission-fcc_20250819_154721": [],
+    "t2-3-austria-republic-of_20250819_155244": [
+      {
+        "type": "example",
+        "text": ",\nOLG Wien\nor\nLG Salzburg\n). In Wien and Graz, the Landesgericht is split into a court for civil matters (\nLGZ\n) (e.g.,\nLGZ Wien\n) and one for criminal cases (\nLGSt\n).\nEntscheidungen des \u00f6sterreichischen Obersten Gerichtshofes in Zivilsachen\n1919\n\u2013\n1938\n1946\n\u2013\ndate\nSZ\nEntscheidungen des Obersten Gerichtshofes in Strafsachen\n1921\u20131938\n1946\u2013date\nSSt\nSpecial jurisdiction\nArbeits-und Sozialgericht\n(\nASG\n) (trial court for labor and social insurance matters): Cite to\nArbRSlg\nfor labor matters, and\nSVSlg\nfor social insurance matters, if therein;\nHandelsgericht\n(\nHG\n) (trial court and court of appeals for commercial matters): Cite to\nHS\n, if therein;\nKartellobergericht\n(\nOGH as KOG\n) (division of Supreme Court for antitrust matters) and\nKartellgericht\n(\nKartG\n) (trial court for antitrust matters): Cite to the source where the decision is reprinted.\nSammlung Arbeitsrechtlicher Entscheidungen\n1973\n\u2013\ndate\nArb\nSozialversicherungsrechtliche Entscheidungen\n1945\n\u2013\ndate\nSVSlg\nHandelsrechtliche Entscheidungen\n1939\n\u2013\ndate\nHS\nConstitutional jurisdiction\nVerfassungsgerichtshof\n(\nVfGH\n) (Constitutional Court): Cite to\nVfSlg\n, if therein.\nErkenntnisse und Beschl\u00fcsse des Verfassungsgerichtshofes\n1921\u20131933, 1946\u2013present\nVfSlg\nVerfassungsgerichtshof [VfGH] [Constitutional Court], Oct. 15, 2004,\nErkenntnisse und Beschl\u00fcsse des Verfassungsgerichtshofes [VfSlg\n] No. 17339/2004 (Austria).\nAdministrative jurisdiction\nFormat for first citation of Administrative Court of Justice decision:\n<court name>\n[\n<court abbreviation>\n] [\n<English translation of court name>\n]\n<date of decision>\n,\n<docket number>\n,\n<volume number> <reporter name>\n[\n<reporter abbreviation>\n]\n<case number within collection>\n(\n<country abbreviation if not evident from context>\n).\nVerwaltungsgerichtshof [VwGH] [Administrative Court of Justice] June 29, 2000, 96/01/1071, 55\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgericthshofes Administrativrechtlicher Teil [VwSlg]\n15 444 A (Austria).\nVerwaltungsgerichtshof [VwGH] [Administrative Court of Justice] Jan. 25, 1980, 1753/79, 35\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgerichtshofes Finanzrechtlicher Teil [VwSlg]\n5453 F/1980 (Austria).\nVerwaltungsgerichtshof\n(\nVwGH\n) (Administrative Court of Justice): Cite to\nVwSlg\n, distinguishing between administrative and fiscal decisions by the letters\nA\nor\nF\nafter the case number.\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgerichtshofes Administrativrechtlicher Teil\n1946\n\u2013\ndate\nVwSlg\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgerichtshofes Finanzrechtlicher Teil\n1946\n\u2013\ndate\nVwSlg\nElectronic citations\nCitation format:\n<court name>\n[\n<court abbreviation>\n]\n[\n<court name in translation>\n]\n,\n<date>\n,\n<docket number>\n,\n<URL\u2014link to BKA/RIS>\n(\n<country abbreviation if not evident from context>\n)\n.\nVerfassungsgerichtshof [VfGH] [Constitutional Court], Sept. 28, 2004, B292/04,"
+      }
+    ],
+    "16-8-electronic-media-and-online-sources_20250819_154139": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": "IALOG, File No. 612.\n(b) Internet and online sources.\nWhere a print version is accessible, citation should be made to the print source. Where, however, the print source is difficult or impossible to obtain, or the"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": ", or the governing authority has designated the electronic source as the official version, citation should be made to the electronic source with consideration of\nrule 18\n\u2019s principles on authentication. If a period"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include that",
+        "context": "database. If the database assigns a unique identifier or code to each document within the database, include that identifier or code to assist the reader in locating the document cited.\nSome sources are available"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "ilable in two forms, electronic and paper. To facilitate access to the source, it is permissible to include a direct citation to a commercial electronic database:\nT.R. Fehrenbach,\nTV\u2019s Alamo Tale Fairly Accura"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing periodical",
+        "context": "CONTENT:\n16.8\nElectronic Media and Online Sources\n(pp. 174\u201375)\n(a) Commercial electronic databases.\nWhen citing periodical materials to a database, provide a complete citation to the document according to\nrule 16\nand a cit"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial electronic databases."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Internet and online sources."
+      }
+    ],
+    "1-4-order-of-authorities-within-each-signal_20250819_153520": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be ordered",
+        "context": "s Within Each Signal\n(p.69)\nAuthorities within each signal are separated by semicolons.\nAuthorities should be ordered in a logical manner. If one authority or several authorities together are considerably more helpful"
+      }
+    ],
+    "h_20250819_155838": [],
+    "t4-2-intergovernmental-treaty-sources_20250819_155706": [],
+    "hawaii-haw_20250819_154943": [],
+    "mississippi-miss_20250819_155021": [],
+    "21-4-treaties-and-other-international-agreements_20250819_154348": [
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must be in",
+        "context": "short form citation (\nrule 4.2(b)\n) to be used in all subsequent citations. The short form citation must be in the same typeface as the original:\n1\nProtocol for the Prohibition of the Use in War of Asphyxiating"
+      },
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never possible",
+        "context": "86, 7 Stat. 24.\n21.4.1 \u2013\nName of the Agreement\nUse the English-language version of a treaty name whenever possible. See\nrule 20.2.2\nregarding the treatment of treaties whose names are not in English.\n(a) First cita"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "nternational agreement\u2014other than the U.N. Charter and the Covenant of the League of Nations\u2014should include the agreement\u2019s name (\nrule 21.4.1\n); the state parties, if applicable (\nrule 21.4.2\n); the subdivision"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "July 23, 1962, 14 U.S.T. 1104, 456 U.N.T.S. 301.\nWhen citing a subdivision, it is not necessary to include a pincite for the treaty series because the article, paragraph, or section number is sufficient. For"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "I.L.M. 2.\nIf a treaty is not found in\nI.L.M.\n, cite another unofficial treaty source. These sources include the websites of governments and intergovernmental organizations, electronic databases, and sources such"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing an",
+        "context": "nafter Geneva Protocol].\n3\nGeneva Protocol,\nsupra\nnote 1, at 572.\n21.4.2 \u2013\nParties to the Agreement\nWhen citing an agreement between two parties, indicate both parties, abbreviating their names according to\ntable T"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing only",
+        "context": "408.\nTreaty with the Apaches, Apache Nation-U.S., July 1, 1852, 10 Stat. 979.\n21.4.3 \u2013\nSubdivisions\nWhen citing only part of an agreement, or when citing an appended document, give the subdivision or appended documen"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "when citing an",
+        "context": "n-U.S., July 1, 1852, 10 Stat. 979.\n21.4.3 \u2013\nSubdivisions\nWhen citing only part of an agreement, or when citing an appended document, give the subdivision or appended document:\nTreaty on Commerce and Navigation, Ir"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": ".\nDeclaration on the Neutrality of Laos, Protocol, July 23, 1962, 14 U.S.T. 1104, 456 U.N.T.S. 301.\nWhen citing a subdivision, it is not necessary to include a pincite for the treaty series because the article, pa"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "First citation."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Form of agreement."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Subsequent citations."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Agreements to which the United States is a party."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Bilateral treaties."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Agreements to which the United States is not a party."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Unofficial treaty sources."
+      },
+      {
+        "type": "example",
+        "text": ",\nAgreement, Convention, Memorandum, Protocol, Treaty, Understanding\n). Use only the first form designation that appears on the title page, unless doing so would create ambiguity:\nConvention\nNot:\nConvention & Supplementary Protocol\nCite lesser-included documents as subdivisions (\nrule 21.4.3\n).\n(ii) Subject matter.\nUse the subject-matter description that appears as part of the title of the agreement:\nKyoto Protocol to the United Nations Framework Convention on Climate Change\n(b) Subsequent citations.\nIf a treaty\u2019s name is very long, or if the treaty is commonly known by a popular name, the first citation of the treaty should end with a bracketed \u201c\nhereinafter\n\u201d short form citation (\nrule 4.2(b)\n) to be used in all subsequent citations. The short form citation must be in the same typeface as the original:\n1\nProtocol for the Prohibition of the Use in War of Asphyxiating, Poisonous or Other Gases, and of Bacteriological Methods of Warfare, June 17, 1925, 26 U.S.T. 571 [hereinafter Geneva Protocol].\n3\nGeneva Protocol,\nsupra\nnote 1, at 572.\n21.4.2 \u2013\nParties to the Agreement\nWhen citing an agreement between two parties, indicate both parties, abbreviating their names according to\ntable T10\n, but do not abbreviate the name of a Tribal Nation party:\nJapan-U.S.\nFr.-Ger.\nParties\u2019 names should appear in alphabetical order:\nAgreement for Financing Certain Educational and Cultural Exchange Programs, Taiwan-U.S., Apr. 23, 1964, 15 U.S.T. 408.\nTreaty with the Apaches, Apache Nation-U.S., July 1, 1852, 10 Stat. 979.\n21.4.3 \u2013\nSubdivisions\nWhen citing only part of an agreement, or when citing an appended document, give the subdivision or appended document:\nTreaty on Commerce and Navigation, Iraq-U.S., art. III, \u00b6 2, Dec. 3, 1938, 54 Stat. 1790.\nDeclaration on the Neutrality of Laos, Protocol, July 23, 1962, 14 U.S.T. 1104, 456 U.N.T.S. 301.\nWhen citing a subdivision, it is not necessary to include a pincite for the treaty series because the article, paragraph, or section number is sufficient. For a discussion of citations to subdivisions and appendices, see\nrules 3.3\nand\n3.4\n.\n21.4.4 \u2013\nDate of Signing\nGive the exact date of signing:\nProtocol to Amend the Convention for the Suppression of the Traffic in Women and Children, Nov. 12, 1947, 53 U.N.T.S. 13.\nWhen multiple dates of signing are given for an agreement or exchange of notes between two parties, give the first and last dates of signing:\nAgreement on Weather Stations, Colom.-U.S., Apr. 27\u2013May 13, 1964, 15 U.S.T. 1355.\nIf a treaty was not signed on a single date, use the date on which the treaty was opened for signature, approved, ratified, or adopted, and indicate the significance of the date in italics:\nTreaty on the Non-Proliferation of Nuclear Weapons,\nopened for signature\nJuly 1, 1968, 21 U.S.T. 483, 729 U.N.T.S. 161.\nThe date on which a treaty entered into force or other such date may be added parenthetically at the end of the citation if it is relevant:\nU.N. Convention on the Law of the Sea,\nopened for signature\nDec. 10, 1982, 1833 U.N.T.S. 397 (entered into force Nov. 16, 1994).\nFor abbreviations of the months of the year, see\ntable T12\n.\n21.4.5 \u2013\nTreaty Sources\nSee\ntable T4\nfor a list of international treaty sources. Treaty sources of some foreign states are listed with the other materials of those states in\ntable T2\n.\n(a) Agreements to which the United States is a party.\n(i) Bilateral treaties.\nFor agreements between the United States and another party, cite one of the following sources, in the following order of preference:\nU.S.T.I.F.\n;\nT.I.A.S\n. (or\nT.S\n., or\nE.A.S.)\n;\nU.N.T.S\n.;\nSenate Treaty Documents\nor\nSenate Executive Documents\n;\nU.S.T.\n(or\nStat.\n);\nthe Department of State Dispatch\n;\nDepartment of State Press Releases\n. If the agreement has not appeared in one of these official sources, cite an unofficial treaty source (\nrule 21.4.5(c)\n):\nTreaty on the Limitation of Anti-Ballistic Missile Systems, U.S.-U.S.S.R., May 26, 1972, 23 U.S.T. 3435.\nAgreement on Defense and Economic Cooperation, Greece-U.S., at 4, Sept. 8, 1983, T.I.A.S. No. 10,814.\nTax Convention, Fin.-U.S., Sept. 21, 1989,\nS. Treaty Doc\nNo. 101-11.\nMemorandum of Understanding Regarding Bilateral Verification Experiment and Data Exchange Related to Prohibition of Chemical Weapons, U.S.-U.S.S.R., art. V(1), Sep. 23, 1989,\nDep\u2019t State Bull.\n, Nov. 1989, at 18 [hereinafter Chemical Weapons MOU].\nCuban-American Treaty, Cuba-U.S., art. I, Feb. 16\u201323, 1903, T.S. No. 418.\nAgreement Regarding Mutual Assistance Between Their Customs Administrations, Ir.-U.S., art. 3, Sept. 16, 1996, 2141 U.N.T.S. 51.\n(ii) Multilateral treaties.\nFor agreements among three or more parties to which the United States is a party, cite one of the U.S. domestic sources listed in\nrule 21.4.5(a)(i)\n, if therein. Additionally, a parallel citation may be added from one source published by an international organization (e.g.,\nU.N.T.S., L.N.T.S., O.A.S.T.S., Pan-Am. T.S., O.J., E.T.S.,\nor\nC.E.T.S.\n), if therein:\nNorth Atlantic Treaty art. 5, Apr. 4, 1949, 63 Stat. 2241, 34 U.N.T.S. 243.\nIf none of these official sources can be obtained, cite an unofficial treaty source (\nrule 21.4.5(c)\n) or another reliable source where the treaty can be found.\n(b) Agreements to which the United States is not a party.\nCite one source published by an international organization (\nrule 21.4.5(a)(ii)\n), if therein:\nTreaty of Neutrality, Hung.-Turk., Jan. 5, 1929, 100 L.N.T.S. 137.\nAgreement for the Avoidance of Double Taxation, Neth.-Swed., art. 4, Apr. 25, 1952, 163 U.N.T.S. 131.\nIf not, cite the official source of one signatory, if therein, indicating parenthetically the jurisdiction whose source is cited according to\nrule 21.3\nif it is not clear from the context. If the treaty is not found in a signatory\u2019s treaty source, cite an unofficial treaty source (\nrule 21.4.5(c)\n):\nAgreement on Trade, Economic, and Technical Cooperation, Austl.-Oman, Oct. 20, 1981, [1982] A.T.S. 4.\n(c) Unofficial treaty sources.\nWhen a treaty does not appear in a required source listed in\nrule 21.4.5(a)(i)\nor\nrule 21.4.5(a)(ii)\n, cite International Legal Materials (\nI.L.M.\n), if therein:\nOlivos Protocol for the Settlement of Disputes in Mercosur art. 6, Feb. 18, 2002, 42 I.L.M. 2.\nIf a treaty is not found in\nI.L.M.\n, cite another unofficial treaty source. These sources include the websites of governments and intergovernmental organizations, electronic databases, and sources such as the Foreign Relations of the United States series, Parry\u2019s Consolidated Treaty Series, Hein\u2019s microfiche treaty service, and Martens Nouveau Recueil:\nAgreement Concerning Payments for Certain Losses Suffered During World War II, Fr.-U.S., Jan. 18, 2001, Temp. State Dep\u2019t No. 01-36, 2001 WL 416465.\nIf no other citation is available, you may cite a book (\nrule 15\n), periodical (\nrule 16\n), or online source (\nrule 18"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nrule 20."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrules 3."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\ntable T12\n."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\ntable T4\nfor a list of international treaty sources."
+      }
+    ],
+    "21-11-world-trade-organization_20250819_154410": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "he World Trade Organization, Annex 2, 1869 U.N.T.S. 401 [hereinafter DSU].\nGATT-era side agreements should be cited to an unofficial treaty source, such as\nB.I.S.D.\n:\nAgreement Regarding International Trade in Texti"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ccording to\nrule 17.2.3\n.\n(iii)\nWTO website\n. Some documents may be found on the WTO\u2019s website, and should be cited in accordance with\nrule 18.2\n."
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include precise",
+        "context": "e discretion of the individual member. Because these documents are not normally publicly available, include precise information regarding their location:\nFirst Written Submission of the United States,\nUnited States\u2014"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include the",
+        "context": "ade (GATT) panel decisions.\nCite\nBasic Instruments and Selected Documents\n(\nB.I.S.D.\n), if therein. Include the title; case number, if listed; the document date; the ordinal number of the supplement (annual volu"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "WTO panel and Appellate Body materials."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "General Agreement on Tariffs and Trade (GATT) panel decisions."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Reports."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Founding agreements."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "e",
+        "text": "Ministerial documents."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "f",
+        "text": "Other documents."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Arbitration documents\n."
+      }
+    ],
+    "17-6-short-citation-forms_20250819_154209": [
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nJ."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See id."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nAdrienne D."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nOetken,\nsupra\nnote 2 (manuscript at 15); Davis,\nsupra\nnote 2, at 12; Press Release, Child."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nLetter from Asma Hasan to Michael Cannon 2 (Mar."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nLetter from Asma Hasan to Michael Cannon,\nsupra\nnote 4, at 3."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nPress Release, Child."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nJ."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nAdrienne D."
+      }
+    ],
+    "3-3-sections-and-paragraphs_20250819_153635": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be treated",
+        "context": "se two section symbols:\n19 U.S.C. \u00a7\u00a7 1485(a), 1486(b).\n(c) Multiple paragraphs.\nMultiple paragraphs should be treated like multiple sections, following\nrule 3.3(b)\n:\n1\nBlue Sky L. Rep\n. (CCH) \u00b6\u00b6 4471\u20134474.\n(d) Flush l"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing multiple",
+        "context": "hus, place \u201c1\u201d and \u201ca\u201d in parentheses (\u201c\n(1)\n\u201d and \u201c\n(a)\n\u201d).\n(b) Multiple sections and subsections.\nWhen citing multiple sections, use two section symbols (\n\u00a7\u00a7\n). Give inclusive numbers; do not use \u201c\net seq.\n\u201d Identical"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing scattered",
+        "context": "uous, use the word \u201c\nto\n\u201d:\n42 U.S.C. \u00a7\u00a7 1973aa-2 to -4.\nMont. Code Ann.\n\u00a7\u00a7 75-1-301 to -324 (1989).\nWhen citing scattered sections, separate the sections with commas:\nN.J. Stat. Ann.\n\u00a7\u00a7 18A:54-1, -3, -6 (West 1989).\nRepea"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing multiple",
+        "context": "cessary to avoid confusion:\nN.J. Stat. Ann.\n\u00a7\u00a7 18A:58-17, :58-25, :64A-22.1, :64A-22.6 (West 1989).\nWhen citing multiple subsections within a\nsingle\nsection, use only one section symbol:\n28 U.S.C. \u00a7 105(a)(3)\u2013(b)(1).\n19"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "when citing multiple",
+        "context": ". \u00a7 105(a)(3)\u2013(b)(1).\n19 U.S.C. \u00a7 1485(a)(1)\u2013(3).\nDel. Code Ann.\ntit. 9, \u00a7 6910(a), (c) (1989).\nBut when citing multiple subsections within\ndifferent\nsections, use two section symbols:\n19 U.S.C. \u00a7\u00a7 1485(a), 1486(b).\n(c)"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Subsections."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Multiple sections and subsections."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Multiple paragraphs."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Flush language and examples."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 12."
+      }
+    ],
+    "oklahoma-okla_20250819_155109": [],
+    "b5-3-modifying-quotations-and-citations-for-clarity_20250819_153134": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be used",
+        "context": "ise faithfully reproduces the quoted text.\nBluepages Tip:\nThe parenthetical \u201c\n(citation modified)\n\u201d should be used in lieu of any other parenthetical that indicates a quotation or citation has been modified for rea"
+      }
+    ],
+    "1-structure-and-use-of-citations_20250819_153507": [],
+    "federal-aviation-administration-faa_20250819_154718": [],
+    "12-5-electronic-media-and-online-sources_20250819_153902": [
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "ENT:\n12.5\nElectronic Databases and Online Sources\n(pp. 132\u201333)\n(a) Commercial electronic databases.\nWhen citing a code contained in an electronic database, give parenthetically the name of the database and informa"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial electronic databases."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Internet and online sources."
+      }
+    ],
+    "american-samoa_20250819_155202": [],
+    "t2-36-russian-federation_20250819_155454": [],
+    "north-carolina-n-c_20250819_155058": [
+      {
+        "type": "example",
+        "text": ",\n54 N.C. (1 Jones Eq.)\nJones\u2019 Law (46\u201353)\n1853\u20131862\ne.g.\n,\n46 N.C. (1 Jones)\nBusbee\u2019s Equity\n1852\u20131853\n45 N.C. (Busb. Eq.)\nBusbee\u2019s Law\n1852\u20131853\n44 N.C. (Busb.)\nIredell\u2019s Equity (36\u201343)\n1840\u20131852\ne.g.\n,\n36 N.C. (1 Ired. Eq.)\nIredell\u2019s Law (23\u201335)\n1840\u20131852\ne.g.\n,\n23 N.C. (1 Ired.)\nDevereux & Battle\u2019s Equity (21\u201322)\n1834\u20131839\ne.g.\n,\n21 N.C. (1 Dev. & Bat. Eq.)\nDevereux & Battle\u2019s Law (18\u201320)\n1834\u20131839\ne.g.\n,\n20 N.C. (3 & 4 Dev. & Bat.)\nDevereux\u2019s Equity (16\u201317)\n1826\u20131834\ne.g.\n,\n16 N.C. (1 Dev. Eq.)\nDevereux\u2019s Law (12\u201315)\n1826\u20131834\ne.g.\n,\n12 N.C. (1 Dev.)\nHawks (8\u201311)\n1820\u20131826\ne.g.\n,\n8 N.C. (1 Hawks)\nMurphey (5\u20137)\n1804\u20131813\n1818\u20131819\ne.g.\n,\n5 N.C. (1 Mur.)\nTaylor\u2019s North Carolina Term Reports\n1816\u20131818\n4 N.C. (Taylor)\nCarolina Law Repository\n1813\u20131816\n4 N.C. (Car. L. Rep.)\nHaywood (2\u20133)\n1789\u20131806\ne.g.\n,\n2 N.C. (1 Hayw.)\nConference by Cameron & Norwood\n1800\u20131804\n1 N.C. (Cam. & Nor.)\nTaylor\n1798\u20131802\n1 N.C. (Tay.)\nMartin\n1778\u20131797\n1 N.C. (Mart.)\nCourt of Appeals\n(\nN.C. Ct. App.\n): Cite to\nS.E.2d\n, if therein.\nSouth Eastern Reporter\n1968\u2013date\nS.E.2d\nNorth Carolina Court of  Appeals Reports\n1968\u2013date\nN.C. App.\nStatutory compilations\n:\nCite to\nN.C. Gen. Stat.\n(published by LexisNexis), if therein.\nGeneral Statutes of North Carolina (LexisNexis)\nN.C. Gen. Stat\n. \u00a7 x-x (\n<year>\n)\nWest\u2019s North Carolina General Statutes Annotated\nN.C. Gen. Stat. Ann\n. \u00a7 x-x (West\n<year>\n)\nSession laws\n: Cite to\nN.C. Sess. Laws\n, if therein.\nSession Laws of North Carolina\n<year>\nN.C. Sess. Laws\n<page no.>\nNorth Carolina\n<year>\nAdvance Legislative Service (LexisNexis)\n<year>\n-\n<pamph. no.>\nN.C. Adv. Legis. Serv.\n<page no.>\n(LexisNexis)\nNorth Carolina Legislative Service (West)\n<year>\nN.C. Legis. Serv.\n<page no.>\n(West)\nAdministrative compilation\nNorth Carolina Administrative Code (West)\n<tit. no.>\nN.C.\nAdmin. Code\n<rule no.>\n(\n<year>\n)\nAdministrative register\nNorth Carolina Register (LexisNexis)\n<vol. no.>\nN.C. Reg.\n<page no.>\n(\n<month day, year>\n)"
+      }
+    ],
+    "11-constitutions_20250819_153840": [
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "t\n. amend. XVIII (repealed 1933).\nU.S. Const\n. amend. XVIII,\nrepealed by\n,\nU.S. Const\n. amend. XXI.\nWhen citing a provision that has been subsequently amended, either indicate parenthetically the fact and year of"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "ly:\nArticles of Confederation\nof 1781, art. IX, para. 1.\nArk. Const.\nof 1868, art. III, \u00a7 2 (1873).\nWhen citing a constitution contained in an electronic database, indicate parenthetically the name of the publishe"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 20."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 22."
+      }
+    ],
+    "b18-1-full-citation_20250819_153336": [
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never possible",
+        "context": "PDF (which preserves the pagination of the print version), then you should cite to only the PDF. Whenever possible, provide a pincite for internet sources:\nUlrich Cubasch et al.,\nClimate Change 2013: The Physical S"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 18."
+      }
+    ],
+    "t15-services_20250819_155804": [
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "CONTENT:\nT15\nServices\n(pp. 349\u201353)\nAbbreviations commonly used in referring to service publishers include the following:\nBloomberg Law\nBL\nCommerce Clearing House\nCCH\nMatthew Bender\nMB\nResearch Institute of Ame"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nrule 19\nfor further guidance on citation to services."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Contract Appeals Decisions\nBusiness Franchise Guide\nBus."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Government Contracts Reporter\nCopyright Law Decisions\nCopyright L."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also Labor Law Reporter\nEmpl."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Labor Relations Reporter\nThe Family Law Reporter\nFam."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Insurance Law Reports\nFood Drug Cosmetic Law Reporter\nFood Drug Cosm."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also Employment Practices Guide\nNLRB Dec."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Insurance Law Reports\nLiquor Control Law Reporter\nLiquor Cont."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Labor Law Reporter\nNuclear Regulation Reporter\nNuclear Reg."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see All States Tax Guide\nState Inheritance, Estate, and Gift Tax Reporter\nSt."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Federal Estate and Gift Tax Reporter; Standard Federal Tax Reporter\nU."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also Labor Law Reporter\nEmpl."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also Employment Practices Guide\nNLRB Dec."
+      }
+    ],
+    "2-typefaces-for-law-reviews_20250819_153538": [
+      {
+        "type": "example",
+        "text": ", Times New Roman,\nCourier\n, etc.):\nOrdinary Roman (Plain Text)\nU\nnderlined\nItalicized\nSmall Capitals\nLaw reviews use two sets of typeface conventions\u2014one for law review text (either main text or footnote text) (\nrule 2.2\n) and one for law review citations (\nrule 2.1\n). Unless otherwise noted, the examples in\nThe Bluebook\ncorrespond to the convention for law review footnotes.\nFor an explanation of the typeface conventions commonly used in other forms of legal writing, see\nBluepages B2\n. Practitioners can make ready use of the examples in\nThe Bluebook\nby substituting the typeface conventions outlined in the\nBluepages\nfor those found in the examples throughout the rest of the book.\nFor example, a practitioner\u2019s brief might look like this:\nDirectors manage the business and affairs of a corporation.\nSee\nRevlon, Inc. v. MacAndrews & Forbes Holdings, Inc.\n, 506 A.2d 173, 179 (Del. 1986);\nsee also\nDel. Code Ann. tit. 8, \u00a7 141(a) (2000). In\nGuth v. Loft\n, the court held that directors also owe a duty of loyalty to the shareholders. 5 A.2d 503, 510 (Del. 1939) (holding that directors\u2018 duty of loyalty demands that \u201cthere shall be no conflict between duty and self-interest\u201d).\nA similar section of a law review article might read:\nDirectors manage the business and affairs of a corporation.\n1\nIn\nGuth v. Loft\n, the court held that directors also owe a duty of loyalty to the shareholders.\n2\n1\nSee\nRevlon, Inc. v. MacAndrews & Forbes Holdings, Inc., 506 A.2d 173, 179 (Del. 1986);\nsee also\nDel. Code Ann.\ntit. 8, \u00a7 141(a) (2000) (providing statutory basis).\n2\n5 A.2d 503, 510 (Del. 1939) (holding that directors\u2019 duty of loyalty demands that \u201cthere shall be no conflict between duty and self-interest\u201d).\n2.1\nTypeface Conventions for Citations\n2.2\nTypeface Conventions for Textual Material\n2.3\nOther Punctuation Conventions"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nBluepages B2\n."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nRevlon, Inc."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nDel."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nRevlon, Inc."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nDel."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nDel."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nDel."
+      }
+    ],
+    "alabama-ala_20250819_154836": [],
+    "21-12-international-monetary-fund_20250819_154413": [
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "lation to the Executive Board, the Executive Board\u2019s Committees, and the staff. The citation should include the name of the body (abbreviated according to\nrule 15.1(e)\n); the title of the report; the pincite, if"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing IMF",
+        "context": "----------------------------------\n\nCONTENT:\n21.12\nInternational Monetary Fund\n(p.241)\n(a) Reports.\nWhen citing IMF Annual Reports, Regional Economic Reports, World Economic Outlook Reports, Global Financial Stabili"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Reports."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Executive Board documents."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Institutional archives."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Founding agreements."
+      }
+    ]
+  },
+  "categorized_rules": {
+    "general": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ber that Commission and Council acts are given (e.g.,\nCouncil Directive (EC) No. 2504/90\n), then it should be cited as a report.\n(e) Press releases, Presidency Conclusions, and memoranda.\nEuropean Union and European"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ency Conclusions, and memoranda.\nEuropean Union and European Community press releases and memoranda should be cited by source (with an indication of the status of the press release, including a number if applicable)"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "europa.eu/en/index.htm\n. The online editions may be cited as official editions and should generally include the same information as citations to paper versions.\nCite volumes of\nO.J.\nand\nJ.O.\nby year.\nJ.O.\nvolume"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "\u201c\nL\n\u201d series, while other documents appear in the \u201c\nC\n\u201d series. Citations to\nJ.O.\nbefore 1968 must include the issue number, while citations to\nO.J.\nand\nJ.O\n. since 1968 must include both the series and the iss"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include both",
+        "context": "o\nJ.O.\nbefore 1968 must include the issue number, while citations to\nO.J.\nand\nJ.O\n. since 1968 must include both the series and the issue number:\n1971 J.O. (L 20) 1.\n1975 O.J. (L 337) 7.\n1964 J.O. (234) 5.\nCitati"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include in",
+        "context": "pean Union\n. It is acceptable to cite debates to the\nOfficial Journal\n(O.J.)\nbefore they are bound. Include in the citation the document number, the full date, and relevant information, including the name of th"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include the",
+        "context": "or to 1988), if therein; otherwise cite\nParlement Europ\u00e9en Documents de S\u00e9ance\n(\nParl.\u00a0Eur. Doc.\n). Include the document number:\nEur. Parl. Doc.\n(COM 258) 5 (1973).\nParl. Eur. Doc.\n(SEC 64) 6 (1963).\nThe name ma"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include in",
+        "context": "ons and working groups within the European Union or European Communities according to\nrule 21.7.3\n. Include in the citation of reports the issuing body and the committee, division, or group that produced the re"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "igious Leaders (June 10, 2014).\nTreat Presidency Conclusions of the Council like press releases and include the exact date as well as the meeting place of the Council:\nPresidency Conclusions, Brussels European C"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Acts of the Council and Commission."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Sources."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Documents of the European Parliament."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Debates."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Founding treaties."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Reports, Green Papers, and White Papers."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "e",
+        "text": "Press releases, Presidency Conclusions, and memoranda."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "f",
+        "text": "European Court of Justice materials."
+      },
+      {
+        "type": "example",
+        "text": ",\nCouncil Directive (EC) No. 2504/90\n), then it should be cited as a report.\n(e) Press releases, Presidency Conclusions, and memoranda.\nEuropean Union and European Community press releases and memoranda should be cited by source (with an indication of the status of the press release, including a number if applicable); the title; and the date in parentheses:\nEuropean Commission Press Release IP/14/650, The Commission, the Council and the Parliament Debate the Future of the European Union with Religious Leaders (June 10, 2014).\nTreat Presidency Conclusions of the Council like press releases and include the exact date as well as the meeting place of the Council:\nPresidency Conclusions, Brussels European Council (Dec. 12, 2003).\n(f) European Court of Justice materials.\nCite European Court of Justice materials according to\nrule 21.5.2"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing tribal",
+        "context": "at prescribed by the respective Tribal Nation's rules or guidelines, if such a format is available.\nWhen citing tribal law for other purposes:\n(1) If the Tribal Nation cited has prescribed a citation format for its own"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1",
+        "text": "If the Tribal Nation cited has prescribed a citation format for its own legal materials, provide the citation in that format."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "2",
+        "text": "If the Tribal Nation has not prescribed a citation format for its own legal materials, cite the law according to\nrule 22\nsubject to the typeface changes present in the Bluepages examples."
+      },
+      {
+        "type": "example",
+        "text": ",\n48 Tenn. (1 Heisk.)\nColdwell\n1860\u20131870\ne.g.,\n41 Tenn. (1 Cold.)\nHead\n1858\u20131860\ne.g.,\n38 Tenn. (1 Head)\nSneed\n1853\u20131858\ne.g.,\n33 Tenn. (1 Sneed)\nSwan\n1851\u20131853\ne.g.,\n31 Tenn. (1 Swan)\nHumphreys\n1839\u20131851\ne.g.,\n20 Tenn. (1 Hum.)\nMeigs\n1838\u20131839\n19 Tenn. (Meigs)\nYerger\n1818\u20131837\ne.g.,\n9 Tenn. (1 Yer.)\nMartin & Yerger\n1825\u20131828\n8 Tenn. (Mart. & Yer.)\nPeck\n1821\u20131824\n7 Tenn. (Peck)\nHaywood\n1816\u20131818\ne.g.,\n4 Tenn. (1 Hayw.)\nCooke\n1811\u20131814\n3 Tenn. (Cooke)\nOverton\n1791\u20131815\ne.g.,\n1 Tenn. (1 Overt.)\nCourt of Appeals\n(\nTenn. Ct. App.\n): Cite to\nS.W.2d\nor\nS.W.3d\n, if therein.\nSouth Western Reporter\n1932\u2013date\nS.W.2d, S.W.3d\nTennessee Appeals Reports\n1925\u20131971\nTenn. App.\nCourt of Criminal Appeals\n(\nTenn. Crim. App.\n): Cite to\nS.W.2d\nor\nS.W.3d\n,\u00a0if therein.\nSouth Western Reporter\n1967\u2013date\nS.W.2d, S.W.3d\nTennessee Criminal Appeals Reports\n1967\u20131971\nTenn. Crim. App.\nStatutory compilations:\nCite to\nTenn. Code Ann\n.\n(published by LexisNexis), if therein.\nTennessee Code Annotated (LexisNexis)\nTenn. Code Ann\n. \u00a7 x-x-x (\n<year>\n)\nWest's Tennessee Code Annotated\nTenn. Code Ann.\n\u00a7 x-x-x (West\n<year>\n)\nSession laws:\nCite to\nTenn. Pub. Acts\nor\nTenn. Priv. Acts\n, if therein.\nPublic Acts of the State of Tennessee\n<year>\nTenn. Pub. Acts\n<page no.>\nPrivate Acts of the State of Tennessee\n<year>\nTenn. Priv. Acts\n<page no.>\nTennessee Code Annotated Advance Legislative Service (LexisNexis)\n<year>\n-\n<pamph. no.>\nTenn. Code Ann. Adv. Legis. Serv.\n<page no.>\n(LexisNexis)\nWest\u2019s Tennessee Legislative Service\n<year>\nTenn. Legis. Serv.\n<page no.>\n(West)\nAdministrative compilation\nOfficial Compilation Rules & Regulations of the State of Tennessee\nTenn. Comp. R\n.\n& Regs\n.\n<rule no.>\n(\n<year>\n)\nAdministrative register\nTennessee Administrative Register\n<vol. no.>\nTenn. Admin. Reg.\n<page no.>\n(\n<month year>\n)"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be consistent",
+        "context": "le, in preference to the other sources covered by\nrule 18\n. Citations to these electronic databases should be consistent with this present rule regardless of whether the databases are accessed through proprietary softwar"
+      },
+      {
+        "pattern": "omit\\s+(\\w+)",
+        "match": "Omit the",
+        "context": "town Sheet & Tube Co.\n, 343 U.S. at 585.\nYoungstown\n, 343 U.S. at 585.\n343 U.S. at 585.\nId.\nat 585.\nOmit the case name as in the last two examples only if the reader will have no doubt about the case to which"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "t 585.\nWhen citing an entire decision, and not a pinpoint therein, in short form, the citation must include the shorter version of the case name, the volume number, reporter designation, and first page; but do\nn"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing an",
+        "context": "Steel Seizure Case\n), 343 U.S. 579, 585 (1952).\nbecomes:\nThe Steel Seizure Case\n, 343 U.S. at 585.\nWhen citing an entire decision, and not a pinpoint therein, in short form, the citation must include the shorter v"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing multiple",
+        "context": "h v. Sam, No. 4359, slip op. at\u00a012 (Pa. Ct. Com. Pl. Oct. 20, 2005).\nbecomes:\nSam\n, slip op. at 12.\nWhen citing multiple slip opinions for the same case, either give each decision a unique identifier in its initial citat"
+      },
+      {
+        "pattern": "citation\\s+must\\s+include",
+        "match": "citation must include",
+        "context": "e\n, 343 U.S. at 585.\nWhen citing an entire decision, and not a pinpoint therein, in short form, the citation must include the shorter version of the case name, the volume number, reporter designation, and first page; but"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Footnotes."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Generally."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Two exceptions when using \u201c\nid."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Text."
+      },
+      {
+        "pattern": "place\\s+(\\w+)\\s+in",
+        "match": "place it in",
+        "context": "ample below, the enacting state is Selangor. If the name of the state is not in the enactment name, place it in front as per the second example below:\n(\n<state name, if applicable>\n)\n<enactment name> <year of pa"
+      },
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never saw",
+        "context": "xcess of the posted speed limit. Compl. \u00b6 7. However, her sworn testimony is to the effect that she never saw the Defendant before the accident and was thus unable to gauge his speed. Perryman Dep. 34:15\u201318, A"
+      },
+      {
+        "type": "example",
+        "text": ",\nR. at 5\n):\nHawkins Aff. 6.\nTrial Tr. vol. 2, 31.\nPet\u2019r\u2019s Br. 6.\nClark Dep. 15:21\u201316:4.\nPls.\u2019 Am. Answer to Def.\u2019s Countercl. 3\u20134.\nTravis Decl. Ex. B, at 3.\nR. at 9.\nB17.1.3 \u2013\nDate\nProvide the date of the cited document when: (1) more than one document has the same title; (2) the date is relevant to the discussion; or (3) the date is needed to avoid confusion:\nPlaintiff alleged that Defendant was driving at a rate far in excess of the posted speed limit. Compl. \u00b6 7. However, her sworn testimony is to the effect that she never saw the Defendant before the accident and was thus unable to gauge his speed. Perryman Dep. 34:15\u201318, Aug. 7, 2002; Trial Tr. vol. 2, 51\u201352, Dec. 12, 2002.\nMr. Svensson attests that Plaintiff\u2019s president cared not about the age of the inventory but only about its marketability. Svensson Aff. \u00b6 5. In addition, Ms. Beatrice swears that Plaintiff\u2019s president had the authority to waive the condition concerning the age of the inventory, Beatrice Aff. \u00b6 9, May 10, 2003, and that no other corporate official had such authority, Beatrice Aff. \u00b6 2, June 2, 2003.\nB17.1.4 \u2013\nElectronic Dockets\nCourt documents filed with the electronic case management system employed by PACER for federal cases and the comparable state systems for state cases\u00a0are assigned document numbers. Add this electronic docket\u00a0number to the citations of electronically filed documents:\nFeder Dep. 5:30\u201312:10, Dkt. No. 6.\nDef.\u2019s Mot. Summ. J. 2, Dkt. No. 15.\nBluepages Tip:"
+      },
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never known",
+        "context": "n archival collection just as you would a standard archival document, omitting the author field. Whenever known, use the date of the object\u2019s creation\u2014not of its discovery, purchase, or archival. As a default, u"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include it",
+        "context": "ct is of a nature\u2014artistic or otherwise\u2014where the creator of the object is both known and relevant, include it:\nVinyl Recording of \u201cPepperus Parker Plays INSANITY (An Original Composition)\u201d (n.d.) (on file with"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": ".\n18.7.3 \u2013\nLive Streaming Media Services\nWhen possible, citation to a live stream or live broadcast should be made to the documented video of that live stream per\nrule 18.7.4\n. If no public recording of the live st"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "published online. This does not include short-form social media content in the form of video, which should be cited in accordance with\nrule 18.10\n.\nFor web-based videos, cite by the name of the account that posted t"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be designated",
+        "context": "m indicated should be the platform on which the video was first uploaded by the creator.\nTimestamps should be designated by pinpoint citations, using the phrase \u201c,\nat XX:XX\n\u201d or \u201c,\nat XX:XX\u2013XX:XX\n\u201d immediately after the"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include short",
+        "context": "Web-Based Videos\nWeb-based videos are videographic media originally published online. This does not include short-form social media content in the form of video, which should be cited in accordance with\nrule 18.10"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Noncommercial."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Noncommercial."
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be paid",
+        "context": "n such cases, square brackets are used instead of parentheses around the year. Particular attention should be paid to reports that have changed titles (see below).\nKerridge v. Kerridge\n[2008] NZFLR 30 (HC).\nKain v."
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ation if not evident from context>\n).\nMK v. Police\n[2007] DCR 770 (N.Z.).\nSpecialist series reports should be cited as directed within the report. The Legal Citations of Aotearoa (\nLCANZ\n) website also provides guid"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "95, 25 June 1998 (N.Z.).\nWhen citing any court other than the Supreme Court or the Court of Appeal, include the place of registry:\nGitmans v. Alexander\nHC Auckland CIV 2001-404-1937, 9 December 2003 at [16]\u2013[18]"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing to",
+        "context": "t>\n).\nBarker v. Edger\n(1898) NZPCC 422 (N.Z.).\nUnreported decisions with no medium-neutral citation\nWhen citing to an unreported decision for which a medium-neutral citation format has not been adopted, the format"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing any",
+        "context": "vident from context>\n).\nWaitikiri Links Ltd v. Windsor Golf Club Inc\nCA132/95, 25 June 1998 (N.Z.).\nWhen citing any court other than the Supreme Court or the Court of Appeal, include the place of registry:\nGitmans v"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1",
+        "text": "If the reports are in a consecutively numbered series from the first volume, use parentheses around the year, which references the year of the decision."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "2",
+        "text": "If the report series consists of one or more volumes per year with no consecutive number sequence, use square brackets."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "3",
+        "text": "All pre-1900 reports use parentheses and the year reference is to the year of the decision."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1881",
+        "text": "NZLR 3 CA 205."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1881",
+        "text": "NZLR 3 CA 205."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "1898",
+        "text": "NZPCC 422 (N."
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include year",
+        "context": "t, legislation type and number, and amendment information if applicable. If superseded or repealed, include year of effectivity.\nAdministrative Code\n, Book III, Title I, Chapter 2, \u00a7 2, Exec. Ord. No. 292, as ame"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": "IALOG, File No. 612.\n(b) Internet and online sources.\nWhere a print version is accessible, citation should be made to the print source. Where, however, the print source is difficult or impossible to obtain, or the"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include that",
+        "context": "database. If the database assigns a unique identifier or code to each document within the database, include that identifier or code to assist the reader in locating the document cited.\nSome sources are available"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "ilable in two forms, electronic and paper. To facilitate access to the source, it is permissible to include a direct citation to a commercial electronic database:\nT.R. Fehrenbach,\nTV\u2019s Alamo Tale Fairly Accura"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial electronic databases."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Internet and online sources."
+      },
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must be in",
+        "context": "short form citation (\nrule 4.2(b)\n) to be used in all subsequent citations. The short form citation must be in the same typeface as the original:\n1\nProtocol for the Prohibition of the Use in War of Asphyxiating"
+      },
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never possible",
+        "context": "86, 7 Stat. 24.\n21.4.1 \u2013\nName of the Agreement\nUse the English-language version of a treaty name whenever possible. See\nrule 20.2.2\nregarding the treatment of treaties whose names are not in English.\n(a) First cita"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "nternational agreement\u2014other than the U.N. Charter and the Covenant of the League of Nations\u2014should include the agreement\u2019s name (\nrule 21.4.1\n); the state parties, if applicable (\nrule 21.4.2\n); the subdivision"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "July 23, 1962, 14 U.S.T. 1104, 456 U.N.T.S. 301.\nWhen citing a subdivision, it is not necessary to include a pincite for the treaty series because the article, paragraph, or section number is sufficient. For"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "I.L.M. 2.\nIf a treaty is not found in\nI.L.M.\n, cite another unofficial treaty source. These sources include the websites of governments and intergovernmental organizations, electronic databases, and sources such"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing only",
+        "context": "408.\nTreaty with the Apaches, Apache Nation-U.S., July 1, 1852, 10 Stat. 979.\n21.4.3 \u2013\nSubdivisions\nWhen citing only part of an agreement, or when citing an appended document, give the subdivision or appended documen"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "when citing an",
+        "context": "n-U.S., July 1, 1852, 10 Stat. 979.\n21.4.3 \u2013\nSubdivisions\nWhen citing only part of an agreement, or when citing an appended document, give the subdivision or appended document:\nTreaty on Commerce and Navigation, Ir"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": ".\nDeclaration on the Neutrality of Laos, Protocol, July 23, 1962, 14 U.S.T. 1104, 456 U.N.T.S. 301.\nWhen citing a subdivision, it is not necessary to include a pincite for the treaty series because the article, pa"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "First citation."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Form of agreement."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Subsequent citations."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Agreements to which the United States is a party."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Bilateral treaties."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Agreements to which the United States is not a party."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Unofficial treaty sources."
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "he World Trade Organization, Annex 2, 1869 U.N.T.S. 401 [hereinafter DSU].\nGATT-era side agreements should be cited to an unofficial treaty source, such as\nB.I.S.D.\n:\nAgreement Regarding International Trade in Texti"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ccording to\nrule 17.2.3\n.\n(iii)\nWTO website\n. Some documents may be found on the WTO\u2019s website, and should be cited in accordance with\nrule 18.2\n."
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include precise",
+        "context": "e discretion of the individual member. Because these documents are not normally publicly available, include precise information regarding their location:\nFirst Written Submission of the United States,\nUnited States\u2014"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include the",
+        "context": "ade (GATT) panel decisions.\nCite\nBasic Instruments and Selected Documents\n(\nB.I.S.D.\n), if therein. Include the title; case number, if listed; the document date; the ordinal number of the supplement (annual volu"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "WTO panel and Appellate Body materials."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "General Agreement on Tariffs and Trade (GATT) panel decisions."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Reports."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Founding agreements."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "e",
+        "text": "Ministerial documents."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "f",
+        "text": "Other documents."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "i",
+        "text": "Arbitration documents\n."
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing multiple",
+        "context": "hus, place \u201c1\u201d and \u201ca\u201d in parentheses (\u201c\n(1)\n\u201d and \u201c\n(a)\n\u201d).\n(b) Multiple sections and subsections.\nWhen citing multiple sections, use two section symbols (\n\u00a7\u00a7\n). Give inclusive numbers; do not use \u201c\net seq.\n\u201d Identical"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing multiple",
+        "context": "cessary to avoid confusion:\nN.J. Stat. Ann.\n\u00a7\u00a7 18A:58-17, :58-25, :64A-22.1, :64A-22.6 (West 1989).\nWhen citing multiple subsections within a\nsingle\nsection, use only one section symbol:\n28 U.S.C. \u00a7 105(a)(3)\u2013(b)(1).\n19"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "when citing multiple",
+        "context": ". \u00a7 105(a)(3)\u2013(b)(1).\n19 U.S.C. \u00a7 1485(a)(1)\u2013(3).\nDel. Code Ann.\ntit. 9, \u00a7 6910(a), (c) (1989).\nBut when citing multiple subsections within\ndifferent\nsections, use two section symbols:\n19 U.S.C. \u00a7\u00a7 1485(a), 1486(b).\n(c)"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Subsections."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Multiple sections and subsections."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Multiple paragraphs."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Flush language and examples."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Commercial electronic databases."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Internet and online sources."
+      },
+      {
+        "type": "example",
+        "text": ",\n54 N.C. (1 Jones Eq.)\nJones\u2019 Law (46\u201353)\n1853\u20131862\ne.g.\n,\n46 N.C. (1 Jones)\nBusbee\u2019s Equity\n1852\u20131853\n45 N.C. (Busb. Eq.)\nBusbee\u2019s Law\n1852\u20131853\n44 N.C. (Busb.)\nIredell\u2019s Equity (36\u201343)\n1840\u20131852\ne.g.\n,\n36 N.C. (1 Ired. Eq.)\nIredell\u2019s Law (23\u201335)\n1840\u20131852\ne.g.\n,\n23 N.C. (1 Ired.)\nDevereux & Battle\u2019s Equity (21\u201322)\n1834\u20131839\ne.g.\n,\n21 N.C. (1 Dev. & Bat. Eq.)\nDevereux & Battle\u2019s Law (18\u201320)\n1834\u20131839\ne.g.\n,\n20 N.C. (3 & 4 Dev. & Bat.)\nDevereux\u2019s Equity (16\u201317)\n1826\u20131834\ne.g.\n,\n16 N.C. (1 Dev. Eq.)\nDevereux\u2019s Law (12\u201315)\n1826\u20131834\ne.g.\n,\n12 N.C. (1 Dev.)\nHawks (8\u201311)\n1820\u20131826\ne.g.\n,\n8 N.C. (1 Hawks)\nMurphey (5\u20137)\n1804\u20131813\n1818\u20131819\ne.g.\n,\n5 N.C. (1 Mur.)\nTaylor\u2019s North Carolina Term Reports\n1816\u20131818\n4 N.C. (Taylor)\nCarolina Law Repository\n1813\u20131816\n4 N.C. (Car. L. Rep.)\nHaywood (2\u20133)\n1789\u20131806\ne.g.\n,\n2 N.C. (1 Hayw.)\nConference by Cameron & Norwood\n1800\u20131804\n1 N.C. (Cam. & Nor.)\nTaylor\n1798\u20131802\n1 N.C. (Tay.)\nMartin\n1778\u20131797\n1 N.C. (Mart.)\nCourt of Appeals\n(\nN.C. Ct. App.\n): Cite to\nS.E.2d\n, if therein.\nSouth Eastern Reporter\n1968\u2013date\nS.E.2d\nNorth Carolina Court of  Appeals Reports\n1968\u2013date\nN.C. App.\nStatutory compilations\n:\nCite to\nN.C. Gen. Stat.\n(published by LexisNexis), if therein.\nGeneral Statutes of North Carolina (LexisNexis)\nN.C. Gen. Stat\n. \u00a7 x-x (\n<year>\n)\nWest\u2019s North Carolina General Statutes Annotated\nN.C. Gen. Stat. Ann\n. \u00a7 x-x (West\n<year>\n)\nSession laws\n: Cite to\nN.C. Sess. Laws\n, if therein.\nSession Laws of North Carolina\n<year>\nN.C. Sess. Laws\n<page no.>\nNorth Carolina\n<year>\nAdvance Legislative Service (LexisNexis)\n<year>\n-\n<pamph. no.>\nN.C. Adv. Legis. Serv.\n<page no.>\n(LexisNexis)\nNorth Carolina Legislative Service (West)\n<year>\nN.C. Legis. Serv.\n<page no.>\n(West)\nAdministrative compilation\nNorth Carolina Administrative Code (West)\n<tit. no.>\nN.C.\nAdmin. Code\n<rule no.>\n(\n<year>\n)\nAdministrative register\nNorth Carolina Register (LexisNexis)\n<vol. no.>\nN.C. Reg.\n<page no.>\n(\n<month day, year>\n)"
+      },
+      {
+        "pattern": "never\\s+(\\w+)",
+        "match": "never possible",
+        "context": "PDF (which preserves the pagination of the print version), then you should cite to only the PDF. Whenever possible, provide a pincite for internet sources:\nUlrich Cubasch et al.,\nClimate Change 2013: The Physical S"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing IMF",
+        "context": "----------------------------------\n\nCONTENT:\n21.12\nInternational Monetary Fund\n(p.241)\n(a) Reports.\nWhen citing IMF Annual Reports, Regional Economic Reports, World Economic Outlook Reports, Global Financial Stabili"
+      },
+      {
+        "type": "numbered_rule",
+        "number": "a",
+        "text": "Reports."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "b",
+        "text": "Executive Board documents."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "c",
+        "text": "Institutional archives."
+      },
+      {
+        "type": "numbered_rule",
+        "number": "d",
+        "text": "Founding agreements."
+      }
+    ],
+    "ordering": [
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing tribal",
+        "context": "-------------------------\n\nCONTENT:\nB22.1\nTribal Nations with an Established Citation Format\n(p.30)\nWhen citing tribal law for submission to a particular Tribal Nation, follow the citation format prescribed by the resp"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be cited",
+        "context": "ya v Ketua Pendakwa Syarie Terengganu\n[2015| 1 SHR 97.\nConstitution\nMalaysia\u2019s Federal Constitution should be cited as follows:\nFed. Const.\n, art. 8(5)(a) (Malay.).\nStatutes\nMalaysian statutes consist of federal Act"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be identified",
+        "context": "ine references by a colon. Page references should not be preceded by \u201c\np.\n,\u201d but other subdivisions should be identified. You are generally not required to precede pincites with \u201c\nat\n,\u201d though it is customary to use \u201c\nat"
+      },
+      {
+        "pattern": "cite\\s+as\\s+follows",
+        "match": "Cite as follows",
+        "context": "des Communaute\u0301s\nEurope\u0301ennes\n1958\u2013date\n<year>\nJ.O. (L\n<act number>\n) xxx\nParliamentary documents:\nCite as follows:\nEuropean Parliamentary Debates\nEur. Parl. Deb.\n(\n<debate number>\n) x\nEuropean Parliament Working S"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "s://elaws.e-gov.go.jp\n/search/elawsSearch/elaws_search/lsg0100/ (Japan).\nWhen citing a translation, include the translation source in addition to the original version, following\nrule 20.2.5\n:\nKanky\u014d kihonh\u014d [Bas"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "when citing to",
+        "context": "15 (wa) no. 29850, 1271\nHanrei taimuzu\n[\nHanta\n] 183, 201 (Japan).\nInternet and database citations:\nwhen citing to electronic resources, follow\nrule 18\n.\nCitation format (if source is available only in electronic f"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing to",
+        "context": "Nihon h\u014dki\n\u73fe\u884c\u65e5\u672c \u6cd5\u898f (Gy\u014dsei),\nR\u014dpp\u014d zensho\n\u516d\u6cd5\u5168\u66f8 (Y\u016bhikaku), and various ts\u016btatsush\u016b \u901a\u9054\u96c6, if therein. When citing to internet sources, follow\nrule 18\n.\nConstitutions\nCitation format:\n<\nConstitution Name\n>\n[\n<\nconstit"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "i kensaku [H\u014drei DB]),\nhttps://elaws.e-gov.go.jp\n/search/elawsSearch/elaws_search/lsg0100/ (Japan).\nWhen citing a translation, include the translation source in addition to the original version, following\nrule 20."
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be used",
+        "context": "neutral citation formats since 2010. If a medium-neutral citation has been assigned by the court it should be used to cite the case. If the case has also been reported, cite the medium-neutral citation followed by"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be treated",
+        "context": "se two section symbols:\n19 U.S.C. \u00a7\u00a7 1485(a), 1486(b).\n(c) Multiple paragraphs.\nMultiple paragraphs should be treated like multiple sections, following\nrule 3.3(b)\n:\n1\nBlue Sky L. Rep\n. (CCH) \u00b6\u00b6 4471\u20134474.\n(d) Flush l"
+      }
+    ],
+    "signals": [
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see the following rules:\nCases\nrule 10."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nUnited States v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See Martinez-Fuerte\n, 428 U."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See id."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See Montoya de Hernandez\n, 473 U."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See Martinez-Fuerte\n, 428 U."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nJones Aff."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nJones Aff."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 11\n."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see the\nLegislative Materials\nsection above)."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see below)."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see below)."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 20."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nWickard v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nUnited States v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nGonzales v."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "But see",
+        "context": "But see\nGonzales v."
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be ordered",
+        "context": "s Within Each Signal\n(p.69)\nAuthorities within each signal are separated by semicolons.\nAuthorities should be ordered in a logical manner. If one authority or several authorities together are considerably more helpful"
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nrule 20."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrules 3."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\ntable T12\n."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\ntable T4\nfor a list of international treaty sources."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nJ."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See id."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nAdrienne D."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nOetken,\nsupra\nnote 2 (manuscript at 15); Davis,\nsupra\nnote 2, at 12; Press Release, Child."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nLetter from Asma Hasan to Michael Cannon 2 (Mar."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nLetter from Asma Hasan to Michael Cannon,\nsupra\nnote 4, at 3."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nPress Release, Child."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nJ."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nAdrienne D."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 12."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 20."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 22."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nrule 18."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nrule 19\nfor further guidance on citation to services."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Contract Appeals Decisions\nBusiness Franchise Guide\nBus."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Government Contracts Reporter\nCopyright Law Decisions\nCopyright L."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also Labor Law Reporter\nEmpl."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Labor Relations Reporter\nThe Family Law Reporter\nFam."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Insurance Law Reports\nFood Drug Cosmetic Law Reporter\nFood Drug Cosm."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also Employment Practices Guide\nNLRB Dec."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Insurance Law Reports\nLiquor Control Law Reporter\nLiquor Cont."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Labor Law Reporter\nNuclear Regulation Reporter\nNuclear Reg."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see All States Tax Guide\nState Inheritance, Estate, and Gift Tax Reporter\nSt."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see Federal Estate and Gift Tax Reporter; Standard Federal Tax Reporter\nU."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also Labor Law Reporter\nEmpl."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also Employment Practices Guide\nNLRB Dec."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see\nBluepages B2\n."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nRevlon, Inc."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nDel."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "See\nRevlon, Inc."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See",
+        "context": "see also\nDel."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nDel."
+      },
+      {
+        "type": "signal_usage",
+        "signal": "See also",
+        "context": "see also\nDel."
+      }
+    ],
+    "parentheticals": [
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must\nbe indicated",
+        "context": "tation, no parenthetical is necessary. But when an \u201c\nid.\n\u201d refers to a\ndifferent\nopinion, that fact\nmust\nbe indicated parenthetically, even if the second opinion cited is the majority opinion. Thus, the following exam"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "orter version of the case name, the volume number, reporter designation, and first page; but do\nnot\ninclude a jurisdiction/date parenthetical:\nThe Steel Seizure Case\n, 343 U.S. 579.\nWhen using only one party's"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include a",
+        "context": "pinions for the same case, either give each decision a unique identifier in its initial citation or include a jurisdiction or date parenthetical in each short form. The following short forms are thus both acce"
+      },
+      {
+        "type": "example",
+        "text": ", if the object is a photograph or painting), add that information into the title. Additionally, if the object is of a nature\u2014artistic or otherwise\u2014where the creator of the object is both known and relevant, include it:\nVinyl Recording of \u201cPepperus Parker Plays INSANITY (An Original Composition)\u201d (n.d.) (on file with John Carter Brown Libr., America Jazz Collection, Box VI:1).\nCharles Albertus, Photograph of Accelerator (1964) (on file with Yale Univ., Manuscripts and Archives Repository, Charles Alburtus Photograph Collection, Box 1, Folder 55).\nHowever, the mere possessor of an object should not be indicated in the author field. When relevant, such information can be included in an explanatory parenthetical, a textual sentence, or the citation\u2019s title:"
+      },
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must be appended",
+        "context": "g format should be used and a recording should be stored on file. In this instance, a parenthetical must be appended to indicate where the recording can be found.\n(a) Commercial.\nCommercial live streams are any video"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": "ced the film and the year of release in a parenthetical. If no access medium is available, the film should be made available on file and a parenthetical should be appended describing where it can be found.\nWhen cit"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be appended",
+        "context": "al. If no access medium is available, the film should be made available on file and a parenthetical should be appended describing where it can be found.\nWhen citing a specific quote or scene, use time markers to design"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be used",
+        "context": "ive stream per\nrule 18.7.4\n. If no public recording of the live stream exists, the following format should be used and a recording should be stored on file. In this instance, a parenthetical must be appended to ind"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be stored",
+        "context": "no public recording of the live stream exists, the following format should be used and a recording should be stored on file. In this instance, a parenthetical must be appended to indicate where the recording can be"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be stored",
+        "context": "tically the platform on which the video was streamed and the original date of the stream. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nNCAAW Iowa vs. Sou"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be appended",
+        "context": "treamed and the original date of the stream. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nNCAAW Iowa vs. South Carolina, at 1:49:50 (Fubo, aired Apr. 7, 20"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be stored",
+        "context": "lude the date and start time of the stream (when possible) in the platform parenthetical. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nDJAmber_D\n,\nStudio"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be appended",
+        "context": "hen possible) in the platform parenthetical. The video should be stored on file and a parenthetical should be appended describing where it can be found:\nDJAmber_D\n,\nStudio Session\n(Twitch, streamed Apr. 12, 2024, at 15"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be the",
+        "context": "aded and the date and time of the upload (when possible) in a parenthetical. The platform indicated should be the platform on which the video was first uploaded by the creator.\nTimestamps should be designated by p"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include in",
+        "context": "relevant episode name (if applicable) in italics, followed by the access medium in a parenthetical. Include in the medium parenthetical the date of the broadcast or the date of release (or, if unknown, the date"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "d\u00a0the name of the stream in italics. Parenthetically provide the name of the streaming platform and include the date and start time of the stream (when possible) in the platform parenthetical. The video should b"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "be made available on file and a parenthetical should be appended describing where it can be found.\nWhen citing a specific quote or scene, use time markers to designate pinpoint citations, using the phrase \u201c,\nat X"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be used",
+        "context": "ise faithfully reproduces the quoted text.\nBluepages Tip:\nThe parenthetical \u201c\n(citation modified)\n\u201d should be used in lieu of any other parenthetical that indicates a quotation or citation has been modified for rea"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "ENT:\n12.5\nElectronic Databases and Online Sources\n(pp. 132\u201333)\n(a) Commercial electronic databases.\nWhen citing a code contained in an electronic database, give parenthetically the name of the database and informa"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "t\n. amend. XVIII (repealed 1933).\nU.S. Const\n. amend. XVIII,\nrepealed by\n,\nU.S. Const\n. amend. XXI.\nWhen citing a provision that has been subsequently amended, either indicate parenthetically the fact and year of"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing a",
+        "context": "ly:\nArticles of Confederation\nof 1781, art. IX, para. 1.\nArk. Const.\nof 1868, art. III, \u00a7 2 (1873).\nWhen citing a constitution contained in an electronic database, indicate parenthetically the name of the publishe"
+      }
+    ],
+    "formatting": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be italicized",
+        "context": "y if the reference is unambiguous. When only one party\u2019s name (or a short form thereof) is used, it should be italicized. Acceptable short forms include:\nYoungstown Sheet & Tube Co. v. Sawyer, 343 U.S. at 585.\nYoungstown"
+      },
+      {
+        "type": "example",
+        "text": ", Times New Roman,\nCourier\n, etc.):\nOrdinary Roman (Plain Text)\nU\nnderlined\nItalicized\nSmall Capitals\nLaw reviews use two sets of typeface conventions\u2014one for law review text (either main text or footnote text) (\nrule 2.2\n) and one for law review citations (\nrule 2.1\n). Unless otherwise noted, the examples in\nThe Bluebook\ncorrespond to the convention for law review footnotes.\nFor an explanation of the typeface conventions commonly used in other forms of legal writing, see\nBluepages B2\n. Practitioners can make ready use of the examples in\nThe Bluebook\nby substituting the typeface conventions outlined in the\nBluepages\nfor those found in the examples throughout the rest of the book.\nFor example, a practitioner\u2019s brief might look like this:\nDirectors manage the business and affairs of a corporation.\nSee\nRevlon, Inc. v. MacAndrews & Forbes Holdings, Inc.\n, 506 A.2d 173, 179 (Del. 1986);\nsee also\nDel. Code Ann. tit. 8, \u00a7 141(a) (2000). In\nGuth v. Loft\n, the court held that directors also owe a duty of loyalty to the shareholders. 5 A.2d 503, 510 (Del. 1939) (holding that directors\u2018 duty of loyalty demands that \u201cthere shall be no conflict between duty and self-interest\u201d).\nA similar section of a law review article might read:\nDirectors manage the business and affairs of a corporation.\n1\nIn\nGuth v. Loft\n, the court held that directors also owe a duty of loyalty to the shareholders.\n2\n1\nSee\nRevlon, Inc. v. MacAndrews & Forbes Holdings, Inc., 506 A.2d 173, 179 (Del. 1986);\nsee also\nDel. Code Ann.\ntit. 8, \u00a7 141(a) (2000) (providing statutory basis).\n2\n5 A.2d 503, 510 (Del. 1939) (holding that directors\u2019 duty of loyalty demands that \u201cthere shall be no conflict between duty and self-interest\u201d).\n2.1\nTypeface Conventions for Citations\n2.2\nTypeface Conventions for Textual Material\n2.3\nOther Punctuation Conventions"
+      }
+    ],
+    "abbreviation": [
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated as",
+        "context": "es:\nCLJ provides reports of Syariah Court decisions in Malaysia starting from 2004. The reporter is abbreviated as \u201c\nCLJ(Sya)\n\u201d prior to 2014 and as \u201c\nSHR\n\u201d 2014 onwards.\nIsmail Yahya v Ketua Pendakwa Syarie Tereng"
+      },
+      {
+        "pattern": "always\\s+(\\w+)",
+        "match": "always abbreviate",
+        "context": "able BT1\n. Where there is an official record, such as the Record on Appeal in appellate litigation, always abbreviate \u201cRecord\u201d to \u201c\nR.\n\u201d Do not abbreviate, however, when doing so will confuse the reader:\nPetitioner ad"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include any",
+        "context": "(2) the pinpoint citation; and (3) the date of the document, if required. The citation should also include any electronic docket number, if applicable.\nB17.1.1 \u2013\nAbbreviation\nAbbreviate the titles of court docu"
+      },
+      {
+        "type": "example",
+        "text": ", a government agency, a company, or a nonprofit) and is not archived with that institution, add an institutional affiliation into the citation for clarity. Abbreviate according to\ntables T6\n,\nT7\n,\nT10\n, and\nT13\n. However, do not omit \u201c\nin\n\u201d or \u201c\nof\n\u201d:\nKristof Zeitman, Report on the Feasibility of a Reversible Tourbillion Movement, Jaegar LeCoultre SA 28 (1993) (on file with Am. Horological Archive, Foreign Horology Collection, Box 2, Folder 1).\nThis rule does not apply to Justices\u2019 papers (\nrule 23.7.1\n) or other courts\u2019 papers (\nrule 23.7.2(b)"
+      },
+      {
+        "pattern": "must\\s+be\\s+(\\w+)",
+        "match": "must be cited",
+        "context": "urt Decisions\n)\n1906\u20131952\nMCR\nEach volume contains multiple years and therefore the year and volume must be cited. Citation format:\n<case name>\n(\n<year of decision>\n)\n<volume number>\n<reporter abbreviation>\n<first"
+      },
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be included",
+        "context": "court of decision is not obvious from the title of the report, the name of the court (abbreviated) should be included at the end of the citation. Common abbreviations are\nHigh Court\n(HC),\nCourt of Appeal\n(CA),\nSupreme"
+      },
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated as",
+        "context": "\u2013[18] (N.Z.).\nStatutes, session laws, and regulations\nProvisions in statutes are cited as sections, abbreviated as \u201c\ns\n\u201d or \u201c\nss\n\u201d for multiple sections. Other subdivisions include subsections (\u201c\nsubs\n\u201d or \u201c\nsubss"
+      },
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated\u00a0as",
+        "context": "eviously \u201cStatutory Regulations.\u201d Provisions within a regulation are referred to as regulations and abbreviated\u00a0as \u201c\nreg\n\u201d or \u201c\nregs.\n\u201d\u00a0Provisions in rules are \u201c\nr\n\u201d or \u201c\nrr\n\u201d and provisions in orders are \u201c\ncl\n\u201d or"
+      },
+      {
+        "pattern": "abbreviated\\s+as",
+        "match": "abbreviated as",
+        "context": ").\nAdoption Regulations 1959, reg 4(1) (N.Z.).\nProvisions within a bill are referred to as clauses, abbreviated as \u201c\ncl\n\u201d or \u201c\ncls\n\u201d. Citation format for bills:\n<bill name>\n<year>\n(\n<bill number and version>\n)\n,\ncl"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include subsections",
+        "context": "tes are cited as sections, abbreviated as \u201c\ns\n\u201d or \u201c\nss\n\u201d for multiple sections. Other subdivisions include subsections (\u201c\nsubs\n\u201d or \u201c\nsubss\n\u201d), paragraphs (\u201c\npara\n\u201d or \u201c\nparas\n\u201d), schedules (\u201c\nsch\n\u201d or \u201c\nschs\n\u201d), and p"
+      },
+      {
+        "type": "example",
+        "text": ":\nAylwin v. Police\n[2008] NZSC 113, [2009] 2 NZLR 1 at [8] (N.Z.).\nThe medium-neutral court abbreviations for those that have adopted this format, and the years of adoption, are as follows:\nSupreme Court\nNZSC\n2005\nCourt of Appeal\nNZCA\n2007\nHigh Court\nNZHC\n2012\nEmployment Court\nNZEmpC\n2010\nEnvironment Court\nNZEnvC\n2010\nFamily Court\nNZFC\n2012\nNote that the Privy Council also adopted medium-neutral citations in 2001, with the abbreviation\nUKPC\n.\nReported decisions\nIf a case is reported in more than one report, cite only to the most authoritative report. The New Zealand Law Reports is currently the only official report (see below). Citation format:\n<case name>\n<year of decision in parentheses or brackets>\n<volume number>\n<reporter abbreviation>\n<first page>\n(\n<court abbreviation>\n) at\n<page(s) or [paragraph(s)] of specific material, if desired>\nper\n<judge identifier, if applicable>\n(\n<country abbreviation if not evident from context>\n).\nYear of decision:\n1)\nIf the reports are in a consecutively numbered series from the first volume, use parentheses around the year, which references the year of the decision.\nR v. Noble\n(2006) 22 CRNZ 422 (HC) at 422.\n2)\nIf the report series consists of one or more volumes per year with no consecutive number sequence, use square brackets.\nIn some reports, the year acts as the volume number and therefore there is no separate volume number. In such cases, square brackets are used instead of parentheses around the year. Particular attention should be paid to reports that have changed titles (see below).\nKerridge v. Kerridge\n[2008] NZFLR 30 (HC).\nKain v. Hutton\n[2008] NZSC 61, [2008] 3 NZLR 589 at [47] per Tipping J.\nAttorney-General v. Zaoui\n[2005] NZSC 38, [2006] 1 NZLR 289.\n3)\nAll pre-1900 reports use parentheses and the year reference is to the year of the decision.\nWellington Gas Co v. Patten\n(1881) NZLR 3 CA 205.\nThe correct citation form with abbreviation is indicated in the front of the reports.\nWhere the court of decision is not obvious from the title of the report, the name of the court (abbreviated) should be included at the end of the citation. Common abbreviations are\nHigh Court\n(HC),\nCourt of Appeal\n(CA),\nSupreme Court\n(SC), and\nJudicial Committee of the Privy Council\n(PC).\nOfficial reports\nNew Zealand Law Reports\n1881\u20131887\nNZLR\nThese volumes contain separately numbered and paginated parts for Court of Appeal cases and Supreme Court cases. Citation format:\n<case name>\n(\n<year of publication>\n) NZLR\n<volume number>\n<court abbreviation>\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nWellington Gas Co. v. Patten\n(1881) NZLR 3 CA 205.\nNew Zealand Law Reports (vols. 6\u201334)\n1888\u20131915\nNZLR\nIn these volumes, Court of Appeal and Supreme Court decisions are mixed. Citation format:\n<case name>\n(\n<year of publication>\n)\n<volume number>\nNZLR\n<first page>\n(\n<court abbreviation>\n) at\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nCleland v. South British Insurance Co\n(1890) 9 NZLR 177 (CA) at 178.\nNew Zealand Law Reports (volume numbers discontinued)\n1916\u2013date\nNZLR\nSince 1973, more than one volume has been published each year and they are consecutively numbered only within each year. Citation format:\n<case name>\n[\n<year of publication>\n]\n<volume number, if applicable>\nNZLR\n<first page>\n,\u00a0(\n<court abbreviation>\n) at\u00a0[\n<paragraph(s)>\n]\n<or page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nMoreton v. Montrose Ltd (in liq)\n[1986] 2 NZLR 496 (CA).\nOther reports\nMagistrates\u2019 Court Decisions\n(continued as\nDistrict Court Reports\n)\n1939\u20131980\nMCD\nMagistrates\u2019 Court Reports (continued as\nMagistrates\u2019 Court Decisions\n)\n1906\u20131952\nMCR\nEach volume contains multiple years and therefore the year and volume must be cited. Citation format:\n<case name>\n(\n<year of decision>\n)\n<volume number>\n<reporter abbreviation>\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nChristchurch City Council v. McCleary\n(1966) 11 MCD 465 (N.Z.).\nPolice v. Martin\n(1931) 26 MCR 75 (N.Z.).\nDistrict Court Reports\n1980\u20131988\nDCR\nThese volumes contain multiple years. Citation format:\n<case name>\n(\n<year of decision>\n)\n<volume number>\n<reporter abbreviation>\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nTipple v. Attorney-General\n(1982) 1 DCR 358 (N.Z.).\nDistrict Court Reports\n1989\u2013date\nDCR\nIn these volumes, the year of the volume is the same as the year of decision. Citation format:\n<case name>\n[\n<year of volume>\n] DCR\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nMK v. Police\n[2007] DCR 770 (N.Z.).\nSpecialist series reports should be cited as directed within the report. The Legal Citations of Aotearoa (\nLCANZ\n) website also provides guidance on the citation of all major law reporting series, past and current:\nhttp://www.lcanz.auckland.ac.nz\n.\nJudicial Committee of the Privy Council\n(\nPC\n)\nUntil 2004, the Privy Council was New Zealand\u2019s highest court of appeal. When reported in\nNew Zealand Law Reports\n(\nNZLR\n) (since 1932), cite according to the\nNZLR\ncitation format above, with the court abbreviation following the citation. If a medium-neutral citation is available use this citation followed by the NZLR citation.\nO\u2019Connor v. Hart\n[1985] 1 NZLR 159 (PC).\nNew Zealand Privy Council Cases\n1840\u20131932\nNZPCC\nCitation format:\n<case name>\n(\n<year of decision>\n) NZPCC\n<first page>\nat\n<page(s) of specific material, if desired>\n(\n<country abbreviation if not evident from context>\n).\nBarker v. Edger\n(1898) NZPCC 422 (N.Z.).\nUnreported decisions with no medium-neutral citation\nWhen citing to an unreported decision for which a medium-neutral citation format has not been adopted, the format is:\n<case name>\n<court abbreviation>\u00a0<file number>\n,\n<date in day month year format>\nat\n<paragraph number(s) in brackets or page number(s), if desired>\n(\n<country abbreviation if not evident from context>\n).\nWaitikiri Links Ltd v. Windsor Golf Club Inc\nCA132/95, 25 June 1998 (N.Z.).\nWhen citing any court other than the Supreme Court or the Court of Appeal, include the place of registry:\nGitmans v. Alexander\nHC Auckland CIV 2001-404-1937, 9 December 2003 at [16]\u2013[18] (N.Z.).\nStatutes, session laws, and regulations\nProvisions in statutes are cited as sections, abbreviated as \u201c\ns\n\u201d or \u201c\nss\n\u201d for multiple sections. Other subdivisions include subsections (\u201c\nsubs\n\u201d or \u201c\nsubss\n\u201d), paragraphs (\u201c\npara\n\u201d or \u201c\nparas\n\u201d), schedules (\u201c\nsch\n\u201d or \u201c\nschs\n\u201d), and parts (\u201c\npt\n\u201d or \u201c\npts\n\u201d). Subdivisions in schedules are clauses (\u201c\ncl\n\u201d or \u201c\ncls\n\u201d). Citation format for statutes:\n<act short title> <year enacted>\n,\n<subdivision, if appropriate>\n(\n<country abbreviation if not evident from context>\n).\nAdoption Act 1955, s 11 (N.Z.).\nReferences to legislation are taken to be the latest version; there is no need to state that a statute has been amended. If an amending statute is being referred to, cite in the same way.\nChild Support Amendment Act 2013, sch 1, cl 4.\nDelegated legislation has been referred to as \u201cLegislative Instruments\u201d since August 2013; previously \u201cStatutory Regulations.\u201d Provisions within a regulation are referred to as regulations and abbreviated\u00a0as \u201c\nreg\n\u201d or \u201c\nregs.\n\u201d\u00a0Provisions in rules are \u201c\nr\n\u201d or \u201c\nrr\n\u201d and provisions in orders are \u201c\ncl\n\u201d or \u201c\ncls\n.\u201d\u00a0Citation format for regulations and other delegated legislation:\n<regulation name> <year of regulation>\n,\n<appropriate section abbreviation>\u00a0<section number(s)>\n(\n<country abbreviation if not evident from context>\n).\nAdoption Regulations 1959, reg 4(1) (N.Z.).\nProvisions within a bill are referred to as clauses, abbreviated as \u201c\ncl\n\u201d or \u201c\ncls\n\u201d. Citation format for bills:\n<bill name>\n<year>\n(\n<bill number and version>\n)\n,\ncl or cls\n<clause number(s)>\n(\n<country abbreviation if not evident from context>\n).\nDomestic Violence (Enhancing Safety) Bill 2008 (9-1), cl 7 (N.Z.).\nCitation format for select committee reports on, and explanatory notes to, bills:\n<bill name> <year>\n(\n<bill number and version>\n),\u00a0(select committee report OR explanatory note) at\n<page number(s)>\n(\n<country abbreviation if not evident from context>\n)\n.\nChild and Family Protection Bill 2009 (72-2) (select committee report) at 3 (N.Z.).\nTreaties\nNew Zealand Treaty Series\n1944\u2013date\nNZTS\nCitation format:\n<treaty name>\n<participants' names, if appropriate>\n[\n<year>\n]\u00a0NZTS\n<number>\n(\u201csigned\u201d or \u201copened for signature\u201d\n<applicable date in day month year format>\n,\u00a0\u201centered into force\u201d\n<applicable date in day month year format>\nor \u201cnot yet in force\u201d).\nFree Trade Agreement Between the Government of New Zealand and the Government of the People's Republic of China [2008] NZTS 19 (signed 7 April 2008, entered into force 1 October 2008), art 6.\nParliamentary debates\nCitation format (Hansard):\n(\n<date in day month year format>\n)\n<volume number>\nNZPD\n<page number>\n.\n(21 March 2013) 688 NZPD 8860.\nNew Zealand Gazette\nThe New Zealand Gazette is the official government newspaper and publishes notices that are required by legislation. Citation format:\n<\u201ctitle of notice, in quotation marks\u201d>\n(\n<date of notice in day month year format>\n)\n<issue number>\nNew Zealand Gazette\n<\nstarting page number of notice>\n.\n\u201cClassification of Reserve\u201d (31 January 2013) 11\nNew Zealand Gazette\n396.\nCitation guide\nThe Law Foundation of New Zealand first published the\nNew Zealand Law Style Guide\nin 2009. It has been adopted by all New Zealand law schools, publishers of law reports and journals, and most courts. The most recent version is the third edition, published in 2018, available online at\nhttps://www.lawfoundation.org.nz/style-guide2019/\n.\nInternet sources\nhttp://legislation.govt.nz\n(website owned by the Parliamentary Counsel Office, which contains official versions of statutes and legislative instruments. The PDF versions of all statutes and legislative instruments enacted or made since 2008 are authoritative; the PDF of the latest versions of all statutes and legislative instruments enacted or made between 1931 and 2007, and some earlier legislation, if still in force, are also authoritative. Also contains copies of bills, supplementary order papers, earlier versions of statutes and legislative instruments, and amendment legislation.)\nhttps://www.pco.govt.nz/online-legislation/\n(lists other online sources of legislation)\nhttp://www.parliament.nz\n(provides access to Hansard transcripts and other parliamentary materials from 2003 to present, as well as up-to-date information on the progress of bills currently before the House)\nhttp://www.nzlii.org\n(New Zealand Legal Information Institute (NZLII) website: New Zealand law journals and Law Commission reports, unofficial case law and statutes, including historical legislation and regulations; also publishes NZTS)\nhttps://forms.justice.govt.nz/jdo/Introduction.jsp\n(Judicial Decisions Online, New Zealand Ministry of Justice website: publishes all Supreme Court cases, Court of Appeal decisions after January 2003, and High Court decisions after August 2005)\nhttps://www.courtsofnz.govt.nz/judgments\n(court-issued PDF copies of all Supreme Court decisions and a few high-profile Court of Appeal and High Court decisions)\nhttp://gazette.govt.nz\n(New Zealand Gazette notices published since 1993; full PDF versions of editions published since 2000)\nhttp://www.lawcom.govt.nz\n(New Zealand Law Commission website: reports and papers on various aspects of New Zealand law)\nhttp://www.thomsonreuters.co.nz\n(Thomson Reuters (commercial source))\nhttps://www.courtsofnz.govt.nz/judgments\n(CCH New Zealand Ltd. (commercial source))\nhttp://www.legislationdirect.co.nz\n(Legislation Direct (contracted with the Parliamentary Counsel office for print and distribution of legislation) (commercial source))\nhttp://www.lexisnexis.co.nz\n(LexisNexis New Zealand (commercial source))"
+      },
+      {
+        "type": "example",
+        "text": ",\nOLG Wien\nor\nLG Salzburg\n). In Wien and Graz, the Landesgericht is split into a court for civil matters (\nLGZ\n) (e.g.,\nLGZ Wien\n) and one for criminal cases (\nLGSt\n).\nEntscheidungen des \u00f6sterreichischen Obersten Gerichtshofes in Zivilsachen\n1919\n\u2013\n1938\n1946\n\u2013\ndate\nSZ\nEntscheidungen des Obersten Gerichtshofes in Strafsachen\n1921\u20131938\n1946\u2013date\nSSt\nSpecial jurisdiction\nArbeits-und Sozialgericht\n(\nASG\n) (trial court for labor and social insurance matters): Cite to\nArbRSlg\nfor labor matters, and\nSVSlg\nfor social insurance matters, if therein;\nHandelsgericht\n(\nHG\n) (trial court and court of appeals for commercial matters): Cite to\nHS\n, if therein;\nKartellobergericht\n(\nOGH as KOG\n) (division of Supreme Court for antitrust matters) and\nKartellgericht\n(\nKartG\n) (trial court for antitrust matters): Cite to the source where the decision is reprinted.\nSammlung Arbeitsrechtlicher Entscheidungen\n1973\n\u2013\ndate\nArb\nSozialversicherungsrechtliche Entscheidungen\n1945\n\u2013\ndate\nSVSlg\nHandelsrechtliche Entscheidungen\n1939\n\u2013\ndate\nHS\nConstitutional jurisdiction\nVerfassungsgerichtshof\n(\nVfGH\n) (Constitutional Court): Cite to\nVfSlg\n, if therein.\nErkenntnisse und Beschl\u00fcsse des Verfassungsgerichtshofes\n1921\u20131933, 1946\u2013present\nVfSlg\nVerfassungsgerichtshof [VfGH] [Constitutional Court], Oct. 15, 2004,\nErkenntnisse und Beschl\u00fcsse des Verfassungsgerichtshofes [VfSlg\n] No. 17339/2004 (Austria).\nAdministrative jurisdiction\nFormat for first citation of Administrative Court of Justice decision:\n<court name>\n[\n<court abbreviation>\n] [\n<English translation of court name>\n]\n<date of decision>\n,\n<docket number>\n,\n<volume number> <reporter name>\n[\n<reporter abbreviation>\n]\n<case number within collection>\n(\n<country abbreviation if not evident from context>\n).\nVerwaltungsgerichtshof [VwGH] [Administrative Court of Justice] June 29, 2000, 96/01/1071, 55\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgericthshofes Administrativrechtlicher Teil [VwSlg]\n15 444 A (Austria).\nVerwaltungsgerichtshof [VwGH] [Administrative Court of Justice] Jan. 25, 1980, 1753/79, 35\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgerichtshofes Finanzrechtlicher Teil [VwSlg]\n5453 F/1980 (Austria).\nVerwaltungsgerichtshof\n(\nVwGH\n) (Administrative Court of Justice): Cite to\nVwSlg\n, distinguishing between administrative and fiscal decisions by the letters\nA\nor\nF\nafter the case number.\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgerichtshofes Administrativrechtlicher Teil\n1946\n\u2013\ndate\nVwSlg\nErkenntnisse und Beschl\u00fcsse des Verwaltungsgerichtshofes Finanzrechtlicher Teil\n1946\n\u2013\ndate\nVwSlg\nElectronic citations\nCitation format:\n<court name>\n[\n<court abbreviation>\n]\n[\n<court name in translation>\n]\n,\n<date>\n,\n<docket number>\n,\n<URL\u2014link to BKA/RIS>\n(\n<country abbreviation if not evident from context>\n)\n.\nVerfassungsgerichtshof [VfGH] [Constitutional Court], Sept. 28, 2004, B292/04,"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing an",
+        "context": "nafter Geneva Protocol].\n3\nGeneva Protocol,\nsupra\nnote 1, at 572.\n21.4.2 \u2013\nParties to the Agreement\nWhen citing an agreement between two parties, indicate both parties, abbreviating their names according to\ntable T"
+      },
+      {
+        "type": "example",
+        "text": ",\nAgreement, Convention, Memorandum, Protocol, Treaty, Understanding\n). Use only the first form designation that appears on the title page, unless doing so would create ambiguity:\nConvention\nNot:\nConvention & Supplementary Protocol\nCite lesser-included documents as subdivisions (\nrule 21.4.3\n).\n(ii) Subject matter.\nUse the subject-matter description that appears as part of the title of the agreement:\nKyoto Protocol to the United Nations Framework Convention on Climate Change\n(b) Subsequent citations.\nIf a treaty\u2019s name is very long, or if the treaty is commonly known by a popular name, the first citation of the treaty should end with a bracketed \u201c\nhereinafter\n\u201d short form citation (\nrule 4.2(b)\n) to be used in all subsequent citations. The short form citation must be in the same typeface as the original:\n1\nProtocol for the Prohibition of the Use in War of Asphyxiating, Poisonous or Other Gases, and of Bacteriological Methods of Warfare, June 17, 1925, 26 U.S.T. 571 [hereinafter Geneva Protocol].\n3\nGeneva Protocol,\nsupra\nnote 1, at 572.\n21.4.2 \u2013\nParties to the Agreement\nWhen citing an agreement between two parties, indicate both parties, abbreviating their names according to\ntable T10\n, but do not abbreviate the name of a Tribal Nation party:\nJapan-U.S.\nFr.-Ger.\nParties\u2019 names should appear in alphabetical order:\nAgreement for Financing Certain Educational and Cultural Exchange Programs, Taiwan-U.S., Apr. 23, 1964, 15 U.S.T. 408.\nTreaty with the Apaches, Apache Nation-U.S., July 1, 1852, 10 Stat. 979.\n21.4.3 \u2013\nSubdivisions\nWhen citing only part of an agreement, or when citing an appended document, give the subdivision or appended document:\nTreaty on Commerce and Navigation, Iraq-U.S., art. III, \u00b6 2, Dec. 3, 1938, 54 Stat. 1790.\nDeclaration on the Neutrality of Laos, Protocol, July 23, 1962, 14 U.S.T. 1104, 456 U.N.T.S. 301.\nWhen citing a subdivision, it is not necessary to include a pincite for the treaty series because the article, paragraph, or section number is sufficient. For a discussion of citations to subdivisions and appendices, see\nrules 3.3\nand\n3.4\n.\n21.4.4 \u2013\nDate of Signing\nGive the exact date of signing:\nProtocol to Amend the Convention for the Suppression of the Traffic in Women and Children, Nov. 12, 1947, 53 U.N.T.S. 13.\nWhen multiple dates of signing are given for an agreement or exchange of notes between two parties, give the first and last dates of signing:\nAgreement on Weather Stations, Colom.-U.S., Apr. 27\u2013May 13, 1964, 15 U.S.T. 1355.\nIf a treaty was not signed on a single date, use the date on which the treaty was opened for signature, approved, ratified, or adopted, and indicate the significance of the date in italics:\nTreaty on the Non-Proliferation of Nuclear Weapons,\nopened for signature\nJuly 1, 1968, 21 U.S.T. 483, 729 U.N.T.S. 161.\nThe date on which a treaty entered into force or other such date may be added parenthetically at the end of the citation if it is relevant:\nU.N. Convention on the Law of the Sea,\nopened for signature\nDec. 10, 1982, 1833 U.N.T.S. 397 (entered into force Nov. 16, 1994).\nFor abbreviations of the months of the year, see\ntable T12\n.\n21.4.5 \u2013\nTreaty Sources\nSee\ntable T4\nfor a list of international treaty sources. Treaty sources of some foreign states are listed with the other materials of those states in\ntable T2\n.\n(a) Agreements to which the United States is a party.\n(i) Bilateral treaties.\nFor agreements between the United States and another party, cite one of the following sources, in the following order of preference:\nU.S.T.I.F.\n;\nT.I.A.S\n. (or\nT.S\n., or\nE.A.S.)\n;\nU.N.T.S\n.;\nSenate Treaty Documents\nor\nSenate Executive Documents\n;\nU.S.T.\n(or\nStat.\n);\nthe Department of State Dispatch\n;\nDepartment of State Press Releases\n. If the agreement has not appeared in one of these official sources, cite an unofficial treaty source (\nrule 21.4.5(c)\n):\nTreaty on the Limitation of Anti-Ballistic Missile Systems, U.S.-U.S.S.R., May 26, 1972, 23 U.S.T. 3435.\nAgreement on Defense and Economic Cooperation, Greece-U.S., at 4, Sept. 8, 1983, T.I.A.S. No. 10,814.\nTax Convention, Fin.-U.S., Sept. 21, 1989,\nS. Treaty Doc\nNo. 101-11.\nMemorandum of Understanding Regarding Bilateral Verification Experiment and Data Exchange Related to Prohibition of Chemical Weapons, U.S.-U.S.S.R., art. V(1), Sep. 23, 1989,\nDep\u2019t State Bull.\n, Nov. 1989, at 18 [hereinafter Chemical Weapons MOU].\nCuban-American Treaty, Cuba-U.S., art. I, Feb. 16\u201323, 1903, T.S. No. 418.\nAgreement Regarding Mutual Assistance Between Their Customs Administrations, Ir.-U.S., art. 3, Sept. 16, 1996, 2141 U.N.T.S. 51.\n(ii) Multilateral treaties.\nFor agreements among three or more parties to which the United States is a party, cite one of the U.S. domestic sources listed in\nrule 21.4.5(a)(i)\n, if therein. Additionally, a parallel citation may be added from one source published by an international organization (e.g.,\nU.N.T.S., L.N.T.S., O.A.S.T.S., Pan-Am. T.S., O.J., E.T.S.,\nor\nC.E.T.S.\n), if therein:\nNorth Atlantic Treaty art. 5, Apr. 4, 1949, 63 Stat. 2241, 34 U.N.T.S. 243.\nIf none of these official sources can be obtained, cite an unofficial treaty source (\nrule 21.4.5(c)\n) or another reliable source where the treaty can be found.\n(b) Agreements to which the United States is not a party.\nCite one source published by an international organization (\nrule 21.4.5(a)(ii)\n), if therein:\nTreaty of Neutrality, Hung.-Turk., Jan. 5, 1929, 100 L.N.T.S. 137.\nAgreement for the Avoidance of Double Taxation, Neth.-Swed., art. 4, Apr. 25, 1952, 163 U.N.T.S. 131.\nIf not, cite the official source of one signatory, if therein, indicating parenthetically the jurisdiction whose source is cited according to\nrule 21.3\nif it is not clear from the context. If the treaty is not found in a signatory\u2019s treaty source, cite an unofficial treaty source (\nrule 21.4.5(c)\n):\nAgreement on Trade, Economic, and Technical Cooperation, Austl.-Oman, Oct. 20, 1981, [1982] A.T.S. 4.\n(c) Unofficial treaty sources.\nWhen a treaty does not appear in a required source listed in\nrule 21.4.5(a)(i)\nor\nrule 21.4.5(a)(ii)\n, cite International Legal Materials (\nI.L.M.\n), if therein:\nOlivos Protocol for the Settlement of Disputes in Mercosur art. 6, Feb. 18, 2002, 42 I.L.M. 2.\nIf a treaty is not found in\nI.L.M.\n, cite another unofficial treaty source. These sources include the websites of governments and intergovernmental organizations, electronic databases, and sources such as the Foreign Relations of the United States series, Parry\u2019s Consolidated Treaty Series, Hein\u2019s microfiche treaty service, and Martens Nouveau Recueil:\nAgreement Concerning Payments for Certain Losses Suffered During World War II, Fr.-U.S., Jan. 18, 2001, Temp. State Dep\u2019t No. 01-36, 2001 WL 416465.\nIf no other citation is available, you may cite a book (\nrule 15\n), periodical (\nrule 16\n), or online source (\nrule 18"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "CONTENT:\nT15\nServices\n(pp. 349\u201353)\nAbbreviations commonly used in referring to service publishers include the following:\nBloomberg Law\nBL\nCommerce Clearing House\nCCH\nMatthew Bender\nMB\nResearch Institute of Ame"
+      },
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "include the",
+        "context": "lation to the Executive Board, the Executive Board\u2019s Committees, and the staff. The citation should include the name of the body (abbreviated according to\nrule 15.1(e)\n); the title of the report; the pincite, if"
+      }
+    ],
+    "capitalization": [
+      {
+        "pattern": "include\\s+(\\w+)",
+        "match": "Include the",
+        "context": "ies, cite the name of the film in small capitals, the access medium, and timestamp (if applicable). Include the names of the individuals, company, or network that produced the film and the year of release in a p"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing commercial",
+        "context": "-------------------------------------\n\nCONTENT:\n18.7\nVideographic Media\n(pp. 193\u201395)\n18.7.1 \u2013\nFilms\nWhen citing commercial films, documentaries, or other full-length movies, cite the name of the film in small capitals, the"
+      }
+    ],
+    "punctuation": [
+      {
+        "pattern": "should\\s+be\\s+(\\w+)",
+        "match": "should be made",
+        "context": ", or the governing authority has designated the electronic source as the official version, citation should be made to the electronic source with consideration of\nrule 18\n\u2019s principles on authentication. If a period"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing periodical",
+        "context": "CONTENT:\n16.8\nElectronic Media and Online Sources\n(pp. 174\u201375)\n(a) Commercial electronic databases.\nWhen citing periodical materials to a database, provide a complete citation to the document according to\nrule 16\nand a cit"
+      },
+      {
+        "pattern": "when\\s+citing\\s+(\\w+)",
+        "match": "When citing scattered",
+        "context": "uous, use the word \u201c\nto\n\u201d:\n42 U.S.C. \u00a7\u00a7 1973aa-2 to -4.\nMont. Code Ann.\n\u00a7\u00a7 75-1-301 to -324 (1989).\nWhen citing scattered sections, separate the sections with commas:\nN.J. Stat. Ann.\n\u00a7\u00a7 18A:54-1, -3, -6 (West 1989).\nRepea"
+      }
+    ]
+  }
+}

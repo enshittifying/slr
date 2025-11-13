@@ -1,0 +1,241 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T13:17:06.591348",
+  "footnote_range": "1-10",
+  "used_gpt": false,
+  "footnotes_processed": 10,
+  "total_citations": 6,
+  "successful_retrievals": 3,
+  "failed_retrievals": 3,
+  "pdf_files": [
+    {
+      "citation_id": "fn3_fed_919_1333",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_919_1333_SCOTUS_Vol919.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn3_fed_785_625",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_785_625_SCOTUS_Vol785.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn3_fed_633_1042",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_633_1042_SCOTUS_Vol633.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    }
+  ],
+  "parsing_results": [
+    {
+      "footnote_number": 1,
+      "original_text": "†   Professor of Law, College of Law; Professor of Medicine, Carle-Illinois College of Medicine; Professor, European Union Center; Affiliate, Carl R. Woese Institute for Genomic Biology; University of...",
+      "citations_count": 0,
+      "parsing_confidence": 0.1,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; No recognizable citation patterns found",
+      "parsed_at": "2025-08-09T13:17:06.624129",
+      "citations": []
+    },
+    {
+      "footnote_number": 2,
+      "original_text": "†   Professor of Law, University of Texas School of Law . For their comments, thanks to Jonas Anderson, Laura Dolbow, Jordi Goodman, Michael Goodyear, Tim Holbrook, Mark Janis, Mark Lemley, Amy Motomu...",
+      "citations_count": 0,
+      "parsing_confidence": 0.1,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; No recognizable citation patterns found",
+      "parsed_at": "2025-08-09T13:17:06.624214",
+      "citations": []
+    },
+    {
+      "footnote_number": 3,
+      "original_text": "21 U.S.C. § 355(c)(3)(C);  see also  Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019) (“[W] e ask whether the Hikma and Actavis labels instruct users to treat polyneuropathic...",
+      "citations_count": 4,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; Found USC 21 § 355(c)(3)(C); Found case 919 F.3d 1333; Found case 785 F.3d 625; Found case 633 F.3d 1042",
+      "parsed_at": "2025-08-09T13:17:06.624294",
+      "citations": [
+        {
+          "citation_id": "fn3_usc_21_355(c)(3)(C)",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(c)(3)(C)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "fn3_fed_919_1333",
+          "type": "case",
+          "full_text": "919 F.3d 1333",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "fn3_fed_785_625",
+          "type": "case",
+          "full_text": "785 F.3d 625",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "fn3_fed_633_1042",
+          "type": "case",
+          "full_text": "633 F.3d 1042",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 4,
+      "original_text": "See, e.g. , GlaxoSmithKline LLC v. Teva Pharms. USA, Inc., 7 F.4th 1320, 1328 (Fed. Cir. 2021) (reviewing expert evidence of how physicians would have read a drug label);  see also   id.  at 1342 (Pro...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; Found case 7 F.4th 1320",
+      "parsed_at": "2025-08-09T13:17:06.624344",
+      "citations": [
+        {
+          "citation_id": "fn4_fed_7_1320",
+          "type": "case",
+          "full_text": "7 F.4th 1320",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 5,
+      "original_text": "See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365 -66  (Fed. Cir. 2003)  (noting that an infringement analysis, in this context, is “ hypothetical because the allegedly infringing product ...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; Found case 316 F.3d 1348",
+      "parsed_at": "2025-08-09T13:17:06.624387",
+      "citations": [
+        {
+          "citation_id": "fn5_fed_316_1348",
+          "type": "case",
+          "full_text": "316 F.3d 1348",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 6,
+      "original_text": "See infra  Section  II.D .",
+      "citations_count": 0,
+      "parsing_confidence": 0.3,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; Contains citation signals but no parseable citations",
+      "parsed_at": "2025-08-09T13:17:06.624417",
+      "citations": []
+    },
+    {
+      "footnote_number": 7,
+      "original_text": "See infra  Section  III .",
+      "citations_count": 0,
+      "parsing_confidence": 0.3,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; Contains citation signals but no parseable citations",
+      "parsed_at": "2025-08-09T13:17:06.624447",
+      "citations": []
+    },
+    {
+      "footnote_number": 8,
+      "original_text": "Susan K. Finston, Neil S. Davey, Ananda M. Chakrabarty  &  Raj S. Davé ,  The Biopharmaceutical Social Contract and U.S. Patent Social Contract: Historical Antecedents and Recent Developments ,  in  I...",
+      "citations_count": 0,
+      "parsing_confidence": 0.1,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; No recognizable citation patterns found",
+      "parsed_at": "2025-08-09T13:17:06.624503",
+      "citations": []
+    },
+    {
+      "footnote_number": 9,
+      "original_text": "  See  Matthew Lane,  Federal Circuit Should Restore Generics  ‘ Skinny Label ’  Process ,  Bloomberg Law  (Jan. 12, 2021),  https://news.bloomberglaw.com/business-and-practice/federal-circuit-should-...",
+      "citations_count": 0,
+      "parsing_confidence": 0.1,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; No recognizable citation patterns found",
+      "parsed_at": "2025-08-09T13:17:06.624554",
+      "citations": []
+    },
+    {
+      "footnote_number": 10,
+      "original_text": "  Skinny Labels, Big Savings Act, S.5573, 118th Cong. (2024).",
+      "citations_count": 0,
+      "parsing_confidence": 0.1,
+      "gpt_reasoning": "Rule-based parsing using regex patterns; No recognizable citation patterns found",
+      "parsed_at": "2025-08-09T13:17:06.624587",
+      "citations": []
+    }
+  ],
+  "retrieval_results": [
+    {
+      "citation_id": "fn3_usc_21_355(c)(3)(C)",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:17:07.319653"
+    },
+    {
+      "citation_id": "fn3_fed_919_1333",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_919_1333_SCOTUS_Vol919.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/919bv.pdf",
+      "retrieved_at": "2025-08-09T13:17:10.203761"
+    },
+    {
+      "citation_id": "fn3_fed_785_625",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_785_625_SCOTUS_Vol785.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/785bv.pdf",
+      "retrieved_at": "2025-08-09T13:17:10.336308"
+    },
+    {
+      "citation_id": "fn3_fed_633_1042",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_633_1042_SCOTUS_Vol633.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/633bv.pdf",
+      "retrieved_at": "2025-08-09T13:17:10.419621"
+    },
+    {
+      "citation_id": "fn4_fed_7_1320",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:17:10.419948"
+    },
+    {
+      "citation_id": "fn5_fed_316_1348",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:17:10.420124"
+    }
+  ],
+  "completed_at": "2025-08-09T13:17:10.420285",
+  "duration_seconds": 3.828937,
+  "success_rate": 50.0
+}

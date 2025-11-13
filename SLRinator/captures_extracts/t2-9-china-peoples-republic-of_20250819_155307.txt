@@ -1,0 +1,356 @@
+TITLE: T2.9 China, People's Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-9-china-peoples-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.9
+China, People's Republic of
+(Civil Law)
+Jurisdictional note
+Apply these guidelines to sources related to the People’s Republic of China. When citing sources related to the Republic of China between 1912 and 1949, see the guidelines for
+table T2.42 Taiwan, Republic of China
+. For sources prior to the founding of the Republic of China in 1912, adapt these guidelines as necessary.
+Romanization
+For romanization of Chinese language citations, follow the instructions in
+rule 20.2.4
+.
+Translated sources
+For citations to translated or bilingual sources, choose one of the following options:
+1)
+Follow
+rule 20.2.5
+, giving parallel citations to the original language source and a translated version;
+2)
+Where the original is difficult or impossible to verify, cite to the
+translated source without reference to the original language version.
+In this case, it is not necessary to preface the source with “
+translated in
+.”
+Law on Guarding State Secrets (promulgated by the Standing Comm. Nat'l People's Cong., Sept. 5, 1988, rev'd Apr. 29, 2010, effective Oct. 1, 2010), art. 11, 2010 P.R.C.
+Laws
+71.75 (China).
+Abbreviations
+Regardless of the language of the document being cited, cite to official or well-known English equivalents where possible and abbreviate according to
+tables T6
+,
+T7
+, and
+T10
+. If no such abbreviation is available, use any abbreviated Chinese form in common use, or use the full form the first time and use an appropriate “
+hereinafter
+” reference for subsequent citations.  For example:
+Zuigao Renmin Fayuan
+Sup. People’s Ct.
+Shanghai Zhongji Renmin Fayuan
+Shanghai Interm. People’s Ct.
+Guowuyuan
+St. Council
+Quanguo Renmin Daibiao Dahui Changwu Weiyuanhui
+Standing Comm. Nat’l People’s Cong.
+Zhongguo Falü Nianjian
+Law Y.B. China
+Choice of authorities
+Chinese laws are not codified (though some publications call themselves
+“codes”), and case reports are not systematically published. Where not
+specified otherwise herein, prefer sources published or compiled by the
+legislative affairs division of the National People’s Congress or the State
+Council, a government agency, or a court (including government and court
+websites) over other sources. Chinese sources are always more authoritative
+than translations, but sometimes it may be appropriate to cite to a translation
+where available.
+Cases
+Citation format:
+<romanized Chinese case name>
+(
+<Chinese case name>
+) [
+<English translation of case name>
+],
+<source>
+(
+<court abbreviation> <date of decision, following
+rule 10.5
+>
+) (
+<country abbreviation if not evident from context>
+).
+Cite to sources named below, if therein and available. Otherwise, cite to a source published by or with the cooperation of a court or government agency (including agency or court websites), if therein and available, then any source.
+Zuigao Renmin Fayuan Gongbao (Supreme People’s Court Gazette)
+Sup. People’s Ct. Gaz.
+Zuigao Renmin Jianchayuan Gongbao (Supreme People’s Procuratorate Communique)
+Sup. People’s Proc. Communique
+Renmin Fayuan Anli Xuan (Selected Cases from the People’s Courts)
+Renmin Fayuan Anli Xuan
+Zuigao Renmin Fayuan Zhidao Anli
+(Supreme People’s Court Guiding Case)
+Sup. People’s Ct. Guiding Case
+Wei Qinjian Su Zhongbao Caichan Baoxian Youxian Gongsi Taishan Shi
+Zhigongsi, Zhongguo Nongye Yinhang Taishan Shi Zhihang Xiachuan
+Yingyesuo (卫勤俭诉中保财产保险有限公司台山市支公司，中国农业银
+行台山市支行下川营业所) [Wei Qinjian v. PICC P&C Ltd., Taishan Branch
+& China Agric. Bank, Taishan Branch, Xiachuan Operation Office], 1991
+Sup. People’s Ct. Gaz. 101 (Sup. People’s Ct. 2001) (China).
+China Nat’l Technical Imp./Exp. Corp. v. Indus. Res. Co., China L. &
+Prac., Aug. 22, 1988, at 26 (Shanghai Interm. People’s Ct. May 11, 1988).
+Beijing Qihu Youxian Gongsi Su Tengxun Keji (Shenzhen) Youxian
+Gongsi, Shenzen Shi Tengzun Jisuanji Xitong Youxian Gongsi Lanyong
+Shichang Zhipei Diwei Jiufen An (北京奇虎科技有限公司诉腾讯科
+技(深圳)有限公司、深圳市腾讯计算机系统有限公司滥用市场支
+配地位纠纷案) [Beijing Qihu Technology Co., Ltd. v. Tencent Tech-
+nology (Shenzhen) Co., Ltd. & Shenzhen Tencent Computer Systems
+Co., Ltd., A Dispute over Abusing Dominant Market Positions], Sup.
+People’s Ct. Guiding Case No. 78, Mar. 6, 2017 (China).
+Constitutions
+Citation format:
+Xianfa
+<article>
+,
+<section>
+(
+<year>
+) (
+<country abbreviation if not evident from context>
+).
+Give the promulgation year of the version cited. Abbreviate the subdivisions of constitutions, such as article and clause, using English abbreviations, according to
+table T16
+.
+Zhonghua Renmin Gongheguo Xianfa
+Xianfa
+Xianfa
+art. 35, § 1 (1982) (China).
+Laws
+Citation format:
+<romanized Chinese law name>
+(
+<Chinese law name>
+) [
+<English translation of law name
+or shortened name
+>
+] (promulgated by
+<enacting/adopting authority>
+,
+<promulgation date>
+, effective
+<effective date>
+)
+<volume number> <source> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Cite to sources named below, if therein and available. Otherwise, cite to a source published or compiled by the Legislative Affairs Commission of the Standing Committee of the National People’s Congress (hereinafter “NPC Legislative Commission”), Legislative Affairs Office of the State Council (hereinafter “State Council Legislative Office”), a government agency, or a court (including government or court websites), if therein and available, then any source.
+Quanguo Renmin Daibiao Dahui Changwu Weiyuanhui Gongbao
+Standing Comm. Nat’l People’s Cong. Gaz.
+Zhonghua Renmin Gongheguo Falü Huibian (compiled by NPC Legislative Commission)
+Falü Huibian
+Zhonghua Renmin Gongheguo Fagui Huibian (compiled by State Council Legislative Office)
+Fagui Huibian
+Zhonghua Renmin Gongheguo Xin Fagui Huibian (compiled by State Council Legislative Office)
+Xin Fagui Huibian
+Zhonghua Renmin Gongheguo Fadian
+Fadian
+Laws of the People’s Republic of China (compiled by NPC Standing Committee Legislative Affairs Commission, in English)
+P.R.C. Laws
+Lifa Fa (立法法) [Law on Legislation] (promulgated by the Standing Comm. Nat’l People’s Cong., Mar. 15, 2000, effective July 1, 2000) 2000
+Standing Comm. Nat’l People’s Cong. Gaz.
+112 (China).
+Shiyou Tianranqi Guandao Baohu Fa (石油天然气管道保护法) [Law
+on the Protection of Petroleum and Natural Gas Pipelines] (promulgated by the Standing Comm. Nat’l People’s Cong., June 25, 2010,
+effective Oct. 1, 2010), art. 10, 2010
+Falü Huibian
+105, 107,
+translated
+in
+2010 P.R.C. Laws 109, 113.
+Chujing Rujing Guanli Fa (出境入境管理法) [Exit and Entry Administration Law] (promulgated by the Standing Comm. Nat’l People’s Cong.,
+June 30, 2012, effective July 1, 2013), art. 41, 2012
+Fagui Huibian
+283,
+291.
+Rules and regulations
+(Including xingzheng fagui 行政法规, and bumen guizhang 部门规章.)
+Citation format:
+<romanized Chinese regulation or rule name>
+(
+<Chinese regulation or rule name>
+) [
+<English translation of regulation or rule name or shortened name>
+] (promulgated by
+<enacting/adopting authority>
+,
+<promulgation date>
+, effective
+<effective date>
+)
+<source>
+,
+<publication date>
+, at
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Cite to the source below, if therein nad available. Otherwise, cite to a source published or compiled by the NPC Standing CommitteeLegislative Affairs Commission, State Council Legislative Office, a government agency, or a court (including government or court websites), if therein and available.
+Guowuyuan Gongbao
+St. Council Gaz.
+Zhonghua Renmin Gongheguo Fagui Huibian (compiled by State Council Legislative Office)
+Fagui Huibian
+Zhonghua Renmin Gongheguo Xin Fagui Huibian (compiled by State Council Legislative Office)
+Xin Fagui Huibian
+Yaopin Jiandu Xingzheng Chufa Chengxu Guiding (药品监督行政处
+罚程序规定) [Provisions on Procedures for Administrative Penalties of Drug Supervision] (promulgated by the St. Food & Drug Admin.,
+Apr. 28, 2003, effective July 2, 2003; rev’d by the Ministry of Health,
+Oct. 17, 2012) St. Council Gaz., Mar. 10, 2013, at 7, http://english1.
+english.gov.cn/official/2013-03/11/content_2351644.htm (China).
+Note that many Chinese databases do not provide searchable codes or numbers uniquely identifying a case, regulation, etc.
+Regulation on the Administration of Tourism in Beijing Municipality (promulgated by the Standing Comm. People’s Cong. Beijing Municipality, Sept. 10, 2004, effective Dec. 1, 2004), CLI.10.56742(EN) (Lawinfochina).
+Local regulations, regulations of autonomous regions, and special rules
+(Including difangxing fagui 地方性法规, zizhiqu zizhi tiaoli 自治区自治条例, and danxing tiaoli 单行条例.)
+Cite to the gazette of the standing committee of the corresponding local or regional government, if therein and available, then any source (including the local government websites).
+Judicial interpretations
+Citation format:
+<romanized Chinese judicial interpretation name and number>
+(
+<Chinese judicial interpretation name and number
+>) [
+<English translation of
+judicial interpretation name or shortened name and number>
+] (promulgated by
+<enacting/adopting authority>
+,
+<promulgation date>
+, effective
+<effective date>
+)
+<source>
+,
+<publication date>
+, at
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Cite to the source below, if therein.
+Zuigao Renmin Fayuan Gongbao (Supreme People’s
+Court Gazette
+Sup. People’s Ct.
+Gaz.
+Zuigao Renmin Jianchayuan Gongbao (Supreme
+People’s Procuratorate Gazette)
+Sup. People’s Proc.
+Gaz.
+Zuigao Renmin Fayuan Guanyu Shiyong <Zhongua Renmin Gongheguo
+Xingzheng Susong Fa> De Jieshi, Fashi [2018] Yi Hao (最高人民法院关
+于适用《中华人民共和国行政诉讼法》的解释，法释【2018】1号) [Interpretation on Application of <Administrative Procedure Law of People’s Republic of China>, Judicial Interpretation No. 1 [2018]] (promulgated by the Judicial Comm. Sup. People’s Ct., Nov. 13, 2017, effective Feb. 8, 2018) Sup. People’s Ct. Gaz., Feb. 6, 2018,
+http://gongbao.court.gov.cn/De...
+;(China).
+Treaties and conventions
+Citation of a bilateral treaty, convention, or international agreement:
+<treaty name>
+,
+<date of signing>
+,
+<subdivision>
+,
+<abbreviated names of parties to agreement>
+,
+<treaty source>
+(
+<country abbreviation if not evident from context
+>).
+Citation of a multilateral treaty, convention, or international agreement:
+<treaty name>
+,
+<date of signing>
+,
+<subdivision>
+,
+<one Chinese treaty source
+>,
+<one international treaty source, if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Cite to one of the sources below, if therein. Otherwise, cite to a source published by or with the cooperation of a court or government agency (including agency or court websites), then any source.
+Guowuyuan Gongbao
+St. Council Gaz.
+Zhonghua Renmin Gongheguo Tiaoyue Ji
+Tiaoyue Ji
+Zhonghua Renmin Gongheguo Duobian Tiaoyue Ji
+Duobian Tiaoyue Ji
+Sources
+China Law and Practice
+China L. & Prac.
+China Patents & Trademarks (中国专利与商标)
+China Pat. & Trademarks
+Code of the People’s Republic of China (中华人民共和国法典)
+Fadian
+Duobian Tiaoyue Ji (多边条约集)
+Duobian Tiaoyue Ji
+Fagui Huibian (法规汇编)
+Fagui Huibian
+Falü Quanshu (法律全书)
+Falü Quanshu
+Guowuyuan Gongbao (国务院公报)
+St. Council Gaz.
+Law Year Book of China (中国法律年鉴)
+Law Y.B. China
+Laws and Regulations of the People’s Republic of China
+P.R.C. Laws & Reguls
+Laws of the People’s Republic of China
+P.R.C. Laws
+Quanguo Renmin Daibiao Dahui Changwu Weiyuanhui Gongbao (全国人民代表大会常务委员会公报)
+Standing Comm. Nat’l People’s Cong. Gaz.
+Renmin Fayuan Anli Xuan (人民法院案例选)
+Renmin Fayuan Anli Xuan
+Xin Fagui Huibian (新法规汇编)
+Xin Fagui Huibian
+Zhonghua Renmin Gongheguo Tiaoyue Ji (中华人民共和国条约集)
+Tiaoyue Ji
+Zhonghua Renmin Gongheguo Xianfa (中华人民共和国宪法)
+Xianfa
+Zuigao Renmin Fayuan Gongbao (中华人民共和国最高人民法院公报)
+Sup. People’s Ct. Gaz.
+Zuigao Renmin Jianchayuan Gongbao (最高人民检察院公报)
+Sup. People’s Proc. Communique
+Internet sources
+https://oversea.cnki.net/kns?dbcode=CJFQ
+(China
+Academic Journals
+中国期刊全文数据库 (CAJ))
+http://caod.oriprobe.com/laws_index.aspx
+(China Legal Access (Class))
+http://www.wanfangdata.com/COJ/intr.asp
+(China Online Journals
+数字化期刊全文数据库 (COJ))
+http://journal.chinalawinfo.com
+(Chinalaw Journals 法学期刊 (Chinal. J.))
+http://chinalawinfo.com
+(Chinalawinfo 北大法律信息网)
+http://www.lawinfochina.com
+(Lawinfochina 北大法律英文网)
+http://www.lawyee.net
+(Lawyee 北大法意)
+http://www.lexiscn.com
+(Lexis China Online 律商网 (LEXIS China Online))
+http://www.wanfangdata.com/ploc/intr.asp
+(Policies & Laws of China
+(PLOC))
+http://westlawchina.com
+(Westlaw China 万律 (Westlaw China))

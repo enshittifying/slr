@@ -1,0 +1,39 @@
+TITLE: 13.7 Electronic Media and Online Sources (p.146)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 13-legislative-materials
+  slug: 13-7-electronic-media-and-online-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13.7
+Electronic Media and Online Sources
+(p.146)
+(a) Commercial electronic databases.
+When citing to materials contained in a commercial electronic database, give the name of the database and any identifying codes or numbers that uniquely identify the material. If the name of the database is not clear from the database identifier, include it parenthetically at the end of the citation:
+Federal bill (unenacted)
+H.R. 3781, 104th Cong. § 2(b) (1996), 1996 CONG US HR 3781 (Westlaw).
+Federal report
+H.R.
+Rep.
+No. 92-98 (1971),
+reprinted in
+1971 U.S.C.C.A.N. 1017, 1971 WL 11312.
+Congressional debate
+142
+Cong. Rec.
+H11,460 (daily ed. Sept. 27, 1996) (statement of Rep. John Tanner), 142 Cong Rec H 11452, at *H11,460 (LEXIS).
+(b) Internet and online sources.
+Where a print version is accessible, citation should be made to the print source. Where, however, the print source is difficult or impossible to obtain or the governing authority has designated the electronic source as the official version, citation should be made to the electronic source with consideration of the general principles in
+rule 18
+regarding authentication and preferred document formats:
+An Act Prohibiting Writing a Text Message While Driving, H.R. 34, 2009 Sess. (N.H. 2009),
+http://www.gencourt.state.nh.us/legislation/2009/HB0034.html
+(on file with author).

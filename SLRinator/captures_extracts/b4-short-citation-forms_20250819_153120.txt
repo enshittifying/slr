@@ -1,0 +1,34 @@
+TITLE: B4 Short Citation Forms (p.8)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  slug: b4-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B4
+Short Citation Forms
+(p.8)
+You may use “
+id.
+” when citing the immediately preceding authority, but
+only
+when the immediately preceding citation contains only one authority. Always indicate when a subsequent citation refers to a different page number in the same source (e.g., “
+id.
+at 5”
+).
+You may use “
+supra
+” and “
+hereinafter
+” to refer to legislative hearings; court filings; books; pamphlets; reports; unpublished materials; non-print resources; periodicals; services; treaties and international agreements; regulations, directives, and decisions of intergovernmental organizations; and internal cross-references. You should not use “
+supra
+” and “
+hereinafter
+” to refer to cases, statutes, constitutions, legislative materials or debates (other than hearings), restatements, model codes, or regulations, except in extraordinary circumstances, such as when the name of the authority is extremely long.

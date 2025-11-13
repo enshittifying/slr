@@ -1,0 +1,445 @@
+TITLE: T2.4 Belgium, Kingdom of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-4-belgium-kingdom-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.4
+Belgium, Kingdom of
+(Civil Law)
+All federal and regional statutes and legislative materials have official versions in French (the language in Wallonia) and Dutch (the language in Flanders). Limited materials, such as the Constitution, have official versions in German as well. The same applies to the case law of the two highest courts in Belgium, although only one may be official. Decisions of lower courts are issued in one language only. Furthermore, the names of all Belgian courts exist in two languages. It is customary in Belgian legal publishing to cite to the version that is in the same language that one is writing in, either Dutch or French. In English texts, it is customary to refer to the city by its English name. Belgian citation rules and customs differ slightly between the French- and Dutch-speaking parts of the country. (Since 2023, the Dutch citation rules are accessible online at
+https://vena.be/
+).
+Cases
+Citation format:
+<court abbreviation, only for courts of first instance and Court of cassation>
+[
+<English translation of court name>
+]
+<city, if applicable>
+(
+<chamber, if applicable and relevant>
+) (
+<territorial division, if applicable and relevant
+>) (
+<country abbreviation if not evident from context>
+)
+<date of decision>
+,
+<reporter or journal abbreviation>
+,
+<year of publication>
+, p.
+<first page>
+,
+<note or obs., if applicable> <author of case note, if applicable>
+.
+Civ. [Tribunal of First Instance] Charleroi (2nd ch.), Apr. 9, 2003, Rev.dr.santé, 2003, p. 768, obs. I. Moreau-Margreve.
+Comm. [Commerce Tribunal] Ostende (1st ch.), Oct. 12, 1987, R.D.C., 1988, p. 268, note X. Verougstraete.
+Antwerpen (3rd ch.), Feb. 18, 2003, RW, 2003, p. 584.
+Ordinary jurisdiction
+Court of Cassation
+:
+Cour de Cassation
+(
+Cass.
+)/
+Hof van Cassatie
+(
+Cass.
+): Cite to
+Pas.
+, or to
+Arr.Cass.
+, if therein; otherwise, cite to the official online version, giving the date and docket number only, or cite to another Belgian law review.
+Pasicrisie Belge
+(French)
+1791–date
+Pas
+.
+Arresten van het Hof Van Cassatie
+(Dutch)
+1937–date
+Arr.Cass
+.
+Prior to 1999, the
+Pasicrisie
+was published in four parts: Part I, the Cour de Cassation decisions; Part II, a selection of courts of appeal cases; Part III, a selection of lower court cases Part IV, a selection of Council of Case cases. In 1999, the publisher decided to maintain only Part I.
+Cass. [Court of Cassation] (1st ch.), Dec. 24, 1993,
+Arr. Cass
+., 1993, p. 1117.
+Cass. [Court of Cassation] (2nd ch.), Oct. 3, 1986,
+Pas
+. 1987, p. 886.
+Cass. [Court of Cassation] (3rd ch.), 16, 2007, F050049N.
+Cours d’Appel
+(
+CA
+)/
+Hoven van Beroep
+(
+HvB
+) (Courts of Appeal). There are five courts of appeal: Anvers/Antwerpen and Gand/Gent in Flanders, Liege/Luik and Mons/Bergen in Wallonia, and Bruxelles in the bilingual capital region Brussels.
+Cour du Travail
+(
+C. Trav.
+)/
+Arbeidshof
+(
+Arbh.
+) (Labor Court: hears appeals in social law matters).
+Cour d’Assises
+(
+Cour. ass.
+)/
+Hof van Assisen
+(
+Assisen
+) (Court of Assizes: court of original jurisdiction for very serious crimes; the only Belgian court with a jury).
+Tribunaux de première instance
+/
+Rechtbanken van Eerste Aanleg
+(tribunals of first instance: ordinary courts of original jurisdiction, either in civil matters (
+Civ.
+/
+Rb.
+); in commercial matters as
+Tribunaux de Commerce
+(
+Comm.
+)/
+Rechtbanken van Koophandel
+(
+Kh.
+) (commerce tribunals); in criminal matters as
+Tribunaux Correctionels
+(
+Corr.
+)/
+Correctionele Rechtbanken
+(
+Corr.
+) (criminal tribunals); or in social justice matters as
+Tribunaux du Travail
+(
+Trib. trav.
+)/
+Arbeidsrechtbanken
+(
+Arbrb.
+) (labor tribunals)).
+Tribunaux des Juges de Paix
+(
+J.P.
+)/
+Vredegerechten
+(
+Vred.
+) (Justices of the Peace: hear civil and commercial low-value claims).
+Tribunaux de police
+(
+Pol.
+)/
+Politierechtbanken
+(
+Pol.
+) (Police Courts: deal with minor offenses).
+Journals
+Belgian law reviews are either in French, in Dutch, or bilingual. Most journals publish case law, and they are the main source for lower courts’ case law. All types of cases are reported in these journals, and there is no preferred citation Several journals and their abbreviations follow. For a full list of abbreviations, see
+http://www.law.kuleuven.be/rechtsaf/
+.
+Journal des Tribunaux
+1882–date
+J.T.
+Revue Critique de Jurisprudence Belge
+1947–date
+R.C.J.B.
+Nieuw Juridisch Weekblad
+2002–date
+N.J.W.
+Algemeen Juridisch Tijdschrift
+1994–2002
+A.J.T.
+Revue de Jurisprudence de Liège, Mons et Bruxelles
+1987–date
+J.L.M.B.
+Jurisprudence de Liège
+1888–1987
+J.L.
+Rechtspraak Antwerpen Brussel Gent
+2003–date
+R.A.B.G.
+Tijdschrift voor Belgisch Handelsrecht-Revue de Droit Commercial Belge
+1968–date
+T.B.H.-R.D.C.
+Revue Général de Droit Civil Belge-Tijdschrift voor Belgisch Burgerlijk Recht
+1987–date
+T.B.B.R.-R.G.D.C.
+Administrative jurisdiction
+Citation format for highest administrative court:
+<court abbreviation>
+[
+<English translation of court name>
+] (
+<chamber>
+) (
+<country abbreviation if not evident from context>
+),
+<date of decision>
+, nr or n
+̊
+,
+<case number>
+,
+<applicant's name>
+,
+<reporter abbreviation>
+,
+<year of publication>
+, p.
+<page>
+.
+Conseil d’État
+(
+CE
+)/
+Raad van State
+(
+RvS
+) (Council of State): Cite to
+RACE
+or
+Arr.RvS
+for cases decided prior to 1994; cite to the official publication on the website of the Council for cases decided after 1994, using the date, names of parties, and docket number. The Council of State is the highest administrative court in Belgium and serves as a court of first instance for judicial review of administrative acts and as a court of appeal for various administrative commissions.
+Recueil des Arrêts du Conseil d’État
+(French)
+1948–1994
+R.A.C.E.
+Verzameling van Arresten van de Raad van State
+(Dutch)
+1948–1994
+Arr.RvS
+C.E. [Council of State] (3rd ch.), June 3, 1975, n ̊ 17.056, Beekman, R.A.C.E., 1975.
+RvS [Council of State] (2nd ch.), Nov. 4, 1985, n ̊ 25.797,
+Vlaamse Gemeenschap, Arr.R
+v
+s. 1985.
+C.E. [Council of State] (1st ch.), Nov. 25, 2004, n ̊ 137.642, Ingrosso.
+Constitutional jurisdiction
+Citation format:
+<court abbreviation>
+[
+<English translation of court name>
+] (
+<chamber>
+) (
+<country abbreviation if not evident from context>
+),
+<date of decision>
+, nr or n ̊,
+<case number>
+.
+Cour Constitutionnelle
+(
+C.C.
+)/
+Grondwettelijk Hof
+(
+GwH
+) (Constitutional Court (
+Cour d’arbitrage
+/
+Arbitragehof
+prior to 2007)): Cite to
+M.B.
+or
+B.S.
+, if therein; otherwise, cite to the court’s website, giving the date and docket number only. All decisions are available on the website. Some decisions are also available in the Official Gazette of Belgium or the Recueil des Arrêts de la Cour Constitutionnelle/Arresten Grondwettelijk Hof.
+Moniteur Belge/Belgisch Staatsblad
+(Official Gazette of Belgium, case extracts only)
+1845–2003 (print)
+1997–date (online)
+M.B.
+/
+B.S.
+Recueil des Arrêts de la Cour Constitutionnelle/Arresten Grondwettelijk Hof
+(complete official versions of cases)
+1986–date
+A.C.C.
+/
+Arr.GwH
+CC [Constitutional Court], Oct. 30, 2008, n ̊ 144/2008, M.B., Nov. 20, 2008, 61, p.692.
+GwH [Constitutional Court], July 26, 2007, n ̊ 113/2007.
+Constitution
+La Constitution
+Const.
+De Grondwet
+G
+W
+.
+Citation format:
+CONST
+. or G
+w
+. (
+<country abbreviation if not evident from context>
+), art.
+<article>
+.
+The original 1831 constitution has been amended on numerous occasions. The most recent version was published in 1994. If desired, cite by date:
+1994
+Const.
+(Belg.) art. 1.
+Codes
+Citation format:
+<code abbreviation>
+(
+<country abbreviation if not evident from context>
+), art.
+<article>
+.
+Codes are the most cited pieces of legislation, and a simplified citation format has been created for them.
+C.Civ.
+(Belg.), art. 235.
+Code Civil/Burgerlijk Wetboek
+C.Civ.
+/
+BW
+Old Civil Code/Oud Burgerlijk Wetboek
+ancien C.Civ/oud BW
+Code de Droit Economique/Wetboek Economisch Recht
+CDE/WER
+Code d’Instruction Criminelle/Wetboek van Strafvordering
+C.I.Cr
+.
+/
+Sv.
+Code Judiciaire/Gerechtelijk Wetboek
+C.Jud.
+/
+Ger.W.
+Code Pénal/Strafwetboek
+C.Pén.
+/
+Sw.
+Code des Sociétés et des Associations/Wetboek van Vennootschappen en Verenigingen
+CSA/WVV
+Statutes and decrees
+Citation format:
+<nature of the statute or decree>
+of
+<date of enactment> <statute
+or decree official name>
+[
+<English translation of statute or decree name>
+] (
+<country
+abbreviation if not evident from context>
+), M.B. or B.S.,
+<date of publication>
+,
+<first
+page, if not citing the online version>
+, art.
+<article>
+.
+Loi du 25 février 1991 relative à la responsabilité du fait des produits
+défectueux [Product Liability Act], M.B., Mar. 22, 1991, art. 2,
+https://justice.belgium.be
+.
+Wet van 27 december 2006 houdende diverse bepalingen [Law
+Concerning Diverse Dispositions], B.S., Dec. 28, 2006, art. 1,
+http://www.staatsblad.be
+.
+Moniteur Belge/Belgisch Staatsblad
+(Official Gazette of Belgium)
+1845–2003 (print)
+1997–date (online)
+M.B.
+/
+B.S.
+Bulletin Officiel des Lois et Arrêtés Royaux de Belgique
+1788–1845
+Bull.Off
+.
+Treaties and conventions
+Citation format:
+<name of treaty>
+[
+<English translation of law name>
+] adopted in
+<place of signature of the treaty>
+on
+<date of law>
+approved by
+<nature of the ratifying
+statute>
+of
+<date of the ratifying statute>
+, M.B.
+or
+B.S.,
+<date of publication>
+,
+<first
+page, if not citing the online version>
+, (
+<country abbreviation if not evident from
+context>
+).
+Convention de Budapest relative au contrat de transport de marchan-
+dises en navigation intérieure (CMNI) [Budapest Convention on the
+Contract for the Carriage of Goods by Inland Waterway], adopted in
+Budapest on June 22, 2001, approved by la loi du 29 juin 2008, M.B.,
+Oct. 10, 2008, p. 54.
+Internet sources
+http://www.belgiumlex.be
+(access to the constitution, codes, official gazette, consolidated legislation, court decisions, and other official publications)
+http://www.just.fgov.be
+(Ministry of Justice)
+http://www.lachambre.be
+(House of Representatives, providing access to recent legislation)
+http://www.senaat.be
+(the Federal Senate, providing access to recent legislation)
+http://www.vlaamsparlement.be
+(Flemish Parliament)
+http://www.parlement-wallon.be
+(Walloon Parliament)
+http://www.pfwb.be
+(Wallonia Brussels Federation Parliament)
+http://www.parlbruparl.irisnet.be
+(Brussels Parliament)
+http://www.juridat.be
+(the Judicial Power, providing a free searchable database of case law)
+http://www.councilofstate.be
+(Council of State, providing access to a database of its judgments)
+http://www.constitutionalcourt.be
+(Constitutional Court, providing access to a database of its judgments)
+http://www.ejustice.just.fgov.be/cgi/welcome.pl
+(Official Gazette, providing access to back issues (2002–date))
+http://www.ejustice.just.fgov.be/loi/loi.htm
+(consolidated legislation, providing access to federal and regional materials)
+http://www.fisconet.fgov.be
+(federal tax legislation)
+http://wallex.wallonie.be
+(Walloon legislation)
+http://www.gallilex.be
+(French Community legislation)
+https://codex.vlaanderen.be/
+(Flemish legislation)
+Most important commercial databases including books and journals:
+http://www.jura.be
+(books and journals from Kluwer publisher)
+http://www.stradalex.com
+(books and journals from Larcier publisher)
+https://app.lexnow.io/
+(books and journals from a variety of mostly smaller publishers)

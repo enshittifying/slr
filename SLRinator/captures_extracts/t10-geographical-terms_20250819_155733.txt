@@ -1,0 +1,45 @@
+TITLE: T10 Geographical Terms (p.340)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  slug: t10-geographical-terms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T10
+Geographical Terms
+(p.340)
+The following list provides abbreviations for geographical locations for use in case citations (
+rules 10.2.2
+and
+10.4
+), names of institutional authors (
+rule 15.1(c)
+), periodical abbreviations (
+rule 16
+and
+table T13
+), foreign materials (
+rule 20
+), and treaty citations (
+rule 21.4.2
+).
+Any countries, territories, provinces, or cities omitted from
+tables T10.2
+and
+T10.3
+should not be abbreviated, except according to rules otherwise laid out in
+table T6
+.
+T10.1
+U.S. States, Cities, and Territories
+T10.2
+Australian Cities and States; Canadian Cities, Provinces, and Territories; and U.K. Cities and Constituent Countries,
+T10.3
+Countries and Regions

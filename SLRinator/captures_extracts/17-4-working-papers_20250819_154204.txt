@@ -1,0 +1,32 @@
+TITLE: 17.4 Working Papers (p.180)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 17-unpublished-and-forthcoming-sources
+  slug: 17-4-working-papers
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+17.4
+Working Papers
+(p.180)
+When citing an unpublished work designated as a working paper, provide a parenthetical indicating the name of the sponsoring organization, the working paper designation and number, and the year. Abbreviate institutional entities according to
+rule 15.1(e)
+:
+Alan J. Auerbach & Laurence J. Kotlikoff,
+National Savings, Economic Welfare, and the Structure of Taxation
+24–33 (Nat’l Bureau of Econ. Rsch., Working Paper No. 729, 1981).
+Richard Briffault,
+The Political Parties and Campaign Finance Reform
+16–17 (Columbia L. Sch. Pub. L. Working Paper, Paper No. 012, 2000),
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=223729.73
+.
+When a work is designated as a working paper, but is not numbered, cite according to
+rule 17.2.1
+.

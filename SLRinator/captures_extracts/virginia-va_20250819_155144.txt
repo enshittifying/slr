@@ -1,0 +1,150 @@
+TITLE: Virginia (Va.) (pp. 321–22)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: virginia-va
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Virginia (Va.)
+(pp. 321–22)
+http://www.courts.state.va.us
+https://law.lis.virginia.gov/vacode/
+Supreme Court
+(
+Va.
+), previously
+Supreme Court of Appeals
+(
+Va.
+): Cite to
+S.E.
+or
+S.E.2d
+, if therein.
+South Eastern Reporter
+1887–date
+S.E., S.E.2d
+Virginia Reports
+75 Va.
+to date
+1880–date
+Va.
+Grattan
+1844–1880
+e.g.,
+42 Va. (1 Gratt.)
+Robinson
+1842–1844
+e.g.,
+40 Va. (1 Rob.)
+Leigh
+1829–1842
+e.g.,
+28 Va. (1 Leigh)
+Randolph
+1821–1828
+e.g.,
+22 Va. (1 Rand.)
+Gilmer
+1820–1821
+21 Va. (Gilmer)
+Munford
+1810–1820
+e.g.,
+15 Va. (1 Munf.)
+Hening & Munford
+1806–1810
+e.g.,
+11 Va. (1 Hen. & M.)
+Call
+1779–1825
+e.g.,
+5 Va. (1 Call)
+Virginia Cases, Criminal
+1789–1826
+e.g.,
+3 Va. (1 Va. Cas.)
+Washington
+1790–1796
+e.g.,
+1 Va. (1 Wash.)
+Court of Appeals
+(
+Va. Ct. App.
+): Cite to
+S.E.2d
+, if therein.
+South Eastern Reporter
+1985–date
+S.E.2d
+Virginia Court of Appeals Reports
+1985–date
+Va. App.
+Circuit Court
+(
+Va. Cir. Ct.
+): Cite to
+Va. Cir.
+Virginia Circuit Court Opinions
+1957–date
+Va. Cir.
+Statutory compilations:
+Cite to
+Va. Code Ann
+.
+(published by LexisNexis), if therein.
+Code of Virginia 1950 Annotated (LexisNexis)
+Va. Code Ann.
+§ x-x (
+<year>
+)
+West’s Annotated Code of Virginia
+Va. Code Ann.
+§ x-x (West
+<year>
+)
+Session laws:
+Cite to
+Va. Acts
+, if therein.
+Acts of the General Assembly of the Commonwealth of Virginia
+<year>
+Va. Acts
+<page no.>
+Virginia
+<year>
+Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Va. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Virginia Legislative Service
+<year>
+Va. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Virginia Administrative Code (West)
+<tit. no.>
+Va. Admin. Code
+§ x-x-x (
+<year>
+)
+Administrative register
+Virginia Register of Regulations (LexisNexis)
+<vol. no.>
+Va. Reg. Regs.
+<page no.>
+(
+<month day, year>
+)

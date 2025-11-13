@@ -1,0 +1,141 @@
+TITLE: Indiana (Ind.) (p.286)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: indiana-ind
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Indiana (Ind.)
+(p.286)
+http://www.in.gov/judiciary
+https://iga.in.gov/legislative/laws/2019/ic/titles/001
+Supreme Court
+(
+Ind.
+): Cite to
+N.E.
+,
+N.E.2d
+, or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1885–date
+N.E., N.E.2d, N.E.3d
+Indiana Reports
+1848–1981
+Ind.
+Blackford
+1817–1847
+Blackf.
+Court of Appeals
+(
+Ind. Ct. App.
+), previously
+Appellate Court
+(
+Ind. App.
+): Cite to
+N.E.
+,
+N.E.2d
+, or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1891–date
+N.E., N.E.2d, N.E.3d
+Indiana Court of Appeals Reports
+(prior to 1972, Indiana Appellate Court Reports)
+1890–1979
+Ind. App.
+Tax Court
+(
+Ind. T.C.
+): Cite to
+N.E.2d
+or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1986–date
+N.E., N.E.2d, N.E.3d
+Statutory compilations:
+Cite to
+Ind. Code
+, if therein.
+Indiana Code
+Ind. Code
+§ x-x-x-x (
+<year>
+)
+West’s Annotated Indiana Code
+Ind. Code Ann.
+§ x-x-x-x (West
+<year>
+)
+Burns Indiana Statutes Annotated
+(LexisNexis)
+Ind. Code Ann.
+§ x-x-x-x
+(LexisNexis
+<year>
+)
+Session laws:
+Cite to
+Ind. Acts
+, if therein.
+Acts, Indiana
+<year>
+Ind. Acts
+<page no.>
+West’s Indiana Legislative Service
+<year>
+Ind. Legis. Serv.
+<page no.>
+(West)
+Burns Indiana Statutes Annotated
+Advance Legislative Service
+(LexisNexis)
+<year>
+-
+<pamph. no.>
+Ind. Stat. Ann. Adv.
+Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilations:
+Cite to
+Ind. Admin. Code
+, if therein.
+Indiana Administrative Code
+<tit. no.>
+Ind. Admin. Code
+<rule no.>
+(
+<year>
+)
+West’s Indiana Administrative Code
+<tit. no.>
+Ind. Admin. Code
+<rule no.>
+(West
+<
+year>
+)
+Administrative register
+Indiana Register
+<vol. no.>
+Ind. Reg.
+<page no.>
+(
+<month day, year>
+)

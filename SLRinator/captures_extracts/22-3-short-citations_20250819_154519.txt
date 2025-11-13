@@ -1,0 +1,27 @@
+TITLE: 22.3 Short Citation Form (p.249)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 22-tribal-nations
+  slug: 22-3-short-citations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+22.3
+Short Citation Form
+(p.249)
+Short citation forms for Tribal Nations follow the corresponding short citation forms for sources of the same type. Thus, see
+rule 10.9
+for Tribal cases;
+rule 11
+for Tribal constitutions;
+rule 12.10
+for Tribal codes and orders, ordinances, and resolutions; and
+rule 21.17(a)
+for Tribal treaties.

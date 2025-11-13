@@ -1,0 +1,106 @@
+TITLE: 21.1 Basic Citation Forms (pp. 213–15)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-1-basic-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.1
+Basic Citation Forms
+(pp. 213–15)
+(a) Treaties and other international agreements.
+(
+rule 21.4
+)
+Bilateral Treaty
+Treaty of Friendship, Commerce and Navigation, Japan-U.S., art. X, Apr. 2, 1953, 4 U.S.T. 2063.
+Agreement Concerning Payments for Certain Losses Suffered During World War II, Fr.-U.S., Jan. 18, 2001, Temp. State Dep’t No. 01-36, 2001 WL 416465.
+Treaty of Neutrality, Hung.-Turk., Jan. 5, 1929, 100 L.N.T.S. 137.
+Multilateral Treaty
+Geneva Convention Relative to the Treatment of Prisoners of War art. 3, Aug. 12, 1949, 6 U.S.T. 3316, 75 U.N.T.S. 135.
+Inter-American Police Convention, Feb. 29, 1920, 127 L.N.T.S. 433.
+North American Free Trade Agreement, Dec. 17, 1992, 32 I.L.M. 289.
+(b) International law cases.
+(
+rule 21.5
+)
+International Court of Justice
+Military and Paramilitary Activities in and Against Nicaragua (Nicar. v. U.S.), Judgment, 1986 I.C.J. 14 (June 27).
+Fisheries Jurisdiction (U.K. v. Ice.), Interim Protection Order, 1972 I.C.J. 12 (Aug. 17).
+Diversion of Water from Meuse (Neth. v. Belg.), Judgment, 1937 P.C.I.J. (ser. A/B) No. 70, at 7 (June 28).
+Reservations to Convention on Prevention and Punishment of Crime of Genocide, Advisory Opinion, 1951 I.C.J. 15 (May 28).
+Court of Justice of the European Union
+Case C-213/89, The Queen v. Sec’y of State for Transp. (
+Factortame Ltd.
+), 1990 E.C.R. I-2433.
+European Court of Human Rights
+Kampanis v. Greece, 318 Eur. Ct. H.R. 29, 35 (1995).
+Ireland v. United Kingdom, 23 Eur. Ct. H.R. (ser. B) at 23 (1976).
+Inter-American Commission on Human Rights
+Tortrino v. Argentina, Case 11.597, Inter-Am. Comm’n H.R., Report No. 7/98, OEA/Ser.L./V/II.98, doc. 7 rev. ¶ 15 (1997).
+Inter-American Court of Human Rights
+Restrictions to the Death Penalty (Arts. 4(2) and 4(4) American Convention on Human Rights), Advisory Opinion OC-3/83, Inter-Am. Ct. H.R. (ser. A) No. 3, ¶ 70 (Sep. 8, 1983).
+International Tribunal for the Law of the Sea
+M/V Saiga (No. 2) (St. Vincent v. Guinea), Case No. 2, Order of Jan. 20, 1998, 2 ITLOS Rep. 4, 5.
+International Criminal Court
+Prosecutor v. Dyilo, ICC-01/04-01/06-2842, Judgment pursuant to Article 74 of the Statute, ¶ 107 (Mar. 14, 2012),
+http://www.icc-cpi.int/iccdocs/doc/doc1379838.pdf
+(on file with author).
+Prosecutor v. Katanga, ICC-01/04-01/07-3436-AnxII, Concurring opinion of Judges Diarra and Cotte, ¶ 5 (Mar. 7, 2014),
+http://www.icc-cpi.int/iccdocs/doc/doc1748105.pdf
+(on file The Harvard Law Review).
+International criminal tribunals
+Prosecutor v. Tadić, Case No. IT-94-1-I, Decision on Defence Motion for Interlocutory Appeal on Jurisdiction, ¶ 70 (Int’l Crim. Trib. for the Former Yugoslavia Oct. 2, 1995).
+Prosecutor v. Kayishema, Case No. ICTR 95-1-T, Judgment, ¶ 126 (May 21, 1999).
+(c) International arbitrations.
+(
+rule 21.6
+)
+Amoco Int’l Fin. Corp. v. Iran, 15 Iran-U.S. Cl. Trib. Rep. 189 (1987).
+Savarkar (Fr. v. Gr. Brit.), Hague Ct. Rep. (Scott) 275 (Perm. Ct. Arb. 1911).
+(d) United Nations sources.
+(
+rule 21.7
+)
+Verbatim and summary meeting records
+U.N. GAOR, 57th Sess., 42d plen. mtg. at 3, U.N. Doc. A/57/PV.42 (Nov. 1, 2002).
+U.N. Charter
+U.N. Charter art. 2, ¶ 1.
+Resolutions
+G.A. Res. 832 (IX), at 19 (Oct. 21, 1954).
+G.A. Res. 47/1, ¶ 2 (Sep. 22, 1992).
+Reports
+U.N. Secretary-General,
+An Agenda for Peace: Preventive Diplomacy, Peacemaking and Peace-Keeping
+,
+¶ 14, U.N. Doc. A/47/277-S/24111 (June 17, 1992).
+(e) European Union materials.
+(
+rule 21.9
+)
+Legislative acts
+Council Directive 2001/18, 2001 O.J. (L 106) 1 (EC).
+(f) World Trade Organization materials.
+(
+rule 21.11
+)
+Panel decisions
+Panel Report,
+United States—Sections 301–310 of the Trade Act of 1974
+, WTO Doc. WT/DS152/R (adopted Jan. 27, 2000).
+Appellate Body decisions
+Appellate Body Report,
+Brazil—Export Financing Programme for Aircraft
+, ¶ 19, WTO Doc. WT/DS46/AB/R (adopted Aug. 20, 1999).
+Founding agreements
+Marrakesh Agreement Establishing the World Trade Organization, Apr. 15, 1994, 1867 U.N.T.S. 154.
+Ministerial documents
+World Trade Organization, Ministerial Declaration of 14 November 2001, WTO Doc. WT/MIN(01)/DEC/1, 41 I.L.M. 746 (2002).

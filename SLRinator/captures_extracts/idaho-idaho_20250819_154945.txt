@@ -1,0 +1,100 @@
+TITLE: Idaho (Idaho) (p.284)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: idaho-idaho
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Idaho (Idaho)
+(p.284)
+https://isc.idaho.gov/
+https://legislature.idaho.gov/statutesrules/idstat/
+Supreme Court
+(
+Idaho
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+Idaho Reports
+1866–date
+Idaho
+Court of Appeals
+(
+Idaho Ct. App.
+): Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1982–date
+P.2d, P.3d
+Idaho Reports
+1982–date
+Idaho
+Statutory compilations:
+Cite to
+Idaho Code
+(published by LexisNexis), if therein.
+Idaho Code (LexisNexis)
+Idaho Code
+§ x-x (
+<year>
+)
+West’s Idaho Code Annotated
+Idaho Code Ann. §
+x-x
+(
+West
+<year>
+)
+Session laws:
+Cite to
+Idaho Sess. Laws
+, if therein.
+Idaho Session Laws
+<year>
+Idaho Sess. Laws
+<page no.>
+Idaho Code Annotated Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Idaho Code Ann. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Idaho Legislative Service
+<year>
+Idaho Legis. Serv.
+<page no.>
+(West)
+Administrative compilation:
+https://adminrules.idaho.gov/rules/current/
+Idaho Administrative Code
+Idaho Admin. Code
+r. x.x.x.x (
+<year>
+)
+Administrative register
+Idaho Administrative Bulletin
+<vol. no.>
+Idaho Admin. Bull.
+<page no.>
+(
+<month day, year>
+)

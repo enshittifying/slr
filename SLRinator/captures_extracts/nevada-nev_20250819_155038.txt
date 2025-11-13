@@ -1,0 +1,93 @@
+TITLE: Nevada (Nev.) (pp. 298–99)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: nevada-nev
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Nevada (Nev.)
+(pp. 298–99)
+https://nvcourts.gov/
+https://www.leg.state.nv.us/law1.cfm
+Supreme Court
+(
+Nev.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+Nevada Reports
+1865–date
+Nev.
+Court of Appeals
+(
+Nev. Ct. App.
+): Cite to
+P.3d
+, if therein.
+Pacific Reporter
+2015–date
+P.3d
+Nevada Reports
+2015–date
+Nev.
+Statutory compilations:
+Cite to
+Nev. Rev. Stat.
+, if therein.
+Nevada Revised Statutes
+Nev. Rev. Stat.
+§ x.x (
+<year>
+)
+Michie's Nevada Revised Statutes Annotated (LexisNexis)
+Nev. Rev. Stat. Ann
+. § x.x (LexisNexis
+<year>
+)
+West’s Nevada Revised Statutes Annotated
+Nev. Rev. Stat. Ann.
+§ x.x (West
+<year>
+)
+Session laws:
+Cite to
+Nev. Stat.
+, if therein.
+Statutes of Nevada
+<year>
+Nev. Stat.
+<page no.>
+West’s Nevada Legislative Service
+<year>
+Nev. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Nevada Administrative Code
+Nev. Admin. Code §
+x.x (
+<year>
+)
+Administrative register
+Nevada Register of Administrative Regulations
+<vol. no.>
+Nev. Reg. Admin. Regs.
+<reg. no.>
+(
+<month day, year>
+)

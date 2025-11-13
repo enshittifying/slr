@@ -1,0 +1,82 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T13:49:30.617791",
+  "footnote_range": "1-5",
+  "used_gpt": true,
+  "footnotes_processed": 5,
+  "total_citations": 1,
+  "successful_retrievals": 0,
+  "failed_retrievals": 1,
+  "pdf_files": [],
+  "parsing_results": [
+    {
+      "footnote_number": 1,
+      "original_text": "†   Professor of Law, College of Law; Professor of Medicine, Carle-Illinois College of Medicine; Professor, European Union Center; Affiliate, Carl R. Woese Institute for Genomic Biology; University of...",
+      "citations_count": 0,
+      "parsing_confidence": 0.99,
+      "gpt_reasoning": "The footnote contains only author titles and institutional affiliations; no case, statute, regulation, article, book, website, or other citation is present.",
+      "parsed_at": "2025-08-09T13:49:35.696676",
+      "citations": []
+    },
+    {
+      "footnote_number": 2,
+      "original_text": "†   Professor of Law, University of Texas School of Law . For their comments, thanks to Jonas Anderson, Laura Dolbow, Jordi Goodman, Michael Goodyear, Tim Holbrook, Mark Janis, Mark Lemley, Amy Motomu...",
+      "citations_count": 0,
+      "parsing_confidence": 0.99,
+      "gpt_reasoning": "Footnote is an acknowledgments note listing individuals and institutions; it contains no formal legal citations (no cases, statutes, regulations, articles, books, or websites).",
+      "parsed_at": "2025-08-09T13:49:41.657404",
+      "citations": []
+    },
+    {
+      "footnote_number": 3,
+      "original_text": "21 U.S.C. § 355(c)(3)(C);  see also  Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019) (“[W] e ask whether the Hikma and Actavis labels instruct users to treat polyneuropathic...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Expecting value: line 1 column 1 (char 0)",
+      "parsed_at": "2025-08-09T13:50:03.798683",
+      "citations": []
+    },
+    {
+      "footnote_number": 4,
+      "original_text": "See, e.g. , GlaxoSmithKline LLC v. Teva Pharms. USA, Inc., 7 F.4th 1320, 1328 (Fed. Cir. 2021) (reviewing expert evidence of how physicians would have read a drug label);  see also   id.  at 1342 (Pro...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Expecting value: line 1 column 1 (char 0)",
+      "parsed_at": "2025-08-09T13:50:43.338201",
+      "citations": []
+    },
+    {
+      "footnote_number": 5,
+      "original_text": "See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365 -66  (Fed. Cir. 2003)  (noting that an infringement analysis, in this context, is “ hypothetical because the allegedly infringing product ...",
+      "citations_count": 1,
+      "parsing_confidence": 0.98,
+      "gpt_reasoning": "Identified a single case citation with volume, reporter, first page, pinpoint pages, court, and year; excluded the explanatory parenthetical.",
+      "parsed_at": "2025-08-09T13:50:57.286732",
+      "citations": [
+        {
+          "citation_id": "c1",
+          "type": "case",
+          "full_text": "Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365-66 (Fed. Cir. 2003)",
+          "retrieval_priority": 1
+        }
+      ]
+    }
+  ],
+  "retrieval_results": [
+    {
+      "citation_id": "c1",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:50:58.073188"
+    }
+  ],
+  "completed_at": "2025-08-09T13:50:58.073545",
+  "duration_seconds": 87.455754,
+  "success_rate": 0.0
+}

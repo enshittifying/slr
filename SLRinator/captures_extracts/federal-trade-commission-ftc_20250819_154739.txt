@@ -1,0 +1,22 @@
+TITLE: Federal Trade Commission (FTC) (p.269)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: federal-trade-commission-ftc
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Federal Trade Commission (FTC)
+(p.269)
+Cite decisions to the
+Federal Trade Commission
+(
+F.T.C.
+).

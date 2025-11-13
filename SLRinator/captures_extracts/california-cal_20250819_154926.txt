@@ -1,0 +1,205 @@
+TITLE: California (Cal.) (pp. 275–77)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: california-cal
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+California (Cal.)
+(pp. 275–77)
+https://www.courts.ca.gov/
+http://leginfo.legislature.ca.gov/
+Supreme Court
+(
+Cal.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1883–date
+P., P.2d, P.3d
+California Reports
+1850–date
+Cal., Cal. 2d, Cal. 3d, Cal. 4th, Cal. 5th
+West’s California Reporter
+1959–date
+Cal. Rptr., Cal. Rptr. 2d, Cal. Rptr. 3d
+California Unreported Cases
+1855–1910
+Cal. Unrep.
+Court of Appeal
+(
+Cal. Ct. App.
+), previously
+District Court of Appeal
+(
+Cal. Dist. Ct. App.
+)
+: Cite to
+P.
+or
+P.2d
+(before 1960) or
+Cal. Rptr.,
+Cal. Rptr. 2d
+, or
+Cal. Rptr. 3d
+(after 1959), if therein.
+West’s California Reporter
+1959–date
+Cal. Rptr., Cal. Rptr. 2d, Cal. Rptr. 3d
+Pacific Reporter
+1905–1959
+P., P.2d
+California Appellate Reports
+1905–date
+Cal. App., Cal. App. 2d, Cal. App. 3d, Cal. App. 4th
+Appellate Divisions of the Superior Court
+(
+Cal. App. Dep’t Super. Ct.
+)
+: Cite to
+P.
+or
+P.2d
+(before 1960) or to
+Cal. Rptr.,
+Cal. Rptr. 2d
+, or
+Cal. Rptr. 3d
+(after 1959)
+,
+if therein.
+West’s California Reporter
+1959–date
+Cal. Rptr., Cal. Rptr. 2d, Cal. Rptr. 3d
+Pacific Reporter
+1929–1959
+P., P.2d
+California Appellate Reports Supplement (bound with
+Cal. App
+.)
+1929–date
+Cal. App. Supp., Cal. App. 2d Supp., Cal. App. 3d Supp., Cal. App. 4th Supp.
+Statutory compilations:
+Cite to either the West or the Deering subject-matter code, if therein.
+West’s Annotated California Codes
+Cal.
+<Subject>
+Code
+§ x (West
+<year>
+)
+Deering’s California Codes, Annotated (LexisNexis)
+Cal.
+<Subject>
+Code
+§ x (Deering
+<year>
+)
+Agricultural (renamed “Food and Agricultural” in 1972)
+Agric.
+Business and Professions
+Bus. & Prof.
+Civil
+Civ.
+Civil Procedure
+Civ. Proc.
+Commercial
+Com.
+Corporations
+Corp.
+Education
+Educ.
+Elections
+Elec.
+Evidence
+Evid.
+Family
+Fam.
+Financial
+Fin.
+Fish and Game
+Fish & Game
+Food and Agricultural (formerly “Agricultural”)
+Food & Agric.
+Government
+Gov’t
+Harbors and Navigation
+Harb. & Nav.
+Health and Safety
+Health & Safety
+Insurance
+Ins.
+Labor
+Lab.
+Military and Veterans
+Mil. & Vet.
+Penal
+Penal
+Probate
+Prob.
+Public Contract
+Pub. Cont.
+Public Resources
+Pub. Res.
+Public Utilities
+Pub. Util.
+Revenue and Taxation
+Rev. & Tax.
+Streets and Highways
+Sts. & High.
+Unemployment Insurance
+Unemp. Ins.
+Vehicle
+Veh.
+Water
+Water
+Welfare and Institutions
+Welf. & Inst.
+Session laws:
+Cite to
+Cal. Stat.
+, if therein.
+Statutes of California
+<year>
+Cal. Stat.
+<page no.>
+West’s California Legislative Service
+<year>
+Cal. Legis. Serv.
+<page no.>
+(West)
+Deering’s California Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Cal. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+Administrative compilation
+California Code of Regulations (West)
+Cal. Code Regs.
+tit. x, § x (
+<year>
+)
+Administrative register
+California Regulatory Notice Register
+<iss. no.>
+Cal. Regulatory Notice Reg.
+<page no.>
+(
+<month day, year>
+)

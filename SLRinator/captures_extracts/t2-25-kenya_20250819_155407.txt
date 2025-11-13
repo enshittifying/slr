@@ -1,0 +1,161 @@
+TITLE: T2.25 Kenya
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-25-kenya
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.25
+Kenya
+(Common Law)
+Cases
+Citation format:
+<case name>
+(
+<year decision reported>
+)
+<volume number> <reporter abbreviation> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<court name, if in reporter>
+) (
+<country abbreviation if not evident from context>
+).
+Alla Rakha v. Mohamed Ahmed (1956) 29 L.R.K. 6 (Kenya).
+E. N. Wainaina v. Franz Haas (1986) 2 K.A.R. 79 (C.A.K.) (Kenya).
+Privy Council
+(
+P.C.
+) (all final appeals until 1964): Cite to reports listed under
+table T2.43 United Kingdom
+, or cite to
+L.R.K.
+or
+E.A.
+Law Reports of Kenya
+1897–1956
+L.R.K.
+East African Law Reports
+1976–date
+E.A.
+Supreme Court of Kenya
+(
+S.C.K.
+) (established in 2011 under the 2010 Constitution);
+Court of Appeal for Kenya
+(
+C.A.K.
+) (superior court of record, formerly the East African Court of Appeal from 1897 to 1979);
+High Court of Kenya
+(
+H.C.K.
+). Cite to a reporter listed below.
+(* denotes an official reporter)
+Law Reports of Kenya*
+1897–1956
+L.R.K.
+Law Reports of the Court of Appeal for Eastern Africa
+East African Law Reports
+1934–1975
+1976–date
+E.A.
+Kenya Law Reports*
+2001–date
+1976–1991
+K.L.R.
+Kenyan Appeal Reports
+1982–1992
+K.A.R.
+LawAfrica Law Reports (online)
+1999–date
+L.L.R.
+High Court-Milimani Commercial Courts of Kenya
+(
+C.C.K.
+): Cite to a reporter listed below.
+LawAfrica Law Reports (online)
+1999–date
+L.L.R.
+East African Law Reports
+1976–date
+E.A.
+Law Reports of Kenya*
+1897–1956
+L.R.K.
+Industrial Court of Kenya
+(
+I.C.K.
+): Cite to
+L.L.R.
+, if therein.
+Constitution
+Give the article number, section (if applicable), and promulgation year of the version cited.
+Constitution
+art. 12 (2010) (Kenya).
+Legislation
+Citation format:
+<title>
+(
+<revised edition year>
+) Cap.
+<number> <section>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<title>
+, No.
+<number>
+(
+<year>
+)
+<
+Kenya Gazette/Kenya Gazette Supplement
+>
+No.
+<supplement number> <section>
+.
+The Advocates Act (2012) Cap. 16 § 14 (Kenya).
+The Finance Act, No. 38 (2013)
+Kenya Gazette Supplement
+No. 143 § 4.
+For legislation, cite to
+The Laws of Kenya
+and provide the date of the revised edition, or cite to the
+Official Gazette
+. The reference to laws as chapters (
+Caps.
+) and to the dates of revised editions is only for those laws that make up part of the consolidated materials.
+The Laws of Kenya, Revised Edition
+1924–date
+The Official Gazette of the East Africa and Uganda Protectorates
+1899–1908
+Vols. 1–10
+The Official Gazette of the East Africa Protectorate
+1908–1920
+Vols. 11–22
+Official Gazette of the Colony and Protectorate of Kenya
+1921–1956
+Vols. 23–58
+Kenya Gazette
+1957–1963
+Vols. 59–65
+The Kenya Gazette [Republic of Kenya]
+1964–date
+Vols. 66–current
+Kenya Gazette Supplement
+1931–date
+Internet sources
+http://www.kenyalaw.org
+(official source for judgments, rulings, and opinions of the superior courts of record, statutes, the Kenya Gazette, bills, and parliamentary proceedings)
+https://guides.loc.gov/law-kenya
+(Library of Congress Guide to Law Online: Kenya)

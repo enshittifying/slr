@@ -1,0 +1,22 @@
+TITLE: Federal Mine Safety and Health Review Commission (FMSHRC) (p.268)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: federal-mine-safety-and-health-review-commission-fmshrc
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Federal Mine Safety and Health Review Commission (FMSHRC)
+(p.268)
+Cite decisions to the
+Federal Mine Safety and Health Review Commission Decisions
+(
+FMSHRC
+).

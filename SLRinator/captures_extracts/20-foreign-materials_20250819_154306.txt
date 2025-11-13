@@ -1,0 +1,35 @@
+TITLE: 20 Foreign Materials (p.207)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 20-foreign-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20
+Foreign Materials
+(p.207)
+Table T2
+contains jurisdiction-specific citation examples and is the primary source for the citation of foreign materials. For sources not present in
+table T2
+, which is now located online, follow the respective country’s own citation rules for the sources as modified by these general rules.
+20.1
+Jurisdiction
+20.2
+Non-English-Language Documents
+20.3
+Cases
+20.4
+Constitutions
+20.5
+Statutes
+20.6
+Non-English-Language and Foreign Periodicals
+20.7
+Short Citation Forms

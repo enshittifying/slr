@@ -1,0 +1,82 @@
+TITLE: Northern Mariana Islands (N. Mar. I.) (pp. 326–27)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-4-other-united-states-jurisdictions
+  slug: northern-mariana-islands-n-mar-i
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Northern Mariana Islands (N. Mar. I.)
+(pp. 326–27)
+https://www.nmijudiciary.gov
+Public domain citation format:
+The Commonwealth of the Northern Mariana Islands has adopted a public domain citation format for cases after June 15, 1996. The format is:
+Lifoifoi v. Lifoifoi-Aldan, 1996 MP 14.
+Supreme Court
+(
+N. Mar. I.
+): Cite to
+N. Mar. I.
+Northern Mariana Islands Reporter
+1989–date
+N. Mar. I.
+District Court for the Northern Mariana Islands, Trial and Appellate Divisions
+(
+D. N. Mar. I.
+and
+D. N. Mar. I. App. Div.
+), and
+Commonwealth Superior Court
+(
+N. Mar. I. Commw. Super. Ct.
+), previously
+Commonwealth Trial Court
+(
+N. Mar. I. Commw. Trial Ct.
+): Cite to
+F. Supp.
+,
+F. Supp. 2d
+, or
+F. Supp. 3d
+, if therein.
+Federal Supplement
+1979–date
+F. Supp., F. Supp. 2d, F. Supp. 3d
+Northern Mariana Islands Commonwealth Reporter
+1979–date
+N. Mar. I. Commw.
+Statutory compilation
+Northern Mariana Islands Commonwealth Code (LexisNexis)
+<tit. no.>
+N. Mar. I. Code
+§ x (
+<year>
+)
+Session laws
+Northern Mariana Islands Session Laws
+<year>
+N. Mar. I. Pub. L.
+<law no.>
+Administrative compilation
+Northern Mariana Islands Administrative Code
+<tit. no.>
+N. Mar. I. Admin. Code
+§ x (
+<year>
+)
+Administrative register
+Northern Mariana Islands Commonwealth Register
+<vol. no.>
+N. Mar. I. Reg.
+<page no.>
+(
+<month day, year>
+)

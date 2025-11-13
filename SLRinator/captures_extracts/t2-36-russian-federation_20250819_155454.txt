@@ -1,0 +1,504 @@
+TITLE: T2.37 Russian Federation
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-36-russian-federation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.37
+Russian Federation
+(Civil Law)
+Romanization
+Cases
+Citation of a ruling or explanation of the
+Verkhovnyĭ Sud Rossiĭskoĭ
+(Verkh.
+Sud RF) (Russian Federation Supreme Court):
+<ruling or decision name, with
+subdivisions if desired
+> [
+<English translation of ruling or decision name, with
+subdivisions if desired>
+],
+<publication name>
+[
+<publication abbreviation>
+] [
+<English
+translation of publication name
+>]
+<year of publication, or full date of publication
+if citation is made to a newspaper>
+, No.
+<issue number>
+, p.
+<page(s) of specific
+material>
+(
+<country abbreviation if not evident from context
+>).
+Postanovlenie Plenuma Verkhovnogo Suda Rossiĭskoĭ Federatsii “Nekotorye Voprosy Vozmeshchenia Vreda” ot 1 noiabr’ 2008 g., abz. 4 p. 3 [Plenary Ruling of the Supreme Court of the Russian Federation, “Selected Issues of Damage Compensation,” of Nov. 1, 2008, section 4, part 3],
+Biulleten’ Verkhovnogo Suda RF
+[BVS] [Bulletin of the Supreme Court of the Russian Federation] 2008, No. 12, p. 17.
+Postanovlenie Plenuma Verkhovnogo Suda Rossiĭskoĭ Federatsii “Nekotorye Voprosy Vozmeshchenia Vreda” ot 1 noiabr’ 2008 g., abz. 4 p. 3 st. 89 [Article 89, Part 3, Section 4 of the Russian Federa- tion Supreme Court Plenary Ruling on Selected Issues of Damage Compensation of Nov. 1, 2008],
+Rossiĭskaia Gazeta
+[Ros. Gaz.] Dec. 1, 2008.
+For individual cases and rulings of other courts of general jurisdiction, cite to a description of the case in a Russian publication.
+Konstitutsionnyĭ Sud Rossiĭskoĭ Federatsii
+(Konst. Sud RF) (Russian Federation Constitutional Court): Cite to the Russian official gazettes
+Sobranie Zakonodatel’stva
+Rossiĭskoĭ Federatsii or Rossiĭskaia Gazeta
+.
+Citation format:
+<ruling or decision name, with subdivisions if desired>
+[
+<English translation of ruling or decision name, with subdivisions if desired>
+], Sobranie Zakonodatel’stva Rossiĭskoĭ Federatsii [SZ RF] [Russian Federation Collection of Legislation]
+<year of publication>
+, No.
+<issue number>
+, Item
+<item number>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<document name>
+[
+<English translation of document name, with subdivisions if desired>
+], Rossiĭskaia Gazeta [Ros. Gaz.]
+<date of publication>
+(
+<country abbreviation if not evident from context>
+).
+Postanovlenie Konstitutsionnogo Suda Rossiĭskoĭ Federatsii ot 1 dekabria 2008 g. [Ruling of the Russian Federation Constitutional Court of Dec. 1, 2008],
+Sobranie Zakonodatel’stva Rossiĭskoĭ Federatsii
+[SZ RF] [Russian Federation Collection of Legislation] 2008, No. 37, Item 3451.
+Postanovlenie Konstitutsionnogo Suda Rossiĭskoĭ Federatsii ot 1 dekabria 2008 g., [Ruling of the Russian Federation Constitutional Court of Dec. 1, 2008],
+Rossiĭskaia Gazeta
+[
+Ros. Gaz.
+] Sept. 17, 2003.
+Vysshii Arbitrazhnyi Sud
+Rossiĭskoĭ
+Federatsii
+(Highest Arbitration Court of the Russian Federation: hears commercial disputes between juridical persons, and reviews decisions of federal circuit arbitration courts): Cite to the Court's official bulletin
+Vestnik Vysshego Arbitrazhnogo Suda
+Rossiĭskoĭ
+Federatsii
+(
+Vestnik VAS RF
+).
+Citation format:
+<ruling or decision name, including case number>
+[
+<English translation of ruling or decision name>
+],
+Vestnik Vysshego Arbitrazhnogo Suda Rossiĭskoĭ Federatsii
+[
+Vestnik VAS RF
+] [Bulletin of the Highest Arbitration Court of the Russian Federation]
+<year of publication>
+, No.
+<issue number>
+, p.
+<page number>
+(
+<country abbreviation if not evident from context>
+).
+Postanovlenie Prezidiuma VAS RF ot 6 sentiabria 2011 g. No. 4784/11 [Ruling of the Presidium of the Highest Arbitration Court of the Russian Federation of September 6, 2011, No. 4784/11],
+Vestnik Vysshego Arbitrazhnogo Suda Rossiiskoi Federatsii [Vestnik VAS RF
+] [Bulletin of the Highest Arbitration Court of the Russian Federation] 2011, No. 3, p. 154
+.
+Constitutions
+Citation format of the current Russian constitution:
+<
+name of constitution
+>
+[
+<abbreviation of constitution>
+] [
+Constitution
+]
+<section>
+(
+<country abbreviation if not evident from context>
+).
+Konstitutsiia Rossiĭskoĭ Federatsii [Konst. RF] [Constitution]
+art. 27 (Russ.).
+For constitutions in force before 1993, indicate the jurisdiction and the date of adoption:
+Konstitutsiia RSFSR (1978) [Konst. RSFSR] [RSFSR Constitution]
+.
+Konstitutsiia SSSR (1977) [Konst. SSSR] [USSR Constitution]
+.
+Codes
+Codes can be cited to their publication in Russia’s official gazette or as individual documents.
+Citation format:
+<code name>
+[
+<code abbreviation>
+] [
+<English translation of code name>
+]
+<article>
+(
+<country abbreviation if not evident from context>
+).
+Grazhdanskiĭ Kodeks Rossiĭskoĭ Federatsii [GK RF]
+[Civil Code] art. 123 (Russ.).
+Russian Codes presently in force:
+Grazhdanskiĭ Kodeks Rossiĭskoĭ Federatsii
+(Civil Code)
+GK RF
+Grazhdanskiĭ Protsessual’nyĭ Kodeks Rossiĭskoĭ Feder-
+atsii
+(Civil Procedural Code)
+GPK RF
+Ugolovnyĭ Kodeks Rossiĭskoĭ Federatsii
+(Criminal Code)
+UK RF
+Ugolovno-Protsessual’nyĭ Kodeks Rossiĭskoĭ Federatsii
+(Criminal Procedural Code)
+UPK RF
+Nalogovyĭ Kodeks Rossiĭskoĭ Federatsii
+(Tax Code)
+NK RF
+Biudzhetnyĭ Kodeks Rossiĭskoĭ Federatsii
+(Budget Code)
+BK RF
+Kodeks Rossiĭskoĭ Federatsii RF ob Administrativnykh Pravonarusheniiakh
+(Code of Administrative Violations)
+KOAP RF
+Ugolovno-Ispolniteln’yĭ Kodeks Rossiĭskoĭ Federatsii
+(Correctional Code)
+UIK RF
+Arbitrazhno-Protsessual’nyĭ Kodeks Rossiĭskoĭ Feder-
+atsii
+(Code of Arbitration Procedure)
+APK RF
+Tamozhennyĭ Kodeks Rossiĭskoĭ Federatsii
+(Customs
+Code)
+TAK RF
+Trudovoĭ Kodeks Rossiĭskoĭ Federatsii
+(Labor Code)
+TK RF
+Semeĭnyĭ Kodeks Rossiĭskoĭ Federatsii
+(Family Code)
+SK RF
+Zhilishchnyĭ Kodeks Rossiĭskoĭ Federatsii
+(Residential
+Code)
+ZhK RF
+Gradostroitel’nyĭ Kodeks Rossiĭskoĭ Federatsii
+(Code of Urban Architecture)
+GRAK RF
+Lesnoĭ Kodeks Rossiĭskoĭ Federatsii
+(Forestry Code)
+LK RF
+Vodnyĭ Kodeks Rossiĭskoĭ Federatsii
+(Water Code)
+VK RF
+Zemel’nyĭ Kodeks Rossiĭskoĭ Federatsii
+(Land Code)
+ZK RF
+Vozdushnyĭ Kodeks Rossiĭskoĭ Federatsii
+(Air Code)
+VOK RF
+Kodeks Torgovogo Moreplavaniia Rossiĭskoĭ Federatsii
+(Code of Merchant Shipping)
+KTM RF
+Statutes and decrees
+Citation format:
+<name of law>
+[
+<English translation of law>
+],
+<name of publication>
+[
+<abbreviation of publication>
+] [
+<name of publication in English, unless citing to
+Ros. Gaz.
+>
+]
+<year of publication, or full date of publication if citation is made to a newspaper>
+,
+<issue number>
+,
+<item number>
+(
+<country abbreviation if not evident from context>
+).
+Cite
+federal’nyĭ konstitutsionnyĭ
+(federal constitutional law),
+federal’nyĭ zakon
+(federal law),
+postanovleniia palat Federal’nogo Sobraniia
+(resolutions of the State Duma (lower chamber) and Federation Council (upper chamber) of the Federal Assembly (national legislature)),
+ukazy
+(decrees) and
+rasporiazheniia
+(resolutions) of the RF President,
+postanovleniia
+(regulations) and
+rasporiazheniia
+(resolutions) of the RF Government, and rulings of the RF Constitutional Court to the official gazette where the document was published.
+Federal’nyĭ Zakon RF o Grazhdanstve Rossiĭskoĭ Federatsii [Federal
+Law of the Russian Federation on Citizenship of the Russian Federa-
+tion],
+Sobranie Zakonodatel’stva Rossiĭskoĭ Federatsii
+[SZ RF]
+[Russian Federation Collection of Legislation] 2004, No. 12, Item 1151.
+Federal’nyĭ Zakon RF o Grazhdanstve Rossiĭskoĭ Federatsii [Federal Law of the Russian Federation on Citizenship of the Russian Federa- tion],
+Rossiĭskaia Gazeta
+[
+Ros. Gaz.
+] Apr. 23, 2004.
+Do not include
+<name of law>
+[
+<
+English translation of law>
+] if the full title of the document is included in the text.
+Sobranie Zakonodatel’stva Rossiĭskoĭ Federatsii
+[SZ RF] [Russian Federation Collection of Legislation] 2004, No. 12, Item 1151.
+Sobranie Zakonodatel’stva Rossiĭskoĭ
+Federatsii
+(Russian Federation Collection of
+Legislation)
+1994–date
+SZ RF
+Sobranie Aktov Prezidenta i Pravitel’stva
+Rossiĭskoĭ Federatsii
+(Collection of Acts of
+the President and Government of the Russian
+Federation)
+June 1992–Apr. 1994
+SAPP
+Vedomosti S”ezda Narodnykh Deputatov
+Rossiĭskoĭ Federatsii i Verkhovnogo
+Soveta Rossiĭskoĭ Federatsii
+(Bulletin of the
+Congress of People’s Deputies of the Russian
+Federation and Supreme Council of the Russian
+Federation)
+Feb. 1992–Sept. 1993
+Ved
+. RF
+Vedomosti S”ezda Narodnykh Deputatov
+RSFSR i Verkhovnogo Soveta RSFSR
+(Bulletin of the Congress of People’s Deputies
+of the Russian Soviet Federal Socialist Republic
+and Supreme Council of the RSFSR)
+June 1990–Jan. 1992
+Ved. RSFSR
+Vedomosti S”ezda Narodnykh Deputatov
+SSSR i Verkhovnogo Soveta SSSR
+(Bulletin
+of the Congress of People’s Deputies of the
+USSR and Supreme Council of the USSR)
+June 1989–Dec. 1991
+Ved
+. SSSR
+Vedomosti Verkhovnogo Soveta SSSR
+(Bulletin of the USSR Supreme Council)
+1937–June 1989
+VVS SSSR
+Vedomosti Verkhovnogo Soveta RSFSR
+(Bulletin of the USSR Supreme Council)
+1938–May 1990
+VVS RSFSR
+Cite executive regulations for the period before 1991 to the following publications:
+Sobranie Postanovleniĭ Soveta Ministrov
+(
+Pravitel’stva
+) SSSR [SPP SSSR] [Collection of USSR Government Regulations]
+Sobranie Postanovleniĭ Soveta Ministrov
+(
+Pravitel’stva
+) RSFSR [SPP RSFSR] [Collection of RSFSR Government Regulations]
+Publication of legal acts in the following government-published newspapers is recognized as official:
+Rossiĭskaia Gazeta
+(Russian Newspaper)
+1991–date
+Ros. Gaz.
+Parlamentskaia Gazeta
+(Parliamentary Newspaper)
+1998–date
+Parl. Gaz
+.
+Izvestiia
+(News, daily newspaper)
+1918–1991
+Izvestiia
+Citation format for acts published in a newspaper:
+<name of act>
+[
+<name of act
+in English>
+],
+<name of publication>
+,
+<date of publication>
+,
+<page number>
+(
+<country
+abbreviation if not evident from context>
+).
+Zakon SSSR o Grazhdanstve SSSR [USSR Law on Citizenship of the USSR],
+Izvestiia
+, Dec. 12, 1988, p. 3.
+Cite legislative acts for the period of 1917 to 1937 to
+Soviet Acts
+or
+Russian Acts
+:
+Izvestiia Tsentral’nogo Ispolnitel’nogo Komiteta Sovetov Rabochikh i Krest’ianskikh Deputatov SSSR
+[
+Izv.TsIK
+] [Bulletin of the USSR Central Executive Committee of the Councils of Workers’ and Peasants’ Deputies]
+Izvestiia Vserossiĭskogo Tsentral’nogo Ispolnitel’nogo Komiteta Sovetov Rabochikh, Soldatskikh i Krest’ianskikh Deputatov
+[
+Izv. VTsIK
+] [Bulletin of the All-Russian Central Execu- tive Committee of the Councils of Workers’, Soldiers’, and Peasants’ Deputies]
+Citation format for laws of the Russian Empire:
+<name of law>
+[
+<English
+translation of law>
+]
+<name of publication>
+[
+<abbreviation of publication>
+] [
+<name of
+publication in English>
+],
+<volume number>
+,
+<year of publication>
+, No.
+<item number>
+(
+<country abbreviation if not evident from context>
+).
+Zakon o Poseleniiakh na Kitaĭskoĭ Granitse [Law on the Chinese Border Settlements]
+Polnoe Sobranie Zakonov Rossiĭskoĭ Imperii
+[PSZ] [Complete Collection of Laws of the Russian Empire], II, v. XLIX, 1874, No. 53418.
+Administrative regulations
+For the
+postanovlenie
+(regulations),
+instruktsiia
+(instructions),
+raz’’iasneniia
+(clarifications),
+pis’mo
+(letters),
+ukazanie
+(directives), and other legal acts of ministries, state committees, and other government agencies, follow the citation format used for official gazettes. Cite to:
+Biulleten’ Normativnykh Aktov Ministerstv i Vedomstv Rossiĭskoĭ Federatsii
+[BNA] [Bulletin of Legal Acts of Ministries and Agencies of the Russian Federation]
+Biulleten’ Normativnykh Aktov Federal’nykh Organov Ispolnitel’noĭ Vlasti
+[BNA] [Bulletin of Legal Acts of Federal Executive Authorities]
+Acts of executive agencies, which were not officially published, are cited by their name, date of issuance, and Ministry of Justice registration number:
+Sanitary Zones and Sanitary Certification of Enterprises, Instruction 2.2.1/2.11-03, approved by the Chief Sanitary Physician of the Russian Federation, Mar. 20, 2008, registered by the Ministry of Justice, Apr. 29, 2008, No. 4459 (Russ.).
+Legislative hearings
+Citation format for parliamentary hearings conducted by the State Duma:
+<hearing title>
+[
+<English translation of hearing title>
+]
+<publication name>
+[
+<publication abbreviation>
+] [
+<English translation of publication name>
+] Issue
+<issue number>
+,
+<period of coverage>
+, p.
+<page(s) of specific material>
+(
+<country abbreviation if not evident from context>
+).
+O Razvitii Sporta v Rossiĭskoĭ Federatsii [On Sport Development in the Russian Federation]
+Parlamentskie Slushaniia v Gosudarstvennoĭ Dume
+[
+Parl. Slush.
+] [Parliamentary Hearings in the State Duma] Issue XI, Jan.–June 2003, p. 17 (Russ.).
+Citation format for hearings conducted by the Council of Federation, the upper chamber of the Russian legislature, are cited to the particular publication that reported the hearings or to the Council’s official website:
+Sostoianie Zakonodatel’noĭ Bazy Okhrany Zdorov’ia, Slushaniia v Sovete Federatsii RF [State of Legislation on Health Care, Hearings in the RF Federation Council], Mar. 25, 2004 (Russ.).
+Periodicals
+Government publications
+Vestnik Konstitutsionnogo Suda RF
+VKS
+Vestnik Tsentral’noĭ Izbiratel’noĭ Komissii RF
+Vestn. TsIK
+Biulleten’ Schetnoĭ Palaty RF
+BSP
+Newspapers
+Rossiĭskaia Gazeta
+Ros. Gaz.
+Rossiĭskie Vesti
+Ros. Vesti
+Ekonomika i Zhizn’
+Ekon. i Zh.
+Finansovye Izvestiia
+Fin. Izv.
+Kommersant
+Kommers.
+Parlamentskaia Gazeta
+Parl. Gaz.
+Magazines
+Gosudarstvo i Pravo
+Gos. i Pravo
+Pravovedenie
+Prav.
+Zhurnal Rossiĭskogo Prava
+Zh. R. P.
+Zakonnost’
+Zakonnost
+Vestnik Moskovskogo Universiteta
+Vestn. MGU
+Khoziaistvo i Pravo
+Khoz. i Pravo
+Treaties
+Biulleten’Mezhdunarodnykh Dogovorov
+(Bulletin of International Treaties)
+Mar. 1993–date
+BMD
+SbornikMezhdunarodnykhDogov-orov
+(Collection of International Treaties)
+1980–Feb. 1993
+SMD
+Sbornik Deĭstvuiushchikh Dogovorov
+1924–1979
+SDD
+Soglasheniĭ i Konventsiĭ, Zakli-
+uchennykh s Inostrannymi
+Gosudarstvami
+(Collection of Treaties, Agreements, and Conventions
+Concluded with Foreign States)
+SKZIG
+Internet sources
+http://pravo.gov.ru
+(official government portal for laws and other legal information)
+http://eng.kremlin.ru/acts
+(summaries and translations of selected presidential acts in English on the Russian Federation President’s website)
+http://www.supcourt.ru
+(website of the Russian Supreme Court with access to the Court’s rulings)
+http://www.loc.gov/law/help/guide/nations/russia.php
+(Library of Congress Guide to Law Online: Russia)

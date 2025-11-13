@@ -1,0 +1,413 @@
+TITLE: T2.43 Switzerland
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-41-switzerland
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.43
+Switzerland
+(Civil Law)
+Cite federal statutes and legislative materials either to the German or the French text, or, if available and pertinent, to the Italian text. Cite cases in the language in which the decision is issued.
+Cases
+Bundesgericht
+(
+BGer
+)/
+Tribunal fédéral
+(
+TF
+)/
+Tribunale federale
+(
+TF
+) (Federal Supreme Court): Cite to
+BGE
+/
+ATF
+/
+DTF
+, or
+SJ
+, if therein; otherwise, cite to
+Pra
+or
+JdT
+.
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<date of decision>
+,
+<docket number for decisions only published online>
+<volume number> <reporter or periodical name>
+[
+<reporter or periodical abbreviation>
+]
+<part number> <page number>
+(
+<country abbreviation if not evident from context>
+).
+In subsequent citations in short form, use only the court and reporter abbreviations rather than their full names and English translations.
+Bundesgericht [BGer] [Federal Supreme Court] Jan. 28, 1999, 125
+Entscheidungen des schweizerischen Bundesgerichts
+[BGE] I 96 (Switz.).
+Tribunal fédérale [TF] Jan. 10, 2014, 4A_431/2013.
+Bundesgericht [BGer] [Federal Supreme Court] Sept. 23, 2008, 2C_268/2008 (Switz.).
+Cite the official reporter according to the language of the decision.
+Entscheidungen des schweizerischen Bundesgerichts (Amtliche Sammlung)
+1875–date
+BGE
+Arrêts du Tribunal fédéral suisse (Recueil officiel)
+1875–date
+ATF
+Decisioni del Tribunale federale svizzero (Raccolta ufficiale)
+1875–date
+DTF
+Volumes by subject matter since 1995:
+Constitutional cases
+BGE/ATF/DTF I
+Administrative and international law cases
+BGE/ATF/DTF II
+Civil and bankruptcy cases
+BGE/ATF/DTF III
+Criminal cases
+BGE/ATF/DTF IV
+Social security cases
+BGE/ATF/DTF V
+The following publications may also be useful.
+Die Praxis des Bundesgerichts (Basel)
+1912–date
+Pra
+Journal des Tribunaux
+1854–date
+JdT
+La Semaine judiciaire
+1879–date
+SJ
+Bundesstrafgericht
+(
+BStR
+)/
+Tribunal pénal fédéral
+(
+TPF
+)/
+Tribunale penale federale
+(
+TPF
+) (Federal Criminal Court, since April 1, 2004): Cite to
+TPF
+, if therein.
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<date of decision>
+,
+<reporter name>
+[
+<reporter abbreviation>
+]
+<year of reporter volume>
+,
+<page number> <docket number, instead of reporter information and page, if only published online>
+(
+<country abbreviation if not evident from context>
+).
+Bundesstrafgericht [BStR] [Federal Criminal Court] Jan. 9, 2006,
+Entscheidungen des schweizerischen Bundesstrafgerichts
+[TPF] 2006, 217 (Switz.).
+Tribunal pénal fédéral [TPF] [Federal Criminal Court] Feb. 21, 2014, RH.2014.2 (Switz.).
+Cite to the following publication, according to the language of the court decision:
+Entscheide des schweizerischen Bundesstrafgerichts
+TPF
+Arrêts du Tribunal fédéral pénal suisse
+TPF
+Decisioni del Tribunale federale penale svizzero
+TPF
+Bundesverwaltungsgericht
+(BVGE)/
+Tribunal administratif fédéral
+(TAF)/
+Tribunale amministrativo federale
+(TAF) (Federal Administrative Court, since January 1, 2007): Cite to BVGE/ATAF/DTAF, if therein.
+Amtliche Sammlung der Entscheide des schweizerischen Bundesverwaltungsgerichts
+BVGE
+Recueil officiel des Arrêts du Tribunal fédéral administratif suisse
+ATAF
+Decisioni del Tribunale amministrativo federale svizzero
+DTAF
+Bundespatentgericht
+BPG
+Tribunale fédérale des brevets
+TFB
+Tribunale federale dei brevetti
+TFB
+Federal Patent Court
+FPC
+Federal administrative agencies
+: Cite decisions to
+VPB
+/
+JAAC
+/
+GAAC
+, if therein, using the citation format for periodicals.
+Verwaltungspraxis der Bundesbehörden
+VPB
+Jurisprudence des autorités administratives de la Confédération
+JAAC
+Giurisprudenza delle autorità amministrative della Confederazione
+GAAC
+From 1987 until 2006,
+VPB
+was published in hard copy. From 2007 onward, it has been published only electronically, at
+http://www.bk.admin.ch/dokumentation/02574
+.
+Cite decisions of federal administrative agencies by number of the decision and volume:
+Consiglio federale (Federal Council), Sept. 25, 1989, 54
+Giurisprudenza delle autorità amministrative della Confederazione
+[GAAC] no. 34 (Switz.).
+Constitution
+Citation format for the current constitution:
+<
+constitution name in German or French
+>
+[
+<constitution abbreviation in German or French>
+] [
+Constitution
+]
+<date of enactment>
+,
+<abbreviation or full title of systematic collection of laws> <number of law>
+,
+<article>
+,
+<paragraph, if applicable>
+(
+<country abbreviation if not evident from context>
+).
+In German:
+Bundesverfassung [BV] [Constitution]
+Apr. 18, 1999, SR 101, art. 29, para. 1 (Switz.).
+In French:
+Constitution fédérale [Cst] [Constitution]
+Apr. 18, 1999, RO 101, art. 29, para. 1 (Switz.).
+Citation format for the former constitution:
+<title in German and/or French>
+,
+<date>
+,
+<abbreviation or full title of chronological collection of laws in German and/or French>
+[
+<abbreviation of former constitution in German and/or French>
+]
+<article> <paragraph, if applicable>
+(
+<country abbreviation
+if not evident from context
+>
+).
+Bundesverfassung, Constitution fédérale, May 29, 1874, AS 1, RO 1 [BV 1874, Cst 1874] art. 4 (Switz.).
+Codes
+Citation format:
+<code name in German, French, and/or Italian>
+[
+<code abbreviation in German, French, and/or Italian>
+] [
+<English translation of code name>
+]
+<date of enactment>
+,
+<compilation of laws>
+<number of law>
+,
+<article>
+,
+<paragraph, if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Schweizerisches Zivilgesetzbuch [ZGB], Code civil [CC], Codice civile [CC] [Civil Code]
+Dec. 10, 1907, SR 210, RS 210, art. 3 (Switz.).
+To cite a former version of a code that was in effect at an earlier date, rather than citing to the updated and systematic compilation of laws, which is maintained as a loose-leaf system and available online, it is preferable to cite to the chronological collection of laws and to mention the operative date or the last amending law:
+Schweizerisches Strafgesetzbuch [StGB] [Criminal Code]
+Dec. 21, 1937, SR 757 (1938),
+as amended by
+Gesetz, Oct. 4, 1991, AS 2465 (1992), art. 37, para. 1 (Switz.).
+Swiss codes and statutes are subdivided into articles (not sections) and thereafter into paragraphs and/or numbers. When new articles are inserted into an act, they are often numbered as follows:
+art. 264
+,
+art. 264a
+,
+art. 264b
+, etc. Until recently, this numbering looked like this:
+art. 179
+,
+179bis
+,
+179ter
+, up to
+art. 179novies
+. In some English translations, this numbering has been replaced by
+art. 179
+,
+art. 179a
+, etc. This substitution appears permissible; it may be preferable, however, to give both versions:
+StGB
+art. 179bis (
+StGB
+art. 179a)
+Schweizerisches Zivilgesetzbuch, Code civil, Codice civile
+(Civil Code)
+ZGB, CC, CC
+Obligationenrecht, Code des obligations, Codice delle obbligazioni
+(Code of Obligations)
+OR, CO, CO
+Schweizerisches Strafgesetzbuch, Code pénal suisse, Codice penale svizzero
+(Criminal Code)
+StGB, CP, CP
+Statutes and decrees
+The citation format for laws and regulations is the same as for the codes. Cite codes, statutes, and decrees to the updated and systematic compilation of federal law and/or to the chronological collection of federal law.
+Updated compilation
+(cite by law number):
+Systematische Sammlung des Bundesrechts
+1987–date
+SR
+e.g.,
+SR 210
+Recueil systématique du droit fédéral
+1987–date
+RS
+Raccolta sistematica del diritto federale
+1987–date
+RS
+Chronological collection
+(cite by page and year):
+Amtliche Sammlung des Bundesrechts
+1848–date
+AS
+e.g.,
+AS 90 (1995)
+Recueil officiel du droit fédéral
+1848–date
+RO
+Raccolta ufficiale delle leggi federali
+1848–date
+RU
+Legislative materials
+Draft laws and decrees can be found in the following sources:
+Bundesblatt
+1848–date
+BBl
+Feuille fédérale suisse
+1848–date
+FF
+Foglio federale svizzero
+1848–date
+FF
+Until 1997, cite by volume, page, and year; since 1998, cite by page and then year.
+BBl
+I 1493 (1978)
+FF 6051 (2001)
+Internet sources
+The most comprehensive electronic source is the Federal Authorities of the Swiss Confederation website at
+http://www.admin.ch
+. This site has a portal in English that links to the Parliament, the Executive Branch of Government, and to the four federal courts. Legislation, legislative materials, and cases are available in the three or four national languages (some documentation is also in Rumantsch and English).
+http://www.bger.ch
+(Federal Court): Three main files are available to the public without subscription. The BGE/ATF/DTF file contains published decisions beginning in 1954 and is best searched in the Index by BGE/ATF/ DTF citation. The file for additional judgments (weitere Urteile ab 2000/ Autres arrêts dès 2000/Altre decisioni dal 2000) contains unpublished decisions and is best searched by docket number. The file for new decisions (Liste der Neuheiten/Liste des dernières décisions/Elenco delle ultime decisioni) contains the decisions of the last two weeks and is best searched by date.
+http://www.bger.ch/index/juridiction/jurisdiction-inherit-template/jurisdiction-recht.htm
+(decisions in German)
+http://www.bstger.ch
+(Federal Criminal Court)
+http://bstger.weblaw.ch/?method=tpf&ul=fr
+(decisions in French)
+http://www.bvger.ch
+(Federal Administrative Court)
+http://www.bvger.ch/publiws/?lang=it
+(decisions in Italian)
+https://www.bundespatentgericht.ch/en/case-law/case-law
+(Federal Patent Court, some decisions in English)
+https://www.admin.ch/gov/en/start/bundesrecht.html
+(Updated and Systematic Compilation of Federal Law)
+T2.41.1 –
+Swiss Cantons
+Cases
+Cite cantonal material and give court names in the official language or languages of the Canton.
+Ordinary jurisdiction
+The names of courts vary among the cantons. Common names are:
+Obergericht/Cour d’Appel/Corte d’Appello
+(cantonal court of appeal),
+Bezirksgericht/Tribunal de district/Tribunale di Prima Istanza
+(ordinary court of first instance), and
+Friedensrichter/Justice de Paix/Giudice di Pace
+(court of petty jurisdiction). Cite to the official publication, if any, of the courts of that Canton, if therein; otherwise, cite to periodicals or reporters.
+Aktuelle Juristische Praxis
+1992–date
+AJP
+Basler Juristische Mitteilungen
+1954–date
+BJM
+Blätter für Zürcherische Rechtsprechung
+1902–date
+ZR
+Journal des Tribunaux, III, Droit Cantonal
+1846–date
+JdT III
+Schweizerische Juristenzeitung
+1904–date
+SJZ
+La Semaine judiciaire
+1879–date
+SJ
+Zeitschrift des Bernischen Juristenvereins
+1864–date
+ZBJV
+Zeitschrift für Schweizerisches Recht
+1852–date
+ZSR
+Repertorio di giurisprudenza patria
+1881–date
+Rep
+.
+Zentralblatt für Staats–und Gemeindeverwaltung
+1888–date
+ZBl
+Administrative jurisdiction
+Verwaltungsgericht
+/
+Tribunal administratif
+/
+Tribunale amministrativo
+(administrative court): Cite to one of the sources listed above, if therein.
+Statutes and decrees
+Use the citation format for federal statutes and decrees. Cite to the official compilation of the canton or to its official gazette, according to the organization of the publication being cited. For example:
+Systematische Sammlung des Aargauischen Rechts
+SAR
+Recueil systématique de la législation genevoise
+RSG
+Bernische Systematische Gesetzessammlung
+RSB
+Internet sources
+The websites of the cantons are accessible from the Swiss service portal at
+https://www.ch.ch/en/addresses-administrative-authorities
+. The link labeled “Addresses of administrative authorities” takes you to a search menu from which you can search for a specific canton’s website. The cantonal websites are in the language(s) spoken in the canton. For instance, the website of the Canton of Aargau, at
+http://www.ag.ch
+, is in German. From there, click on “Gesetze” to access the systematic compilation of Aargau legislation in German. The cantonal pages differ slightly, so an understanding of the language is necessary to navigate and link to the appropriate files.

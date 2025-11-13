@@ -1,0 +1,35 @@
+TITLE: 15.3 Title (p.157)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-3-title
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.3
+Title
+(p.157)
+Cite the full main title as it appears on the title page, but capitalize according to
+rule 8
+(unless the title is not in English, in which case follow
+rule 20.2.2(b)
+). Give a subtitle only if it is particularly relevant. Do not abbreviate words or omit articles in the title. Use small capitals:
+Capital Flows in the
+APEC
+Region
+(Mohsin S. Khan & Carmen M. Reinhart eds., 1995).
+When citing a single volume of a multivolume work, give the main title of the volume cited. If the title of a work ends with a numeral, or if distinguishing between the title and page number could otherwise be confusing, the page number should be set off by a comma and the word “
+at
+” (see
+rule 3.2(a)
+):
+J.A.S.
+Grenville, The Major International Treaties
+, 1914–1973, at 114–15 (1974).

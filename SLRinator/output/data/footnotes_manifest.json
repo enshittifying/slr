@@ -1,0 +1,551 @@
+{
+  "article": "Sherkow & Gugliuzza - Patent Law",
+  "footnotes_processed": 50,
+  "total_citations": 24,
+  "timestamp": "2025-08-08T16:55:01.193911",
+  "footnotes": [
+    {
+      "number": 1,
+      "text": "Alice Corp. Pty. Ltd. v. CLS Bank Int'l, 573 U.S. 208, 216 (2014).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Alice Corp. Pty. Ltd.",
+          "party2": "CLS Bank Int'l",
+          "volume": "573",
+          "reporter": "U.S.",
+          "page": "208",
+          "pincite": "216",
+          "parenthetical": "2014",
+          "full": "Alice Corp. Pty. Ltd. v. CLS Bank Int'l, 573 U.S. 208, 216 (2014)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 2,
+      "text": "35 U.S.C. \u00a7 101 (2018).",
+      "citations": [
+        {
+          "type": "statute",
+          "title": "35",
+          "section": "101",
+          "full": "35 U.S.C. \u00a7 101"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 3,
+      "text": "Mayo Collaborative Servs. v. Prometheus Lab'ys, Inc., 566 U.S. 66, 70 (2012).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Mayo Collaborative Servs.",
+          "party2": "Prometheus Lab'ys, Inc.",
+          "volume": "566",
+          "reporter": "U.S.",
+          "page": "66",
+          "pincite": "70",
+          "parenthetical": "2012",
+          "full": "Mayo Collaborative Servs. v. Prometheus Lab'ys, Inc., 566 U.S. 66, 70 (2012)"
+        },
+        {
+          "type": "article",
+          "author": "Mayo Collaborative Servs. v. Prometheus Lab'ys",
+          "title": "Inc.",
+          "volume": "566",
+          "journal": "U.S.",
+          "page": "66",
+          "pincite": "70",
+          "year": "2012",
+          "full": "Mayo Collaborative Servs. v. Prometheus Lab'ys, Inc., 566 U.S. 66, 70 (2012)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 4,
+      "text": "Diamond v. Chakrabarty, 447 U.S. 303, 309 (1980).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Diamond",
+          "party2": "Chakrabarty",
+          "volume": "447",
+          "reporter": "U.S.",
+          "page": "303",
+          "pincite": "309",
+          "parenthetical": "1980",
+          "full": "Diamond v. Chakrabarty, 447 U.S. 303, 309 (1980)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 5,
+      "text": "Bilski v. Kappos, 561 U.S. 593, 601-02 (2010).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Bilski",
+          "party2": "Kappos",
+          "volume": "561",
+          "reporter": "U.S.",
+          "page": "593",
+          "pincite": "601-02",
+          "parenthetical": "2010",
+          "full": "Bilski v. Kappos, 561 U.S. 593, 601-02 (2010)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 6,
+      "text": "Gottschalk v. Benson, 409 U.S. 63, 67 (1972).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Gottschalk",
+          "party2": "Benson",
+          "volume": "409",
+          "reporter": "U.S.",
+          "page": "63",
+          "pincite": "67",
+          "parenthetical": "1972",
+          "full": "Gottschalk v. Benson, 409 U.S. 63, 67 (1972)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 7,
+      "text": "Parker v. Flook, 437 U.S. 584, 589-90 (1978).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Parker",
+          "party2": "Flook",
+          "volume": "437",
+          "reporter": "U.S.",
+          "page": "584",
+          "pincite": "589-90",
+          "parenthetical": "1978",
+          "full": "Parker v. Flook, 437 U.S. 584, 589-90 (1978)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 8,
+      "text": "Diamond v. Diehr, 450 U.S. 175, 187 (1981).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Diamond",
+          "party2": "Diehr",
+          "volume": "450",
+          "reporter": "U.S.",
+          "page": "175",
+          "pincite": "187",
+          "parenthetical": "1981",
+          "full": "Diamond v. Diehr, 450 U.S. 175, 187 (1981)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 9,
+      "text": "State St. Bank & Tr. Co. v. Signature Fin. Grp., Inc., 149 F.3d 1368, 1373 (Fed. Cir. 1998).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 10,
+      "text": "AT&T Corp. v. Excel Commc'ns, Inc., 172 F.3d 1352, 1357 (Fed. Cir. 1999).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 11,
+      "text": "In re Bilski, 545 F.3d 943, 959-60 (Fed. Cir. 2008) (en banc).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 12,
+      "text": "Bilski, 561 U.S. at 612.",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 13,
+      "text": "Mayo, 566 U.S. at 72-73.",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 14,
+      "text": "Alice, 573 U.S. at 217-18.",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 15,
+      "text": "Association for Molecular Pathology v. Myriad Genetics, Inc., 569 U.S. 576, 589-91 (2013).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Association for Molecular Pathology",
+          "party2": "Myriad Genetics, Inc.",
+          "volume": "569",
+          "reporter": "U.S.",
+          "page": "576",
+          "pincite": "589-91",
+          "parenthetical": "2013",
+          "full": "Association for Molecular Pathology v. Myriad Genetics, Inc., 569 U.S. 576, 589-91 (2013)"
+        },
+        {
+          "type": "article",
+          "author": "Association for Molecular Pathology v. Myriad Genetics",
+          "title": "Inc.",
+          "volume": "569",
+          "journal": "U.S.",
+          "page": "576",
+          "pincite": "589-91",
+          "year": "2013",
+          "full": "Association for Molecular Pathology v. Myriad Genetics, Inc., 569 U.S. 576, 589-91 (2013)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 16,
+      "text": "35 U.S.C. \u00a7 103.",
+      "citations": [
+        {
+          "type": "statute",
+          "title": "35",
+          "section": "103",
+          "full": "35 U.S.C. \u00a7 103"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 17,
+      "text": "KSR Int'l Co. v. Teleflex Inc., 550 U.S. 398, 418-19 (2007).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "KSR Int'l Co.",
+          "party2": "Teleflex Inc.",
+          "volume": "550",
+          "reporter": "U.S.",
+          "page": "398",
+          "pincite": "418-19",
+          "parenthetical": "2007",
+          "full": "KSR Int'l Co. v. Teleflex Inc., 550 U.S. 398, 418-19 (2007)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 18,
+      "text": "35 U.S.C. \u00a7 112.",
+      "citations": [
+        {
+          "type": "statute",
+          "title": "35",
+          "section": "112",
+          "full": "35 U.S.C. \u00a7 112"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 19,
+      "text": "Nautilus, Inc. v. Biosig Instruments, Inc., 572 U.S. 898, 901 (2014).",
+      "citations": [
+        {
+          "type": "case",
+          "party1": "Nautilus, Inc.",
+          "party2": "Biosig Instruments, Inc.",
+          "volume": "572",
+          "reporter": "U.S.",
+          "page": "898",
+          "pincite": "901",
+          "parenthetical": "2014",
+          "full": "Nautilus, Inc. v. Biosig Instruments, Inc., 572 U.S. 898, 901 (2014)"
+        },
+        {
+          "type": "article",
+          "author": "Inc. v. Biosig Instruments",
+          "title": "Inc.",
+          "volume": "572",
+          "journal": "U.S.",
+          "page": "898",
+          "pincite": "901",
+          "year": "2014",
+          "full": "Inc. v. Biosig Instruments, Inc., 572 U.S. 898, 901 (2014)"
+        },
+        {
+          "type": "book",
+          "author": "Nautilus",
+          "title": "Inc. v. Biosig Instruments, Inc., 572 U.S. 898, 901",
+          "year": "2014",
+          "full": "Nautilus, Inc. v. Biosig Instruments, Inc., 572 U.S. 898, 901 (2014)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 20,
+      "text": "Mark A. Lemley, Software Patents and the Return of Functional Claiming, 2013 Wis. L. Rev. 905, 908.",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 21,
+      "text": "Dan L. Burk & Mark A. Lemley, The Patent Crisis and How the Courts Can Solve It 156-57 (2009).",
+      "citations": [
+        {
+          "type": "book",
+          "author": "Dan L. Burk & Mark A. Lemley",
+          "title": "The Patent Crisis and How the Courts Can Solve It 156-57",
+          "year": "2009",
+          "full": "Dan L. Burk & Mark A. Lemley, The Patent Crisis and How the Courts Can Solve It 156-57 (2009)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 22,
+      "text": "Peter S. Menell, Forty Years of Wondering in the Wilderness and No Closer to the Promised Land: Bilski's Superficial Textualism and the Missed Opportunity to Return Patent Law to Its Technology Mooring, 63 Stan. L. Rev. 1289, 1295 (2011).",
+      "citations": [
+        {
+          "type": "article",
+          "author": "Peter S. Menell",
+          "title": "Forty Years of Wondering in the Wilderness and No Closer to the Promised Land: Bilski's Superficial Textualism and the Missed Opportunity to Return Patent Law to Its Technology Mooring",
+          "volume": "63",
+          "journal": "Stan. L. Rev.",
+          "page": "1289",
+          "pincite": "1295",
+          "year": "2011",
+          "full": "Peter S. Menell, Forty Years of Wondering in the Wilderness and No Closer to the Promised Land: Bilski's Superficial Textualism and the Missed Opportunity to Return Patent Law to Its Technology Mooring, 63 Stan. L. Rev. 1289, 1295 (2011)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 23,
+      "text": "Jeffrey A. Lefstin, The Three Faces of Prometheus: A Post-Alice Jurisprudence of Abstractions, 16 N.C. J.L. & Tech. 647, 650-51 (2015).",
+      "citations": [
+        {
+          "type": "book",
+          "author": "Jeffrey A. Lefstin",
+          "title": "The Three Faces of Prometheus: A Post-Alice Jurisprudence of Abstractions, 16 N.C. J.L. & Tech. 647, 650-51",
+          "year": "2015",
+          "full": "Jeffrey A. Lefstin, The Three Faces of Prometheus: A Post-Alice Jurisprudence of Abstractions, 16 N.C. J.L. & Tech. 647, 650-51 (2015)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 24,
+      "text": "Ultramercial, Inc. v. Hulu, LLC, 772 F.3d 709, 715 (Fed. Cir. 2014).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 25,
+      "text": "DDR Holdings, LLC v. Hotels.com, L.P., 773 F.3d 1245, 1257 (Fed. Cir. 2014).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 26,
+      "text": "Enfish, LLC v. Microsoft Corp., 822 F.3d 1327, 1335-36 (Fed. Cir. 2016).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 27,
+      "text": "McRO, Inc. v. Bandai Namco Games Am. Inc., 837 F.3d 1299, 1314 (Fed. Cir. 2016).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 28,
+      "text": "Amdocs (Israel) Ltd. v. Openet Telecom, Inc., 841 F.3d 1288, 1300-01 (Fed. Cir. 2016).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 29,
+      "text": "Smart Sys. Innovations, LLC v. Chicago Transit Auth., 873 F.3d 1364, 1372 (Fed. Cir. 2017).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 30,
+      "text": "Two-Way Media Ltd. v. Comcast Cable Commc'ns, LLC, 874 F.3d 1329, 1337 (Fed. Cir. 2017).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 31,
+      "text": "Berkheimer v. HP Inc., 881 F.3d 1360, 1368 (Fed. Cir. 2018).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 32,
+      "text": "Aatrix Software, Inc. v. Green Shades Software, Inc., 882 F.3d 1121, 1128 (Fed. Cir. 2018).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 33,
+      "text": "Vanda Pharm. Inc. v. West-Ward Pharm. Int'l Ltd., 887 F.3d 1117, 1134-36 (Fed. Cir. 2018).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 34,
+      "text": "Interval Licensing LLC v. AOL, Inc., 896 F.3d 1335, 1343-44 (Fed. Cir. 2018).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 35,
+      "text": "SAP Am., Inc. v. InvestPic, LLC, 898 F.3d 1161, 1167 (Fed. Cir. 2018).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 36,
+      "text": "Data Engine Techs. LLC v. Google LLC, 906 F.3d 999, 1007-08 (Fed. Cir. 2018).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 37,
+      "text": "ChargePoint, Inc. v. SemaConnect, Inc., 920 F.3d 759, 766-70 (Fed. Cir. 2019).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 38,
+      "text": "Athena Diagnostics, Inc. v. Mayo Collaborative Servs., LLC, 915 F.3d 743, 750-52 (Fed. Cir. 2019).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 39,
+      "text": "Cleveland Clinic Found. v. True Health Diagnostics LLC, 760 F. App'x 1013, 1017-18 (Fed. Cir. 2019).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 40,
+      "text": "Roche Molecular Sys., Inc. v. CEPHEID, 905 F.3d 1363, 1371-72 (Fed. Cir. 2018).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 41,
+      "text": "Rapid Litig. Mgmt. Ltd. v. CellzDirect, Inc., 827 F.3d 1042, 1048-50 (Fed. Cir. 2016).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 42,
+      "text": "Illumina, Inc. v. Ariosa Diagnostics, Inc., 967 F.3d 1319, 1325-29 (Fed. Cir. 2020).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 43,
+      "text": "CardioNet, LLC v. InfoBionic, Inc., 955 F.3d 1358, 1368 (Fed. Cir. 2020).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 44,
+      "text": "Am. Axle & Mfg., Inc. v. Neapco Holdings LLC, 967 F.3d 1285, 1291-93 (Fed. Cir. 2020).",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 45,
+      "text": "35 U.S.C. \u00a7 102.",
+      "citations": [
+        {
+          "type": "statute",
+          "title": "35",
+          "section": "102",
+          "full": "35 U.S.C. \u00a7 102"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 46,
+      "text": "35 U.S.C. \u00a7 103.",
+      "citations": [
+        {
+          "type": "statute",
+          "title": "35",
+          "section": "103",
+          "full": "35 U.S.C. \u00a7 103"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 47,
+      "text": "Paul R. Gugliuzza, The Federal Circuit as a Federal Court, 54 Wm. & Mary L. Rev. 1791, 1817-20 (2013).",
+      "citations": [
+        {
+          "type": "book",
+          "author": "Paul R. Gugliuzza",
+          "title": "The Federal Circuit as a Federal Court, 54 Wm. & Mary L. Rev. 1791, 1817-20",
+          "year": "2013",
+          "full": "Paul R. Gugliuzza, The Federal Circuit as a Federal Court, 54 Wm. & Mary L. Rev. 1791, 1817-20 (2013)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 48,
+      "text": "John M. Golden, The Supreme Court as 'Prime Percolator': A Prescription for Appellate Review of Questions in Patent Law, 56 UCLA L. Rev. 657, 673-78 (2009).",
+      "citations": [
+        {
+          "type": "article",
+          "author": "John M. Golden",
+          "title": "The Supreme Court as 'Prime Percolator': A Prescription for Appellate Review of Questions in Patent Law",
+          "volume": "56",
+          "journal": "UCLA L. Rev.",
+          "page": "657",
+          "pincite": "673-78",
+          "year": "2009",
+          "full": "John M. Golden, The Supreme Court as 'Prime Percolator': A Prescription for Appellate Review of Questions in Patent Law, 56 UCLA L. Rev. 657, 673-78 (2009)"
+        }
+      ],
+      "source_files": []
+    },
+    {
+      "number": 49,
+      "text": "Timothy B. Lee, Software Patents Are Crumbling, Thanks to the Supreme Court, Vox (Sept. 12, 2014), https://www.vox.com/2014/9/12/6138483/software-patents-are-crumbling-thanks-to-the-supreme-court.",
+      "citations": [],
+      "source_files": []
+    },
+    {
+      "number": 50,
+      "text": "2019 Revised Patent Subject Matter Eligibility Guidance, 84 Fed. Reg. 50 (Jan. 7, 2019).",
+      "citations": [],
+      "source_files": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+TITLE: 21.3 Jurisdiction Not Evident from Context (p.215)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-3-jurisdiction-not-evident-from-context
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.3
+Jurisdiction Not Evident from Context
+(p.215)
+When citing a non-U.S. source, whether in English or another language, indicate parenthetically the jurisdiction issuing the source, abbreviated according to
+tables T3
+and
+T10
+, unless the jurisdiction is otherwise clear from the context or other elements of the citation:
+Council Directive 66/45 art. 15, 1965–1966
+O.J. Spec. Ed.
+265, 268 (Euratom).

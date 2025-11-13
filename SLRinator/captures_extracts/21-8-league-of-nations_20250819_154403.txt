@@ -1,0 +1,26 @@
+TITLE: 21.8 League of Nations (p.235)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-8-league-of-nations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.8
+League of Nations
+(p.235)
+Cite the League of Nations Covenant as:
+League of Nations Covenant art. 16.
+Cite conventions and treaties promulgated by the League of Nations according to
+rule 21.4
+.
+Cite other League of Nations materials by issuing body (if not included in the title); title; document number; and year:
+Reports Presented by the Committee of Technical Experts on Double Taxation and Tax Evasion
+, League of Nations Doc. C.216M.85 1927 II (1927).

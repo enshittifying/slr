@@ -1,0 +1,201 @@
+TITLE: Maryland (Md.) (pp. 291–92)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: maryland-md
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Maryland (Md.)
+(pp. 291–92)
+http://www.courts.state.md.us
+http://mgaleg.maryland.gov/mgawebsite/laws/statutes
+Supreme Court
+(
+Md.
+), before December 14, 2022,
+Court of Appeals
+(
+Md.
+): Cite to
+A., A.2d,
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1885–date
+A., A.2d, A.3d
+Maryland Reports
+1851–date
+Md.
+Gill
+1843–1851
+Gill
+Gill and Johnson
+1829–1842
+G. & J.
+Harris and Gill
+1826–1829
+H. & G.
+Harris and Johnson
+1800–1826
+H. & J.
+Harris and McHenry
+1770–1774
+1780–1799
+H. & McH.
+Appellate Court
+(
+Md. App. Ct.
+), before December 14, 2022,
+Court of Special Appeals
+(
+Md. Ct. Spec. App.
+): Cite to
+A.2d
+or
+A.3d
+, if therein.
+Atlantic Reporter
+1967–date
+A.2d, A.3d
+Maryland Appellate Reports
+1967–date
+Md. App.
+Statutory compilations:
+Cite by subject to either Michie’s
+Md. Code Ann.
+or West’s
+Md. Code Ann.
+, if therein.
+Michie’s Annotated Code of Maryland (LexisNexis)
+Md. Code Ann.
+,
+<subject>
+§ x-x (LexisNexis
+<year>
+)
+West’s Annotated Code of Maryland
+Md. Code Ann.
+,
+<subject>
+§ x-x (West
+<year>
+)
+Agriculture
+Agric.
+Alcoholic Beverages and Cannabis
+Alc. Bevs. & Cannabis
+Business Occupations and Professions
+Bus. Occ. & Prof.
+Business Regulation
+Bus. Reg.
+Commercial Law
+Com. Law
+Constitutions
+Const.
+Corporations and Associations
+Corps. & Ass’ns
+Correctional Services
+Corr. Servs.
+Courts and Judicial Proceedings
+Cts. & Jud. Proc.
+Criminal Law
+Crim. Law
+Criminal Procedure
+Crim. Proc.
+Economic Development
+Econ. Dev.
+Education
+Educ.
+Election Law
+Elec. Law
+Environment
+Env’t
+Estates and Trusts
+Est. & Trusts
+Family Law
+Fam. Law
+Financial Institutions
+Fin. Inst.
+General Provisions
+Gen. Provisions
+Health–General
+Health–Gen.
+Health Occupations
+Health Occ.
+Housing and Community Development
+Hous. & Cmty. Dev.
+Human Services
+Hum. Servs.
+Insurance
+Ins.
+Labor and Employment
+Lab. & Empl.
+Land Use
+Land Use
+Local Government
+Local Gov't
+Natural Resources
+Nat. Res.
+Public Safety
+Pub. Safety
+Public Utility
+Pub. Util.
+Real Property
+Real Prop.
+State Finance and Procurement
+State Fin. & Proc.
+State Government
+State Gov’t
+State Personnel and Pensions
+St
+ate Pers. & Pens.
+Tax–General
+Tax–Gen.
+Tax–Property
+Tax–Prop.
+Transportation
+Transp.
+Session laws:
+Cite to
+Md. Laws
+, if therein.
+Laws of Maryland
+<year>
+Md. Laws
+<page no.>
+Michie’s Annotated Code of Maryland Advance Legislative   Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Md. Code Ann. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Maryland Legislative Service
+<year>
+Md. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Code of Maryland Regulations
+Md. Code Regs.
+<reg. no.>
+(
+<year>
+)
+Administrative register
+Maryland Register
+<vol. no.>
+Md. Reg.
+<page no.>
+(
+<month day, year>
+)

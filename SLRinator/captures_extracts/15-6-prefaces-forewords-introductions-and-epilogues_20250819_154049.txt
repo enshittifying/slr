@@ -1,0 +1,33 @@
+TITLE: 15.6 Prefaces, Forewords, Introductions, and Epilogues (p.160)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-6-prefaces-forewords-introductions-and-epilogues
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.6
+Prefaces, Forewords, Introductions, and Epilogues
+(p.160)
+Cite a preface, foreword, introduction, or epilogue by someone other than the author as follows:
+L. Maria Child,
+Introduction
+to
+Harriet A. Jacobs
+, Incidents in the Life of a Slave Girl
+3, 3–4 (L. Maria Child & Jean F. Yellin eds., Harvard Univ. Press 1987) (1861).
+Henry M. Hart & Herbert Wechsler,
+Preface to the First Edition
+of
+Paul M. Bator et al., Hart and Wechsler’s the Federal Courts and the Federal System
+, at xxvii, xxx (3d ed. 1988).
+Cite to similar material by the author of the work without special designation:
+John Hart Ely, Democracy and Distrust
+, at vii (1980).

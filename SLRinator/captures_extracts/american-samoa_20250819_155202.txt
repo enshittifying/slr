@@ -1,0 +1,49 @@
+TITLE: American Samoa (p.325)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-4-other-united-states-jurisdictions
+  slug: american-samoa
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+American Samoa
+(p.325)
+https://asbar.org/legal-resources/
+High Court of American Samoa
+(
+Am. Sam.
+): Cite to
+A.S.R
+,
+A.S.R.2d
+, or
+A.S.R.3d
+.
+American Samoa Reports
+1900–date
+A.S.R, A.S.R.2d, A.S.R.3d.
+Statutory compilation
+American Samoa Code Annotated
+Am. Sam. Code Ann.
+§ x (
+<year>
+)
+Session laws
+American Samoa Session Laws
+<title>
+, Am. Sam. Pub. L. No. xx-xx § x (
+<year>
+)
+Administrative compilation
+American Samoa Administrative Code
+Am. Sam. Admin. Code
+§ x (
+<year>
+)

@@ -1,0 +1,51 @@
+TITLE: 19.2 Short Citation Forms (pp. 206–07)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 19-services
+  slug: 19-2-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+19.2
+Short Citation Forms
+(pp. 206–07)
+(a) Cases.
+For cases, use short citation forms as provided by
+rule 10.9
+. Include the complete volume designation for the service binder and substitute paragraph or section numbers for page numbers where appropriate. If a case has page numbers as well as paragraph or section numbers, you may cite individual pages instead of the paragraph or section number in the short form to identify specific material. To cite the entire case in short form, give the paragraph or section number of the case or the first page number of the case, without using “
+at
+”:
+1
+In re
+Looney, [1987–1989 Transfer Binder] Bankr. L. Rep. (CCH) ¶ 72,447, at 93,590 (Bankr. W.D. Va. Sep. 9, 1988).
+2
+Id.
+3
+Id
+. at 93,591.
+4
+Defs. of Wildlife, Inc. v. Watt, [1982] 12 Envtl. L. Rep. (Envtl. Law Inst.) 20,210, 20,211 (D.D.C. May 28, 1981).
+5
+In re
+Looney
+, [1987–1989 Transfer Binder] Bankr. L. Rep. (CCH) at 93,591.
+6
+Defs. of Wildlife
+, [1982] 12 Envtl. L. Rep. (Envtl. Law Inst.) at 20,212.
+7
+This was the approach taken in
+Looney
+.
+See
+[1987–1989 Transfer Binder] Bankr. L. Rep. (CCH) ¶ 72,447.
+(b) Other materials.
+Short form citations for other materials found in services, such as statutes, regulations, articles, and commentaries, should follow the relevant citation rules as described elsewhere in
+The Bluebook
+.

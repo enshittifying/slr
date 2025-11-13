@@ -1,0 +1,190 @@
+TITLE: Ohio (Ohio) (pp. 308–09)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: ohio-ohio
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Ohio (Ohio)
+(pp. 308–09)
+https://www.sconet.state.oh.us/
+https://codes.ohio.gov/orc
+Public domain citation format:
+Ohio has adopted a public domain citation format for cases decided after April 30, 2002.  The format is:
+State v. Lynch, 98 Ohio St. 3d 514, 2003-Ohio-2284, 787 N.E.2d 1185.
+State v. Lynch, 98 Ohio St. 3d 514, 2003-Ohio-2284, 787 N.E.2d 1185, at ¶ 3.
+For additional information, consult the
+Supreme Court of Ohio Writing Manual
+(2d ed. 2013).
+Supreme Court
+(
+Ohio
+): Cite to
+N.E.,
+N.E.2d
+, or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1885–date
+N.E., N.E.2d, N.E.3d
+Ohio State Reports
+1852–date
+Ohio St., Ohio St. 2d, Ohio St. 3d
+Ohio Reports
+1821–1851
+Ohio
+Wilcox’s Condensed Reports
+1821–1831
+Wilc. Cond. Rep.
+Wright
+1831–1834
+Wright
+Ohio Unreported Cases
+1809–1899
+Ohio Unrep. Cas.
+Court of Appeals
+(
+Ohio Ct. App.
+): Cite to
+N.E.,
+N.E.2d
+, or
+N.E.3d
+, if therein.
+North Eastern Reporter
+1926–date
+N.E., N.E.2d, N.E.3d
+Ohio Appellate Reports
+1913–date
+Ohio App., Ohio App. 2d, Ohio App. 3d
+Ohio Circuit Court Reports
+1914–1917
+Ohio C.C.
+Ohio Courts of Appeals Reports
+1916–1922
+Ohio Ct. App.
+Other law courts:
+Cite to
+N.E.,
+N.E.2d
+, or
+N.E.3d
+, if therein; otherwise, cite to another reporter in the following order of preference.
+North Eastern Reporter
+1926–date
+N.E., N.E.2d, N.E.3d
+Ohio Miscellaneous Reports
+1962–2012
+Ohio Misc., Ohio Misc. 2d
+Ohio Bar Reports
+1982–1987
+Ohio B.
+Ohio Opinions
+1934–1982
+Ohio Op., Ohio Op. 2d, Ohio Op. 3d
+Ohio Law Abstract
+1922–1964
+Ohio Law Abs.
+Ohio Nisi Prius Reports
+1903–1934
+Ohio N.P., Ohio N.P. (n.s.)
+Ohio Decisions
+1894–1921
+Ohio Dec.
+Ohio Decisions, Reprint
+1840–1893
+Ohio Dec. Reprint
+Ohio Circuit Decisions
+1885–1923
+Ohio Cir. Dec.
+Ohio Circuit Court Decisions
+1901–1923
+Ohio C.C. Dec.
+Ohio Circuit Court Reports
+1885–1901
+Ohio C.C.
+Ohio Law Bulletin
+1876–1921
+Ohio L. Bull.
+Ohio Circuit Court Reports,
+New Series
+1903–1917
+Ohio C.C. (n.s.)
+Ohio Law Reporter
+1903–1934
+Ohio L.R.
+Tappen’s Reports
+1816–1819
+Tapp. Rep.
+Anderson’s Unreported Ohio Appellate Cases
+1990
+Ohio App. Unrep.
+Statutory compilations:
+Cite to one of the following codes.
+Page’s Ohio Revised Code Annotated (LexisNexis)
+Ohio Rev. Code Ann.
+§ x.x (LexisNexis
+<year>
+)
+Baldwin’s Ohio Revised Code Annotated (West)
+Ohio Rev. Code Ann.
+§ x.x (West
+<year>
+)
+Session laws:
+Cite to
+Ohio Laws
+, if therein.
+State of Ohio: Legislative Acts Passed and Joint Resolutions Adopted
+<year>
+Ohio Laws
+<page no.>
+Page’s Ohio Legislative Bulletin (LexisNexis)
+<year>
+Ohio Legis. Bull.
+<page no.>
+(LexisNexis)
+Baldwin’s Ohio Legislative Service Annotated (West)
+<year>
+Ohio Legis. Serv. Ann.
+<page no.>
+(West)
+Administrative compilation
+Baldwin's Ohio Administrative Code (West)
+Ohio Admin. Code
+<rule no.>
+(
+<year>
+)
+Administrative and executive registers:
+Cite to one of the following registers.
+Baldwin's Ohio Monthly Record
+1977–date
+Ohio Monthly Rec.
+<page no.>
+(
+<month year>
+)
+Ohio Government Reports
+1965–1976
+Ohio Gov’t
+<page no.>
+(
+<month day, year>
+)
+Ohio Department Reports
+1914–1964
+Ohio Dep’t
+<page no.>
+(
+<month day, year>
+)

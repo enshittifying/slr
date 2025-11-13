@@ -1,0 +1,68 @@
+TITLE: Guam (Guam) (p.326)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-4-other-united-states-jurisdictions
+  slug: guam-guam
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Guam (Guam)
+(p.326)
+http://www.guamcourts.org
+Guam cases that cannot be located in paper form may be available at the following location:
+http://www.guamsupremecourt.com/supreme-court-opinions/supreme-
+court-opinions.asp
+Supreme Court of Guam
+(
+Guam
+): Cite using the following public domain format:
+Adams v. Duenas, 1998 Guam 15.
+Adams v. Duenas, 1998 Guam 15 ¶ 2.
+District Court of Guam, Trial and Appellate Divisions
+(
+D. Guam
+and
+D. Guam App. Div.
+): Cite to
+F. Supp.
+,
+F. Supp. 2d
+, or
+F. Supp. 3d,
+if therein.
+Federal Supplement
+1951–date
+F. Supp., F. Supp. 2d, F. Supp. 3d
+Guam Reports
+1955–1980
+Guam
+Statutory compilation
+Guam Code Annotated
+<tit. no.>
+Guam Code Ann
+. § x (
+<year>
+)
+Session laws
+Guam Session Laws
+Guam Pub. L.
+<law no.>
+(
+<year>
+)
+Administrative compilation
+Administrative Rules & Regulations of the Government of Guam
+<tit. no.>
+Guam Admin. R.
+&
+Regs.
+§ x (
+<year>
+)

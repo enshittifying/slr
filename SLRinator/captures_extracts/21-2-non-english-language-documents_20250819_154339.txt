@@ -1,0 +1,21 @@
+TITLE: 21.2 Non-English-Language Documents (p.215)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-2-non-english-language-documents
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.2
+Non-English-Language Documents
+(p.215)
+For non-English-language documents, see
+rule 20.2
+.

@@ -1,0 +1,508 @@
+TITLE: T2.3 Austria, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-3-austria-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.3
+Austria, Republic of
+(Civil Law)
+Cases
+Citation format for first citation of decisions of courts of last resort:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<date of decision>
+,
+<docket number>
+,
+<volume number, if desired> <reporter name>
+[
+<reporter abbreviation>
+] No.
+<case number>
+(
+<country abbreviation if not evident from context>
+).
+Oberster Gerichtshof [OGH] [Supreme Court] Jan. 16, 2001, 4 Ob 311/00i, 74
+Entscheidungen des österreichischen Obersten Gerichtshofes in Zivilsachen
+[SZ] No. 5 (Austria).
+Oberster Gerichtshof [OGH] [Supreme Court] Jan. 27, 2014, 16 Ok11/13,
+https://www.ris.bka.gv.at/Doku...
+_0160OK00011_1300000_003.html.
+Citation of lower court case to a special subject collection of decisions:
+Landesgericht für Zivilrechtssachen [LGZ] Wien, Apr. 2, 2002, 42 R 382/01z, 39
+Ehe- und familienrechtliche Entscheidungen
+[
+EF-Slg
+] No. 102.649 (Austria).
+Citation format for court decision in collection of decisions in a periodical:
+<court abbreviation>
+,
+<date of decision>
+,
+<docket number>
+,
+<name of collection of decisions>
+[
+<abbreviation of collection of decisions>
+]
+<case number within collection>
+,
+in
+<volume number> <periodical name> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<year>
+) (
+<country abbreviation if not evident from context>
+).
+OGH, Nov. 26, 2002, 1 Ob 268/02x,
+Evidenzblatt der Rechtsmittelentscheidungen [EvBl]
+2003/53,
+in
+58
+Österreichische Juristen-Zeitung
+260 (2003) (Austria).
+Ordinary jurisdiction
+Oberster Gerichtshof
+(
+OGH
+) (Supreme Court): Cite to
+SZ
+for civil matters and to
+SSt
+for criminal matters, or to a periodical, special subject reporter, or electronic source;
+Oberlandesgericht
+(
+OLG
+) (higher regional court for appeals from a Landesgericht),
+Landesgericht
+(
+LG
+) (regional trial courts and courts of appeals from a Bezirksgericht), and
+Bezirksgericht
+(
+BG
+) (local trial courts): Cite to any available source, naming the court’s location (e.g.,
+OLG Wien
+or
+LG Salzburg
+). In Wien and Graz, the Landesgericht is split into a court for civil matters (
+LGZ
+) (e.g.,
+LGZ Wien
+) and one for criminal cases (
+LGSt
+).
+Entscheidungen des österreichischen Obersten Gerichtshofes in Zivilsachen
+1919
+–
+1938
+1946
+–
+date
+SZ
+Entscheidungen des Obersten Gerichtshofes in Strafsachen
+1921–1938
+1946–date
+SSt
+Special jurisdiction
+Arbeits-und Sozialgericht
+(
+ASG
+) (trial court for labor and social insurance matters): Cite to
+ArbRSlg
+for labor matters, and
+SVSlg
+for social insurance matters, if therein;
+Handelsgericht
+(
+HG
+) (trial court and court of appeals for commercial matters): Cite to
+HS
+, if therein;
+Kartellobergericht
+(
+OGH as KOG
+) (division of Supreme Court for antitrust matters) and
+Kartellgericht
+(
+KartG
+) (trial court for antitrust matters): Cite to the source where the decision is reprinted.
+Sammlung Arbeitsrechtlicher Entscheidungen
+1973
+–
+date
+Arb
+Sozialversicherungsrechtliche Entscheidungen
+1945
+–
+date
+SVSlg
+Handelsrechtliche Entscheidungen
+1939
+–
+date
+HS
+Constitutional jurisdiction
+Verfassungsgerichtshof
+(
+VfGH
+) (Constitutional Court): Cite to
+VfSlg
+, if therein.
+Erkenntnisse und Beschlüsse des Verfassungsgerichtshofes
+1921–1933, 1946–present
+VfSlg
+Verfassungsgerichtshof [VfGH] [Constitutional Court], Oct. 15, 2004,
+Erkenntnisse und Beschlüsse des Verfassungsgerichtshofes [VfSlg
+] No. 17339/2004 (Austria).
+Administrative jurisdiction
+Format for first citation of Administrative Court of Justice decision:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<date of decision>
+,
+<docket number>
+,
+<volume number> <reporter name>
+[
+<reporter abbreviation>
+]
+<case number within collection>
+(
+<country abbreviation if not evident from context>
+).
+Verwaltungsgerichtshof [VwGH] [Administrative Court of Justice] June 29, 2000, 96/01/1071, 55
+Erkenntnisse und Beschlüsse des Verwaltungsgericthshofes Administrativrechtlicher Teil [VwSlg]
+15 444 A (Austria).
+Verwaltungsgerichtshof [VwGH] [Administrative Court of Justice] Jan. 25, 1980, 1753/79, 35
+Erkenntnisse und Beschlüsse des Verwaltungsgerichtshofes Finanzrechtlicher Teil [VwSlg]
+5453 F/1980 (Austria).
+Verwaltungsgerichtshof
+(
+VwGH
+) (Administrative Court of Justice): Cite to
+VwSlg
+, distinguishing between administrative and fiscal decisions by the letters
+A
+or
+F
+after the case number.
+Erkenntnisse und Beschlüsse des Verwaltungsgerichtshofes Administrativrechtlicher Teil
+1946
+–
+date
+VwSlg
+Erkenntnisse und Beschlüsse des Verwaltungsgerichtshofes Finanzrechtlicher Teil
+1946
+–
+date
+VwSlg
+Electronic citations
+Citation format:
+<court name>
+[
+<court abbreviation>
+]
+[
+<court name in translation>
+]
+,
+<date>
+,
+<docket number>
+,
+<URL—link to BKA/RIS>
+(
+<country abbreviation if not evident from context>
+)
+.
+Verfassungsgerichtshof [VfGH] [Constitutional Court], Sept. 28, 2004, B292/04,
+https://www.ris.bka.gv.at/Doku...
+;(Austria).
+Constitution
+Citation format:
+<constitution name>
+[
+<constitution abbreviation>
+] [
+Constitution
+]
+<federal law gazette
+abbreviation>
+No.
+<number>
+/
+<year> <“as amended” or “as last amended by” and citation of amending law, if pertinent>
+,
+<article number, if desired>
+,
+<paragraph, if desired>
+,
+<link to consolidated version in BKA/RIS, if available>
+(
+<country abbreviation if not evident from context>
+).
+Bundes-Verfassungsgesetz [B-VG] [Constitution]
+BGB
+l
+No. 1/1930, as last amended by Bundesverfassungsgesetz [BVG]
+BGB
+l
+I No. 2/2008, art. 147, ¶ 2
+http://www.ris.bka.gv.at/Gelte...
+;(Austria).
+Cite federal statutes of constitutional rank and constitutional provisions in federal statutes and treaties of international law according to the format for these enactments.
+Bundes-verfassungsgesetz
+B-VG
+Menschenrechtskonvention (European Convention on Human Rights)
+MRK
+Staatsgrundgesetz über die allgemeinen Rechte der Staatsbürger (federal bill of rights)
+S
+T
+GG
+Codes
+Citation format:
+<name of code>
+[
+<abbreviation of code>
+] [
+<English translation of name of code>
+]
+<section, if desired>
+<paragraph, if desired>
+,
+<link to consolidated version in BKA/RIS, if available>
+(
+<country abbreviation if not evident from context>
+).
+Allgemeines bürgerliches Gesetzbuch [ABGB] [Civil Code]
+§ 841,
+http://www.ris.bka.gv.at/Gelte...
+;(Austria).
+Allgemeines bürgerliches Gesetzbuch (Civil Code)
+ABGB
+Handelsgesetzbuch (Commercial Code)
+HGB
+Strafgesetzbuch (Penal Code)
+StGB
+Strafprozessordnung (Code of Criminal Procedure)
+StPO
+Zivilprozessordnung (Civil Procedure Statute)
+ZPO
+Statutes and regulations
+Citation format:
+<full or short name>
+[
+<abbreviation, if it exists>
+] [
+<English translation of name>
+]
+<date of promulgation (optional)> <gazette of promulgation>
+[
+<gazette abbreviation>
+] No.
+<number>
+/
+<year>
+,
+<“as amended,” if applicable>
+,
+<section, paragraph, or other subdivision, if desired>
+,
+<link to consolidated version in BKA/RIS, if available>
+(
+<country abbreviation if not evident from context>
+).
+Rechtsanwaltsordnung [RAO] [Act on Attorneys] Reichsgesetzblatt [RGBl]
+No. 96/1868, as amended, § 1 ¶ 2 letter D,
+https://www.ris.bka.gv.at/Gelt...
+;(Austria).
+Staatsdruckereigesetz 1996 [Act on the State Printing Office of 1996] Bundesgesetzblatt [BGBl]
+No. 1/1997, as amended,
+https://www.ris.bka.gv.at/Gelt...
+;(Austria).
+The date of enactment is not required. The date of promulgation also is not required, unless it is pertinent. The law or regulation becomes effective on the day after promulgation in the gazette, unless otherwise specified.
+Cite a Bundesverfassungsgesetz (
+BVG
+) (federal statute of constitutional rank), Bundesgesetz (
+BG
+) (federal statute), or Verordnung (
+V
+) (regulation) to
+Bundesgesetzblatt
+(
+BGBl
+). Cite their predecessors, a Reichsgesetz (
+RG
+) or Gesetz (
+G
+), to
+Reichgesetzblatt
+(
+RGBl
+) or
+deutsches Reichsgesetzblatt
+(
+dRGBl
+), or a Staatsgesetz (
+StG
+) or Gesetz (
+G
+) to
+Staatgesetzblatt
+(
+StGBl
+).
+Since 1997, the
+Bundesgesetzblatt
+is published in three parts: Teil I (statutes), Teil II (regulations), and Teil III (treaties). For 1940–1945, the
+deutsches Reichsgesetzblatt
+consists of two parts: Teil I (statutes and regulations) and Teil II (treaties). Since January 1, 2004, the electronic version of the
+Bundesgesetzblatt
+, which is available at
+http://www.ris.bka.gv.at/Bund
+, is the authoritative version. Using the electronic version of this source does not change the format or the citation.
+Bundesgesetzblatt I
+1997–date
+BGBl I
+Bundesgesetzblatt II
+1997–date
+BGBl II
+Bundesgesetzblatt III
+1997–date
+BGBl III
+Bundesgesetzblatt
+1945–1996
+BGBl
+deutsches Reichsgesetzblatt I
+1940–1945
+dRGBl I
+deutsches Reichsgesetzblatt II
+1940–1945
+dRGBl II
+Gesetzblatt für das Land Österreich
+1938–1940
+GblÖ
+Bundesgesetzblatt
+1920–1938
+BGBl
+Staatsgesetzblatt
+1918–1920
+StGBl
+Reichsgesetzblatt
+1849–1918
+RGBl
+Periodicals
+Evidenzblatt der Rechtsmittelentscheidungen in Österreichische Juristenzeitung
+EvBl
+Juristische Blätter
+JBl
+Österreichische Juristen-Zeitung
+ÖJZ
+Österreichisches Recht der Wirtschaft
+RdW
+Österreichisches Bank-Archiv
+ÖBA
+Österreichische Blätter für gewerblichen Rechtsschutz und Urheberrecht
+ÖBl
+ecolex
+ecolex
+Österreichische Zeitschrift für Wirtschaftsrecht
+ÖZW
+Der Gesellschafter
+GesRZ
+Zeitschrift für Verwaltung
+ZFV
+Legislative materials
+Citation format:
+<legislative body name>
+[
+<legislative body abbreviation>
+] [
+<English translation of name>
+]
+<legislative period>
+[
+<legislative period abbreviation>
+]
+<legislative period number> <materials name>
+[
+<materials abbreviation>
+] No.
+<document number>
+,
+<link to parliamentary material>
+(
+<country abbreviation if not evident from context>
+).
+Nationalrat [NR] [National Council] Gesetzgebungsperiode [GP] 24 Beilage [Blg] No. 1680 446,
+http://www.parlament.gv.at/PAK...
+(Austria).
+Internet sources
+The Austrian Bundeskanzleramt (Federal Chancellery) maintains Rechtsinformationssystem (BKA/RIS), a free electronic legal database available at
+http://www.ris.bka.gv.at
+. BKA/RIS contains the federal statutory gazette back to 1848 and links to earlier collections of laws as provided by the Austrian National Library. BKA/RIS also provides a consolidated version of federal laws as currently in effect, texts of the decisions of the courts, legislation of the Länder (states), some translations of federal laws, and some administrative directives and draft legislation.
+The decisions of the Landesverwaltungsgerichte are available at Bundeskanzleramt Rechtsinformationssystem (BKA/RIS),
+https://www.ris.bka.gv.at/Lvwg
+; the decisions of the Bundesverwaltungsgericht are available at
+https://www.ris.bka.gv.at/Bvwg
+; and the decisions of the Bundesfinanzgericht are available at
+https://findok.bmf.gv.at/findok?execution=e1s1&BFG_Suche=1
+, a website of the Federal Ministry of Finance.
+T2.3.1 –
+Austrian Länder
+Cases
+All courts are federal courts, listed above.
+Constitutions
+Landesverfassung
+LVG
+Citation format:
+Landesverfassung [LVG] [State Constitution]
+,
+<article number, if desired>
+(
+<name of state>
+)
+<link to BKA/RIS, if available>
+(
+<country abbreviation if not evident from context>
+).
+Landesverfassung [LVG] [State Constitution]
+, art. 3 (Kärnten)
+https://www.ris.bka.gvat/Gelte...
+;(Austria).
+Statutes and regulations
+Cite a Landesverfassungsgesetz (
+LVG
+) (state constitutional statute), Landesgesetz (
+LG
+) (state statute), or Verordnung (
+V
+) (administrative regulation) to
+Landesgesetzblatt
+(
+LGBl
+). Cite by number/year.
+Landesgesetzblatt
+LGB
+L

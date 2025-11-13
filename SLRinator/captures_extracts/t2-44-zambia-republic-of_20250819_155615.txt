@@ -1,0 +1,118 @@
+TITLE: T2.47 Zambia, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-44-zambia-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.47
+Zambia, Republic of
+(Common Law)
+Cases
+Citation format:
+<case name>
+(
+<reporter year>
+)
+<volume number, if applicable>
+<reporter abbreviation> <first page>
+,
+<pages of specific material, if desired>
+[
+<court
+abbreviation, if desired>
+] (
+<country abbreviation if not evident from context>
+).
+Attorney General v. Valentine Shula Musakanya (1981) ZLR 1 [SC] (Zam.).
+Susman Bros. & Wulfsohn Ltd. v. The King (1949–1954) 5 NRLR 2 (N. Rhodesia).
+Shingadia Bros. v. Karson Jadavjee Shingadia (1958) R&N 1 (Rhodesia & Nyasaland).
+Supreme Court of Zambia
+(
+SC
+) (highest court of the country with appellate jurisdiction in both civil and criminal matters) and
+High Court of Zambia
+(
+HC
+) (superior court of record with general original civil and criminal jurisdiction): Cite to
+ZLR
+, if therein;
+Magistrate’s Courts
+(limited original civil and criminal jurisdiction, divided into four classes),
+Industrial Relations Court
+(original and exclusive jurisdiction to hear and determine any industrial relations matters and any proceedings under the Industrial and Labor Relations Act), and
+Land Tribunal
+(deals with land disputes and other matters affecting land rights and obligations).
+Zambia Law Reports
+1964–date
+ZLR
+Northern Rhodesia Law Reports
+1911–1958
+NRLR
+Rhodesia and Nyasaland Law Reports
+1954–1963
+R&N
+Zambia and Northern Rhodesia Law Reports
+1963–1964
+ZNRLR
+Constitutions
+Citation format:
+<abbreviated constitution name>
+(
+<year of the version cited>
+)
+<article(s), if desired>
+.
+Const. of Zambia
+(1996) art. 22.
+For more information on how to cite to the Constitution as part of the consolidated laws, see the Statutes section below.
+Cite to the Constitution of the Federation of Rhodesia and Nyasaland of 1953 as follows:
+Fed. R. & N. Const.
+(S.I. No. 1199 of 1953)
+Stat. L. Fed. R. & N.
+(1954) (Rhodesia & Nyasaland).
+Statutes
+Citation format:
+<statute name>
+,
+Cap.
+<number>
+(
+<year of revision>
+)
+<section(s), if applicable>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<statute name>
+No.
+<number>
+(
+<year>
+) Government Gazette (
+<“Acts,” “Bills,” “SI,” or “GON”>
+)
+<section(s), if desired>
+(
+<country abbreviation if not evident from context>
+).
+Electoral Act, Cap. 13 (1996) § 45 (Zam.).
+Electoral Act No. 2 (1991)
+Government Gazette
+(Acts) § 45 (Zam.).
+Internet sources
+http://www.parliament.gov.zm
+(official site of the Zambian Parliament; provides access to the 1996 revised edition of Laws of Zambia, bills, recently enacted Acts, and other parliamentary materials, including order papers and debates)
+http://www.saflii.org/content/zambia-index
+(Southern African Legal Information Institute (SAFLII); provides access to Zambian court decisions, consolidated laws of Zambia, and other materials including bills, Acts, and statutory instruments)
+https://www.loc.gov/item/guide-to-law-online/zambia/
+(Library of Congress Guide to Law Online: Republic of Zambia)

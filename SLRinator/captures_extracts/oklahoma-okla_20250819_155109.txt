@@ -1,0 +1,134 @@
+TITLE: Oklahoma (Okla.) (pp. 309–10)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: oklahoma-okla
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Oklahoma (Okla.)
+(pp. 309–10)
+https://www.oscn.net/
+http://www.oklegislature.gov/osstatuestitle.html
+Public domain citation format:
+Oklahoma has adopted a public domain citation format for cases after May 1, 1997. The format is:
+Herbert v. Okla. Christian Coal., 1999 OK 90, 992 P.2d 322.
+Herbert v. Okla. Christian Coal., 1999 OK 90, ¶ 2, 992 P.2d 322, 325.
+For additional information, consult Oklahoma Supreme Court Rule 1.200(e) and Oklahoma Criminal Appeals Rule 3.5(c).
+Supreme Court
+(
+Okla.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1890–date
+P., P.2d, P.3d
+Oklahoma Reports
+1890–1953
+Okla.
+Court of Appeals of Indian Territory
+(
+Indian Terr.
+): Cite to
+S.W.
+, if therein.
+South Western Reporter
+1896–1907
+S.W.
+Indian Territory Reports
+1896–1907
+Indian Terr.
+Court of Criminal Appeals
+(
+Okla. Crim. App.
+), previously
+Criminal Court of Appeals
+(
+Okla. Crim. App.
+): Cite to
+P.
+,
+P.2d
+, or
+P.3d
+, if therein.
+Pacific Reporter
+1908–date
+P., P.2d, P.3d
+Oklahoma Criminal Reports
+1908–1953
+Okla. Crim.
+Court of Civil Appeals
+(
+Okla. Civ. App.
+): Cite to
+P.2d
+or
+P.3d
+.
+Pacific Reporter
+1971–date
+P.2d, P.3d
+Statutory compilations:
+Cite to
+Okla. Stat.
+, if therein.
+Oklahoma Statutes (West)
+Okla. Stat.
+tit. x, § x (
+<year>
+)
+Oklahoma Statutes Annotated (West)
+Okla. Stat. Ann
+. tit. x, § x (West
+<year>
+)
+Session laws:
+Cite to
+Okla. Sess. Laws
+, if therein.
+Oklahoma Session Laws (West)
+<year>
+Okla. Sess. Laws
+<page no.>
+Oklahoma Session Law Service (West)
+<year>
+Okla. Sess. Law Serv.
+<page no.>
+(West)
+Administrative compilation
+Oklahoma Administrative Code
+Okla. Admin. Code
+§ x:x-x-x (
+<year>
+)
+Administrative registers:
+Cite to one of the following sources.
+Oklahoma Register
+1983–date
+<vol. no.>
+Okla. Reg.
+<page no.>
+(
+<month day, year>
+)
+Oklahoma Gazette
+1962–1983
+<vol. no.>
+Okla. Gaz.
+<page no.>
+(
+<month day, year>
+)

@@ -1,0 +1,243 @@
+TITLE: T13 Institutional Names in Periodical Titles (pp. 346–48)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  slug: t13-periodicals
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T13
+Institutional Names in Periodical Titles
+(pp. 346–48)
+Always use the title of the periodical that appears on the title page of the issue you are citing, even if the title of the periodical has changed over time.
+Note that preferred abbreviation conventions for individual journals may differ from those listed in this table. The abbreviation conventions listed here are primarily intended to serve a national audience and to clearly indicate the cited source.
+To abbreviate English language periodical titles, use
+tables T13
+,
+T6
+, and
+T10
+. Common institutional names (e.g., law schools, professional organizations, and geographic units commonly found in institutional names) are listed in
+table T13
+. If an institutional name is not listed in
+table T13
+, individual words should be abbreviated using
+tables T6
+and
+T10
+. If a word in an institutional name is not listed in these tables, use the full word in the abbreviated periodical title.
+Abbreviate “University” as “
+U.
+” (“
+U. Chi. L. Rev.
+”) Omit the words “a,” “at,” “in,” “of,” and “the” (but retain the word “on”). Also, if the title consists of only one word after the words “a,” “at,” “in,” “of,” and “the” have been omitted, do not abbreviate the remaining word.
+Rule 6.1(a)
+explains the spacing of abbreviations:
+Maggie Blackhawk,
+The
+Supreme Court, 2022 Term — Foreword: The Constitution of American Colonialism
+, 137
+Harv. L. Rev.
+1 (2023).
+If a periodical title itself contains an abbreviation, use that abbreviation in the abbreviated title:
+IMF
+Surv
+.
+Not:
+Int‘l Monetary Fund Surv.
+Omit commas from periodical title abbreviations but retain other punctuation:
+Peter H. Huang & Ho-Mou Wu,
+More Order Without More Law: A Theory of Social Norms and Organizational Cultures
+, 10
+J.L. Econ. & Org.
+390 (1994).
+Nineteen States Adopt Code of Judicial Conduct
+,
+Oyez! Oyez!
+, Feb. 1974, at 11.
+Amy Hackney Blackwell & Christopher William Blackwell,
+Hijacking Shared Heritage: Cultural Artifacts and Intellectual Property Rights
+, 13
+Chi.-Kent J. Intell. Prop.
+137 (2013).
+For periodical titles containing colons, omit words following the colon from the abbreviation:
+Darren J. Mills,
+Personal Goodwill, a Corporate Asset, or No Asset at All?
+, 91
+Taxes
+47 (2013).
+Not:
+Darren J. Mills,
+Personal Goodwill, a Corporate Asset, or No Asset at All?
+, 91
+Taxes: The Tax Magazine
+47 (2013).
+If a periodical has been renumbered in a new series, indicate that fact:
+Jill Martin,
+The Statutory Sub-Tenancy: A Right Against the World?
+, 41
+Conv. & Prop. Law.
+(n.s.) 96 (1977).
+For periodical abbreviations in languages other than English, see
+rules 20.2.3
+and
+20.6
+.
+For online supplements to the print publication, use the citation for the print publication, followed by the online supplement name:
+U. Chi. L. Rev. Online
+Harv. L. Rev. F.
+Type Word or Abbreviation to Filter
+Air Force
+A.F.
+Albany
+Alb.
+American Intellectual Property Law Association
+AIPLA
+[Journal of the] American Medical Association
+[J]AMA
+American Society of Composers, Authors & Publishers
+ASCAP
+Boston College
+B.C.
+Boston University
+B.U.
+Brigham Young University
+BYU
+Brooklyn
+Brook.
+Buffalo
+Buff.
+California (
+California Law Review
+only)
+Calif.
+Capital
+Cap.
+Chapman
+Chap.
+Chartered Life Underwriters
+C.L.U.
+Cincinnati
+Cin.
+City University of New York
+CUNY
+Cleveland
+Clev.
+Columbia
+Colum.
+Cornell
+Corn.
+Cumberland
+Cumb.
+Detroit
+Det.
+Dickinson
+Dick.
+Duquesne
+Duq.
+East[ern]
+E.
+Florida International University
+FIU
+George Mason
+Geo. Mason
+George Washington
+Geo. Wash.
+Georgetown
+Geo.
+Gonzaga
+Gonz.
+Harvard
+Harv.
+Howard
+How.
+John Marshall
+J. Marshall
+Judge Advocate General['s]
+JAG
+Lawyers Reports Annotated
+L.R.A.
+Loyola
+Loy.
+Marquette
+Marq.
+Memphis
+Mem.
+New England
+New Eng.
+New England Journal of Medicine
+NEJM
+New York University [School of Law]
+N.Y.U.
+North[ern]
+N.
+Northeast[ern]
+Ne.
+Northwest[ern]
+Nw.
+Penn State [Dickinson]
+Penn. St. [Dick.]
+Pepperdine
+Pepp.
+Pittsburgh
+Pitt.
+Proceedings of the National Academy of Sciences of the United States of America
+PNAS
+Richmond
+Rich.
+Rocky Mountain Mineral Law Institute
+Rocky Mtn. Min. L. Inst.
+Saint Louis
+St. Louis
+South[ern]
+S.
+Southeast[ern]
+Se.
+Southern Methodist University
+SMU
+Southwest[ern]
+Sw.
+Stanford
+Stan.
+State
+St.
+Temple
+Temp.
+Thomas Jefferson
+T. Jefferson
+Thurgood Marshall
+T. Marshall
+Toledo
+Tol.
+Tulane
+Tul.
+Universidad de Puerto Rico
+U.P.R.
+University of California
+U.C.
+University of California, Los Angeles
+UCLA
+University of Missouri-Kansas City
+UMKC
+University of the District of Columbia David A. Clarke School of Law
+UDC/DCSL
+University of West Los Angeles
+UWLA
+Vanderbilt
+Vand.
+Villanova
+Vill.
+Washington & Lee
+Wash. & Lee
+West[ern]
+W.
+William & Mary
+Wm. & Mary
+William Mitchell
+Wm. Mitchell

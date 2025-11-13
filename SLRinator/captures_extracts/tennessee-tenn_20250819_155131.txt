@@ -1,0 +1,173 @@
+TITLE: Tennessee (Tenn.) (pp. 315–16)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: tennessee-tenn
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Tennessee (Tenn.)
+(pp. 315–16)
+http://www.tncourts.gov
+http://www.lexisnexis.com/hottopics/tncode
+Supreme Court
+(
+Tenn.
+): Cite to
+S.W.
+,
+S.W.2d
+, or
+S.W.3d
+, if therein.
+South Western Reporter
+1886–date
+S.W., S.W.2d, S.W.3d
+Tennessee Reports
+60 Tenn.
+to
+225 Tenn.
+1872–1972
+Tenn.
+Heiskell
+1870–1874
+e.g.,
+48 Tenn. (1 Heisk.)
+Coldwell
+1860–1870
+e.g.,
+41 Tenn. (1 Cold.)
+Head
+1858–1860
+e.g.,
+38 Tenn. (1 Head)
+Sneed
+1853–1858
+e.g.,
+33 Tenn. (1 Sneed)
+Swan
+1851–1853
+e.g.,
+31 Tenn. (1 Swan)
+Humphreys
+1839–1851
+e.g.,
+20 Tenn. (1 Hum.)
+Meigs
+1838–1839
+19 Tenn. (Meigs)
+Yerger
+1818–1837
+e.g.,
+9 Tenn. (1 Yer.)
+Martin & Yerger
+1825–1828
+8 Tenn. (Mart. & Yer.)
+Peck
+1821–1824
+7 Tenn. (Peck)
+Haywood
+1816–1818
+e.g.,
+4 Tenn. (1 Hayw.)
+Cooke
+1811–1814
+3 Tenn. (Cooke)
+Overton
+1791–1815
+e.g.,
+1 Tenn. (1 Overt.)
+Court of Appeals
+(
+Tenn. Ct. App.
+): Cite to
+S.W.2d
+or
+S.W.3d
+, if therein.
+South Western Reporter
+1932–date
+S.W.2d, S.W.3d
+Tennessee Appeals Reports
+1925–1971
+Tenn. App.
+Court of Criminal Appeals
+(
+Tenn. Crim. App.
+): Cite to
+S.W.2d
+or
+S.W.3d
+, if therein.
+South Western Reporter
+1967–date
+S.W.2d, S.W.3d
+Tennessee Criminal Appeals Reports
+1967–1971
+Tenn. Crim. App.
+Statutory compilations:
+Cite to
+Tenn. Code Ann
+.
+(published by LexisNexis), if therein.
+Tennessee Code Annotated (LexisNexis)
+Tenn. Code Ann
+. § x-x-x (
+<year>
+)
+West's Tennessee Code Annotated
+Tenn. Code Ann.
+§ x-x-x (West
+<year>
+)
+Session laws:
+Cite to
+Tenn. Pub. Acts
+or
+Tenn. Priv. Acts
+, if therein.
+Public Acts of the State of Tennessee
+<year>
+Tenn. Pub. Acts
+<page no.>
+Private Acts of the State of Tennessee
+<year>
+Tenn. Priv. Acts
+<page no.>
+Tennessee Code Annotated Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Tenn. Code Ann. Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Tennessee Legislative Service
+<year>
+Tenn. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Official Compilation Rules & Regulations of the State of Tennessee
+Tenn. Comp. R
+.
+& Regs
+.
+<rule no.>
+(
+<year>
+)
+Administrative register
+Tennessee Administrative Register
+<vol. no.>
+Tenn. Admin. Reg.
+<page no.>
+(
+<month year>
+)

@@ -1,0 +1,40 @@
+TITLE: Occupational Safety and Health Review Commission (OSHRC) (p.270)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: occupational-safety-and-health-review-commission-oshrc
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Occupational Safety and Health Review Commission (OSHRC)
+(p.270)
+Decisions
+:
+Cite commission decisions reported in a service as:
+<party name>, <service volume number> <publisher> <service, abbreviated as below> <page/paragraph number>
+(No.
+<docket number>, <year>
+).
+Burkes Mech., Inc., 21 BL OSHC 2136 (No. 04-0475, 2007).
+or:
+Burkes Mech., Inc., 2007 CCH OSHD ¶ 32,922 (No. 04-0475, 2007).
+Where an administrative law judge, rather than the commission itself, issued the decision, indicate this parenthetically at the end of the citation.
+Pike Elec., Inc., 21 BL OSHC 2153 (No. 06-0166, 2007) (ALJ).
+OSHRC uses abbreviations for services reporting its decisions that vary from
+table T15
+:
+Occupational Safety & Health Cases (BL)
+OSHC
+Occupational Safety & Health Decisions
+OSHD
+Where a decision is not cited in any service or database, it may be cited as a slip opinion using
+rule 14.3.2(b)
+.
+Z & P Builders, No. 08-0930 (OSHRC Dec. 19, 2008).

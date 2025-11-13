@@ -1,0 +1,48 @@
+TITLE: 13.3 Hearings (pp. 142–43)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 13-legislative-materials
+  slug: 13-3-hearings
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+13.3
+Hearings
+(pp. 142–43)
+(a) Federal committee hearings.
+When citing federal committee hearings, always include the entire subject matter title as it appears on the cover, the bill number (if any), the subcommittee name (if any), the committee name, the number of the Congress, the page number of the particular material being cited (if any), and the year of publication. Subcommittee and committee names may be abbreviated according to
+tables T6
+,
+T9
+, and
+T10
+. Cite as follows:
+Protection from Personal Intrusion
+Act and Privacy Protection Act of 1998: Hearing on H.R. 2448 and H.R. 3224 Before the H. Comm. on the Judiciary
+, 105th Cong. 56–57 (1998) (statement of Richard Masur, President, Screen Actors Guild).
+Copyright Protection for Semiconductor
+Chips: Hearing
+on H.R. 1028 Before the Subcomm. on Cts., C.L. & the Admin. of Just. of the H. Comm. on the Judiciary
+, 98th Cong. 14 (1983) (statement of Jon A. Baumgarten, Copyright Counsel, Ass’n of Am. Publishers).
+Titles of the individuals providing statements may be abbreviated according to
+tables T6
+,
+T9
+, and
+T11
+:
+Tribal Energy Self-Sufficiency Act and the Native American Energy Development and Self-Determination Act: Hearing on S. 424 and S. 522 Before the S. Comm. on Indian Affs.
+, 108th Cong. 1 (2003) (statement of Sen. Ben Nighthorse Campbell, Chairman, S. Comm. on Indian Affs.).
+Transforming the Federal Government to Protect America from Terrorism: Hearing Before the H. Select Comm. on Homeland Sec.
+, 107th Cong. 23–25 (2002) (statement of John Ashcroft, Att’y Gen. of the U.S.).
+(b) State committee hearings.
+When citing state committee hearings, follow the same form, but also include the number of the legislative session:
+Tax Credit for Cost of Providing Commuter Benefits to Employees: Hearing on H.D. 636 Before the H. Comm. on Ways & Means
+, 1999 Leg., 413th Sess. 5–8 (Md. 1999) (statement of Del. Paul Carlson, Member, H. Comm. on Ways & Means).

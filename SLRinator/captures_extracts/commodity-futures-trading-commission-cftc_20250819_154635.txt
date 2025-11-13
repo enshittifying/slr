@@ -1,0 +1,37 @@
+TITLE: Commodity Futures Trading Commission (CFTC) (p.261)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: commodity-futures-trading-commission-cftc
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Commodity Futures Trading Commission (CFTC)
+(p.261)
+Decisions:
+Cite as:
+<case name>
+, CFTC No.
+<docket number>, <citation to a secondary source if available>
+(
+<date>
+).
+Conway Family Tr. v. Dorman Trading, LLC, CFTC No. 12-R002, 2014 WL 2001047 (May 9, 2014).
+In re
+J.P. Morgan Sec. LLC, CFTC No. 14-19, 2014 WL 3817865 (July 29, 2014).
+Interpretive Letters, No-Action Letters, and Exemptive Letters:
+Cite a service (
+rule 19
+) or an electronic database (
+rule 18.4
+), if therein. Include the full name of the correspondent, if available, the CFTC docket number, and the full date on which the letter became publically available.
+Kenneth M. Rosenzweig, CFTC No-Action Letter, CFTCLTR No. 13-54, 2013 WL 5488947 (Sep. 27, 2013).
+CFTC No-Action Letter, CFTCLTR No. 94-70, Comm. Fut. L. Rep. (CCH)
+¶ 26,159 (May 23, 1994).

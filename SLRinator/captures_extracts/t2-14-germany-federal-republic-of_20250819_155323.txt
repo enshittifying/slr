@@ -1,0 +1,473 @@
+TITLE: T2.14 Germany, Federal Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-14-germany-federal-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.14
+Germany, Federal Republic of
+(Civil Law)
+Cases
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+]
+<date of decision>
+,
+<volume number, if applicable> <reporter or periodical name>
+[
+<reporter or periodical
+abbreviation
+>
+]
+<first page>
+,
+<page(s) of specific material, if desired>
+, (
+<for periodicals, year of publication of volume>
+)
+(
+<country abbreviation if not evident from context>
+).
+Bundesgerichtshof [BGH] [Federal Court of Justice] Apr. 7, 2003, 154 Entscheidungen des Bundesgerichtshofes in Zivilsachen [BGHZ] 370, 371 (Ger.).
+Bundesgerichtshof [BGH] [Federal Court of Justice] Apr. 16, 2008, Neue Juristische Wochenschrift [NJW] 2455 (2008) (Ger.).
+Format for subsequent citations:
+<volume number, if applicable> <reporter or periodical abbreviation> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+154 BGHZ 370, 371 (Ger.).
+NJW 2455 (2008) (Ger.).
+Citation format for unpublished decisions:
+<court or court abbreviation> <date>
+,
+<docket number>
+,
+<database name>
+(
+<country abbreviation if not evident from
+context>
+)
+<URL, if necessary>
+.
+BGH, Feb. 14, 2014, XII ZB 607/12, juris (Ger.) http://juris .bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&Art=en&Datum=2014&nr=66934&pos=22&anz=316.
+Ordinary jurisdiction
+Bundesgerichtshof
+(
+BGH
+) (Federal Court of Justice (previously
+Reichsgericht
+(
+RG
+)): court of last resort for civil and criminal matters): Cite civil matters to
+BGHZ
+or
+RGZ
+, and criminal matters to
+BGHSt
+or
+RGSt
+(preferably), or to a periodical or electronic source.
+Entscheidungen des Bundesgerichtshofes in Zivilsachen
+1950–date
+BGHZ
+Entscheidungen des Reichsgerichts in Zivilsachen
+1879–1945
+RGZ
+Entscheidungen des Bundesgerichtshofes in Strafsachen
+1950–date
+BGH
+St
+Entscheidungen des Reichsgerichts in Strafsachen
+1880–1944
+RG
+St
+Oberlandesgericht
+(
+OLG
+) (in most states, Higher Regional Court): Cite civil matters to
+OLGZ
+, and criminal matters to
+OLGSt
+, or to a periodical or electronic source;
+Bayerisches Oberstes Landesgericht
+(
+BayObLG
+) (Bavarian Higher Regional Court): Cite civil matters to
+BayObLGZ
+and criminal matters to
+BayObLGSt
+, or to a periodical or electronic source;
+Landgericht
+(
+LG
+) (regional courts): Cite to periodicals; Amtsgericht (AG) (District Court): Cite to periodicals.
+Rechtsprechung der Oberlandesgerichte in Zivilsachen
+1965–1994
+OLGZ
+Rechtsprechung der Oberlandesgerichte in Strafsachen
+1983–date
+OLGSt
+Entscheidungen des Bayerischen Obersten Landesgerichts in Zivilsachen
+1948–2004
+BayObLGZ
+Entscheidungen des Bayerischen Obersten Landesgerichts in Strafsachen
+1949–2004
+BayObLGSt
+Constitutional jurisdiction
+Bundesverfassungsgericht
+(
+BVerfG
+) (Federal Constitutional Court): Cite to
+BVerfGE
+, if therein; if unpublished, cite by date and docket number and link to online source, if available.
+Entscheidungen des Bundesverfassungsgerichts
+1951–date
+BVerfGE
+BVerfG, 2 BvR 2728/13, Jan. 14, 2014,
+https://www.bundesverfassungsg...
+.
+Administrative jurisdiction
+Bundesverwaltungsgericht
+(
+BVerwG
+) (Federal Administrative Court): Cite to
+BVerwGE
+, if therein;
+Oberverwaltungsgericht
+(
+OVG
+) or
+Verwaltungsgerichtshof
+(
+VGH
+) (Higher Administrative Courts): Cite to the
+Entscheidungen
+(case reporter) of the court;
+Verwaltungsgericht
+(
+VG
+) (Administrative Trial Courts): Cite to periodicals. If unpublished, cite by date and docket number and link to online source, if available:
+BVerwG, Oct. 24, 2013, 7 C 36.11,
+http://www.bverwg.de/entscheid...
+.
+Entscheidungen des Bundesverwaltungsgerichts
+1954–date
+BVerwGE
+Special jurisdiction
+Bundesfinanzhof
+(BFH) (Federal Finance Court): Cite to Bundessteuerblatt Part II (BStBl II), if therein, as with the publication in BStBl II the Federal Ministry of Finance makes the decision binding for the German Revenue Service; otherwise cite to BFHE;
+Finanzgericht
+(FG) (Fiscal Court): Cite to EFG, if therein;
+Bundesarbeitsgericht
+(BAG) (Federal Labor Court): Cite to BAGE, if therein;
+Landesarbeitsgerichte
+(LAG) (Higher Labor Courts): Cite to periodicals;
+Bundessozialgericht
+(BSG) (Federal Social Court): Cite to BSGE, if therein;
+Landessozialgericht
+(LSG) (Higher Social Courts): Cite to periodicals; Sozialgericht (SG) (Social Court): Cite to periodiocals;
+Bundespatentgericht
+(BPatG) (Federal Patent Court): Cite to BPatGE, if therein.
+Sammlung der Entscheidungen und Gutachten des Bundesfinanzhofs
+1952–date
+BFHE
+Entscheidungen der Finanzgerichte
+1953–date
+EFG
+Entscheidungen des Bundesarbeitsgerichts
+1954–date
+BAGE
+Entscheidungen des Bundessozialgerichts
+1955–date
+BSGE
+Entscheidungen des Bundespatentgerichts
+1962–date
+BPatGE
+Constitution
+Grundgesetz für die Bundesrepublik Deutschland (Basic Law)
+Grundgesetz
+GG
+The
+Basic Law
+is subdivided into articles.
+When citing the
+Basic Law
+for the first time within a work, provide the link to the up-to-date vernacular text or to a recent translation as provided by Gesetze im Internet,
+http://www.gesetze-im-internet...
+.
+Grundgesetz [GG] [Basic Law], translation at http://www.gesetze -im-internet.de/englisch_gg/index.html.
+Cite amending laws to the
+Basic Law
+like statutes:
+Gesetz zur Änderung des Grundgesetzes [Law Amending Basic Law], Nov. 15, 2019, BGBl I at 1546 (Ger.).
+Codes
+Citation format:
+<code name>
+[
+<code abbreviation>
+] [
+<English translation of code name>
+],
+<“as amended,” or amending law with citation, if applicable>
+,
+<relevant subdivisions, if desired> <online version in German or English, if available>
+(
+<country abbreviation if not evident from context>
+).
+It is possible to cite to a sentence or clause within the section, paragraph, or sentence number. Cite the section before paragraphs or sentence numbers.
+Bürgerliches Gesetzbuch [BGB] [Civil Code], § 793, para. 2, sentence 2,
+http://www.gesetze-im-internet...
+(Ger.).
+Handelsgesetzbuch [HGB] [Commercial Code], § 8,
+http://www.gesetze-im-internet...
+(Ger.).
+Bürgerliches Gesetzbuch (Civil Code)
+BGB
+Handelsgesetzbuch (Commercial Code)
+HGB
+Sozialgesetzbuch (Social Code)
+SGB
+Strafgesetzbuch (Penal Code)
+StGB
+Strafprozessordnung (Code of Criminal Procedure)
+StPO
+Zivilprozessordnung (Code of Civil Procedure)
+ZPO
+The Sozialgesetzbuch (SGB) (Social Code) is subdivided into twelve books that are described by a Roman numeral (number thirteen was omitted, the last book is number fourteen). For instance,
+Sozialgesetzbuch V Gesetzliche Krankenversicherung
+deals with social health insurance.
+Statutes and decrees
+Citation format:
+<statute or decree full name or, if available and part of the statutory title, short title>
+[
+<abbreviated statute or decree name, if available>
+] [
+<English translation of short title>
+],
+<date of enactment>
+,
+<name of gazette of promulgation>
+[
+<abbreviation of gazette of promulgation>
+] at
+<volume, page, and/or sentence number of gazette, if desired>
+,
+<“as amended,” or amending law with citation, if applicable>
+,
+<relevant subdivisions, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Finanzmarktstabilisierungsfonds-Verordnung [FMStFV] [Financial Markets Stabilization Regulation], Oct. 20, 2008,
+Elektronischer Bundesanzeiger [eBAnz]
+at 123 2008 VI (Ger.).
+Subsequent citation may be made to the abbreviation of the gazette, rather than the full name of the publication.
+Waffengesetz [WaffG] [Weapons Act], Oct. 11, 2002,
+BGBl.
+I at 3970, § 1 (Ger.).
+Bundes-Bodenschutz-und Altlastenverordnung [BBodSchV] [Federal Soil Protection and Contaminated Sites Ordinance], July 12, 1999,
+BGBl
+I at 1554, § 2, no. 6 (Ger.).
+Einfuhrliste [List of Import Restrictions], Dec. 15, 2003,
+BAnz
+at 26, 137 (Beilage no. 243a) (Ger.).
+Statutes are often amended by subsequent legislation. In these cases, citing the original enactment does not indicate what amendments have since occurred. Add “as amended,” or cite a particular amending law. Add a translation of the statute name if helpful and cite an English translation of the statute if available, or provide a link to the consolidated online version, if available.
+Aktiengesetz [AktG] [Stock Corporation Act], Sept. 6, 1965, BGBl I at 1089, last amended by Gesetz [G], July 17, 2017, BGBl I at 2446, art. 9 (Ger.),
+https://www.gesetze-im-interne...
+.
+If statutes are revised to provide a completely updated text after their initial enactment, cite the first enactment, followed by the date and citation of the revised version (Neufassung).
+Bundesnotarordnung [Federal Act on Notaries Public], Feb. 13, 1937, RGBl II at 191, revised Feb. 24, 1961, BGBl I at 97 (Ger.).
+Cite a
+Gesetz
+(G) (federal statute) or
+Verordnung
+(V) (federal regulation) to the federal law gazette where it was promulgated, either the BGBl or the RGBl, or, in the case of some regulations, BAnz or eBAnz. When the BGBl or RGBl is divided into Teil I (part I) and Teil II (part II), domestic legislation can be found in the first volume.
+Bundesgesetzblatt
+, Teil I
+1951–date
+BGBl
+I
+Bundesgesetzblatt
+, Teil II
+1951–date
+BGBl
+II
+Reichsgesetzblatt
+1871–1921
+RGBl
+Reichsgesetzblatt
+, Teil I
+1922–1945
+RGBl
+I
+Reichsgesetzblatt
+, Teil II
+1922–1945
+RGBl
+II
+Bundesanzeiger
+1949–date
+e.g.,
+BAnz
+at
+<page number>
+(Beilage no.
+<number>
+)
+Elektronischer Bundesanzeiger
+2004–date
+e.g.,
+eBAnz
+at
+<document number>
+Bundessteuerblatt Teil I
+1951–date
+BStBl I
+Bundessteuerblatt Teil II
+1951–date
+BStBl II
+Legislative materials
+There are two federal legislative bodies: the
+Deutscher Bundestag
+(
+BT
+) (Federal Parliament) and the
+Deutscher Bundesrat
+(
+BR
+) (Federal Council). Cite published
+Drucksachen
+(literally "publications," i.e., legislative materials) by legislative period and number for
+BT
+and by number and last two digits of year for
+BR
+(optionally add link to online version).
+Regierungsentwurf [Cabinet Draft], Deutscher Bundestag: Drucksachen[BT]  17/13423,
+http://dip21.bundestag.de/dip2...
+/17/134/1713423.pdf (Ger.).
+Regierungsentwurf [Cabinet Draft], Deutscher Bundesrat: Drucksachen [BR] 257/06 (Ger.).
+Treaties and conventions
+Cite treaties and conventions to
+BGBl II
+, and use the citation format for statutes.
+Internet sources
+Free websites
+Up-to-date consolidated versions of German laws are available on many websites, some published by German agencies and offering reliable up-to-date versions of numerous laws.
+Gesetze im Internet
+,
+http://www.gesetze-im-internet.de
+, published by the Federal Ministry of Justice in partnership with
+juris
+, provides the up-to-date text of most laws and regulations.
+Gesetz über Urheberrecht und verwandte Schutzrechte [Urheberrechtsgesetz] [UrhG] [Copyright Act], Sept. 9, 1965, BGBl I at 1273 (Ger.),
+http://www.gesetze-im-internet...
+.
+Statutes provided on this site are usually updated within one month. Unless indicated by the text, a citation of the amended status is not typically necessary. For some statutes, translations are also available.
+Other resources
+https://www.bundesanzeiger.de/ebanzwww/wexsservlet
+(regulations
+published in the electronic Bundesanzeiger (eBAnz))
+The federal courts have websites that make their decisions available:
+http://www.bundesverfassungsgericht.de
+(Bundesverfassungsgericht –
+Federal Constitutional Court)
+https://www.bundesgerichtshof.de
+(Bundesgerichtshof – Federal
+Constitutional Court)
+http://www.bvger.de
+(Bundesverwaltungsgericht – Federal Administrative
+Court)
+https://www.bundesfinanzhof.de
+(Bundesfinanzhof – Federal Fiscal Court)
+https://www.bundesarbeitsgericht.de
+(Bundesarbeitsgericht – Federal Labor
+Court)
+https://www.bsg.bund.de
+(Bundessozialgericht – Federal Social Court)
+Federal legislative materials:
+http://dip.bundestag.de
+(Bundestag)
+http://www.parlamentsspiegel.de
+(Bundesrat)
+Commercial databases
+Germany’s comprehensive legal databases juris and BeckOnline are available by subscription:
+https://www.juris.de
+https://beck-online.beck.de
+Commentaries: The most important secondary source for academics and
+practitioners are commentaries (comparable to treatises in the U.S.). Beside the
+suggestion by the editors for how to cite the respective commentary (usually
+found at the very beginning of the commentary), a widely-accepted general
+way of citing is:
+<author (multiple: author/author)>
+in:
+<title of commentary>
+,
+<volume (if necessary), edition/year of publishing/status of editing>
+,
+<section and
+recital(s)>
+(
+<country abbreviation if not evident from context>
+).
+Andreas Spickhoff in: MüKoBGB, 8th ed. 2018, § 1 recital 1 (Ger.).
+Ulrich Schallmoser in: Blümich EstG, July 2019, § 16 recitals 667–702
+(Ger.).
+T2.14.1 –
+German Länder
+Cases
+In the integrated German court system, the trial and appellate courts are state courts, and the courts of last resort are federal courts. These courts adjudicate matters of federal and state law.
+Constitutional jurisdiction
+Staatsgerichtshof
+(
+StGH
+) or
+Verfassungsgerichtshof
+(e.g.,
+BayVerfGH
+for Bavaria) (constitutional court that adjudicates matters relating to the state’s constitution): Cite to the official reporter, a periodical, or a website.
+BayVerfGH July 19, 2007, 60
+Sammlung von Entscheidungen des Bayerischen Verwaltungsgerichtshofs mit Entscheidungen des Bayerischen Verfassungsgerichtshofs [BayVGH (NF)
+] 151 (Bavaria) (Ger.).
+Constitutions
+Constitutions (Verfassung) of the German states (Länder) are designated as such, followed by the name of the state in question:
+Verfassung Bayern
+Verf Bay
+Statutes and decrees
+Cite a
+Landesgesetz
+(
+LG
+) (state statute) or
+Landesverordnung
+(
+LVO
+) (state administrative regulation) to the law gazette (
+GVBl.
+) of the individual state.
+Bayerisches Verfassungsschutzgesetz, repromulgated Apr. 10, 1997,
+Bayerisches Gesetz- und Verordnungsblatt [Bay GVBl
+] 70 (Bavaria) (Ger.).
+Bayerisches Gesetz- und Verordnungsblatt
+Bay GVBl
+Internet sources
+Länder laws and regulations, as well as decisions of the Länder courts, are available on their official websites. For instance, in the Land of North Rhine-Westphalia, the Ministry of Justice provides a legal library that contains the court decisions of North Rhine-Westphalia as well as the most important laws of the Federation and the other Länder. The portal is available in English at
+http://www.justiz.nrw.de/WebPo...
+, but the sources are in German.
+For additional electronic sources, see
+table T2.14 Germany, Federal Republic of
+.

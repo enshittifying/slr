@@ -1,0 +1,47 @@
+TITLE: 23.2 Author (pp. 250–51)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-2-author
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.2
+Author
+(pp. 250–51)
+(a) In general.
+For signed materials appearing in periodicals (including student-written materials), follow
+rule 15.1
+, but print in ordinary roman type:
+J. Harvie Wilkinson III, Law Clerk, U.S. Sup. Ct., Certiorari Memorandum 2, Emps. of the Dep’t of Pub. Health & Welfare v. Dep’t of Pub. Health & Welfare, No. 71-1021 (Mar. 20, 1972) (on file with Wash. & Lee Univ. Sch. of L., Lewis F. Powell, Jr. Papers, Box 380, Folder 7).
+James Madison, For the National Gazette (c. Dec. 19, 1791),
+reprinted by
+Nat’l Archives:
+Founders Online
+,
+https://founders.archives.gov/documents/Madison/01-14-02-0145
+[
+https://perma.cc/69FP-7WVZ
+].
+(b) Author unavailable.
+If the archived document is not contemporaneously signed, omit this field. Subsequent speculation on the author’s identity is inadequate for the purposes of this rule. However, akin to
+rule 15.1(d)
+, if the document has been verifiably attributed to an author, you may use that author’s name. Such an exception to
+rule 23.2(b)
+should be used sparingly, and only where secondary sources are clear and confident as to the author’s identity, or where the author has later claimed the work.
+(c) Pen names.
+When a pen name or alias is used, cite the author according to
+rule 15.1(d)
+.
+(d) Letters, memoranda, and press releases.
+If the document is an archived letter, memorandum, or press release, format the document’s author according to
+rule 17.2.3
+:
+Letter from William Prosser, Dean, Univ. of Cal., Berkley, Sch. of L., to Robert Hudec, Ed.-in-Chief, Yale L.J. (Apr. 27, 1960) (on file with Yale L.J., General Archives, 1960s-1970s Correspondence, Box 1, Folder 6).

@@ -1,0 +1,39 @@
+TITLE: 18.4 Electronic Databases (p.192)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-3-commercial-electronic-databases
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.4
+Electronic Databases
+(p.192)
+Because of the reliability and authoritativeness of LEXIS, Westlaw, Bloomberg Law, and other commercial electronic databases such as Dialog, cite such sources, if available, in preference to the other sources covered by
+rule 18
+. Citations to these electronic databases should be consistent with this present rule regardless of whether the databases are accessed through proprietary software or through a website such as
+http://www.westlaw.com
+or
+http://advance.lexis.com
+. For guidance as to the specific use of commercial electronic databases, see the following rules:
+Cases
+rule 10.8.1
+Constitutions
+rule 11
+Statutes
+rule 12.5
+Legislative Materials
+rule 13.7
+Regulations
+rule 14.5
+Books, Reports, and Other Nonperiodic Materials
+rule 15.9
+Periodical Materials
+rule 16.8

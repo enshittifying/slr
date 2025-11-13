@@ -1,0 +1,23 @@
+TITLE: 5 Quotations (p.87)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 5-quotations
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+5
+Quotations
+(p.87)
+5.1
+Formatting of Quotations
+5.2
+Alterations and Quotations Within Quotations
+5.3
+Omissions

@@ -1,0 +1,41 @@
+2025-08-08 23:49:05,943 - __main__ - INFO - Starting SLRinator workflow for: output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx
+2025-08-08 23:49:05,943 - __main__ - INFO - Step 1: Extracting footnotes from document...
+2025-08-08 23:49:05,975 - __main__ - INFO -   Extracted 3 footnotes
+2025-08-08 23:49:05,975 - __main__ - INFO - Step 2: Parsing citations with GPT-4...
+2025-08-08 23:49:05,976 - __main__ - INFO -   Found 3 citations across 3 footnotes
+2025-08-08 23:49:05,976 - __main__ - INFO - Step 3: Running sourcepull...
+2025-08-08 23:49:05,977 - __main__ - INFO -   Processing SP-001: 21 U.S.C. § 355...
+2025-08-08 23:49:05,977 - src.core.sourcepull_system - INFO - Processing FN3: 21 U.S.C. § 355...
+2025-08-08 23:49:05,977 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:49:06,728 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-08 23:49:06,728 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:49:06,728 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:49:06,729 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:49:06,729 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:49:06,729 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:49:06,729 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:49:06,729 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN3
+2025-08-08 23:49:06,729 - __main__ - INFO -   Processing SP-002: 21 U.S.C. § 321...
+2025-08-08 23:49:06,730 - src.core.sourcepull_system - INFO - Processing FN11: 21 U.S.C. § 321...
+2025-08-08 23:49:06,730 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:49:07,068 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-08 23:49:07,069 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:49:07,069 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:49:07,069 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:49:07,069 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:49:07,069 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:49:07,069 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:49:07,069 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN11
+2025-08-08 23:49:07,069 - __main__ - INFO -   Processing SP-003: 35 U.S.C. § 271...
+2025-08-08 23:49:07,070 - src.core.sourcepull_system - INFO - Processing FN18: 35 U.S.C. § 271...
+2025-08-08 23:49:07,070 - src.core.sourcepull_system - INFO -   Identified as: federal_statute (priority: 1)
+2025-08-08 23:49:07,579 - src.core.sourcepull_system - INFO -   ✗ Failed with govinfo: Document not found in GovInfo
+2025-08-08 23:49:07,579 - src.core.sourcepull_system - INFO -   ✗ Failed with congress_gov: Congress.gov retrieval not implemented
+2025-08-08 23:49:07,579 - src.core.sourcepull_system - INFO -   ✗ Failed with cornell_lii: Cornell LII retrieval not implemented
+2025-08-08 23:49:07,580 - src.core.sourcepull_system - INFO -   ✗ Failed with justia: Justia retrieval not implemented
+2025-08-08 23:49:07,580 - src.core.sourcepull_system - INFO -   ✗ Failed with heinonline: HeinOnline not configured
+2025-08-08 23:49:07,580 - src.core.sourcepull_system - INFO -   ✗ Failed with westlaw: Westlaw not configured
+2025-08-08 23:49:07,580 - src.core.sourcepull_system - INFO -   ✗ Failed with lexis: Lexis not configured
+2025-08-08 23:49:07,580 - src.core.sourcepull_system - WARNING -   ⚠ Requires manual retrieval for FN18
+2025-08-08 23:49:07,580 - __main__ - INFO - Step 4: Generating report...
+2025-08-08 23:49:07,587 - __main__ - INFO - ✅ Workflow complete! Report saved to: output/data/Sourcepull/sourcepull_report.json

@@ -1,0 +1,37 @@
+TITLE: Department of Education (p.264)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: department-of-education
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Department of Education
+(p.264)
+Reports:
+Cite reports of the
+Institution of Education Sciences
+as:
+Institute of Education Sciences,
+<title>
+<page>
+(
+<date>
+).
+Institute of Education Sciences, Evaluation of the Personnel Development Program to Improve Services and Results for Children with Disabilities 12 (2014).
+Proceedings:
+Cite federal student aid proceedings as:
+<case name>
+, U.S. Dep’t of Educ., No.
+<docket number>
+(
+<date>
+).
+Va. Polytechnic Inst. & State Univ., U.S. Dep’t of Educ., No. 11-30-SF (Mar. 29, 2012).

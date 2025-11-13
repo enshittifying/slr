@@ -1,0 +1,9 @@
+{
+  "courtlistener": "YOUR_COURTLISTENER_API_KEY_HERE",
+  "govinfo": "YOUR_GOVINFO_API_KEY_HERE",
+  "justia": "YOUR_JUSTIA_API_KEY_HERE",
+  "google_books": "YOUR_GOOGLE_BOOKS_API_KEY_HERE",
+  "crossref": "YOUR_CROSSREF_API_KEY_HERE",
+  "westlaw": "YOUR_WESTLAW_API_KEY_HERE",
+  "lexis": "YOUR_LEXIS_API_KEY_HERE"
+}

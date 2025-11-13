@@ -1,0 +1,55 @@
+TITLE: B15.1 Full Citation (pp. 23–24)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  parent: b15-books-and-other-nonperiodic-materials
+  slug: b15-1-full-citation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B15.1
+Full Citation
+(pp. 23–24)
+Citations to books, treatises, pamphlets, and other nonperiodic materials should include the following elements: (1) the volume number (for multi-volume sets); (2) the full name(s) of the author(s) as written in the publication; (3) the title of the publication (underscored or italicized); (4) a pincite; and (5) a parenthetical indicating the year of publication, the name of the editor (if any), and the edition (if more than one).
+List the authors’ names in the order in which they appear on the title page. For two authors, separate the names with an ampersand. For three authors, separate the names with commas except the final name, which should be set off with an ampersand (and without a comma). If a work has more than three authors, you may either list all of the authors’ names or list the first author's name followed by
+“
+et al.
+”
+:
+Matthew Butterick,
+Typography for Lawyers
+54 (2010).
+J.R. McNeill & William H. McNeill,
+The Human Web: A Bird’s-Eye View of World History
+319 (2003).
+David Hunter et al.,
+International Environmental Law and Policy
+555 (3d ed. 2006).
+A Bentham Reader
+101 (Mary Peter Mack ed., 1969).
+There are special citation forms for a few frequently cited works:
+Good-Faith Bargaining
+,
+Black’s Law Dictionary
+(10th ed. 2014).
+17 Am. Jur. 2d
+Contracts
+§ 74 (1964).
+88 C.J.S.
+Trial
+§ 192 (1955).
+21
+Wright & Miller’s Federal Practice & Procedure
+§ 1006 (3d ed. 1998).
+15
+Moore’s Federal Practice
+§ 100.02 (3d ed. 1997).
+For further guidance on citing to books and other nonperiodic material, see
+rule 15
+.

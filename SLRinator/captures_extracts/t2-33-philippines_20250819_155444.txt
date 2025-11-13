@@ -1,0 +1,399 @@
+TITLE: T2.34 Philippines
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-33-philippines
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.34
+Philippines
+(Mixed Jurisdiction)
+Cases
+Supreme court
+Citation format:
+<case name>
+,
+<volume number> <reporter abbreviation> <first
+page>
+,
+<page(s) of specific material, if desired>
+(
+<date of decision>
+) (
+<country
+abbreviation if not evident from context>
+).
+Or:
+<case name>
+,
+<volume number
+>:
+<number>
+O.G.
+<first page>
+,
+<page(s) of specific
+material, if desired>
+(
+<date of decision>
+) (
+<country abbreviation if not evident from
+context>
+).
+Or:
+<case name>
+, G.R. No.
+<docket number>
+,
+<parallel citation, if desired>
+(
+<date
+of decision>
+) (
+<country abbreviation if not evident from context>
+),
+<URL to official
+source, if no parallel citation to a print source provided>
+.
+People v. Quimson, 419
+Phil. Rep
+. 28, 33–43 (Oct. 5, 2001).
+Banez v. Banez, 99:30 O.G. 4775 (July 28, 2003) (Phil.).
+Gonzalez v. Katigbak, G.R. No. L-69500, 37 S.C.R.A. 717, 728 (July 22, 1985) (Phil.).
+Papertech, Inc. v. Josephine P. Katando, G.R. No. 236020 (Jan. 8, 2020) (Phil.), http://sc.judiciary.gov.ph/10680.
+Supreme Court of the Philippines
+(
+S.C.
+) (highest appeals court and the only court that can produce binding precedents): Cite to an official reporter or to an unofficial reporter in the following order of preference:
+Official Gazette
+1902–date
+O.G.
+Supreme Court Reports Annotated
+1961–date
+S.C.R.A.
+Philippine Reports
+1901–date
+Phil. Rep.
+The Supreme Court
+(
+http://sc.judiciary.gov.ph
+)
+Court of Appeals
+Citation format:
+<case name>
+,
+<CA-docket and case type>
+, No.
+<docket number>
+,
+<parallel citation, if desired>
+, (
+<court abbreviation if not evident from context>
+,
+<date of decision>
+) (
+<country abbreviation if not evident from context
+>), <
+URL to
+official source, if no parallel citation to a print source provided
+>.
+Mighty Corp. v. J. Noli C. Diaz, et al., CA-G.R. SP No. 150100 (Mar. 28, 2018) (Phil.),
+http://services.ca.judiciary.g...
+-war/faces/jsp/view/ViewResult.jsp.
+Court of Appeals of the Philippines
+(C.A.) (appellate court of general jurisdiction and its doctrinal pronouncements on matters falling within its jurisdiction have persuasive weight if not appealed and until overturned by the supreme court in a subsequent case): Cite to an unofficial reporter
+The Court of Appeals
+(http://ca.judiciary.gov.ph)
+Constitution
+The current Constitution of the Philippines was ratified in 1987. Citation format:
+Const.
+(
+<promulgation year, if citing a previous constitution>
+),
+<article>
+,
+<section>
+(
+<country abbreviation if not evident from context>
+).
+Const.
+(1987), art. VI (Phil.).
+Const
+. (1973), art. VII, § 1 (Phil.).
+Const
+. (1935), art. VII, § 1 (Phil.).
+Codes
+Give the code name, subdivision if relevant, legislation type and number, and amendment information if applicable. If superseded or repealed, include year of effectivity.
+Administrative Code
+, Book III, Title I, Chapter 2, § 2, Exec. Ord. No. 292, as amended by Rep. Act 6682 (Phil.).
+Civil Code
+, art. 10, Rep. Act 386, as amended (Phil.).
+Family Code
+, Exec. Ord. 209, as amended (Phil.).
+Insurance Code
+, Rep. Act No. 10607 (Phil.).
+Labor Code
+, Pres. Dec. No. 442, as amended (Phil.).
+Local Government Code
+, Rep. Act No. 7160, as amended (Phil.).
+National Internal Revenue Code
+, Rep. Act No. 8424 (Phil.).
+Omnibus Election Code
+, B.P. Blg., 881, as amended (Phil).
+Revised Corporation Code
+, Rep. Act No. 11232 (Phil).
+Revised Penal Code,
+Act No. 3815, as amended (Phil.).
+Tariff and Customs Code
+, Rep. Act No. 1937, as amended (Phil.).
+Legislation
+Citation format:
+<statute name or short title>
+,
+<legislation type
+> No.
+<number>
+,
+<section(s) of specific material, if desired>
+(
+<date of enactment
+>),
+<reporter
+abbreviation>
+(
+<series>
+), Book
+<book number>
+, p.
+<first page>
+,
+<page(s) of specific
+material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<statute name or short title>
+, Rep. Act No.
+<number>
+,
+<section(s) of specific
+material, if desired>
+,
+<volume number>
+:
+<number>
+O.G.
+<first page>
+,
+<page(s) of
+specific material, if desired>
+(
+<date of enactment>
+) (
+<country abbreviation if not
+evident from context>
+).
+Or:
+<statute name or short title>
+,
+<legislation type>
+No.
+<number>
+,
+<section(s) or
+article(s) of specific material, if desired>
+,
+<parallel citation, if desired>
+(
+<date of
+enactment>
+) (
+<country abbreviation if not evident from context>
+),
+<URL to official
+source, if no parallel citation to a print source provided>
+.
+For Batas Pambansa:
+Citation format:
+<statute name or short title>
+, B.P. Blg.
+<number>
+,
+<section(s)
+of specific material, if desired>
+(
+<date of enactment>
+),
+<reporter abbreviation>
+(
+<series>
+), Book
+<book number>
+, p.
+<first page>
+,
+<page(s) of specific material, if
+desired>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<statute name or short title>
+, B.P. Blg.
+<number>
+,
+<section(s) or article(s) of
+specific material, if desired>
+,
+<parallel citation, if desired>
+(
+<date of enactment>
+)
+(
+<country abbreviation if not evident from context>
+),
+<URL to official source, if no
+parallel citation to a print source provided>
+.
+An Act providing for a System of Overseas Absentee Voting by Quali- fied Citizens of the Philippines Abroad, Appropriating Funds Therefor, and for Other Purposes, Rep. Act No. 9189, § 5(a), 99:19 O.G. 2297 (May 12, 2003) (Phil.).
+Anti-Violence Against Women and Their Children Act of 2004, Rep. Act No. 9262, § 5(e)(1) (Mar. 8, 2004) (Phil.), https://www.officialgazette .gov.ph/2004/03/08/republic-act-no-9262-s-2004.
+Cite codes and legislation to a source in the following order of preference:
+Official Gazette
+1902–date
+O.G.
+The Official Gazette Website
+(
+http://officialgazette.gov.ph
+)
+Types of legislation:
+Acts (Nos. 1–4275)
+1900–1934
+Act
+Commonwealth Acts (Nos. 1–733)
+1935–1945
+Comm. Act
+Republic Acts (Nos. 1–6635)
+1946–1972
+Rep. Act
+Presidential Decrees (Nos. 1–2027)
+1972–1982
+Pres. Dec.
+Batas Pambansa (Nos. 1–884)
+1978–1986
+B.P.Blg.
+Republic Acts (Nos. 6636–current)
+1987–date
+Rep. Act
+Executive issuances
+Citation format:
+<issuing agency>
+,
+<issuance name or short title>
+,
+<issuance type>
+No.
+<number>
+,
+<section(s) or articles(s) of specific material, if desired>
+,
+<volume
+number>
+:
+<number>
+O.G.
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<date
+of promulgation>
+) (
+<country abbreviation if not evident from context>
+).
+Or:
+<issuing agency>
+,
+<issuance name or short title>
+,
+<issuance type>
+No.
+<number>
+,
+<section(s) or articles(s) of specific material, if desired>
+,
+<parallel citation, if
+desired>
+(
+<date of promulgation>
+) (
+<country abbreviation if not evident from
+context>
+),
+<URL to official source, if no parallel citation to a print source provided>
+.
+Office of the President, Establishing a System to Ensure Smooth Flow of Transactions in Government and Prompt Response to Public Requests, Mem. Circ. No. 60, § 1,89 O.G. 4747 (July 8, 1993) (Phil.).
+Office of the President, Increasing the Amount of Employment Compensation Benefits for Employees in the Public Sector, Exec. Ord. No. 135, § 3 (Apr. 23, 2013) (Phil.), https://www.officialgazette.gov. ph/2013/04/23/executive-order-no-135-s-2013.
+Cite to a source in the following order of preference:
+Official Gazette
+1902–date
+O.G.
+The Official Gazette Website
+(
+http://officialgazette.gov.ph
+)
+Types of executive issuances:
+Administrative Order
+Admin. Ord.
+Executive Order
+Exec. Ord.
+General Order
+Gen. Ord
+Memorandum Circular
+Mem. Circ.
+Memorandum Order
+Mem. Ord.
+Presidential Proclamation
+Pres. Proc.
+Special Order
+Sp. Ord.
+Treaties
+Cite the title, the date of signature or accession by the Philippines, and the date of entry into force.  Cite at least one Philippine source and one other source listed in
+table T4
+, if available, or two sources listed in
+table T4
+.
+Treaty of Friendship with India, July 11, 1952 (1953), II-2 D.F.A.T.S. 1, 2 P.T.S. 797, 203 U.N.T.S. 73 (Phil.).
+Department of Foreign Affairs Treaty Series
+D.F.A.T.S.
+Philippine Treaty Series
+P.T.S.
+Internet sources
+http://www.gov.ph
+(Government of the Philippines)
+http://officialgazette.gov.ph
+(Official Gazette online)
+http://elibrary.judiciary.gov.ph
+(Supreme Court of the Philippines E-library, an online legal repository maintained by the Supreme Court)
+http://www.sc.judiciary.gov.ph
+(portal of the Philippine Judiciary)
+http://www.congress.gov.ph
+(House of Representatives of the Philippines)
+http://www.senate.gov.ph
+(Senate of the Philippines)
+http://www.chanrobles.com/index1.htm
+(Chan Robles Virtual Law Library, a website maintained by the Chan Robles Law Firm, a Philippine legal services company)
+http://www.lawphil.net
+(The Lawphil Project, a legal website maintained by the Arellano Law Foundation, a Philippine nonprofit institution specializing in legal education)
+ttps://dfa.gov.ph/
+(Philippine Department of Foreign Affairs)
+https://www.loc.gov/item/guide-to-law-online/philippines/
+(Library of Congress Guide to Law Online: Philippines)

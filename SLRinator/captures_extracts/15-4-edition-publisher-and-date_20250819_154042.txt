@@ -1,0 +1,88 @@
+TITLE: 15.4 Edition, Publisher, and Date (pp. 157–59)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 15-books-reports-and-other-nonperiodic-materials
+  slug: 15-4-edition-publisher-and-date
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15.4
+Edition, Publisher, and Date
+(pp. 157–59)
+(a) Editions.
+Always cite the latest edition of a work that supports the point under discussion, unless an earlier edition would be particularly relevant or authoritative.
+(i) Single edition.
+When citing a work that has been published in only one edition, indicate the year of publication in parentheses. In general, cite by the date of the edition rather than by the date of a particular printing:
+Deborah L. Rhode, Justice and Gender
+56 (1989).
+AIDS
+and the Law
+(Harlon L. Dalton & Scott Burris eds., 1987).
+If a printing differs in a respect relevant to the purposes of the citation, however, give the printing designation and the date of printing instead:
+(6th prtg. 1980)
+If the title of the work incorporates the date of the work, do not omit the date of publication, even if it is the same date:
+Hum. Rts. Watch, World Report 2004: Human Rights and Armed Conflict
+148 (2004).
+(ii) Multiple editions by the same publisher.
+When citing a work that has been published by the same publisher in more than one edition, indicate the edition and the year the edition was published. Follow the publisher’s terminology when designating an edition (see
+table T14
+for a list of publishing abbreviations):
+Fleming James, Jr. et al., Civil Procedure
+§ 2.3 (4th ed. 1992).
+1 William Meade Fletcher et al., Fletcher Cyclopedia of the Law of Private Corporations
+§ 7.05 (perm. ed., rev. vol. 1999).
+(iii) Editions not by the original publisher.
+When citing a work that has been published by someone other than the original publisher, indicate the editor and/or translator, if any (
+rule 15.2
+), the publisher, the edition cited if not the first, and the date of publication of the edition cited (in that order). Abbreviate the publisher’s name according to
+rule 15.1(e)
+. Unless the work is one that is regularly updated or revised, add a second parenthetical indicating the date of publication of the original edition:
+Charles Dickens, Bleak House
+49–55 (Norman Page ed., Penguin Books 1971) (1853).
+John C.H. Wu, The Golden Age of Zen
+214–15 (Image Books 1996) (1975).
+Simone de Beauvoir, The Second Sex
+, at xvi–xvii (H.M. Parshley ed. & trans., Bantam Books 1961) (1949).
+The Chicago Manual of Style
+¶ 8.191 (15th ed. 2003).
+(b) Multiple volumes with different dates.
+When a published work has multiple volumes published in different years, use the date in which the cited volume was published.
+(c) Photoduplicated reprints.
+Cite photoduplicated reprints to the original, indicating in parentheses the existence of a reprint and the date of the reprint, followed by the publication date of the original in separate parentheses:
+Paul W. Gates, History of Public Land Law Development
+1 (photo. reprt. 1979) (1968).
+(d) Pre-1900 works.
+Cite works published before 1900 to a scholarly modern edition, according to
+rule 15.4(a)
+:
+John Locke, Two Treatises of Government
+137–39 (Peter Laslett ed. Cambridge Univ. Press 1988) (1690).
+If there is no modern edition, cite the first edition whenever possible. When citing a pre-1900 edition, indicate the place of publication (abbreviating states and countries according to
+table T10
+if included) and the publisher, separated by a comma:
+1 James Fitzjames Stephen, A History of the Criminal Law of England
+156–57 (London, MacMillan & Co. 1883).
+If the place or date of publication is not available, use the abbreviation “
+n.p.
+” for “
+no place
+” or “
+n.d.
+” for “
+no date
+.”
+(e) Supplements.
+Cite pocket parts and bound supplements according to
+rule 3.1(c)
+:
+4 Sydney C. Schweitzer & Joseph Rasch, Cyclopedia of Trial Practice
+§ 895 (2d ed. Supp. 1984).
+5 Samuel Williston & Richard A. Lord, A Treatise on the Law of Contracts
+§ 11:8 (4th ed. 1993 & Supp. 1999).

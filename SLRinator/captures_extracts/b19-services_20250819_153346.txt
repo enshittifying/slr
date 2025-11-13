@@ -1,0 +1,29 @@
+TITLE: B19 Services (p.29)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  slug: b19-services
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B19
+Services
+(p.29)
+Cite services by volume, abbreviated title, publisher, subdivision, and date. If the source is a case, include the abbreviated name of the court in the same parenthetical as the date:
+In re Smithfield Est., Inc.
+, [1985–1986 Transfer Binder] Bankr. L. Rep. (CCH) ¶ 70,707 (Bankr. D.R.I. Aug. 9, 1985).
+SEC v. Tex. Int’l Airlines
+, 29 Fed. R. Serv. 2d (West) 408 (D.D.C. 1979).
+Kovacs v. Comm’r
+, 74 A.F.T.R.2d (RIA) 354 (6th Cir. 1994).
+When citing looseleaf material that will eventually be bound, add the name of the bound form in parentheses if it is different from the name of the looseleaf form; include the volume of the bound form if available:
+Marietta Concrete Co., 3 Lab. Rel. Rep. (BL) (84 Lab. Arb. Rep.) 1,158 (May 7, 1985).
+For further guidance on citing services, see
+rule 19
+.

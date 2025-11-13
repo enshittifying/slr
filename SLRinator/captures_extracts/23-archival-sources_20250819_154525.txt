@@ -1,0 +1,59 @@
+TITLE: 23 Archival Sources (p.249)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 23-archival-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23
+Archival Sources
+(p.249)
+This rule applies to materials found in archives, and thus will primarily apply to (1) historical documents created before the internet era, (2) documents where a digital file no longer exists, and (3) physical objects.
+Published materials, including books (
+rule 15
+) or letters found compiled in a published book (
+rule 15.5.2(a)
+), generally do not fall within the ambit of
+rule 23
+. The principal exception is where originally unpublished texts compiled in published works are then reprinted in digital archives (
+rule 23.9
+).
+When a document or object is on file with an organized and official archive,
+rule 23
+supplants
+rule 17
+, and “
+(on file with author)
+” should not be used.
+Basic citation format:
+23.1
+Basic Citation Forms
+23.2
+Author
+23.3
+Title
+23.4
+Institutional Affiliation
+23.5
+Date
+23.6
+Archival Information
+23.7
+Case Materials
+23.8
+Pre-1900 Newspapers
+23.9
+Databases Reprinting Primary Sources
+23.10
+Handwritten and Typewritten Documents
+23.11
+Tangible Objects
+23.12
+Short Citation Forms

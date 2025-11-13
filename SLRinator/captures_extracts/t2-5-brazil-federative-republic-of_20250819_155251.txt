@@ -1,0 +1,406 @@
+TITLE: T2.5 Brazil, Federative Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-5-brazil-federative-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.5
+Brazil, Federative Republic of
+(Civil Law)
+Cases
+Citation format:
+<court abbreviation>
+-
+<chamber/region number>
+,
+<action/appeal type and docket number>
+, Relator:
+<relator name>
+,
+<judgment date in day.month.year format>
+,
+<volume number>
+,
+<reporter name>
+[
+<reporter abbreviation>
+],
+<publication date in day.month.year format>
+,
+<first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+TRF-2, Apelação Criminal No. 1990.51.01.043265-8, Relator: Des. Fernando Marques, 14.11.2008, 232, Diario da Justiça [D.J.], 28.11.2008, 13 (Braz.).
+T.J.M.G, Apelação Cível No. 1.0024.08.158530-9/001 Belo Horizonte, Relator: Des. Fernando Caldeira Brant, 26.11.2008, 136, Diário da Justiça Eletrônico [D.J.e], 09/12/2008, 147 (Braz.).
+Official gazettes
+Diário Oficial da União (federal laws and cases from S.T.F.)
+D.O.U.
+Díario da Justiça
+(higher court cases)
+D.J.
+Diário da Justiça Eletrônico (appellate or higher court cases, predominantly available online)
+D.J.e
+Diário Oficial dos Estados (state laws and cases)
+D.O.E.
+e.g., Rio de Janeiro
+D.O.E.R.J.
+e.g., São Paulo
+D.O.E.S.P.
+e.g., Minas Gerais
+D.O.E.M.G.
+Higher courts
+Supremo Tribunal Federal
+(
+S.T.F.
+) (privilege jurisdictions for high public officials, original jurisdiction for constitutional suits, and highest court of appeals on constitutional matters): Cite to R.T.J., R.S.T.F., or S.T.F.J., if therein.
+Revista Trimestral de Jurisprudência
+1957–date
+e.g.,
+R.T.J. 50/101
+Revista do Supremo Tribunal Federal
+1914–1956
+R.S.T.F.
+Supremo Tribunal Federal Jurisprudência
+(available at
+http://www.stf.jus.br
+)
+S.T.F.J.
+Superior Tribunal de Justiça
+(
+S.T.J.
+) (highest court of appeals on all non-constitutional matters): Cite to
+R.S.T.J.
+,
+S.T.J.J.
+, or
+R.T.
+, if therein.
+Revista do Superior Tribunal de Justiça
+1989–date
+R.S.T.J.
+Superior Tribunal de Justiça Jurisprudência
+(available at
+http://www.stj.jus.br
+)
+S.T.J.J.
+Revista dos Tribunais
+1912–date
+R.T.
+Tribunal Superior do Trabalho
+(
+T.S.T.
+) (highest court of appeals on labor law): Cite to
+R.T.S.T.
+or
+T.S.T.J.
+, if therein.
+Revista do Tribunal Superior do Trabalho
+1946–date
+R.T.S.T.
+Tribunal Superior do Trabalho Jurisprudência
+(available at
+http://www.tst.jus.br
+)
+T.S.T.J.
+Tribunal Superior Eleitoral
+(
+T.S.E.
+) (highest court of appeals on electoral law): Cite to
+T.S.E.J.
+, if therein.
+Tribunal Superior Eleitoral Jurisprudência
+(available at
+http://www.tse.jus.br
+)
+Superior Tribunal Militar
+(
+S.T.M.
+) (highest court of appeals on military law): Cite to
+S.T.M.J.
+, if therein.
+Superior Tribunal Militar Jurisprudência
+(available at
+http://www.stm.jus.br
+)
+Federal courts
+Tribunal Regional Federal
+(
+TRF-
+<region number>
+, e.g.,
+TRF-1
+) (regional federal court of appeals on matters of federal interest): Cite to
+R.T.R.F.
+, or e-DJ
+<region abbreviation and number>
+, if therein.
+Revista do Tribunal Regional Federal
+(regions vary)
+Diário Eletrônico da Justiça Federal
+(regions vary)
+Vara da Justiça Federal
+(
+J.F.
+) (federal district courts on matters of federal
+interest): Indicate number and city.
+State courts
+Tribunais de Justiça dos Estados
+(T.J.
+<state initials>
+, e.g., T.J.M.G. for Minas Gerais) (higher state courts of appeals): Cite to State’s Judiciary Gazette (e.g., D.J.e.), if therein.
+State’s Judiciary Gazette
+(regions vary)
+e.g.,
+D.J.e.
+Revista dos Tribunais
+1912–date
+R.T.
+Revista Forense
+1904–date
+R.F.
+Constitution
+Constituição Federal
+Constituição Federal [C.F.] [Constitution
+] art. 3 (Braz.).
+Codes
+Código de Águas
+C.
+ag
+.
+Código Civil
+C.C.
+Código Comercial
+(Pt. I revoked, recodified in Civil Code, 2002)
+C.
+Com
+.
+Código Eleitoral
+C.E.
+Código Florestal
+C.
+flor
+.
+Código de Minas
+C.
+min.
+Consolidação das Leis do Trabalho
+C.L.T.
+Código Penal
+C.P.
+Código Penal Militar
+C.P.M.
+Código de Processo Civil
+C.P.C.
+Código de Processo Penal
+C.P.P.
+Código de Propriedade Industrial
+C.P.I.
+Código de Proteçao e Defesa do Consumidor
+C.D.C.
+Código Tributário Nacional
+C.T.N.
+Código Brasileiro de Telecomunicações
+C.B.T.
+Código de Processo Penal Militar
+C.P.P.M.
+Código de Caça
+C.
+ca
+.
+Código Brasileiro de Aeronáutica
+C.B.A.
+Código de Trânsito Brasileiro
+C.T.B.
+Estatuto da Criança e do Adolescente
+E.C.A.
+Statutes
+Estatuto da Advocacia e da Ordem dos Advogados do Brasil
+E.O.A.B.
+Estatuto da Cidade
+E.C
+id
+.
+Estatuto da Criança e do Adolescente
+E.C.A.
+Estatuto de Defesa do Torcedor
+E.D.T.
+Estatuto do Desarmamento
+E.D
+es
+.
+Estatuto do Estrangeiro
+E.E
+st
+.
+Estatuto do Idoso
+E.I
+ds
+.
+Estatuto da Igualdade Racial
+E.I.R
+ac
+.
+Estatuto do Índio
+E.I
+nd
+.
+Estatuto da Juventude
+E.J
+uv
+.
+Estatuto dos Militares
+E.M
+il
+.
+Estatuto dos Museus
+E.M
+us
+.
+Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte
+E.M.E
+mp
+.
+Estatuto dos Refugiados
+E.R
+efg
+.
+Estatuto da Terra
+E.T
+er
+.
+Statutes and decrees
+Citation format:
+<statute/decree number>
+, de
+<date of promulgation in Portuguese>
+,
+<official gazette name>
+[
+<official gazette abbreviation>
+] de
+<date of publication in day.month.year format>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<statute/decree number>
+, de
+<date of promulgation in Portuguese>
+,
+<reporter name
+> [
+<reporter abbreviation>
+],
+<volume number>
+(
+<number>
+, t.
+<tomo number>
+):
+<page(s)>
+de
+<date of publication in day.month.year format>
+(
+<country abbreviation if not evident from context>
+).
+Use “t.” to refer to “tomo,” Portuguese for “volume.
+Official gazettes
+Diário Oficial da União
+(available at
+http://portal.in.gov.br
+) (federal laws)
+1862–date
+D.O.U.
+Diário Oficial
+<of state name>
+(state laws, regions vary)
+e.g.,
+D.O.E.R.J.
+Decreto No. 6.626, de 3 de Novembro de 2008, Diário Oficial da União [D.O.U.] de 4.11.2008 (Braz.).
+Decreto No. 41.566, de 27 de Novembro de 2008, Diário Oficial do Rio de Janeiro [D.O.E.R.J.] de 28.11.2008 (Braz.).
+Alternate sources
+Citation format:
+<statute/decree number>
+, de
+<date of promulgation in Portuguese>
+,
+<publication name>
+[
+<publication abbreviation>
+],
+<date of publication>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<statute/decree number>
+, de
+<date of promulgation in Portuguese>
+,
+<reporter abbreviation>
+,
+<volume number>
+(
+<number>
+, t.
+<tomo number>
+):
+<page(s)>
+,
+<date of publication in month year format>
+(
+<country abbreviation if not evident from context>
+).
+Revista Lex
+Lex
+Coleção das Leis
+Col. Leis Rep. Fed. Brasil
+Lei No. 9.215, de 22 de Dezembro de 1995,
+Col. Leis Rep. Fed. Brasil
+, 187 (12, t.1): 5388, Dezembro 1995 (Braz.).
+Treaties and conventions
+Coleção de Atos Internacionais
+1927–1964
+Col. Atos Internacionais, No.
+<treaty number>
+Ministry of Foreign Affairs:
+https://www.gov.br/mre/pt-br/assuntos/relacoes-bilaterais
+(list of countries with which Brazil sustains bilateral relations)
+https://concordia.itamaraty.gov.br/pesquisa-avancada
+(research tool for
+bilateral and multilateral agreements to which Brazil is a signatory)
+Internet sources
+Presidência da República
+http://www4.planalto.gov.br/legislacao
+(website of the Brazilian Presidency
+that provides free access to the Constitution, laws, codes, statutes, provisional
+measures, decrees, and historical legislation)
+Senado Federal
+http://legis.senado.leg.br/sicon/#/basica
+(website of the Brazilian Federal Senate that provides free access to laws and bills and is searchable by topic)
+Câmara dos Deputados
+Imperial Laws (Leis do Império) and Republican Laws (Leis de República) (until the year 2000):
+https://www2.camara.leg.br/atividade-legislativa/legislacao/colecao-anual-de-leis
+(website of the Brazilian Chamber of Deputies that provides free
+access to the laws in force in the county between 1808 and 2000)
+Legislation (Legislação):
+http://www2.camara.leg.br/atividade-legislativa/legislacao
+(website of
+the Brazilian Chamber of Deputies that provides free access to laws and bills
+and is searchable by topic)
+Previous Constitutions (Constituições Anteriores):
+https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/anteriores.html
+(website of the Brazilian Chamber of Deputies
+that provides free access to the previous Brazilian constitutions)

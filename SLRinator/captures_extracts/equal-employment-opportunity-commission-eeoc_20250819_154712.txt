@@ -1,0 +1,26 @@
+TITLE: Equal Employment Opportunity Commission (EEOC) (p.267)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: equal-employment-opportunity-commission-eeoc
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Equal Employment Opportunity Commission (EEOC)
+(p.267)
+Decisions
+:
+Most EEOC decisions do not have readily identifiable titles, and should therefore be cited using the decision number in place of the title, and otherwise per
+rule 14.3
+.
+EEOC Decision No. 71-24444, 4 Fair Empl. Prac. Cas. (BL) 18 (1971).
+EEOC Federal Sector decisions have party names and should therefore be cited in accordance with
+rule 14.3
+.

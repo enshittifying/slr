@@ -1,0 +1,32 @@
+TITLE: 14 Administrative and Executive Materials (p.147)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 14-administrative-and-executive-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+14
+Administrative and Executive Materials
+(p.147)
+Administrative agencies and other executive institutions produce a tremendous variety of official materials. This rule provides guidance for the most common forms of existing materials. Consult
+table T1.2
+for information regarding specific federal organizations that use unique citation formats. As with courts, practitioners should comply with an agency's conventions for citation when authoring submissions to that agency, if that convention varies from the rule established herein. Cite state materials by analogy to the federal examples given in this rule.
+14.1
+Basic Citation Forms
+14.2
+Rules, Regulations, and Other Publications
+14.3
+Administrative Adjudications and Arbitrations
+14.4
+State Materials
+14.5
+Commercial Electronic Databases
+14.6
+Short Forms for Regulations

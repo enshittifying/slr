@@ -1,0 +1,109 @@
+TITLE: Hawaii (Haw.) (pp. 283–84)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: hawaii-haw
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Hawaii (Haw.)
+(pp. 283–84)
+http://www.courts.state.hi.us
+http://www.capitol.hawaii.gov/docs/HRS.htm
+Supreme Court
+(
+Haw.
+): Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1959–date
+P.2d, P.3d
+West’s Hawaii Reports (begins with vol. 76)
+1994–date
+Haw.
+Hawaii Reports (ends with vol. 75)
+1847–1994
+Haw.
+Intermediate Court of Appeals
+(
+Haw. Ct. App.
+): Cite to
+P.2d
+or
+P.3d
+, if therein.
+Pacific Reporter
+1980–date
+P.2d, P.3d
+West’s Hawaii Reports
+(begins with vol. 76)
+1994–date
+Haw.
+Hawaii Appellate Reports
+1980–1994
+Haw. App.
+Statutory compilations:
+Cite to
+Haw. Rev. Stat.
+, if therein.
+Hawaii Revised Statutes
+Haw. Rev. Stat
+. § x-x (
+<year>
+)
+Michie’s Hawaii Revised Statutes Annotated (LexisNexis)
+Haw. Rev. Stat. Ann.
+§ x-x (LexisNexis
+<year>
+)
+West’s Hawaiʻi  Revised Statutes Annotated
+Haw. Rev. Stat. Ann.
+§ x-x (West
+<year>
+)
+Session laws:
+Cite to
+Haw. Sess. Laws
+, if therein.
+Session Laws of Hawaii
+<year>
+Haw. Sess. Laws
+<page no.>
+Michie’s Hawaii Revised Statutes Annotated Advance Legislative Service (LexisNexis)
+<year>
+-
+<pamph. no.>
+Haw. Rev. Stat. Ann
+.
+Adv. Legis. Serv.
+<page no.>
+(LexisNexis)
+West’s Hawaiʻi Legislative Service
+<year>
+Haw. Legis. Serv.
+<page no.>
+(West)
+Administrative compilation
+Code of Hawaii Rules (LexisNexis)
+Haw. Code R.
+§ x-x-x (LexisNexis
+<year>
+)
+Administrative register
+Hawaii Government Register (LexisNexis)
+<iss. no.>
+Haw. Gov’t Reg.
+<page no.>
+(LexisNexis
+<month year>
+)

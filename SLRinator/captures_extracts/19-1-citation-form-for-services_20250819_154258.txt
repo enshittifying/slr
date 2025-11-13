@@ -1,0 +1,78 @@
+TITLE: 19.1 Citation Form for Services (pp. 205–06)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 19-services
+  slug: 19-1-citation-form-for-services
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+19.1
+Citation Form for Services
+(pp. 205–06)
+Cite services by volume, abbreviated title in ordinary roman type, publisher, subdivision, and date. If the source is a case, include the abbreviated name of the court in the same parenthetical as the date, as you would under
+rule 10.4
+. Consult
+table T15
+for service and publisher abbreviations; if a service is not listed, refer to
+table T6
+to abbreviate the words that make up its title:
+In re
+Smithfield Ests., Inc., [1985–1986 Transfer Binder] Bankr. L. Rep. (CCH) ¶ 70,707 (Bankr. D.R.I. Aug. 9, 1985).
+SEC v. Tex. Int’l Airlines, 29 Fed. R. Serv. 2d (West) 408 (D.D.C. 1979).
+Kovacs v. Comm’r, 74 A.F.T.R.2d (RIA) 354 (6th Cir. 1994).
+When citing looseleaf material that will eventually be bound, add the name of the bound form in parentheses if it is different from the name of the looseleaf form; include the volume of the bound form if available:
+Marietta Concrete Co., 3 Lab. Rel. Rep. (BL) (84
+Lab. Arb. Rep.
+(BL)) 1158 (May 7, 1985).
+When citing to services found on a commercial electronic database, provide a parallel citation to the database, including the database identifier and any codes or numbers that identify the information:
+Dynda Thomas,
+Conflict Minerals – You Have More to Worry About than Just the SEC
+, 38 Chem. Reg. Rep. (BL) 186, 38 CRR 186 (BL) (Feb. 10, 2014).
+(a) Volume.
+The volume designation of a service may be a number, a year, a descriptive subtitle from the volume’s spine, or a combination of these.  If the volume designation includes words or a year, use brackets to avoid confusion:
+5 Trade Reg. Rep.
+1979-1 Trade Cas.
+[Current Developments] Hous. & Dev. Rep.
+[1979] 8 Stand. Fed. Tax Rep.
+[2 Wages-Hours] Lab. L. Rep.
+[1 Estate & Gift] U.S. Tax Rep.
+In citing a transfer binder, the volume designation should indicate the years of material included in that binder:
+[1994–1995 Transfer Binder] Fed. Sec. L. Rep.
+See generally
+rule 3.1(a)
+(designation of volumes and use of brackets).
+(b) Publisher.
+Every citation to a service, whether looseleaf or bound, must indicate the publisher. Enclose an abbreviation of the publisher’s name in parentheses following the service’s title. Consult
+table T15
+for a list of service publisher abbreviations; if a publisher is not listed, abbreviate according to
+rule 15.1(e)
+:
+4 Lab. L. Rep. (CCH) ¶ 9046.
+[1982] 12 Envtl. L. Rep. (Envtl. Law Inst.).
+(c) Subdivision.
+Cite services by paragraph or section number if possible, otherwise by page number. See generally
+rule 3.2
+(pages, footnotes, endnotes, and graphical materials) and
+rule 3.3
+(sections and paragraphs). Additionally, a report number may be given if it will assist the reader in locating the cited material:
+Rhode Island Insurance Agents Agree Not to Rig Bids
+, [Jan.–June] Antitrust & Trade Reg. Rep. (BL) No. 967, at D-11 (June 5, 1980).
+Domination of Markets, AMA Report Finds Consumers Have Few Options
+, [Jan.–Feb.] Antitrust & Trade Reg. Rep. (BL) No. 96, at 88 (2008).
+(d) Date.
+When citing a case reported in a service, give the exact date (for looseleaf services) or year (for bound services) of the case (
+rule 10.5
+):
+Defs. of Wildlife, Inc. v. Watt, [1982] 12 Envtl. L. Rep. (Envtl. Law Inst.) 20,210 (D.D.C. May 28, 1981).
+When citing a statute or regulation, give the exact date of its enactment or promulgation unless the exact date is indicated elsewhere in the citation:
+Act of Sep. 26, 1980, Food Drug Cosm. L. Rep. (CCH) ¶ 653.
+Citations to other material (such as articles or commentary) should give the exact date, if available. When citing otherwise undated material in a looseleaf service, give the date of the page on which the material is printed or the date of the subsection in which it is printed:
+ERISA Preemption Bills Draw Praise from Labor and Criticism from Business
+, [Aug. 1991–June 1993] Pens. Plan Guide (CCH) ¶ 26,263, at 27,037-40 (Aug. 2, 1991).

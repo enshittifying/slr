@@ -1,0 +1,195 @@
+TITLE: 21.9 European Union (pp. 235–38)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-9-european-union
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.9
+European Union
+(pp. 235–38)
+(a) Acts of the Council and Commission.
+(i) Sources.
+Cite publications of the Council and Commission published beginning February 1, 2003, to the
+Official Journal of the European Union
+(
+O.J.
+). Cite documents published between January 1, 1973, and January 31, 2003, to the
+Official Journal of the European Communities
+(also abbreviated
+O.J.
+). Cite documents published before January 1, 1973, to the Special Edition of the
+Official Journal of the European Communities
+(
+O.J. Spec. Ed.
+), if available; otherwise cite to the
+Journal Officiel des Communautés Européennes
+(
+J.O.
+). For pincites, use paragraph numbers, if available, rather than page numbers, unless only page numbers are available.
+Beginning with the 1998 editions, the
+O.J.
+is available at the European Union’s official website,
+http://eur-lex.europa.eu/en/index.htm
+. The online editions may be cited as official editions and should generally include the same information as citations to paper versions.
+Cite volumes of
+O.J.
+and
+J.O.
+by year.
+J.O.
+volumes published prior to 1968 were numbered in a single series. Since 1968,
+O.J.
+and
+J.O
+. have been published in parallel series, paginated separately by issue. Legislative acts appear in the “
+L
+” series, while other documents appear in the “
+C
+” series. Citations to
+J.O.
+before 1968 must include the issue number, while citations to
+O.J.
+and
+J.O
+. since 1968 must include both the series and the issue number:
+1971 J.O. (L 20) 1.
+1975 O.J. (L 337) 7.
+1964 J.O. (234) 5.
+Citations to the
+O.J. Spec. Ed.
+must indicate the period covered by the issue:
+1965–1966
+O.J. Spec. Ed.
+265.
+(ii) Legislative acts of the Council and Commission.
+Cite Regulations, Directives, and Decisions of the Council and Commission by the issuing institution, type of legislation, number, and subdivision (if applicable). If it is unclear from the context that the source is a European Union (
+EU
+) or European Community (
+EC
+) act, indicate this with a parenthetical at the end of the citation (
+rule 20.1
+). If the act was not issued under the Treaty on the Functioning of the European Union, indicate the authority for the promulgation of the act:
+Council Directive 90/476, art. 5, 1990 O.J. (L 266) 1, 2 (EC).
+Council Directive 66/45, art. 15, 1965–1966
+O.J. Spec. Ed
+. 265, 268 (Euratom).
+Commission Regulation 725/67, 1967 J.O. (253) 1.
+The full name of the legislation may also be provided, with or without the date:
+Commission Regulation 2751/90 of Sept. 26, 1990, Fixing the Import Levies on Compound Feeding Stuffs, annex, 1990 O.J. (L 264) 37, 38.
+Directive 2001/18, of the European Parliament and of the Council of 12 March 2001 on the Deliberate Release into the Environment of Genetically Modified Organisms and Repealing Council Directive 20/220/EEC, 2001 O.J. (L 106) 1, 3.
+(iii) Other publications of the Council and Commission.
+Cite proposed Regulations, Directives, Decisions, Conclusions, Resolutions, and other notices of the Council and Commission by issuing institution and title, as given at the beginning of the item.
+For Common Positions, the complete date and the complete or short form title may be included:
+Council Common Position No. 57/2003 of 25 June 2003, art. 2, 2003 O.J. (C 277) 1, 2 (EC).
+Administrative Commission on Social Security for Migrant Workers, 2009 O.J. (C 213) 6, 8.
+(iv) COM and SEC documents.
+“
+COM
+” documents are proposed legislation and other Commission communications to other European institutions, and the Commission’s preparatory papers. “
+SEC
+” documents are internal documents of the Secretariat-General concerning the operations of Commission departments. Cite “
+COM
+” and “
+SEC
+” documents by the issuing body (unless clear from the title); the title; the pincite, if any; the “
+COM
+” or “
+SEC
+” number, which includes the year of publication in parentheses and the running number assigned to the document, if any; the word “
+final
+” (unless the version cited is not final); and the date:
+Commission Proposal for a Directive of the European Parliament and of the Council to Establish a New Financial Services Committee Organisational Structure
+, at 11, COM (2003) 659 final (Nov. 5, 2003).
+Proposal for a Regulation of the European Parliament and of the Council Concerning the Registration, Evaluation, Authorisation and Registration of Chemicals (Reach)
+, COM (2003) 644 final (Oct. 29, 2003).
+(b) Documents of the European Parliament.
+(i) Debates.
+Debates of the European Parliament are bound and published in the
+European Parliamentary Debates
+(
+Eur. Parl. Deb.
+). The debates are also published in the annex to the
+Official Journal of the European Union
+. It is acceptable to cite debates to the
+Official Journal
+(O.J.)
+before they are bound. Include in the citation the document number, the full date, and relevant information, including the name of the speaker, in parentheticals:
+Eur. Parl. Deb. (378) 4 (May 24, 1989) (remarks of Mr. Kuijpers).
+1975 O.J. (Annex 193) 123 (July 9, 1975) (remarks of President Ortoli).
+(ii) Documents.
+Cite documents to
+European Parliament Session Documents
+(
+Eur. Parl. Doc.
+) (entitled
+European Parliament Working Documents
+prior to 1988), if therein; otherwise cite
+Parlement Européen Documents de Séance
+(
+Parl. Eur. Doc.
+). Include the document number:
+Eur. Parl. Doc.
+(COM 258) 5 (1973).
+Parl. Eur. Doc.
+(SEC 64) 6 (1963).
+The name may be included as well:
+Resolution on Action Required Internationally to Provide Effective Protection for Indigenous Peoples,
+Eur. Parl. Doc.
+PV 58(II) (1994).
+(c) Founding treaties.
+Cite founding treaties according to
+rule 21.4.5
+:
+Treaty of Lisbon Amending the Treaty on European Union and the Treaty Establishing the European Community, Dec. 13, 2007, 2007 O.J. (C 306) 1 [hereinafter Treaty of Lisbon].
+Consolidated Version of the Treaty on the Functioning of the European Union art. 15, Oct. 16, 2012, 2012 O.J. (C 326) 47 [hereinafter TFEU].
+Treaty of Amsterdam Amending the Treaty on European Union, the Treaties Establishing the European Communities and Certain Related Acts, Oct. 2, 1997, 1997 O.J. (C 340) 1.
+Subsequent citations should use the appropriate short form:
+TFEU art. 177.
+Treaty of Lisbon arts. 4–5.
+Euratom Treaty art. 4.
+The Treaty of Lisbon renamed the Treaty Establishing the European Community (
+EC Treaty
+) to the Treaty on the Functioning of the European Union (TFEU) and renumbered its articles. For current references to the founding treaty, cite the
+TFEU
+according to its renumbered articles. To cite previous versions of the EU’s founding treaty, cite the name of the treaty, the article, the date (in parentheses), and the current number of the article as found in the
+TFEU
+(in parentheses), if still active:
+EC Treaty art. 49 (as in effect 2005) (now TFEU art. 56).
+EC Treaty art. 53 (as in effect 1994) (repealed by the Treaty of Amsterdam).
+EEC Treaty art. 30 (as in effect 1958) (now TFEU art. 34).
+(d) Reports, Green Papers, and White Papers.
+Cite reports from institutions and working groups within the European Union or European Communities according to
+rule 21.7.3
+. Include in the citation of reports the issuing body and the committee, division, or group that produced the report, if applicable. If a report is not given a document number, provide enough information to locate the document:
+Commission White Paper on European Governance
+, at 17, COM (2001) 482 final (July 25, 2001).
+Initial Report of the Committee of Wise Men on the Regulation of European Securities Markets
+, at 4 (Nov. 9, 2000),
+https://www.esma.europa.eu/sites/default/files/library/2015/11/lamfalussy_report.pdf
+(on file with the Harvard Law Review).
+White Papers, Green Papers, comments, notices, opinions, and proposals should also be cited as reports:
+Opinion of the Committee of the Regions on the "CoR Proposals for the Intergovernmental Conference
+,
+"
+2004 O.J. (C 32) 1, 2.
+If a source takes a form analogous to other reports and is not given the type of document number that Commission and Council acts are given (e.g.,
+Council Directive (EC) No. 2504/90
+), then it should be cited as a report.
+(e) Press releases, Presidency Conclusions, and memoranda.
+European Union and European Community press releases and memoranda should be cited by source (with an indication of the status of the press release, including a number if applicable); the title; and the date in parentheses:
+European Commission Press Release IP/14/650, The Commission, the Council and the Parliament Debate the Future of the European Union with Religious Leaders (June 10, 2014).
+Treat Presidency Conclusions of the Council like press releases and include the exact date as well as the meeting place of the Council:
+Presidency Conclusions, Brussels European Council (Dec. 12, 2003).
+(f) European Court of Justice materials.
+Cite European Court of Justice materials according to
+rule 21.5.2
+.

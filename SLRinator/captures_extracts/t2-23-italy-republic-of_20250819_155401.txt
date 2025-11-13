@@ -1,0 +1,177 @@
+TITLE: T2.23 Italy, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-23-italy-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.23
+Italy, Republic of
+(Civil Law)
+Cases
+Constitutional Court
+Citation format:
+<court name>
+[
+<English translation of court name>
+],
+<date of decision>, <decision number>, <optionally, URL of online publication on the Constitutional Court’s website>
+(
+<country abbreviation if not evident from context>
+).
+Corte Cost. [Constitutional Court], 5 December 2023, n. 225 (It.).
+Supreme Court of Cassation
+Citation format:
+<abbreviation of court name> <either section of the court in Roman numbers or united sections>, <type of court (either civil, shortened as “civ.” for
+civile
+, or criminal, shortened as “pen.” for
+penale
+)>
+[
+<English translation of court name>
+],
+<date of decision>, <decision number>, <review or other location where the decision is published>
+(
+<country abbreviation if not evident from context>
+).
+Cass. Civ., Sez. II [Court of Cassation], 28 March 2024, n. 8440 (It.).
+Cass. Civ., Sez. Un. [Court of Cassation], 19 March 2024, n. 7337 (It.).
+State Council
+Citation format:
+<court name>
+[
+<English translation of court name>
+],
+<number of the section issuing the decision in Roman numbers>, <clarify whether the act is
+not
+a decision>, <date of decision>, <decision number>, <optionally, URL of online publication on the State Council’s website>
+(
+<country abbreviation if not evident from context>
+).
+Decision:
+Cons. Stato [Council of State], Sez. VII, 10 November 2023, n. 11395 (It.).
+Action other than a decision:
+Cons. Stato [Council of State], Sez. VII, ordinance,15 December 2023, n. 11396 (It.).
+Other Courts
+For other courts, including intermediary appellate (
+Corte d’Apello
+, shortened as
+App.
+) and first-instance courts (
+Tribunale
+, shortened as
+Trib
+.), use the following format, to the extent applicable:
+<court name>
+[
+<English translation of court name>
+],
+<date of decision>, <decision number>, <review or other location where the decision is published>
+(
+<country abbreviation if not evident from context>
+).
+For Italian courts and their English translations, consult the following table:
+Tribunale Amministrativo Regionale
+Regional Administrative Court
+Tribunale per i Minorenni
+Juvenile Court
+Corte d’Assise
+Assize Court
+Corte d’Assise d’Appello
+Assize Court of Appeal
+Tribunale di Sorveglianza
+Surveillance Court
+Giudice di Pace
+Small Claims Judge
+Constitution
+The Constitution of the Italian Republic came into effect on January 1, 1948. An English translation of the Constitution can be found on this page:
+https://www.senato.it/istituzione/la-costituzione
+.
+Costituzione Italiana [Constitution of the Italian Republic], Art. 1 (It.)
+Laws, Executive Decrees, and Decisions
+Citation format:
+<article, paragraph>, <name of law or decree>
+[
+<English translation of law or decree>
+],
+<number of law or decree, if available>, <date of law or decree, if available>
+(
+<country abbreviation if not evident from context>
+).
+Art. 1321 Cod. Civ. [Italian Civil Code] (It.)
+Art. 4, Decreto Legislativo [Legislative Decree], n. 385, 1 September 1993 (It.).
+For main different types of decrees and legislative, executive, and administrative decisions, consult the following table:
+Decreto legge
+D.L.
+Law-Decree
+Decreto legislativo
+D.Lgs.
+Legislative Decree
+Decreto ministeriale
+d.m.
+Ministerial Decree
+Decreto Presidente della Repubblica
+D.P.R.
+Presidential Decree
+Legge
+L.
+Law
+Legge Costituzionale
+L. Const.
+Constitutional Law
+Ordinanza
+ord.
+Ordinance
+Regio decreto (prior to 1942 only)
+R.D.
+Royal Decree
+For commonly referenced Italian laws and decrees and their English translations, consult the following table:
+Codice civile
+c.c. or Cod. Civ.
+Civil Code
+Codice penale
+c.p. or Cod. Pen.
+Criminal Code
+Codice di procedura civile
+c.p.c. or Cod. Civ. Pro.
+Civil Procedure Code
+Codice di procedura penale
+c.p.p. or Cod. Pen. Pro.
+Criminal Procedure Code
+Codice della Crisi d’Impresa e dell’Insolvenza
+CCII
+Business Crisis and Insolvency Code
+Legge Fallimentare
+L. Fall.
+Bankruptcy Law
+Testo Unico Bancario
+T.U.B.
+Consolidated Law on Banking
+Testo Unico della Finanza
+T.U.F.
+Consolidated Law on Finance
+Internet sources
+https://www.quirinale.it
+(Office of the President of the Italian Republic)
+https://www.senato.it/home
+(Italian Senate)
+https://www.camera.it/leg19/1
+(Italian Chamber of Deputies)
+https://www.gazzettaufficiale.it
+(Official Gazette)
+https://www.normattiva.it
+(Official website on Italian laws, decrees, regulations, etc.)
+https://dejure.it/#/home
+(legal database; paid subscription)
+https://www.wolterskluwer.com/it-it/solutions/one/onelegale
+(legal database; paid subscription)
+https://www.foroplus.it/home/
+(legal database; paid subscription)

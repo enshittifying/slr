@@ -1,0 +1,34 @@
+TITLE: Department of the Interior (p.265)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-2-federal-administrative-and-executive-materials
+  slug: department-of-the-interior
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Department of the Interior
+(p.265)
+Cite agency decisions to
+Interior Decisions
+(
+Interior Dec.
+) or
+Interior and General Land Office Cases Relating to Public Lands
+(
+Pub. Lands Dec.
+), if published therein, as per
+rule 14.3
+.
+Where a board within the agency issues the opinion, note the board in the same parenthetical as the date, using the abbreviations below:
+Fortune Oil Co., 90 Interior Dec. 84 (IBLA 1983).
+Interior Board of Land Appeals
+IBLA
+Interior Board of Indian Appeals
+IBIA

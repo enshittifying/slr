@@ -1,0 +1,220 @@
+TITLE: South Carolina (S.C.) (pp. 313–14)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-3-states-and-the-district-of-columbia
+  slug: south-carolina-s-c
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+South Carolina (S.C.)
+(pp. 313–14)
+https://www.sccourts.org/
+https://www.scstatehouse.gov/code/statmast.php
+Supreme Court
+after 1868 (
+S.C.
+): Cite to
+S.E.
+or
+S.E.2d
+, if therein.
+South Eastern Reporter
+1887–date
+S.E., S.E.2d
+South Carolina Reports
+1868–date
+S.C.
+Court of Appeals
+(
+S.C. Ct. App.
+): Cite to
+S.E.2d
+, if therein.
+South Eastern Reporter
+1983–date
+S.E.2d
+South Carolina Reports
+1983–date
+S.C.
+Courts of law
+before 1868: Cite to
+S.C.L.
+South Carolina Law Reports
+Richardson (37–49)
+1850–1868
+e.g.
+,
+37 S.C.L. (3 Rich.)
+Strobhart (32–36)
+1846–1850
+e.g.
+,
+32 S.C.L. (1 Strob.)
+Richardson (30–31)
+1844–1846
+e.g.
+,
+30 S.C.L. (1 Rich.)
+Speers (28–29)
+1842–1844
+e.g.
+,
+28 S.C.L. (1 Speers)
+McMullan (26–27)
+1840–1842
+e.g.
+,
+26 S.C.L. (1 McMul.)
+Cheves
+1839–1840
+25 S.C.L. (Chev.)
+Rice
+1838–1839
+24 S.C.L. (Rice)
+Dudley
+1837–1838
+23 S.C.L. (Dud.)
+Riley
+1836–1837
+22 S.C.L. (Ril.)
+Hill (19–21)
+1833–1837
+e.g.
+,
+19 S.C.L. (1 Hill)
+Bailey (17–18)
+1828–1832
+e.g.
+,
+17 S.C.L. (1 Bail.)
+Harper
+1823–1824
+16 S.C.L. (Harp.)
+McCord (12–15)
+1821–1828
+e.g.
+,
+12 S.C.L. (1 McCord)
+Nott and McCord (10–11)
+1817–1820
+e.g.
+,
+10 S.C.L. (1 Nott & McC.)
+Mill (Constitutional) (8–9)
+1817–1818
+e.g.
+,
+8 S.C.L. (1 Mill)
+Treadway (6–7)
+1812–1816
+e.g.
+,
+6 S.C.L. (1 Tread.)
+Brevard (3–5)
+1793–1816
+e.g.
+,
+3 S.C.L. (1 Brev.)
+Bay (1–2)
+1783–1804
+e.g.
+,
+1 S.C.L. (1 Bay)
+Courts of equity
+before 1868: Cite to
+S.C. Eq.
+South Carolina Equity Reports
+Richardson’s Equity (24–35)
+1850–1868
+e.g.
+,
+24 S.C. Eq. (3 Rich. Eq.)
+Strobhart’s Equity (20–23)
+1846–1850
+e.g.
+,
+20 S.C. Eq. (1 Strob. Eq.)
+Richardson’s Equity (18–19)
+1844–1846
+e.g.
+,
+18 S.C. Eq. (1 Rich. Eq.)
+Speers’ Equity
+1842–1844
+17 S.C. Eq. (Speers Eq.)
+McMullan’s Equity
+1840–1842
+16 S.C. Eq. (McMul. Eq.)
+Cheves’ Equity
+1839–1840
+15 S.C. Eq. (Chev. Eq.)
+Rice’s Equity
+1838–1839
+14 S.C. Eq. (Rice Eq.)
+Dudley’s Equity
+1837–1838
+13 S.C. Eq. (Dud. Eq.)
+Riley’s Chancery
+1836–1837
+12 S.C. Eq. (Ril. Eq.)
+Hill’s Chancery (10–11)
+1833–1837
+e.g.
+,
+10 S.C. Eq. (1 Hill Eq.)
+Richardson’s Cases
+1831–1832
+9 S.C. Eq. (Rich. Cas.)
+Bailey’s Equity
+1830–1831
+8 S.C. Eq. (Bail. Eq.)
+McCord’s Chancery (6–7)
+1825–1827
+e.g.
+,
+6 S.C. Eq. (1 McCord Eq.)
+Harper’s Equity
+1824
+5 S.C. Eq. (Harp. Eq.)
+Desaussure’s Equity (1–4)
+1784–1817
+e.g.
+,
+1 S.C. Eq. (1 Des. Eq.)
+Statutory compilation
+Code of Laws of South Carolina 1976 Annotated
+S.C. Code Ann.
+§ x-x-x (
+<year>
+)
+Session laws
+Acts and Joint Resolutions, South Carolina
+<year>
+S.C. Acts
+<page no.>
+Administrative compilation:
+Administrative regulations appear in volumes 1–10 of
+S.C. Code Ann.
+This publication should not be confused with the statutory compilation of the same name, which also contains volumes 1–10.
+Code of Laws of South Carolina 1976 Annotated: Code of Regulations (West)
+S.C. Code Ann. Regs
+.
+<reg no.>
+(
+<year>
+)
+Administrative register
+South Carolina State Register
+<vol. no.>
+S.C. Reg.
+<page no.>
+(
+<month day, year>
+)

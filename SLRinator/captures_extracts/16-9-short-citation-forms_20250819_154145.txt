@@ -1,0 +1,134 @@
+TITLE: 16.9 Short Citation Forms (pp. 175–76)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-9-short-citation-forms
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.9
+Short Citation Forms
+(pp. 175–76)
+Once a work in a periodical has been cited in full, use “
+id
+.
+” or “
+supra
+” to refer to it in subsequent citations.
+(a)
+Id.
+If the work cited is the same as the immediately preceding authority within the same footnote or as the sole authority within the immediately preceding footnote, use “
+id
+.
+” and indicate any difference in page number:
+1
+Lynn Hirschberg,
+The Misfit
+,
+Vanity Fair
+, Apr. 1991, at 158.
+2
+See
+id.
+; Recent Case, 24
+Vand. L. Rev
+. 148, 148 (1970).
+3
+See generally
+Abram S. Benenson et al.,
+Reporting the Results of Human Immunodeficiency Virus Testing
+, 262 JAMA 3435 (1989) (stating that actual laboratory results are often obscured by incorrect information).
+4
+Id.
+at 3437.
+5
+See, e.g.
+, Bruce Ackerman,
+Robert Bork’s Grand Inquisition
+, 99
+Yale L.J
+. 1419 (1990) (book review).
+Compare
+id.
+(arguing against constitutional transformation by judicial appointment),
+with
+Book Note,
+Manual Labor, Chicago Style
+, 101
+Harv. L. Rev
+. 1323 (1988) (arguing against stylistic transformation by self-appointment).
+(b)
+Supra.
+Include the author’s last name before “
+supra
+”; when there is no author, use the title of the piece, or, if listed before or instead of a title, the designation of the piece. However, if the first citation to the work gives a hereinafter form (
+rule 4.2(b)
+), use the hereinafter form in place of the author’s name, the title, or the designation. Give the footnote in which the full citation appears unless the full citation is in the same footnote, in which case “
+supra
+” may be used without a footnote reference. In using a “
+supra
+” form, always indicate the page or pages cited except when citing the work in its entirety:
+6
+Ackerman,
+supra
+note 5, at 1425;
+see also
+New York County Lawyers Association: Edwin M. Otterbourg to Represent the Association in House of Delegates of American Bar Association
+, 124 N.Y.L.J. 1221 (1950) [hereinafter
+Otterbourg to Represent
+] (describing internal politics); Note,
+The Death of a Lawyer
+, 56
+Colum. L. Rev
+. 606, 607 (1956).
+7
+Recent Case,
+supra
+note 2, at 150.
+But see
+Randy E. Barnett,
+A Consent Theory of Contract
+, 86
+Colum. L. Rev
+. 269, 275 (1986) (noting circularity of reliance theory of contract); Jennifer Roback,
+Southern Labor Law in the Jim Crow Era: Exploitative or Competitive?
+, 51
+U. Chi. L. Rev.
+1161, 1164–65 (1984) (describing the importance of interaction between a competitive market and a racially biased government).
+8
+Cf.
+David Margolick,
+At the Bar: Elitist Yale Breaks Precedent and Invites a Symbol of Populism to Preside at a Legal Rite
+,
+N.Y. Times
+, Apr. 12, 1991, at B16 (describing the reaction to students’ decision to invite Judge Wapner to preside over a mock-trial competition at Yale).
+See generally
+Roback,
+supra
+note 7, at 1163 (outlining four basic types of legislation that aided enforcement of the labor-market cartel under Jim Crow laws).
+9
+See Book Note,
+supra
+note 5, for a cogent analysis of the more significant flaws in the competing theory.
+10
+Otterbourg to Represent
+,
+supra
+note 6;
+see also
+Note,
+supra
+note 6 (discussing problems that arise upon the death of a lawyer).
+But see
+Cop Shoots Tire, Halts Stolen Car
+,
+S.F. Chron
+., Oct. 10, 1975, at 43 (discussing the legal ramifications of the officer’s action).
+For materials available only online, use the normal short form appropriate for the source. A URL need not be repeated after a full citation.

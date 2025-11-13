@@ -1,0 +1,2069 @@
+TITLE: Index
+============================================================
+
+METADATA:
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Index
+Type To Search The Index
+C.F.R.
+,
+14.5
+C.M.L.R.
+(Common Market Law Reports)
+,
+21.5
+,
+T3.3
+California
+sources of law
+,
+T1.3
+Canada
+sources of national law
+,
+T2.6
+treaty source
+,
+T2.6
+Canadian Guide to Uniform Legal Citation
+,
+T2.6
+Canal Zone
+sources of law
+,
+T1.4
+Canon Law
+,
+T2.7
+Canons of Professional Responsibility
+,
+12.9
+Cantons, Swiss
+,
+T2.43
+Capitalization
+change in quotation, indication of
+,
+5.2
+court documents and legal memoranda
+,
+B8
+courts
+,
+8
+generally
+,
+8
+headings
+,
+8
+Internet main page titles and URLs
+,
+8
+party designations
+,
+B8
+people or groups, nouns referring to
+,
+8
+titles of books and articles
+,
+8
+,
+15.3
+,
+16.3
+titles of foreign documents
+,
+20.2
+Case comments in law reviews
+,
+16.7
+Case history
+(see
+History of cases
+)
+Case names
+abbreviations
+,
+T6
+abbreviations, in citations
+,
+T6
+abbreviations, in textual sentences
+,
+10.2
+administrative actions
+,
+T1.2
+“administrator,”
+omission of
+,
+10.2
+ampersand, use of in text
+,
+10.2
+appeal, when different on
+,
+10.7
+“appellee,”
+omission of
+,
+10.2
+arbitrations
+,
+14.3
+arbitrations, international
+,
+21.6
+“Ass’n,”
+abbreviation in text
+,
+10.2
+bankruptcy
+,
+10.2
+“Bros.,”
+abbreviation in text
+,
+10.2
+business firms
+,
+10.2
+citations, abbreviations in
+,
+T6
+cite first listed party only
+,
+10.2
+“Co.,”
+abbreviation in text
+,
+10.2
+Commissioner of Internal Revenue,
+as party
+,
+10.2
+Common Market cases
+,
+21.5
+common names, when different from name in reporter
+,
+10.2
+consolidated actions
+,
+10.2
+“Corp.,”
+abbreviation in text
+,
+10.2
+court documents and legal memoranda
+,
+B10.1
+“d/b/a,”
+omission of
+,
+10.2
+descriptive terms
+,
+10.2
+different on appeal
+,
+10.7
+“estate of,”
+10.2
+“et al.,”
+10.2
+European Court of Justice
+,
+21.5
+,
+21.9
+“
+ex parte
+,”
+10.2
+“
+ex rel.
+,”
+10.2
+“executor,”
+omission of
+,
+10.2
+first word, retention in full
+,
+10.2
+foreign cases
+,
+20.3
+generally
+,
+6.1
+,
+8
+,
+10.2
+,
+B10.1
+geographical terms
+,
+10.2
+given names and initials of parties
+,
+10.2
+“
+id.
+,”
+use of
+,
+10.9
+“
+In re
+,”
+10.2
+in rem actions
+,
+10.2
+“Inc.,”
+abbreviation in text
+,
+10.2
+“Inc.,”
+when omitted
+,
+10.2
+Internal Revenue Commissioner, as party
+,
+10.2
+international arbitrations
+,
+21.6
+International Court of Justice
+,
+21.5
+“Judgment of,”
+10.2
+Latin words italicized
+,
+10.2
+“licensee,”
+omission of
+,
+10.2
+“Ltd.,”
+abbreviation in text
+,
+10.2
+“Ltd.,”
+when omitted
+,
+10.2
+mandamus actions
+,
+10.2
+multiple dispositions, when indicated
+,
+10.2
+“No.,”
+abbreviation in text
+,
+10.2
+omissions in
+,
+10.2
+parenthetical indication of alternate name
+,
+10.2
+parties, only first–listed named
+,
+10.2
+partnerships
+,
+10.2
+Permanent Court of International Justice
+,
+21.5
+popular names
+,
+10.2
+procedural phrases
+,
+10.2
+real property, as party
+,
+10.2
+running heads, words omitted in
+,
+10.2
+short citation form, to entire decision
+,
+10.9
+short forms
+,
+10.9
+short names
+,
+10.2
+state as party in state court decision
+,
+10.2
+surnames
+,
+10.2
+textual references
+,
+10.2
+“The,”
+omission of
+,
+10.2
+transcripts
+,
+10.8
+“trustee,”
+omission of
+,
+10.2
+typeface used in court documents
+,
+2
+,
+B2
+typeface used in law review citations
+,
+2
+,
+2.1
+typeface used in law review text
+,
+2.2
+unions as parties
+,
+10.2
+“Will of,”
+10.2
+Case notes in law reviews
+,
+16.7
+Case number
+administrative cases
+,
+14.3
+appeal or petition for certiorari
+,
+10.8
+court documents
+,
+10.8
+Federal Cases
+,
+T1.1
+pending cases
+,
+10.8
+unreported cases
+,
+10.8
+Case writeups
+citation of
+,
+16.7
+cited with case
+,
+1.6
+Cases
+(see also individual jurisdiction or court)
+administrative actions
+,
+14.2
+appeal docketed
+,
+10.1
+appeal, disposition on
+,
+10.1
+arbitrations
+,
+21.5
+,
+21.6
+bankruptcy
+,
+10.2
+,
+10.4
+basic citation forms
+,
+10
+,
+10.1
+before decision
+,
+10.1
+Bloomberg
+,
+18.4
+briefs, citation of
+,
+10.8
+British
+,
+T2.46
+certiorari, citation of petition for
+,
+10.8
+citation order
+,
+1.4
+citation to particular page
+,
+3.2
+citation, basic forms of
+,
+10.1
+citation, components of
+,
+10
+,
+10.1
+civil law (foreign)
+,
+20.3
+commentary on, cited with case
+,
+1.6
+common law (foreign)
+,
+20.3
+components of citations
+,
+10
+,
+10.1
+computerized research services
+,
+18.4
+concurring opinion
+,
+10.6
+,
+B10.1
+country, indication of
+,
+20.1
+court of decision
+,
+10.4
+court of decision, abbreviations
+,
+T7
+court of decision, American
+,
+10.4
+court of decision, other jurisdictions
+,
+20.3
+court, when indicated
+,
+10.4
+dates
+,
+10.5
+denial of rehearing
+,
+10.7
+dictum
+,
+10.6
+different name on appeal
+,
+10.7
+dissenting opinion
+,
+10.6
+,
+B10.1
+docket number
+,
+10.8
+dual citation of sources
+,
+10.3
+electronic databases
+,
+18.4
+England
+,
+T2.46
+European Union
+,
+21.9
+explanatory phrases
+,
+10.7
+federal court
+,
+T1.1
+filed
+,
+10.1
+foreign
+,
+20.3
+history on remand
+,
+10.6
+,
+10.7
+history, prior and subsequent
+,
+10.7
+in rem
+,
+10.2
+,
+B10.1
+in-chambers opinions
+,
+10.6
+interim orders
+,
+10.1
+international and world organization
+,
+21.13
+,
+21.14
+,
+B21
+international arbitrations
+,
+21.5
+,
+21.6
+,
+T5
+International Court of Justice
+,
+21.5
+,
+T3.1
+Internet sources
+,
+18.4
+italicization of names in court documents
+,
+B2
+italicization of names in text
+,
+2.2
+italicization of procedural phrases in citations
+,
+2.1
+italicized words in history of
+,
+10.7
+,
+T8
+Judge or Justice writing opinion
+,
+10.6
+LEXIS, cited to
+,
+18.4
+medium-neutral citation
+,
+10.3
+memoranda, citations to
+,
+17.2
+memorandum decision
+,
+10.6
+motions, citation to
+,
+10.8
+name cited as in official report
+,
+10.2
+named in text, initial and subsequent citation
+,
+10.2
+,
+10.9
+names
+,
+10.1
+,
+10.2
+newspapers, cited in
+,
+16.6
+no name, citation of
+,
+10.2
+non-common-law
+,
+20.3
+number of case
+,
+10.8
+official reporters, when cited
+,
+10.3
+online
+,
+10.8
+order within signal
+,
+1.4
+,
+B1.2
+page citations
+,
+3.2
+parallel citation of sources
+,
+10.3
+,
+B10.1
+parenthetical information
+,
+10.6
+pending
+,
+10.8
+per curiam decisions
+,
+10.6
+periodicals, when cited
+,
+10.8
+Permanent Court of International Justice
+,
+21.5
+,
+T3.2
+plurality opinion
+,
+10.6
+prior history
+,
+10.7
+procedural phrases
+,
+10.2
+public domain format
+,
+10.3
+published decision
+,
+10.1
+records, citation of
+,
+10.8
+releases of administrative agencies, cited to
+,
+14.3
+repeating citations of
+,
+10.9
+reporters
+,
+10.3
+reporters, defined
+,
+10.3
+reporters, reprinted
+,
+10.3
+services, appearing in
+,
+10.1
+services, when cited
+,
+10.3
+short citation form
+,
+10.9
+slip opinions, reported in
+,
+10.8
+,
+10.9
+state courts
+,
+T1.3
+statutory material, cited with
+,
+1.6
+subsequent history
+,
+10.6
+,
+10.7
+transcript of record, citations to
+,
+10.8
+Tribal Nations
+,
+B22.2
+typeface used in court documents
+,
+B2
+typeface used in law review citations
+,
+2
+,
+2.1
+typeface used in law review text
+,
+2.2
+unofficial reporter, when cited
+,
+14.3
+unreported
+,
+10.8
+weight of authority
+,
+10.6
+,
+10.7
+,
+B10.1
+Westlaw, cited to
+,
+10.8
+year of decision
+,
+B10.1
+Catholic Church, codes
+,
+T2.7
+CD-ROM
+,
+18.5
+Certiorari
+applied for, granted, denied
+,
+10.1
+,
+10.7
+,
+B10.1
+indication in case history
+,
+10.7
+,
+B10.1
+petition, citation of
+,
+10.8
+“
+sub nom.
+”
+not used
+,
+10.7
+“
+Cf.,
+”
+as signal
+,
+1.2
+,
+B1.2
+“Chancellor,”
+abbrevation of
+,
+T11
+Chapters
+,
+12.3
+codes, statutory
+,
+3.3
+number, when given for federal statute
+,
+3.3
+,
+12.3
+“Chapter(s),”
+abbreviation of
+,
+T16
+Charters, international organizations
+,
+21.4
+“Chief Baron,” “Justice,” “Judge,”
+abbreviation of
+,
+T11
+Chile, Republic of
+sources of national law
+,
+T2.8
+China, People’s Republic of
+sources of national law
+,
+T2.9
+Circuit courts of appeals
+(see also
+Courts
+)
+,
+10.4
+Circuit courts, old federal
+,
+10.4
+Circuit Justices
+,
+T1.1
+“Circuit,”
+capitalization of
+,
+8
+"Citation modified," in parenthetical
+,
+B5.3
+Citation of commentary with case or book
+,
+1.6
+Citation order
+,
+1.2
+,
+1.3
+,
+1.4
+Citation sentences and clauses
+,
+1.1
+Citations
+(see also specific types of material)
+,
+23.1
+abbreviations of case names
+,
+T6
+analogous authority
+,
+1.2
+authentic or official online documents
+,
+18.1
+,
+18.2
+authoritativeness, order within citation
+,
+1.4
+,
+B1.2
+authorities
+,
+B1.2
+background authority
+,
+1.2
+comparing authorities
+,
+1.2
+contradictory proposition
+,
+1.2
+court documents and legal memoranda
+,
+BT1
+direct contradiction
+,
+1.2
+direct support
+,
+1.2
+footnotes
+,
+1.1
+,
+B10.1
+law review text and footnotes
+,
+1.1
+material cited more than once
+,
+21.17
+numerous authorities
+,
+3.5
+,
+4.1
+omission from quotation, indication of
+,
+5.3
+opposing proposition
+,
+1.2
+order of
+,
+1.4
+,
+B1.2
+pages
+,
+3.2
+parenthetical explanations
+,
+1.5
+placement
+,
+B1.2
+placement after quotation
+,
+5.1
+punctuation of
+,
+3.2
+quotations
+,
+5.1
+related authority
+,
+1.6
+repeating citations
+,
+3.5
+,
+4.1
+,
+4.2
+sampling of authorities
+,
+1.2
+signals in
+,
+1.2
+,
+1.3
+string citations
+,
+1.1
+subdivisions
+,
+3.1
+,
+3.3
+supplementary material
+,
+1.2
+supporting proposition
+,
+1.2
+typeface used
+,
+2.1
+weight of
+,
+10.6
+Citations analyzed
+,
+23.1
+archival
+,
+23.1
+books
+,
+15
+cases
+,
+10.6
+,
+B10.1
+constitutions
+,
+11
+periodical materials
+,
+16
+regulations
+,
+14.1
+rules
+,
+14.1
+statutes
+,
+12.2
+treaties
+,
+21.4
+United Nations materials
+,
+21.7
+“
+Cited in,
+”
+use of
+,
+1.6
+“
+Citing,
+”
+in case parentheticals
+,
+10.6
+City and county ordinances
+,
+12.9
+“City of,”
+when omitted in case names
+,
+10.2
+Civil law jurisdictions
+(see also name of jurisdiction)
+cases
+,
+20.3
+codes
+,
+20.5
+constitutions
+,
+20.4
+statutes
+,
+20.5
+Civil Rights Act of 1964
+,
+13.6
+“Clause(s),”
+abbreviation of
+,
+T16
+Clean Air Act
+,
+13.6
+Closing up of abbreviations
+,
+6.1
+“Co.,”
+in case names
+,
+10.2
+,
+T6
+,
+B10.1
+Code of Federal Regulations
+(C.F.R.)
+,
+14.5
+Code of Justinian
+,
+T2.36
+Code of Theodosius
+,
+T2.36
+“Code,”
+capitalization of
+,
+8
+Code, Internal Revenue
+(see
+Internal Revenue Code
+)
+Codes
+(see also
+Statutes
+)
+abbreviations
+,
+12.9
+administrative compilations
+,
+14.2
+appendices
+,
+12.3
+appendix with reprinted statute
+,
+12.3
+basic citation forms
+,
+12.1
+chapters
+,
+12.3
+compilations of
+,
+12.3
+components of citation
+,
+12.1
+date
+,
+12.3
+editors
+,
+12.3
+electronic databases
+,
+12.5
+ethics
+,
+12.9
+federal
+,
+12
+,
+12.1
+,
+12.2
+,
+12.3
+foreign
+(see also name of jurisdiction)
+,
+20.5
+future location of statutes
+,
+12.6
+historical fact of enactment
+,
+12.2
+Internal Revenue
+,
+12.9
+,
+B12.1
+legislative materials
+,
+13.5
+,
+13.6
+,
+13.7
+,
+13.8
+LEXIS
+,
+18.4
+materially different from statute
+,
+12.2
+official and unofficial
+,
+12.3
+ordinances, city
+,
+12.9
+ordinances, county
+,
+12.9
+ordinances, municipal
+,
+12.9
+parallel citation to
+,
+12.3
+pocket parts
+,
+12.3
+positive law, enacted into
+,
+12.2
+publishers of
+,
+12.3
+Roman law
+,
+T2.36
+scattered sections
+,
+3.3
+,
+12.2
+secondary sources cited to
+,
+12.6
+sections cited
+,
+3.3
+state
+(see also name of individual state)
+,
+T1.3
+statutes, when cited to
+,
+12
+,
+12.1
+,
+12.2
+,
+12.3
+subject-matter
+,
+12.3
+supplements
+,
+12.3
+tax materials
+,
+12.9
+,
+B12.1
+titles
+,
+12.3
+Treasury materials
+,
+T1.2
+Tribal Nations
+,
+22.2
+,
+B22.2
+typeface used
+,
+12.1
+uncodified laws
+,
+12.3
+uniform acts
+,
+12.9
+unofficial, differently numbered
+,
+12.3
+volumes
+,
+12.3
+Westlaw
+,
+12.5
+which to cite
+,
+12.2
+year
+,
+12.3
+Codification
+session laws, parenthetical indication of
+,
+12.4
+Collected works
+citation of works in
+,
+15.5
+editor
+,
+15.4
+,
+15.5
+“
+id.
+”
+short form
+,
+15.10
+“
+in
+,”
+used to introduce collection
+,
+1.6
+parallel citation to, using
+“
+reprinted in
+,”
+1.6
+“
+supra
+”
+short form
+,
+15.10
+Colloquia, in periodicals
+,
+16.7
+Colombia
+sources of national law
+,
+T2.10
+Colorado
+citation rules and style guides
+,
+BT2.1
+,
+BT2.2
+sources of law
+,
+T1.3
+“Column(s),”
+abbreviation of
+,
+T16
+Comma
+citing commentary with case or statute
+,
+1.6
+citing multiple sections of code
+,
+3.3
+“compare . . . with”
+signal
+,
+1.2
+italicization
+,
+2.1
+,
+T8
+periodical names
+,
+T13
+titles ending in dates
+,
+3.2
+,
+15.3
+Command number, English
+,
+T2.46
+Command Papers, English
+,
+T2.46
+“Comment,”
+abbreviation of
+,
+T16
+“Comment,”
+designating student work
+,
+16.7
+Commentaries & special article designations
+,
+16.7
+Commentary
+citation of
+,
+1.6
+Comments
+model codes
+,
+12.9
+periodicals
+,
+16.7
+restatements
+,
+12.9
+rules of ethics
+,
+12.9
+sentencing guidelines
+,
+12.9
+standards
+,
+12.9
+Commerce Clearing House
+(CCH)
+services
+(see also
+Services and topical reporters
+)
+,
+19.1
+,
+T15
+Commerce Court
+,
+T1.1
+,
+T7
+Commercial electronic databases
+(see
+Electronic databases
+)
+Commissioner of Internal Revenue, in case names
+,
+10.2
+“Commissioner,”
+abbreviation of
+,
+T11
+Committee materials, U.N.
+,
+21.7
+Committee prints
+,
+13.4
+Common law jurisdictions
+(see also name of jurisdiction)
+,
+B20
+cases
+,
+20.3
+codes
+,
+20.5
+constitutions
+,
+20.4
+statutes
+,
+20.5
+Common Market Law Reports
+(C.M.L.R.)
+,
+21.5
+,
+T3.3
+Common Market materials
+,
+21.5
+,
+T3.3
+Common Market Reporter
+,
+21.5
+,
+T3.3
+“Commonwealth of”
+capitalization
+,
+8
+when omitted in case names
+,
+10.2
+“
+Compare . . . with . . . ,
+”
+as signal
+,
+1.2
+,
+B1.2
+Compilations
+administrative regulations
+,
+14.2
+treaties
+,
+T4.1
+,
+T4.2
+,
+T4.3
+Compilations of statutes
+(see also
+Codes
+,
+Statutes
+)
+federal
+,
+12.1
+,
+12.2
+,
+12.3
+,
+12.4
+foreign
+(see also name of jurisdiction)
+,
+20.5
+state
+,
+T1.3
+Compiler of codes
+,
+12.3
+Computerized research services
+(see
+Electronic databases
+)
+Concurrent resolutions
+,
+13.1
+,
+13.2
+Concurring opinions
+,
+10.6
+,
+B10.1
+“Congress,”
+capitalization of
+,
+8
+Congressional debates
+,
+13.1
+,
+13.5
+Congressional Globe
+,
+13.5
+Congressional materials
+bills and resolutions
+,
+13.1
+,
+13.2
+committee prints
+,
+13.4
+concurrent resolutions
+,
+13.1
+,
+13.2
+debates
+,
+13.1
+,
+13.5
+documents
+,
+13.4
+hearings
+,
+13.3
+joint resolutions
+,
+13.1
+,
+13.2
+parallel citations
+,
+13.2
+reports
+,
+13.4
+resolutions
+,
+13.1
+,
+13.2
+secondary authority
+,
+13.1
+,
+13.6
+unnumbered documents
+,
+13.4
+Congressional Record
+daily edition
+,
+13.1
+,
+13.5
+debates
+,
+13.5
+permanent edition
+,
+13.5
+resolutions cited to
+,
+B13
+Conjunctions, capitalization of
+,
+8
+Connecticut
+citation rules and style guides
+,
+BT2.2
+sources of law
+,
+T1.3
+Consecutive pages or footnotes, citation of
+,
+3.2
+Consecutive sections of codes
+,
+3.3
+Consolidated actions, case names
+,
+10.2
+Constitutions
+,
+B11
+amended provisions
+,
+11
+capitalization of parts of
+,
+8
+electronic databases and online sources
+,
+11
+federal and state
+,
+11
+foreign
+(see also name of jurisdiction)
+,
+20.4
+generally
+,
+11
+repealed provisions
+,
+11
+short form
+,
+11
+subdivision
+,
+11
+superseded
+,
+11
+Tribal Nations
+,
+22.2
+,
+B22.2
+typeface in footnotes
+,
+11
+“Construed in,”
+use of
+,
+1.6
+“Construing,”
+use of
+,
+1.6
+“Contra,”
+as signal
+,
+1.2
+"Contrast . . . with . . .," as signal
+,
+1.2
+,
+B1.2
+Conventions, international
+,
+21.4
+“Corp.,”
+in case names
+,
+10.2
+Corporations
+abbreviations
+,
+10.2
+authors
+,
+15.1
+case names
+,
+10.2
+Corpus Juris Secundum
+(C.J.S.)
+,
+15.8
+Council of Europe materials
+,
+21.10
+Countries
+(see also name of jurisdiction)
+abbreviated in case names
+,
+10.2
+abbreviated in international arbitrations
+,
+21.6
+abbreviated in international law cases
+,
+21.5
+abbreviated in treaty citations
+,
+21.4
+abbreviations of
+,
+T10.3
+County and city ordinances
+,
+12.9
+Court administrative orders
+,
+10.8
+Court documents and legal memoranda
+abbreviations of documents in
+,
+BT1
+audio recordings of court proceedings
+,
+10.8
+block quotations in
+,
+B5.2
+books, citations to
+,
+B15.1
+capitalization in
+,
+B8
+cases, citations to
+,
+B10.1
+constitutions, citations to
+,
+B11
+Electronic Case Filings
+,
+10.8
+explanatory parentheticals in
+,
+B1.3
+federal taxation materials, citations to
+,
+B12.1
+Internal Revenue Code, citations to
+,
+B12.1
+legislative materials, citations to
+,
+B13
+parallel citations in
+,
+B10.1
+periodical materials, citations to
+,
+B1.2
+,
+B16.1
+short forms in
+,
+B17.2
+,
+B18.2
+signals in
+,
+B1.1
+,
+B1.2
+statutes, citations to
+,
+B12.1
+typeface of citations in
+,
+B2
+Court filings
+,
+10.8
+Court of Claims
+,
+T1.1
+Court of Customs and Patent Appeals
+,
+T1.1
+Court of decision
+abbreviations
+,
+T7
+American
+,
+10.4
+civil law jurisdictions
+,
+20.3
+common law jurisdictions
+,
+20.3
+international arbitrations
+,
+21.6
+International Court of Justice cases
+,
+21.5
+international courts and tribunals
+,
+21.5
+state
+,
+10.4
+when indicated
+,
+10.4
+,
+20.3
+when omitted
+,
+10.4
+Court of International Trade
+,
+T1.1
+Court of Justice of the European Union
+,
+21.5
+,
+T3.3
+Court of Military Appeals
+,
+T1.1
+“Court,”
+capitalization of
+,
+8
+Courts
+(see also name of court or jurisdiction)
+abbreviations
+,
+T7
+administrative orders
+,
+10.8
+Appeals for the Armed Forces, Court of
+,
+T1.1
+Appeals, District of Columbia Circuit, Court of
+,
+10.4
+,
+T1.1
+Appeals, District of Columbia Municipal Court of
+,
+T1.3
+appeals, United States courts of
+,
+10.4
+,
+T1.1
+Arbitration, Permanent Court of
+,
+T5
+bankruptcy
+,
+10.4
+,
+T1.1
+bankruptcy appellate panels
+,
+10.4
+,
+T1.1
+Board of Tax Appeals
+,
+T1.1
+circuit courts, old federal
+,
+T1.1
+Circuit Justices
+,
+T1.1
+civil law countries
+(see also name of jurisdiction)
+,
+20.3
+Claims Court
+,
+T1.1
+Commerce Court
+,
+T1.1
+common law countries
+(see also name of jurisdiction)
+,
+20.3
+Court of Appeals for the Armed Forces, Court of
+,
+T1.1
+Court of First Instance
+,
+21.5
+,
+T3.3
+Court of Justice of the European Union
+,
+21.5
+,
+T3.3
+Customs and Patent Appeals, Court of
+,
+T1.1
+district, federal
+,
+10.4
+,
+T1.1
+Emergency Court of Appeals
+,
+T1.1
+English
+,
+T2.46
+European Court of Human Rights
+,
+T3.5
+federal
+,
+T1.1
+foreign countries
+(see also name of jurisdiction)
+,
+20.3
+Foreign Intelligence Surveillance Court
+,
+10.4
+Foreign Intelligence Surveillance Court of Review
+,
+10.4
+foreign, language used in citation of
+,
+20.2
+,
+20.3
+General Court
+,
+21.5
+,
+T3.3
+Inter-American Commission on Human Rights
+,
+21.1
+,
+21.5
+,
+T3.6
+Inter-American Court of Human Rights
+,
+21.1
+,
+21.5
+,
+T3.7
+international
+,
+21.5
+International Court of Justice
+,
+21.5
+International Criminal Court
+,
+21.5
+International Criminal Tribunals
+,
+21.5
+International Trade, Court of
+,
+T1.1
+International Tribunal for the Law of the Sea
+,
+21.1
+,
+21.5
+Judicial Panel on Multidistrict Litigation
+,
+10.4
+,
+T1.1
+Military Appeals, Court of
+,
+T1.1
+Military Review, Courts of
+,
+T1.1
+Military Service Courts of Criminal Appeals
+,
+T1.1
+old circuit, federal
+,
+10.4
+,
+T1.1
+Pennsylvania, early federal and state
+,
+10.3
+Permanent Court of Arbitration
+,
+21.6
+Permanent Court of International Justice
+,
+21.5
+,
+T3.2
+Rail Reorganization Court
+,
+T1.1
+rules of evidence and procedure
+,
+12.9
+state
+,
+T1.3
+Tax Court
+,
+T1.1
+,
+T1.2
+Temporary Emergency Court of Appeals
+,
+T1.1
+terms
+,
+9
+territories
+,
+T1.4
+,
+T1.4
+U.S. Supreme
+(see
+United States Supreme Court
+)
+Courts of Military Review
+,
+T1.1
+Cross-references
+court documents and legal memoranda
+,
+B2
+generally
+,
+3.5
+groups of authorities previously cited
+,
+3.5
+,
+4.1
+order of authorities
+,
+1.4
+previous footnotes
+,
+3.5
+,
+4.1
+textual material in same work
+,
+3.5
+,
+4.1
+Cumulative Bulletin
+,
+T1.2
+,
+B12.1
+Customs Court
+,
+T1.1
+Czechia
+sources of national law
+,
+T2.11

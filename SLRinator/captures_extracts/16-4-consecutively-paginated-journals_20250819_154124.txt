@@ -1,0 +1,77 @@
+TITLE: 16.4 Consecutively Paginated Journals (pp. 167–68)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 16-periodical-materials
+  slug: 16-4-consecutively-paginated-journals
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+16.4
+Consecutively Paginated Journals
+(pp. 167–68)
+Cite works found within periodicals that are consecutively paginated throughout an entire volume by author, title of work, volume number, periodical name, first page of the work, page or pages on which specific material appears (
+rule 3.2(a)
+), and year enclosed in parentheses at the end of the citation. Consult
+tables T6
+,
+T10
+, and
+T13
+to abbreviate the names of periodicals:
+David Rudovsky,
+Police Abuse: Can the Violence Be Contained?
+,
+27 Harv. C.R.-C.L. L. Rev
+. 465, 500 (1992).
+Richard A. Epstein,
+The Supreme Court, 1987 Term—Foreword: Unconstitutional Conditions, State Power, and the Limits of Consent
+,
+102 Harv. L. Rev.
+4, 44 (1988).
+Kenneth W. Tsang et al.,
+A Cluster of Cases of Severe Acute Respiratory Syndrome in Hong Kong
+, 348
+NEJM
+1977, 1977 (2003).
+Pauline M. Ippolito & Alan D. Mathios,
+New Food Labeling Regulations and the Flow of Nutrition Information to Consumers
+, 12
+J. Pub. Pol’y & Mktg.
+188 (1993).
+Some journals maintain separate but consecutive pagination with different page numbering systems. Cite these journals as indicated above, but include the special numbering:
+Kenneth R. Feinberg,
+Mediation—A Preferred Method of Dispute Resolution
+, 16
+Pepp. L. Rev.
+S5, S14 n.19 (1989).
+Some journals publish special annual issues that do not conform to their consecutive pagination system. Cite these as indicated above but indicate the special issue designation parenthetically and use the numbering from the special issue:
+John Ferejohn & Charles Shipan,
+Congressional Influence on Bureaucracy
+, 6
+J.L. Econ. & Org
+. (
+Special Issue
+) 1 (1990).
+George A. Akerlof,
+Procrastination and Obedience
+, 81
+Am. Econ. Rev. (Papers & Proc
+.) 1 (1991).
+If the periodical has no volume number but is nonetheless consecutively paginated throughout each volume, use the year of publication as the volume number and omit the parenthetical reference to the year:
+Thomas R. McCoy & Barry Friedman,
+Conditional Spending: Federalism’s Trojan Horse
+, 1988
+Sup. Ct. Rev
+. 85, 100.
+Stephen D. Sugarman,
+Using Private Schools to Promote Public Values
+, 1991
+U. Chi. Legal F.
+171.

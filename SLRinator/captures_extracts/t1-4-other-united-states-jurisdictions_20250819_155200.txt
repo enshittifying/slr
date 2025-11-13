@@ -1,0 +1,24 @@
+TITLE: T1.4 Other United States Jurisdictions (p.325)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-united-states-jurisdictions
+  slug: t1-4-other-united-states-jurisdictions
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T1.4
+Other United States Jurisdictions
+(p.325)
+American Samoa
+Canal Zone (C.Z.)
+Guam (Guam)
+Northern Mariana Islands (N. Mar. I.)
+Puerto Rico (P.R.)
+Virgin Islands (V.I.)

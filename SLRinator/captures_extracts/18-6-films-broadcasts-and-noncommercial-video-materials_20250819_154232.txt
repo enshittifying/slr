@@ -1,0 +1,91 @@
+TITLE: 18.7 Videographic Media (pp. 193–95)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 18-the-internet-electronic-media-and-other-nonprint-resources
+  slug: 18-6-films-broadcasts-and-noncommercial-video-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+18.7
+Videographic Media
+(pp. 193–95)
+18.7.1 –
+Films
+When citing commercial films, documentaries, or other full-length movies, cite the name of the film in small capitals, the access medium, and timestamp (if applicable). Include the names of the individuals, company, or network that produced the film and the year of release in a parenthetical. If no access medium is available, the film should be made available on file and a parenthetical should be appended describing where it can be found.
+When citing a specific quote or scene, use time markers to designate pinpoint citations, using the phrase “,
+at XX:XX
+” or “,
+at XX:XX–XX:XX
+” immediately after the title.
+(a) Commercial.
+A commercial film is any film made for public release and made commercially available through distribution in theaters, or through others medium such as recordings or streaming:
+Field of Dreams
+, Blu-ray (Gordon Company 1989).
+Another Body
+, Amazon Prime, at 1:00:25 (Utopia 2023).
+(b) Noncommercial.
+A noncommercial film is any film made for non-commercial or artistic purposes.
+For noncommercial films, cite the person or institution that produced the film (if available), the name of the film in small capitals, the access medium (if available), the timestamp (if applicable), and the year of release:
+Alex Bateman,
+Walking on Tea Leaves
+(2024) (on file with the Columbia Law Review).
+Luis Buñuel,
+Un Chien Andalou
+, DVD (1929).
+18.7.2 –
+Television Series
+Cite a television series by the name of the series in small capitals with the relevant episode name (if applicable) in italics, followed by the access medium in a parenthetical. Include in the medium parenthetical the date of the broadcast or the date of release (or, if unknown, the date of access):
+The Queen’s Gambit
+(Netflix, accessed Nov. 7, 2024).
+Community
+:
+Remedial Chaos Theory
+(NBC television broadcast, aired Oct. 13, 2011).
+Bill Nye the Science Guy
+:
+The Planets
+(DVD, released 2001).
+18.7.3 –
+Live Streaming Media Services
+When possible, citation to a live stream or live broadcast should be made to the documented video of that live stream per
+rule 18.7.4
+. If no public recording of the live stream exists, the following format should be used and a recording should be stored on file. In this instance, a parenthetical must be appended to indicate where the recording can be found.
+(a) Commercial.
+Commercial live streams are any videos live streamed on a platform that requires payment for access to the platform or to the live stream itself. Cite a commercial live stream by the name of the broadcast and the timestamp (if applicable). Indicate parenthetically the platform on which the video was streamed and the original date of the stream. The video should be stored on file and a parenthetical should be appended describing where it can be found:
+NCAAW Iowa vs. South Carolina, at 1:49:50 (Fubo, aired Apr. 7, 2024, at 16:49 ET) (on file with the Yale Law Journal).
+(b) Noncommercial.
+Noncommercial live streams are any videos live streamed on a platform that is free to access for end users. Cite a noncommercial live stream by the name of the account that streamed the video in small capitals and the name of the stream in italics. Parenthetically provide the name of the streaming platform and include the date and start time of the stream (when possible) in the platform parenthetical. The video should be stored on file and a parenthetical should be appended describing where it can be found:
+DJAmber_D
+,
+Studio Session
+(Twitch, streamed Apr. 12, 2024, at 15:05 ET) (on file with the Columbia Law Review).
+18.7.4 –
+Web-Based Videos
+Web-based videos are videographic media originally published online. This does not include short-form social media content in the form of video, which should be cited in accordance with
+rule 18.10
+.
+For web-based videos, cite by the name of the account that posted the video using small capitals, the title of the video in italics, and the timestamp (if applicable). Indicate the platform where the video was uploaded and the date and time of the upload (when possible) in a parenthetical. The platform indicated should be the platform on which the video was first uploaded by the creator.
+Timestamps should be designated by pinpoint citations, using the phrase “,
+at XX:XX
+” or “,
+at XX:XX–XX:XX
+” immediately after the title of the video:
+hbomberguy
+,
+Plagiarism and You(Tube)
+, at 34:19 (YouTube, Dec. 2, 2023),
+https://www.youtube.com/watch?v=yDp3cB5fHXQ&t=8233s
+(on file with the University of Pennsylvania Law Review).
+International Bar Association
+,
+Black Lives Matter: A Challenge to the Law
+(Vimeo, June 17, 2020, at 04:49 ET),
+https://vimeo.com/429916976
+(on file with the Harvard Law Review).

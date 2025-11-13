@@ -1,0 +1,98 @@
+{
+  "timestamp": "2025-08-08T17:26:01.827715",
+  "successful": 10,
+  "failed": 6,
+  "results": [
+    {
+      "footnote": 1,
+      "name": "Alice Corp v CLS Bank",
+      "type": "case",
+      "file": "data/Sourcepull/FN001_Alice_Corp_v_CLS_Bank.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 3,
+      "name": "Mayo v Prometheus",
+      "type": "case",
+      "file": "data/Sourcepull/FN003_Mayo_v_Prometheus.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 4,
+      "name": "Diamond v Chakrabarty",
+      "type": "case",
+      "file": "data/Sourcepull/FN004_Diamond_v_Chakrabarty.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 5,
+      "name": "Bilski v Kappos",
+      "type": "case",
+      "file": "data/Sourcepull/FN005_Bilski_v_Kappos.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 6,
+      "name": "Gottschalk v Benson",
+      "type": "case",
+      "file": "data/Sourcepull/FN006_Gottschalk_v_Benson.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 7,
+      "name": "Parker v Flook",
+      "type": "case",
+      "file": "data/Sourcepull/FN007_Parker_v_Flook.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 8,
+      "name": "Diamond v Diehr",
+      "type": "case",
+      "file": "data/Sourcepull/FN008_Diamond_v_Diehr.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 15,
+      "name": "Myriad Genetics",
+      "type": "case",
+      "file": "data/Sourcepull/FN015_Myriad_Genetics.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 17,
+      "name": "KSR v Teleflex",
+      "type": "case",
+      "file": "data/Sourcepull/FN017_KSR_v_Teleflex.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 19,
+      "name": "Nautilus v Biosig",
+      "type": "case",
+      "file": "data/Sourcepull/FN019_Nautilus_v_Biosig.pdf",
+      "status": "success"
+    },
+    {
+      "footnote": 9,
+      "name": "State Street Bank",
+      "type": "case",
+      "status": "manual_needed",
+      "search_url": "https://scholar.google.com/scholar?q=State%20Street%20Bank%20149%20F.3d%201368%20filetype%3Apdf"
+    },
+    {
+      "footnote": 10,
+      "name": "AT&T v Excel",
+      "type": "case",
+      "status": "manual_needed",
+      "search_url": "https://scholar.google.com/scholar?q=AT%26T%20v%20Excel%20172%20F.3d%201352%20filetype%3Apdf"
+    },
+    {
+      "footnote": 11,
+      "name": "In re Bilski",
+      "type": "case",
+      "status": "manual_needed",
+      "search_url": "https://scholar.google.com/scholar?q=In%20re%20Bilski%20545%20F.3d%20943%20filetype%3Apdf"
+    }
+  ]
+}

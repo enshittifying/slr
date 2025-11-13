@@ -1,0 +1,33 @@
+TITLE: 20.1 Jurisdiction (p.207)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 20-foreign-materials
+  slug: 20-1-jurisdiction
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+20.1
+Jurisdiction
+(p.207)
+When citing any non-U.S. source, whether in English or in another language, indicate parenthetically the jurisdiction issuing the source, abbreviated according to
+table T10
+:
+Chase v. Campbell, [1962] S.C.R. 425 (Can.).
+Berry v. Dorsey
+(1975) 101 ALR 35 (Austl.).
+The parenthetical is located at the end of the citation but before any parallel citations, unless otherwise indicated in
+table T2
+:
+Canada Act, 1982, c 11 (U.K.),
+reprinted in
+R.S.C. 1985, app II, no 44 (Can.).
+Control of Fishing for Salmon Order 2024 (SI 81/2024) (Ir.),
+https://www.irishstatutebook.ie/pdf/2024/en.si.2024.0081.pdf
+(on file with author).

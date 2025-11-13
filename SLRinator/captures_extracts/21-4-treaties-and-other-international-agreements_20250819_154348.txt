@@ -1,0 +1,201 @@
+TITLE: 21.4 Treaties and Other International Agreements (pp. 215–19)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 21-international-materials
+  slug: 21-4-treaties-and-other-international-agreements
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+21.4
+Treaties and Other International Agreements
+(pp. 215–19)
+Citation of a treaty between two parties:
+Citation of a treaty among more than two parties:
+Citation of a convention published by an international organization:
+Organization of American States, American Convention on Human Rights, Nov. 22, 1969, O.A.S.T.S. No. 36, 1144 U.N.T.S. 123.
+U.N. Convention on the Law of the Sea, Dec. 10, 1982, 1833 U.N.T.S. 397.
+Citation of a founding document creating a new international court or organization:
+U.N. Charter art. 94, ¶ 1.
+League of Nations Covenant art. 16.
+A citation of a treaty or other international agreement—other than the U.N. Charter and the Covenant of the League of Nations—should include the agreement’s name (
+rule 21.4.1
+); the state parties, if applicable (
+rule 21.4.2
+); the subdivision referred to, if applicable (
+rule 21.4.3
+); the date of signing (
+rule 21.4.4
+); and the source(s) in which the treaty can be found (
+rule 21.4.5
+):
+Statute of the International Tribunal for the Law of the Sea art. 1, ¶ 2, Dec. 10, 1982, 1833 U.N.T.S. 561.
+Treaty with the Chickasaw Nation, Chickasaw Nation-U.S., Jan. 10, 1786, 7 Stat. 24.
+21.4.1 –
+Name of the Agreement
+Use the English-language version of a treaty name whenever possible. See
+rule 20.2.2
+regarding the treatment of treaties whose names are not in English.
+(a) First citation.
+The first citation of a treaty should contain its full name, including both its form (
+rule 21.4.1(a)(i)
+) and its subject matter (
+rule 21.4.1(a)(ii)
+):
+Convention for the Suppression of Unlawful Seizure of Aircraft, Dec. 16, 1970, 22 U.S.T. 1641, 860 U.N.T.S. 105.
+(i) Form of agreement.
+The title of the treaty should indicate the form of the agreement (e.g.,
+Agreement, Convention, Memorandum, Protocol, Treaty, Understanding
+). Use only the first form designation that appears on the title page, unless doing so would create ambiguity:
+Convention
+Not:
+Convention & Supplementary Protocol
+Cite lesser-included documents as subdivisions (
+rule 21.4.3
+).
+(ii) Subject matter.
+Use the subject-matter description that appears as part of the title of the agreement:
+Kyoto Protocol to the United Nations Framework Convention on Climate Change
+(b) Subsequent citations.
+If a treaty’s name is very long, or if the treaty is commonly known by a popular name, the first citation of the treaty should end with a bracketed “
+hereinafter
+” short form citation (
+rule 4.2(b)
+) to be used in all subsequent citations. The short form citation must be in the same typeface as the original:
+1
+Protocol for the Prohibition of the Use in War of Asphyxiating, Poisonous or Other Gases, and of Bacteriological Methods of Warfare, June 17, 1925, 26 U.S.T. 571 [hereinafter Geneva Protocol].
+3
+Geneva Protocol,
+supra
+note 1, at 572.
+21.4.2 –
+Parties to the Agreement
+When citing an agreement between two parties, indicate both parties, abbreviating their names according to
+table T10
+, but do not abbreviate the name of a Tribal Nation party:
+Japan-U.S.
+Fr.-Ger.
+Parties’ names should appear in alphabetical order:
+Agreement for Financing Certain Educational and Cultural Exchange Programs, Taiwan-U.S., Apr. 23, 1964, 15 U.S.T. 408.
+Treaty with the Apaches, Apache Nation-U.S., July 1, 1852, 10 Stat. 979.
+21.4.3 –
+Subdivisions
+When citing only part of an agreement, or when citing an appended document, give the subdivision or appended document:
+Treaty on Commerce and Navigation, Iraq-U.S., art. III, ¶ 2, Dec. 3, 1938, 54 Stat. 1790.
+Declaration on the Neutrality of Laos, Protocol, July 23, 1962, 14 U.S.T. 1104, 456 U.N.T.S. 301.
+When citing a subdivision, it is not necessary to include a pincite for the treaty series because the article, paragraph, or section number is sufficient. For a discussion of citations to subdivisions and appendices, see
+rules 3.3
+and
+3.4
+.
+21.4.4 –
+Date of Signing
+Give the exact date of signing:
+Protocol to Amend the Convention for the Suppression of the Traffic in Women and Children, Nov. 12, 1947, 53 U.N.T.S. 13.
+When multiple dates of signing are given for an agreement or exchange of notes between two parties, give the first and last dates of signing:
+Agreement on Weather Stations, Colom.-U.S., Apr. 27–May 13, 1964, 15 U.S.T. 1355.
+If a treaty was not signed on a single date, use the date on which the treaty was opened for signature, approved, ratified, or adopted, and indicate the significance of the date in italics:
+Treaty on the Non-Proliferation of Nuclear Weapons,
+opened for signature
+July 1, 1968, 21 U.S.T. 483, 729 U.N.T.S. 161.
+The date on which a treaty entered into force or other such date may be added parenthetically at the end of the citation if it is relevant:
+U.N. Convention on the Law of the Sea,
+opened for signature
+Dec. 10, 1982, 1833 U.N.T.S. 397 (entered into force Nov. 16, 1994).
+For abbreviations of the months of the year, see
+table T12
+.
+21.4.5 –
+Treaty Sources
+See
+table T4
+for a list of international treaty sources. Treaty sources of some foreign states are listed with the other materials of those states in
+table T2
+.
+(a) Agreements to which the United States is a party.
+(i) Bilateral treaties.
+For agreements between the United States and another party, cite one of the following sources, in the following order of preference:
+U.S.T.I.F.
+;
+T.I.A.S
+. (or
+T.S
+., or
+E.A.S.)
+;
+U.N.T.S
+.;
+Senate Treaty Documents
+or
+Senate Executive Documents
+;
+U.S.T.
+(or
+Stat.
+);
+the Department of State Dispatch
+;
+Department of State Press Releases
+. If the agreement has not appeared in one of these official sources, cite an unofficial treaty source (
+rule 21.4.5(c)
+):
+Treaty on the Limitation of Anti-Ballistic Missile Systems, U.S.-U.S.S.R., May 26, 1972, 23 U.S.T. 3435.
+Agreement on Defense and Economic Cooperation, Greece-U.S., at 4, Sept. 8, 1983, T.I.A.S. No. 10,814.
+Tax Convention, Fin.-U.S., Sept. 21, 1989,
+S. Treaty Doc
+No. 101-11.
+Memorandum of Understanding Regarding Bilateral Verification Experiment and Data Exchange Related to Prohibition of Chemical Weapons, U.S.-U.S.S.R., art. V(1), Sep. 23, 1989,
+Dep’t State Bull.
+, Nov. 1989, at 18 [hereinafter Chemical Weapons MOU].
+Cuban-American Treaty, Cuba-U.S., art. I, Feb. 16–23, 1903, T.S. No. 418.
+Agreement Regarding Mutual Assistance Between Their Customs Administrations, Ir.-U.S., art. 3, Sept. 16, 1996, 2141 U.N.T.S. 51.
+(ii) Multilateral treaties.
+For agreements among three or more parties to which the United States is a party, cite one of the U.S. domestic sources listed in
+rule 21.4.5(a)(i)
+, if therein. Additionally, a parallel citation may be added from one source published by an international organization (e.g.,
+U.N.T.S., L.N.T.S., O.A.S.T.S., Pan-Am. T.S., O.J., E.T.S.,
+or
+C.E.T.S.
+), if therein:
+North Atlantic Treaty art. 5, Apr. 4, 1949, 63 Stat. 2241, 34 U.N.T.S. 243.
+If none of these official sources can be obtained, cite an unofficial treaty source (
+rule 21.4.5(c)
+) or another reliable source where the treaty can be found.
+(b) Agreements to which the United States is not a party.
+Cite one source published by an international organization (
+rule 21.4.5(a)(ii)
+), if therein:
+Treaty of Neutrality, Hung.-Turk., Jan. 5, 1929, 100 L.N.T.S. 137.
+Agreement for the Avoidance of Double Taxation, Neth.-Swed., art. 4, Apr. 25, 1952, 163 U.N.T.S. 131.
+If not, cite the official source of one signatory, if therein, indicating parenthetically the jurisdiction whose source is cited according to
+rule 21.3
+if it is not clear from the context. If the treaty is not found in a signatory’s treaty source, cite an unofficial treaty source (
+rule 21.4.5(c)
+):
+Agreement on Trade, Economic, and Technical Cooperation, Austl.-Oman, Oct. 20, 1981, [1982] A.T.S. 4.
+(c) Unofficial treaty sources.
+When a treaty does not appear in a required source listed in
+rule 21.4.5(a)(i)
+or
+rule 21.4.5(a)(ii)
+, cite International Legal Materials (
+I.L.M.
+), if therein:
+Olivos Protocol for the Settlement of Disputes in Mercosur art. 6, Feb. 18, 2002, 42 I.L.M. 2.
+If a treaty is not found in
+I.L.M.
+, cite another unofficial treaty source. These sources include the websites of governments and intergovernmental organizations, electronic databases, and sources such as the Foreign Relations of the United States series, Parry’s Consolidated Treaty Series, Hein’s microfiche treaty service, and Martens Nouveau Recueil:
+Agreement Concerning Payments for Certain Losses Suffered During World War II, Fr.-U.S., Jan. 18, 2001, Temp. State Dep’t No. 01-36, 2001 WL 416465.
+If no other citation is available, you may cite a book (
+rule 15
+), periodical (
+rule 16
+), or online source (
+rule 18
+).

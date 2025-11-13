@@ -1,0 +1,30 @@
+TITLE: T3.4 European Commission of Human Rights (p.330)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t3-intergovernmental-organizations
+  slug: t3-4-european-commission-of-human-rights
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T3.4
+European Commission of Human Rights
+(p.330)
+Cite to
+Eur. Comm’n H.R. Dec. & Rep., Eur. H.R. Rep.,
+or Y.B. Eur. Conv. on H.R., in that order.
+European Commission of Human Rights Collections of Decisions
+<volume>
+Eur. Comm'n H.R. Dec. & Rep. xxx
+European Human Rights Reports
+<volume>
+Eur. H.R. Rep. xxx
+Yearbook of the European Convention on Human Rights
+<volume>
+Y.B. Eur. Conv. on H.R. xxx

@@ -1,0 +1,207 @@
+TITLE: T2.32 Nigeria
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-31-nigeria
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.32
+Nigeria
+(Common Law)
+Cases
+Citation format:
+<case name>
+[
+<year of decision>
+]
+<volume number> <reporter abbreviation> <first page>
+,
+<page(s) of specific material, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Oladele v. State [1993] 1 NSCC 12 (Nigeria).
+Mohammadu Labaran v. Nigeria Custom Serv. [1999] 1 FHCLR 648 (Nigeria).
+Privy Council
+(
+P.C.
+) (highest appeals court until 1960): Cite to
+NLR
+or
+WALR
+, if therein.
+Law Reports
+1881–1958
+NLR
+West African Law Reports
+1956–1958
+WALR
+West African Court of Appeal
+(
+WACA
+): Cite to
+SJWACA
+or
+WALR
+, if therein.
+Selected Judgments of the West African Court of Appeal
+1930–1960
+SJWACA
+West African Law Reports
+1956–1958
+WALR
+Supreme Court
+(
+S.C.
+) (highest appeals court after 1960):
+Law Reports
+1881–1958
+NLR
+Nigerian Supreme Court Cases
+1956–1988
+NSCC
+Federal Supreme Court Selected Judgments
+1956–date
+FSC
+Supreme Court of Nigeria Judgments
+1987–date
+SCNJ
+Nigeria Weekly Law Report
+1985–date
+NWLR
+Law Reports of Courts of Nigeria
+1991–date
+LRCN
+All Nigeria Law Reports
+1961–1982
+All NLR
+Nigerian Monthly Law Reports
+1964–1976
+NMLR
+Commercial Law Reports of Nigeria
+2004–date
+CLRN
+Court of Appeal
+(
+C.A.
+): Cite to a reporter below.
+Federal Court of Appeal Reserved Judgments
+1977–1978
+FCA
+Nigeria Court of Appeal Reports
+1978
+NCAR
+Nigerian Appeal Cases Report
+1994
+NACR
+Nigeria Weekly Law Reports
+1985–date
+NWLR
+Law Reports of Courts of Nigeria
+1991–date
+LRCN
+Commercial Law Reports of Nigeria
+2004–date
+CLRN
+Note that some of these reporters provide only intermittent reporting.
+Federal High Court
+(
+F.H.C.
+): Cite to a reporter below.
+Law Reports
+1881–1955
+NLR
+Federal High Court of Nigeria Law Reports
+1973–date
+FHCLR
+Law Reports of Courts of Nigeria
+1991–date
+LRCN
+All Nigeria Law Reports
+1961–1982
+All NLR
+Nigeria Monthly Law Reports
+1964–1976
+NMLR
+Commercial Law Reports of Nigeria
+2004–date
+CLRN
+Constitution
+Citation format:
+<
+constitution name
+>
+(
+<year of the version cited>
+),
+<section, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Constitution of Nigeria
+(1999), § 22.
+Statutes
+Citation format:
+<statute name>
+(
+<revised edition year>
+) Cap. (
+<number>
+),
+<section, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Or:
+<decree name>
+No. (
+<number>
+) (
+<year>
+)
+<volume number
+>:
+<issue number, if applicable> <“O.G.” or “S.O.G.”>
+,
+<page(s) of specific material, if desired> <section, if desired>
+(
+<country abbreviation if not evident from context>
+).
+Arbitration and Conciliation Act (2006) Cap. (A18), § 17 (Nigeria).
+Civil Aviation (Amendment) Decree No. (51) (1999) 86:35 O.G., A1895 § 1 (Nigeria).
+Electoral Act No. (6) (2010) 97:64 O.G., A1103 (Nigeria).
+For legislation, either cite to the Laws of Nigeria and provide the date of the revised edition, or cite to the Official Gazette.
+Laws of the Federation of Nigeria, Revised Edition (available at
+http://www.nigeria-law.org
+/LFNMainPage.htm
+)
+1990–date
+The Nigeria Gazette
+1914–1954
+Federation of Nigeria Official Gazette
+1954–date
+O.G.
+Supplement to the Official Gazette
+1916–1968
+S.O.G.
+Internet sources
+http://www.nigeria-law.org/LawLibrary.htm
+(The International Centre for Nigerian Law website; provides access to the Constitution, cases from the Court of Appeal and the Supreme Court, and some legislation)
+Acts Authentication Act (1990) Cap. (4), § 1 (Nigeria), http://www .nigeria-law.org/Acts%20Authentication%20Act.htm.
+Adiatu Ladunni v. Oludoyin Adekunle Kukoyi & Ors [1972] 3 NLR 3 (Nigeria), http://www.nigeria-law.org/LawReporting Before2000.htm.
+http://www.placng.org/
+(The Policy and Legal Advocacy Centre; provides copies of most Nigerian federal laws)
+https://www.parliament.gov.za/
+(National Assembly website; makes available parliamentary materials, including bills and Hansard (official reports of proceedings) for both the House of Representatives and the Senate, as well as some recently enacted Acts)
+http://supremecourt.gov.ng
+(Supreme Court of Nigeria website; provides judgments of the Supreme Court)
+https://www.loc.gov/item/guide-to-law-online/nigeria/
+(Library of Congress Guide to Law Online: Nigeria)

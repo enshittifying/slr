@@ -1,0 +1,70 @@
+TITLE: B15.2 Short Form Citation (p.24)
+============================================================
+
+METADATA:
+  version: v22
+  section: bluepages
+  parent: b15-books-and-other-nonperiodic-materials
+  slug: b15-2-short-form-citation
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+B15.2
+Short Form Citation
+(p.24)
+Use “
+id.
+” to refer to a book or other nonperiodical material cited in the immediately preceding citation. Otherwise, use “
+supra
+.” The “
+supra
+” form consists of: (1) the author’s last name; (2) “
+supra
+,” underlined or italicized up to but not including the comma; and (3) a new pincite:
+Full Cite
+Id.
+Cite
+Supra
+Cite
+Richard Posner,
+How Judges Think
+269 (2010).
+Id.
+at 204–05.
+Posner,
+supra
+, at 204–05.
+Mary L. Dunnewold et al.,
+Judicial Clerkships: A Practical Guide
+77 (2010).
+See
+id.
+at 80.
+See
+Dunnewold et al.,
+supra
+, at 80.
+Fleming James, Jr. & Geoffrey C. Hazard, Jr.,
+Civil Procedure
+§ 2.35 (5th ed. 2001).
+Id.
+§ 1.7.
+James & Hazard,
+supra
+, § 1.7.
+Bluepages Tip:
+For further guidance on short forms, see
+rules 4
+,
+15.10
+,
+16.9
+,
+17.6
+, and
+18.12
+.

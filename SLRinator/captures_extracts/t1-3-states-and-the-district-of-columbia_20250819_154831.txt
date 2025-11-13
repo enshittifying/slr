@@ -1,0 +1,69 @@
+TITLE: T1.3 States and the District of Columbia (p.272)
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t1-united-states-jurisdictions
+  slug: t1-3-states-and-the-district-of-columbia
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T1.3
+States and the District of Columbia
+(p.272)
+Alabama (Ala.)
+Alaska (Alaska)
+Arizona (Ariz.)
+Arkansas (Ark.)
+California (Cal.)
+Colorado (Colo.)
+Connecticut (Conn.)
+Delaware (Del.)
+District of Columbia (D.C.)
+Florida (Fla.)
+Georgia (Ga.)
+Hawaii (Haw.)
+Idaho (Idaho)
+Illinois (Ill.)
+Indiana (Ind.)
+Iowa (Iowa)
+Kansas (Kan.)
+Kentucky (Ky.)
+Louisiana (La.)
+Maine (Me.)
+Maryland (Md.)
+Massachusetts (Mass.)
+Michigan (Mich.)
+Minnesota (Minn.)
+Mississippi (Miss.)
+Missouri (Mo.)
+Montana (Mont.)
+Nebraska (Neb.)
+Nevada (Nev.)
+New Hampshire (N.H.)
+New Jersey (N.J.)
+New Mexico (N.M.)
+New York (N.Y.)
+North Carolina (N.C.)
+North Dakota (N.D.)
+Ohio (Ohio)
+Oklahoma (Okla.)
+Oregon (Or.)
+Pennsylvania (Pa.)
+Rhode Island (R.I.)
+South Carolina (S.C.)
+South Dakota (S.D.)
+Tennessee (Tenn.)
+Texas (Tex.)
+Utah (Utah)
+Vermont (Vt.)
+Virginia (Va.)
+Washington (Wash.)
+West Virginia (W. Va.)
+Wisconsin (Wis.)
+Wyoming (Wyo.)

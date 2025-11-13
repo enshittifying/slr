@@ -1,0 +1,105 @@
+TITLE: T2.26 Lebanon, Republic of
+============================================================
+
+METADATA:
+  version: v22
+  section: tables
+  parent: t2-foreign-jurisdictions
+  slug: t2-26-lebanon-republic-of
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+T2.26
+Lebanon, Republic of
+(Civil Law)
+Romanization
+Use the
+ALA-LC Romanization Tables: Transliteration Schemes for Non-Roman Scripts
+, approved by the Library of Congress and the American Library Association, available at
+http://www.loc.gov/catdir/cpso/romanization/arabic.pdf
+.
+Cases
+Citation format:
+<court name>
+[
+<court abbreviation>
+] [
+<English translation of court name>
+],
+<region if applicable>
+,
+<number and/or date of decision in day month year format>
+,
+<reporter or journal name>
+[
+<reporter or journal abbreviation>
+],
+<section of journal if applicable>
+,
+<year of publication>
+, p.
+<first page>
+(
+<country abbreviation if not evident from context>
+).
+Mah. kamat al-Tamyīz [Tamyīz] [Court of Cassation], 10 Dec. 1962, Majmū‘at Bāz [Bāz], 1962, p. 73 (Leb.).
+Courts
+Lebanon has different categories of courts, including religious courts dealing mainly with family law matters. The most commonly cited courts are as follows:
+Ma h
+.
+kamat al-Tamyīz
+(Tamyīz) (Court of Cassation: highest court of
+ordinary jurisdiction). This court sits only in the capital and has several
+chambers referred to generally by numbers (Chamber 1, Chamber 2, and so
+forth). Citation is sufficiently recognized by referring to this court only as
+“Tamyīz” or “Qarār (decision) Tamyīz.”
+Mah. kamat al-Isti’nāf
+(Isti’nāf) (courts of appeals: general courts of second instance). Lebanon is divided into a number of appellate jurisdictions. Citation is sufficiently recognized by referring to this court as “Isti’nāf” or “Qarār Isti’nāf,” followed by the name of its geographic jurisdiction.
+Mah. kamat al-Darajat al-Ūlā
+(Courts of First Instance). This court is composed of two sections, the section of the “Qād. ī Munfarid” ( Judge of First Instance), and the section of the “Ghurfat Mah. kamat al-Darajat al-Ūlā” (Chamber of First Instance). Lebanon is divided into a large number of first instance jurisdictions. Decisions of first instance are seldom published or cited. Citations are sufficiently recognized by referring to the section (judge or chamber of first instance) or to the “h. ukm” (judgment) of such sections followed by the name of its geographic jurisdiction.
+Sources for cases
+Case citations can be made to the following publications:
+al-Nashrah al-Qad. ā’īyah
+(al-Nashrah), an official publication of the Lebanese Ministry of Justice containing full texts of court decisions.
+Majmū‘at Bāz
+(Bāz), a private publication issued on a yearly basis containing the legal reasoning of the Court of Cassation decisions.
+Majmū‘at H. ātim
+(H. ātim), a private publication identified by its consecutive issue numbers containing selected portions of court decisions.
+Majallat al-‘Adl
+(‘Adl or al-‘Adl), an official publication of the Beirut Bar. It is published quarterly and has a section for court cases.
+Statutes and decrees
+Citation format:
+<statute or decree name or number>
+of
+<date in day month year format>
+(
+<translation of subject matter of the law, if desired>
+) (
+<country abbreviation if not evident from context>
+).
+Legislative Decree 138 of 7 Sept. 1983 (Leb.).
+Decree-Law 144 of 12 June 1959 (Taxation on Natural and Juridical Persons) (Leb.).
+Decree 2,385 of the French High Commissioner of 17 Jan. 1924 (Leb.).
+Law of 17 Sept. 1962 (Taxation on Structures Built on Land) (Leb.).
+Two compilations of Lebanese legislation currently in force (in Arabic), published in Beirut are:
+Majmū‘at al-Tashrī’ al-Lubnānī
+Qawānīn Lubnān: Majmū‘at
+al-nus.us
+. al-Tashrī‘īyah wa-al-Tanz. īmīyah
+Official Gazette
+The
+Official Gazette, al-Jarīdah al-Rasmīyah
+, is published weekly and divided into two parts. The first contains laws, decree-laws, and decrees and decisions by ministries.The second part contains official notices and announcements.
+Internet sources
+http://www.lp.gov.lb
+(site of the Lebanese Parliament where the constitution and electoral laws are posted)
+http://www.loc.gov/law/help/guide/nations/lebanon.php
+(Library of Congress Guide to Law Online: Lebanon)
+http://www.law.cornell.edu/world/mideast.html#lebanon
+(online guide to legal materials and other information about Lebanon)
+http://www.pcm.gov.lb/arabic/index.aspx?pageid=5
+(website of the Presidency of the Council of Ministers where issues of the official gazette since 2006 are posted)

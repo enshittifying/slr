@@ -1,0 +1,41 @@
+TITLE: 17.5 Electronic Databases and Online Sources (p.180)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 17-unpublished-and-forthcoming-sources
+  slug: 17-5-electronic-media-and-online-sources
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+17.5
+Electronic Databases and Online Sources
+(p.180)
+(a) Commercial electronic databases.
+When citing unpublished and forthcoming materials to a database, provide a complete citation to the document according to
+rule 17
+, and a citation to the database. If the database assigns a unique identifier or code to each document within the database, include that identifier or code to assist the reader in locating the document cited:
+Barbara G. Ryder, Incremental Data Flow Analysis Based on a Unified Model of Elimination Algorithms (Aug. 15, 1982) (Ph.D. dissertation, Rutgers University), 23 PQDT 5467.
+Some sources are available in two forms, electronic and paper. To facilitate access to the source, it is permissible to include a parallel citation to a commercial electronic database:
+Cass R. Sunstein,
+Clear Statement Principles and National Security:
+Hamdan
+and Beyond
+, 2006
+Sup. Ct. Rev.
+(forthcoming 2007) (manuscript at 17),
+http://papers.ssrn.com/sol3/papers.cfm?abstract_id=922406
+.
+(b) Internet and online sources.
+When citing to an electronic source directly, citation should be made according to
+rule 18.2.2
+:
+See
+Press Release, Nancy Pelosi, Speaker, House of Representatives, Pelosi Statement on Hate Crimes Legislation (Dec. 6, 2007),
+http://speaker.gov/newsroom/pelosi-statement-hate-crimes-legislation
+(on file with author).

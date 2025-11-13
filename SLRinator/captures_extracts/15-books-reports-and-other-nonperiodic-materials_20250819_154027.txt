@@ -1,0 +1,59 @@
+TITLE: 15 Books, Reports, and Other Nonperiodic Materials (p.154)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  slug: 15-books-reports-and-other-nonperiodic-materials
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+15
+Books, Reports, and Other Nonperiodic Materials
+(p.154)
+This rule governs the citation of books, treatises, reports, white papers, dictionaries, encyclopedias, and all other nonperiodic materials.
+Citation of a particular page within the sixth edition of Francis Carey's
+Organic Chemistry
+:
+Main Elements:
+Author
+rule 15.1
+Editor or translator
+rule 15.2
+Title
+rule 15.3
+Page, section, or paragraph
+(if only part of a work is cited)
+rules 3.2
+and
+3.3
+Edition
+rule 15.4
+Publisher
+rule 15.4
+Date
+rule 15.4
+15.1
+Author
+15.2
+Editor or Translator
+15.3
+Title
+15.4
+Edition, Publisher, and Date
+15.5
+Shorter Works in Collection
+15.6
+Prefaces, Forewords, Introductions, and Epilogues
+15.7
+Serial Number
+15.8
+Special Citation Forms
+15.9
+Electronic Databases and Online Sources
+15.10
+Short Citation Forms

@@ -1,0 +1,30 @@
+TITLE: 23.5 Date (p.252)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 23-archival-sources
+  slug: 23-5-date
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+23.5
+Date
+(p.252)
+Use the date printed or signed on the document. If the document is undated, or if the date is obscured or otherwise impossible to read (see
+rule 23.10(c)
+), indicate “
+n.d
+.” within the parenthetical:
+Thomas Jefferson, Ice Cream Recipe (n.d.) (on file with Libr. of Cong., Thomas Jefferson Papers, Series I, Microfilm Reel 056).
+If contextual information or secondary sources are able to isolate the date of authorship to an approximate year or year range, indicate that parenthetically with the prefix “
+c.
+” meaning “
+circa.
+”
+Abraham Lincoln, Meditation on the Divine Will (c. Sep. 1862) (on file with Brown Univ., John Hay Library, John Hay Personal Library).

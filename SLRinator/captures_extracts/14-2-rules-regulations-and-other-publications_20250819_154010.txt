@@ -1,0 +1,135 @@
+TITLE: 14.2 Rules, Regulations, and Other Publications (pp. 147–50)
+============================================================
+
+METADATA:
+  version: v22
+  section: rules
+  parent: 14-administrative-and-executive-materials
+  slug: 14-2-rules-regulations-and-other-publications
+  element: MenuNode
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+14.2
+Rules, Regulations, and Other Publications
+(pp. 147–50)
+Citation of a particular provision of a regulation in the
+Code of Federal Regulations
+:
+(a) Final rules and regulations.
+Whenever possible, cite federal rules and regulations to the
+Code of Federal Regulations
+(
+C.F.R.
+) by title, section or part, and year:
+47 C.F.R. § 73.609 (2024).
+14 C.F.R. § 43 app. B(a)(3) (2024).
+Each title of the
+Code of Federal Regulations
+is revised at least once a year; cite the most recent edition. Give the name of the rule or regulation only if the rule or regulation is commonly cited that way or the information would otherwise aid in identification. The abbreviated name of the issuing body may also be included if helpful:
+FCC Broadcast Radio Services, 47 C.F.R. § 73.609 (2024).
+FTC Credit Practices Rule, 16 C.F.R. § 444.1 (2024).
+Credit Practices Rule, 16 C.F.R. § 444.1 (2024).
+Certain titles of the
+Code of Federal Regulations
+focused on specific subjects have unique citations. For citation to Title 26,
+Treasury Regulations
+, see
+table T1.2
+. Title 48, the
+Federal Acquisition Regulations
+, may be cited as “
+FAR
+”:
+FAR 52.249-2(e) (2019).
+The
+Federal Register
+(Fed. Reg.)
+publishes rules and regulations before they are entered into the
+Code of Federal Regulations
+. Citations to rules or regulations in the
+Federal Register
+should give any commonly used name of the rule or regulation, the volume and page on which the rule or regulation (or any preceding discussion thereof) begins, and the date of the rule or regulation. When citing a part of a rule or regulation, give both the page on which the rule or regulation (or preceding discussion) begins and the page(s) on which the cited material appears. When the
+Federal Register
+indicates where the rule or regulation will appear in the
+Code of Federal Regulations
+, give that information parenthetically:
+Importation of Fruits and Vegetables, 60 Fed. Reg. 50379, 50381 (Sep. 29, 1995) (to be codified at 7 C.F.R. pts. 300, 319).
+Federal Acquisition Regulations for National Aeronautics and Space Administration, 55 Fed. Reg. 52782 (Dec. 21, 1990) (to be codified at 48 C.F.R. pt. 1).
+Prohibitively long titles may be shortened as long as the result is unambiguous:
+Order Approving NYSE and NASDAQ Proposed Rule Changes Relating to Equity Compensation Plans
+Not:
+Self-Regulatory Organizations; New York Stock Exchange, Inc. and National Association of Securities Dealers, Inc.; Order Approving NYSE and NASDAQ Proposed Rule Changes and NASDAQ Amendment No. 1 and Notice of Filing and Order Granting Accelerated Approval to NYSE Amendments No. 1 and 2 and NASDAQ Amendments No. 2 and 3 Thereto Relating to Equity Compensation Plans
+(b) Proposed rules, other notices, comments, and petitions for rulemaking.
+Administrative notices that are not transferred to the
+Code of Federal Regulations
+should be cited to the
+Federal Register
+. When citing notices of proposed rules and regulations, follow the form for final rules, but add the status to the date parenthetical:
+Control of Air Pollution from New Motor Vehicles and New Motor Vehicle Engines, 56 Fed. Reg. 9754 (proposed Mar. 7, 1991) (to be codified at 40 C.F.R. pt. 86).
+Cite notices pertaining to administrative adjudications according to
+rule 14.3
+. Cite other administrative notices by volume, page, and date. The citation may begin with a description or a commonly used name:
+Meeting Notice, 65 Fed. Reg. 3415 (Jan. 21, 2000).
+For rules and announcements not appearing in the
+Code of Federal Regulations
+or the
+Federal Register
+, cite a service (
+rule 19
+), the original form of issuance, or an agency or governmental website (
+rule 18.2
+). When citing comments, provide the name of the commenter and the proposed rule to which the comment pertains. Prohibitively long titles may be shortened as long as the result is unambiguous. Citing to an agency or governmental website is appropriate:
+Chamber of Com. of the U.S., Comment Letter on Proposed Rule to Require Registration of Certain Hedge Fund Advisors Under the Investment Advisors Act of 1940 (Sept. 15, 2004),
+http://www.sec.gov/rules/proposed/s73004/dhirschmann091504.pdf
+.
+When citing a petition for rulemaking, provide the title of the petition, the relevant page numbers, a parenthetical indicating the administrative agency the petition was filed with abbreviated according to
+table T6
+and the date, and a link to the petition following
+rule 18.2
+:
+Petition for Rulemaking and Request for Emergency Stay of Operation of Dedicated Short-Range Communications Service in the 5.850–5.9925 GHz Band (5.9 GHz Band) 8 (Fed. Commc’ns Comm’n June 28, 2016),
+https://publicknowledge.org/wp-content/uploads/2021/11/DSRC_PK_Petition_FINAL.pdf
+[
+https://perma.cc/ZXL5-AXSA
+].
+(c) Regular reports.
+Cite in the same manner as periodical materials (
+rule 16
+). Always give the abbreviated agency name first and then use the abbreviations for periodical names given in
+table T6
+and
+T13
+:
+4 NLRB
+Ann. Rep
+. 93 (1939).
+1942
+Att’y Gen. Ann. Rep
+. 22.
+(d) Other publications.
+Cite as a work by an institutional author (
+rule 15.1(c)
+), including a serial number, if any (
+rule 15.7
+), unless issued as a congressional document (
+rule 13.4
+):
+Off. of Mgmt. & Budget, Exec. Off. of the President, OMB Bull. No. 99-04, Revised Statistical Definitions of Metropolitan Areas (MAs) and Guidance on Uses of MA Definitions
+(1999).
+U.S. Gov't Accountability Off., GAO-01-1163T, Commercial Aviation: A Framework for Considering Federal Financial Assistance
+(2001).
+U.S. Equal Emp. Opportunity Comm’n
+, EEOCM1A,
+A Technical Assistance Manual on the Employment Provisions (Title I) of the Americans with Disabilities Act
+(1992).
+U.S. Food & Drug Admin., Premarket Assessment of Pediatric Medical Devices: Guidance for Industry and Food and Drug Administration Staff
+(2014).
+When citing an opinion letter, cite as a work by an institutional author in ordinary roman type, including the date of its publication and, if available, its subject matter:
+U.S. Equal Emp. Opportunity Comm'n, Opinion Letter on Applicability of Age Discrimination in Employment Act to Appointed State Court Judges (Apr. 7, 1987),
+as reprinted in
+EEOC Compliance Manual (BL) at N:1001 n.2.
+U.S. Dep’t of Lab., Wage & Hour Div., Opinion Letter (Sep. 14, 1992).

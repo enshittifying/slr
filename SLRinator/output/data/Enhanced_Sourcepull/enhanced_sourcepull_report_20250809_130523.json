@@ -1,0 +1,900 @@
+{
+  "document": "output/data/SherkowGugliuzza_PostSP_PostEEFormatting[70].docx",
+  "started_at": "2025-08-09T13:05:04.576267",
+  "footnote_range": "1-50",
+  "used_gpt": true,
+  "footnotes_processed": 50,
+  "total_citations": 21,
+  "successful_retrievals": 5,
+  "failed_retrievals": 16,
+  "pdf_files": [
+    {
+      "citation_id": "fn3_fed_919_1333",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_919_1333_SCOTUS_Vol919.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn3_fed_785_625",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_785_625_SCOTUS_Vol785.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn3_fed_633_1042",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_633_1042_SCOTUS_Vol633.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    },
+    {
+      "citation_id": "fn23_us_566_399",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn23_us_566_399_SCOTUS_Vol566.pdf",
+      "source": "supreme_court_official",
+      "pages": 940,
+      "size_mb": 3.77
+    },
+    {
+      "citation_id": "fn24_fed_930_72",
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn24_fed_930_72_SCOTUS_Vol930.pdf",
+      "source": "supreme_court_official",
+      "pages": 5,
+      "size_mb": 0.03
+    }
+  ],
+  "parsing_results": [
+    {
+      "footnote_number": 1,
+      "original_text": "†   Professor of Law, College of Law; Professor of Medicine, Carle-Illinois College of Medicine; Professor, European Union Center; Affiliate, Carl R. Woese Institute for Genomic Biology; University of...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:05.412146",
+      "citations": []
+    },
+    {
+      "footnote_number": 2,
+      "original_text": "†   Professor of Law, University of Texas School of Law . For their comments, thanks to Jonas Anderson, Laura Dolbow, Jordi Goodman, Michael Goodyear, Tim Holbrook, Mark Janis, Mark Lemley, Amy Motomu...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:05.832850",
+      "citations": []
+    },
+    {
+      "footnote_number": 3,
+      "original_text": "21 U.S.C. § 355(c)(3)(C);  see also  Grunenthal GMBH v. Alkem Lab’ys Ltd., 919 F.3d 1333, 1339 (Fed. Cir. 2019) (“[W] e ask whether the Hikma and Actavis labels instruct users to treat polyneuropathic...",
+      "citations_count": 4,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:05.962047",
+      "citations": [
+        {
+          "citation_id": "fn3_usc_21_355(c)(3)(C)",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(c)(3)(C)",
+          "retrieval_priority": 1
+        },
+        {
+          "citation_id": "fn3_fed_919_1333",
+          "type": "case",
+          "full_text": "919 F.3d 1333",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "fn3_fed_785_625",
+          "type": "case",
+          "full_text": "785 F.3d 625",
+          "retrieval_priority": 2
+        },
+        {
+          "citation_id": "fn3_fed_633_1042",
+          "type": "case",
+          "full_text": "633 F.3d 1042",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 4,
+      "original_text": "See, e.g. , GlaxoSmithKline LLC v. Teva Pharms. USA, Inc., 7 F.4th 1320, 1328 (Fed. Cir. 2021) (reviewing expert evidence of how physicians would have read a drug label);  see also   id.  at 1342 (Pro...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:07.626539",
+      "citations": [
+        {
+          "citation_id": "fn4_fed_7_1320",
+          "type": "case",
+          "full_text": "7 F.4th 1320",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 5,
+      "original_text": "See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 1365 -66  (Fed. Cir. 2003)  (noting that an infringement analysis, in this context, is “ hypothetical because the allegedly infringing product ...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:09.294299",
+      "citations": [
+        {
+          "citation_id": "fn5_fed_316_1348",
+          "type": "case",
+          "full_text": "316 F.3d 1348",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 6,
+      "original_text": "See infra  Section  II.D .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:09.647913",
+      "citations": []
+    },
+    {
+      "footnote_number": 7,
+      "original_text": "See infra  Section  III .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:10.415715",
+      "citations": []
+    },
+    {
+      "footnote_number": 8,
+      "original_text": "Susan K. Finston, Neil S. Davey, Ananda M. Chakrabarty  &  Raj S. Davé ,  The Biopharmaceutical Social Contract and U.S. Patent Social Contract: Historical Antecedents and Recent Developments ,  in  I...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:10.544836",
+      "citations": []
+    },
+    {
+      "footnote_number": 9,
+      "original_text": "  See  Matthew Lane,  Federal Circuit Should Restore Generics  ‘ Skinny Label ’  Process ,  Bloomberg Law  (Jan. 12, 2021),  https://news.bloomberglaw.com/business-and-practice/federal-circuit-should-...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:10.666629",
+      "citations": []
+    },
+    {
+      "footnote_number": 10,
+      "original_text": "  Skinny Labels, Big Savings Act, S.5573, 118th Cong. (2024).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:10.805057",
+      "citations": []
+    },
+    {
+      "footnote_number": 11,
+      "original_text": "21 U.S.C. § 321(m).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:11.303640",
+      "citations": [
+        {
+          "citation_id": "fn11_usc_21_321(m)_",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 321(m).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 12,
+      "original_text": "For more on this terminological distinction and how it is employed in this article, see  infra  Section  I.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:11.434890",
+      "citations": []
+    },
+    {
+      "footnote_number": 13,
+      "original_text": "21 C.F.R. § 201.57;  see also  Naitee Ting, Ding-Geng Chen, Shuyen Ho & Joseph C. Cappelleri,   Phase II Clinical Development of New Drugs  18 - 19 (2017)  (describing these negotiations) .  Other asp...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:11.559139",
+      "citations": [
+        {
+          "citation_id": "fn13_cfr_21_201_57",
+          "type": "regulation",
+          "full_text": "21 C.F.R. § 201.57",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 14,
+      "original_text": "See   Daniel Carpenter, Reputation and Power: Organizational Image and Pharmaceutical Regulation At the FDA  73 - 117 (2010) (describing FDA’s authority under the Federal Food Drug & Cosmetics Act of ...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:11.686263",
+      "citations": []
+    },
+    {
+      "footnote_number": 15,
+      "original_text": "E.g. , 21 U.S.C. §§ 331(a)-(c).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:12.137966",
+      "citations": []
+    },
+    {
+      "footnote_number": 16,
+      "original_text": "Id.  § 352(a)(1).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:12.261179",
+      "citations": []
+    },
+    {
+      "footnote_number": 17,
+      "original_text": "Id.  § 355(j)(2)(A)(v).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:12.392203",
+      "citations": []
+    },
+    {
+      "footnote_number": 18,
+      "original_text": "35 U.S.C. § 271(e)(2)(A).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:12.537540",
+      "citations": [
+        {
+          "citation_id": "fn18_usc_35_271(e)(2)(A)_",
+          "type": "statute",
+          "full_text": "35 U.S.C. § 271(e)(2)(A).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 19,
+      "original_text": "  Id.  § 282(b).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:12.656390",
+      "citations": []
+    },
+    {
+      "footnote_number": 20,
+      "original_text": "21 U.S.C. § 355(j)(2)(A)(i).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:12.790963",
+      "citations": [
+        {
+          "citation_id": "fn20_usc_21_355(j)(2)(A)(i)_",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(j)(2)(A)(i).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 21,
+      "original_text": "35 U.S.C. § 271(b);  see also   case s cited  supra  note  1 . In this circumstance, the doctors are what patent lawyers would call “direct infringers”—they are the ones actually  using  the brand’s p...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:12.977903",
+      "citations": [
+        {
+          "citation_id": "fn21_usc_35_271(b)",
+          "type": "statute",
+          "full_text": "35 U.S.C. § 271(b)",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 22,
+      "original_text": "21 U.S.C. § 355(j)(2)(A)(viii).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:14.178663",
+      "citations": [
+        {
+          "citation_id": "fn22_usc_21_355(j)(2)(A)(viii)_",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 355(j)(2)(A)(viii).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 23,
+      "original_text": "  Caraco Pharm. Lab’ys, Ltd. v. Novo Nordisk A/S, 566 U.S. 399, 415 (2012) (“The statutory scheme . . . contemplates that one patented use will not foreclose marketing a generic drug for other unpaten...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:14.306138",
+      "citations": [
+        {
+          "citation_id": "fn23_us_566_399",
+          "type": "case",
+          "full_text": "566 U.S. 399",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 24,
+      "original_text": "In re  Barr Lab ’ ys, Inc., 930 F.2d 72, 76 (D.C. Cir. 1991) .",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:14.448541",
+      "citations": [
+        {
+          "citation_id": "fn24_fed_930_72",
+          "type": "case",
+          "full_text": "930 F.2d 72",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 25,
+      "original_text": " The Federal Circuit has exclusive jurisdiction over all appeals in patent cases nationwide. 28 U.S.C. § 1295(a)(1). ",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:14.570716",
+      "citations": [
+        {
+          "citation_id": "fn25_usc_28_1295(a)(1)_",
+          "type": "statute",
+          "full_text": "28 U.S.C. § 1295(a)(1).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 26,
+      "original_text": "7 F.4th 1320 (Fed. Cir. 2021) (per curiam).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:14.706187",
+      "citations": [
+        {
+          "citation_id": "fn26_fed_7_1320",
+          "type": "case",
+          "full_text": "7 F.4th 1320",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 27,
+      "original_text": "Namely, that the generic was “therapeutically equivalent” to its branded counterpart.  Id.  at 1335-39; Brief for the United States as Amicus Curiae, Teva Pharmaceuticals USA, Inc. v. GlaxoSmithKline ...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:14.837850",
+      "citations": []
+    },
+    {
+      "footnote_number": 28,
+      "original_text": "See   Warner-Lambert Co. v. Apotex Corp., 316 F.3d 1348, 136 4- 6 5  (Fed. Cir. 2003 ) (“[T]he request to make and sell a drug labeled with a permissible (non-infringing) use cannot reasonably be inte...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:14.958614",
+      "citations": [
+        {
+          "citation_id": "fn28_fed_316_1348",
+          "type": "case",
+          "full_text": "316 F.3d 1348",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 29,
+      "original_text": "7 4  F.4th 1360, 1365 (Fed. Cir. 2023).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:15.156417",
+      "citations": [
+        {
+          "citation_id": "fn29_fed_4_1360",
+          "type": "case",
+          "full_text": "4 F.4th 1360",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 30,
+      "original_text": "104 F.4th 1370 , 1379 (Fed. Cir. 2024);  see also  Janssen Pharms., Inc. v. Mylan Lab'ys Ltd., No. 23-2042, 2025 WL 946390, at *3 (Fed. Cir. Mar. 28, 2025)  (affirming a ruling of induced infringement...",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:15.278409",
+      "citations": [
+        {
+          "citation_id": "fn30_fed_104_1370",
+          "type": "case",
+          "full_text": "104 F.4th 1370",
+          "retrieval_priority": 2
+        }
+      ]
+    },
+    {
+      "footnote_number": 31,
+      "original_text": "No. CV1803632, 2023 WL 9017081, at *7-8 (D.N.J. Dec. 29, 2023) ,  appeal filed , No. 2024-1346 (Fed. Cir. Jan. 11, 2024). ",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:15.405472",
+      "citations": []
+    },
+    {
+      "footnote_number": 32,
+      "original_text": "See infra  Section  I.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:15.530917",
+      "citations": []
+    },
+    {
+      "footnote_number": 33,
+      "original_text": "See infra  Section  II.D .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:15.656320",
+      "citations": []
+    },
+    {
+      "footnote_number": 34,
+      "original_text": "See infra  Section  III .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:15.787844",
+      "citations": []
+    },
+    {
+      "footnote_number": 35,
+      "original_text": "  See  Dani Kass,  GSK Redo Doesn’t Cure Generics’ ‘Skinny Label’ Uncertainty ,  Law360  (Aug. 9, 2021),  https://www.law360.com/articles/1410679/gsk-redo-doesn-t-cure-generics-skinny-label-uncertaint...",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:15.922645",
+      "citations": []
+    },
+    {
+      "footnote_number": 36,
+      "original_text": "  Bryan S. Walsh et al.,  Frequency of First Generic Drug Approvals With “Skinny Labels” in the United States , 181  JAMA Internal Med.  995 (2021).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:16.144275",
+      "citations": []
+    },
+    {
+      "footnote_number": 37,
+      "original_text": "See infra  Section  III.A .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:16.269218",
+      "citations": []
+    },
+    {
+      "footnote_number": 38,
+      "original_text": "See infra  Section  III.B .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:16.402834",
+      "citations": []
+    },
+    {
+      "footnote_number": 39,
+      "original_text": "See infra  Section  III.C .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:16.517652",
+      "citations": []
+    },
+    {
+      "footnote_number": 40,
+      "original_text": "See infra  Section  IV .",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:16.646725",
+      "citations": []
+    },
+    {
+      "footnote_number": 41,
+      "original_text": "21 U.S.C. § 3 21 ( m ) ;  see also   id.  § 321(g)(1) (defining “drug”).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:16.776573",
+      "citations": [
+        {
+          "citation_id": "fn41_usc_21_3",
+          "type": "statute",
+          "full_text": "21 U.S.C. § 3",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 42,
+      "original_text": "  See   i d.  § 321(k);  see also  Frank I. Schechter,  The Rational Basis of Trademark Protection , 40  Harv. L. Rev.  813, 818 (1927) (describing trademark as a consumer efficiency law).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:16.904944",
+      "citations": []
+    },
+    {
+      "footnote_number": 43,
+      "original_text": "Id.  § 201.56(d).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.033332",
+      "citations": []
+    },
+    {
+      "footnote_number": 44,
+      "original_text": "Id.  § 201.56(a)(1).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.158054",
+      "citations": []
+    },
+    {
+      "footnote_number": 45,
+      "original_text": "Id. ;  see  COREG® (carvedilol)  T ablets  (Oct. 2010 rev.),  https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/020297s034s035lbl.pdf  [ https://perma.cc/RLC5-NHA5 ].",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.238532",
+      "citations": []
+    },
+    {
+      "footnote_number": 46,
+      "original_text": "21 C.F.R. § 201.56(d)(1).",
+      "citations_count": 1,
+      "parsing_confidence": 0.7,
+      "gpt_reasoning": "Fallback parsing used due to GPT error: Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.355064",
+      "citations": [
+        {
+          "citation_id": "fn46_cfr_21_201_56(d)(1)_",
+          "type": "regulation",
+          "full_text": "21 C.F.R. § 201.56(d)(1).",
+          "retrieval_priority": 1
+        }
+      ]
+    },
+    {
+      "footnote_number": 47,
+      "original_text": "Id.  § 201.57(a)(6).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.483859",
+      "citations": []
+    },
+    {
+      "footnote_number": 48,
+      "original_text": "Id.  § 201.57(a)(15).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.598531",
+      "citations": []
+    },
+    {
+      "footnote_number": 49,
+      "original_text": "See id.",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.683488",
+      "citations": []
+    },
+    {
+      "footnote_number": 50,
+      "original_text": "Id.  § 201.57(a)(10)-(11).",
+      "citations_count": 0,
+      "parsing_confidence": 0.0,
+      "gpt_reasoning": "Parsing failed: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo-preview` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}",
+      "parsed_at": "2025-08-09T13:05:17.821359",
+      "citations": []
+    }
+  ],
+  "retrieval_results": [
+    {
+      "citation_id": "fn3_usc_21_355(c)(3)(C)",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:18.631066"
+    },
+    {
+      "citation_id": "fn3_fed_919_1333",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_919_1333_SCOTUS_Vol919.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/919bv.pdf",
+      "retrieved_at": "2025-08-09T13:05:20.346757"
+    },
+    {
+      "citation_id": "fn3_fed_785_625",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_785_625_SCOTUS_Vol785.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/785bv.pdf",
+      "retrieved_at": "2025-08-09T13:05:20.504604"
+    },
+    {
+      "citation_id": "fn3_fed_633_1042",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn3_fed_633_1042_SCOTUS_Vol633.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/633bv.pdf",
+      "retrieved_at": "2025-08-09T13:05:20.709496"
+    },
+    {
+      "citation_id": "fn4_fed_7_1320",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:20.709850"
+    },
+    {
+      "citation_id": "fn5_fed_316_1348",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:20.710036"
+    },
+    {
+      "citation_id": "fn11_usc_21_321(m)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:21.096177"
+    },
+    {
+      "citation_id": "fn13_cfr_21_201_57",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:21.096550"
+    },
+    {
+      "citation_id": "fn18_usc_35_271(e)(2)(A)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:21.437195"
+    },
+    {
+      "citation_id": "fn20_usc_21_355(j)(2)(A)(i)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:21.852208"
+    },
+    {
+      "citation_id": "fn21_usc_35_271(b)",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:22.179663"
+    },
+    {
+      "citation_id": "fn22_usc_21_355(j)(2)(A)(viii)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:22.595317"
+    },
+    {
+      "citation_id": "fn23_us_566_399",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn23_us_566_399_SCOTUS_Vol566.pdf",
+      "file_size_bytes": 3952578,
+      "is_valid_pdf": true,
+      "page_count": 940,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/566bv.pdf",
+      "retrieved_at": "2025-08-09T13:05:23.019309"
+    },
+    {
+      "citation_id": "fn24_fed_930_72",
+      "source_name": "supreme_court_official",
+      "success": true,
+      "file_path": "output/data/Enhanced_Sourcepull/Retrieved_PDFs/fn24_fed_930_72_SCOTUS_Vol930.pdf",
+      "file_size_bytes": 31369,
+      "is_valid_pdf": true,
+      "page_count": 5,
+      "error_message": null,
+      "retrieval_url": "https://www.supremecourt.gov/opinions/boundvolumes/930bv.pdf",
+      "retrieved_at": "2025-08-09T13:05:23.232071"
+    },
+    {
+      "citation_id": "fn25_usc_28_1295(a)(1)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:23.551594"
+    },
+    {
+      "citation_id": "fn26_fed_7_1320",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:23.551801"
+    },
+    {
+      "citation_id": "fn28_fed_316_1348",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:23.551908"
+    },
+    {
+      "citation_id": "fn29_fed_4_1360",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:23.552015"
+    },
+    {
+      "citation_id": "fn30_fed_104_1370",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:23.552175"
+    },
+    {
+      "citation_id": "fn41_usc_21_3",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:23.842726"
+    },
+    {
+      "citation_id": "fn46_cfr_21_201_56(d)(1)_",
+      "source_name": "none",
+      "success": false,
+      "file_path": null,
+      "file_size_bytes": null,
+      "is_valid_pdf": false,
+      "page_count": null,
+      "error_message": "All retrieval sources failed",
+      "retrieval_url": null,
+      "retrieved_at": "2025-08-09T13:05:23.842862"
+    }
+  ],
+  "completed_at": "2025-08-09T13:05:23.842922",
+  "duration_seconds": 19.266655,
+  "success_rate": 23.809523809523807
+}

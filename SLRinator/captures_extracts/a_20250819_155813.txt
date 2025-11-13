@@ -1,0 +1,1135 @@
+TITLE: Index
+============================================================
+
+METADATA:
+  description: Generations of law students, lawyers, scholars, judges, and other legal professionals have relied on The Bluebook's unique system of citation in their…
+  canonical_url: https://www.legalbluebook.com/bluebook
+
+------------------------------------------------------------
+
+CONTENT:
+Index
+Type To Search The Index
+Abbreviations
+,
+B6
+adjacent spacing of
+,
+6.1
+administrative reporters
+,
+T1.2
+administrative reports
+,
+14.2
+agencies
+,
+6.1
+American Bar Association
+,
+12.9
+American reporters
+,
+T1.1
+“and,”
+in case names
+,
+10.2
+arbitral reporters
+,
+21.6
+,
+T5
+authors
+,
+15.1
+bound services
+,
+T15
+business firms
+,
+10.2
+case history
+,
+10.7
+case names
+,
+10.2
+case names, international
+,
+21.5
+citations, repeating
+,
+3.5
+,
+4.1
+,
+4.2
+closing up of
+,
+6.1
+codes, statutory
+,
+12.3
+commonly abbreviated names
+,
+T6
+congressional reports and documents
+,
+13
+,
+13.1
+,
+13.2
+,
+13.3
+,
+13.4
+,
+13.5
+,
+13.8
+,
+T9
+corporate authors
+,
+15.1
+countries
+(see foreign countries)
+court documents
+,
+BT1
+court of decision
+,
+T7
+dollar symbol
+,
+6.2
+editions of books
+,
+15.4
+,
+T14
+English
+Law Report
+series
+,
+T2.46
+English monarchs
+,
+T2.46
+English-language periodicals
+,
+T13
+European Court and Commission of Human Rights materials
+,
+T3.4
+,
+T3.5
+European Union materials
+,
+21.9
+,
+T3.3
+explanatory phrases
+,
+10.7
+,
+T8
+foreign countries and regions
+,
+T10.3
+foreign courts
+(see also name of jurisdiction)
+,
+20.1
+,
+20.2
+foreign materials
+,
+20.2
+foreign periodicals
+,
+20.6
+generally
+,
+6.1
+“hereinafter,”
+use of
+,
+21.17
+history of cases
+,
+10.7
+initials, commonly recognized
+,
+6.1
+,
+10.2
+,
+B10.1
+institutional authors
+,
+15.1
+Inter-American Commission on Human Rights materials
+,
+21.1
+,
+21.5
+,
+T3.6
+intergovernmental organizations
+,
+T3.1
+,
+T3.9
+international and world organization materials
+,
+T3.1
+,
+T3.9
+international arbitrations and claims commissions
+,
+21.6
+judges, titles
+,
+9
+,
+T11
+law journals and reviews
+,
+T13
+League of Nations materials
+,
+21.8
+,
+T3.2
+looseleaf services
+,
+T15
+model codes
+,
+12.9
+months
+,
+T12
+multiple citations of same work
+,
+3.5
+,
+4.1
+,
+4.2
+multiple editions and printings
+,
+15.4
+municipal ordinances
+,
+12.9
+names, commonly abbreviated
+,
+T6
+new series
+,
+T13
+newsletters
+,
+16.7
+newspapers
+,
+16.6
+no date
+,
+16.5
+officials, titles
+,
+9
+,
+T11
+ordinances
+,
+12.9
+paragraph symbols
+,
+3.3
+,
+6.2
+,
+T16
+parties to treaties
+,
+21.4
+percent symbols
+,
+6.2
+periodicals
+,
+T13
+periodicals, English-language
+,
+T13
+periodicals, foreign-language
+,
+20.6
+pluralization of
+,
+T6
+prepositions in periodical names
+,
+T6
+prior case history
+,
+10.7
+,
+T8
+publishers of services
+,
+T15
+publishing terms
+,
+T14
+punctuation of
+,
+6.1
+repeating citations
+,
+3.5
+,
+4.1
+,
+4.2
+reporters, foreign
+(see also name of jurisdiction)
+,
+20.1
+,
+20.2
+reporters, United States
+,
+T1.1
+restatements
+,
+12.9
+section symbols
+,
+3.3
+,
+6.2
+services
+,
+T15
+session laws
+(see also name of jurisdiction)
+,
+12.3
+,
+12.4
+spacing of
+,
+6.1
+standards
+,
+12.9
+statutes
+(see also name of jurisdiction)
+,
+12.1
+,
+12.2
+,
+12.3
+,
+12.4
+subdivisions (e.g., section, article, chapter)
+,
+T16
+subsequent case history
+,
+10.7
+,
+T8
+taxation materials
+,
+T1.2
+titles of books, reports, and other nonperiodic materials
+,
+15.3
+titles of individuals
+,
+9
+treaty series
+,
+T4.1
+,
+T4.2
+,
+T4.3
+unions
+,
+10.2
+United Nations materials
+,
+21.7
+,
+T3.1
+“United States,”
+6.1
+,
+10.2
+use of abbreviations not listed in this book
+,
+6.1
+“
+Abrogated by,
+”
+in case history
+,
+10.7
+Abstracts, in law reviews
+,
+16.7
+“
+Accord,
+”
+as signal
+,
+1.2
+“
+Acquiescence,
+”
+in tax cases
+,
+T1.2
+,
+T8
+“Act,”
+capitalization of
+,
+8
+Action on decision
+,
+T1.2
+Acts
+(see
+Codes
+,
+Session laws
+,
+Statutes
+)
+Addenda
+,
+3.4
+Addresses (speeches)
+,
+17.2
+Administrative agencies
+,
+14.4
+abbreviation of
+,
+T1.2
+adjudications
+,
+14.3
+arbitrations
+,
+14.3
+reporters
+,
+T1.2
+reports
+,
+14.2
+Administrative cases
+,
+14.4
+citation of
+,
+T1.2
+exact date, when required
+,
+14.3
+number of case, when required
+,
+14.3
+omission of procedural phrases
+,
+14.3
+parallel citation
+,
+14.3
+services, when cited
+,
+14.3
+“
+sub nom.
+,”
+use on appeal
+,
+10.7
+Administrative law judges
+,
+T11
+Administrative materials
+,
+B14
+adjudications
+,
+T1.2
+agency publications
+,
+T1.2
+basic citation forms
+,
+14.1
+cases
+,
+14.3
+Code of Federal Regulations
+,
+14.2
+compilations of regulations
+,
+19.1
+court administrative orders
+,
+10.8
+executive orders
+,
+T1.2
+Federal Register
+,
+14.2
+,
+14.6
+federal rules and regulations
+,
+14.1
+,
+14.2
+foreign
+(see name of country)
+generally
+,
+T1.2
+Internal Revenue Service
+,
+T1.2
+Internet sources
+,
+14.5
+names of rules and regulations
+,
+14.2
+notices
+,
+14.2
+official releases
+,
+14.3
+opinions, formal advisory
+,
+14.2
+,
+T1.2
+popular names of rules and regulations
+,
+14.2
+presidential orders
+,
+T1.2
+presidential papers
+,
+T1.2
+presidential proclamations
+,
+T1.2
+proposed rules and regulations
+,
+14.2
+regulations
+,
+14.1
+revenue materials
+,
+T1.2
+revenue rulings
+,
+T1.2
+rules
+,
+14.1
+,
+14.2
+slip opinions
+,
+14.3
+state
+,
+14.4
+,
+T1.3
+tax materials
+,
+T1.2
+Treasury decisions
+,
+T1.2
+Treasury materials
+,
+T1.2
+Treasury regulations
+,
+T1.2
+U.N. Administrative Tribunal
+,
+21.7
+United Kingdom
+,
+T2.46
+varieties of
+,
+14.1
+Administrative Procedure Act
+,
+13.6
+,
+B12.1
+Advisory committee notes
+,
+3.4
+Affidavits
+,
+B17.1
+,
+BT1
+“Affirmed,”
+and
+“affirming,”
+in case history
+,
+10.7
+,
+T8
+Agencies, administrative
+(see
+Administrative agencies
+)
+Agreements, international
+,
+21.4
+Alabama
+citation rules and style guides
+,
+BT2.1
+,
+BT2.2
+sources of law
+,
+T1.3
+Alaska
+citation rules and style guides
+,
+BT2.1
+,
+BT2.2
+sources of law
+,
+T1.3
+All England Law Reports
+,
+T2.46
+Alphabets, foreign
+,
+20.2
+Alterations in quotations
+,
+5.2
+Alternative holding, indication of
+,
+10.6
+“
+Amended by,
+”
+in constitution citation
+,
+11
+in statute citation
+,
+12.7
+Amended constitution
+,
+11
+Amended statutes
+,
+12.7
+Amendments
+constitutional
+,
+11
+model codes
+,
+12.9
+restatements
+,
+12.9
+session laws
+,
+12.4
+standards
+,
+12.9
+statutes
+,
+12.7
+Treasury regulations
+,
+T1.2
+uniform acts
+,
+12.9
+“Amendment(s),”
+abbreviation of
+,
+T16
+American Bar Association
+abbreviation as A.B.A.
+,
+12.9
+publications
+,
+16.7
+section reports
+,
+16.7
+American Jurisprudence
+(
+Am. Jur.
+)
+,
+15.8
+,
+B15.1
+American Law Institute
+generally
+,
+12.9
+proceedings
+,
+16.7
+publications
+,
+16.7
+American Law Reports
+(
+A.L.R.
+)
+,
+16.7
+American Samoa
+sources of law
+,
+T1.4
+Ampersand
+authors’ names
+,
+15.1
+,
+B15.1
+,
+B16.1
+case names
+,
+10.2
+,
+B10.1
+editors’ names
+,
+15.2
+footnote citation
+,
+3.2
+URL
+,
+18.2
+volumes, parts, and supplements
+,
+3.1
+Annals of Congress
+,
+13.5
+Annexes
+European Union materials
+,
+21.9
+generally
+,
+3.4
+U.N. records
+,
+21.7
+World Trade Organization materials
+,
+21.11
+Annotations
+A.L.R., L.R.A.
+,
+16.7
+generally
+,
+3.4
+Annual Digest and Reports of Public International Law Cases
+,
+21.5
+Annual reports
+government agencies
+,
+14.2
+Inter-American Commission on Human Rights
+,
+21.5
+International Court of Justice
+,
+21.5
+“
+Appeal dismissed
+,”
+in case history
+,
+10.7
+Appeal docketed
+,
+10.1
+Appendices
+codes
+,
+12.3
+generally
+,
+3.4
+statutes reprinted in codes
+,
+12.3
+U.S. Sentencing Guidelines Manual
+,
+12.9
+“Appendi[x, ces],”
+abbreviation of
+,
+T16
+Arabic numerals
+monarchs
+,
+T2.46
+volumes
+,
+3.1
+Arbitrations
+,
+B14
+administrative
+,
+14.3
+international
+,
+21.6
+“Arbitrator,”
+abbreviation of
+,
+T11
+Arbitrators, indicated parenthetically
+,
+14.3
+Archival
+,
+23
+Basic citation
+,
+23.1
+Collections
+,
+23.6
+Institutional owner
+,
+23.4
+,
+23.6
+Argentine Republic
+sources of national law
+,
+T2.1
+Arizona
+citation rules and style guides
+,
+BT2.1
+,
+BT2.2
+sources of law
+,
+T1.3
+Arkansas
+citation rules and style guides
+,
+BT2.2
+sources of law
+,
+T1.3
+Armed Services Board of Contract Appeals
+,
+T1.2
+Article (part of speech)
+capitalization of
+,
+8
+omission of
+,
+15.3
+,
+16.3
+,
+17.2
+,
+21.5
+,
+23.3
+,
+BT1
+Articles
+appearing in two or more parts
+,
+16.7
+basic citation forms
+,
+16
+,
+16.1
+collected essays, printed in
+,
+15.5
+essays in collection
+,
+15.5
+foreign periodicals
+,
+20.6
+forthcoming publications
+,
+17.3
+law reviews and journals
+,
+16.7
+magazines
+,
+16
+,
+16.1
+,
+16.2
+,
+16.3
+,
+16.5
+multipart
+,
+16.7
+newspapers
+,
+16
+,
+16.1
+,
+16.2
+,
+16.3
+,
+16.6
+page citation
+,
+3.2
+periodicals
+,
+16
+,
+16.1
+,
+16.2
+,
+16.3
+,
+16.4
+,
+16.6
+,
+16.7
+,
+16.8
+,
+16.9
+typeface in law review citations
+,
+2.1
+typeface in law review text
+,
+2.2
+typeface in non-journal legal writing
+,
+B2
+“Article(s),”
+abbreviation of
+,
+T16
+“Ass’n,”
+in case names
+,
+10.2
+,
+T6
+,
+B10.1
+“At,”
+used in citation of pages or sections
+,
+4.1
+,
+4.2
+“At,”
+used in electronic databases and other media
+,
+18.12
+“Attorney General,”
+abbreviation of
+,
+T11
+Attorney General, opinions
+,
+T1.2
+Audio recordings
+,
+10.8
+,
+18.8
+Auditing standards
+,
+12.9
+Australia
+sources of national law
+,
+T2.2
+Australian states and territories
+,
+T2.2
+Austria
+sources of national law
+,
+T2.3
+Authentic or official online documents
+,
+18.1
+,
+18.2
+Authorities in text, identification of
+,
+1
+Authorities previously cited
+,
+3.5
+,
+4.1
+,
+4.2
+Authors
+annotations
+,
+16.7
+articles in periodicals
+,
+16.2
+book reviews
+,
+16.7
+books, reports, and other nonperiodic materials
+,
+15.1
+,
+23.2
+collected essays
+,
+15.5
+colloquy, names not given
+,
+16.7
+congressional documents and reports
+,
+13.4
+direct internet citations
+,
+18.2
+essays in collection
+,
+15.5
+forewords
+,
+15.6
+institutional
+,
+15.1
+,
+23.2
+,
+23.4
+law reviews and journals
+,
+16.7
+model codes
+,
+12.9
+multiple, books, reports, and other nonperiodic materials
+,
+15.1
+multivolume works
+,
+15.1
+news reports and articles
+,
+16.2
+newspapers
+,
+16.2
+no author
+,
+18.2
+,
+21.5
+,
+23.2
+periodical materials
+,
+16.2
+periodicals, surveys and symposia in
+,
+16.7
+prefaces
+,
+15.6
+restatements
+,
+12.9
+reviewer of book
+,
+16.7
+standards
+,
+12.9
+student
+,
+16.7
+symposium, names not given
+,
+16.7
+U.N. material
+,
+21.7
+Author’s mistakes in quoted material
+,
+5.2

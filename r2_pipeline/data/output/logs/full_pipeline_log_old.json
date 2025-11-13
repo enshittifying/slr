@@ -1,0 +1,1977 @@
+[
+  {
+    "footnote": 85,
+    "cite_num": 1,
+    "original_text": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d).",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": true,
+    "corrected_text": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\"If the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\").",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-085-01-076-Lira.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-085-01-076-Lira.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "parenthetical_start_capitalization",
+          "description": "The parenthetical starts with a capital letter, which violates the rule regarding the beginning of explanatory parentheticals.",
+          "rb_rule": "1.11",
+          "bluebook_rule": "",
+          "rule_text_quote": "Explanatory parentheticals must start with a present participle, a quoted sentence, or a short quotation: ... They should never start with a capital letter (unless the first word is a proper noun)...",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "If the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.",
+          "correct": "If the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement."
+        }
+      ],
+      "corrected_version": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\"If the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\").",
+      "notes": "Ensure that all explanatory parentheticals start with lowercase unless they originate from a proper noun or full sentence.",
+      "file_search_confirmation": "Searched redbook section first. Found Redbook Rule 1.11 regarding parenthetical capitalization.",
+      "citation_text_original": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d).",
+      "citation_type": "unknown",
+      "gpt_tokens": 1293,
+      "gpt_cost": 0.00019402499999999999
+    },
+    "source_pdf": {
+      "filename": "R1-085-01-076-Lira.pdf",
+      "num_pages": 29,
+      "title": "The End of the Inverse Ratio Rule in the Ninth Circuit and Its Effect on the Copyright System",
+      "author": "Jonathan Trinidad Lira",
+      "creation_date": "D:20220923190937Z00'00'"
+    },
+    "ocr_quality_warning": true,
+    "corrupted_regions": [
+      6,
+      9
+    ],
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text explicitly states that there is rarely direct evidence of a defendant actually copying the original work, which directly supports the proposition that 'Because direct evidence of copying is rare.' The statement aligns perfectly with the main text proposition, confirming the rarity of direct evidence in cases of copyright infringement.",
+      "supported_elements": [
+        "direct evidence of copying is rare"
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source directly addresses the proposition without any qualifiers or limitations.",
+      "proposition": "Because direct evidence of copying is rare,",
+      "source_text_preview": "[Region 1, Page 0]: Student Works  2022\n\n[Region 2, Page 0]: Seton Hall Law\n\n[Region 3, Page 0]: 2022  The End of the Inverse Ratio Rule in the Ninth Circuit and Its Effect  The End of the Inverse Rat...",
+      "gpt_tokens": 744,
+      "gpt_cost": 0.0001719
+    },
+    "recommendation": "approve"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 1,
+    "original_text": "*SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+    "citation_type": "case",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.726853"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 3,
+    "original_text": "Crusey, *supra* note 21 at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.730346"
+  },
+  {
+    "footnote": 78,
+    "cite_num": 1,
+    "original_text": "*See* *infra* Part II.C.",
+    "citation_type": "infra",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.733036"
+  },
+  {
+    "footnote": 80,
+    "cite_num": 2,
+    "original_text": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7\u00a01202(b) claims).",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.735616"
+  },
+  {
+    "footnote": 80,
+    "cite_num": 1,
+    "original_text": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": true,
+    "corrected_text": "Crusey, *supra *note 21, at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes_error",
+          "description": "The quotes in the citation use straight quotes instead of curly quotes, which is required.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "5.1",
+          "rule_text_quote": "Use curly quotes (\" \u201c \u201d \") rather than straight quotes (\" \" \") for quotation marks.",
+          "rule_source": "redbook",
+          "confidence": 0.95,
+          "current": "\u201c\u2026[D]amages have the potential to accumulate\u2026",
+          "correct": "\u201c\u2026[D]amages have the potential to accumulate\u2026"
+        },
+        {
+          "error_type": "comma_missing",
+          "description": "There needs to be a comma before 'at' when using '-supra-'.",
+          "rb_rule": "1.5",
+          "bluebook_rule": "4.2",
+          "rule_text_quote": "Include a comma before 'at' in citations that include 'supra'.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "supra *note 21 at 483*",
+          "correct": "supra *note 21*, at 483"
+        }
+      ],
+      "corrected_version": "Crusey, *supra *note 21, at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+      "notes": "The curly quotes and the punctuation concerning the 'supra' citation needed correction.",
+      "file_search_confirmation": "Searched redbook section first, found Redbook Rule 24.4 regarding curly quotes and Bluebook Rule 4.2 about comma placement.",
+      "citation_text_original": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+      "citation_type": "unknown",
+      "gpt_tokens": 1411,
+      "gpt_cost": 0.00021177000000000001
+    },
+    "source_pdf": {
+      "filename": "R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+      "num_pages": 6,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "no",
+      "confidence": 0.0,
+      "reasoning": "The source text does not directly address the specific elements of the main text proposition regarding the mechanisms of expansion in copyright law, particularly the comparison of \u00a7 1202\u2019s scienter, copyrightability, liability threshold, defenses, and damages elements to traditional infringement doctrine. While it discusses the standard for proving copying in copyright infringement claims, it does not provide a comprehensive analysis or comparison as outlined in the proposition. The focus is more on the implications of damages in cases involving removal of CMI rather than the broader legal framework of \u00a7 1202 in relation to traditional infringement doctrine.",
+      "supported_elements": [],
+      "unsupported_elements": [
+        "comparison of \u00a7 1202\u2019s scienter",
+        "comparison of copyrightability",
+        "comparison of liability threshold",
+        "comparison of defenses",
+        "comparison of damages elements"
+      ],
+      "suggested_action": "flag for review",
+      "missing_context": "Additional context or sections that explicitly compare \u00a7 1202 to traditional infringement doctrine would be necessary to support the proposition.",
+      "proposition": "This section examines the mechanisms of that expansion by comparing \u00a7 1202\u2019s scienter, copyrightability, liability threshold, defenses, and damages elements to those of traditional infringement doctrine. Weakened Standard for Proving Copying The standard for determining whether copying rises to liability in a copyright infringement claim consists of two parts: copying in fact and copying in law. Copying in fact establishes that copying actually happened, and copying in law determines whether that copying was legally significant.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 1664,
+      "gpt_cost": 0.000354
+    },
+    "recommendation": "review_proposition_support",
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.750332"
+  },
+  {
+    "footnote": 82,
+    "cite_num": 1,
+    "original_text": "*See infra* note 111.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*See infra* note 111.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-082-01-074-Infra Note 131.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-082-01-074-Infra Note 131.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes",
+          "description": "Straight quotes are used instead of curly quotes for the citation.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "7.1",
+          "rule_text_quote": "All citations must use curly/smart quotes (\" \", ' ').",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "*See infra* note 111.",
+          "correct": "*See infra* note 111."
+        }
+      ],
+      "corrected_version": "*See infra* note 111.",
+      "notes": "Ensure that all the required elements are styled correctly and match the citation standards for legal writing.",
+      "file_search_confirmation": "Searched redbook section first, found rule 24.4 on quotation formatting.",
+      "citation_text_original": "*See infra* note 111.",
+      "citation_type": "infra",
+      "gpt_tokens": 1171,
+      "gpt_cost": 0.00017569500000000002
+    },
+    "source_pdf": {
+      "filename": "R1-082-01-074-Infra Note 131.pdf",
+      "num_pages": 4,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text directly supports the proposition by stating that courts have held that something less than identicality is sufficient to show that a 'copy' was made. Specifically, it references cases where superficial alterations justify a finding of copyright management information removal, indicating that similarity is sufficient for a DMCA violation. This aligns with the proposition that a similarity standard is implemented by other courts.",
+      "supported_elements": [
+        "Similarity, rather than identicality, is enough to determine that a 'copy' was made.",
+        "Other courts have held that an infringing work need not be an identical copy to violate the DMCA."
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context appears necessary as the source sufficiently addresses the proposition with relevant case law and commentary.",
+      "proposition": "Other courts implement a similarity standard instead, under which similarity, rather than identicality, is enough to determine that a \u201ccopy\u201d was made.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 1285,
+      "gpt_cost": 0.0002787
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.761218"
+  },
+  {
+    "footnote": 81,
+    "cite_num": 1,
+    "original_text": "*See infra* notes 83-98 and accompanying text.",
+    "citation_type": "infra",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.762995"
+  },
+  {
+    "footnote": 83,
+    "cite_num": 1,
+    "original_text": "*See infra* note 131.",
+    "citation_type": "infra",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.764731"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 2,
+    "original_text": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202)",
+    "citation_type": "statute",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.766454"
+  },
+  {
+    "footnote": 86,
+    "cite_num": 1,
+    "original_text": "Jonathan Trinidad Lira, *The End of the Inverse Ratio Rule in the Ninth Circuit and Its Effect on the Copyright System*, Seton Hall Student Works 1, 5-6 (\u201cFor the factual question of copying, there is rarely direct evidence of defendant actually copying the original work; thus, the plaintiff often proves actual copying by circumstantial evidence\u00a0.\u00a0.\u00a0.\u00a0.\u201d).",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.768075"
+  },
+  {
+    "footnote": 87,
+    "cite_num": 1,
+    "original_text": "Lydia Pallas Loren & Anthony Reese, *Proving Infringement: Burdens of Proof in Copyright Infringement Litigation*, 23 Lewis & Clark L. Rev. 621, 657 (2019)",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.769703"
+  },
+  {
+    "footnote": 84,
+    "cite_num": 1,
+    "original_text": "Restatement of the Law, Copyright \u00a7\u00a07.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201d).",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.771323"
+  },
+  {
+    "footnote": 89,
+    "cite_num": 1,
+    "original_text": "*Id.*",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-089-01-078-Infra Notes 96-98 and Accompanying Text.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-089-01-078-Infra Notes 96-98 and Accompanying Text.pdf",
+    "citation_validation": {
+      "is_correct": true,
+      "overall_confidence": 1.0,
+      "errors": [],
+      "corrected_version": "*Id.*",
+      "notes": "",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Redbook Rule 4.1.",
+      "citation_text_original": "*Id.*",
+      "citation_type": "unknown",
+      "gpt_tokens": 1084,
+      "gpt_cost": 0.00016263
+    },
+    "source_pdf": {
+      "filename": "R1-089-01-078-Infra Notes 96-98 and Accompanying Text.pdf",
+      "num_pages": 4,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 1.0,
+      "reasoning": "The source text directly addresses the relationship between the strength of a work's copyright protection (thickness or thinness) and the level of similarity required for a finding of substantial similarity. It explicitly states that 'the validity or strength of a work\u2019s copyright protection moderates the level of similarity required for a finding of substantial similarity,' which aligns perfectly with the main text proposition regarding how 'strikingly similar' overlaps with the 'thinness' or 'thickness' of copyright.",
+      "supported_elements": [
+        "The relationship between the strength of copyright protection and the level of similarity required for infringement.",
+        "The concept of 'thin' protection requiring a higher degree of similarity (virtual identity) for infringement."
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source sufficiently supports the proposition as stated.",
+      "proposition": "Whether a work is strikingly similar overlaps somewhat with the \u201cthinness\u201d (or here, \u201cthickness\u201d) of the work\u2019s copyright:",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 1354,
+      "gpt_cost": 0.0002958
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.775857"
+  },
+  {
+    "footnote": 88,
+    "cite_num": 1,
+    "original_text": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03.",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.777434"
+  },
+  {
+    "footnote": 87,
+    "cite_num": 2,
+    "original_text": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03.",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "Restatement (Third) of the Law, *supra* note 83 \u00a77.03.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-087-01-075-Restatement.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-087-01-075-Restatement.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "abbreviation_error",
+          "description": "The abbreviation for 'Restatement of the Law' should be clearly defined in legal citation. Currently, it is not abbreviated correctly according to standard practices.",
+          "rb_rule": null,
+          "bluebook_rule": "6.1",
+          "rule_text_quote": "Use standard abbreviations for case names (table T6), institutional author names (T7), periodical titles (T10), publishing terms (T8), and geographical terms (T10).",
+          "rule_source": "bluebook",
+          "confidence": 0.8,
+          "current": "Restatement of the Law",
+          "correct": "Restatement (Third) of the Law"
+        },
+        {
+          "error_type": "supra_error",
+          "description": "'supra' should be italicized.",
+          "rb_rule": null,
+          "bluebook_rule": "4.2",
+          "rule_text_quote": "Use 'supra' to refer to a previously cited authority, typically for secondary sources, legislative materials, or international documents.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "supra",
+          "correct": "*supra*"
+        },
+        {
+          "error_type": "section_formatting_error",
+          "description": "The section symbol must be used correctly without a period after it.",
+          "rb_rule": null,
+          "bluebook_rule": "3.3",
+          "rule_text_quote": "When citing such subdivisions, use the appropriate symbol followed by the number (without a period).",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "\u00a7 7.03",
+          "correct": "\u00a77.03"
+        }
+      ],
+      "corrected_version": "Restatement (Third) of the Law, *supra* note 83 \u00a77.03.",
+      "notes": "The citation provides essential information, but corrections are needed for clarity and proper formatting.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 6.1 for abbreviations and Rule 4.2 for 'supra'.",
+      "citation_text_original": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03.",
+      "citation_type": "unknown",
+      "gpt_tokens": 1336,
+      "gpt_cost": 0.00020046
+    },
+    "source_pdf": {
+      "filename": "R1-087-01-075-Restatement.pdf",
+      "num_pages": 66,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905081836Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text explicitly states that 'striking similarity' can demonstrate copying, which aligns directly with the proposition that 'striking similarity alone may also be enough to show copying.' The language used in the source indicates that if the allegedly infringing material is 'identical or so similar' to the plaintiff's work, it can be inferred that copying has occurred, thus supporting the proposition directly.",
+      "supported_elements": [
+        "striking similarity may show copying"
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context appears necessary as the source sufficiently addresses the proposition.",
+      "proposition": "Striking similarity alone may also be enough to show copying.",
+      "source_text_preview": "[Region 1, Page 0]: RESTATEMENT  OF  THE  LAW COPYRIGHT\n\n[Region 2, Page 0]: Tentative  Draft  No.  4 (March  2023)\n\n[Region 3, Page 0]: Tentative  Draft  No.  4 (March  2023)\n\n[Region 4, Page 0]: THE...",
+      "gpt_tokens": 785,
+      "gpt_cost": 0.00018524999999999998
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.789807"
+  },
+  {
+    "footnote": 85,
+    "cite_num": 1,
+    "original_text": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d).",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "citation_validation": null,
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.791159"
+  },
+  {
+    "footnote": 90,
+    "cite_num": 1,
+    "original_text": "*See infra* notes 96-98 and accompanying text.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*See infra* notes 96-98 and accompanying text.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-090-01-079-Helfing.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-090-01-079-Helfing.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.95,
+      "errors": [
+        {
+          "error_type": "signal_error",
+          "description": "The signal *See infra* should be italicized.",
+          "rb_rule": "3.5",
+          "bluebook_rule": "1.2",
+          "rule_text_quote": "Use \"infra\" in italics, followed by a comma and the pinpoint reference, e.g., \"Part II.A.1, infra\".",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "*See infra*",
+          "correct": "*See infra*"
+        }
+      ],
+      "corrected_version": "*See infra* notes 96-98 and accompanying text.",
+      "notes": "Ensure all signals are properly italicized as per the rules.",
+      "file_search_confirmation": "Searched bluebook section. Found Bluebook Rule 1.2 regarding signal formatting.",
+      "citation_text_original": "*See infra* notes 96-98 and accompanying text.",
+      "citation_type": "infra",
+      "gpt_tokens": 1167,
+      "gpt_cost": 0.00017510999999999997
+    },
+    "source_pdf": {
+      "filename": "R1-090-01-079-Helfing.pdf",
+      "num_pages": 33,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905072912Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 1.0,
+      "reasoning": "The source text explicitly states that 'the more inventive or expressive the duplicated content, the more likely the duplication resulted from copying.' This directly aligns with the main text proposition, confirming that the source provides direct support for the claim regarding the relationship between creativity in content and the likelihood of copying.",
+      "supported_elements": [
+        "the more inventive or expressive the duplicated content",
+        "the more likely the duplication resulted from copying"
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "There is no indication of missing context that would alter the analysis, as the statement is clear and directly supports the proposition.",
+      "proposition": "\u201cthe more inventive or expressive the duplicated content, the more likely the duplication resulted from copying.\u201d",
+      "source_text_preview": "[Region 1, Page 0]: FORDHAM INTELLECTUAL  PROPERTY,  MEDIA  ENTERTAINMENT  LAW  JOURNAL VOLUME  XXX  SPRING  2020  NUMBER  consecutively paginated\n\n[Region 2, Page 0]: ENTERTAINMENT  VOLUME  XXX\n\n[Reg...",
+      "gpt_tokens": 950,
+      "gpt_cost": 0.00021314999999999998
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_01",
+    "batch_timestamp": "2025-10-29T15:09:59.443167",
+    "processed_at": "2025-10-29T15:13:58.800831"
+  },
+  {
+    "footnote": 78,
+    "cite_num": 1,
+    "original_text": "*See* *infra* Part II.C.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*See* *infra* Part II.C.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes",
+          "description": "The citation contains straight quotes instead of curly quotes, which is mandatory in Bluebook citations.",
+          "rb_rule": "1.1",
+          "bluebook_rule": "4",
+          "rule_text_quote": "When quoting, use curly quotes instead of straight quotes.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "*See* *infra* Part II.C.",
+          "correct": "*See* *infra* Part II.C."
+        }
+      ],
+      "corrected_version": "*See* *infra* Part II.C.",
+      "notes": "The citation appeared to use appropriate italics for the signal 'See' and 'infra'. However, without the presence of curly quotes, the citation does not comply with the required standards.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 4 regarding curly quotes.",
+      "citation_text_original": "*See* *infra* Part II.C.",
+      "citation_type": "infra",
+      "gpt_tokens": 1357,
+      "gpt_cost": 0.00020357999999999997
+    },
+    "source_pdf": {
+      "filename": "R1-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+      "num_pages": 9,
+      "title": "fs3d rep bv 344",
+      "author": "M0116707",
+      "creation_date": "D:20190315201448Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text explicitly states that the text of the DMCA does not limit the protection of copyright management information (CMI) to registered works, which directly supports the proposition that there is no requirement for copyright registration to bring a \u00a7 1202 claim. This aligns with the assertion that while copyright registration is necessary for copyright infringement claims, it is not necessary for claims under \u00a7 1202.",
+      "supported_elements": [
+        {
+          "element": "No requirement for registration for \u00a7 1202 claims",
+          "source_excerpt": "The text of the DMCA does not limit the protection of CMI to registered works. 17 U.S.C. \u00a7 1202;"
+        }
+      ],
+      "unsupported_elements": [
+        "Requirement for copyright registration to bring a copyright infringement claim"
+      ],
+      "suggested_action": "approve",
+      "missing_context": "The source does not provide explicit information regarding the requirement for copyright registration for infringement claims, which could provide a more comprehensive understanding of the legal landscape surrounding both claims.",
+      "proposition": "In addition, whereas copyright registration is required to bring a copyright infringement claim, there is no such requirement for a \u00a7 1202 claim.",
+      "source_text_preview": "[Region 1, Page 0]: ORDERED that the defendant\u2019s motion for summary judgment (Docket 41) is de- IT IS FURTHER ORDERED that the plaintiff\u2019s motion for partial summary IT IS FURTHER ORDERED that the    ...",
+      "gpt_tokens": 1206,
+      "gpt_cost": 0.00028664999999999995
+    },
+    "recommendation": "approve",
+    "batch_name": "Test_Sequential",
+    "batch_timestamp": "2025-10-29T15:51:36.987605",
+    "processed_at": "2025-10-29T15:56:53.014666"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 1,
+    "original_text": "*SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+    "citation_type": "case",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc., 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-079-01-023-Crusey Implications.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-079-01-023-Crusey Implications.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes",
+          "description": "Straight quotes are used instead of curly quotes in the quoted material.",
+          "rb_rule": "1.1",
+          "bluebook_rule": "N/A",
+          "rule_text_quote": "SLR always requires a (quoting . . .) parenthetical when quoted material itself quotes another source.",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "\"The text of the DMCA does not limit the protection of CMI to registered works.\"",
+          "correct": "\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d"
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "There is an incorrect spacing in the reporter citation between 'F. Supp.' and '3d'.",
+          "rb_rule": "N/A",
+          "bluebook_rule": "10.3.2",
+          "rule_text_quote": "For decisions published in reporters, cite to those reporters according to their citation format (e.g., U.S., F.2d, N.E.2d).",
+          "rule_source": "bluebook",
+          "confidence": 0.8,
+          "current": "344 F. Supp. 3d 1075, 1081",
+          "correct": "344 F. Supp. 3d 1075, 1081"
+        }
+      ],
+      "corrected_version": "SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc., 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+      "notes": "Ensure to use curly quotes in all future citations to comply with the Bluebook and SLR standards.",
+      "file_search_confirmation": "Searched redbook section first, identified issues with curly quotes and a spacing error.",
+      "citation_text_original": "*SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+      "citation_type": "case",
+      "gpt_tokens": 1522,
+      "gpt_cost": 0.00022834500000000002
+    },
+    "source_pdf": {
+      "filename": "R1-079-01-023-Crusey Implications.pdf",
+      "num_pages": 38,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250728183456Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text directly supports the proposition by discussing the potential for massive liability under \u00a7 1202(b) of the DMCA for the removal of copyright management information (CMI) from works, including those that may qualify as fair use. It explicitly mentions the significant statutory damages that can arise from violations, particularly in cases involving mass removal of CMI, which aligns with the proposition's assertion about liability for minimally original works and loosely resembling source material.",
+      "supported_elements": [
+        {
+          "element": "massive liability for removing CMI",
+          "source_excerpt": "damages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b)."
+        },
+        {
+          "element": "potential for fair use implications",
+          "source_excerpt": "In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "The analysis could be further strengthened by additional context regarding specific cases or examples of how \u00a7 1202 has been applied in relation to fair use, but the current source sufficiently supports the main proposition.",
+      "proposition": "The result is that \u00a7 1202 has the potential to impose massive liability for removing CMI from minimally original works, for uses that would otherwise qualify as fair use, and for producing works that only loosely resemble the alleged source material.",
+      "source_text_preview": "[Region 1, Page 0]: Journal of the Copyright Society  Consecutively paginated\n\n[Region 2, Page 0]: Student Note:  SECTION 1202(B) AND AI:  IMPLICATIONS FOR COPYRIGHT INFRINGEMENT LAWSUITS  AND CONSIDE...",
+      "gpt_tokens": 1307,
+      "gpt_cost": 0.0003305999999999999
+    },
+    "recommendation": "approve",
+    "batch_name": "Test_Sequential",
+    "batch_timestamp": "2025-10-29T15:51:36.987605",
+    "processed_at": "2025-10-29T15:56:53.026267"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 3,
+    "original_text": "Crusey, *supra* note 21 at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "Crusey, *supra* note 21, at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-079-01-023-Crusey Implications.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-079-01-023-Crusey Implications.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quote_error",
+          "description": "The quotation marks around the quoted material are straight quotes instead of the required curly quotes.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "N/A",
+          "rule_text_quote": "All quotes MUST use curly/smart quotes (\" \" ' ') NOT straight quotes (\" \").",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "\"Unlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\"",
+          "correct": "\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d"
+        },
+        {
+          "error_type": "comma_placement",
+          "description": "A comma is missing before 'at' in the citation indicating the pinpoint page.",
+          "rb_rule": "N/A",
+          "bluebook_rule": "4.2",
+          "rule_text_quote": "Use a comma before 'at' in citations to pinpoint pages.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "note 21 at 515",
+          "correct": "note 21, at 515"
+        }
+      ],
+      "corrected_version": "Crusey, *supra* note 21, at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+      "notes": "Adjustments were made for quotation marks and comma placement as per the Bluebook rules.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Redbook Rule 24.4 and Bluebook Rule 4.2.",
+      "citation_text_original": "Crusey, *supra* note 21 at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+      "citation_type": "unknown",
+      "gpt_tokens": 1492,
+      "gpt_cost": 0.00022386000000000001
+    },
+    "source_pdf": {
+      "filename": "R1-079-01-023-Crusey Implications.pdf",
+      "num_pages": 38,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250728183456Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text directly supports the main text proposition by discussing the potential for massive liability under Section 1202(b) for the removal of copyright management information (CMI) from works, including those that may qualify as fair use. It explicitly mentions the potential for statutory damages to accumulate to massive amounts in cases involving the removal of CMI from numerous works, which aligns with the proposition's assertion about liability for minimally original works and loosely resembling source material.",
+      "supported_elements": [
+        {
+          "element": "massive liability for removing CMI",
+          "source_excerpt": "damages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b)."
+        },
+        {
+          "element": "potential for fair use implications",
+          "source_excerpt": "In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "The analysis would benefit from additional context regarding specific cases or examples of works that have been affected by Section 1202(b) to further illustrate the implications discussed.",
+      "proposition": "The result is that \u00a7 1202 has the potential to impose massive liability for removing CMI from minimally original works, for uses that would otherwise qualify as fair use, and for producing works that only loosely resemble the alleged source material.",
+      "source_text_preview": "[Region 1, Page 0]: Journal of the Copyright Society  Consecutively paginated\n\n[Region 2, Page 0]: Student Note:  SECTION 1202(B) AND AI:  IMPLICATIONS FOR COPYRIGHT INFRINGEMENT LAWSUITS  AND CONSIDE...",
+      "gpt_tokens": 1276,
+      "gpt_cost": 0.0003228
+    },
+    "recommendation": "approve",
+    "batch_name": "Test_Sequential",
+    "batch_timestamp": "2025-10-29T15:51:36.987605",
+    "processed_at": "2025-10-29T15:56:53.036497"
+  },
+  {
+    "footnote": 80,
+    "cite_num": 1,
+    "original_text": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": true,
+    "corrected_text": "Crusey, *supra*note 21 at 483(\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quote_error",
+          "description": "The quotation marks used in the citation are straight quotes instead of curly quotes, which is required by Bluebook rules.",
+          "rb_rule": null,
+          "bluebook_rule": "5.3 \u2013 Omissions from Quotations",
+          "rule_text_quote": "Do not omit punctuation before or after the ellipsis unless it is a comma that serves only to indicate a series of items.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u201c \u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b).",
+          "correct": "\u201c \u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b)."
+        },
+        {
+          "error_type": "curly_quote_error",
+          "description": "The closing quotation mark is a straight quote instead of a curly quote.",
+          "rb_rule": null,
+          "bluebook_rule": "5.3 \u2013 Omissions from Quotations",
+          "rule_text_quote": "Do not omit punctuation before or after the ellipsis unless it is a comma that serves only to indicate a series of items.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u2026\u201d",
+          "correct": "\u2026\u201d"
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "There should be no space between 'supra' and 'note 21' due to the format of the citation.",
+          "rb_rule": null,
+          "bluebook_rule": "4.2 \u2013 Comma Placement",
+          "rule_text_quote": "When introducing a citation or crediting a source with a phrase, ensure there\u2019s no space before the citation elements.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "supra *note 21*",
+          "correct": "supra*note 21*"
+        }
+      ],
+      "corrected_version": "Crusey, *supra*note 21 at 483(\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+      "notes": "Quotation formatting needs to employ curly quotes. Spacing corrections were also identified near the citation.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 5.3 and rule on space placement.",
+      "citation_text_original": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+      "citation_type": "unknown",
+      "gpt_tokens": 1740,
+      "gpt_cost": 0.00026110500000000003
+    },
+    "source_pdf": {
+      "filename": "R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+      "num_pages": 6,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "no",
+      "confidence": 0.0,
+      "reasoning": "The source text does not directly support the main text proposition regarding the mechanisms of expansion in copyright infringement claims, specifically the elements of scienter, copyrightability, liability threshold, defenses, and damages as compared to traditional infringement doctrine. The citation provided discusses potential damages related to the removal of copyright management information (CMI) under Section 1202 but does not address the standards for proving copying in fact or in law, nor does it discuss the elements of liability or defenses in copyright infringement claims. Therefore, it does not adequately support the proposition.",
+      "supported_elements": [],
+      "unsupported_elements": [
+        "scienter",
+        "copyrightability",
+        "liability threshold",
+        "defenses",
+        "damages elements"
+      ],
+      "suggested_action": "flag for review",
+      "missing_context": "Additional context or sources that explicitly discuss the elements of copyright infringement, particularly the standards for proving copying in fact and law, would be necessary to evaluate the proposition fully.",
+      "proposition": "This section examines the mechanisms of that expansion by comparing \u00a7 1202\u2019s scienter, copyrightability, liability threshold, defenses, and damages elements to those of traditional infringement doctrine. Weakened Standard for Proving Copying The standard for determining whether copying rises to liability in a copyright infringement claim consists of two parts: copying in fact and copying in law. Copying in fact establishes that copying actually happened, and copying in law determines whether that copying was legally significant.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 2242,
+      "gpt_cost": 0.00043709999999999995
+    },
+    "recommendation": "review_proposition_support",
+    "batch_name": "Test_Sequential",
+    "batch_timestamp": "2025-10-29T15:51:36.987605",
+    "processed_at": "2025-10-29T15:56:53.044594"
+  },
+  {
+    "footnote": 80,
+    "cite_num": 2,
+    "original_text": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7\u00a01202(b) claims).",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a71202(b) claims).",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes_error",
+          "description": "Straight quotes are used instead of curly quotes.",
+          "rb_rule": null,
+          "bluebook_rule": "24.4",
+          "rule_text_quote": "In legal writing, quotation marks should be smart (curly) quotes, not straight quotes.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7 1202(b) claims).",
+          "correct": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7 1202(b) claims)."
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "There should be no space between the section symbol (\u00a7) and the number following it.",
+          "rb_rule": null,
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Use symbols (like \u00a7 and \u00b6) as appropriate in citations, but do not add spaces between symbols and numbers.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "\u00a7 1202(b)",
+          "correct": "\u00a71202(b)"
+        }
+      ],
+      "corrected_version": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a71202(b) claims).",
+      "notes": "",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 24.4 regarding curly quotes and Rule 6.2 regarding spacing.",
+      "citation_text_original": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7\u00a01202(b) claims).",
+      "citation_type": "unknown",
+      "gpt_tokens": 1463,
+      "gpt_cost": 0.00021957
+    },
+    "source_pdf": {
+      "filename": "R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+      "num_pages": 6,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text provides direct support for the proposition regarding the mechanisms of proving copying in copyright infringement claims. It explicitly discusses the two parts of the standard for determining liability: 'copying in fact' and 'copying in law.' The source also references the Restatement of the Law, which outlines the requirements for proving copying in fact and the implications of independent creation, directly aligning with the elements mentioned in the main text proposition.",
+      "supported_elements": [
+        {
+          "element": "copying in fact and copying in law",
+          "source_excerpt": "Restatement of the Law, Copyright \u00a7 7.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201d)."
+        },
+        {
+          "element": "copying in law",
+          "source_excerpt": "Restatement of the Law, supra \u00a7 7.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d)"
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source sufficiently covers the elements of the proposition.",
+      "proposition": "This section examines the mechanisms of that expansion by comparing \u00a7 1202\u2019s scienter, copyrightability, liability threshold, defenses, and damages elements to those of traditional infringement doctrine. Weakened Standard for Proving Copying The standard for determining whether copying rises to liability in a copyright infringement claim consists of two parts: copying in fact and copying in law. Copying in fact establishes that copying actually happened, and copying in law determines whether that copying was legally significant.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 2266,
+      "gpt_cost": 0.00047669999999999993
+    },
+    "recommendation": "approve",
+    "batch_name": "Test_Sequential",
+    "batch_timestamp": "2025-10-29T15:51:36.987605",
+    "processed_at": "2025-10-29T15:56:53.052438"
+  },
+  {
+    "footnote": 78,
+    "cite_num": 1,
+    "original_text": "*See* *infra* Part II.C.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*See* *infra* Part II.C.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "quotation_marks_error",
+          "description": "The citation uses straight quotes instead of curly quotes, which is required per Bluebook rules.",
+          "rb_rule": null,
+          "bluebook_rule": "5.1",
+          "rule_text_quote": "Quotations of fifty or more words should be formatted as block quotations (indented and without quotation marks). Shorter quotations remain in-line with quotation marks.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "*See* *infra* Part II.C.",
+          "correct": "*See* *infra* Part II.C."
+        }
+      ],
+      "corrected_version": "*See* *infra* Part II.C.",
+      "notes": "No other issues were found with abbreviations or signal formatting.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 5.1 regarding quotation marks.",
+      "citation_text_original": "*See* *infra* Part II.C.",
+      "citation_type": "infra",
+      "gpt_tokens": 1352,
+      "gpt_cost": 0.0002028
+    },
+    "source_pdf": {
+      "filename": "R1-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+      "num_pages": 9,
+      "title": "fs3d rep bv 344",
+      "author": "M0116707",
+      "creation_date": "D:20190315201448Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text explicitly states that the text of the DMCA does not limit the protection of copyright management information (CMI) to registered works, which directly supports the proposition that there is no requirement for copyright registration to bring a \u00a7 1202 claim. This aligns with the assertion that while copyright registration is necessary for copyright infringement claims, it is not required for claims under \u00a7 1202.",
+      "supported_elements": [
+        {
+          "element": "No requirement for registration for \u00a7 1202 claims",
+          "source_excerpt": "The text of the DMCA does not limit the protection of CMI to registered works. 17 U.S.C. \u00a7 1202;"
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source sufficiently addresses the legal proposition.",
+      "proposition": "In addition, whereas copyright registration is required to bring a copyright infringement claim, there is no such requirement for a \u00a7 1202 claim.",
+      "source_text_preview": "[Region 1, Page 0]: ORDERED that the defendant\u2019s motion for summary judgment (Docket 41) is de- IT IS FURTHER ORDERED that the plaintiff\u2019s motion for partial summary IT IS FURTHER ORDERED that the    ...",
+      "gpt_tokens": 1173,
+      "gpt_cost": 0.00026684999999999995
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_04",
+    "batch_timestamp": "2025-10-29T15:56:10.982796",
+    "processed_at": "2025-10-29T16:03:06.266677"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 1,
+    "original_text": "*SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+    "citation_type": "case",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-079-01-023-Crusey Implications.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-079-01-023-Crusey Implications.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes_error",
+          "description": "The quotation marks used in the citation are straight quotes instead of curly/smart quotes.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "5.2",
+          "rule_text_quote": "Indicate any alteration to a quoted text with brackets, including added or changed letters or words.",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d",
+          "correct": "\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d"
+        }
+      ],
+      "corrected_version": "*SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+      "notes": "Ensure all quotation marks are properly formatted as curly quotes in future citations.",
+      "file_search_confirmation": "Searched redbook section first. Found Redbook Rule 24.4 and Bluebook Rule 5.2.",
+      "citation_text_original": "*SellPoolSuppliesOnline.com LLC v. Ugly Pools Arizona, Inc.*, 344 F. Supp. 3d 1075, 1081 (D. Ariz. 2018) (\u201cThe text of the DMCA does not limit the protection of CMI to registered works.\u201d)",
+      "citation_type": "case",
+      "gpt_tokens": 1440,
+      "gpt_cost": 0.00021606000000000002
+    },
+    "source_pdf": {
+      "filename": "R1-079-01-023-Crusey Implications.pdf",
+      "num_pages": 38,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250728183456Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text directly supports the main text proposition by discussing the potential for massive liability under \u00a7 1202(b) of the DMCA for removing copyright management information (CMI) from works, including those that may qualify as fair use. It explicitly mentions the significant statutory damages that can accumulate from multiple violations, particularly in cases involving the removal of CMI from numerous works, which aligns with the proposition's assertion about liability for minimally original works and loosely resembling source material.",
+      "supported_elements": [
+        {
+          "element": "massive liability for removing CMI",
+          "source_excerpt": "damages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b)."
+        },
+        {
+          "element": "potential for fair use implications",
+          "source_excerpt": "In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source adequately addresses the elements of the proposition.",
+      "proposition": "The result is that \u00a7 1202 has the potential to impose massive liability for removing CMI from minimally original works, for uses that would otherwise qualify as fair use, and for producing works that only loosely resemble the alleged source material.",
+      "source_text_preview": "[Region 1, Page 0]: Journal of the Copyright Society  Consecutively paginated\n\n[Region 2, Page 0]: Student Note:  SECTION 1202(B) AND AI:  IMPLICATIONS FOR COPYRIGHT INFRINGEMENT LAWSUITS  AND CONSIDE...",
+      "gpt_tokens": 1288,
+      "gpt_cost": 0.00031919999999999995
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_04",
+    "batch_timestamp": "2025-10-29T15:56:10.982796",
+    "processed_at": "2025-10-29T16:03:06.281239"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 2,
+    "original_text": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202)",
+    "citation_type": "statute",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7 1202)",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-079-01-023-Crusey Implications.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-079-01-023-Crusey Implications.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quote_error",
+          "description": "Straight quotes are used instead of curly quotes.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "1.5, 1.6",
+          "rule_text_quote": "Explanatory parentheticals should begin with a lowercase letter (unless the first word is a proper noun) and should not start with a quotation mark or a word that would otherwise be capitalized in regular text.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202",
+          "correct": "17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7 1202"
+        },
+        {
+          "error_type": "punctuation_error",
+          "description": "Period after the abbreviation 'U.S.C.' should be included, and spacing error near '\u00a7\u00a01202'.",
+          "rb_rule": "",
+          "bluebook_rule": "12",
+          "rule_text_quote": "Cite statutes by their official or popular name (if commonly used) and the published source (code or session law) and year.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "17 U.S.C. \u00a7\u00a0412",
+          "correct": "17 U.S.C. \u00a7 412"
+        }
+      ],
+      "corrected_version": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7 1202)",
+      "notes": "Ensure curly quotes are used consistently in legal writing.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found errors related to quotes and punctuation.",
+      "citation_text_original": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202)",
+      "citation_type": "statute",
+      "gpt_tokens": 1530,
+      "gpt_cost": 0.00022951499999999996
+    },
+    "source_pdf": {
+      "filename": "R1-079-01-023-Crusey Implications.pdf",
+      "num_pages": 38,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250728183456Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text directly supports the main text proposition by discussing the potential for massive liability under \u00a7 1202(b) of the DMCA for the removal of copyright management information (CMI) from works. It explicitly mentions that damages can accumulate to massive amounts in cases involving the removal of CMI from many works, which aligns with the proposition's assertion about liability for minimally original works and fair use. The source also highlights the context of AI copyright lawsuits, which is relevant to the proposition's focus on works that resemble source material.",
+      "supported_elements": [
+        {
+          "element": "massive liability for removing CMI",
+          "source_excerpt": "damages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b)."
+        },
+        {
+          "element": "potential for fair use implications",
+          "source_excerpt": "In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "The analysis would benefit from additional context regarding specific cases or examples of how \u00a7 1202 has been applied in relation to fair use, but the current source text sufficiently supports the main proposition.",
+      "proposition": "The result is that \u00a7 1202 has the potential to impose massive liability for removing CMI from minimally original works, for uses that would otherwise qualify as fair use, and for producing works that only loosely resemble the alleged source material.",
+      "source_text_preview": "[Region 1, Page 0]: Journal of the Copyright Society  Consecutively paginated\n\n[Region 2, Page 0]: Student Note:  SECTION 1202(B) AND AI:  IMPLICATIONS FOR COPYRIGHT INFRINGEMENT LAWSUITS  AND CONSIDE...",
+      "gpt_tokens": 1338,
+      "gpt_cost": 0.00034199999999999996
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_04",
+    "batch_timestamp": "2025-10-29T15:56:10.982796",
+    "processed_at": "2025-10-29T16:03:06.293802"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 3,
+    "original_text": "Crusey, *supra* note 21 at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "Crusey, *supra* note 21, at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-079-01-023-Crusey Implications.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-079-01-023-Crusey Implications.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes",
+          "description": "Straight quotes are used instead of curly quotes for the citation. All quotations should use curly quotes.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "5.1",
+          "rule_text_quote": "Use an ellipsis (...) to indicate the omission of one or more words from the middle of a quoted sentence. Do not use an ellipsis at the beginning of a quotation (even if the beginning of the sentence is omitted) or at the end of a quotation (even if the end of the sentence is omitted) unless what follows in the sentence is also omitted.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d",
+          "correct": "\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d"
+        },
+        {
+          "error_type": "comma_missing",
+          "description": "There should be a comma before 'at' in this suprema citation.",
+          "rb_rule": null,
+          "bluebook_rule": "4.2",
+          "rule_text_quote": "In short forms, separate the citation from the citation clause with a comma (unless the citation ends a sentence).",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "supra note 21 at 515",
+          "correct": "supra note 21, at 515"
+        }
+      ],
+      "corrected_version": "Crusey, *supra* note 21, at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+      "notes": "The citation includes straight quotes instead of curly quotes, and the placement of the comma before 'at' while using 'supra' is missing.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 4.2 and 5.1.",
+      "citation_text_original": "Crusey, *supra* note 21 at 515 (\u201cUnlike a copyright infringement claim under Section 501, a Section 1202 claim requires no prerequisite copyright registration.\u201d).",
+      "citation_type": "unknown",
+      "gpt_tokens": 1578,
+      "gpt_cost": 0.00023673
+    },
+    "source_pdf": {
+      "filename": "R1-079-01-023-Crusey Implications.pdf",
+      "num_pages": 38,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250728183456Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text directly supports the proposition by discussing the potential for massive liability under Section 1202(b) of the DMCA for the removal of copyright management information (CMI) from works, including those that may qualify as fair use. It explicitly mentions the accumulation of statutory damages that can arise from multiple violations, particularly in cases involving AI copyright lawsuits where CMI is removed from millions of works. This aligns closely with the proposition's assertion about the implications of Section 1202 on liability for minimally original works.",
+      "supported_elements": [
+        {
+          "element": "massive liability for removing CMI",
+          "source_excerpt": "damages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b)."
+        },
+        {
+          "element": "potential for fair use implications",
+          "source_excerpt": "In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source sufficiently addresses the elements of the proposition.",
+      "proposition": "The result is that \u00a7 1202 has the potential to impose massive liability for removing CMI from minimally original works, for uses that would otherwise qualify as fair use, and for producing works that only loosely resemble the alleged source material.",
+      "source_text_preview": "[Region 1, Page 0]: Journal of the Copyright Society  Consecutively paginated\n\n[Region 2, Page 0]: Student Note:  SECTION 1202(B) AND AI:  IMPLICATIONS FOR COPYRIGHT INFRINGEMENT LAWSUITS  AND CONSIDE...",
+      "gpt_tokens": 1273,
+      "gpt_cost": 0.000321
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_04",
+    "batch_timestamp": "2025-10-29T15:56:10.982796",
+    "processed_at": "2025-10-29T16:03:06.305132"
+  },
+  {
+    "footnote": 80,
+    "cite_num": 2,
+    "original_text": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7\u00a01202(b) claims).",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*supra*, notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7 1202(b) claims).",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "comma_missing",
+          "description": "The citation lacks a comma between 'supra' and 'notes', which is required for clarity according to the rules.",
+          "rb_rule": null,
+          "bluebook_rule": "4.2",
+          "rule_text_quote": "When citing a source with 'supra', place a comma after 'supra' before the citation number.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "*supra* notes 142-152 and accompanying text",
+          "correct": "*supra*, notes 142-152 and accompanying text"
+        },
+        {
+          "error_type": "curly_quotes",
+          "description": "Straight quotes are used for enclosing the term 'such as'. They must be replaced with curly quotes.",
+          "rb_rule": null,
+          "bluebook_rule": "24.4",
+          "rule_text_quote": "Use curly quotes (\u201c \u201d) for all quotations instead of straight quotes (\" \").",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u00a7 1202(b) claims)",
+          "correct": "\u00a7 1202(b) claims)"
+        }
+      ],
+      "corrected_version": "*supra*, notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7 1202(b) claims).",
+      "notes": "The citation formatting requires special attention to commas and quote formatting.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 4.2 on comma placement and 24.4 on quotation marks.",
+      "citation_text_original": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7\u00a01202(b) claims).",
+      "citation_type": "unknown",
+      "gpt_tokens": 1462,
+      "gpt_cost": 0.00021937499999999998
+    },
+    "source_pdf": {
+      "filename": "R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+      "num_pages": 6,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text provides direct support for the proposition regarding the mechanisms of proving copying in copyright infringement claims. It explicitly discusses the two parts of the standard for determining liability: 'copying in fact' and 'copying in law.' The source also references the Restatement of the Law, which aligns with the proposition's focus on these elements. The details about how copying in fact requires proof of material copied and how copying in law assesses the legal significance of that copying are directly relevant to the proposition.",
+      "supported_elements": [
+        {
+          "element": "Standard for determining copying in copyright infringement claims",
+          "source_excerpt": "Restatement of the Law, Copyright \u00a7 7.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201d)."
+        },
+        {
+          "element": "Copying in law and its significance",
+          "source_excerpt": "Restatement of the Law, supra note \u00a7 7.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d)."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source sufficiently covers the elements of the proposition.",
+      "proposition": "This section examines the mechanisms of that expansion by comparing \u00a7 1202\u2019s scienter, copyrightability, liability threshold, defenses, and damages elements to those of traditional infringement doctrine. Weakened Standard for Proving Copying The standard for determining whether copying rises to liability in a copyright infringement claim consists of two parts: copying in fact and copying in law. Copying in fact establishes that copying actually happened, and copying in law determines whether that copying was legally significant.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 2285,
+      "gpt_cost": 0.0004880999999999999
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_04",
+    "batch_timestamp": "2025-10-29T15:56:10.982796",
+    "processed_at": "2025-10-29T16:03:06.313600"
+  },
+  {
+    "footnote": 78,
+    "cite_num": 1,
+    "original_text": "*See* *infra* Part II.C.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*See* *infra* Part II.C.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "quotation_error",
+          "description": "The citation uses straight quotes instead of curly quotes.",
+          "rb_rule": null,
+          "bluebook_rule": "5.1",
+          "rule_text_quote": "Quotations of fifty or more words should be formatted as block quotations (indented and without quotation marks). Shorter quotations remain in-line with quotation marks.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "*See* *infra* Part II.C.",
+          "correct": "*See* *infra* Part II.C."
+        }
+      ],
+      "corrected_version": "*See* *infra* Part II.C.",
+      "notes": "Ensure the use of curly quotes throughout the document.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 5.1 for quotation formatting.",
+      "citation_text_original": "*See* *infra* Part II.C.",
+      "citation_type": "infra",
+      "gpt_tokens": 1472,
+      "gpt_cost": 0.00022093499999999998
+    },
+    "source_pdf": {
+      "filename": "R1-078-01-070-Sellpoolsuppliesonline Com LLC v Ugly Pools Arizona.pdf",
+      "num_pages": 9,
+      "title": "fs3d rep bv 344",
+      "author": "M0116707",
+      "creation_date": "D:20190315201448Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text explicitly states that the text of the DMCA does not limit the protection of Copyright Management Information (CMI) to registered works, which directly supports the proposition that there is no requirement for copyright registration to bring a \u00a7 1202 claim. This aligns with the assertion that while copyright registration is necessary for copyright infringement claims, it is not required for claims under \u00a7 1202.",
+      "supported_elements": [
+        {
+          "element": "No requirement for copyright registration for \u00a7 1202 claims",
+          "source_excerpt": "The text of the DMCA does not limit the protection of CMI to registered works. 17 U.S.C. \u00a7 1202;"
+        }
+      ],
+      "unsupported_elements": [
+        "Requirement for copyright registration to bring a copyright infringement claim"
+      ],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source sufficiently addresses the key elements of the proposition.",
+      "proposition": "In addition, whereas copyright registration is required to bring a copyright infringement claim, there is no such requirement for a \u00a7 1202 claim.",
+      "source_text_preview": "[Region 1, Page 0]: ORDERED that the defendant\u2019s motion for summary judgment (Docket 41) is de- IT IS FURTHER ORDERED that the plaintiff\u2019s motion for partial summary IT IS FURTHER ORDERED that the    ...",
+      "gpt_tokens": 1192,
+      "gpt_cost": 0.00027824999999999996
+    },
+    "recommendation": "approve",
+    "batch_name": "Test_FN78_AllCites",
+    "batch_timestamp": "2025-10-29T16:03:14.074736",
+    "processed_at": "2025-10-29T16:03:48.172922"
+  },
+  {
+    "footnote": 78,
+    "cite_num": 2,
+    "original_text": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202)",
+    "citation_type": "statute",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7\u00a0412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202)",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-078-02-071-Shihab v Complex Media 21.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-078-02-071-Shihab v Complex Media 21.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "spacing_error",
+          "description": "The section symbol (\u00a7) must be followed by a non-breaking space, but a regular space is currently used.",
+          "rb_rule": null,
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Insert a nonbreaking space (Option+Space on a Mac; Ctrl+Shift+Space on a PC) between a symbol and its corresponding numeral.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u00a7 412",
+          "correct": "\u00a7\u00a0412"
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "The section symbol (\u00a7) must be followed by a non-breaking space, but a regular space is currently used.",
+          "rb_rule": null,
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Insert a nonbreaking space (Option+Space on a Mac; Ctrl+Shift+Space on a PC) between a symbol and its corresponding numeral.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u00a7 1202",
+          "correct": "\u00a7\u00a01202"
+        }
+      ],
+      "corrected_version": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7\u00a0412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202)",
+      "notes": "Double-check for curly quotes as well, although none have been identified in the citation provided.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 6.2.",
+      "citation_text_original": "*Shihab v. Complex Media, Inc.*, No. 21-CV-6425 (PKC), 2022 WL 3544149, at *8 (S.D.N.Y. Aug. 17, 2022) (concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7\u00a01202)",
+      "citation_type": "statute",
+      "gpt_tokens": 1623,
+      "gpt_cost": 0.00024355499999999998
+    },
+    "source_pdf": {
+      "filename": "R1-078-02-071-Shihab v Complex Media 21.pdf",
+      "num_pages": 9,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905071632Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 1.0,
+      "reasoning": "The source text explicitly states that the registration requirement of 17 U.S.C. \u00a7 412 does not apply to claims under DMCA \u00a7 1202. This directly supports the proposition that there is no requirement for copyright registration to bring a \u00a7 1202 claim, contrasting it with the requirement for copyright infringement claims.",
+      "supported_elements": [
+        {
+          "element": "No registration requirement for \u00a7 1202 claims",
+          "source_excerpt": "concluding that 17 U.S.C. \u00a7 412\u2019s registration requirement does not apply to DMCA \u00a7 1202"
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source directly addresses the proposition in question.",
+      "proposition": "In addition, whereas copyright registration is required to bring a copyright infringement claim, there is no such requirement for a \u00a7 1202 claim.",
+      "source_text_preview": "[Region 1, Page 0]: 2022 WL 3544149 United States District Court, S.D. New York. Jamil Gulmann SHIHAB, p/k/ a JAMIL GS, an individual, Plaintiff, v. COMPLEX MEDIA, INC., a Delaware Corporation; and Do...",
+      "gpt_tokens": 1167,
+      "gpt_cost": 0.00025785
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.503711"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 1,
+    "original_text": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-079-01-023-Crusey Implications.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-079-01-023-Crusey Implications.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quote_error",
+          "description": "Straight quotes are used instead of curly quotes in the quotation.",
+          "rb_rule": "1.1",
+          "bluebook_rule": "24.3",
+          "rule_text_quote": "\"SLR always requires a (quoting . . .) parenthetical when quoted material itself quotes another source.\"",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "\u201c...",
+          "correct": "\u201c..."
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "Improper spacing after the section symbol; a nonbreaking space is required.",
+          "rb_rule": "Not applicable",
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Insert a nonbreaking space (Option+Space on a Mac; Ctrl+Shift+Space on a PC)... between a symbol and its corresponding numeral.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "\u00a7 1202(b)",
+          "correct": "\u00a7\u00a01202(b)"
+        }
+      ],
+      "corrected_version": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+      "notes": "Pay attention to curly quotes and spacing issues for legal citations.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Redbook Rule 1.1 for quoting guidelines.",
+      "citation_text_original": "Crusey, *supra *note 21 at 483 (\u201c\u2026[D]amages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b). In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars.\u201d)",
+      "citation_type": "unknown",
+      "gpt_tokens": 1682,
+      "gpt_cost": 0.00025233
+    },
+    "source_pdf": {
+      "filename": "R1-079-01-023-Crusey Implications.pdf",
+      "num_pages": 38,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250728183456Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text directly supports the main text proposition by discussing the potential for massive liability under \u00a7 1202(b) for removing copyright management information (CMI) from works, including those that may qualify as fair use. It explicitly mentions that damages can accumulate to massive amounts in cases involving the removal of CMI from many works, which aligns with the proposition's assertion about liability for minimally original works and the implications for fair use. The source also highlights the context of recent AI copyright lawsuits, which reinforces the relevance of the proposition.",
+      "supported_elements": [
+        {
+          "element": "massive liability for removing CMI",
+          "source_excerpt": "damages have the potential to accumulate to massive amounts in cases involving removal of CMI en masse, which results in many consecutive individual violations of Section 1202(b)."
+        },
+        {
+          "element": "potential for fair use implications",
+          "source_excerpt": "In many of the recent AI copyright lawsuits, CMI is alleged to have been removed from millions of works, leading to potential Section 1202 damage awards in the billions of dollars."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context appears necessary as the source sufficiently addresses the elements of the proposition.",
+      "proposition": "The result is that \u00a7 1202 has the potential to impose massive liability for removing CMI from minimally original works, for uses that would otherwise qualify as fair use, and for producing works that only loosely resemble the alleged source material.",
+      "source_text_preview": "[Region 1, Page 0]: Journal of the Copyright Society  Consecutively paginated\n\n[Region 2, Page 0]: Student Note:  SECTION 1202(B) AND AI:  IMPLICATIONS FOR COPYRIGHT INFRINGEMENT LAWSUITS  AND CONSIDE...",
+      "gpt_tokens": 1329,
+      "gpt_cost": 0.00033075
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.517067"
+  },
+  {
+    "footnote": 79,
+    "cite_num": 2,
+    "original_text": "*supra* notes 142-152 and accompanying text (explaining how thinly-copyrighted works may form the basis of \u00a7\u00a01202(b) claims).",
+    "citation_type": "unknown",
+    "needs_review": true,
+    "needs_word_correction": false,
+    "corrected_text": null,
+    "r1_pdf_path": null,
+    "r2_pdf_path": null,
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.518916"
+  },
+  {
+    "footnote": 80,
+    "cite_num": 1,
+    "original_text": "*See infra* notes 83-98 and accompanying text.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "See *infra* notes 83-98 and accompanying text.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes",
+          "description": "Straight quotes are used instead of curly quotes.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "",
+          "rule_text_quote": "Use curly quotes (\" \" ' ') for all quotations.",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "See infra",
+          "correct": "See infra"
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "There is no nonbreaking space after the section symbol (\u00a7).",
+          "rb_rule": "",
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Insert a nonbreaking space between a symbol and its corresponding numeral.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "\u00a7 83",
+          "correct": "\u00a7\u00a083"
+        }
+      ],
+      "corrected_version": "See *infra* notes 83-98 and accompanying text.",
+      "notes": "The corrections involve ensuring use of curly quotes and the correct spacing with the section symbol.",
+      "file_search_confirmation": "Searched redbook section first, found Redbook Rule 24.4 regarding quotes and Bluebook Rule 6.2 regarding space.",
+      "citation_text_original": "*See infra* notes 83-98 and accompanying text.",
+      "citation_type": "infra",
+      "gpt_tokens": 1521,
+      "gpt_cost": 0.00022815
+    },
+    "source_pdf": {
+      "filename": "R1-080-01-072-Infra Notes 79-99 and Accompanying Text.pdf",
+      "num_pages": 6,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.9,
+      "reasoning": "The source text provides direct support for the proposition regarding the standard for determining whether copying rises to liability in a copyright infringement claim. It explicitly discusses the two parts of the standard: 'copying in fact' and 'copying in law,' which aligns with the main text proposition. The source also references the Restatement of the Law, which outlines the requirements for proving copying in fact and the implications of independent creation, thus reinforcing the legal framework discussed in the main text.",
+      "supported_elements": [
+        {
+          "element": "Standard for determining copying in copyright infringement",
+          "source_excerpt": "Restatement of the Law, Copyright \u00a7 7.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201d)."
+        },
+        {
+          "element": "Copying in law and its significance",
+          "source_excerpt": "Restatement of the Law, supra note \u00a7 7.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d)."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source adequately covers the elements of the proposition.",
+      "proposition": "This section examines the mechanisms of that expansion by comparing \u00a7 1202\u2019s scienter, copyrightability, liability threshold, defenses, and damages elements to those of traditional infringement doctrine. Weakened Standard for Proving Copying The standard for determining whether copying rises to liability in a copyright infringement claim consists of two parts: copying in fact and copying in law. Copying in fact establishes that copying actually happened, and copying in law determines whether that copying was legally significant.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 2257,
+      "gpt_cost": 0.0004812
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.528694"
+  },
+  {
+    "footnote": 81,
+    "cite_num": 1,
+    "original_text": "*See infra* note 111.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*See infra* note 111.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-081-01-073-Infra Note 114.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-081-01-073-Infra Note 114.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quotes_error",
+          "description": "The citation contains straight quotes instead of the required curly quotes.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "N/A",
+          "rule_text_quote": "ALL quotes MUST use curly/smart quotes (\" \", ' ') NOT straight quotes (\" \").",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "*See infra* note 111.",
+          "correct": "*See infra* note 111."
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "There must be a nonbreaking space after the section symbol (U+00A0), but there seems to be a regular space or no space.",
+          "rb_rule": "N/A",
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "When citing such subdivisions, use the appropriate symbol followed by the number (without a period).",
+          "rule_source": "bluebook",
+          "confidence": 0.8,
+          "current": "*See infra* note 111.",
+          "correct": "*See infra* note 111."
+        }
+      ],
+      "corrected_version": "*See infra* note 111.",
+      "notes": "The citation has straight quotes that should be converted to curly quotes. The spacing after the section symbol should be corrected to ensure it is a nonbreaking space.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Redbook Rule 24.4 and Bluebook Rule 6.2.",
+      "citation_text_original": "*See infra* note 111.",
+      "citation_type": "infra",
+      "gpt_tokens": 1569,
+      "gpt_cost": 0.000235365
+    },
+    "source_pdf": {
+      "filename": "R1-081-01-073-Infra Note 114.pdf",
+      "num_pages": 4,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text directly supports the proposition by stating that some courts require copies to be 'identical' for claims under \u00a7 1202 of the DMCA. This aligns with the proposition that the standard for determining whether a legally significant copy has been made depends on the court, specifically mentioning the identicality standard. The source provides multiple case citations that reinforce this point, indicating that the courts have ruled on the necessity of identicality in \u00a7 1202 claims.",
+      "supported_elements": [
+        {
+          "element": "identicality standard for \u00a7 1202 claims",
+          "source_excerpt": "Id. (\u201c[T]he Court finds that . . . Section 1202(b) claims require that copies be \u2018identical.\u2019\u201d); Advanta-STAR Auto. Rsch. Corp. of Am. v. Search Optics, LLC (S.D. Cal. 2023) (\u201cPlaintiff has not plausibly alleged that Defendants distributed identical copies of Plaintiff's comparison.\u201d)"
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context appears necessary as the source provides sufficient legal citations and explanations regarding the identicality standard in \u00a7 1202 claims.",
+      "proposition": "Unlike infringement, the \u00a7 1202 standard for determining whether a legally significant copy has been made depends on the court. Some courts implement an identicality standard, under which the allegedly violating work must be identical to the allegedly violated, original work.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 1383,
+      "gpt_cost": 0.00033345
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.538195"
+  },
+  {
+    "footnote": 82,
+    "cite_num": 1,
+    "original_text": "*See infra* note 131.",
+    "citation_type": "infra",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "*See infra* note 131.",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-082-01-074-Infra Note 131.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-082-01-074-Infra Note 131.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "spacing_error",
+          "description": "The spacing after the section symbol (\u00a7) is incorrect; it should be a nonbreaking space (U+00A0) rather than a regular space (U+0020).",
+          "rb_rule": null,
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Insert a nonbreaking space (Option+Space on a Mac; Ctrl+Shift+Space on a PC) between a symbol and its corresponding numeral.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u00a7 1202(b)",
+          "correct": "\u00a7\u00a01202(b)"
+        }
+      ],
+      "corrected_version": "*See infra* note 131.",
+      "notes": "",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Bluebook Rule 6.2 related to spacing after the section symbol.",
+      "citation_text_original": "*See infra* note 131.",
+      "citation_type": "infra",
+      "gpt_tokens": 1472,
+      "gpt_cost": 0.00022093499999999998
+    },
+    "source_pdf": {
+      "filename": "R1-082-01-074-Infra Note 131.pdf",
+      "num_pages": 4,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905074010Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text directly supports the proposition that other courts implement a similarity standard rather than requiring identicality to determine that a 'copy' was made. It explicitly states that 'the DMCA may properly apply even when the allegedly infringing work is not identical to the original,' and further references that 'an infringing work need not be an identical copy to violate the DMCA.' This aligns perfectly with the main text proposition regarding the similarity standard.",
+      "supported_elements": [
+        {
+          "element": "similarity standard for determining a copy",
+          "source_excerpt": "the DMCA may properly apply even when the allegedly infringing work is not identical to the original."
+        },
+        {
+          "element": "similarity standard for determining a copy",
+          "source_excerpt": "Other courts have held that an infringing work need not be an identical copy to violate the DMCA."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context appears necessary as the source sufficiently addresses the proposition directly.",
+      "proposition": "Other courts implement a similarity standard instead, under which similarity, rather than identicality, is enough to determine that a \u201ccopy\u201d was made.",
+      "source_text_preview": "[Region 1, Page 0]: NOTE  Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA BERSH \u2020\n\n[Region 2, Page 0]: Beyond Infringement: Rethinking DMCA \u00a7 1202 for  Generative AI  LARISSA B...",
+      "gpt_tokens": 1375,
+      "gpt_cost": 0.0003156
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.546260"
+  },
+  {
+    "footnote": 83,
+    "cite_num": 1,
+    "original_text": "Restatement of the Law, Copyright \u00a7\u00a07.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201d).",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "Restatement of the Law, Copyright \u00a7\u00a07.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201c).",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-083-01-075-Restatement.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-083-01-075-Restatement.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "spacing_error",
+          "description": "The section symbol (\u00a7) must be followed by a nonbreaking space, but the current citation uses a regular space.",
+          "rb_rule": null,
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Use a nonbreaking space (U+00A0) between a symbol and its corresponding numeral.",
+          "rule_source": "bluebook",
+          "confidence": 1.0,
+          "current": "\u00a7 7.03",
+          "correct": "\u00a7\u00a07.03"
+        },
+        {
+          "error_type": "curly_quote_error",
+          "description": "The quotation marks used for the parenthetical are straight quotes. They need to be curly quotes (smart quotes) instead.",
+          "rb_rule": "1.1",
+          "bluebook_rule": null,
+          "rule_text_quote": "SLR always requires a (quoting . . .) parenthetical when quoted material itself quotes another source.",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201d",
+          "correct": "\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201c"
+        }
+      ],
+      "corrected_version": "Restatement of the Law, Copyright \u00a7\u00a07.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201c).",
+      "notes": "The citation contains an improper space after the section symbol and uses straight quotes instead of curly quotes.",
+      "file_search_confirmation": "Searched redbook section for quoting and citing rules, and found Redbook Rule 1.1. Confirmed spacing rule in Bluebook Rule 6.2.",
+      "citation_text_original": "Restatement of the Law, Copyright \u00a7\u00a07.03 TD No 4 (2023) (\u201cProving copying in fact requires the plaintiff to prove some material was copied from the plaintiff\u2019s copyrighted work\u2026\u201d).",
+      "citation_type": "unknown",
+      "gpt_tokens": 1662,
+      "gpt_cost": 0.000249405
+    },
+    "source_pdf": {
+      "filename": "R1-083-01-075-Restatement.pdf",
+      "num_pages": 66,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905081836Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 0.95,
+      "reasoning": "The source text explicitly states that to prove 'copying in fact,' a plaintiff must demonstrate that some material was copied from the plaintiff's copyrighted work. This aligns directly with the main text proposition that a plaintiff must show actual copying by the defendant. The source provides a clear definition of the requirement for proving copying in fact, which is a critical element of the infringement claim.",
+      "supported_elements": [
+        {
+          "element": "Requirement to show actual copying",
+          "source_excerpt": "Proving copying in fact requires the plaintiff to prove some material was copied from the plaintiff's copyrighted work..."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source sufficiently addresses the proposition.",
+      "proposition": "**Infringement.* *To show copying in fact, a plaintiff bringing an infringement claim must first show that the defendant actually copied the allegedly infringed work.",
+      "source_text_preview": "[Region 1, Page 0]: RESTATEMENT  OF  THE  LAW COPYRIGHT\n\n[Region 2, Page 0]: Tentative  Draft  No.  4 (March  2023)\n\n[Region 3, Page 0]: Tentative  Draft  No.  4 (March  2023)\n\n[Region 4, Page 0]: THE...",
+      "gpt_tokens": 902,
+      "gpt_cost": 0.00021765
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.560227"
+  },
+  {
+    "footnote": 84,
+    "cite_num": 1,
+    "original_text": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d).",
+    "citation_type": "unknown",
+    "needs_review": false,
+    "needs_word_correction": true,
+    "corrected_text": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d).",
+    "r1_pdf_path": "/Users/ben/app/slrapp/78 SLR V2 R2 F/78 SLR V2 R1/R1-084-01-075-Restatement.pdf",
+    "r2_pdf_path": "/Users/ben/app/slrapp/r2_pipeline/data/output/r2_pdfs/R2-084-01-075-Restatement.pdf",
+    "citation_validation": {
+      "is_correct": false,
+      "overall_confidence": 0.9,
+      "errors": [
+        {
+          "error_type": "curly_quote_error",
+          "description": "Straight quotes are used instead of curly quotes. All quotation marks in legal citations should be curly quotes to comply with the Redbook rules.",
+          "rb_rule": "24.4",
+          "bluebook_rule": "N/A",
+          "rule_text_quote": "In legal writing, all quotes must use curly/smart quotes (\u201c \u201d) not straight quotes (\" \").",
+          "rule_source": "redbook",
+          "confidence": 1.0,
+          "current": "\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d",
+          "correct": "\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d"
+        },
+        {
+          "error_type": "spacing_error",
+          "description": "The section symbol (\u00a7) is not followed by a nonbreaking space as required.",
+          "rb_rule": "N/A",
+          "bluebook_rule": "6.2",
+          "rule_text_quote": "Section symbols (\u00a7) must be followed by a nonbreaking space (U+00A0), not a regular space (U+0020) or no space.",
+          "rule_source": "bluebook",
+          "confidence": 0.9,
+          "current": "\u00a7\u00a07.03",
+          "correct": "\u00a7\u00a07.03"
+        },
+        {
+          "error_type": "parenthetical_capitalization",
+          "description": "The parenthetical should start with a lowercase letter since it does not quote a complete sentence.",
+          "rb_rule": "N/A",
+          "bluebook_rule": "14.5",
+          "rule_text_quote": "Parentheticals should start with a lowercase letter unless it's a quoted sentence.",
+          "rule_source": "bluebook",
+          "confidence": 0.8,
+          "current": "\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d",
+          "correct": "\u201cif the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d"
+        }
+      ],
+      "corrected_version": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d).",
+      "notes": "Potential ambiguity exists around the proper use of italics and spaces; clear nonbreaking space requirement needs to be verified in the final output.",
+      "file_search_confirmation": "Searched redbook section first, then bluebook section. Found Redbook Rule 24.4 and Bluebook Rule 6.2.",
+      "citation_text_original": "Restatement of the Law, *supra* note\u00a083 \u00a7\u00a07.03 (\u201cIf the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement.\u201d).",
+      "citation_type": "unknown",
+      "gpt_tokens": 1940,
+      "gpt_cost": 0.000291135
+    },
+    "source_pdf": {
+      "filename": "R1-084-01-075-Restatement.pdf",
+      "num_pages": 66,
+      "title": "",
+      "author": "",
+      "creation_date": "D:20250905081836Z00'00'"
+    },
+    "ocr_quality_warning": false,
+    "support_analysis": {
+      "support_level": "yes",
+      "confidence": 1.0,
+      "reasoning": "The source text directly supports the main text proposition by stating that if a defendant proves that the allegedly infringing material was independently created rather than copied from the plaintiff's work, then there is no liability for copyright infringement. This aligns perfectly with the proposition that the inquiry exists to ensure that plaintiffs and defendants did not independently create their respective works, which would invalidate the infringement claim.",
+      "supported_elements": [
+        {
+          "element": "independent creation negates infringement claim",
+          "source_excerpt": "If the defendant proves that the allegedly infringing material was independently created rather than copied, directly or indirectly, from the plaintiff's copyrighted work, there was no copying in fact from the plaintiff's work and therefore no liability for copyright infringement."
+        }
+      ],
+      "unsupported_elements": [],
+      "suggested_action": "approve",
+      "missing_context": "No additional context is needed as the source adequately addresses the proposition in its entirety.",
+      "proposition": "This inquiry exists to ensure plaintiffs and defendants did not independently create their respective works, a finding that would invalidate the infringement claim.",
+      "source_text_preview": "[Region 1, Page 0]: RESTATEMENT  OF  THE  LAW COPYRIGHT\n\n[Region 2, Page 0]: Tentative  Draft  No.  4 (March  2023)\n\n[Region 3, Page 0]: Tentative  Draft  No.  4 (March  2023)\n\n[Region 4, Page 0]: THE...",
+      "gpt_tokens": 942,
+      "gpt_cost": 0.00023759999999999997
+    },
+    "recommendation": "approve",
+    "batch_name": "Batch_05",
+    "batch_timestamp": "2025-10-29T18:19:01.339054",
+    "processed_at": "2025-10-29T18:26:15.572571"
+  }
+]

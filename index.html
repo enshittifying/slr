@@ -3,259 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stanford Law Review Workflow Management System</title>
+    <title>SLR Documentation</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 60px auto;
             padding: 20px;
+            line-height: 1.6;
         }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
-        }
-
-        header {
-            background: linear-gradient(135deg, #8e2de2 0%, #4a00e0 100%);
-            color: white;
-            padding: 40px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 2.5em;
+        h1 {
             margin-bottom: 10px;
         }
-
-        header p {
-            font-size: 1.2em;
-            opacity: 0.9;
-        }
-
-        main {
-            padding: 40px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .section h2 {
-            color: #4a00e0;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
-        }
-
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .card {
-            background: #f8f9fa;
-            border: 2px solid #e9ecef;
-            border-radius: 8px;
-            padding: 25px;
-            transition: all 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            border-color: #667eea;
-        }
-
-        .card h3 {
-            color: #4a00e0;
-            margin-bottom: 15px;
-            font-size: 1.4em;
-        }
-
-        .card p {
+        p {
             color: #666;
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-top: 40px;
             margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
         }
-
-        .card a {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: all 0.3s ease;
+        ul {
+            list-style: none;
+            padding: 0;
         }
-
-        .card a:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        li {
+            margin: 8px 0;
         }
-
-        .pipeline-flow {
-            background: #f8f9fa;
-            border-radius: 8px;
-            padding: 30px;
-            margin: 20px 0;
-        }
-
-        .pipeline-flow ol {
-            list-style-position: inside;
-            color: #666;
-        }
-
-        .pipeline-flow li {
-            padding: 10px;
-            margin: 10px 0;
-            background: white;
-            border-left: 4px solid #667eea;
-            border-radius: 4px;
-        }
-
-        footer {
-            background: #2d3748;
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-
-        footer a {
-            color: #667eea;
+        a {
+            color: #0066cc;
             text-decoration: none;
         }
-
-        footer a:hover {
+        a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Stanford Law Review</h1>
-            <p>Workflow Management System Documentation</p>
-        </header>
+    <h1>SLR Documentation</h1>
+    <p>Stanford Law Review workflow management system documentation and reference files.</p>
 
-        <main>
-            <section class="section">
-                <h2>Project Overview</h2>
-                <p>
-                    This system provides a comprehensive, automated workflow management solution for the Stanford Law Review,
-                    integrating citation checking, source management, and editorial processes into a unified platform.
-                </p>
-            </section>
+    <h2>Documentation</h2>
+    <ul>
+        <li><a href="info/implementation.md" download>implementation.md</a></li>
+        <li><a href="info/substantive_content.md" download>substantive_content.md</a></li>
+        <li><a href="info/Architectural_Blueprint.md" download>Architectural_Blueprint.md</a></li>
+    </ul>
 
-            <section class="section">
-                <h2>Core Documentation</h2>
-                <div class="card-grid">
-                    <div class="card">
-                        <h3>Implementation Guide</h3>
-                        <p>Technical implementation details, architecture, and system components for building the complete workflow management system.</p>
-                        <a href="info/implementation.md" download>Download Implementation.md</a>
-                    </div>
+    <h2>Reference Files</h2>
+    <ul>
+        <li><a href="reference_files/r1_handbook_summary.md" download>r1_handbook_summary.md</a></li>
+        <li><a href="reference_files/Bluebook.json" download>Bluebook.json</a></li>
+        <li><a href="reference_files/Volume 78 Member Editor Handbook.pdf" download>Volume 78 Member Editor Handbook.pdf</a></li>
+        <li><a href="reference_files/redbook_processed/">redbook_processed/</a></li>
+    </ul>
 
-                    <div class="card">
-                        <h3>Substantive Content</h3>
-                        <p>Functional requirements, business logic, and content specifications for the SLR workflow system.</p>
-                        <a href="info/substantive_content.md" download>Download Substantive Content</a>
-                    </div>
-
-                    <div class="card">
-                        <h3>Architectural Blueprint</h3>
-                        <p>Comprehensive architectural design including OAuth 2.0 implementation, security framework, and deployment strategies.</p>
-                        <a href="info/Architectural_Blueprint.md" download>Download Architecture Blueprint</a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2>Automated Editorial Pipeline</h2>
-                <div class="pipeline-flow">
-                    <p><strong>The system implements a three-stage automated pipeline:</strong></p>
-                    <ol>
-                        <li><strong>Stage 1: Source Pull Machine (sp_machine)</strong> - Automatically finds and downloads source materials from legal databases, websites, and academic repositories.</li>
-                        <li><strong>Stage 2: R1 Machine (Preparation)</strong> - Prepares sources by cleaning PDFs, performing metadata redboxing, and filing sources to Google Drive.</li>
-                        <li><strong>Stage 3: R2 Pipeline (Validation)</strong> - LLM-powered validation of citation formatting, proposition support checking, and quote verification.</li>
-                    </ol>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2>Reference Materials</h2>
-                <div class="card-grid">
-                    <div class="card">
-                        <h3>R1 Handbook Summary</h3>
-                        <p>Structured summary of the R1 process derived from the Member Editor Handbook.</p>
-                        <a href="reference_files/r1_handbook_summary.md" download>Download R1 Summary</a>
-                    </div>
-
-                    <div class="card">
-                        <h3>Bluebook Rules</h3>
-                        <p>JSON-formatted Bluebook and Redbook citation rules for LLM-based validation.</p>
-                        <a href="reference_files/Bluebook.json" download>Download Bluebook.json</a>
-                    </div>
-
-                    <div class="card">
-                        <h3>Member Editor Handbook</h3>
-                        <p>Volume 78 official handbook documenting the manual cite-checking process.</p>
-                        <a href="reference_files/Volume 78 Member Editor Handbook.pdf" download>Download Handbook</a>
-                    </div>
-
-                    <div class="card">
-                        <h3>Redbook (Processed)</h3>
-                        <p>HTML version of the Stanford Law Review Redbook citation guide.</p>
-                        <a href="reference_files/redbook_processed/">Browse Redbook Files</a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section">
-                <h2>Key Features</h2>
-                <div class="card-grid">
-                    <div class="card">
-                        <h3>Automated Source Discovery</h3>
-                        <p>Connects to HeinOnline, Westlaw, Lexis, and other databases to automatically find format-preserving PDFs.</p>
-                    </div>
-
-                    <div class="card">
-                        <h3>AI-Powered Validation</h3>
-                        <p>Uses large language models to check Bluebook compliance and verify proposition support.</p>
-                    </div>
-
-                    <div class="card">
-                        <h3>Google Workspace Integration</h3>
-                        <p>Native integration with Google Sheets, Forms, Drive, and Calendar for seamless workflow management.</p>
-                    </div>
-
-                    <div class="card">
-                        <h3>Per-Article Processing</h3>
-                        <p>Each article (e.g., 78.6, 79.1) undergoes its own complete SP → R1 → R2 pipeline.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <p>Stanford Law Review Workflow Management System</p>
-            <p>Volume 78 | <a href="https://github.com/enshittifying/slr" target="_blank">View on GitHub</a></p>
-        </footer>
-    </div>
+    <p style="margin-top: 60px; color: #999; font-size: 0.9em;">
+        <a href="https://github.com/enshittifying/slr">GitHub</a>
+    </p>
 </body>
 </html>

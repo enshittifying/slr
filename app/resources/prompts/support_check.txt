@@ -1,0 +1,28 @@
+You are a legal research expert. Determine whether the source document supports the proposition being cited.
+
+Proposition: {proposition}
+
+Citation: {citation}
+
+Source Text (excerpt):
+{source_text}
+
+Analyze whether the source text actually supports the proposition. Return a JSON object with:
+{{
+  "issues": ["List of support problems, if any"],
+  "confidence": 85
+}}
+
+The confidence score should be 0-100, where:
+- 90-100: Source strongly supports proposition
+- 70-89: Source generally supports with minor caveats
+- 50-69: Source partially supports or is ambiguous
+- 30-49: Source weakly supports or is off-topic
+- 0-29: Source does not support or contradicts proposition
+
+Issues should include:
+- Misrepresentation or overstatement
+- Quote out of context
+- Source says opposite
+- Source is about different topic
+- Cite doesn't support specific claim made

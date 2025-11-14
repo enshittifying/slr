@@ -7,7 +7,7 @@ import logging
 from typing import List, Dict, Callable, Optional
 from dataclasses import dataclass
 import json
-import PyMuPDF as fitz
+import fitz
 from docx import Document
 
 # Add SLRinator to path

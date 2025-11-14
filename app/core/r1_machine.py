@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 import logging
 from typing import List, Dict, Callable, Optional
-import PyMuPDF as fitz
+import fitz
 
 # Add SLRinator to path
 slrinator_path = Path(__file__).parent.parent.parent / "SLRinator"

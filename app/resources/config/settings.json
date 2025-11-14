@@ -1,0 +1,32 @@
+{
+  "app": {
+    "name": "SLR Citation Processor",
+    "version": "1.0.0"
+  },
+  "google": {
+    "spreadsheet_id": "",
+    "drive_folder_id": ""
+  },
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "api_key": ""
+  },
+  "paths": {
+    "credentials": "app/resources/credentials.enc",
+    "cache_dir": "cache",
+    "output_dir": "output"
+  },
+  "processing": {
+    "max_concurrent_downloads": 5,
+    "retry_attempts": 3,
+    "timeout_seconds": 30
+  },
+  "ui": {
+    "theme": "light",
+    "window_size": [
+      1200,
+      800
+    ]
+  }
+}

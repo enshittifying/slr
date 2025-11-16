@@ -1,0 +1,88 @@
+[run]
+# Measure coverage for these packages
+source =
+    app
+    SLRinator
+    r2_pipeline
+
+# Omit these files/directories from coverage
+omit =
+    */tests/*
+    */test_*.py
+    */__pycache__/*
+    */venv/*
+    */site-packages/*
+    */conftest.py
+    */migrations/*
+    */.eggs/*
+    */setup.py
+    */build/*
+    */dist/*
+
+# Enable branch coverage
+branch = True
+
+# Parallel mode for concurrent testing
+parallel = True
+
+[report]
+# Precision for coverage percentages
+precision = 2
+
+# Show lines that weren't executed
+show_missing = True
+
+# Don't show files with 100% coverage
+skip_covered = False
+
+# Don't show files with no executable code
+skip_empty = True
+
+# Exclude these lines from coverage
+exclude_lines =
+    # Standard pragma
+    pragma: no cover
+
+    # Don't complain about missing debug code
+    def __repr__
+    def __str__
+
+    # Don't complain if tests don't hit defensive assertion code
+    raise AssertionError
+    raise NotImplementedError
+    raise ValueError
+
+    # Don't complain about main entry points
+    if __name__ == .__main__.:
+
+    # Don't complain about type checking
+    if TYPE_CHECKING:
+    if typing.TYPE_CHECKING:
+
+    # Don't complain about abstract methods
+    @abstractmethod
+    @abc.abstractmethod
+
+    # Don't complain about protocol methods
+    @typing.runtime_checkable
+
+    # Don't complain about pass statements
+    pass
+
+    # Don't complain about ellipsis
+    \.\.\.
+
+[html]
+# Output directory for HTML report
+directory = htmlcov
+
+# Title for HTML report
+title = SLR Citation Processor - Test Coverage Report
+
+[xml]
+# Output file for XML report (for CI/CD)
+output = coverage.xml
+
+[json]
+# Output file for JSON report
+output = coverage.json

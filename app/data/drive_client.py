@@ -11,6 +11,9 @@ from pathlib import Path
 from typing import Optional, List, Dict
 import logging
 
+from ..utils.retry import retry_api_call, APIRetryConfig
+from ..utils.edge_cases import PDFValidator
+
 logger = logging.getLogger(__name__)
 
 
@@ -29,10 +32,11 @@ class DriveClient:
         self.root_folder_id = root_folder_id
         self.service = build('drive', 'v3', credentials=credentials)
 
+    @retry_api_call
     def upload_file(self, local_path: str, filename: str = None, folder_id: str = None,
                    mime_type: str = None) -> str:
         """
-        Upload file to Drive
+        Upload file to Drive (with automatic retry on failures)
 
         Args:
             local_path: Path to local file
@@ -43,6 +47,13 @@ class DriveClient:
         Returns:
             File ID of uploaded file
         """
+        # Validate PDF if it's a PDF file
+        if local_path.endswith('.pdf'):
+            is_valid, error = PDFValidator.validate_pdf(local_path)
+            if not is_valid:
+                logger.warning(f"Uploading potentially corrupted PDF: {error}")
+
+
         if filename is None:
             filename = Path(local_path).name
 

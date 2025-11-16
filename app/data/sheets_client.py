@@ -7,6 +7,8 @@ from googleapiclient.errors import HttpError
 from typing import List, Dict, Optional
 import logging
 
+from ..utils.retry import retry_api_call
+
 logger = logging.getLogger(__name__)
 
 
@@ -24,6 +26,7 @@ class SheetsClient:
         self.spreadsheet_id = spreadsheet_id
         self.service = build('sheets', 'v4', credentials=credentials)
 
+    @retry_api_call
     def get_all_articles(self) -> List[Dict]:
         """
         Get all articles from Master Sheet
@@ -62,6 +65,7 @@ class SheetsClient:
             logger.error(f"Failed to get articles: {error}")
             raise
 
+    @retry_api_call
     def get_sources_for_article(self, article_id: str) -> List[Dict]:
         """
         Get all sources for a specific article
@@ -108,6 +112,7 @@ class SheetsClient:
             logger.error(f"Failed to get sources: {error}")
             raise
 
+    @retry_api_call
     def update_source_status(self, source_id: str, status: str = None,
                            drive_link: str = None, error_message: str = None):
         """
@@ -159,6 +164,7 @@ class SheetsClient:
             logger.error(f"Failed to update source status: {error}")
             raise
 
+    @retry_api_call
     def update_r1_status(self, source_id: str, status: str = None,
                         r1_drive_link: str = None, error_message: str = None):
         """
@@ -205,6 +211,7 @@ class SheetsClient:
             logger.error(f"Failed to update R1 status: {error}")
             raise
 
+    @retry_api_call
     def update_article_stage(self, article_id: str, stage: str, error_message: str = None):
         """
         Update article processing stage

@@ -7,6 +7,8 @@ import openai
 import anthropic
 import logging
 
+from ..utils.retry import retry_api_call
+
 logger = logging.getLogger(__name__)
 
 
@@ -39,6 +41,7 @@ class OpenAIClient(LLMClient):
         self.client = openai.OpenAI(api_key=api_key)
         self.model = model
 
+    @retry_api_call
     def check_format(self, citation_text: str, format_rules: dict, prompt_template: str) -> dict:
         """
         Check citation format using GPT
@@ -76,6 +79,7 @@ class OpenAIClient(LLMClient):
             logger.error(f"OpenAI format check failed: {e}")
             return {"issues": [f"API Error: {str(e)}"], "suggestion": ""}
 
+    @retry_api_call
     def check_support(self, proposition: str, source_text: str, citation_text: str,
                      prompt_template: str) -> dict:
         """
@@ -131,6 +135,7 @@ class AnthropicClient(LLMClient):
         self.client = anthropic.Anthropic(api_key=api_key)
         self.model = model
 
+    @retry_api_call
     def check_format(self, citation_text: str, format_rules: dict, prompt_template: str) -> dict:
         """
         Check citation format using Claude
@@ -177,6 +182,7 @@ class AnthropicClient(LLMClient):
             logger.error(f"Anthropic format check failed: {e}")
             return {"issues": [f"API Error: {str(e)}"], "suggestion": ""}
 
+    @retry_api_call
     def check_support(self, proposition: str, source_text: str, citation_text: str,
                      prompt_template: str) -> dict:
         """

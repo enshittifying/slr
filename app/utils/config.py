@@ -2,8 +2,11 @@
 Configuration manager for desktop app
 """
 import json
+import logging
 from pathlib import Path
 from typing import Any, Dict
+
+logger = logging.getLogger(__name__)
 
 
 class ConfigManager:
@@ -24,14 +27,26 @@ class ConfigManager:
 
     def _load_config(self) -> Dict:
         """Load configuration from file"""
-        if not self.config_path.exists():
-            # Create default config
-            default_config = self._get_default_config()
-            self.save_config(default_config)
-            return default_config
+        try:
+            if not self.config_path.exists():
+                # Create default config
+                logger.info(f"Config file not found, creating default: {self.config_path}")
+                default_config = self._get_default_config()
+                self.save_config(default_config)
+                return default_config
 
-        with open(self.config_path, 'r') as f:
-            return json.load(f)
+            with open(self.config_path, 'r') as f:
+                config = json.load(f)
+                logger.debug(f"Loaded configuration from {self.config_path}")
+                return config
+        except json.JSONDecodeError as e:
+            logger.error(f"Invalid JSON in config file: {e}", exc_info=True)
+            logger.warning("Using default configuration")
+            return self._get_default_config()
+        except Exception as e:
+            logger.error(f"Error loading config: {e}", exc_info=True)
+            logger.warning("Using default configuration")
+            return self._get_default_config()
 
     def _get_default_config(self) -> Dict:
         """Get default configuration"""
@@ -112,14 +127,20 @@ class ConfigManager:
         Args:
             config: Configuration dict (uses self.config if not provided)
         """
-        if config is None:
-            config = self.config
+        try:
+            if config is None:
+                config = self.config
 
-        # Ensure directory exists
-        self.config_path.parent.mkdir(parents=True, exist_ok=True)
+            # Ensure directory exists
+            self.config_path.parent.mkdir(parents=True, exist_ok=True)
 
-        with open(self.config_path, 'w') as f:
-            json.dump(config, f, indent=2)
+            with open(self.config_path, 'w') as f:
+                json.dump(config, f, indent=2)
+
+            logger.debug(f"Saved configuration to {self.config_path}")
+        except Exception as e:
+            logger.error(f"Error saving config: {e}", exc_info=True)
+            raise
 
     def update(self, updates: Dict):
         """

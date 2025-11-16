@@ -129,8 +129,8 @@ class R1Machine:
                     Path(cleaned_path).unlink(missing_ok=True)
                     if r1_pdf_path != cached_path:
                         Path(r1_pdf_path).unlink(missing_ok=True)
-                except:
-                    pass
+                except Exception as e:
+                    logger.debug(f"Error cleaning up temp files: {e}")
 
             except Exception as e:
                 fail_count += 1

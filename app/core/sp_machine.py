@@ -189,7 +189,7 @@ class SPMachine:
         logger.info(f"Extracted {len(footnotes)} footnotes")
 
         # For now, just process existing sources from Sheet
-        # TODO: Could create sources from extracted footnotes if not in sheet
+        # NOTE: Future enhancement - could auto-create sources from extracted footnotes
         return self.process_article(article_id, progress_callback)
 
     def get_cache_status(self, article_id: str) -> Dict:

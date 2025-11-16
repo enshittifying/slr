@@ -69,17 +69,21 @@ class ProgressWidget(QWidget):
             total: Total items
             message: Status message
         """
-        self.progress_bar.setMaximum(total)
-        self.progress_bar.setValue(current)
+        try:
+            self.progress_bar.setMaximum(total)
+            self.progress_bar.setValue(current)
 
-        percentage = int((current / total * 100)) if total > 0 else 0
-        self.progress_bar.setFormat(f"{percentage}%")
+            percentage = int((current / total * 100)) if total > 0 else 0
+            self.progress_bar.setFormat(f"{percentage}%")
 
-        self.details_label.setText(f"{current} / {total}")
+            self.details_label.setText(f"{current} / {total}")
 
-        if message:
-            self.status_label.setText(message)
-            self.add_log(message)
+            if message:
+                self.status_label.setText(message)
+                self.add_log(message)
+        except Exception as e:
+            # Fail silently for UI updates
+            print(f"Error updating progress: {e}")
 
     def add_log(self, message):
         """
@@ -88,12 +92,16 @@ class ProgressWidget(QWidget):
         Args:
             message: Message to add
         """
-        timestamp = datetime.now().strftime("%H:%M:%S")
-        self.log_display.append(f"[{timestamp}] {message}")
+        try:
+            timestamp = datetime.now().strftime("%H:%M:%S")
+            self.log_display.append(f"[{timestamp}] {message}")
 
-        # Auto-scroll to bottom
-        scrollbar = self.log_display.verticalScrollBar()
-        scrollbar.setValue(scrollbar.maximum())
+            # Auto-scroll to bottom
+            scrollbar = self.log_display.verticalScrollBar()
+            scrollbar.setValue(scrollbar.maximum())
+        except Exception as e:
+            # Fail silently for UI updates
+            print(f"Error adding log message: {e}")
 
     def clear_log(self):
         """Clear the log display"""

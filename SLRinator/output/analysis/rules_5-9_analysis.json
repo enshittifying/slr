@@ -1,0 +1,1177 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2025-11-23T00:00:00.000Z",
+  "source_file": "/home/user/slr/SLRinator/config/rules/Bluebook.json",
+  "rules_analyzed": [5, 6, 7, 8, 9],
+  "description": "Comprehensive analysis of Bluebook Rules 5-9 covering quotations, abbreviations, numerals, symbols, italicization, capitalization, and titles with detection patterns and error identification strategies",
+
+  "rules": [
+    {
+      "rule_id": "5",
+      "rule_title": "Quotations",
+      "rule_text": "",
+      "subrules": [
+        {
+          "rule_id": "5.1",
+          "rule_title": "Formatting of Quotations",
+          "rule_text": "Quotations of fifty or more words should be formatted as block quotations (indented and without quotation marks). Shorter quotations remain in-line with quotation marks. When using a block quotation, maintain the original formatting, including internal quotation marks. Use an ellipsis to indicate omitted material and brackets to indicate changes or additions.",
+          "common_errors": [
+            {
+              "error_id": "quote_length_01",
+              "error_type": "block_quote_threshold",
+              "description": "Quote of 50+ words must be formatted as block quote (indented, no quotation marks)",
+              "regex_pattern": "\"(?:[^\"\\n]*\\s+){49,}[^\"\\n]*\"",
+              "incorrect_example": "\"This is a very long quotation that contains more than fifty words and should therefore be formatted as a block quotation according to Bluebook Rule 5.1, but it has been incorrectly formatted as an inline quotation with quotation marks, which violates the rule and should be corrected by removing the quotation marks and indenting the text.\"",
+              "correct_example": "    This is a very long quotation that contains more than fifty words and should therefore be formatted as a block quotation according to Bluebook Rule 5.1, and it has been correctly formatted as a block quotation by removing the quotation marks and indenting the text.",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Convert to block quote format: remove quotation marks, indent entire passage"
+            },
+            {
+              "error_id": "quote_length_02",
+              "error_type": "short_quote_block_formatted",
+              "description": "Quote under 50 words should not be block quoted",
+              "regex_pattern": null,
+              "incorrect_example": "    This short quote should be inline.",
+              "correct_example": "\"This short quote should be inline.\"",
+              "severity": "minor",
+              "auto_fixable": false,
+              "fix_instructions": "Convert to inline quote: add quotation marks, remove indentation"
+            },
+            {
+              "error_id": "quote_format_01",
+              "error_type": "block_quote_with_quotes",
+              "description": "Block quotation incorrectly includes outer quotation marks",
+              "regex_pattern": "^\\s{4,}\"[^\"]+\"\\s*$",
+              "incorrect_example": "    \"This is a block quote that incorrectly has quotation marks around it.\"",
+              "correct_example": "    This is a block quote that correctly has no quotation marks around it.",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Remove outer quotation marks from block quote"
+            },
+            {
+              "error_id": "quote_format_02",
+              "error_type": "internal_quote_marks_missing",
+              "description": "Block quotation fails to preserve internal quotation marks from original",
+              "regex_pattern": null,
+              "incorrect_example": "    The court stated that the defendant was negligent.",
+              "correct_example": "    The court stated that \"the defendant was negligent.\"",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Preserve original internal quotation marks in block quote",
+              "requires_gpt": true
+            }
+          ],
+          "detection_patterns": [
+            {
+              "pattern_id": "quote_word_count",
+              "description": "Count words in inline quotations to detect 50+ word violations",
+              "implementation": "regex_with_word_count",
+              "regex": "\"([^\"]{200,})\"",
+              "post_process": "Count words in capture group; flag if >= 50 words"
+            },
+            {
+              "pattern_id": "block_quote_detection",
+              "description": "Detect block quotes by indentation pattern",
+              "implementation": "regex",
+              "regex": "^[ \\t]{4,}[^\"\\s].*$",
+              "context_lines": 3
+            },
+            {
+              "pattern_id": "quoted_text_detection",
+              "description": "Find all inline quotations",
+              "implementation": "regex",
+              "regex": "\"([^\"\\n]+)\"",
+              "multiline": false
+            }
+          ],
+          "gpt_prompts": [
+            {
+              "prompt_id": "verify_block_quote_threshold",
+              "prompt": "Count the exact number of words in this quotation. If it contains 50 or more words, it must be formatted as a block quotation (indented, without outer quotation marks). If it contains fewer than 50 words, it should be an inline quotation with quotation marks. Return: {\"word_count\": <number>, \"is_compliant\": <boolean>, \"required_format\": \"block\"|\"inline\"}",
+              "use_case": "Verify quotation length and format compliance"
+            },
+            {
+              "prompt_id": "check_internal_quotes_preserved",
+              "prompt": "Examine this block quotation. Does it properly preserve internal quotation marks that were present in the original source material? Look for quoted speech, quoted terms, or other internal quotes that should be maintained. Return: {\"has_internal_quotes\": <boolean>, \"properly_preserved\": <boolean>, \"issues\": []}",
+              "use_case": "Verify internal quotation marks are preserved in block quotes"
+            }
+          ]
+        },
+        {
+          "rule_id": "5.2",
+          "rule_title": "Alterations and Quotations Within Quotations",
+          "rule_text": "Indicate any alteration to a quoted text with brackets, including added or changed letters or words. Use \"[sic]\" after an error in the original that is being preserved. When quoting text that itself contains a quotation, alternate between double and single quotation marks (with the outermost quotes determined by the context of your quote).",
+          "common_errors": [
+            {
+              "error_id": "alteration_01",
+              "error_type": "unbracketed_alteration",
+              "description": "Alteration to quoted text not indicated with brackets",
+              "regex_pattern": null,
+              "incorrect_example": "\"The defendant he was negligent.\"",
+              "correct_example": "\"The defendant [was] negligent.\"",
+              "severity": "critical",
+              "auto_fixable": false,
+              "fix_instructions": "Enclose all alterations in brackets",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "alteration_02",
+              "error_type": "missing_sic",
+              "description": "Error in original quotation not marked with [sic]",
+              "regex_pattern": null,
+              "incorrect_example": "\"The defendent was negligent.\"",
+              "correct_example": "\"The defendent [sic] was negligent.\"",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Add [sic] after preserved errors from original",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "alteration_03",
+              "error_type": "incorrect_sic_format",
+              "description": "[sic] formatted incorrectly (should be in brackets, lowercase, not italicized in brackets)",
+              "regex_pattern": "\\b(sic|SIC|Sic)\\b(?!\\])|\\[(?:SIC|Sic)\\]|\\[\\s*sic\\s*\\](?=\\s*[^\\]])|sic(?!\\])",
+              "incorrect_example": "\"The defendent sic was negligent.\" or \"[SIC]\" or \"[Sic]\"",
+              "correct_example": "\"The defendent [sic] was negligent.\"",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Format as [sic] - lowercase, in brackets"
+            },
+            {
+              "error_id": "alteration_04",
+              "error_type": "capitalization_change_unbracket",
+              "description": "Changed capitalization not indicated with brackets",
+              "regex_pattern": null,
+              "incorrect_example": "\"the Court held...\" (when original was \"The Court held...\")",
+              "correct_example": "\"[T]he Court held...\"",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Bracket altered capital letters",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "nested_quotes_01",
+              "error_type": "incorrect_nested_quote_marks",
+              "description": "Nested quotation marks not properly alternated between double and single",
+              "regex_pattern": "\"[^\"]*\"[^\"]*\"",
+              "incorrect_example": "\"The witness said \"I saw it\" clearly.\"",
+              "correct_example": "\"The witness said 'I saw it' clearly.\"",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Alternate between double and single quotation marks for nested quotes"
+            },
+            {
+              "error_id": "nested_quotes_02",
+              "error_type": "triple_nested_incorrect",
+              "description": "Triple-nested quotations not properly alternated (should go: double > single > double)",
+              "regex_pattern": null,
+              "incorrect_example": "\"The article stated 'The witness said 'I saw it' clearly' in testimony.\"",
+              "correct_example": "\"The article stated 'The witness said \"I saw it\" clearly' in testimony.\"",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Use double quotes for outermost, single for second level, double for third level",
+              "requires_gpt": true
+            }
+          ],
+          "detection_patterns": [
+            {
+              "pattern_id": "bracket_alteration_detection",
+              "description": "Detect bracketed alterations in quotations",
+              "implementation": "regex",
+              "regex": "\"[^\"]*\\[[^\\]]+\\][^\"]*\"",
+              "note": "Matches quotes containing bracketed content"
+            },
+            {
+              "pattern_id": "sic_usage_detection",
+              "description": "Find all uses of [sic] and variants",
+              "implementation": "regex",
+              "regex": "\\[(sic|SIC|Sic)\\]|\\b(sic|SIC|Sic)\\b",
+              "case_sensitive": false
+            },
+            {
+              "pattern_id": "nested_quote_detection",
+              "description": "Detect potentially nested quotations",
+              "implementation": "regex",
+              "regex": "\"[^\"]*['\"][^\"]*\"",
+              "note": "Matches quotes containing other quote marks"
+            },
+            {
+              "pattern_id": "double_quote_in_quote",
+              "description": "Detect incorrect double quotes within double quotes",
+              "implementation": "regex",
+              "regex": "\"[^\"]*\"(?!\\s*[,.])[^\"]*\"",
+              "note": "May indicate improperly nested quotes"
+            }
+          ],
+          "gpt_prompts": [
+            {
+              "prompt_id": "verify_alterations_bracketed",
+              "prompt": "Examine this quotation and compare it to the implied original context. Are there any alterations to the original text (added words, changed words, changed capitalization) that are not properly indicated with brackets? Return: {\"has_alterations\": <boolean>, \"all_properly_bracketed\": <boolean>, \"issues\": [{\"location\": \"\", \"alteration\": \"\", \"should_be\": \"\"}]}",
+              "use_case": "Verify all alterations are properly bracketed",
+              "requires_original": true
+            },
+            {
+              "prompt_id": "verify_sic_usage",
+              "prompt": "Check if this quotation contains any errors from the original source. If errors are preserved, they should be followed by [sic]. If errors were corrected, they should be bracketed. Return: {\"has_preserved_errors\": <boolean>, \"sic_properly_used\": <boolean>, \"issues\": []}",
+              "use_case": "Verify [sic] is used correctly for preserved errors"
+            },
+            {
+              "prompt_id": "verify_nested_quotes",
+              "prompt": "Analyze this quotation for nested quotes. Nested quotations should alternate between double and single quotation marks (outermost determines which). Check if the alternation is correct. Return: {\"has_nested_quotes\": <boolean>, \"nesting_level\": <number>, \"properly_alternated\": <boolean>, \"should_be\": \"\"}",
+              "use_case": "Verify nested quotation marks are properly alternated"
+            }
+          ]
+        },
+        {
+          "rule_id": "5.3",
+          "rule_title": "Omissions",
+          "rule_text": "Use an ellipsis (\"...\") to indicate omitted material within a quotation. Do not begin a quote with an ellipsis if the quoted material starts midsentence; simply begin with a lowercase letter (bracketed if needed). Ensure the omission does not alter the fundamental meaning of the quoted text.",
+          "common_errors": [
+            {
+              "error_id": "omission_01",
+              "error_type": "missing_ellipsis",
+              "description": "Omitted material within quotation not indicated with ellipsis",
+              "regex_pattern": null,
+              "incorrect_example": "\"The defendant was negligent and caused harm.\" (when middle phrase omitted)",
+              "correct_example": "\"The defendant was negligent ... and caused harm.\"",
+              "severity": "critical",
+              "auto_fixable": false,
+              "fix_instructions": "Add ellipsis (...) to indicate omitted material",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "omission_02",
+              "error_type": "incorrect_initial_ellipsis",
+              "description": "Quote incorrectly begins with ellipsis when starting mid-sentence",
+              "regex_pattern": "\"\\s*\\.{3}\\s*[a-z]",
+              "incorrect_example": "\"... the court held that negligence was proven.\"",
+              "correct_example": "\"[T]he court held that negligence was proven.\" or \"the court held that negligence was proven.\"",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Remove initial ellipsis; use lowercase or bracketed capital letter"
+            },
+            {
+              "error_id": "omission_03",
+              "error_type": "ellipsis_format_incorrect",
+              "description": "Ellipsis not properly formatted (should be three periods with spaces)",
+              "regex_pattern": "\\.{2}(?!\\.)|(?<!\\.)\\.\\.(?!\\.)|\\.\\.{4,}",
+              "incorrect_example": "\"The court .. held\" or \"The court .... held\"",
+              "correct_example": "\"The court ... held\"",
+              "severity": "minor",
+              "auto_fixable": true,
+              "fix_instructions": "Use exactly three periods for ellipsis: ..."
+            },
+            {
+              "error_id": "omission_04",
+              "error_type": "ellipsis_spacing_incorrect",
+              "description": "Ellipsis spacing incorrect (should have spaces before and after, or formatted as . . .)",
+              "regex_pattern": "\\w\\.{3}[^\\s]|[^\\s]\\.{3}\\w",
+              "incorrect_example": "\"The court...held\" or \"text...more text\"",
+              "correct_example": "\"The court ... held\" or \"text ... more text\"",
+              "severity": "minor",
+              "auto_fixable": true,
+              "fix_instructions": "Add spaces before and after ellipsis"
+            },
+            {
+              "error_id": "omission_05",
+              "error_type": "sentence_ending_ellipsis",
+              "description": "Ellipsis at end of sentence should be four dots (period + ellipsis) if sentence ends",
+              "regex_pattern": "(?<=[a-zA-Z])\\s*\\.{3}\\s*\"",
+              "incorrect_example": "\"The defendant was negligent ...\"",
+              "correct_example": "\"The defendant was negligent ....\" (four dots when sentence ends)",
+              "severity": "minor",
+              "auto_fixable": false,
+              "fix_instructions": "Use four dots (. ...) when omission occurs at end of sentence",
+              "note": "Context-dependent; requires knowing if original sentence ended"
+            },
+            {
+              "error_id": "omission_06",
+              "error_type": "meaning_altering_omission",
+              "description": "Omission fundamentally alters the meaning of the quotation",
+              "regex_pattern": null,
+              "incorrect_example": "\"The court held ... the defendant liable.\" (when original said \"not liable\")",
+              "correct_example": "Use complete relevant portion or paraphrase instead",
+              "severity": "critical",
+              "auto_fixable": false,
+              "fix_instructions": "Do not omit material that changes fundamental meaning",
+              "requires_gpt": true
+            }
+          ],
+          "detection_patterns": [
+            {
+              "pattern_id": "ellipsis_detection",
+              "description": "Find all ellipses in text",
+              "implementation": "regex",
+              "regex": "\\.{2,4}|\\.\\ \\.\\ \\.",
+              "note": "Matches various ellipsis formats"
+            },
+            {
+              "pattern_id": "initial_ellipsis",
+              "description": "Detect quotations beginning with ellipsis",
+              "implementation": "regex",
+              "regex": "\"\\s*\\.{3}",
+              "note": "Should be rare; often incorrect"
+            },
+            {
+              "pattern_id": "malformed_ellipsis",
+              "description": "Detect malformed ellipses (wrong number of dots)",
+              "implementation": "regex",
+              "regex": "(?<!\\.)\\.\\.(?!\\.)|\\.\\.{4,}",
+              "note": "Two dots or 5+ dots"
+            },
+            {
+              "pattern_id": "ellipsis_in_quotes",
+              "description": "Find ellipses within quotations",
+              "implementation": "regex",
+              "regex": "\"[^\"]*\\.{2,}[^\"]*\"",
+              "note": "Quotations containing ellipses"
+            }
+          ],
+          "gpt_prompts": [
+            {
+              "prompt_id": "verify_omission_marked",
+              "prompt": "Compare this quotation to the original source text. Are there any omissions that are not properly marked with an ellipsis? Return: {\"has_omissions\": <boolean>, \"all_properly_marked\": <boolean>, \"issues\": [{\"location\": \"\", \"omitted_text\": \"\"}]}",
+              "use_case": "Verify all omissions are marked with ellipsis",
+              "requires_original": true
+            },
+            {
+              "prompt_id": "verify_ellipsis_format",
+              "prompt": "Check all ellipses in this text for proper formatting. Initial ellipses (at quote start) should be removed if quote starts mid-sentence. Internal ellipses should be three dots with spacing. Terminal ellipses should be four dots if sentence ends. Return: {\"ellipses_found\": <number>, \"all_properly_formatted\": <boolean>, \"issues\": []}",
+              "use_case": "Verify ellipsis formatting compliance"
+            },
+            {
+              "prompt_id": "verify_meaning_preserved",
+              "prompt": "Compare the quotation with omissions to the original source. Does the omission alter or misrepresent the fundamental meaning of the original text? Return: {\"meaning_preserved\": <boolean>, \"misrepresentation_risk\": \"none\"|\"minor\"|\"major\", \"explanation\": \"\"}",
+              "use_case": "Ensure omissions don't alter meaning",
+              "requires_original": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "6",
+      "rule_title": "Abbreviations, Numerals, and Symbols",
+      "rule_text": "",
+      "subrules": [
+        {
+          "rule_id": "6.1",
+          "rule_title": "Abbreviations",
+          "rule_text": "Use standard abbreviations for case names (table T6), institutional author names (T7), periodical titles (T10), publishing terms (T8), and geographical terms (T10). Do not abbreviate words in textual sentences (except widely known acronyms), but always abbreviate as shown in tables when in citations.",
+          "common_errors": [
+            {
+              "error_id": "abbrev_01",
+              "error_type": "text_inappropriate_abbreviation",
+              "description": "Word abbreviated in textual sentence when it should be spelled out",
+              "regex_pattern": "(?<!\\w)(?:Corp\\.|Inc\\.|Co\\.|Ltd\\.|Dept\\.|Assoc\\.|Bros\\.|Mfg\\.|Dist\\.|Div\\.)(?!\\s+v\\.)",
+              "incorrect_example": "The Corp. was negligent in its operations.",
+              "correct_example": "The Corporation was negligent in its operations.",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Spell out words in textual sentences; abbreviate only in citations",
+              "note": "Exceptions: widely known acronyms (FBI, CIA, etc.)"
+            },
+            {
+              "error_id": "abbrev_02",
+              "error_type": "citation_missing_abbreviation",
+              "description": "Word not abbreviated in citation when standard abbreviation exists",
+              "regex_pattern": null,
+              "incorrect_example": "Smith v. Jones Corporation, 123 F.3d 456 (9th Cir. 2000).",
+              "correct_example": "Smith v. Jones Corp., 123 F.3d 456 (9th Cir. 2000).",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Use standard Bluebook abbreviations in citations per Tables T6, T7, T8, T10",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "abbrev_03",
+              "error_type": "non_standard_abbreviation",
+              "description": "Non-standard abbreviation used instead of Bluebook-approved form",
+              "regex_pattern": null,
+              "incorrect_example": "Smith v. Jones Co, 123 F.3d 456 (9th Cir. 2000). (missing period)",
+              "correct_example": "Smith v. Jones Co., 123 F.3d 456 (9th Cir. 2000).",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Use exact Bluebook abbreviation forms from tables",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "abbrev_04",
+              "error_type": "inconsistent_abbreviation",
+              "description": "Same term abbreviated inconsistently throughout document",
+              "regex_pattern": null,
+              "incorrect_example": "Corporation in one citation, Corp. in another",
+              "correct_example": "Corp. consistently in all citations",
+              "severity": "minor",
+              "auto_fixable": false,
+              "fix_instructions": "Use consistent abbreviation form throughout document",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "abbrev_05",
+              "error_type": "geographical_abbreviation_incorrect",
+              "description": "Geographical term not abbreviated per Table T10",
+              "regex_pattern": null,
+              "incorrect_example": "N.Y. Southern District Court (should be S.D.N.Y.)",
+              "correct_example": "S.D.N.Y.",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Use Table T10 abbreviations for geographical terms",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "abbrev_06",
+              "error_type": "widely_known_acronym_spelled_out",
+              "description": "Widely known acronym unnecessarily spelled out in text",
+              "regex_pattern": null,
+              "incorrect_example": "The Federal Bureau of Investigation investigated...",
+              "correct_example": "The FBI investigated...",
+              "severity": "minor",
+              "auto_fixable": false,
+              "fix_instructions": "Use acronym form for widely known terms (FBI, CIA, OSHA, etc.)",
+              "note": "First use may spell out with acronym in parentheses"
+            }
+          ],
+          "detection_patterns": [
+            {
+              "pattern_id": "abbreviation_in_text",
+              "description": "Detect common abbreviations that may be inappropriate in textual sentences",
+              "implementation": "regex",
+              "regex": "\\b(?:Corp\\.|Inc\\.|Co\\.|Ltd\\.|Dept\\.|Assoc\\.|Bros\\.|Mfg\\.)\\b(?!\\s+v\\.)",
+              "note": "Excludes case names (followed by v.)"
+            },
+            {
+              "pattern_id": "case_name_detection",
+              "description": "Detect case names where abbreviations should be used",
+              "implementation": "regex",
+              "regex": "\\b[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+(?:\\s+(?:Corporation|Company|Incorporated|Limited|Association|Department))?",
+              "note": "Case names requiring abbreviation analysis"
+            },
+            {
+              "pattern_id": "state_abbreviation",
+              "description": "Detect state names that should be abbreviated in citations",
+              "implementation": "regex",
+              "regex": "\\b(California|New York|Texas|Florida|Illinois|Pennsylvania|Ohio|Georgia|North Carolina|Michigan)\\b(?=.*\\d+.*\\d{4}\\))",
+              "note": "State names in citation context"
+            }
+          ],
+          "gpt_prompts": [
+            {
+              "prompt_id": "verify_text_vs_citation_abbreviations",
+              "prompt": "Analyze this text segment. Determine if it is textual prose or a citation. In textual sentences, most words should be spelled out (except widely known acronyms like FBI, CIA). In citations, standard Bluebook abbreviations must be used. Return: {\"is_citation\": <boolean>, \"abbreviations_found\": [{\"term\": \"\", \"is_appropriate\": <boolean>, \"should_be\": \"\"}]}",
+              "use_case": "Distinguish text vs. citation and verify appropriate abbreviation usage"
+            },
+            {
+              "prompt_id": "verify_bluebook_abbreviation",
+              "prompt": "Check if this abbreviation matches the standard Bluebook abbreviation tables (T6 for case names, T7 for institutional authors, T8 for publishing terms, T10 for geographical terms). Return: {\"abbreviation\": \"\", \"table\": \"\", \"is_standard\": <boolean>, \"correct_form\": \"\"}",
+              "use_case": "Verify abbreviations match Bluebook tables",
+              "requires_tables": true
+            },
+            {
+              "prompt_id": "check_abbreviation_consistency",
+              "prompt": "Scan the document for uses of this term. Check if it is abbreviated consistently in all citations and spelled out consistently in all textual sentences. Return: {\"term\": \"\", \"citation_uses\": [{\"location\": \"\", \"form\": \"\"}], \"text_uses\": [{\"location\": \"\", \"form\": \"\"}], \"is_consistent\": <boolean>}",
+              "use_case": "Verify consistent abbreviation usage throughout document"
+            }
+          ]
+        },
+        {
+          "rule_id": "6.2",
+          "rule_title": "Numerals and Symbols",
+          "rule_text": "In text, spell out numbers zero through ninety-nine, and any number that begins a sentence. Use numerals for 100 and above. In citations, use numerals for all numbers (e.g., \"115 F.3d 123\"). Use symbols (like § and ¶) as appropriate in citations, but in text, use words (\"section\" or \"paragraph\") unless referring to a specific section symbol as a symbol.",
+          "common_errors": [
+            {
+              "error_id": "numeral_01",
+              "error_type": "text_numeral_under_100",
+              "description": "Number 0-99 written as numeral in text instead of spelled out",
+              "regex_pattern": "(?<![\\.\\d])\\b([1-9]|[1-9]\\d)\\b(?!\\d)",
+              "incorrect_example": "The court considered 45 factors in its decision.",
+              "correct_example": "The court considered forty-five factors in its decision.",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Spell out numbers 0-99 in textual sentences",
+              "exceptions": ["Dates", "citations", "statistical data", "addresses"]
+            },
+            {
+              "error_id": "numeral_02",
+              "error_type": "sentence_start_numeral",
+              "description": "Sentence begins with a numeral instead of spelled-out number",
+              "regex_pattern": "(?:^|\\. )\\d+\\s+[a-z]",
+              "incorrect_example": "150 people attended the hearing.",
+              "correct_example": "One hundred fifty people attended the hearing.",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Spell out numbers that begin sentences or restructure sentence"
+            },
+            {
+              "error_id": "numeral_03",
+              "error_type": "citation_spelled_out_number",
+              "description": "Number spelled out in citation when numeral should be used",
+              "regex_pattern": null,
+              "incorrect_example": "See id. at twenty-three.",
+              "correct_example": "See id. at 23.",
+              "severity": "major",
+              "auto_fixable": false,
+              "fix_instructions": "Use numerals for all numbers in citations",
+              "requires_gpt": true
+            },
+            {
+              "error_id": "numeral_04",
+              "error_type": "text_over_100_spelled",
+              "description": "Number 100 or above spelled out in text when numeral should be used",
+              "regex_pattern": null,
+              "incorrect_example": "The statute contains one hundred twenty-three provisions.",
+              "correct_example": "The statute contains 123 provisions.",
+              "severity": "minor",
+              "auto_fixable": false,
+              "fix_instructions": "Use numerals for numbers 100 and above in text"
+            },
+            {
+              "error_id": "symbol_01",
+              "error_type": "section_symbol_in_text",
+              "description": "Section symbol (§) used in textual sentence instead of word 'section'",
+              "regex_pattern": "(?<!\\[)§(?!.*\\d+.*\\))",
+              "incorrect_example": "The § requires disclosure of material facts.",
+              "correct_example": "The section requires disclosure of material facts.",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Use word 'section' in text; use § only in citations"
+            },
+            {
+              "error_id": "symbol_02",
+              "error_type": "paragraph_symbol_in_text",
+              "description": "Paragraph symbol (¶) used in textual sentence instead of word 'paragraph'",
+              "regex_pattern": "(?<!\\[)¶(?!.*\\d+.*\\))",
+              "incorrect_example": "The ¶ states the requirements clearly.",
+              "correct_example": "The paragraph states the requirements clearly.",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Use word 'paragraph' in text; use ¶ only in citations"
+            },
+            {
+              "error_id": "symbol_03",
+              "error_type": "citation_missing_section_symbol",
+              "description": "Word 'section' used in citation instead of § symbol",
+              "regex_pattern": "\\bsection\\s+\\d+(?=.*\\))",
+              "incorrect_example": "See 42 U.S.C. section 1983 (2000).",
+              "correct_example": "See 42 U.S.C. § 1983 (2000).",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Use § symbol in citations"
+            },
+            {
+              "error_id": "symbol_04",
+              "error_type": "citation_missing_paragraph_symbol",
+              "description": "Word 'paragraph' used in citation instead of ¶ symbol",
+              "regex_pattern": "\\bparagraph\\s+\\d+(?=.*\\))",
+              "incorrect_example": "Id. at paragraph 45.",
+              "correct_example": "Id. at ¶ 45.",
+              "severity": "major",
+              "auto_fixable": true,
+              "fix_instructions": "Use ¶ symbol in citations"
+            },
+            {
+              "error_id": "symbol_05",
+              "error_type": "double_section_symbol_incorrect",
+              "description": "Multiple sections not indicated with §§ (double section symbol)",
+              "regex_pattern": "§\\s*\\d+\\s*(?:and|&|,)\\s*\\d+",
+              "incorrect_example": "See §§ 101 and 102.",
+              "correct_example": "See §§ 101-102.",
+              "severity": "minor",
+              "auto_fixable": true,
+              "fix_instructions": "Use §§ for multiple sections with range or list format"
+            }
+          ],
+          "detection_patterns": [
+            {
+              "pattern_id": "numerals_in_text",
+              "description": "Detect numerals in non-citation text",
+              "implementation": "regex",
+              "regex": "(?<![\\d\\.])\\b\\d{1,2}\\b(?![\\d\\.])",
+              "note": "Numbers 0-99 that may need to be spelled out"
+            },
+            {
+              "pattern_id": "sentence_starting_number",
+              "description": "Detect sentences beginning with numerals",
+              "implementation": "regex",
+              "regex": "(?:^|\\. |\\n)\\d+\\s+\\w+",
+              "note": "Numbers starting sentences must be spelled out"
+            },
+            {
+              "pattern_id": "section_symbol_usage",
+              "description": "Detect all uses of section symbol",
+              "implementation": "regex",
+              "regex": "§{1,2}\\s*\\d*",
+              "note": "All section symbol uses for context analysis"
+            },
+            {
+              "pattern_id": "paragraph_symbol_usage",
+              "description": "Detect all uses of paragraph symbol",
+              "implementation": "regex",
+              "regex": "¶{1,2}\\s*\\d*",
+              "note": "All paragraph symbol uses for context analysis"
+            },
+            {
+              "pattern_id": "spelled_section_paragraph",
+              "description": "Detect spelled-out 'section' or 'paragraph' that may be in citations",
+              "implementation": "regex",
+              "regex": "\\b(section|paragraph)\\s+\\d+",
+              "note": "May need symbol in citations"
+            }
+          ],
+          "gpt_prompts": [
+            {
+              "prompt_id": "verify_number_format_context",
+              "prompt": "Analyze this text segment containing a number. Determine: (1) Is this in a citation or textual sentence? (2) Is the number 0-99 or 100+? (3) Does it start a sentence? (4) Is it an exception case (date, address, statistical data)? Return: {\"number\": <value>, \"is_citation\": <boolean>, \"starts_sentence\": <boolean>, \"is_exception\": <boolean>, \"should_be_spelled\": <boolean>, \"correct_form\": \"\"}",
+              "use_case": "Determine if number should be numeral or spelled out"
+            },
+            {
+              "prompt_id": "verify_symbol_usage_context",
+              "prompt": "Analyze the context around this section or paragraph symbol (§ or ¶). Is it in a citation or in textual prose? In citations, symbols should be used. In text, words ('section', 'paragraph') should be used. Return: {\"symbol\": \"\", \"is_citation\": <boolean>, \"is_appropriate\": <boolean>, \"should_be\": \"\"}",
+              "use_case": "Verify § and ¶ symbols used only in citations"
+            },
+            {
+              "prompt_id": "check_multiple_sections_format",
+              "prompt": "Check if this citation references multiple sections or paragraphs. Multiple sections should use §§ (double symbol) and appropriate formatting (e.g., §§ 101-103 or §§ 101, 103, 105). Return: {\"references_multiple\": <boolean>, \"uses_double_symbol\": <boolean>, \"format_correct\": <boolean>, \"should_be\": \"\"}",
+              "use_case": "Verify proper formatting for multiple section references"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "7",
+      "rule_title": "Italicization for Style and in Unique Circumstances",
+      "rule_text": "Words may be italicized in text for emphasis or stylistic purposes, but use this sparingly. In legal writing, certain terms are traditionally italicized: words used as words, foreign words not commonly used in English, and letters or numerals referenced as such. Additionally, when a word is being defined, it is often italicized. Beyond these, the Bluebook suggests caution in using italics for style.",
+      "common_errors": [
+        {
+          "error_id": "italic_01",
+          "error_type": "words_as_words_not_italicized",
+          "description": "Word used as a word not italicized",
+          "regex_pattern": null,
+          "incorrect_example": "The term negligence has a specific legal meaning.",
+          "correct_example": "The term *negligence* has a specific legal meaning.",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Italicize words used as words",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "italic_02",
+          "error_type": "foreign_phrase_not_italicized",
+          "description": "Foreign word or phrase not commonly used in English not italicized",
+          "regex_pattern": "\\b(per se|de facto|de jure|in rem|in personam|res judicata|stare decisis|mens rea|actus reus|amicus curiae|pro bono|habeas corpus|voir dire|prima facie|ipso facto|sui generis|ab initio|inter alia|res ipsa loquitur|quantum meruit)\\b",
+          "incorrect_example": "The doctrine of res judicata prevents relitigation.",
+          "correct_example": "The doctrine of *res judicata* prevents relitigation.",
+          "severity": "major",
+          "auto_fixable": true,
+          "fix_instructions": "Italicize foreign words and phrases not commonly used in English",
+          "note": "Common legal Latin phrases should be italicized unless fully integrated into English"
+        },
+        {
+          "error_id": "italic_03",
+          "error_type": "letter_as_letter_not_italicized",
+          "description": "Letter or numeral referenced as such not italicized",
+          "regex_pattern": null,
+          "incorrect_example": "Add an s to make it plural.",
+          "correct_example": "Add an *s* to make it plural.",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Italicize letters or numerals when referenced as such",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "italic_04",
+          "error_type": "defined_term_not_italicized",
+          "description": "Word being defined not italicized",
+          "regex_pattern": null,
+          "incorrect_example": "Negligence is defined as the failure to exercise reasonable care.",
+          "correct_example": "*Negligence* is defined as the failure to exercise reasonable care.",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Italicize words being defined",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "italic_05",
+          "error_type": "excessive_stylistic_italics",
+          "description": "Excessive use of italics for emphasis or style",
+          "regex_pattern": null,
+          "incorrect_example": "The defendant was *clearly* *extremely* *reckless* in *every* way.",
+          "correct_example": "The defendant was clearly extremely reckless in every way.",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Use italics for emphasis sparingly; remove excessive stylistic italics",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "italic_06",
+          "error_type": "common_foreign_italicized",
+          "description": "Common foreign word fully integrated into English incorrectly italicized",
+          "regex_pattern": null,
+          "incorrect_example": "The *cafe* was located downtown. or *et cetera*",
+          "correct_example": "The cafe was located downtown. or etc.",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Do not italicize foreign words fully integrated into English (e.g., cafe, etc.)",
+          "note": "Common words like 'etc.' from 'et cetera' are not italicized"
+        },
+        {
+          "error_id": "italic_07",
+          "error_type": "case_name_italicization_incorrect",
+          "description": "Case name italicization incorrect (should be italicized in text, may be underlined in court docs)",
+          "regex_pattern": null,
+          "incorrect_example": "In Brown v. Board of Education, the Court held...",
+          "correct_example": "In *Brown v. Board of Education*, the Court held...",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Italicize case names in textual references",
+          "note": "In court documents, underlining may be used instead"
+        }
+      ],
+      "detection_patterns": [
+        {
+          "pattern_id": "italicized_text_detection",
+          "description": "Detect italicized text in various formats",
+          "implementation": "regex",
+          "regex": "\\*[^*]+\\*|_[^_]+_|<i>[^<]+</i>|<em>[^<]+</em>",
+          "note": "Multiple italic markup formats"
+        },
+        {
+          "pattern_id": "latin_legal_phrases",
+          "description": "Detect common Latin legal phrases that should be italicized",
+          "implementation": "regex",
+          "regex": "\\b(per se|de facto|de jure|in rem|in personam|res judicata|stare decisis|mens rea|actus reus|amicus curiae|pro bono|habeas corpus|voir dire|prima facie|ipso facto|sui generis|ab initio|inter alia|res ipsa loquitur|quantum meruit|ex parte|pro rata|nunc pro tunc|inter vivos|ex post facto|bona fide)\\b",
+          "note": "Should be italicized unless in common usage"
+        },
+        {
+          "pattern_id": "words_being_defined",
+          "description": "Detect patterns indicating word definitions",
+          "implementation": "regex",
+          "regex": "\\b(\\w+)\\s+(?:is defined as|means|refers to|is|denotes)",
+          "note": "Word being defined should be italicized"
+        },
+        {
+          "pattern_id": "case_names_in_text",
+          "description": "Detect case names that should be italicized",
+          "implementation": "regex",
+          "regex": "\\b[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+",
+          "note": "Case names should be italicized in text"
+        }
+      ],
+      "gpt_prompts": [
+        {
+          "prompt_id": "verify_word_as_word_italicization",
+          "prompt": "Analyze this text for words used as words (e.g., 'the word negligence', 'the term liability'). These should be italicized. Return: {\"words_as_words\": [{\"word\": \"\", \"is_italicized\": <boolean>, \"should_be_italicized\": <boolean>}]}",
+          "use_case": "Verify words used as words are italicized"
+        },
+        {
+          "prompt_id": "verify_foreign_word_italicization",
+          "prompt": "Check this text for foreign words and phrases. Determine if they are commonly used in English (like 'cafe', 'etc.') or should be italicized (like 'res judicata', 'mens rea'). Return: {\"foreign_terms\": [{\"term\": \"\", \"is_common_english\": <boolean>, \"should_be_italicized\": <boolean>, \"is_italicized\": <boolean>}]}",
+          "use_case": "Verify appropriate italicization of foreign terms"
+        },
+        {
+          "prompt_id": "check_excessive_stylistic_italics",
+          "prompt": "Review the use of italics in this passage. Identify if italics are used excessively for emphasis or style. Bluebook recommends sparing use of stylistic italics. Return: {\"total_italic_uses\": <number>, \"stylistic_uses\": <number>, \"excessive\": <boolean>, \"recommendations\": []}",
+          "use_case": "Identify excessive stylistic italicization"
+        },
+        {
+          "prompt_id": "verify_case_name_italics",
+          "prompt": "Identify case names in this text. In textual references (not citations), case names should be italicized or underlined. Return: {\"case_names\": [{\"name\": \"\", \"is_in_text\": <boolean>, \"is_italicized\": <boolean>, \"should_be_italicized\": <boolean>}]}",
+          "use_case": "Verify case name italicization in text"
+        }
+      ]
+    },
+    {
+      "rule_id": "8",
+      "rule_title": "Capitalization",
+      "rule_text": "Capitalize references to specific constitutional amendments (\"First Amendment\"), specific acts or laws (\"Civil Rights Act\"), titles of court documents (when referring to a specific document, e.g., \"Plaintiff's Motion\"), and titles of periodicals in citations (per Bluebook rules). Do not capitalize generic references (\"the amendment\" or \"the act\") or terms like \"federal\" or \"state\" unless part of an official name. Additionally, follow specific capitalization rules for judges' titles (rule 9) and court names (\"Supreme Court\" when referring to SCOTUS, etc.).",
+      "common_errors": [
+        {
+          "error_id": "cap_01",
+          "error_type": "specific_amendment_not_capitalized",
+          "description": "Specific constitutional amendment not capitalized",
+          "regex_pattern": "\\b(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth)\\s+amendment\\b",
+          "incorrect_example": "The first amendment protects free speech.",
+          "correct_example": "The First Amendment protects free speech.",
+          "severity": "major",
+          "auto_fixable": true,
+          "fix_instructions": "Capitalize specific amendment references (First Amendment, Fourteenth Amendment, etc.)"
+        },
+        {
+          "error_id": "cap_02",
+          "error_type": "generic_amendment_capitalized",
+          "description": "Generic amendment reference incorrectly capitalized",
+          "regex_pattern": "\\bthe Amendment(?!s?\\s+(?:to|provides|protects|states))",
+          "incorrect_example": "The Amendment was ratified in 1791.",
+          "correct_example": "The amendment was ratified in 1791.",
+          "severity": "major",
+          "auto_fixable": true,
+          "fix_instructions": "Lowercase generic amendment references ('the amendment', 'an amendment')"
+        },
+        {
+          "error_id": "cap_03",
+          "error_type": "specific_act_not_capitalized",
+          "description": "Specific act or statute not capitalized",
+          "regex_pattern": null,
+          "incorrect_example": "The civil rights act of 1964 prohibits discrimination.",
+          "correct_example": "The Civil Rights Act of 1964 prohibits discrimination.",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize specific act names (Civil Rights Act, Voting Rights Act, etc.)",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "cap_04",
+          "error_type": "generic_act_capitalized",
+          "description": "Generic act reference incorrectly capitalized",
+          "regex_pattern": "\\bthe Act\\b(?!\\s+of\\s+\\d{4})",
+          "incorrect_example": "The Act was passed last year.",
+          "correct_example": "The act was passed last year.",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Lowercase generic act references when not referring to a specific act",
+          "note": "Context-dependent; 'the Act' may refer to specific act mentioned earlier"
+        },
+        {
+          "error_id": "cap_05",
+          "error_type": "court_document_title_not_capitalized",
+          "description": "Specific court document title not capitalized",
+          "regex_pattern": null,
+          "incorrect_example": "In plaintiff's motion for summary judgment...",
+          "correct_example": "In Plaintiff's Motion for Summary Judgment...",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize titles of specific court documents",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "cap_06",
+          "error_type": "generic_document_capitalized",
+          "description": "Generic document reference incorrectly capitalized",
+          "regex_pattern": null,
+          "incorrect_example": "The plaintiff filed a Motion yesterday.",
+          "correct_example": "The plaintiff filed a motion yesterday.",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Lowercase generic document references",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "cap_07",
+          "error_type": "federal_state_incorrectly_capitalized",
+          "description": "Words 'federal' or 'state' capitalized when not part of official name",
+          "regex_pattern": "\\b(Federal|State)\\b(?!\\s+(?:Court|[A-Z]))",
+          "incorrect_example": "The Federal government enacted the regulation.",
+          "correct_example": "The federal government enacted the regulation.",
+          "severity": "major",
+          "auto_fixable": true,
+          "fix_instructions": "Lowercase 'federal' and 'state' unless part of official name",
+          "note": "Capitalize in: 'Federal Circuit', 'State of California', etc."
+        },
+        {
+          "error_id": "cap_08",
+          "error_type": "court_name_capitalization_incorrect",
+          "description": "Court name capitalization incorrect",
+          "regex_pattern": null,
+          "incorrect_example": "The supreme court held... or The Court held... (referring to district court)",
+          "correct_example": "The Supreme Court held... (for SCOTUS) or The court held... (for lower courts)",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize 'Court' for Supreme Court of the United States; lowercase for other courts unless full name",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "cap_09",
+          "error_type": "periodical_title_capitalization",
+          "description": "Periodical title in citation not properly capitalized",
+          "regex_pattern": null,
+          "incorrect_example": "120 harvard law review 456 (2007).",
+          "correct_example": "120 HARV. L. REV. 456 (2007).",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Follow Bluebook capitalization rules for periodical titles in citations",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "cap_10",
+          "error_type": "constitution_capitalization",
+          "description": "Word 'Constitution' capitalization incorrect",
+          "regex_pattern": null,
+          "incorrect_example": "The constitution protects individual rights. or ...a state Constitution...",
+          "correct_example": "The Constitution protects individual rights. (U.S.) or ...a state constitution...",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize 'Constitution' when referring to U.S. Constitution; lowercase for state constitutions unless full name",
+          "requires_gpt": true
+        }
+      ],
+      "detection_patterns": [
+        {
+          "pattern_id": "amendment_references",
+          "description": "Detect all amendment references",
+          "implementation": "regex",
+          "regex": "\\b(?i)(first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth|thirteenth|fourteenth|fifteenth|\\d+(?:st|nd|rd|th))\\s+amendment\\b",
+          "note": "Check if specific amendments are capitalized"
+        },
+        {
+          "pattern_id": "act_references",
+          "description": "Detect references to acts and statutes",
+          "implementation": "regex",
+          "regex": "\\b(?:the\\s+)?([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*)\\s+Act(?:\\s+of\\s+\\d{4})?\\b",
+          "note": "Specific acts should be capitalized"
+        },
+        {
+          "pattern_id": "court_document_titles",
+          "description": "Detect potential court document titles",
+          "implementation": "regex",
+          "regex": "\\b(Plaintiff|Defendant|Petitioner|Respondent)(?:'s)?\\s+(Motion|Brief|Complaint|Answer|Reply|Response|Opposition|Memorandum)",
+          "note": "Document titles should be capitalized when specific"
+        },
+        {
+          "pattern_id": "federal_state_usage",
+          "description": "Detect uses of 'federal' and 'state'",
+          "implementation": "regex",
+          "regex": "\\b(?i)(federal|state)\\b",
+          "note": "Should be lowercase unless part of official name"
+        },
+        {
+          "pattern_id": "court_references",
+          "description": "Detect court references",
+          "implementation": "regex",
+          "regex": "\\b(?:the\\s+)?([Ss]upreme\\s+[Cc]ourt|[Cc]ourt(?:\\s+of\\s+[A-Z][a-z]+)?)",
+          "note": "Check capitalization of court names"
+        },
+        {
+          "pattern_id": "constitution_references",
+          "description": "Detect Constitution references",
+          "implementation": "regex",
+          "regex": "\\b(?i)(?:the\\s+)?(?:U\\.?S\\.?\\s+)?constitution\\b",
+          "note": "U.S. Constitution should be capitalized"
+        }
+      ],
+      "gpt_prompts": [
+        {
+          "prompt_id": "verify_amendment_capitalization",
+          "prompt": "Determine if this amendment reference is specific or generic. Specific references (First Amendment, Fourteenth Amendment) should be capitalized. Generic references ('an amendment', 'the amendment' without prior specific reference) should be lowercase. Return: {\"reference\": \"\", \"is_specific\": <boolean>, \"should_be_capitalized\": <boolean>, \"is_capitalized\": <boolean>}",
+          "use_case": "Verify amendment capitalization"
+        },
+        {
+          "prompt_id": "verify_act_capitalization",
+          "prompt": "Determine if this act reference is specific or generic. Specific acts (Civil Rights Act, Americans with Disabilities Act) should be capitalized. Generic references ('an act', 'the act' without prior specific reference) should be lowercase. Return: {\"reference\": \"\", \"is_specific_act\": <boolean>, \"should_be_capitalized\": <boolean>, \"is_capitalized\": <boolean>}",
+          "use_case": "Verify act/statute capitalization",
+          "note": "'The Act' may refer to previously mentioned specific act"
+        },
+        {
+          "prompt_id": "verify_court_document_capitalization",
+          "prompt": "Determine if this is a reference to a specific court document or a generic document. Specific document titles (Plaintiff's Motion for Summary Judgment) should be capitalized. Generic references ('a motion', 'the brief') should be lowercase. Return: {\"reference\": \"\", \"is_specific_document\": <boolean>, \"should_be_capitalized\": <boolean>, \"proper_form\": \"\"}",
+          "use_case": "Verify court document title capitalization"
+        },
+        {
+          "prompt_id": "verify_court_name_capitalization",
+          "prompt": "Analyze this court reference. 'Supreme Court' refers to SCOTUS and should be capitalized. 'Court' capitalized alone refers to the court deciding the case being discussed. Other courts should use lowercase 'court' unless the full official name is given. Return: {\"court_reference\": \"\", \"refers_to\": \"SCOTUS\"|\"case_court\"|\"other\", \"should_be_capitalized\": <boolean>, \"is_capitalized\": <boolean>}",
+          "use_case": "Verify court name capitalization"
+        },
+        {
+          "prompt_id": "verify_federal_state_capitalization",
+          "prompt": "Check if 'federal' or 'state' is part of an official name. Capitalize if part of official name (Federal Circuit, State Department, State of California). Lowercase if used generically (federal government, state law). Return: {\"term\": \"\", \"is_official_name\": <boolean>, \"should_be_capitalized\": <boolean>, \"is_capitalized\": <boolean>}",
+          "use_case": "Verify federal/state capitalization"
+        }
+      ]
+    },
+    {
+      "rule_id": "9",
+      "rule_title": "Titles of Judges, Officials, and Terms of Court",
+      "rule_text": "Capitalize the titles of judges and officials when used before a name (\"Chief Justice Marshall\") or when referring to a specific person (\"the President\"). Do not capitalize when used generically (\"any justice may...\"). Terms of court (like \"Fall Term\") are capitalized when naming a specific term of a specific court. Always capitalize \"Court\" when naming the U.S. Supreme Court or when the reference is to the court in a case name in text (\"the Court held...\"). Otherwise, lowercase \"court\".",
+      "common_errors": [
+        {
+          "error_id": "title_01",
+          "error_type": "title_before_name_not_capitalized",
+          "description": "Judge or official title before a name not capitalized",
+          "regex_pattern": "\\b(chief justice|justice|judge|president|governor|senator|representative|attorney general|secretary)\\s+[A-Z][a-z]+",
+          "incorrect_example": "In chief justice Roberts' opinion...",
+          "correct_example": "In Chief Justice Roberts' opinion...",
+          "severity": "major",
+          "auto_fixable": true,
+          "fix_instructions": "Capitalize titles when used before names"
+        },
+        {
+          "error_id": "title_02",
+          "error_type": "specific_person_title_not_capitalized",
+          "description": "Title referring to specific person not capitalized",
+          "regex_pattern": null,
+          "incorrect_example": "The president issued an executive order. (referring to current President)",
+          "correct_example": "The President issued an executive order.",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize titles when referring to a specific identified person",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "title_03",
+          "error_type": "generic_title_capitalized",
+          "description": "Generic title incorrectly capitalized",
+          "regex_pattern": null,
+          "incorrect_example": "Any Justice may write a dissenting opinion.",
+          "correct_example": "Any justice may write a dissenting opinion.",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Lowercase titles used generically (not referring to specific person)",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "title_04",
+          "error_type": "term_of_court_capitalization",
+          "description": "Specific term of court not capitalized or generic term capitalized",
+          "regex_pattern": null,
+          "incorrect_example": "During the fall term, the court heard... or The Term begins in October. (generic)",
+          "correct_example": "During the Fall Term 2020, the Court heard... or The term begins in October.",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize specific terms of specific courts (October Term 2020); lowercase generic references",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "title_05",
+          "error_type": "court_capitalization_rule9",
+          "description": "Incorrect 'Court' capitalization per Rule 9",
+          "regex_pattern": null,
+          "incorrect_example": "The court held that... (when referring to Supreme Court in discussed case)",
+          "correct_example": "The Court held that... (when discussing SCOTUS case opinion)",
+          "severity": "major",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize 'Court' when referring to Supreme Court or the court in a case being discussed; lowercase otherwise",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "title_06",
+          "error_type": "title_after_name_capitalized",
+          "description": "Title after name incorrectly capitalized when generic",
+          "regex_pattern": "([A-Z][a-z]+),\\s+(Justice|Judge|President)",
+          "incorrect_example": "John Roberts, Chief Justice, wrote the opinion.",
+          "correct_example": "John Roberts, chief justice, wrote the opinion. (or: Chief Justice John Roberts wrote...)",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Lowercase titles after names unless part of formal title construction",
+          "note": "Before name: capitalize. After name: generally lowercase unless formal construction"
+        },
+        {
+          "error_id": "title_07",
+          "error_type": "judicial_title_abbreviation",
+          "description": "Judicial title incorrectly abbreviated",
+          "regex_pattern": null,
+          "incorrect_example": "J. Roberts dissented.",
+          "correct_example": "Justice Roberts dissented.",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Spell out judicial titles in text; abbreviate only in case names and citations",
+          "requires_gpt": true
+        },
+        {
+          "error_id": "title_08",
+          "error_type": "multiple_justices_capitalization",
+          "description": "Reference to multiple justices with incorrect capitalization",
+          "regex_pattern": null,
+          "incorrect_example": "Justices Roberts and Alito dissented. (when used generically) or justices Roberts and Alito (when specific)",
+          "correct_example": "Justices Roberts and Alito dissented. (specific persons) or Several justices dissented. (generic)",
+          "severity": "minor",
+          "auto_fixable": false,
+          "fix_instructions": "Capitalize 'Justices' when referring to specific named persons; lowercase when generic",
+          "requires_gpt": true
+        }
+      ],
+      "detection_patterns": [
+        {
+          "pattern_id": "title_before_name",
+          "description": "Detect titles before names",
+          "implementation": "regex",
+          "regex": "\\b(?i)(chief justice|justice|judge|president|governor|senator|representative|attorney general|secretary|magistrate)\\s+(?:of\\s+)?[A-Z][a-z]+",
+          "note": "Should be capitalized"
+        },
+        {
+          "pattern_id": "standalone_president",
+          "description": "Detect standalone 'president' references",
+          "implementation": "regex",
+          "regex": "\\b[Tt]he\\s+[Pp]resident\\b",
+          "note": "Check if referring to specific person (capitalize) or generic (lowercase)"
+        },
+        {
+          "pattern_id": "standalone_justice_judge",
+          "description": "Detect standalone justice/judge references",
+          "implementation": "regex",
+          "regex": "\\b(?:[Tt]he\\s+)?(?:[Jj]ustice|[Jj]udge)s?\\b",
+          "note": "Check if specific or generic"
+        },
+        {
+          "pattern_id": "term_references",
+          "description": "Detect court term references",
+          "implementation": "regex",
+          "regex": "\\b(?i)(fall|spring|summer|winter|october)\\s+term(?:\\s+\\d{4})?",
+          "note": "Specific terms should be capitalized"
+        },
+        {
+          "pattern_id": "court_in_discussion",
+          "description": "Detect 'the Court held/found/ruled' patterns",
+          "implementation": "regex",
+          "regex": "\\b[Tt]he\\s+[Cc]ourt\\s+(?:held|found|ruled|stated|concluded|determined|granted|denied)",
+          "note": "Should be capitalized when referring to court in discussed case"
+        },
+        {
+          "pattern_id": "title_after_name",
+          "description": "Detect titles appearing after names",
+          "implementation": "regex",
+          "regex": "([A-Z][a-z]+)(?:\\s+[A-Z][a-z]+)?,\\s+([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)?)",
+          "note": "Usually lowercase unless formal construction"
+        }
+      ],
+      "gpt_prompts": [
+        {
+          "prompt_id": "verify_title_capitalization_context",
+          "prompt": "Analyze this title usage. Determine: (1) Is it before or after a name? (2) Does it refer to a specific identified person or a generic position? (3) Is it the U.S. President or a specific Supreme Court Justice? Return: {\"title\": \"\", \"position\": \"before_name\"|\"after_name\"|\"standalone\", \"is_specific_person\": <boolean>, \"should_be_capitalized\": <boolean>, \"is_capitalized\": <boolean>}",
+          "use_case": "Verify title capitalization based on context"
+        },
+        {
+          "prompt_id": "verify_court_term_capitalization",
+          "prompt": "Determine if this court term reference is specific or generic. Specific terms of specific courts (October Term 2020, Fall Term) should be capitalized. Generic references ('the term', 'a court term') should be lowercase. Return: {\"term_reference\": \"\", \"is_specific\": <boolean>, \"court_specified\": <boolean>, \"should_be_capitalized\": <boolean>}",
+          "use_case": "Verify court term capitalization"
+        },
+        {
+          "prompt_id": "verify_court_capitalization_in_case_discussion",
+          "prompt": "Analyze this 'Court' reference in the context of case discussion. When discussing what the court held/ruled/found in a case, 'Court' should be capitalized if referring to the Supreme Court or the court whose opinion is being discussed. Return: {\"is_case_discussion\": <boolean>, \"refers_to_scotus\": <boolean>, \"refers_to_case_court\": <boolean>, \"should_be_capitalized\": <boolean>}",
+          "use_case": "Verify 'Court' capitalization in case discussions per Rule 9"
+        },
+        {
+          "prompt_id": "check_generic_vs_specific_title",
+          "prompt": "Determine if this title reference is generic or specific. Generic uses: 'any judge may...', 'a justice dissented', 'the president, whoever it may be'. Specific uses: 'the President' (current), 'Justice Roberts', 'the Chief Justice' (current). Return: {\"title\": \"\", \"is_generic\": <boolean>, \"is_specific\": <boolean>, \"reasoning\": \"\", \"should_be_capitalized\": <boolean>}",
+          "use_case": "Distinguish generic from specific title usage"
+        }
+      ]
+    }
+  ],
+  "implementation_notes": {
+    "regex_limitations": "Many errors require context analysis and cannot be detected by regex alone. Errors marked with 'requires_gpt': true need AI-assisted verification.",
+    "severity_levels": {
+      "critical": "Changes meaning or seriously misrepresents source material",
+      "major": "Clear Bluebook violation that affects professional quality",
+      "minor": "Style or formatting issue that should be corrected"
+    },
+    "auto_fixable_notes": "Errors marked auto_fixable: true can be corrected programmatically with high confidence. Others require human judgment or context.",
+    "detection_strategy": "Use multi-pass approach: (1) regex-based pattern detection for quick wins, (2) GPT analysis for context-dependent rules, (3) human review for critical errors",
+    "integration_recommendations": [
+      "Implement regex patterns first for quick detection of common errors",
+      "Use GPT prompts for context-aware verification of ambiguous cases",
+      "Create severity-based reporting (critical errors highlighted)",
+      "Build auto-fix pipeline for safe, high-confidence corrections",
+      "Maintain original source comparison for quotation verification",
+      "Implement Bluebook table lookup for abbreviations (Tables T6-T10)",
+      "Create citation vs. text context detection to apply appropriate rules"
+    ]
+  },
+  "total_rules_analyzed": 9,
+  "total_subrules": 9,
+  "total_error_types": 71,
+  "auto_fixable_errors": 19,
+  "gpt_required_errors": 33,
+  "detection_patterns": 43,
+  "gpt_prompts": 25
+}

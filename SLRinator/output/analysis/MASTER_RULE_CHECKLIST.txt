@@ -1,0 +1,26 @@
+BLUEBOOK RULES: 216 total
+REDBOOK RULES: 115 total
+TOTAL: 331 rules to process
+
+Top-level Bluebook rules (21 total):
+ 1. Rule 1 (19 subrules)
+ 2. Rule 10 (20 subrules)
+ 3. Rule 11 (0 subrules)
+ 4. Rule 12 (21 subrules)
+ 5. Rule 13 (8 subrules)
+ 6. Rule 14 (7 subrules)
+ 7. Rule 15 (12 subrules)
+ 8. Rule 16 (16 subrules)
+ 9. Rule 17 (11 subrules)
+10. Rule 18 (14 subrules)
+11. Rule 19 (2 subrules)
+12. Rule 2 (2 subrules)
+13. Rule 20 (16 subrules)
+14. Rule 21 (39 subrules)
+15. Rule 3 (5 subrules)
+16. Rule 4 (2 subrules)
+17. Rule 5 (3 subrules)
+18. Rule 6 (2 subrules)
+19. Rule 7 (0 subrules)
+20. Rule 8 (0 subrules)
+21. Rule 9 (0 subrules)

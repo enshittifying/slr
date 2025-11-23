@@ -1,0 +1,20 @@
+# Desktop App Requirements - Updated for Python 3.13
+PyQt6>=6.7.0
+PyQt6-WebEngine>=6.7.0
+PyMuPDF>=1.24.0
+python-docx>=1.1.0
+requests>=2.32.0
+google-auth>=2.35.0
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.150.0
+openai>=1.54.0
+anthropic>=0.39.0
+pandas>=2.2.0
+openpyxl>=3.1.0
+cryptography>=43.0.0
+tqdm>=4.66.0
+beautifulsoup4>=4.12.0
+lxml>=5.3.0
+Pillow>=11.0.0
+PyInstaller>=6.11.0
+keyring>=25.5.0

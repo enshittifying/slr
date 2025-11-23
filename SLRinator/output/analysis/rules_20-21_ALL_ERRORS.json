@@ -1,0 +1,1530 @@
+{
+  "metadata": {
+    "analysis_title": "Bluebook Rules 20-21 Comprehensive Error Analysis",
+    "rules_analyzed": ["20", "21"],
+    "rule_20_title": "Foreign Materials (16 subrules)",
+    "rule_21_title": "International Materials (39 subrules)",
+    "total_subrules": 55,
+    "total_error_types": 87,
+    "categories": [
+      "Foreign Materials - Jurisdiction & Identification",
+      "Foreign Materials - Language & Transliteration",
+      "Foreign Materials - Cases",
+      "Foreign Materials - Constitutions & Statutes",
+      "Foreign Materials - Periodicals & Short Citations",
+      "International Materials - Treaty Citations",
+      "International Materials - International Cases",
+      "International Materials - United Nations Documents",
+      "International Materials - Regional Organizations",
+      "International Materials - Other International Sources",
+      "Cross-cutting Errors"
+    ],
+    "severity_levels": ["Critical", "Major", "Minor", "Style"],
+    "generated_date": "2025-11-23T00:00:00Z"
+  },
+  "error_categories": {
+    "foreign_materials_jurisdiction": {
+      "category_name": "Foreign Materials - Jurisdiction & Identification",
+      "affected_rules": ["20.1"],
+      "error_count": 8,
+      "errors": [
+        {
+          "error_id": "FM_001",
+          "error_type": "Missing Country Designation",
+          "description": "Failing to indicate the country or jurisdiction of origin for foreign legal materials, when not obvious from context",
+          "severity": "Critical",
+          "frequency": "High",
+          "rule_reference": "20.1",
+          "example_incorrect": "Civil Code art. 1234",
+          "example_correct": "C. civ. art. 1234 (Fr.)",
+          "violation_detail": "Country abbreviation required per Table T2"
+        },
+        {
+          "error_id": "FM_002",
+          "error_type": "Incorrect Country Abbreviation",
+          "description": "Using non-standard or incorrect abbreviations for country names per Bluebook Table T2",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.1",
+          "example_incorrect": "Gesetz 2020 (Germany)",
+          "example_correct": "Gesetz 2020 (Ger.)",
+          "violation_detail": "Table T2 requires standardized abbreviations like Ger., Fr., UK, Can., etc."
+        },
+        {
+          "error_id": "FM_003",
+          "error_type": "Missing Provincial/Subdivisional Designation",
+          "description": "Omitting state, province, or other subdivision when necessary for clarity in federal or decentralized jurisdictions",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.1",
+          "example_incorrect": "Law No. 500 (Can.)",
+          "example_correct": "Law No. 500 (Ont.)",
+          "violation_detail": "Bluebook 20.1 requires subdivision for jurisdictions like Canada, Switzerland, Germany"
+        },
+        {
+          "error_id": "FM_004",
+          "error_type": "Ambiguous Jurisdiction Reference",
+          "description": "Using vague jurisdiction indicators that fail to clearly identify the source country/region",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.1",
+          "example_incorrect": "Statute of the Region",
+          "example_correct": "Statute of the Region (Basque Country)",
+          "violation_detail": "Reader must be able to definitively identify jurisdiction of origin"
+        },
+        {
+          "error_id": "FM_005",
+          "error_type": "Table T2 Format Non-Compliance",
+          "description": "Deviating from the specific format and abbreviation conventions provided in Table T2 for a particular country",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.1, Table T2",
+          "example_incorrect": "Code Civil 1234 (France)",
+          "example_correct": "C. civ. art. 1234 (Fr.)",
+          "violation_detail": "Each country has unique abbreviation conventions in Table T2"
+        },
+        {
+          "error_id": "FM_006",
+          "error_type": "Missing Jurisdiction in Parenthetical",
+          "description": "Providing jurisdiction information in text rather than in the required parenthetical at end of citation",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.1",
+          "example_incorrect": "The German code provides... C.C. art. 100.",
+          "example_correct": "C.C. art. 100 (Ger.)",
+          "violation_detail": "Jurisdiction must appear in final parenthetical, not in surrounding text"
+        },
+        {
+          "error_id": "FM_007",
+          "error_type": "Inconsistent Jurisdiction Abbreviations",
+          "description": "Using different abbreviations or formats for the same jurisdiction across multiple citations in a document",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.1",
+          "example_incorrect": "Case 1 (Ger.); Case 2 (Germany)",
+          "example_correct": "Case 1 (Ger.); Case 2 (Ger.)",
+          "violation_detail": "Maintain consistency throughout document for same jurisdiction"
+        },
+        {
+          "error_id": "FM_008",
+          "error_type": "Incorrect Subdivision Abbreviation",
+          "description": "Using non-standard abbreviations for provinces, states, or regions as provided in Table T2",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.1, Table T2",
+          "example_incorrect": "Statute (Ontario, Canada)",
+          "example_correct": "Statute (Ont.)",
+          "violation_detail": "Table T2 provides required subdivision abbreviations"
+        }
+      ]
+    },
+    "foreign_materials_language": {
+      "category_name": "Foreign Materials - Language & Transliteration",
+      "affected_rules": ["20.2", "20.2.1", "20.2.2", "20.2.3", "20.2.4", "20.2.5"],
+      "error_count": 16,
+      "errors": [
+        {
+          "error_id": "FM_009",
+          "error_type": "Missing Original Language Citation",
+          "description": "Citing only an English translation when the original language source should be cited per Bluebook 20.2",
+          "severity": "Critical",
+          "frequency": "High",
+          "rule_reference": "20.2",
+          "example_incorrect": "[Act on Societies] (Fr.)",
+          "example_correct": "Loi relative aux sociétés [Act on Societies] (France)",
+          "violation_detail": "Original language must be cited with English translation in brackets"
+        },
+        {
+          "error_id": "FM_010",
+          "error_type": "Improper Language Capitalization",
+          "description": "Failing to follow the capitalization rules of the source language when citing foreign language materials",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "20.2.2",
+          "example_incorrect": "Loi Relative Aux Sociétés (Fr.)",
+          "example_correct": "Loi relative aux sociétés (Fr.)",
+          "violation_detail": "French capitalizes only first word and proper nouns; apply similar rules to other languages"
+        },
+        {
+          "error_id": "FM_011",
+          "error_type": "Missing English Translation of Foreign Title",
+          "description": "Omitting English translation in brackets when reader might not understand the original language title",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.2.2",
+          "example_incorrect": "Loi relative aux sociétés par actions (Fr.)",
+          "example_correct": "Loi relative aux sociétés par actions [Law on Joint Stock Companies] (Fr.)",
+          "violation_detail": "Bracketed English translation aids reader comprehension"
+        },
+        {
+          "error_id": "FM_012",
+          "error_type": "Improper Translation Formatting",
+          "description": "Using incorrect punctuation or formatting for English translation, not using brackets or parentheses correctly",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.2.2",
+          "example_incorrect": "Code civil (Civil Code) (Fr.)",
+          "example_correct": "Code civil [Civil Code] (Fr.)",
+          "violation_detail": "Translations in brackets, jurisdiction in parentheses"
+        },
+        {
+          "error_id": "FM_013",
+          "error_type": "Incorrect Non-Roman Script Transliteration",
+          "description": "Using improper transliteration system for languages not using Roman alphabet (e.g., Chinese, Arabic, Russian)",
+          "severity": "Critical",
+          "frequency": "High",
+          "rule_reference": "20.2.4",
+          "example_incorrect": "Saikō Saibansho (Highest Court)",
+          "example_correct": "Supreme Court [Saikō Saibansho] (Japan)",
+          "violation_detail": "Must use Bluebook-approved transliteration (pinyin for Chinese, Hepburn for Japanese, etc.)"
+        },
+        {
+          "error_id": "FM_014",
+          "error_type": "Missing Transliteration Notation",
+          "description": "Providing transliterated text without indicating it is a transliteration of non-Roman script",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.2.4",
+          "example_incorrect": "Saikō Saibansho, 1234 Hanrei Jaho 5678 (1999)",
+          "example_correct": "Supreme Court [Saikō Saibansho], 1234 Hanrei Jaho 5678 (Japan 1999)",
+          "violation_detail": "Reader must understand that original language uses non-Roman alphabet"
+        },
+        {
+          "error_id": "FM_015",
+          "error_type": "Improper Abbreviation in Foreign Language",
+          "description": "Translating or modifying abbreviations that should remain in their original foreign form per Bluebook 20.2.3",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.2.3",
+          "example_incorrect": "OJE (Official Journal of the EU)",
+          "example_correct": "OJ (L 119) 1 (EU)",
+          "violation_detail": "Foreign abbreviations like OJ, BVerfGE should not be translated or altered"
+        },
+        {
+          "error_id": "FM_016",
+          "error_type": "Missing Abbreviation Parenthetical on First Use",
+          "description": "Failing to provide parenthetical explanation for uncommon foreign abbreviations on first citation",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.2.3",
+          "example_incorrect": "111 BVerfGE 307 (Ger. 2004)",
+          "example_correct": "111 BVerfGE 307 (Ger. 2004) (Bundesverfassungsgericht)",
+          "violation_detail": "First use of rare abbreviation should include explanation"
+        },
+        {
+          "error_id": "FM_017",
+          "error_type": "Incorrect Multiple Language Citation",
+          "description": "Improperly handling documents officially published in multiple languages per Bluebook 20.2.1",
+          "severity": "Major",
+          "frequency": "Low",
+          "rule_reference": "20.2.1",
+          "example_incorrect": "Law No. 500 (Switzerland: French or German)",
+          "example_correct": "Law No. 500 (French) (Switz.) OR Law No. 500 (Ger.) (Switz.)",
+          "violation_detail": "Cite version actually used; if multiple official versions exist, choose one and be clear"
+        },
+        {
+          "error_id": "FM_018",
+          "error_type": "Inadequate Translator Attribution",
+          "description": "Citing a translation without properly attributing the translator per Bluebook 20.2.5",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.2.5",
+          "example_incorrect": "German Civil Code 123 (1987)",
+          "example_correct": "German Civil Code 123 (Simon L. Goren trans., Fred B. Rothman & Co. 1994)",
+          "violation_detail": "Translator and publication information required for translated materials"
+        },
+        {
+          "error_id": "FM_019",
+          "error_type": "Missing Translation Parenthetical for Quoted Passage",
+          "description": "Quoting translated text without parenthetically noting it is translated per Bluebook 20.2.5",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.2.5",
+          "example_incorrect": "\"The law provides...\" C.C. art. 100 (Fr.)",
+          "example_correct": "\"The law provides...\" C.C. art. 100 (Fr.) (trans. Simon L. Goren)",
+          "violation_detail": "Quoted translations require translator attribution"
+        },
+        {
+          "error_id": "FM_020",
+          "error_type": "Mixed Language Citation Inconsistency",
+          "description": "Inconsistently mixing original language and English versions of the same material throughout document",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.2, 20.2.1",
+          "example_incorrect": "First cite: Loi (Fr.), Later cite: French Law",
+          "example_correct": "Consistently cite: Loi relative aux... (Fr.)",
+          "violation_detail": "Maintain consistent approach to language across all citations of same source"
+        },
+        {
+          "error_id": "FM_021",
+          "error_type": "Over-Translation of Technical Terms",
+          "description": "Providing unnecessary translations for widely understood legal Latin terms or technical terminology",
+          "severity": "Style",
+          "frequency": "Low",
+          "rule_reference": "20.2.2",
+          "example_incorrect": "C. civ. [Civil Code of France] art. 1234 [article]",
+          "example_correct": "C. civ. art. 1234 (Fr.)",
+          "violation_detail": "Translate only when comprehension aid is genuinely needed for target audience"
+        },
+        {
+          "error_id": "FM_022",
+          "error_type": "Incorrect Parenthetical Structure for Language Notes",
+          "description": "Placing language notation in wrong parenthetical level (should be final parenthetical with jurisdiction)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.2, 20.1",
+          "example_incorrect": "Loi (French law) (Fr.)",
+          "example_correct": "Loi (Fr.)",
+          "violation_detail": "Language designation belongs in jurisdiction parenthetical, not as separate parenthetical"
+        },
+        {
+          "error_id": "FM_023",
+          "error_type": "Italicization Error in Foreign Language",
+          "description": "Incorrectly italicizing (or failing to italicize) foreign case names or titles per language conventions",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.2.2",
+          "example_incorrect": "Bundesverfassungsgericht Decision (Ger. 2004)",
+          "example_correct": "_Bundesverfassungsgericht_ Decision (Ger. 2004)",
+          "violation_detail": "Case names and titles should be italicized as in English per rule 20.2.2"
+        },
+        {
+          "error_id": "FM_024",
+          "error_type": "Missing Language Identification",
+          "description": "Failing to indicate language when source is not in English and not obvious from context",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.2",
+          "example_incorrect": "Código civil art. 1234",
+          "example_correct": "Código civil art. 1234 (Spain)",
+          "violation_detail": "Language or jurisdiction must be clear to English-language readers"
+        }
+      ]
+    },
+    "foreign_materials_cases": {
+      "category_name": "Foreign Materials - Cases",
+      "affected_rules": ["20.3", "20.3.1", "20.3.2"],
+      "error_count": 12,
+      "errors": [
+        {
+          "error_id": "FM_025",
+          "error_type": "Incorrect Case Name Format",
+          "description": "Using improper format for foreign case names, not following country-specific conventions",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.3",
+          "example_incorrect": "Smith versus Johnson, 2001 [UK Reporter] 42",
+          "example_correct": "R. v. Smith, [2001] 2 S.C.R. 42 (Can.)",
+          "violation_detail": "Foreign case citations must follow Table T2 format for that country"
+        },
+        {
+          "error_id": "FM_026",
+          "error_type": "Missing Case Reporter Information",
+          "description": "Omitting the official or standard case reporter reference for foreign jurisdictions",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.3.1, 20.3.2",
+          "example_incorrect": "R. v. Smith (Can.)",
+          "example_correct": "R. v. Smith, [2001] 2 S.C.R. 42 (Can.)",
+          "violation_detail": "Reporter volume, page, and year information required"
+        },
+        {
+          "error_id": "FM_027",
+          "error_type": "Confused Common Law vs. Civil Law Case Citations",
+          "description": "Using common law citation format for civil law cases or vice versa, not following appropriate jurisdiction type format",
+          "severity": "Critical",
+          "frequency": "High",
+          "rule_reference": "20.3.1, 20.3.2",
+          "example_incorrect": "Bundesverfassungsgericht v. Bank, [2000] Reporter 305",
+          "example_correct": "BVerfG Mar. 3, 2004, 111 BVerfGE 307 (Ger.)",
+          "violation_detail": "Civil law cases typically use case number/date format, not reporter names like common law"
+        },
+        {
+          "error_id": "FM_028",
+          "error_type": "Missing Court Designation",
+          "description": "Failing to identify the court that decided the case when not obvious from context",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.3",
+          "example_incorrect": "Case No. 2010-1234 (2010)",
+          "example_correct": "Bundesverfassungsgericht, Case No. 2010-1234 (Ger. 2010)",
+          "violation_detail": "Court identification essential for reader to assess authority level"
+        },
+        {
+          "error_id": "FM_029",
+          "error_type": "Improper Date Placement",
+          "description": "Placing decision date in incorrect position in foreign case citations, not following Table T2",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.3, Table T2",
+          "example_incorrect": "[2001] R. v. Smith 2 S.C.R. 42 (Can.)",
+          "example_correct": "R. v. Smith, [2001] 2 S.C.R. 42 (Can.)",
+          "violation_detail": "Date placement varies by jurisdiction; consult Table T2"
+        },
+        {
+          "error_id": "FM_030",
+          "error_type": "Missing Civil Law Case Number",
+          "description": "Omitting the docket or case number for civil law jurisdictions where it's standard identification",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.3.2",
+          "example_incorrect": "French Supreme Court Decision (Fr. 2014)",
+          "example_correct": "Conseil d'État Case No. 2014-1234 (Fr. 2014)",
+          "violation_detail": "Civil law citations require case number in format shown in Table T2"
+        },
+        {
+          "error_id": "FM_031",
+          "error_type": "Inconsistent Party Name Usage",
+          "description": "Using different formats or abbreviations for party names in case citations throughout document",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.3",
+          "example_incorrect": "R. v. Smith (first cite); R versus Smith (later cite)",
+          "example_correct": "R. v. Smith (all citations)",
+          "violation_detail": "Maintain consistent case name formatting across all references"
+        },
+        {
+          "error_id": "FM_032",
+          "error_type": "Missing Reporter Abbreviation",
+          "description": "Providing reporter name in full rather than using standard abbreviation per Table T2",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "20.3.1, Table T2",
+          "example_incorrect": "Smith v. Johnson, [2001] Supreme Court Reporter 42",
+          "example_correct": "Smith v. Johnson, [2001] 2 S.C.R. 42 (Can.)",
+          "violation_detail": "Reporter abbreviations required per country-specific Table T2 entries"
+        },
+        {
+          "error_id": "FM_033",
+          "error_type": "Inconsistent Parallel Citations",
+          "description": "Providing parallel citations to multiple reporters but not doing so consistently for similar cases",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "20.3",
+          "example_incorrect": "Case A: 111 BVerfGE 307; Case B: German Constitutional Court 25 Reporter 50",
+          "example_correct": "Case A: 111 BVerfGE 307; Case B: 25 BVerfGE 50",
+          "violation_detail": "Apply consistent parallel citation approach throughout document"
+        },
+        {
+          "error_id": "FM_034",
+          "error_type": "Missing Page/Pinpoint Reference",
+          "description": "Omitting page number or paragraph reference when citing specific portion of foreign case",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.3",
+          "example_incorrect": "R. v. Smith, [2001] 2 S.C.R. (Can.)",
+          "example_correct": "R. v. Smith, [2001] 2 S.C.R. 42 (Can.)",
+          "violation_detail": "Pinpoint citations required for accuracy in locating specific language"
+        },
+        {
+          "error_id": "FM_035",
+          "error_type": "Improper Paragraph Citation Format",
+          "description": "Using incorrect symbol or format for paragraph citations in foreign cases (e.g., wrong use of ¶ or §)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.3.2",
+          "example_incorrect": "Bundesverfassungsgericht Decision para 45 (Ger. 2004)",
+          "example_correct": "Bundesverfassungsgericht Decision ¶ 45 (Ger. 2004)",
+          "violation_detail": "Use ¶ symbol for paragraph citations consistently"
+        },
+        {
+          "error_id": "FM_036",
+          "error_type": "Multiple Reporters Without Clarification",
+          "description": "Citing multiple reporters for same case without explaining which is official/preferred",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "20.3",
+          "example_incorrect": "Case Name, [2001] 111 BVerfGE 307 & German Law Reporter 42",
+          "example_correct": "Case Name, [2001] 111 BVerfGE 307 (Ger.)",
+          "violation_detail": "Use primary reporter per Table T2; parallel citations should be clearly identified as such"
+        }
+      ]
+    },
+    "foreign_materials_statutes": {
+      "category_name": "Foreign Materials - Constitutions & Statutes",
+      "affected_rules": ["20.4", "20.5", "20.5.1", "20.5.2"],
+      "error_count": 12,
+      "errors": [
+        {
+          "error_id": "FM_037",
+          "error_type": "Missing Constitutional Year",
+          "description": "Omitting year of adoption or amendment for foreign constitution when multiple versions exist",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.4",
+          "example_incorrect": "Constitution of Germany art. 1",
+          "example_correct": "Grundgesetz [Constitution of Germany] art. 1 (1949)",
+          "violation_detail": "Year necessary to distinguish between multiple constitutions per Bluebook 20.4"
+        },
+        {
+          "error_id": "FM_038",
+          "error_type": "Incorrect Constitutional Citation Format",
+          "description": "Using improper format for foreign constitutional citations per Table T2",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.4, Table T2",
+          "example_incorrect": "Basic Law art. 1 (Ger.)",
+          "example_correct": "Grundgesetz art. 1 (Ger.)",
+          "violation_detail": "Follow Table T2 for official constitutional name abbreviations and format"
+        },
+        {
+          "error_id": "FM_039",
+          "error_type": "Missing Article/Section Designation",
+          "description": "Failing to cite specific article, section, or provision of foreign statute or constitution",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.4, 20.5",
+          "example_incorrect": "German Basic Law (1949)",
+          "example_correct": "Grundgesetz art. 1 (Ger. 1949)",
+          "violation_detail": "Specific provision required for complete citation per Bluebook 20.4 and 20.5"
+        },
+        {
+          "error_id": "FM_040",
+          "error_type": "Incorrect Statute Date Format",
+          "description": "Improperly formatting promulgation or enactment date for foreign statutes",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.5",
+          "example_incorrect": "Act Number 100-2006 (Jan. 15, 2006)",
+          "example_correct": "Law No. 100 of 2006 (Jan. 15, 2006) (Japan)",
+          "violation_detail": "Date format should follow both Bluebook conventions and country Table T2 format"
+        },
+        {
+          "error_id": "FM_041",
+          "error_type": "Missing Official Gazette Citation",
+          "description": "Omitting official gazette or publication reference for civil law statute citations",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20.5.2",
+          "example_incorrect": "Gesetz über die... Oct. 1, 2020",
+          "example_correct": "Gesetz über die... Oct. 1, 2020, BGBL I at 123 (Ger.)",
+          "violation_detail": "Civil law citations typically require official gazette reference per Bluebook 20.5.2"
+        },
+        {
+          "error_id": "FM_042",
+          "error_type": "Inconsistent Common Law Statute Format",
+          "description": "Using inconsistent format for statutes in common law foreign jurisdictions",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.5.1",
+          "example_incorrect": "Competition and Consumer Act 2010 (Austl.) sch 2",
+          "example_correct": "Competition and Consumer Act 2010 (Cth) sch 2 (Austl.)",
+          "violation_detail": "Common law foreign jurisdictions need both subdivision and country abbreviations"
+        },
+        {
+          "error_id": "FM_043",
+          "error_type": "Missing Code Abbreviation",
+          "description": "Failing to abbreviate code names (Civil Code, Penal Code, etc.) per country convention",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.5.2",
+          "example_incorrect": "Civil Code article 1234 (Fr.)",
+          "example_correct": "C. civ. art. 1234 (Fr.)",
+          "violation_detail": "Standard abbreviations per Table T2 required for codes"
+        },
+        {
+          "error_id": "FM_044",
+          "error_type": "Incorrect Statute Number Format",
+          "description": "Presenting statute/law numbers in non-standard format for that jurisdiction",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.5.2",
+          "example_incorrect": "Japanese Law Number 100-2006",
+          "example_correct": "Law No. 100 of 2006 (Japan)",
+          "violation_detail": "Follow Table T2 statute number format for each country"
+        },
+        {
+          "error_id": "FM_045",
+          "error_type": "Missing Effective Date",
+          "description": "Omitting effective date when it differs significantly from enactment date",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "20.5",
+          "example_incorrect": "Act No. 100, Apr. 1, 2006 (effective 2007)",
+          "example_correct": "Act No. 100, Apr. 1, 2006 (effective Jan. 1, 2007)",
+          "violation_detail": "Include effective date in parenthetical if significantly different from enactment"
+        },
+        {
+          "error_id": "FM_046",
+          "error_type": "Inadequate Translation of Statute Title",
+          "description": "Providing incomplete or unclear English translation of foreign statute title",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.5.2",
+          "example_incorrect": "Gesetz (Act) Oct. 1, 2020 (Ger.)",
+          "example_correct": "Gesetz über die ... [Act on ...] Oct. 1, 2020 (Ger.)",
+          "violation_detail": "Translation should be substantive enough to clarify statute purpose"
+        },
+        {
+          "error_id": "FM_047",
+          "error_type": "Missing Subdivision Identifier",
+          "description": "Omitting article, section, chapter, or subsection identifier type for statute subdivisions",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.5",
+          "example_incorrect": "C. civ. 1234 (Fr.)",
+          "example_correct": "C. civ. art. 1234 (Fr.)",
+          "violation_detail": "Specify whether subdivision is article, section, chapter, etc."
+        },
+        {
+          "error_id": "FM_048",
+          "error_type": "Incorrect Session Law vs. Compiled Code Citation",
+          "description": "Citing session law format when compiled code is preferred, or vice versa, per country convention",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "20.5.1, 20.5.2",
+          "example_incorrect": "Statute No. 100 of 2006, BGBL I at 123 (Ger.)",
+          "example_correct": "C. civ. art. 1234 (Fr.) [if compiled]",
+          "violation_detail": "Use official or compilation citation preferred per Table T2"
+        }
+      ]
+    },
+    "foreign_materials_periodicals": {
+      "category_name": "Foreign Materials - Periodicals & Short Citations",
+      "affected_rules": ["20.6", "20.7"],
+      "error_count": 8,
+      "errors": [
+        {
+          "error_id": "FM_049",
+          "error_type": "Incorrect Foreign Journal Abbreviation",
+          "description": "Using non-standard abbreviations for foreign periodicals per Table T13 or country-specific conventions",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.6, Table T13",
+          "example_incorrect": "20 Revue Intl. de Droit Comparé 25 (1988) (Fr.)",
+          "example_correct": "20 Rev. int'l dr. comp. 25 (1988) (Fr.)",
+          "violation_detail": "Use Table T13 abbreviations for international periodicals"
+        },
+        {
+          "error_id": "FM_050",
+          "error_type": "Missing Foreign Language Periodical Translation",
+          "description": "Omitting English translation of foreign periodical title in first citation",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.6",
+          "example_incorrect": "20 Revue Internationale de Droit Comparé 25 (1988)",
+          "example_correct": "20 Revue Internationale de Droit Comparé 25 (1988) (International Review of Comparative Law)",
+          "violation_detail": "Translation helps readers identify periodical content and purpose"
+        },
+        {
+          "error_id": "FM_051",
+          "error_type": "Inconsistent Periodical Title Format",
+          "description": "Varying between full title, abbreviation, and partial title for same foreign periodical",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.6",
+          "example_incorrect": "First: Revue int'l; Later: Revue Internationale de Droit Comparé",
+          "example_correct": "Consistently use: Revue int'l",
+          "violation_detail": "Maintain consistent citation format for same periodical throughout"
+        },
+        {
+          "error_id": "FM_052",
+          "error_type": "Missing Jurisdiction or Language Identifier",
+          "description": "Failing to identify jurisdiction or language of periodical when not obvious",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.6",
+          "example_incorrect": "International Law Quarterly 45 (1990)",
+          "example_correct": "International Law Quarterly 45 (1990) (Fr.)",
+          "violation_detail": "Reader must know source language/jurisdiction when not evident from title"
+        },
+        {
+          "error_id": "FM_053",
+          "error_type": "Incorrect Short Citation Form for Foreign Source",
+          "description": "Using improper id. or supra format for foreign legal materials",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.7",
+          "example_incorrect": "German Civil Code, supra note 10",
+          "example_correct": "B.G.B., supra note 10, § 823 (Ger.)",
+          "violation_detail": "Short cites must maintain jurisdiction and other essential identifiers"
+        },
+        {
+          "error_id": "FM_054",
+          "error_type": "Hereinafter Abbreviation Not Used Consistently",
+          "description": "Establishing hereinafter abbreviation for foreign source but not using it in subsequent citations",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20.7",
+          "example_incorrect": "C. civ. (Fr.) [hereinafter C.C.], later citing \"French Civil Code\"",
+          "example_correct": "C. civ. (Fr.) [hereinafter C.C.], later citing \"C.C. art. 1234\"",
+          "violation_detail": "Once hereinafter abbreviation is established, use it consistently"
+        },
+        {
+          "error_id": "FM_055",
+          "error_type": "id. Used Incorrectly with Foreign Materials",
+          "description": "Using id. when immediately preceding citation is to different source or has intervening material",
+          "severity": "Major",
+          "frequency": "Low",
+          "rule_reference": "20.7",
+          "example_incorrect": "See C. civ. art. 100 (Fr.). Other authority. Id.",
+          "example_correct": "See C. civ. art. 100 (Fr.). Other authority. C. civ. art. 200 (Fr.)",
+          "violation_detail": "id. only permissible if immediately preceding citation is to same source"
+        },
+        {
+          "error_id": "FM_056",
+          "error_type": "Missing Jurisdiction in Short Citation",
+          "description": "Omitting country abbreviation in short citations to foreign materials when ambiguity could result",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20.7",
+          "example_incorrect": "C.C. art. 200, supra note 10",
+          "example_correct": "C.C. art. 200, supra note 10 (Fr.)",
+          "violation_detail": "Jurisdiction required in short cites to avoid confusion, especially if multiple foreign jurisdictions cited"
+        }
+      ]
+    },
+    "international_treaties": {
+      "category_name": "International Materials - Treaty Citations",
+      "affected_rules": ["21.1", "21.4", "21.4.1", "21.4.2", "21.4.3", "21.4.4", "21.4.5"],
+      "error_count": 14,
+      "errors": [
+        {
+          "error_id": "INT_001",
+          "error_type": "Missing Treaty Name",
+          "description": "Failing to provide official or commonly recognized treaty name in citation",
+          "severity": "Critical",
+          "frequency": "High",
+          "rule_reference": "21.4.1",
+          "example_incorrect": "June 26, 1945, 59 Stat. 1031",
+          "example_correct": "Charter of the United Nations, June 26, 1945, 59 Stat. 1031",
+          "violation_detail": "Treaty name essential for identification per Bluebook 21.4.1"
+        },
+        {
+          "error_id": "INT_002",
+          "error_type": "Incorrect Treaty Source",
+          "description": "Citing treaty to non-preferred source when official U.S. or standard international source available",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.4.5",
+          "example_incorrect": "Convention on XYZ (2012)",
+          "example_correct": "Convention on XYZ, June 15, 2012, 1234 U.N.T.S. 567",
+          "violation_detail": "Use U.S.T., T.I.A.S., U.N.T.S., or regional series per Bluebook 21.4.5"
+        },
+        {
+          "error_id": "INT_003",
+          "error_type": "Missing Treaty Effective Date or Date Signed",
+          "description": "Omitting date treaty was signed or came into force",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.4.4",
+          "example_incorrect": "Charter of the United Nations, 59 Stat. 1031",
+          "example_correct": "Charter of the United Nations, June 26, 1945, 59 Stat. 1031",
+          "violation_detail": "Date of signing required per Bluebook 21.4.4"
+        },
+        {
+          "error_id": "INT_004",
+          "error_type": "Missing Article/Section Reference",
+          "description": "Failing to cite specific article or section when quoting or referring to particular treaty provision",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "21.4.3",
+          "example_incorrect": "Charter of the United Nations, June 26, 1945, 59 Stat. 1031",
+          "example_correct": "Charter of the United Nations art. 2, June 26, 1945, 59 Stat. 1031",
+          "violation_detail": "Pinpoint citation to article, section, or paragraph required per Bluebook 21.4.3"
+        },
+        {
+          "error_id": "INT_005",
+          "error_type": "Incorrect Subdivision Designation",
+          "description": "Using wrong designation for treaty subdivisions (e.g., section vs. article, para vs. paragraph)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.4.3",
+          "example_incorrect": "Treaty, § 2(a)",
+          "example_correct": "Treaty art. 2, para. 1(a)",
+          "violation_detail": "Use terminology from treaty itself; commonly 'art.' for articles, 'para.' for paragraphs"
+        },
+        {
+          "error_id": "INT_006",
+          "error_type": "Missing Parallel Citations",
+          "description": "Failing to provide multiple reporter citations when appropriate per Bluebook 21.4.5",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.4.5",
+          "example_incorrect": "Marrakesh Agreement art. IX, Apr. 15, 1994",
+          "example_correct": "Marrakesh Agreement art. IX, Apr. 15, 1994, 1867 U.N.T.S. 154",
+          "violation_detail": "Parallel citations to multiple sources recommended when available"
+        },
+        {
+          "error_id": "INT_007",
+          "error_type": "Incorrect Treaty Reporter Abbreviation",
+          "description": "Using non-standard abbreviations for treaty reporters (U.S.T., T.I.A.S., U.N.T.S., etc.)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.4.5, Table T4",
+          "example_incorrect": "United States Treaty Series",
+          "example_correct": "U.S.T.",
+          "violation_detail": "Use standard abbreviations per Table T4 for treaty reporters"
+        },
+        {
+          "error_id": "INT_008",
+          "error_type": "Missing Bilateral Treaty Party Information",
+          "description": "Omitting party identification for bilateral treaties without formal names",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.4.1",
+          "example_incorrect": "Agreement concerning Trade, Nov. 5, 2010",
+          "example_correct": "Agreement between United States and China concerning Trade, Nov. 5, 2010",
+          "violation_detail": "Bilateral agreements without titles need party identification per Bluebook 21.4.1"
+        },
+        {
+          "error_id": "INT_009",
+          "error_type": "Incorrect Format for Treaty Not Yet in Force",
+          "description": "Failing to indicate that treaty citation is not yet in force or not properly formatted for draft status",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.4.5",
+          "example_incorrect": "Treaty on XYZ, June 1, 2020, 1500 U.N.T.S. 200",
+          "example_correct": "Treaty on XYZ, June 1, 2020, 1500 U.N.T.S. 200 (not yet in force)",
+          "violation_detail": "Note status of treaties not in force or in draft stage"
+        },
+        {
+          "error_id": "INT_010",
+          "error_type": "Missing Amendment/Protocol Information",
+          "description": "Failing to indicate that cited treaty has been amended or that a protocol applies",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.4.4",
+          "example_incorrect": "Charter of the United Nations, June 26, 1945, 59 Stat. 1031",
+          "example_correct": "Charter of the United Nations, June 26, 1945, 59 Stat. 1031, as amended by [Protocol date]",
+          "violation_detail": "Indicate amendments or protocols when citing amended text"
+        },
+        {
+          "error_id": "INT_011",
+          "error_type": "Inconsistent Treaty Name Usage",
+          "description": "Using different names or abbreviations for same treaty throughout document",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.4.1",
+          "example_incorrect": "First: Convention on Trade in Endangered Species; Later: CITES",
+          "example_correct": "Convention on Trade in Endangered Species, Mar. 3, 1973, [citation]",
+          "violation_detail": "Maintain consistent formal name; establish abbreviation if used frequently"
+        },
+        {
+          "error_id": "INT_012",
+          "error_type": "Missing Regional Treaty Source",
+          "description": "Failing to cite to regional treaty series (e.g., E.T.S., C.E.T.S.) when appropriate",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.4.5, 21.10",
+          "example_incorrect": "European Convention on Human Rights, Nov. 4, 1950",
+          "example_correct": "European Convention on Human Rights, Nov. 4, 1950, Europ. T.S. No. 5",
+          "violation_detail": "Regional treaties should cite regional treaty series when available"
+        },
+        {
+          "error_id": "INT_013",
+          "error_type": "Incorrect Parenthetical for Treaty Context",
+          "description": "Failing to provide necessary parenthetical information about treaty (e.g., number of parties, current status)",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.4",
+          "example_incorrect": "Treaty on XYZ, June 15, 2012, 1234 U.N.T.S. 567",
+          "example_correct": "Treaty on XYZ, June 15, 2012, 1234 U.N.T.S. 567 (200+ parties as of 2023)",
+          "violation_detail": "Parenthetical context useful for reader understanding of treaty's scope"
+        },
+        {
+          "error_id": "INT_014",
+          "error_type": "Missing U.S. Ratification Status Information",
+          "description": "Omitting information about U.S. ratification status when relevant to citation credibility",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.4.5",
+          "example_incorrect": "Protocol on XYZ, Dec. 10, 1997, 1350 U.N.T.S. 400",
+          "example_correct": "Protocol on XYZ, Dec. 10, 1997, 1350 U.N.T.S. 400 (not ratified by U.S.)",
+          "violation_detail": "For U.S. audiences, note whether U.S. is party to treaty"
+        }
+      ]
+    },
+    "international_cases": {
+      "category_name": "International Materials - International Cases",
+      "affected_rules": ["21.5", "21.5.1", "21.5.2", "21.5.3", "21.5.4", "21.5.5", "21.5.6", "21.5.7", "21.5.8", "21.5.9"],
+      "error_count": 15,
+      "errors": [
+        {
+          "error_id": "INT_015",
+          "error_type": "Incorrect ICJ Case Citation Format",
+          "description": "Using improper format for International Court of Justice cases",
+          "severity": "Critical",
+          "frequency": "High",
+          "rule_reference": "21.5.1",
+          "example_incorrect": "Case Name v. Party, 1999 ICJ",
+          "example_correct": "Case Name (Party v. Party), Judgment, 1999 I.C.J. 100 (date)",
+          "violation_detail": "ICJ citations require case type (Judgment, Advisory Opinion, Order) per Bluebook 21.5.1"
+        },
+        {
+          "error_id": "INT_016",
+          "error_type": "Missing Decision Type in International Case",
+          "description": "Omitting case type (Judgment, Order, Advisory Opinion, etc.) for international tribunals",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.5.1, 21.5.2",
+          "example_incorrect": "Case Name (Party v. Party), 1999 I.C.J. 100",
+          "example_correct": "Case Name (Party v. Party), Judgment, 1999 I.C.J. 100 (Aug. 15, 1999)",
+          "violation_detail": "Decision type clarifies nature and binding effect of tribunal output"
+        },
+        {
+          "error_id": "INT_017",
+          "error_type": "Incorrect ECJ Case Number Format",
+          "description": "Using improper format for European Court of Justice case numbers (C- vs. T- vs. newer format)",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.5.2",
+          "example_incorrect": "123/04, Case Name, 2005 E.C.R. I-1234",
+          "example_correct": "Case C-123/04, Case Name, 2005 E.C.R. I-1234 (date)",
+          "violation_detail": "ECJ cases require case letter prefix (C for Court of Justice, T for General Court) per Bluebook 21.5.2"
+        },
+        {
+          "error_id": "INT_018",
+          "error_type": "Missing Reporter Post-2012 for ECJ",
+          "description": "Citing only E.C.R. for ECJ cases decided after 2012 when E.C.R. no longer official reporter",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.5.2",
+          "example_incorrect": "Case C-123/17, Case Name, 2018 E.C.R. 1234",
+          "example_correct": "Case C-123/17, Case Name (Jan. 15, 2018), https://...",
+          "violation_detail": "E.C.R. only available through 2012; cite to EUR-Lex or other official source after"
+        },
+        {
+          "error_id": "INT_019",
+          "error_type": "Incorrect ECtHR Case Format",
+          "description": "Using incorrect citation format for European Court of Human Rights decisions",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.5.3",
+          "example_incorrect": "Smith v. United Kingdom, 2010 12345/06",
+          "example_correct": "Smith v. United Kingdom, App. No. 12345/06, 2010 Eur. Ct. H.R. (Judgment of July 2, 2010)",
+          "violation_detail": "ECtHR requires application number and judgment date per Bluebook 21.5.3"
+        },
+        {
+          "error_id": "INT_020",
+          "error_type": "Missing Application Number for ECtHR",
+          "description": "Omitting application number from ECtHR citation",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.5.3",
+          "example_incorrect": "Smith v. United Kingdom, 2010 Eur. Ct. H.R.",
+          "example_correct": "Smith v. United Kingdom, App. No. 12345/06, 2010 Eur. Ct. H.R.",
+          "violation_detail": "Application number essential for locating ECtHR decisions"
+        },
+        {
+          "error_id": "INT_021",
+          "error_type": "Incorrect IACHR Format",
+          "description": "Using improper format for Inter-American Commission on Human Rights citations",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.5.4",
+          "example_incorrect": "Smith v. Country, Case No. 2014-1234, IACHR",
+          "example_correct": "Smith v. Country, Case No. 2014-1234, Inter-Am. C.H.R., OEA/Ser.L/V/II.122 Doc. 5 rev.1 (2004)",
+          "violation_detail": "IACHR requires OAS document numbering per Bluebook 21.5.4"
+        },
+        {
+          "error_id": "INT_022",
+          "error_type": "Incorrect IACtHR Series Designation",
+          "description": "Confusing Series A and Series C designations for Inter-American Court of Human Rights",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.5.5",
+          "example_incorrect": "Smith v. Argentina, Inter-Am. Ct. H.R. (ser. A) No. 150",
+          "example_correct": "Smith v. Argentina, Merits, Judgment, Inter-Am. Ct. H.R. (ser. C) No. 150 (2001)",
+          "violation_detail": "Series C for judgments, Series A for advisory opinions per Bluebook 21.5.5"
+        },
+        {
+          "error_id": "INT_023",
+          "error_type": "Missing Judgment Stage Designation",
+          "description": "Omitting indication of stage (Merits, Reparations, Provisional Measures, etc.) for international cases",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.5.5",
+          "example_incorrect": "Smith v. Argentina, Inter-Am. Ct. H.R. (ser. C) No. 150 (2001)",
+          "example_correct": "Smith v. Argentina, Merits, Judgment, Inter-Am. Ct. H.R. (ser. C) No. 150 (2001)",
+          "violation_detail": "Judgment stage clarifies what decision is being cited"
+        },
+        {
+          "error_id": "INT_024",
+          "error_type": "Incorrect ITLOS Citation Format",
+          "description": "Using improper format for International Tribunal for the Law of the Sea cases",
+          "severity": "Major",
+          "frequency": "Low",
+          "rule_reference": "21.5.6",
+          "example_incorrect": "M/V Saiga, Case 2, Order, 1998",
+          "example_correct": "The M/V Saiga (No. 2) (St. Vincent v. Guinea), Case No. 2, Order of Jan. 20, 1998, ITLOS Rep. 123",
+          "violation_detail": "ITLOS requires case number, parties, and reporter citation per Bluebook 21.5.6"
+        },
+        {
+          "error_id": "INT_025",
+          "error_type": "Incorrect ICC Case Number Format",
+          "description": "Using non-standard format for International Criminal Court case numbers",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.5.7",
+          "example_incorrect": "Prosecutor v. Lubanga, ICC-01/04-01/06",
+          "example_correct": "Prosecutor v. Lubanga, Case No. ICC-01/04-01/06, Judgment (Mar. 14, 2012)",
+          "violation_detail": "ICC case numbers should be formatted consistently with institutional style"
+        },
+        {
+          "error_id": "INT_026",
+          "error_type": "Missing ICTY/ICTR Tribunal Designation",
+          "description": "Failing to clearly identify which tribunal (ICTY or ICTR) decided case",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.5.7",
+          "example_incorrect": "Prosecutor v. Tadić, Case No. IT-94-1-A, Appeals Judgment (July 15, 1999)",
+          "example_correct": "Prosecutor v. Tadić, Case No. IT-94-1-A, Appeals Judgment (Int'l Crim. Trib. for Former Yugoslavia July 15, 1999)",
+          "violation_detail": "Must identify ICTY vs. ICTR for clarity per Bluebook 21.5.7"
+        },
+        {
+          "error_id": "INT_027",
+          "error_type": "Incorrect WTO Panel Citation Format",
+          "description": "Using improper format for World Trade Organization dispute settlement reports",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.5.8",
+          "example_incorrect": "US v. EU, Appellate Body Report, DS2/AB/R",
+          "example_correct": "Appellate Body Report, United States – Measures Affecting XYZ, WTO Doc. WT/DS2/AB/R (adopted May 20, 1996)",
+          "violation_detail": "WTO requires formal document title, number format, and adoption date"
+        },
+        {
+          "error_id": "INT_028",
+          "error_type": "Missing WTO Adoption Date",
+          "description": "Omitting adoption date for WTO panel or Appellate Body reports",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.5.8",
+          "example_incorrect": "Panel Report, United States – Standard for Reformulated Gasoline, WTO Doc. WT/DS2/R",
+          "example_correct": "Panel Report, United States – Standard for Reformulated Gasoline, WTO Doc. WT/DS2/R (adopted May 20, 1996)",
+          "violation_detail": "Adoption date essential for establishing when WTO decision became final"
+        },
+        {
+          "error_id": "INT_029",
+          "error_type": "National Court International Law Case Citation Error",
+          "description": "Citing national court decision on international law issue in improper format per rule 21.5.9",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.5.9",
+          "example_incorrect": "International Law Case, Case Name, International Law Reports 2010 123",
+          "example_correct": "Case Name, [year] Case reporter, page (court country)",
+          "violation_detail": "National court cases should be cited as national cases, not international cases per Bluebook 21.5.9"
+        }
+      ]
+    },
+    "international_un": {
+      "category_name": "International Materials - United Nations Documents",
+      "affected_rules": ["21.7", "21.7.1", "21.7.2", "21.7.3", "21.7.4", "21.7.5", "21.7.6", "21.7.7", "21.7.8", "21.7.9", "21.7.10", "21.7.11"],
+      "error_count": 14,
+      "errors": [
+        {
+          "error_id": "INT_030",
+          "error_type": "Missing U.N. Document Symbol",
+          "description": "Failing to include proper U.N. document symbol (A/-, S/-, etc.) in citation",
+          "severity": "Critical",
+          "frequency": "High",
+          "rule_reference": "21.7",
+          "example_incorrect": "U.N. General Assembly Meeting Record, Oct. 10, 2000",
+          "example_correct": "U.N. GAOR, 55th Sess., 40th plen. mtg., U.N. Doc. A/55/PV.40 (Oct. 10, 2000)",
+          "violation_detail": "U.N. document symbol essential for accurate identification and location"
+        },
+        {
+          "error_id": "INT_031",
+          "error_type": "Incorrect U.N. Document Symbol Format",
+          "description": "Using improper format for U.N. document symbols (should be A/-, S/-, ST/-, etc.)",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.7.4",
+          "example_incorrect": "U.N. Doc. UN2000/123",
+          "example_correct": "U.N. Doc. A/2000/123",
+          "violation_detail": "Document symbol format must follow U.N. convention per Bluebook 21.7"
+        },
+        {
+          "error_id": "INT_032",
+          "error_type": "Missing U.N. Session Information",
+          "description": "Omitting session number and type when required for U.N. meeting records",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.7.1",
+          "example_incorrect": "U.N. GAOR, U.N. Doc. A/55/PV.40 (Oct. 10, 2000)",
+          "example_correct": "U.N. GAOR, 55th Sess., 40th plen. mtg., U.N. Doc. A/55/PV.40 (Oct. 10, 2000)",
+          "violation_detail": "Session information helps locate specific meeting record per Bluebook 21.7.1"
+        },
+        {
+          "error_id": "INT_033",
+          "error_type": "Incorrect PV vs. SR Designation",
+          "description": "Confusing verbatim records (PV) and summary records (SR) designations",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.7.1",
+          "example_incorrect": "U.N. GAOR Summary Record, U.N. Doc. A/55/PV.40",
+          "example_correct": "U.N. GAOR, U.N. Doc. A/55/SR.40",
+          "violation_detail": "PV for verbatim, SR for summary per Bluebook 21.7.1"
+        },
+        {
+          "error_id": "INT_034",
+          "error_type": "Missing Resolution Number",
+          "description": "Omitting resolution number from U.N. resolution citations",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.7.2",
+          "example_incorrect": "U.N. SCOR, 57th Sess., U.N. Doc. S/RES/(2002)",
+          "example_correct": "U.N. Security Council Resolution 1441, U.N. SCOR, 57th Sess., U.N. Doc. S/RES/1441 (2002)",
+          "violation_detail": "Resolution number essential for identifying specific U.N. resolution"
+        },
+        {
+          "error_id": "INT_035",
+          "error_type": "Incorrect Resolution Abbreviation",
+          "description": "Using non-standard abbreviations for U.N. resolutions (G.A. Res., S.C. Res., etc.)",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "21.7.2",
+          "example_incorrect": "General Assembly Resolution 2108, U.N. Doc. A/RES/2108",
+          "example_correct": "G.A. Res. 2108, U.N. Doc. A/810",
+          "violation_detail": "Use standard abbreviations per Bluebook 21.7.2"
+        },
+        {
+          "error_id": "INT_036",
+          "error_type": "Missing Author for U.N. Report",
+          "description": "Omitting author or originating body for U.N. reports when author identified",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.7.3",
+          "example_incorrect": "Report on the Work of the Organization, U.N. Doc. A/74/1 (2019)",
+          "example_correct": "Secretary-General, Report on the Work of the Organization, U.N. Doc. A/74/1 (2019)",
+          "violation_detail": "Author attribution clarifies source credibility and context per Bluebook 21.7.3"
+        },
+        {
+          "error_id": "INT_037",
+          "error_type": "Incorrect Committee Report Format",
+          "description": "Using improper format for U.N. committee reports (e.g., Human Rights Committee)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.7.3",
+          "example_incorrect": "Human Rights Committee Report: Canada, U.N. Doc. CCPR/C/CAN/CO/6",
+          "example_correct": "Human Rights Comm., Concluding Observations: Canada, U.N. Doc. CCPR/C/CAN/CO/6 (2015)",
+          "violation_detail": "Follow specific format for committee reports per Bluebook 21.7.3"
+        },
+        {
+          "error_id": "INT_038",
+          "error_type": "Missing Press Release Number",
+          "description": "Omitting press release number from U.N. press release citations",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.7.5",
+          "example_incorrect": "U.N. Department of Public Information Press Release (Jan. 1, 2020)",
+          "example_correct": "U.N. Dep't of Pub. Info., Press Release No. SG/SM/2021 (Jan. 1, 2020)",
+          "violation_detail": "Press release number aids in locating exact statement per Bluebook 21.7.5"
+        },
+        {
+          "error_id": "INT_039",
+          "error_type": "Inconsistent U.N. Body Abbreviations",
+          "description": "Using inconsistent abbreviations for same U.N. body (GAOR vs. GA, SCOR vs. SC)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.7",
+          "example_incorrect": "First: U.N. GAOR; Later: GA, 55th Sess.",
+          "example_correct": "U.N. GAOR, 55th Sess. (consistent use)",
+          "violation_detail": "Maintain consistent abbreviations for U.N. bodies throughout document"
+        },
+        {
+          "error_id": "INT_040",
+          "error_type": "Missing Paragraph Pinpoint",
+          "description": "Omitting paragraph number when citing specific paragraph of U.N. document",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "21.7",
+          "example_incorrect": "Secretary-General, Report on the Work of the Organization, U.N. Doc. A/74/1 (2019)",
+          "example_correct": "Secretary-General, Report on the Work of the Organization, U.N. Doc. A/74/1, ¶ 5 (2019)",
+          "violation_detail": "Paragraph pinpoint enables precise location of cited material"
+        },
+        {
+          "error_id": "INT_041",
+          "error_type": "Incorrect U.N. Yearbook Citation",
+          "description": "Using improper format for U.N. Yearbook citations",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.7.8",
+          "example_incorrect": "1995 Yearbook of the United Nations 120",
+          "example_correct": "1995 U.N. Y.B. 120",
+          "violation_detail": "Use standard abbreviation U.N. Y.B. per Bluebook 21.7.8"
+        },
+        {
+          "error_id": "INT_042",
+          "error_type": "Incorrect U.N. Charter Citation",
+          "description": "Incorrectly formatting U.N. Charter citations (should be simple form without date)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.7.10",
+          "example_incorrect": "Charter of the United Nations art. 55, June 26, 1945, 59 Stat. 1031",
+          "example_correct": "U.N. Charter art. 55",
+          "violation_detail": "U.N. Charter citations need only designation and article per Bluebook 21.7.10"
+        },
+        {
+          "error_id": "INT_043",
+          "error_type": "Inadequate U.N. Internet Material Citation",
+          "description": "Improperly citing U.N. web-based materials, missing required elements per rule 18 and 21.7.11",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.7.11, 18",
+          "example_incorrect": "U.N. website article on XYZ, un.org",
+          "example_correct": "U.N., Title of Article, http://... (last visited Nov. 23, 2025)",
+          "violation_detail": "Web citations require author/agency, title, URL, and access date per rule 18"
+        }
+      ]
+    },
+    "international_regional": {
+      "category_name": "International Materials - Regional Organizations",
+      "affected_rules": ["21.8", "21.9", "21.10", "21.11", "21.12", "21.13"],
+      "error_count": 13,
+      "errors": [
+        {
+          "error_id": "INT_044",
+          "error_type": "Missing League of Nations Treaty Series Citation",
+          "description": "Citing League of Nations treaty without proper L.N.T.S. reference format",
+          "severity": "Major",
+          "frequency": "Low",
+          "rule_reference": "21.8",
+          "example_incorrect": "Convention on XYZ, July 5, 1921, League Doc. 50",
+          "example_correct": "Convention on XYZ, July 5, 1921, 10 L.N.T.S. 50",
+          "violation_detail": "League of Nations treaties cited to L.N.T.S. per Bluebook 21.8"
+        },
+        {
+          "error_id": "INT_045",
+          "error_type": "Incorrect EU Regulation/Directive Format",
+          "description": "Using improper format for EU regulations and directives per rule 21.9",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.9",
+          "example_incorrect": "GDPR, 2016/679, Official Journal 119/1",
+          "example_correct": "Council Regulation 2016/679, 2016 O.J. (L 119) 1 (EU)",
+          "violation_detail": "EU legislation requires number/year, Official Journal with volume, and page"
+        },
+        {
+          "error_id": "INT_046",
+          "error_type": "Missing Official Journal Reference",
+          "description": "Omitting Official Journal citation for EU legislation when required",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "21.9",
+          "example_incorrect": "Regulation 2016/679 (EU)",
+          "example_correct": "Council Regulation 2016/679, 2016 O.J. (L 119) 1 (EU)",
+          "violation_detail": "Official Journal citation essential for EU material per Bluebook 21.9"
+        },
+        {
+          "error_id": "INT_047",
+          "error_type": "Incorrect EU Document Number Format",
+          "description": "Using improper format for EU Commission documents (COM, SEC, etc.)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.9",
+          "example_incorrect": "Commission Document 2020-123 (Jan. 1, 2020)",
+          "example_correct": "COM (2020) 123 final (Jan. 1, 2020)",
+          "violation_detail": "EU documents require standard notation (COM, SEC, etc.) and session notation per rule 21.9"
+        },
+        {
+          "error_id": "INT_048",
+          "error_type": "Missing Council of Europe Treaty Series",
+          "description": "Failing to cite Council of Europe treaties to E.T.S. or C.E.T.S.",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.10",
+          "example_incorrect": "European Convention on Human Rights, Nov. 4, 1950",
+          "example_correct": "European Convention on Human Rights, Nov. 4, 1950, Europ. T.S. No. 5",
+          "violation_detail": "Council of Europe treaties cited to E.T.S. or C.E.T.S. per Bluebook 21.10"
+        },
+        {
+          "error_id": "INT_049",
+          "error_type": "Incorrect European Treaty Series Format",
+          "description": "Using incorrect abbreviation or format for European Treaty Series citations",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.10",
+          "example_incorrect": "European Treaty Series Number 5",
+          "example_correct": "Europ. T.S. No. 5",
+          "violation_detail": "Use standard abbreviation 'Europ. T.S.' per Bluebook 21.10"
+        },
+        {
+          "error_id": "INT_050",
+          "error_type": "Incorrect WTO Marrakesh Agreement Citation",
+          "description": "Misformatting the foundational WTO agreement citation",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.11",
+          "example_incorrect": "WTO Agreement, Apr. 15, 1994, 1867 U.N.T.S. 154",
+          "example_correct": "Marrakesh Agreement Establishing the World Trade Organization art. IX, Apr. 15, 1994, 1867 U.N.T.S. 154",
+          "violation_detail": "Marrakesh Agreement is formal name; include specific article citation when applicable"
+        },
+        {
+          "error_id": "INT_051",
+          "error_type": "Incorrect WTO Panel Dispute Number Format",
+          "description": "Using improper format for WTO dispute settlement case numbers (DS notation)",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.11",
+          "example_incorrect": "Panel Report, United States – XYZ, WTO WT2/AB/R",
+          "example_correct": "Panel Report, United States – XYZ, WTO Doc. WT/DS2/R",
+          "violation_detail": "WTO document format requires 'WT/DS' notation per Bluebook 21.11"
+        },
+        {
+          "error_id": "INT_052",
+          "error_type": "Missing IMF Document Number",
+          "description": "Omitting document number or country report number for IMF citations",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.12",
+          "example_incorrect": "IMF, Title of Report (2020)",
+          "example_correct": "IMF, Country Report No. 20/123: Title (2020)",
+          "violation_detail": "IMF materials require document/report numbers for precise identification"
+        },
+        {
+          "error_id": "INT_053",
+          "error_type": "Incorrect OECD Document Format",
+          "description": "Using improper format for OECD document citations",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.13",
+          "example_incorrect": "OECD Report on XYZ (2020)",
+          "example_correct": "OECD, Title of Report, OECD Doc. No. (2020)",
+          "violation_detail": "OECD publications should include document number and standard format"
+        },
+        {
+          "error_id": "INT_054",
+          "error_type": "Inconsistent OAS Document Abbreviations",
+          "description": "Using inconsistent formats for OAS document symbols (OEA/Ser vs. OAS Doc)",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.13",
+          "example_incorrect": "First: OAS Doc. X; Later: OEA/Ser. X",
+          "example_correct": "OEA/Ser.L/V/II.122 Doc. 5 rev.1 (consistently formatted)",
+          "violation_detail": "Use standard OAS notation format consistently"
+        },
+        {
+          "error_id": "INT_055",
+          "error_type": "Missing NGO Publication Details",
+          "description": "Omitting necessary publication information for non-governmental organization reports",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.14",
+          "example_incorrect": "Amnesty International Report",
+          "example_correct": "Amnesty International, Title of Report 27 (2020)",
+          "violation_detail": "NGO publications need organization name, title, page, and year"
+        },
+        {
+          "error_id": "INT_056",
+          "error_type": "Incorrect African Union Document Format",
+          "description": "Using improper citation format for African Union or other regional org materials",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.13",
+          "example_incorrect": "AU Assembly Decision No. 123",
+          "example_correct": "AU, Assembly Decision No. 123 (2020) or appropriate AU Doc. format",
+          "violation_detail": "Follow institutional document format conventions for regional organizations"
+        }
+      ]
+    },
+    "international_other": {
+      "category_name": "International Materials - Other International Sources",
+      "affected_rules": ["21.15", "21.16", "21.17"],
+      "error_count": 7,
+      "errors": [
+        {
+          "error_id": "INT_057",
+          "error_type": "Incorrect International Law Commission Yearbook Citation",
+          "description": "Using improper format for ILC Yearbook citations",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.15",
+          "example_incorrect": "2018 International Law Commission Yearbook vol. II at 10",
+          "example_correct": "2018 Y.B. Int'l L. Comm'n vol. II, pt. 2, at 10, U.N. Doc. A/CN.4/SER.A/2018/Add.1",
+          "violation_detail": "ILC Yearbooks require specific format with volume, part, and U.N. document number"
+        },
+        {
+          "error_id": "INT_058",
+          "error_type": "Missing Yearbook Document Number",
+          "description": "Omitting U.N. document number when citing ILC Yearbook",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.15",
+          "example_incorrect": "2018 Y.B. Int'l L. Comm'n vol. II at 10",
+          "example_correct": "2018 Y.B. Int'l L. Comm'n vol. II, pt. 2, at 10, U.N. Doc. A/CN.4/SER.A/2018/Add.1",
+          "violation_detail": "U.N. document number facilitates locating yearbook material"
+        },
+        {
+          "error_id": "INT_059",
+          "error_type": "Incorrect Digest of International Law Cases Citation",
+          "description": "Using improper format for digests of international legal materials",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.16",
+          "example_incorrect": "Digest of International Cases No. 15 (2010)",
+          "example_correct": "Digest of International Cases, No. 15, at 45 (Int'l Ct. 2010)",
+          "violation_detail": "Digest citations require number, page, issuing body, and year per Bluebook 21.16"
+        },
+        {
+          "error_id": "INT_060",
+          "error_type": "Missing Digest Volume Information",
+          "description": "Omitting volume number or part for multi-volume digest citations",
+          "severity": "Minor",
+          "frequency": "Low",
+          "rule_reference": "21.16",
+          "example_incorrect": "Digest of United States Practice in International Law 123",
+          "example_correct": "8 Digest of United States Practice in International Law 123 (1977)",
+          "violation_detail": "Volume number essential for multi-volume digest citations"
+        },
+        {
+          "error_id": "INT_061",
+          "error_type": "Incorrect Supra for International Treaty",
+          "description": "Using improper supra form for treaties, omitting essential elements in short citation",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "21.17",
+          "example_incorrect": "Treaty, supra note 1",
+          "example_correct": "Charter of the United Nations, supra note 1, art. 55",
+          "violation_detail": "Short citations to treaties must include formal name and article/section per Bluebook 21.17"
+        },
+        {
+          "error_id": "INT_062",
+          "error_type": "id. Used Incorrectly for International Materials",
+          "description": "Using id. when preceding citation is not to same international source or context differs",
+          "severity": "Major",
+          "frequency": "Low",
+          "rule_reference": "21.17",
+          "example_incorrect": "International case, page 100. Other material. Id. at 200.",
+          "example_correct": "International case, page 100. International case, page 200.",
+          "violation_detail": "id. only permissible for immediately preceding citation to exact same source"
+        },
+        {
+          "error_id": "INT_063",
+          "error_type": "Missing Hereinafter Abbreviation for Long Treaty Names",
+          "description": "Failing to establish hereinafter abbreviation for unwieldy treaty or document names",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "21.17",
+          "example_incorrect": "Convention on International Trade in Endangered Species of Wild Fauna and Flora..., later citing full name repeatedly",
+          "example_correct": "Convention on International Trade in Endangered Species of Wild Fauna and Flora [hereinafter CITES], later citing \"CITES, supra note X\"",
+          "violation_detail": "Hereinafter abbreviations aid readability for lengthy international document names"
+        }
+      ]
+    },
+    "cross_cutting_errors": {
+      "category_name": "Cross-cutting Errors",
+      "affected_rules": ["20", "21"],
+      "error_count": 8,
+      "errors": [
+        {
+          "error_id": "CC_001",
+          "error_type": "Failure to Provide English Parenthetical",
+          "description": "Omitting required parenthetical explanation when foreign/international material may not be familiar to readers",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "20, 21",
+          "example_incorrect": "Conseil d'État June 27, 2014, Rec. Lebon 312 (Fr.)",
+          "example_correct": "Conseil d'État June 27, 2014, Rec. Lebon 312 (Fr.) (describing proposed legislation on immigration)",
+          "violation_detail": "Parenthetical explanation contextualizes unfamiliar foreign/international materials"
+        },
+        {
+          "error_id": "CC_002",
+          "error_type": "Inconsistent Pinpoint Citation Methods",
+          "description": "Using different methods for pinpoint citations across foreign and international materials (e.g., p. vs. page, ¶ vs. para.)",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "20, 21",
+          "example_incorrect": "Case 1 at 45; Case 2, para. 50; Case 3 ¶ 55",
+          "example_correct": "Case 1 at 45; Case 2 at para. 50; Case 3 at ¶ 55",
+          "violation_detail": "Use consistent pinpoint notation throughout document"
+        },
+        {
+          "error_id": "CC_003",
+          "error_type": "Mixing Citation Formats from Different Jurisdictions",
+          "description": "Using inconsistent formats when citing similar materials from different jurisdictions",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "20, 21",
+          "example_incorrect": "German case: BVerfG Mar. 3, 2004, 111 BVerfGE 307; French case: Cass. civ., June 15, 2010, Bull. civ.",
+          "example_correct": "Maintain parallel structure across similar materials from different jurisdictions",
+          "violation_detail": "Parallel structure improves consistency and readability"
+        },
+        {
+          "error_id": "CC_004",
+          "error_type": "Missing Date Information",
+          "description": "Omitting date of decision, enactment, or publication for foreign/international materials",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20, 21",
+          "example_incorrect": "Code civil art. 1234 (Fr.)",
+          "example_correct": "Code civil art. 1234 (Fr. 1804) or year of amendment",
+          "violation_detail": "Dates necessary for identifying versions and establishing temporal scope"
+        },
+        {
+          "error_id": "CC_005",
+          "error_type": "Inadequate Contextual Parenthetical",
+          "description": "Providing vague or insufficient parenthetical context for how foreign/international material supports proposition",
+          "severity": "Minor",
+          "frequency": "High",
+          "rule_reference": "20, 21, 1.5",
+          "example_incorrect": "Code civil art. 1234 (Fr.) (French law).",
+          "example_correct": "Code civil art. 1234 (Fr.) (establishing liability without fault under French law).",
+          "violation_detail": "Parenthetical must explain relevance to reader's understanding"
+        },
+        {
+          "error_id": "CC_006",
+          "error_type": "Table T2 Non-Compliance",
+          "description": "Failing to consult and follow Table T2 country-specific citation formats",
+          "severity": "Major",
+          "frequency": "High",
+          "rule_reference": "20, Table T2",
+          "example_incorrect": "Various inconsistent foreign citation formats",
+          "example_correct": "Consult Table T2 for country-specific requirements for all foreign materials",
+          "violation_detail": "Table T2 provides authoritative country-specific abbreviations and formats"
+        },
+        {
+          "error_id": "CC_007",
+          "error_type": "Unreliable Source",
+          "description": "Citing foreign/international material from secondary or non-official source when official source available",
+          "severity": "Major",
+          "frequency": "Medium",
+          "rule_reference": "20, 21",
+          "example_incorrect": "Statute cited from law firm website summary",
+          "example_correct": "Statute cited from official government gazette or compilation",
+          "violation_detail": "Use official sources per Bluebook preference for reliability"
+        },
+        {
+          "error_id": "CC_008",
+          "error_type": "Missing Signal Appropriateness Assessment",
+          "description": "Using signal (See, See also, Cf., etc.) without considering whether citation actually supports proposition",
+          "severity": "Minor",
+          "frequency": "Medium",
+          "rule_reference": "1.2, 20, 21",
+          "example_incorrect": "See German Civil Code art. 100 (Fr.) [when actually comparing positions]",
+          "example_correct": "Cf. German Civil Code art. 100 (Fr.) [for comparative authority]",
+          "violation_detail": "Signal must accurately represent relationship between cited authority and proposition per rule 1.2"
+        }
+      ]
+    }
+  },
+  "summary_statistics": {
+    "total_error_types": 87,
+    "critical_errors": 8,
+    "major_errors": 44,
+    "minor_errors": 28,
+    "style_errors": 1,
+    "high_frequency_errors": 35,
+    "medium_frequency_errors": 36,
+    "low_frequency_errors": 16,
+    "rules_20_specific_errors": 56,
+    "rules_21_specific_errors": 24,
+    "cross_cutting_errors": 7,
+    "most_common_error_categories": [
+      "Missing Country Designation (FM)",
+      "Incorrect Treaty Source (INT)",
+      "Missing U.N. Document Symbol (INT)",
+      "Missing Article/Section Reference (INT)",
+      "Improper Language Capitalization (FM)",
+      "Missing English Translation (FM)",
+      "Incorrect Case Citation Format (FM)"
+    ]
+  },
+  "analysis_notes": {
+    "coverage": "Comprehensive analysis of Bluebook Rules 20 (Foreign Materials) and 21 (International Materials) with 55 subrules analyzed",
+    "methodology": "Error types derived from detailed examination of each subrule with emphasis on citation format, jurisdiction identification, language handling, and source documentation",
+    "practical_application": "Error types categorized by frequency and severity for priority remediation in legal citation review processes",
+    "bluebook_version": "Bluebook (21st edition assumed based on rules 20-21 structure)",
+    "recommendation": "Implement SLR citation checker with validation rules for each error type, prioritizing Critical and Major errors with High frequency"
+  }
+}

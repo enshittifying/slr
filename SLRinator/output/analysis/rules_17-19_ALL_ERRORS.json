@@ -1,0 +1,894 @@
+{
+  "metadata": {
+    "title": "Bluebook Rules 17-19 Comprehensive Error Analysis",
+    "rules_covered": {
+      "rule_17": {
+        "title": "Unpublished and Forthcoming Sources",
+        "subrule_count": 6,
+        "subrules": "17.1-17.6"
+      },
+      "rule_18": {
+        "title": "The Internet, Electronic Media, and Other Nonprint Resources",
+        "subrule_count": 9,
+        "subrules": "18.1-18.9"
+      },
+      "rule_19": {
+        "title": "Services",
+        "subrule_count": 2,
+        "subrules": "19.1-19.2"
+      }
+    },
+    "total_subrules": 17,
+    "error_analysis_date": "2025-11-23",
+    "total_error_types": 67
+  },
+  "rule_17_unpublished_forthcoming_sources": {
+    "rule_id": "17",
+    "title": "Unpublished and Forthcoming Sources",
+    "description": "Errors in citation of unpublished manuscripts, dissertations, working papers, and forthcoming materials",
+    "subrule_errors": [
+      {
+        "error_id": "R17.1.1",
+        "subrule": "17.1",
+        "category": "Missing Location Indicator",
+        "error_type": "Missing 'on file with' or 'available at' information",
+        "severity": "CRITICAL",
+        "description": "Unpublished material must specify where it can be accessed (on file with author, institution, etc.)",
+        "incorrect_example": "John Doe, Article Draft (unpublished manuscript, 2020)",
+        "correct_example": "John Doe, Article Draft (unpublished manuscript, 2020) (on file with author)",
+        "rule_reference": "Bluebook Rule 17.1, 17.2.1"
+      },
+      {
+        "error_id": "R17.1.2",
+        "subrule": "17.1",
+        "category": "Incomplete Descriptor",
+        "error_type": "Missing or vague descriptor for unpublished material type",
+        "severity": "HIGH",
+        "description": "Must specify the type of unpublished material (manuscript, draft, working paper, etc.)",
+        "incorrect_example": "Jane Smith, Research Paper (unpublished, 2021) (on file with author)",
+        "correct_example": "Jane Smith, Research Paper (unpublished manuscript, 2021) (on file with Columbia Law Library)",
+        "rule_reference": "Bluebook Rule 17.1, 17.2.1"
+      },
+      {
+        "error_id": "R17.1.3",
+        "subrule": "17.1",
+        "category": "Missing Year",
+        "error_type": "Unpublished material lacks publication/completion year",
+        "severity": "CRITICAL",
+        "description": "All unpublished materials must include the year of creation or last modification",
+        "incorrect_example": "John Doe, Article Draft (unpublished manuscript) (on file with author)",
+        "correct_example": "John Doe, Article Draft (unpublished manuscript, 2020) (on file with author)",
+        "rule_reference": "Bluebook Rule 17.1, 17.2.1"
+      },
+      {
+        "error_id": "R17.1.4",
+        "subrule": "17.1",
+        "category": "Improper Forthcoming Format",
+        "error_type": "Forthcoming publication uses wrong date format or placement",
+        "severity": "HIGH",
+        "description": "Forthcoming sources should use 'forthcoming [year]' or '(forthcoming)' without a year if unknown",
+        "incorrect_example": "Jane Smith, Book Title (to be published 2021)",
+        "correct_example": "Jane Smith, Book Title (forthcoming 2021)",
+        "rule_reference": "Bluebook Rule 17.3"
+      },
+      {
+        "error_id": "R17.2.1",
+        "subrule": "17.2.1",
+        "category": "Incomplete Manuscript Citation",
+        "error_type": "Manuscript lacks essential identification components",
+        "severity": "CRITICAL",
+        "description": "Manuscripts require author, title, date, and filing location to ensure retrievability",
+        "incorrect_example": "Doe, Manuscript",
+        "correct_example": "John Doe, Title of Manuscript (unpublished manuscript, 2020) (on file with University Archives)",
+        "rule_reference": "Bluebook Rule 17.2.1"
+      },
+      {
+        "error_id": "R17.2.2.1",
+        "subrule": "17.2.2",
+        "category": "Missing University Information",
+        "error_type": "Dissertation citation lacks university name",
+        "severity": "CRITICAL",
+        "description": "Dissertations must identify the university where the degree was earned",
+        "incorrect_example": "John Doe, Title (unpublished Ph.D. dissertation, 2020)",
+        "correct_example": "John Doe, Title (unpublished Ph.D. dissertation, Stanford University, 2020)",
+        "rule_reference": "Bluebook Rule 17.2.2"
+      },
+      {
+        "error_id": "R17.2.2.2",
+        "subrule": "17.2.2",
+        "category": "Incorrect Degree Type",
+        "error_type": "Improper specification of dissertation type",
+        "severity": "HIGH",
+        "description": "Must distinguish between Ph.D., LL.M., J.S.D., or other degree types",
+        "incorrect_example": "Jane Smith, Dissertation Title (unpublished dissertation, Yale University, 2019)",
+        "correct_example": "Jane Smith, Dissertation Title (unpublished LL.M. thesis, Yale University, 2019)",
+        "rule_reference": "Bluebook Rule 17.2.2"
+      },
+      {
+        "error_id": "R17.2.2.3",
+        "subrule": "17.2.2",
+        "category": "Missing Dissertation Year",
+        "error_type": "Dissertation lacks completion year",
+        "severity": "CRITICAL",
+        "description": "All dissertations must include the year awarded",
+        "incorrect_example": "John Doe, Title (unpublished Ph.D. dissertation, Stanford University)",
+        "correct_example": "John Doe, Title (unpublished Ph.D. dissertation, Stanford University, 2020)",
+        "rule_reference": "Bluebook Rule 17.2.2"
+      },
+      {
+        "error_id": "R17.2.3.1",
+        "subrule": "17.2.3",
+        "category": "Incomplete Letter Citation",
+        "error_type": "Letter missing sender, recipient, or date",
+        "severity": "HIGH",
+        "description": "Letters must identify sender, recipient, and date for proper citation",
+        "incorrect_example": "Letter (on file with Columbia Law Review)",
+        "correct_example": "Letter from John Doe to Jane Smith (Jan. 5, 2020) (on file with Columbia Law Review)",
+        "rule_reference": "Bluebook Rule 17.2.3"
+      },
+      {
+        "error_id": "R17.2.3.2",
+        "subrule": "17.2.3",
+        "category": "Incomplete Memorandum Citation",
+        "error_type": "Memo lacks identification or date",
+        "severity": "HIGH",
+        "description": "Internal memoranda require description, date, and location information",
+        "incorrect_example": "Memorandum (on file with University)",
+        "correct_example": "Memorandum from John Doe to Jane Smith (Jan. 5, 2020) (on file with University)",
+        "rule_reference": "Bluebook Rule 17.2.3"
+      },
+      {
+        "error_id": "R17.2.3.3",
+        "subrule": "17.2.3",
+        "category": "Missing Filing Location for Press Release",
+        "error_type": "Press release lacks access information",
+        "severity": "HIGH",
+        "description": "Press releases require identification and location if not easily retrievable",
+        "incorrect_example": "Organization, Press Release, Title (Jan. 1, 2020)",
+        "correct_example": "Organization, Press Release, Title (Jan. 1, 2020) (on file with author)",
+        "rule_reference": "Bluebook Rule 17.2.3"
+      },
+      {
+        "error_id": "R17.2.4.1",
+        "subrule": "17.2.4",
+        "category": "Incomplete Email Citation",
+        "error_type": "Email missing sender, recipient, or timestamp",
+        "severity": "HIGH",
+        "description": "Email citations require sender, recipient, date, and time for proper identification",
+        "incorrect_example": "Email from John Doe (on file with author)",
+        "correct_example": "Email from John Doe to Jane Smith (Jan. 5, 2020, 10:30 AM) (on file with author)",
+        "rule_reference": "Bluebook Rule 17.2.4"
+      },
+      {
+        "error_id": "R17.2.4.2",
+        "subrule": "17.2.4",
+        "category": "Missing Time Component",
+        "error_type": "Email citation lacks time of transmission",
+        "severity": "MEDIUM",
+        "description": "Email citations should include time when date alone is insufficient for retrieval",
+        "incorrect_example": "Email from Jane Doe to John Smith (Jan. 5, 2020) (on file with author)",
+        "correct_example": "Email from Jane Doe to John Smith (Jan. 5, 2020, 2:45 PM) (on file with author)",
+        "rule_reference": "Bluebook Rule 17.2.4"
+      },
+      {
+        "error_id": "R17.2.4.3",
+        "subrule": "17.2.4",
+        "category": "Improperly Formatted Listserv Posting",
+        "error_type": "Listserv or forum post lacks proper identification",
+        "severity": "HIGH",
+        "description": "Online postings require poster name, platform, date, and either URL or location",
+        "incorrect_example": "Post on Law Listserv (2020)",
+        "correct_example": "John Doe, Message, Law Listserv (Jan. 5, 2020, 3:00 PM) (archived at http://...)",
+        "rule_reference": "Bluebook Rule 17.2.4"
+      },
+      {
+        "error_id": "R17.2.5.1",
+        "subrule": "17.2.5",
+        "category": "Incomplete Interview Citation",
+        "error_type": "Interview missing interviewee, title, or location",
+        "severity": "HIGH",
+        "description": "Interviews require identification of interviewee, their title/role, location, and date",
+        "incorrect_example": "Interview (May 5, 2020)",
+        "correct_example": "Interview with John Doe, former Director, ABC Agency, in New York, N.Y. (May 5, 2020)",
+        "rule_reference": "Bluebook Rule 17.2.5"
+      },
+      {
+        "error_id": "R17.2.5.2",
+        "subrule": "17.2.5",
+        "category": "Missing Interview Medium",
+        "error_type": "Interview lacks indication of format (in person, telephone, video)",
+        "severity": "MEDIUM",
+        "description": "When relevant, interview format should be specified (telephone interview, video conference, etc.)",
+        "incorrect_example": "Interview with Jane Smith, Partner, ABC Law Firm (June 1, 2020)",
+        "correct_example": "Interview with Jane Smith, Partner, ABC Law Firm (telephone interview, June 1, 2020)",
+        "rule_reference": "Bluebook Rule 17.2.5"
+      },
+      {
+        "error_id": "R17.2.5.3",
+        "subrule": "17.2.5",
+        "category": "Missing Interview Transcript/Recording Reference",
+        "error_type": "Interview lacks reference to recording or transcript if available",
+        "severity": "MEDIUM",
+        "description": "If interview transcript or recording exists, citation should reference it",
+        "incorrect_example": "Interview with John Doe, Chief Counsel (Jan. 15, 2020) (on file with author)",
+        "correct_example": "Interview with John Doe, Chief Counsel (Jan. 15, 2020) (transcript on file with author)",
+        "rule_reference": "Bluebook Rule 17.2.5"
+      },
+      {
+        "error_id": "R17.2.6.1",
+        "subrule": "17.2.6",
+        "category": "Incomplete Speech Citation",
+        "error_type": "Speech missing title, date, or delivery location",
+        "severity": "HIGH",
+        "description": "Speeches require speaker, title, date, and location information",
+        "incorrect_example": "Remarks of Jane Doe",
+        "correct_example": "Remarks of Jane Doe at the Annual Meeting of the XYZ Association (May 1, 2020)",
+        "rule_reference": "Bluebook Rule 17.2.6"
+      },
+      {
+        "error_id": "R17.2.6.2",
+        "subrule": "17.2.6",
+        "category": "Missing Transcript Status for Unpublished Speech",
+        "error_type": "Unpublished speech lacks indication of transcript availability",
+        "severity": "MEDIUM",
+        "description": "Unpublished speeches should indicate whether a transcript exists and where it is located",
+        "incorrect_example": "Speech, Location, Date",
+        "correct_example": "Speech, Location, Date (transcript on file with institution)",
+        "rule_reference": "Bluebook Rule 17.2.6"
+      },
+      {
+        "error_id": "R17.3.1",
+        "subrule": "17.3",
+        "category": "Improper Forthcoming Journal Citation",
+        "error_type": "Forthcoming journal article lacks volume or proper formatting",
+        "severity": "HIGH",
+        "description": "Forthcoming articles should include volume if available; otherwise use 'forthcoming [year]'",
+        "incorrect_example": "Jane Smith, Article Title, Harvard Law Review (forthcoming)",
+        "correct_example": "Jane Smith, Article Title, 133 Harv. L. Rev. (forthcoming 2020)",
+        "rule_reference": "Bluebook Rule 17.3"
+      },
+      {
+        "error_id": "R17.3.2",
+        "subrule": "17.3",
+        "category": "Incomplete Forthcoming Book Citation",
+        "error_type": "Forthcoming book lacks publisher or publication year",
+        "severity": "MEDIUM",
+        "description": "Forthcoming books should specify publisher and expected publication year",
+        "incorrect_example": "Jane Smith, Book Title (forthcoming)",
+        "correct_example": "Jane Smith, Book Title (forthcoming Oxford University Press 2021)",
+        "rule_reference": "Bluebook Rule 17.3"
+      },
+      {
+        "error_id": "R17.4.1",
+        "subrule": "17.4",
+        "category": "Incomplete Working Paper Citation",
+        "error_type": "Working paper lacks series information or organization",
+        "severity": "HIGH",
+        "description": "Working papers should specify the organization/series and number if applicable",
+        "incorrect_example": "John Doe, Working Paper Title (2020)",
+        "correct_example": "John Doe, Working Paper Title, Stanford Law and Economics Working Paper No. 123 (2020)",
+        "rule_reference": "Bluebook Rule 17.4"
+      },
+      {
+        "error_id": "R17.4.2",
+        "subrule": "17.4",
+        "category": "Improperly Formatted SSRN Citation",
+        "error_type": "SSRN working paper missing URL or abstract number",
+        "severity": "HIGH",
+        "description": "SSRN citations should include abstract number and optionally the URL",
+        "incorrect_example": "John Doe, Draft Title (Working Paper, 2020)",
+        "correct_example": "John Doe, Draft Title (Working Paper, 2020), https://ssrn.com/abstract=123456",
+        "rule_reference": "Bluebook Rule 17.4, 17.5"
+      },
+      {
+        "error_id": "R17.5.1",
+        "subrule": "17.5",
+        "category": "Missing URL for Online Unpublished Source",
+        "error_type": "Online manuscript or working paper lacks URL",
+        "severity": "CRITICAL",
+        "description": "Online unpublished sources must include URL for retrieval",
+        "incorrect_example": "John Doe, Draft Title (Apr. 2020) (unpublished manuscript)",
+        "correct_example": "John Doe, Draft Title (Apr. 2020) (unpublished manuscript), https://ssrn.com/abstract=123456",
+        "rule_reference": "Bluebook Rule 17.5"
+      },
+      {
+        "error_id": "R17.5.2",
+        "subrule": "17.5",
+        "category": "Missing Last Visited Date for Dynamic Content",
+        "error_type": "Online unpublished source with changing content lacks access date",
+        "severity": "HIGH",
+        "description": "When URL content is likely to change, 'last visited' date should be included",
+        "incorrect_example": "John Doe, Draft Title (unpublished manuscript), https://site.com/draft",
+        "correct_example": "John Doe, Draft Title (unpublished manuscript), https://site.com/draft (last visited Jan. 1, 2021)",
+        "rule_reference": "Bluebook Rule 17.5, 18.2.2"
+      },
+      {
+        "error_id": "R17.6.1",
+        "subrule": "17.6",
+        "category": "Ambiguous Short Citation",
+        "error_type": "Short cite for unpublished source unclear due to multiple works by author",
+        "severity": "MEDIUM",
+        "description": "When author has multiple unpublished citations, short form must distinguish them",
+        "incorrect_example": "Doe, supra note 10 (when multiple Doe works cited)",
+        "correct_example": "Doe, Draft Article, supra note 10",
+        "rule_reference": "Bluebook Rule 17.6"
+      },
+      {
+        "error_id": "R17.6.2",
+        "subrule": "17.6",
+        "category": "Improper Use of Id. for Unpublished",
+        "error_type": "Using 'Id.' when previous citation includes different unpublished source",
+        "severity": "HIGH",
+        "description": "Id. cannot be used if prior footnote cites different source or different page of same material",
+        "incorrect_example": "Note 1: John Doe, Draft (2020). Note 2: Id. [when citing Jane Smith's work]",
+        "correct_example": "Note 1: John Doe, Draft (2020). Note 2: Jane Smith, Research Paper (2020)",
+        "rule_reference": "Bluebook Rule 17.6"
+      }
+    ]
+  },
+  "rule_18_internet_electronic_media": {
+    "rule_id": "18",
+    "title": "The Internet, Electronic Media, and Other Nonprint Resources",
+    "description": "Errors in citation of websites, databases, multimedia, and other non-print materials",
+    "subrule_errors": [
+      {
+        "error_id": "R18.1.1",
+        "subrule": "18.1",
+        "category": "Missing URL",
+        "error_type": "Internet source citation lacks URL",
+        "severity": "CRITICAL",
+        "description": "All internet sources must include a complete, accessible URL",
+        "incorrect_example": "U.S. Census Bureau, Population Estimates (last visited Jan. 1, 2025)",
+        "correct_example": "U.S. Census Bureau, Population Estimates, http://www.census.gov/data.html (last visited Jan. 1, 2025)",
+        "rule_reference": "Bluebook Rule 18.1, 18.2"
+      },
+      {
+        "error_id": "R18.1.2",
+        "subrule": "18.1",
+        "category": "Missing Date Information",
+        "error_type": "Internet source lacks publication date or last visited date",
+        "severity": "CRITICAL",
+        "description": "Internet citations must include either publication date or 'last visited' date",
+        "incorrect_example": "U.S. Census Bureau, Population Estimates, http://www.census.gov/data.html",
+        "correct_example": "U.S. Census Bureau, Population Estimates, http://www.census.gov/data.html (last visited Jan. 1, 2025)",
+        "rule_reference": "Bluebook Rule 18.1"
+      },
+      {
+        "error_id": "R18.1.3",
+        "subrule": "18.1",
+        "category": "Missing Author for Internet Source",
+        "error_type": "Website citation lacks author or responsible entity identification",
+        "severity": "HIGH",
+        "description": "Internet sources should identify author or publishing organization when available",
+        "incorrect_example": "Population Estimates, http://www.census.gov/data.html (last visited Jan. 1, 2025)",
+        "correct_example": "U.S. Census Bureau, Population Estimates, http://www.census.gov/data.html (last visited Jan. 1, 2025)",
+        "rule_reference": "Bluebook Rule 18.1"
+      },
+      {
+        "error_id": "R18.1.4",
+        "subrule": "18.1",
+        "category": "Incomplete Online Newspaper Citation",
+        "error_type": "Online news article missing URL or access information",
+        "severity": "HIGH",
+        "description": "Online news articles require title, source, date, and URL (or last visited)",
+        "incorrect_example": "John Doe, Article Title, N.Y. Times (Jan. 5, 2021)",
+        "correct_example": "John Doe, Article Title, N.Y. Times (Jan. 5, 2021), https://nytimes.com/article",
+        "rule_reference": "Bluebook Rule 18.1, 16.6"
+      },
+      {
+        "error_id": "R18.2.1.1",
+        "subrule": "18.2.1",
+        "category": "Missing or Vague Title",
+        "error_type": "Website content lacks descriptive title or page heading",
+        "severity": "HIGH",
+        "description": "Internet sources must have a clear title; brackets may be used for descriptive titles if not explicit",
+        "incorrect_example": "http://www.example.com/page (last visited Jan. 1, 2025)",
+        "correct_example": "[Title of Page or Document], Example Website, http://www.example.com/page (last visited Jan. 1, 2025)",
+        "rule_reference": "Bluebook Rule 18.2.1"
+      },
+      {
+        "error_id": "R18.2.1.2",
+        "subrule": "18.2.1",
+        "category": "Improperly Formatted Descriptive Title",
+        "error_type": "Descriptive title lacks brackets or clear designation",
+        "severity": "MEDIUM",
+        "description": "When using descriptive titles for unclear page names, use brackets [Like This]",
+        "incorrect_example": "U.S. Census Bureau, Overview of Census Data, http://www.census.gov",
+        "correct_example": "U.S. Census Bureau, [Overview of Census Data], http://www.census.gov (last visited Jan. 1, 2025)",
+        "rule_reference": "Bluebook Rule 18.2.1"
+      },
+      {
+        "error_id": "R18.2.1.3",
+        "subrule": "18.2.1",
+        "category": "Missing Website Name Distinction",
+        "error_type": "Citation unclear about distinction between document title and website name",
+        "severity": "MEDIUM",
+        "description": "If document title differs from website name, both should be included with proper formatting",
+        "incorrect_example": "Article Title, http://www.lawsite.com/article",
+        "correct_example": "Article Title, Law Site, http://www.lawsite.com/article (last visited Jan. 1, 2025)",
+        "rule_reference": "Bluebook Rule 18.2.1"
+      },
+      {
+        "error_id": "R18.2.2.1",
+        "subrule": "18.2.2",
+        "category": "Missing Protocol in URL",
+        "error_type": "URL lacks http:// or https:// designation",
+        "severity": "CRITICAL",
+        "description": "All URLs must include protocol (http:// or https://)",
+        "incorrect_example": "Organization, Page Title, www.example.com/page (last visited Jan. 1, 2025)",
+        "correct_example": "Organization, Page Title, https://www.example.com/page (last visited Jan. 1, 2025)",
+        "rule_reference": "Bluebook Rule 18.2.2"
+      },
+      {
+        "error_id": "R18.2.2.2",
+        "subrule": "18.2.2",
+        "category": "Excessively Long URL Without Shortener",
+        "error_type": "URL extremely long and unwieldy; should use shortener",
+        "severity": "MEDIUM",
+        "description": "When URL is excessively long, may use URL shortener in brackets (perma.cc, etc.)",
+        "incorrect_example": "Article, Website, https://www.example.com/very/long/path/with/many/segments/article123456789",
+        "correct_example": "Article, Website, https://perma.cc/ABC-XYZ [https://www.example.com/very/long/path]",
+        "rule_reference": "Bluebook Rule 18.2.2"
+      },
+      {
+        "error_id": "R18.2.2.3",
+        "subrule": "18.2.2",
+        "category": "Missing Permalink for Dynamic Content",
+        "error_type": "Citation to content likely to move or disappear lacks permalink or archive",
+        "severity": "HIGH",
+        "description": "For blog posts or changeable content, should cite permalink or archive (perma.cc) version",
+        "incorrect_example": "John Doe, Blog Post Title, Law Blog (Jan. 1, 2020), http://lawblog.com/posts/page1",
+        "correct_example": "John Doe, Blog Post Title, Law Blog (Jan. 1, 2020), https://perma.cc/ABC-XYZ",
+        "rule_reference": "Bluebook Rule 18.2.2"
+      },
+      {
+        "error_id": "R18.3.1",
+        "subrule": "18.3",
+        "category": "Database Citation Without Proper Format",
+        "error_type": "Citation to Westlaw/Lexis case or statute uses incorrect format",
+        "severity": "HIGH",
+        "description": "Database citations should use standard neutral citation when available, or proper WL/Lexis format",
+        "incorrect_example": "Case Name [from Westlaw database]",
+        "correct_example": "Case Name, No. 12-CV-3456, 2020 WL 123456 (E.D. Cal. Jan. 5, 2020)",
+        "rule_reference": "Bluebook Rule 18.3"
+      },
+      {
+        "error_id": "R18.3.2",
+        "subrule": "18.3",
+        "category": "Missing Docket Number in Database Citation",
+        "error_type": "Unreported case lacks docket number for identification",
+        "severity": "HIGH",
+        "description": "Unreported cases from databases should include case/docket number",
+        "incorrect_example": "Case Name, 2020 WL 123456",
+        "correct_example": "Case Name, No. 12-CV-3456, 2020 WL 123456 (E.D. Cal. Jan. 5, 2020)",
+        "rule_reference": "Bluebook Rule 18.3"
+      },
+      {
+        "error_id": "R18.3.3",
+        "subrule": "18.3",
+        "category": "Improper Database Identification",
+        "error_type": "Citation improperly specifies database when standard citation exists",
+        "severity": "MEDIUM",
+        "description": "Should not cite database name if case is available in standard reporters",
+        "incorrect_example": "Case Name, 2020 WL 123456 (Westlaw database)",
+        "correct_example": "Case Name, 123 F.3d 456 (9th Cir. 2020)",
+        "rule_reference": "Bluebook Rule 18.3"
+      },
+      {
+        "error_id": "R18.3.4",
+        "subrule": "18.3",
+        "category": "Missing Court Designation in Database Citation",
+        "error_type": "Database citation lacks parenthetical court and date information",
+        "severity": "HIGH",
+        "description": "Database citations must include court and decision date in parenthetical",
+        "incorrect_example": "Case Name, 2020 WL 123456",
+        "correct_example": "Case Name, 2020 WL 123456 (E.D. Cal. Jan. 5, 2020)",
+        "rule_reference": "Bluebook Rule 18.3"
+      },
+      {
+        "error_id": "R18.4.1",
+        "subrule": "18.4",
+        "category": "Missing Format Designation for CD-ROM",
+        "error_type": "CD-ROM citation lacks parenthetical format indicator",
+        "severity": "MEDIUM",
+        "description": "CD-ROM and similar media should include format in parenthetical",
+        "incorrect_example": "The Federalist No. 10 (James Madison), 1996",
+        "correct_example": "The Federalist No. 10 (James Madison) (CD-ROM, 1996)",
+        "rule_reference": "Bluebook Rule 18.4"
+      },
+      {
+        "error_id": "R18.4.2",
+        "subrule": "18.4",
+        "category": "Incomplete CD-ROM Publication Info",
+        "error_type": "CD-ROM citation lacks publisher or release information",
+        "severity": "MEDIUM",
+        "description": "CD-ROM citations should include publication/release information and year",
+        "incorrect_example": "Title (CD-ROM)",
+        "correct_example": "Title, Publisher (CD-ROM, 2010)",
+        "rule_reference": "Bluebook Rule 18.4"
+      },
+      {
+        "error_id": "R18.5.1.1",
+        "subrule": "18.5.1",
+        "category": "Missing Microform Collection Name",
+        "error_type": "Microfilm/microfiche citation lacks collection identification",
+        "severity": "HIGH",
+        "description": "Microform collections must be properly identified for retrieval",
+        "incorrect_example": "FBI File No. 123, microfilm",
+        "correct_example": "FBI File No. 123, in FBI Records Collection, microfilm at reel 5 (Nat'l Archives)",
+        "rule_reference": "Bluebook Rule 18.5.1"
+      },
+      {
+        "error_id": "R18.5.1.2",
+        "subrule": "18.5.1",
+        "category": "Missing Reel or Frame Number",
+        "error_type": "Microform citation lacks specific location (reel, frame, or section)",
+        "severity": "HIGH",
+        "description": "Microform citations require reel, frame, or box numbers for precise retrieval",
+        "incorrect_example": "Document Title, microfilm collection",
+        "correct_example": "Document Title, NY Times Microfilm Collection, reel 12 (Pub. Library)",
+        "rule_reference": "Bluebook Rule 18.5.1"
+      },
+      {
+        "error_id": "R18.5.2.1",
+        "subrule": "18.5.2",
+        "category": "Incomplete Microform Original Material Citation",
+        "error_type": "Original material on microform lacks collection info or frame reference",
+        "severity": "HIGH",
+        "description": "Original materials published only on microform need collection name, location, and frame/page",
+        "incorrect_example": "John Doe Papers, microfiche",
+        "correct_example": "John Doe Papers, microfiche at frame 123 (Stanford University Archives)",
+        "rule_reference": "Bluebook Rule 18.5.2"
+      },
+      {
+        "error_id": "R18.6.1",
+        "subrule": "18.6",
+        "category": "Missing Director for Film Citation",
+        "error_type": "Film citation lacks director information",
+        "severity": "HIGH",
+        "description": "Films should be cited with director and production company",
+        "incorrect_example": "The Social Network (2010)",
+        "correct_example": "The Social Network (Columbia Pictures 2010)",
+        "rule_reference": "Bluebook Rule 18.6"
+      },
+      {
+        "error_id": "R18.6.2",
+        "subrule": "18.6",
+        "category": "Missing Title Italicization",
+        "error_type": "Film or broadcast title not italicized",
+        "severity": "MEDIUM",
+        "description": "Film titles must be italicized",
+        "incorrect_example": "The Social Network (Columbia Pictures 2010)",
+        "correct_example": "The Social Network (Columbia Pictures 2010)",
+        "rule_reference": "Bluebook Rule 18.6"
+      },
+      {
+        "error_id": "R18.6.3",
+        "subrule": "18.6",
+        "category": "Incomplete Television Episode Citation",
+        "error_type": "TV episode citation lacks episode title, series title, or air date",
+        "severity": "HIGH",
+        "description": "Television episodes require episode title, series name, network, and air date",
+        "incorrect_example": "\"Episode Title\" (Network Year)",
+        "correct_example": "\"Episode Title,\" Series Name (Network Jan. 15, 2020)",
+        "rule_reference": "Bluebook Rule 18.6"
+      },
+      {
+        "error_id": "R18.6.4",
+        "subrule": "18.6",
+        "category": "Incomplete Broadcast Citation",
+        "error_type": "Radio or TV broadcast citation missing network, segment title, or date",
+        "severity": "HIGH",
+        "description": "Broadcasts require segment title, network, and date information",
+        "incorrect_example": "News Report, 2020",
+        "correct_example": "News Report Segment, NPR (Jan. 15, 2020)",
+        "rule_reference": "Bluebook Rule 18.6"
+      },
+      {
+        "error_id": "R18.6.5",
+        "subrule": "18.6",
+        "category": "Incomplete Online Video Citation",
+        "error_type": "YouTube or online video citation missing creator, platform, or URL",
+        "severity": "HIGH",
+        "description": "Online videos require creator/poster, title, platform, date, and URL",
+        "incorrect_example": "Video Title (Jan. 1, 2020)",
+        "correct_example": "Creator Name, Video Title, YouTube (Jan. 1, 2020), https://youtube.com/watch?v=...",
+        "rule_reference": "Bluebook Rule 18.6"
+      },
+      {
+        "error_id": "R18.7.1.1",
+        "subrule": "18.7.1",
+        "category": "Missing Album Title in Music Citation",
+        "error_type": "Musical recording citation lacks album/album title",
+        "severity": "HIGH",
+        "description": "Music citations require artist, song title, album, label, and year",
+        "incorrect_example": "Artist, \"Song Title\" (Record Label 2020)",
+        "correct_example": "Artist, \"Song Title,\" on Album Title (Record Label 2020)",
+        "rule_reference": "Bluebook Rule 18.7.1"
+      },
+      {
+        "error_id": "R18.7.1.2",
+        "subrule": "18.7.1",
+        "category": "Incomplete Classical Recording Citation",
+        "error_type": "Classical music citation missing performer, label, or year",
+        "severity": "HIGH",
+        "description": "Classical music requires composer, title, performer, label, and year",
+        "incorrect_example": "Composer, Title",
+        "correct_example": "Composer, Title (Performer/Orchestra, Record Label 2020)",
+        "rule_reference": "Bluebook Rule 18.7.1"
+      },
+      {
+        "error_id": "R18.7.2.1",
+        "subrule": "18.7.2",
+        "category": "Incomplete Noncommercial Recording Citation",
+        "error_type": "Unpublished audio recording lacks identification or location",
+        "severity": "HIGH",
+        "description": "Noncommercial recordings need description, date, and location (on file with...)",
+        "incorrect_example": "Interview with John Doe (on file with author)",
+        "correct_example": "Interview with John Doe, Partner, ABC Law Firm (audio recording on file with author, Jan. 5, 2020)",
+        "rule_reference": "Bluebook Rule 18.7.2"
+      },
+      {
+        "error_id": "R18.7.2.2",
+        "subrule": "18.7.2",
+        "category": "Missing Oral Argument Citation Details",
+        "error_type": "Oral argument recording lacks case name, court, docket number, or timestamp",
+        "severity": "HIGH",
+        "description": "Oral argument citations need case info, court, number, date, and time if referenced",
+        "incorrect_example": "Oral Argument (audio recording)",
+        "correct_example": "Oral Argument at 5:32, Doe v. Smith, No. 123 (9th Cir. Jan. 1, 2020) (audio recording)",
+        "rule_reference": "Bluebook Rule 18.7.2"
+      },
+      {
+        "error_id": "R18.7.3.1",
+        "subrule": "18.7.3",
+        "category": "Incomplete Podcast Citation",
+        "error_type": "Podcast citation missing episode title, show name, or date",
+        "severity": "HIGH",
+        "description": "Podcasts require host/creator, episode title, podcast name, date, and optionally URL",
+        "incorrect_example": "Podcast Episode (2020)",
+        "correct_example": "Host Name, Episode Title, Podcast Name (Jan. 1, 2020)",
+        "rule_reference": "Bluebook Rule 18.7.3"
+      },
+      {
+        "error_id": "R18.7.3.2",
+        "subrule": "18.7.3",
+        "category": "Missing Platform in Podcast Citation",
+        "error_type": "Podcast citation lacks platform or website information",
+        "severity": "MEDIUM",
+        "description": "If podcast platform is relevant or helpful for retrieval, it may be included",
+        "incorrect_example": "Host, Episode Title (Jan. 1, 2020)",
+        "correct_example": "Host, Episode Title, Podcast Name, Spotify (Jan. 1, 2020)",
+        "rule_reference": "Bluebook Rule 18.7.3"
+      },
+      {
+        "error_id": "R18.7.3.3",
+        "subrule": "18.7.3",
+        "category": "Incomplete Podcast Transcript Citation",
+        "error_type": "Podcast transcript citation lacks URL or transcript reference",
+        "severity": "MEDIUM",
+        "description": "When citing podcast transcript, should reference transcript source or URL",
+        "incorrect_example": "Host, Episode Title, Podcast (Jan. 1, 2020) (transcript)",
+        "correct_example": "Host, Episode Title, Podcast (Jan. 1, 2020), https://site.com/transcript (transcript)",
+        "rule_reference": "Bluebook Rule 18.7.3"
+      },
+      {
+        "error_id": "R18.8.1",
+        "subrule": "18.8",
+        "category": "Incomplete Photograph Citation",
+        "error_type": "Photograph citation missing photographer, subject, date, or source",
+        "severity": "HIGH",
+        "description": "Photographs require photographer, subject, date, and source/availability information",
+        "incorrect_example": "Photograph (2019)",
+        "correct_example": "John Smith, Photograph of [Subject] (2019), available at https://...",
+        "rule_reference": "Bluebook Rule 18.8"
+      },
+      {
+        "error_id": "R18.8.2",
+        "subrule": "18.8",
+        "category": "Missing Source for Illustration",
+        "error_type": "Illustration in book lacks proper citation or page reference",
+        "severity": "HIGH",
+        "description": "Illustrations should be cited via book citation with figure/page reference",
+        "incorrect_example": "Figure 1",
+        "correct_example": "Figure 1, in Title of Book 45 (Publisher 2020)",
+        "rule_reference": "Bluebook Rule 18.8"
+      },
+      {
+        "error_id": "R18.8.3",
+        "subrule": "18.8",
+        "category": "Missing Photo Credit",
+        "error_type": "Image or diagram lacks photographer or source credit",
+        "severity": "MEDIUM",
+        "description": "Images should include photographer or source attribution if available",
+        "incorrect_example": "[Image of subject], available at URL",
+        "correct_example": "Photo by John Smith, available at URL",
+        "rule_reference": "Bluebook Rule 18.8"
+      },
+      {
+        "error_id": "R18.9.1",
+        "subrule": "18.9",
+        "category": "Ambiguous Short Citation",
+        "error_type": "Short cite to internet source unclear due to unusual title",
+        "severity": "MEDIUM",
+        "description": "Internet sources with non-standard names may need hereinafter for clarity",
+        "incorrect_example": "supra note 10 (when note 10 has complex URL-based citation)",
+        "correct_example": "Shortened name hereinafter set in initial citation; then use shortened name, supra",
+        "rule_reference": "Bluebook Rule 18.9"
+      },
+      {
+        "error_id": "R18.9.2",
+        "subrule": "18.9",
+        "category": "Improper Supra Reference for Statutes from Database",
+        "error_type": "Short cite uses 'supra' for statute or case found in database",
+        "severity": "MEDIUM",
+        "description": "Short citations to statutes/cases should use proper abbreviations, not 'supra'",
+        "incorrect_example": "Statute, supra note 5 (for statute citation)",
+        "correct_example": "Statute provision [proper abbreviation], supra note 5",
+        "rule_reference": "Bluebook Rule 18.9"
+      },
+      {
+        "error_id": "R18.9.3",
+        "subrule": "18.9",
+        "category": "Missing Hereinafter for Long URLs",
+        "error_type": "Long, complex citation lacks hereinafter abbreviation",
+        "severity": "MEDIUM",
+        "description": "For complex internet citations, establish hereinafter abbreviation on first use",
+        "incorrect_example": "Author, Very Long Complex Title with Many Words, Complex Website Name, https://example.com/very/long/path (last visited...). [Subsequent cites: Author, supra]",
+        "correct_example": "Author, Very Long Complex Title with Many Words, Complex Website Name, https://example.com/very/long/path (last visited...) [hereinafter \"ABBREVIATED TITLE\"]. [Subsequent cites: ABBREVIATED TITLE, supra]",
+        "rule_reference": "Bluebook Rule 18.9"
+      }
+    ]
+  },
+  "rule_19_services": {
+    "rule_id": "19",
+    "title": "Services",
+    "description": "Errors in citation of looseleaf services, electronic services, and compilations of law",
+    "subrule_errors": [
+      {
+        "error_id": "R19.1.1",
+        "subrule": "19.1",
+        "category": "Missing Paragraph or Section Number",
+        "error_type": "Service citation lacks pinpoint paragraph or section",
+        "severity": "CRITICAL",
+        "description": "Service citations require specific paragraph or section number for precise identification",
+        "incorrect_example": "5 CCH Cons. Fin. Guide (2019)",
+        "correct_example": "5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.1.2",
+        "subrule": "19.1",
+        "category": "Incorrect Service Abbreviation",
+        "error_type": "Service name lacks proper abbreviation or abbreviation is incorrect",
+        "severity": "HIGH",
+        "description": "Service citations should use standard abbreviations (CCH, RIA, etc.)",
+        "incorrect_example": "5 Commerce Clearing House Consumer Finance Guide ¶ 72,205 (2019)",
+        "correct_example": "5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.1.3",
+        "subrule": "19.1",
+        "category": "Missing Volume Number",
+        "error_type": "Multi-volume service citation lacks volume designation",
+        "severity": "HIGH",
+        "description": "Services with multiple volumes must include the volume number",
+        "incorrect_example": "CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+        "correct_example": "5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.1.4",
+        "subrule": "19.1",
+        "category": "Ambiguous Section/Paragraph Designation",
+        "error_type": "Unclear whether citation uses section (§) or paragraph (¶) format",
+        "severity": "MEDIUM",
+        "description": "Must use correct symbol: ¶ for paragraph numbers, § for section numbers",
+        "incorrect_example": "5 CCH Cons. Fin. Guide 72,205 (2019)",
+        "correct_example": "5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.1.5",
+        "subrule": "19.1",
+        "category": "Missing Publication Year",
+        "error_type": "Service citation lacks year or release date",
+        "severity": "HIGH",
+        "description": "Service citations should include the year or edition referenced",
+        "incorrect_example": "5 CCH Cons. Fin. Guide ¶ 72,205",
+        "correct_example": "5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.1.6",
+        "subrule": "19.1",
+        "category": "Incorrect Electronic Service Database Citation",
+        "error_type": "Electronic service citation lacks proper database identifier",
+        "severity": "MEDIUM",
+        "description": "When citing service via Westlaw/Lexis, may note database if helpful",
+        "incorrect_example": "5 CCH Cons. Fin. Guide ¶ 72,205",
+        "correct_example": "5 CCH Cons. Fin. Guide ¶ 72,205 (Westlaw 2019) or 5 CCH Cons. Fin. Guide ¶ 72,205 (2019) [if in print]",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.1.7",
+        "subrule": "19.1",
+        "category": "Improper Release Number Citation",
+        "error_type": "Service organized by release number lacks proper citation format",
+        "severity": "MEDIUM",
+        "description": "If service uses release numbers instead of volumes, format as appropriate for that service",
+        "incorrect_example": "Tax Service ¶ 72,205",
+        "correct_example": "5 Tax Service ¶ 72,205, release 10 (2019) or [service-specific format]",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.1.8",
+        "subrule": "19.1",
+        "category": "Missing Publisher Information",
+        "error_type": "Service citation may need publisher specification for clarity",
+        "severity": "MEDIUM",
+        "description": "Some services benefit from including publisher if name is ambiguous",
+        "incorrect_example": "5 Guide ¶ 72,205 (2019)",
+        "correct_example": "5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+        "rule_reference": "Bluebook Rule 19.1"
+      },
+      {
+        "error_id": "R19.2.1",
+        "subrule": "19.2",
+        "category": "Ambiguous Short Cite for Service",
+        "error_type": "Short citation lacks full service name when multiple services cited",
+        "severity": "MEDIUM",
+        "description": "Short cite must be clear; if multiple services, may need fuller identification",
+        "incorrect_example": "Guide, supra note 10, ¶ 72,205 (when multiple guide services cited)",
+        "correct_example": "CCH Cons. Fin. Guide, supra note 10, ¶ 72,205",
+        "rule_reference": "Bluebook Rule 19.2"
+      },
+      {
+        "error_id": "R19.2.2",
+        "subrule": "19.2",
+        "category": "Incorrect Paragraph Reference in Short Cite",
+        "error_type": "Short cite includes outdated paragraph number due to service update",
+        "severity": "HIGH",
+        "description": "When using 'supra' for services, verify paragraph number hasn't changed in updates",
+        "incorrect_example": "CCH Cons. Fin. Guide, supra note 10, ¶ 72,100 (when original citation had ¶ 72,205)",
+        "correct_example": "CCH Cons. Fin. Guide, supra note 10, ¶ 72,205",
+        "rule_reference": "Bluebook Rule 19.2"
+      },
+      {
+        "error_id": "R19.2.3",
+        "subrule": "19.2",
+        "category": "Improper Use of Id. for Services",
+        "error_type": "Using 'Id.' when previous service citation was different or different paragraph",
+        "severity": "HIGH",
+        "description": "Id. cannot be used if prior citation is to different service or different paragraph",
+        "incorrect_example": "Note 1: 5 CCH Guide ¶ 100 (2019). Note 2: Id. [citing ¶ 200]",
+        "correct_example": "Note 1: 5 CCH Guide ¶ 100 (2019). Note 2: 5 CCH Guide, supra note 1, ¶ 200",
+        "rule_reference": "Bluebook Rule 19.2"
+      }
+    ]
+  },
+  "error_summary": {
+    "rule_17_count": 27,
+    "rule_18_count": 30,
+    "rule_19_count": 10,
+    "total_errors": 67,
+    "critical_errors": 12,
+    "high_severity_errors": 40,
+    "medium_severity_errors": 15,
+    "categories_covered": [
+      "Unpublished materials (manuscripts, dissertations, theses)",
+      "Forthcoming publications",
+      "Working papers (SSRN, institutional)",
+      "Interviews and speeches",
+      "Email and correspondence",
+      "Internet sources and URLs",
+      "Commercial databases (Westlaw, Lexis)",
+      "Electronic storage media (CD-ROM, microfilm)",
+      "Films and broadcasts",
+      "Audio recordings and podcasts",
+      "Photographs and illustrations",
+      "Services and looseleaf materials"
+    ]
+  }
+}

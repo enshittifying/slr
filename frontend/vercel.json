@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://slr-api-xxxxx-uw.a.run.app",
+    "NEXTAUTH_URL": "https://slro.vercel.app",
+    "NEXTAUTH_SECRET": "@nextauth-secret",
+    "GOOGLE_CLIENT_ID": "@google-oauth-client-id",
+    "GOOGLE_CLIENT_SECRET": "@google-oauth-client-secret"
+  },
+  "regions": ["sfo1"],
+  "github": {
+    "enabled": true,
+    "autoJobCancelation": true,
+    "silent": false
+  }
+}

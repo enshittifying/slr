@@ -20,17 +20,31 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.hypothesis/
-
-# Virtual environments
-venv/
-env/
-ENV/
 .venv
+venv/
+ENV/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+dist/
+.cache/
+.vercel
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env.local
 
 # IDE
 .vscode/
@@ -40,48 +54,35 @@ ENV/
 *~
 .DS_Store
 
-# Environment variables
-.env
-.env.local
-.env.*.local
-credentials.json
-token.json
-service_account.json
+# Database
+*.db
+*.sqlite
+*.sqlite3
 
-# Google Apps Script
-google_apps_script/.clasp.json
-google_apps_script/appsscript.json
-
-# Output directories
-output/
-logs/
-temp/
-tmp/
-*.log
-
-# PDFs and large files
-*.pdf
-!reference_files/**/*.pdf
-
-# Spreadsheets
-*.xlsx
-*.xls
-!reference_files/**/*.xlsx
-
-# MacOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Node modules (for clasp)
-node_modules/
-package-lock.json
-
-# Backup files
-*.bak
-*.backup
-*~
-
-# Test outputs
-test_output/
+# Testing
+.coverage
+htmlcov/
 .pytest_cache/
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Cloud
+.gcloud/
+cloud-sql-proxy
+
+# Secrets
+credentials.json
+service-account-key.json
+*-key.json
+
+# Alembic
+alembic.ini.bak
+
+# Temporary files
+tmp/
+temp/
+*.tmp

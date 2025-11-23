@@ -1,0 +1,41 @@
+You are a legal research expert verifying whether a source supports a legal proposition.
+
+## MAIN TEXT PROPOSITION:
+"{proposition}"
+
+## SOURCE TEXT (from R1 redbox):
+"{source_text}"
+
+## CITATION:
+{citation_text}
+
+## YOUR TASK:
+Determine if the source text DIRECTLY and ADEQUATELY supports the proposition.
+
+## EVALUATION CRITERIA:
+1. **Direct Support (YES)**: Source explicitly states or clearly implies the proposition
+2. **Partial Support (MAYBE)**: Source addresses part of proposition but not all elements
+3. **No Support (NO)**: Source does not support this proposition
+
+## CONSIDER:
+- **Support by Contrast**: Sometimes, a source supports one part of a proposition by directly stating the *opposite* of another part. For example, if the proposition is "A is required, but B is not", and the source says "B is not required", the source *is* providing support for the entire argument by contrast. You should consider such elements as supported.
+- Does source cover ALL elements of the proposition?
+- Is this holding or dicta (for cases)?
+- Are there qualifiers or limitations in the source?
+- Is context sufficient or might we be missing something?
+
+## RESPOND IN JSON:
+{{
+  "support_level": "yes" | "maybe" | "no",
+  "confidence": float (0.0-1.0),
+  "reasoning": "detailed explanation of your determination",
+  "supported_elements": [
+    {{
+      "element": "description of the element that IS supported",
+      "source_excerpt": "the specific text from the source that supports this element (quote directly, max 150 words)"
+    }}
+  ],
+  "unsupported_elements": ["list elements that are NOT supported"],
+  "suggested_action": "what to do (approve, flag for review, request different cite)",
+  "missing_context": "anything that might change the analysis if we saw more"
+}}

@@ -1,0 +1,1378 @@
+{
+  "rule_number": "10",
+  "rule_title": "Cases - Bluebook Rule 10",
+  "description": "Complete analysis of Bluebook Rule 10 with all subrules, error types, regex patterns, examples, and rule references",
+  "total_error_types": 130,
+  "subrules": {
+    "10.1": {
+      "id": "10.1",
+      "title": "Basic Citation Forms",
+      "description": "Full case citation structure including case name, reporter volume, reporter abbreviation, first page, pinpoint page, court abbreviation, and year",
+      "error_types": [
+        {
+          "id": "10.1.1",
+          "error_type": "Missing case name in citation",
+          "regex_pattern": "^\\s*\\d+\\s+[A-Z]\\.[2-3Ss]?\\.?\\s",
+          "description": "Citation begins with reporter number without case name",
+          "incorrect_example": "410 U.S. 113 (1973)",
+          "correct_example": "Roe v. Wade, 410 U.S. 113 (1973)",
+          "severity": "critical"
+        },
+        {
+          "id": "10.1.2",
+          "error_type": "Missing reporter abbreviation",
+          "regex_pattern": "v\\.\\s+\\w+,\\s+\\d+\\s+\\(\\d{4}\\)",
+          "description": "Citation missing reporter abbreviation between volume and page numbers",
+          "incorrect_example": "Smith v. Jones, 113 (1973)",
+          "correct_example": "Smith v. Jones, 410 U.S. 113 (1973)",
+          "severity": "critical"
+        },
+        {
+          "id": "10.1.3",
+          "error_type": "Missing first page number",
+          "regex_pattern": "[A-Z]\\.[2-3Ss]?\\.?\\s+\\(\\d{4}\\)",
+          "description": "Reporter abbreviation followed directly by year without page numbers",
+          "incorrect_example": "Roe v. Wade, 410 U.S. (1973)",
+          "correct_example": "Roe v. Wade, 410 U.S. 113 (1973)",
+          "severity": "critical"
+        },
+        {
+          "id": "10.1.4",
+          "error_type": "Missing year in parentheses",
+          "regex_pattern": "\\d\\s+[A-Z]\\.[2-3Ss]?\\.\\s+\\d+$",
+          "description": "Citation ends with page number without year in parentheses",
+          "incorrect_example": "Roe v. Wade, 410 U.S. 113",
+          "correct_example": "Roe v. Wade, 410 U.S. 113 (1973)",
+          "severity": "critical"
+        },
+        {
+          "id": "10.1.5",
+          "error_type": "Case name not italicized in academic writing",
+          "regex_pattern": "(?<![\\*\\_])Roe v\\. Wade",
+          "description": "Case name should be italicized in academic writing (underscored or starred)",
+          "incorrect_example": "According to Roe v. Wade, 410 U.S. 113 (1973)",
+          "correct_example": "According to *Roe v. Wade*, 410 U.S. 113 (1973)",
+          "severity": "high"
+        },
+        {
+          "id": "10.1.6",
+          "error_type": "Invalid reporter abbreviation format",
+          "regex_pattern": "\\d+\\s+([A-Z]{4,})\\s+\\d+",
+          "description": "Reporter abbreviation has incorrect format or capitalization",
+          "incorrect_example": "Smith v. Jones, 410 us 113 (1973)",
+          "correct_example": "Smith v. Jones, 410 U.S. 113 (1973)",
+          "severity": "high"
+        },
+        {
+          "id": "10.1.7",
+          "error_type": "Volume number format error",
+          "regex_pattern": "[A-Z]v\\.\\s+\\w+,\\s+[0-9]{5,}",
+          "description": "Volume number contains excessive digits or incorrect formatting",
+          "incorrect_example": "Smith v. Jones, 41000 U.S. 113 (1973)",
+          "correct_example": "Smith v. Jones, 410 U.S. 113 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.1.8",
+          "error_type": "Multiple reporters with inconsistent abbreviations",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2d",
+          "description": "If citing multiple reporters, abbreviations should be consistent",
+          "incorrect_example": "410 U.S. 113, 93 SC 705 (1973)",
+          "correct_example": "410 U.S. 113, 93 S. Ct. 705 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.1.9",
+          "error_type": "Pinpoint page not separated properly",
+          "regex_pattern": "U\\.S\\.\\s+\\d+\\s+\\d+\\s+\\(",
+          "description": "Pin-cite should be separated from first page",
+          "incorrect_example": "Smith v. Jones, 410 U.S. 113 115 (1973)",
+          "correct_example": "Smith v. Jones, 410 U.S. 113, 115 (1973)",
+          "severity": "high"
+        },
+        {
+          "id": "10.1.10",
+          "error_type": "Non-sequential page range",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.\\s+\\d+\\s+\\d+",
+          "description": "Page numbers should use proper range format",
+          "incorrect_example": "410 U.S. 113 500",
+          "correct_example": "410 U.S. 113, 115-20",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.2": {
+      "id": "10.2",
+      "title": "Case Names",
+      "description": "Rules for formatting case names in citations, including omitting names, abbreviations, and party selection",
+      "error_types": [
+        {
+          "id": "10.2.1",
+          "error_type": "First names or initials included in case name",
+          "regex_pattern": "[A-Z]\\.?\\s+[A-Z][a-z]+\\s+v\\.",
+          "description": "Case name includes first names or initials (should be last names only)",
+          "incorrect_example": "John Doe v. Jane Smith, 410 U.S. 113 (1973)",
+          "correct_example": "Doe v. Smith, 410 U.S. 113 (1973)",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.2",
+          "error_type": "Middle names or initials in case name",
+          "regex_pattern": "[A-Z][a-z]+\\s+[A-Z]\\.?\\s+[A-Z][a-z]+\\s+v\\.",
+          "description": "Middle names or initials included when they should be omitted",
+          "incorrect_example": "John Michael Doe v. Jane Sarah Smith, 410 U.S. 113 (1973)",
+          "correct_example": "Doe v. Smith, 410 U.S. 113 (1973)",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.3",
+          "error_type": "The included at start of party name",
+          "regex_pattern": "The\\s+[A-Z][a-z]+\\s+v\\.",
+          "description": "Case name starts with 'The' which should be omitted",
+          "incorrect_example": "The United States v. Nixon, 418 U.S. 683 (1974)",
+          "correct_example": "United States v. Nixon, 418 U.S. 683 (1974)",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.4",
+          "error_type": "Multiple parties on same side not separated",
+          "regex_pattern": "[A-Z][a-z]+,?\\s+and\\s+[A-Z][a-z]+\\s+v\\.",
+          "description": "Multiple parties on same side should be abbreviated to first party only",
+          "incorrect_example": "Smith and Jones v. Brown, 410 U.S. 113 (1973)",
+          "correct_example": "Smith v. Brown, 410 U.S. 113 (1973)",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.5",
+          "error_type": "Alternative case names included (AKA, d/b/a)",
+          "regex_pattern": "v\\.\\s+\\w+\\s+(AKA|aka|a/k/a|d/b/a|DBA)",
+          "description": "Alternative names like AKA or d/b/a should be omitted",
+          "incorrect_example": "Smith v. Jones AKA Brown, 410 U.S. 113 (1973)",
+          "correct_example": "Smith v. Jones, 410 U.S. 113 (1973)",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.6",
+          "error_type": "Geographic unit not abbreviated in case name",
+          "regex_pattern": "v\\.\\s+State of\\s+[A-Z][a-z]+\\s+v\\.",
+          "description": "State or country names in party names should be abbreviated per Table T10",
+          "incorrect_example": "Smith v. State of California, 410 U.S. 113 (1973)",
+          "correct_example": "Smith v. Cal., 410 U.S. 113 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.7",
+          "error_type": "Entity name abbreviation errors",
+          "regex_pattern": "v\\.\\s+[A-Z][a-z]+\\s+Company\\s+",
+          "description": "Entity names should be abbreviated per Table T6 (Co., Inc., etc.)",
+          "incorrect_example": "Smith v. Jones Company, 410 U.S. 113 (1973)",
+          "correct_example": "Smith v. Jones Co., 410 U.S. 113 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.8",
+          "error_type": "In re or Ex parte case name format error",
+          "regex_pattern": "Inre\\s+[A-Z]|Expart[e]?\\s+[A-Z]",
+          "description": "In re or Ex parte should be properly formatted without omitting space",
+          "incorrect_example": "Inre Smith, 410 U.S. 113 (1973)",
+          "correct_example": "In re Smith, 410 U.S. 113 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.9",
+          "error_type": "Case name using incorrect connective",
+          "regex_pattern": "\\w+\\s+versus\\s+\\w+",
+          "description": "Case name should use 'v.' not 'versus'",
+          "incorrect_example": "Smith versus Jones, 410 U.S. 113 (1973)",
+          "correct_example": "Smith v. Jones, 410 U.S. 113 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.10",
+          "error_type": "Ampersand used instead of proper abbreviation in entity name",
+          "regex_pattern": "&\\s+[A-Z]",
+          "description": "Ampersand should be written as & per T6 only in specific contexts, not as first word substitute",
+          "incorrect_example": "Smith v. Jones & Co., 410 U.S. 113 (1973)",
+          "correct_example": "Smith v. Jones Co., 410 U.S. 113 (1973)",
+          "severity": "low"
+        },
+        {
+          "id": "10.2.11",
+          "error_type": "Business entity truncation",
+          "regex_pattern": "[A-Z][a-z]+\\s+Industries",
+          "description": "Entity names should be complete",
+          "incorrect_example": "Smith Indus.",
+          "correct_example": "Smith Industries",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.12",
+          "error_type": "Incorrect et al. in case name",
+          "regex_pattern": "v\\.\\s+\\w+\\s+et al",
+          "description": "Et al. should not appear in case name",
+          "incorrect_example": "Smith v. Jones et al.",
+          "correct_example": "Smith v. Jones",
+          "severity": "high"
+        }
+      ]
+    },
+    "10.2.1": {
+      "id": "10.2.1",
+      "title": "General Rules for Case Names",
+      "description": "Omit first names, middle names, initials. Omit The as first word. Use acronyms when widely known, abbreviate per Table T6",
+      "error_types": [
+        {
+          "id": "10.2.1.1",
+          "error_type": "Full name used instead of last name only",
+          "regex_pattern": "[A-Z][a-z]+\\s+[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+",
+          "description": "First and last names should be reduced to last name only",
+          "incorrect_example": "Charles Roe v. Henry Wade",
+          "correct_example": "Roe v. Wade",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.1.2",
+          "error_type": "The not omitted from beginning of case name",
+          "regex_pattern": "^The\\s+[A-Z]",
+          "description": "The as first word of case name should always be omitted",
+          "incorrect_example": "The Roe v. Wade",
+          "correct_example": "Roe v. Wade",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.1.3",
+          "error_type": "Widely known acronym written out",
+          "regex_pattern": "National Labor Relations Board v\\.",
+          "description": "NLRB and similar widely known acronyms should be used",
+          "incorrect_example": "National Labor Relations Board v. Jones",
+          "correct_example": "NLRB v. Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.1.4",
+          "error_type": "Table T6 abbreviation not applied to entity name",
+          "regex_pattern": "\\w+\\s+Corporation\\s+v\\.",
+          "description": "Corporation should be abbreviated to Corp. per T6",
+          "incorrect_example": "Smith Corporation v. Jones",
+          "correct_example": "Smith Corp. v. Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.1.5",
+          "error_type": "Incomplete T6 abbreviations in entity names",
+          "regex_pattern": "\\w+\\s+(Incorporated|Limited|Association)\\s+v\\.",
+          "description": "Entity designation words should be abbreviated per T6",
+          "incorrect_example": "Smith Incorporated v. Jones",
+          "correct_example": "Smith Inc. v. Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.1.6",
+          "error_type": "Incomplete abbreviation",
+          "regex_pattern": "\\w+\\s+Assoc\\.",
+          "description": "Use proper abbreviations per T6",
+          "incorrect_example": "Smith Assoc.",
+          "correct_example": "Smith Ass'n",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.1.7",
+          "error_type": "Ampersand usage errors",
+          "regex_pattern": "&\\s",
+          "description": "Ampersand usage needs T6 verification",
+          "incorrect_example": "Smith & Co.",
+          "correct_example": "Smith Co.",
+          "severity": "low"
+        }
+      ]
+    },
+    "10.2.2": {
+      "id": "10.2.2",
+      "title": "Additional Rules for Case Names in Citations",
+      "description": "Omit all parties other than first on each side. Omit alternative names. Use In re or Ex parte appropriately",
+      "error_types": [
+        {
+          "id": "10.2.2.1",
+          "error_type": "All defendants listed instead of first only",
+          "regex_pattern": "v\\.\\s+\\w+,\\s+\\w+,\\s+(?:and\\s+)?\\w+",
+          "description": "Only first party on each side of v. should be cited",
+          "incorrect_example": "Smith v. Jones, Brown, and Davis",
+          "correct_example": "Smith v. Jones",
+          "severity": "high"
+        },
+        {
+          "id": "10.2.2.2",
+          "error_type": "Ex rel. clause included without proper formatting",
+          "regex_pattern": "v\\.\\s+[A-Z]\\w+\\s+ex\\s+rel\\.",
+          "description": "Ex rel. should be properly formatted and spaced",
+          "incorrect_example": "Smith v. Jones exrel. Brown",
+          "correct_example": "Smith ex rel. Brown v. Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.2.3",
+          "error_type": "Geographic unit abbreviation missing from party name",
+          "regex_pattern": "v\\.\\s+[A-Z][a-z]+\\s+of\\s+[A-Z][a-z]+",
+          "description": "Geographic units in party names should be abbreviated per T10",
+          "incorrect_example": "Smith v. Board of California",
+          "correct_example": "Smith v. Board of Cal.",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.2.4",
+          "error_type": "Reversed party order (respondent first)",
+          "regex_pattern": "v\\.\\s+[A-Z]\\w+,\\s+[A-Z]\\w+\\s+v\\.",
+          "description": "Case name order should reflect appellant v. appellee or original case order",
+          "incorrect_example": "Jones v. Smith (when Smith should be first)",
+          "correct_example": "Smith v. Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.2.2.5",
+          "error_type": "Ex rel. formatting",
+          "regex_pattern": "exrel\\.",
+          "description": "Ex rel. needs proper spacing",
+          "incorrect_example": "Smith exrel. Jones",
+          "correct_example": "Smith ex rel. Jones",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.3": {
+      "id": "10.3",
+      "title": "Reporters and Other Sources",
+      "description": "Cite to published reporters according to their citation format. Include series designation when applicable",
+      "error_types": [
+        {
+          "id": "10.3.1",
+          "error_type": "Reporter abbreviation incorrect",
+          "regex_pattern": "\\d+\\s+([A-Z]\\.?[A-Z]?\\.?[A-Z]?\\.?|Southeastern|Western|Atlantic)\\s",
+          "description": "Reporter abbreviation should follow official Bluebook designations",
+          "incorrect_example": "410 US 113 (should be U.S.)",
+          "correct_example": "410 U.S. 113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.2",
+          "error_type": "Missing second series designation",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.\\s+\\d+(?!\\s+2d|\\s+3d)",
+          "description": "Second, third series should be indicated (2d, 3d) when applicable",
+          "incorrect_example": "Smith v. Jones, 400 N.E. 113 (should be N.E.2d)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.3",
+          "error_type": "Reporter series incorrectly designated",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2d\\s+\\d+\\s+\\(20[0-1][0-9]\\)",
+          "description": "Verify series designation matches actual reporter publication",
+          "incorrect_example": "Smith v. Jones, 400 S.E.2d 113 (when should be 3d)",
+          "correct_example": "Smith v. Jones, 400 S.E.3d 113",
+          "severity": "medium"
+        },
+        {
+          "id": "10.3.4",
+          "error_type": "Unofficial reporter cited when official exists",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2d\\s",
+          "description": "Official reporters (like U.S.) should be cited when available",
+          "incorrect_example": "410 S. Ct. 113 (should cite to U.S. if available)",
+          "correct_example": "410 U.S. 113 (preferred)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.3.5",
+          "error_type": "Wrong series for reporter",
+          "regex_pattern": "N\\.E\\.\\s+\\d+(?!2d|3d)",
+          "description": "Verify series designation accuracy",
+          "incorrect_example": "400 N.E. 113 (1980)",
+          "correct_example": "400 N.E.2d 113 (1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.6",
+          "error_type": "Regional reporter state ambiguity",
+          "regex_pattern": "[NSA][E|W]\\s+\\d+",
+          "description": "Regional reporters may need court designation",
+          "incorrect_example": "Smith v. Jones, 400 N.E. 113",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (Ohio)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.3.1": {
+      "id": "10.3.1",
+      "title": "Parallel Citations and Which Source(s) to Cite",
+      "description": "Rules for multiple reporter citations and selecting which source to cite",
+      "error_types": [
+        {
+          "id": "10.3.1.1",
+          "error_type": "Missing parallel citation when required",
+          "regex_pattern": "410 U\\.S\\. 113 \\(1973\\)$",
+          "description": "Parallel citations to state reporter should be included when available",
+          "incorrect_example": "Roe v. Wade, 410 U.S. 113 (1973)",
+          "correct_example": "Roe v. Wade, 410 U.S. 113, 93 S. Ct. 705 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.3.1.2",
+          "error_type": "Parallel citations in wrong order",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2d\\s+\\d+,\\s+\\d+\\s+U\\.S\\.\\s+\\d+",
+          "description": "Official reporter should come first in parallel citations",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113, 410 U.S. 113 (1973)",
+          "correct_example": "Smith v. Jones, 410 U.S. 113, 400 N.E.2d 113 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.3.1.3",
+          "error_type": "Incorrect citation order for multiple reporters",
+          "regex_pattern": "\\d+\\s+F\\.\\d?d?\\s+\\d+,\\s+\\d+\\s+U\\.S\\.",
+          "description": "Citation order should reflect precedence (official before unofficial)",
+          "incorrect_example": "400 F.3d 113, 410 U.S. 113",
+          "correct_example": "410 U.S. 113, 400 F.3d 113",
+          "severity": "medium"
+        },
+        {
+          "id": "10.3.1.4",
+          "error_type": "Missing required parallel citations",
+          "regex_pattern": "\\d+\\s+U\\.S\\.\\s+\\d+\\s+\\(\\d{4}\\)$",
+          "description": "Some cases require all major reporter parallel citations",
+          "incorrect_example": "410 U.S. 113 (1973)",
+          "correct_example": "410 U.S. 113, 93 S. Ct. 705, 35 L. Ed. 2d 147 (1973)",
+          "severity": "high"
+        }
+      ]
+    },
+    "10.3.2": {
+      "id": "10.3.2",
+      "title": "Reporters",
+      "description": "Citation format requirements specific to various reporter types",
+      "error_types": [
+        {
+          "id": "10.3.2.1",
+          "error_type": "Federal reporter abbreviation incorrect",
+          "regex_pattern": "\\d+\\s+Fed\\.\\s+\\d+",
+          "description": "Federal reporters should use F., F.2d, F.3d not Fed.",
+          "incorrect_example": "Smith v. Jones, 400 Fed. 113",
+          "correct_example": "Smith v. Jones, 400 F.3d 113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.2.2",
+          "error_type": "Supreme Court reporter not abbreviated",
+          "regex_pattern": "\\d+\\s+Supreme Court Reporter\\s",
+          "description": "Supreme Court Reporter should be abbreviated S. Ct.",
+          "incorrect_example": "410 Supreme Court Reporter 113",
+          "correct_example": "410 S. Ct. 113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.2.3",
+          "error_type": "National Reporter Series region designation missing",
+          "regex_pattern": "\\d+\\s+Reporter\\s+\\d+",
+          "description": "Regional reporters need designation (N.E., S.E., etc.)",
+          "incorrect_example": "400 Reporter 113",
+          "correct_example": "400 N.E.2d 113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.2.4",
+          "error_type": "Federal Appendix citation incorrect format",
+          "regex_pattern": "\\d+\\s+F\\.A\\.\\s",
+          "description": "Federal Appendix should be cited as F. App'x not F.A.",
+          "incorrect_example": "400 F.A. 113",
+          "correct_example": "400 F. App'x 113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.2.5",
+          "error_type": "Later series not designated",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.(?!2d|3d)",
+          "description": "Reporter series should be properly designated",
+          "incorrect_example": "400 S.E. 113",
+          "correct_example": "400 S.E.3d 113",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.3.3": {
+      "id": "10.3.3",
+      "title": "Public Domain Format",
+      "description": "Citation format for public domain citations without volume/page",
+      "error_types": [
+        {
+          "id": "10.3.3.1",
+          "error_type": "Public domain format missing court designation",
+          "regex_pattern": "^\\d{4}-\\w+-\\d+$",
+          "description": "Public domain citation must include court designation",
+          "incorrect_example": "2022-AB-00113",
+          "correct_example": "2022-CAAPP-00113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.3.2",
+          "error_type": "Public domain citation year format incorrect",
+          "regex_pattern": "'?20\\d{2}-[A-Z]+-\\d+",
+          "description": "Public domain citation should use full year format",
+          "incorrect_example": "22-AB-00113 (should be 2022)",
+          "correct_example": "2022-AB-00113",
+          "severity": "high"
+        },
+        {
+          "id": "10.3.3.3",
+          "error_type": "Public domain missing paragraph",
+          "regex_pattern": "2022-[A-Z]+",
+          "description": "Public domain should include paragraph numbers when needed",
+          "incorrect_example": "2022-CAAPP-001",
+          "correct_example": "2022-CAAPP-001 \u00b6 5",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.4": {
+      "id": "10.4",
+      "title": "Court and Jurisdiction",
+      "description": "Rules for including court abbreviations when not obvious from reporter name",
+      "error_types": [
+        {
+          "id": "10.4.1",
+          "error_type": "Missing court designation for non-obvious reporter",
+          "regex_pattern": "\\d+\\s+N\\.E\\.[2-3d]?\\s+\\d+\\s+\\(\\d{4}\\)",
+          "description": "Non-obvious reporters need court abbreviation in parentheses",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (Ohio 1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.4.2",
+          "error_type": "Unnecessary court designation for obvious reporter",
+          "regex_pattern": "410 U\\.S\\. 113 \\(U\\.S\\. 1973\\)",
+          "description": "Obvious reporters (like U.S.) do not need court designation",
+          "incorrect_example": "Roe v. Wade, 410 U.S. 113 (U.S. 1973)",
+          "correct_example": "Roe v. Wade, 410 U.S. 113 (1973)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.4.3",
+          "error_type": "Court abbreviation not abbreviated",
+          "regex_pattern": "\\((?:United States|California|New York|Supreme Court)\\s+\\d{4}\\)",
+          "description": "Court names should be abbreviated per Table T1",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (California 1980)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (Cal. 1980)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.4.4",
+          "error_type": "Court designation incorrect for Federal Circuit",
+          "regex_pattern": "\\d+\\s+F\\.[2-3d]?\\s+\\d+\\s+\\(Fed\\.\\s",
+          "description": "Federal Circuit should use (Fed. Cir. not (Fed.)",
+          "incorrect_example": "Smith v. Jones, 400 F.3d 113 (Fed. 1980)",
+          "correct_example": "Smith v. Jones, 400 F.3d 113 (Fed. Cir. 1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.4.5",
+          "error_type": "Circuit court designation incomplete",
+          "regex_pattern": "\\d+\\s+F\\.[2-3d]?\\s+\\d+\\s+\\(([2-9])\\s",
+          "description": "Circuit courts should be designated as (1st Cir., 2nd Cir., etc.",
+          "incorrect_example": "Smith v. Jones, 400 F.3d 113 (2 1980)",
+          "correct_example": "Smith v. Jones, 400 F.3d 113 (2d Cir. 1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.4.6",
+          "error_type": "Wrong state abbreviation",
+          "regex_pattern": "\\(Calif\\.",
+          "description": "Use Table T1 for state abbreviations",
+          "incorrect_example": "(Calif. 1980)",
+          "correct_example": "(Cal. 1980)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.4.7",
+          "error_type": "Missing periods in abbreviation",
+          "regex_pattern": "\\(D C\\.",
+          "description": "Abbreviations need proper periods",
+          "incorrect_example": "(D C. 1980)",
+          "correct_example": "(D.C. 1980)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.4.8",
+          "error_type": "Generic court designation",
+          "regex_pattern": "\\(Trial",
+          "description": "Use specific court, not generic terms",
+          "incorrect_example": "(Trial Court 1980)",
+          "correct_example": "(N.D. Ill. 1980)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.5": {
+      "id": "10.5",
+      "title": "Date or Year",
+      "description": "Rules for including dates or years in parentheses following reporter citations",
+      "error_types": [
+        {
+          "id": "10.5.1",
+          "error_type": "Missing year in parentheses",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2?d?\\s+\\d+$",
+          "description": "Citation must include year in parentheses",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980)",
+          "severity": "critical"
+        },
+        {
+          "id": "10.5.2",
+          "error_type": "Year not in parentheses",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2?d?\\s+\\d+\\s+1\\d{3}",
+          "description": "Year should be in parentheses following page number",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 1980",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980)",
+          "severity": "critical"
+        },
+        {
+          "id": "10.5.3",
+          "error_type": "Full date used instead of year only",
+          "regex_pattern": "\\([A-Z][a-z]{2,8}\\s+\\d{1,2},?\\s+1\\d{3}\\)",
+          "description": "Citations should use year only, not full date",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (Jan. 15, 1980)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.5.4",
+          "error_type": "Year format incorrect",
+          "regex_pattern": "\\('?[5-9]\\d\\)",
+          "description": "Year should be full four-digit format",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (80)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.5.5",
+          "error_type": "Court designation and year both missing from parentheses",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2?d?\\s+\\d+\\s*$",
+          "description": "Parentheses must contain at minimum the year",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (Ohio 1980)",
+          "severity": "critical"
+        },
+        {
+          "id": "10.5.6",
+          "error_type": "Two-digit year",
+          "regex_pattern": "\\('?\\d{2}\\)",
+          "description": "Years must be four digits",
+          "incorrect_example": "('80)",
+          "correct_example": "(1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.5.7",
+          "error_type": "Duplicate year parentheses",
+          "regex_pattern": "\\(\\d{4}\\)\\s+\\(\\d{4}\\)",
+          "description": "Only one year parenthetical needed",
+          "incorrect_example": "(1980) (1981)",
+          "correct_example": "(1980)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.6": {
+      "id": "10.6",
+      "title": "Parenthetical Information Regarding Cases",
+      "description": "Rules for using parenthetical information about case holdings and weight of authority",
+      "error_types": [
+        {
+          "id": "10.6.1",
+          "error_type": "Missing parenthetical with case holding",
+          "regex_pattern": "citing\\s+[\\w\\s,]+\\s*\\(1\\d{3}\\)\\s*\\.",
+          "description": "Case citation should include brief holding in parenthetical",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980).",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (holding that...).  ",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.2",
+          "error_type": "Holding parenthetical not lowercase",
+          "regex_pattern": "\\(Holding.*\\)",
+          "description": "Parenthetical information should start with lowercase (except proper nouns)",
+          "incorrect_example": "(Holding that plaintiff was negligent)",
+          "correct_example": "(holding that plaintiff was negligent)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.3",
+          "error_type": "Parenthetical uses wrong tense",
+          "regex_pattern": "\\(holding[\\w\\s]*will[\\w\\s]*\\)",
+          "description": "Parentheticals should use past tense",
+          "incorrect_example": "(holding that court will find)",
+          "correct_example": "(holding that court found)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.4",
+          "error_type": "Parenthetical with unnecessary quotation",
+          "regex_pattern": "\\(.*\"[^\"]{20,}\".*\\)",
+          "description": "Parentheticals should paraphrase, not quote extensively",
+          "incorrect_example": "(holding that \"the plaintiff was found to be negligent in failing to observe the traffic light\")",
+          "correct_example": "(holding that plaintiff was negligent)",
+          "severity": "low"
+        },
+        {
+          "id": "10.6.5",
+          "error_type": "Unnecessary sic usage",
+          "regex_pattern": "\\[sic\\]",
+          "description": "[sic] only for actual text errors",
+          "incorrect_example": "(noting \"decision\" [sic])",
+          "correct_example": "(noting \"holding\")",
+          "severity": "low"
+        },
+        {
+          "id": "10.6.6",
+          "error_type": "Unclear affirmative/negative ruling",
+          "regex_pattern": "\\(rejecting.*claim",
+          "description": "Use clear language for ruling direction",
+          "incorrect_example": "(rejecting claim not negligent)",
+          "correct_example": "(rejecting claim of negligence)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.6.1": {
+      "id": "10.6.1",
+      "title": "Weight of Authority",
+      "description": "Parentheticals indicating strength of authority (overruled, reversed, etc.)",
+      "error_types": [
+        {
+          "id": "10.6.1.1",
+          "error_type": "Missing overruled parenthetical when case is overruled",
+          "regex_pattern": "Smith v. Jones.*\\(1980\\)\\s*,",
+          "description": "Overruled or reversed cases should include this in parenthetical",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980), reversed by",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (overruled by...)",
+          "severity": "high"
+        },
+        {
+          "id": "10.6.1.2",
+          "error_type": "Reversed status indicated incorrectly",
+          "regex_pattern": "\\(reversed by\\s+[\\w\\s,]+\\)",
+          "description": "Use proper format for authority changes",
+          "incorrect_example": "(reversed by Smith v. Jones)",
+          "correct_example": "(rev'd by Smith v. Jones)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.1.3",
+          "error_type": "Vacated status not properly indicated",
+          "regex_pattern": "\\(vacated",
+          "description": "Vacated cases need proper citation to vacating authority",
+          "incorrect_example": "(vacated)",
+          "correct_example": "(vacated by Smith v. Jones)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.1.4",
+          "error_type": "Overruling case not fully cited",
+          "regex_pattern": "\\(overruled by\\s+[A-Z]\\w+\\)",
+          "description": "Cite overruling case in full",
+          "incorrect_example": "(overruled by Jones)",
+          "correct_example": "(overruled by Smith v. Jones)",
+          "severity": "high"
+        }
+      ]
+    },
+    "10.6.2": {
+      "id": "10.6.2",
+      "title": "In-Chambers Opinions",
+      "description": "Parenthetical information for in-chambers or related procedural designations",
+      "error_types": [
+        {
+          "id": "10.6.2.1",
+          "error_type": "In-chambers opinion not indicated",
+          "regex_pattern": "per curiam",
+          "description": "In-chambers opinions should be indicated in parenthetical",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (per curiam)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.2.2",
+          "error_type": "Procedural designation format incorrect",
+          "regex_pattern": "\\(Per Curiam\\)|\\(Per Curiam Opinion\\)",
+          "description": "Per curiam should be lowercase italicized",
+          "incorrect_example": "(Per Curiam)",
+          "correct_example": "(*per curiam*)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.2.3",
+          "error_type": "Memorandum opinion not indicated",
+          "regex_pattern": "\\(\\d{4}\\)\\s*\\.",
+          "description": "Memorandum opinions need (mem.) designation",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980).",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (mem.).",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.6.3": {
+      "id": "10.6.3",
+      "title": "Quoting/Citing Parentheticals in Case Citations",
+      "description": "Format and usage of parentheticals containing quotes or citations",
+      "error_types": [
+        {
+          "id": "10.6.3.1",
+          "error_type": "Quote in parenthetical not properly attributed",
+          "regex_pattern": "\\(quoting",
+          "description": "Quoted material in parentheticals should use proper quoting verbs",
+          "incorrect_example": "(the court said \"negligence is...\")",
+          "correct_example": "(quoting Smith v. Jones)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.3.2",
+          "error_type": "Parenthetical quote too long",
+          "regex_pattern": "\\(\"[^\"]{100,}\"\\)",
+          "description": "Parenthetical quotes should be brief (50 words or less)",
+          "incorrect_example": "(stating that \"pursuant to the established doctrines of negligence law, where a party fails to exercise reasonable care...\")",
+          "correct_example": "(holding that negligence requires breach of duty)",
+          "severity": "low"
+        },
+        {
+          "id": "10.6.3.3",
+          "error_type": "Multiple cases in parenthetical",
+          "regex_pattern": "\\(citing\\s+\\w+;\\s+\\w+",
+          "description": "Multiple citations need proper formatting",
+          "incorrect_example": "(citing Jones; Smith)",
+          "correct_example": "(citing Smith); (citing Jones)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.6.4": {
+      "id": "10.6.4",
+      "title": "Order of Parentheticals",
+      "description": "Rules for ordering multiple parentheticals",
+      "error_types": [
+        {
+          "id": "10.6.4.1",
+          "error_type": "Parentheticals in wrong order",
+          "regex_pattern": "\\(citing.*\\)\\s+\\(holding.*\\)",
+          "description": "Holding parenthetical should precede citing parenthetical",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (citing...) (holding...)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (holding...) (citing...)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.6.4.2",
+          "error_type": "Multiple parentheticals not separated by space",
+          "regex_pattern": "\\)\\((?:holding|citing)",
+          "description": "Multiple parentheticals should be separated by a space",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980)(holding...)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (holding...)",
+          "severity": "low"
+        },
+        {
+          "id": "10.6.4.3",
+          "error_type": "Parenthetical punctuation error",
+          "regex_pattern": "\\)\\(\\w",
+          "description": "Parentheticals need space between them",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980)(holding)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (holding)",
+          "severity": "low"
+        }
+      ]
+    },
+    "10.7": {
+      "id": "10.7",
+      "title": "Prior and Subsequent History",
+      "description": "Rules for indicating prior and subsequent proceedings of a case",
+      "error_types": [
+        {
+          "id": "10.7.1",
+          "error_type": "Missing subsequent history for reversed case",
+          "regex_pattern": "reversed\\s+",
+          "description": "Cases that were reversed should include the reversal in the citation",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980), rev'd, 410 U.S. 113 (1981)",
+          "severity": "high"
+        },
+        {
+          "id": "10.7.2",
+          "error_type": "Subsequent history not properly introduced",
+          "regex_pattern": "\\d+\\s+[A-Z]\\.[A-Z]\\.2?d?\\s+\\d+.*reversed",
+          "description": "Subsequent history should use proper connector words",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980) reversed",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980), rev'd",
+          "severity": "high"
+        },
+        {
+          "id": "10.7.3",
+          "error_type": "Prior history not separated properly",
+          "regex_pattern": "affirming[\\w\\s,]+ \\d{4}\\)",
+          "description": "Prior and subsequent history should use proper connectors",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980) affirming",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980) (affirming...",
+          "severity": "medium"
+        },
+        {
+          "id": "10.7.4",
+          "error_type": "Subsequent history missing court",
+          "regex_pattern": "rev'd,\\s+\\d+",
+          "description": "Include court in subsequent history citation",
+          "incorrect_example": "rev'd, 410 U.S. 113",
+          "correct_example": "rev'd, Jones v. Smith, 410 U.S. 113",
+          "severity": "medium"
+        },
+        {
+          "id": "10.7.5",
+          "error_type": "Confusing history order",
+          "regex_pattern": "aff'd.*aff'd",
+          "description": "History should be chronological",
+          "incorrect_example": "aff'd (lower) aff'd (upper)",
+          "correct_example": "aff'd (upper) aff'd (supreme)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.7.1": {
+      "id": "10.7.1",
+      "title": "Explanatory Phrases and Weight of Authority",
+      "description": "Proper language for describing case history (affirmed, reversed, vacated, etc.)",
+      "error_types": [
+        {
+          "id": "10.7.1.1",
+          "error_type": "Incorrect abbreviation for case history term",
+          "regex_pattern": "(aff'd|revers'd|vacat'd|remand'd)",
+          "description": "Use proper abbreviations (aff'd, rev'd, vacated, remanded)",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980), aff'd by...",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980), aff'd...",
+          "severity": "medium"
+        },
+        {
+          "id": "10.7.1.2",
+          "error_type": "Using past tense instead of abbreviated form",
+          "regex_pattern": "(reversed|vacated|affirmed)\\s+by\\s+\\d",
+          "description": "Use abbreviated forms (rev'd, vacated, aff'd) in citations",
+          "incorrect_example": "reversed by Smith v. Jones",
+          "correct_example": "rev'd by Smith v. Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.7.1.3",
+          "error_type": "Missing connective in history phrase",
+          "regex_pattern": "\\(vacated\\)\\s+Smith v.",
+          "description": "History phrases need proper connectives (e.g., 'by')",
+          "incorrect_example": "(vacated) Smith v. Jones",
+          "correct_example": "(vacated by Smith v. Jones)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.7.1.4",
+          "error_type": "Modified status unclearly",
+          "regex_pattern": "\\(modified\\)$",
+          "description": "Specify scope of modification",
+          "incorrect_example": "(modified)",
+          "correct_example": "(modified by Smith v. Jones)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.7.2": {
+      "id": "10.7.2",
+      "title": "Different Case Name on Appeal",
+      "description": "Rules when case name changes on appeal",
+      "error_types": [
+        {
+          "id": "10.7.2.1",
+          "error_type": "Different appellate case name not indicated",
+          "regex_pattern": "rev'd by.*v\\. [A-Z]",
+          "description": "If case name differs on appeal, show both names with proper formatting",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980), rev'd by 410 U.S. 113 (1981)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (1980), rev'd, *Jones v. Smith*, 410 U.S. 113 (1981)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.7.2.2",
+          "error_type": "Case name change not properly formatted",
+          "regex_pattern": "sub nom\\.\\s+[a-z]",
+          "description": "Sub nom. should introduce different case name in proper format",
+          "incorrect_example": "sub nom. smith v. jones",
+          "correct_example": "*sub nom.* Smith v. Jones",
+          "severity": "low"
+        },
+        {
+          "id": "10.7.2.3",
+          "error_type": "Sub nom. case not italicized",
+          "regex_pattern": "sub nom\\.\\s+[A-Z]\\w+",
+          "description": "Sub nom. and case name should be italicized",
+          "incorrect_example": "sub nom. Smith v. Jones",
+          "correct_example": "sub nom. *Smith v. Jones*",
+          "severity": "low"
+        }
+      ]
+    },
+    "10.8": {
+      "id": "10.8",
+      "title": "Special Citation Forms",
+      "description": "Citation formats for pending cases, unreported cases, and special materials",
+      "error_types": [
+        {
+          "id": "10.8.1",
+          "error_type": "Pending case cited with publication year",
+          "regex_pattern": "\\(pending\\s+1\\d{3}\\)|\\(pending.*20[0-2]\\d\\)",
+          "description": "Pending cases should not include case year, use (2024) not (pending 1980)",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (pending 1980)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (2024) (pending)",
+          "severity": "high"
+        },
+        {
+          "id": "10.8.2",
+          "error_type": "Unreported case without docket number",
+          "regex_pattern": "v\\. [A-Z][a-z]+, No\\. \\((?:unpublished|unreported)",
+          "description": "Unreported cases should include docket number or case number",
+          "incorrect_example": "Smith v. Jones (unreported)",
+          "correct_example": "Smith v. Jones, No. 20-CV-001 (unreported)",
+          "severity": "high"
+        },
+        {
+          "id": "10.8.3",
+          "error_type": "Unpublished opinion without database info",
+          "regex_pattern": "\\(unpublished\\)\\s*\\.",
+          "description": "Unpublished opinions should cite to accessible database or file",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (unpublished)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (unpublished)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.7",
+          "error_type": "Pending vs unreported confusion",
+          "regex_pattern": "\\(pending\\)$",
+          "description": "Distinguish pending from unreported",
+          "incorrect_example": "Smith v. Jones (pending)",
+          "correct_example": "Smith v. Jones, No. 20-0001 (pending)",
+          "severity": "high"
+        },
+        {
+          "id": "10.8.8",
+          "error_type": "Case status ambiguous",
+          "regex_pattern": "\\(\\d{4}\\)$",
+          "description": "Clarify whether case is published",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (2024)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (2024) or No. 20-0001",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.8.1": {
+      "id": "10.8.1",
+      "title": "Pending and Unreported Cases",
+      "description": "Citation format for cases not yet published or still pending",
+      "error_types": [
+        {
+          "id": "10.8.1.1",
+          "error_type": "Pending case lacks docket number",
+          "regex_pattern": "v\\. [A-Z][a-z]+\\s+\\(pending\\)",
+          "description": "Pending cases should include docket number",
+          "incorrect_example": "Smith v. Jones (pending)",
+          "correct_example": "Smith v. Jones, No. 20-CV-001 (pending)",
+          "severity": "high"
+        },
+        {
+          "id": "10.8.1.2",
+          "error_type": "Unreported case docket format incorrect",
+          "regex_pattern": "No\\. \\d{2}-\\d{2}-\\d{3}",
+          "description": "Docket number format should match court's format",
+          "incorrect_example": "Smith v. Jones, No. 20-20-001 (unreported)",
+          "correct_example": "Smith v. Jones, No. 20-CV-001 (unreported)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.1.3",
+          "error_type": "Case with uncertain publication status",
+          "regex_pattern": "\\(2024\\)\\s+\\(unpublished\\)",
+          "description": "Recent cases should specify whether reported or unreported",
+          "incorrect_example": "Smith v. Jones (2024)",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 (2024) or Smith v. Jones, No. 20-CV-001 (2024) (unreported)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.1.4",
+          "error_type": "Pending case stage unclear",
+          "regex_pattern": "\\(pending\\)\\s*$",
+          "description": "Specify stage of pending case",
+          "incorrect_example": "Smith v. Jones, No. 20-0001 (pending)",
+          "correct_example": "Smith v. Jones, No. 20-0001 (pending appeal)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.1.5",
+          "error_type": "Unreported case database missing",
+          "regex_pattern": "\\(unreported\\)$",
+          "description": "Include database or file location for unreported cases",
+          "incorrect_example": "Smith v. Jones (unreported)",
+          "correct_example": "Smith v. Jones, No. 20-0001 (Ohio Ct. App. 2024) (unreported)",
+          "severity": "high"
+        }
+      ]
+    },
+    "10.8.2": {
+      "id": "10.8.2",
+      "title": "Fifth Circuit Split",
+      "description": "Specific citation format for Fifth Circuit panel decisions that split on an issue",
+      "error_types": [
+        {
+          "id": "10.8.2.1",
+          "error_type": "Fifth Circuit split not properly indicated",
+          "regex_pattern": "(5th\\s+Cir\\.|Fifth Circuit).*\\(panel[^)]*\\)",
+          "description": "Circuits with panel splits should indicate the split in parenthetical",
+          "incorrect_example": "Smith v. Jones, 400 F.3d 113 (5th Cir. 1980)",
+          "correct_example": "Smith v. Jones, 400 F.3d 113 (5th Cir. 1980) (panel split)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.2.2",
+          "error_type": "Fifth Circuit split notation wrong",
+          "regex_pattern": "\\(split[^)]*\\)",
+          "description": "Use specific format for circuit splits per Bluebook",
+          "incorrect_example": "(circuit split)",
+          "correct_example": "(noting split within circuit)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.2.3",
+          "error_type": "Fifth Circuit split not identified",
+          "regex_pattern": "\\(5th\\s+Cir\\.",
+          "description": "Identify Fifth Circuit panel splits",
+          "incorrect_example": "Smith v. Jones, 400 F.3d 113 (5th Cir.)",
+          "correct_example": "Smith v. Jones, 400 F.3d 113 (5th Cir.) (panel split)",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.8.3": {
+      "id": "10.8.3",
+      "title": "Briefs, Court Filings, and Transcripts",
+      "description": "Citation format for briefs and other court filings",
+      "error_types": [
+        {
+          "id": "10.8.3.1",
+          "error_type": "Brief missing document type designation",
+          "regex_pattern": "Brief,\\s+[A-Z][a-z]+\\s+v\\.",
+          "description": "Briefs should specify type (Brief for Appellant, etc.)",
+          "incorrect_example": "Brief, Smith v. Jones, 400 U.S. 113 (1980)",
+          "correct_example": "Brief for Appellant, Smith v. Jones, No. 20-0001 (filed...)",
+          "severity": "high"
+        },
+        {
+          "id": "10.8.3.2",
+          "error_type": "Transcript citation lacks page number",
+          "regex_pattern": "Transcript,",
+          "description": "Court transcript should include page or record reference",
+          "incorrect_example": "Transcript, Smith v. Jones, 400 U.S. 113 (1980)",
+          "correct_example": "Transcript at 25, Smith v. Jones, 400 U.S. 113 (1980)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.3.3",
+          "error_type": "Motion citation format incorrect",
+          "regex_pattern": "Mot\\.\\s+to|Motion\\s+to",
+          "description": "Court filings should use proper abbreviations",
+          "incorrect_example": "Motion to Dismiss, Smith v. Jones",
+          "correct_example": "Mot. to Dismiss, Smith v. Jones, No. 20-0001 (filed...)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.3.4",
+          "error_type": "Record citation incomplete",
+          "regex_pattern": "Record,",
+          "description": "Include page numbers in record citations",
+          "incorrect_example": "Record, Smith v. Jones",
+          "correct_example": "Record at 25, Smith v. Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.3.5",
+          "error_type": "Affidavit citation format wrong",
+          "regex_pattern": "Affidavit,",
+          "description": "Use proper format for affidavit citations",
+          "incorrect_example": "Affidavit, Smith v. Jones",
+          "correct_example": "Affidavit of Smith at 3",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.8.4": {
+      "id": "10.8.4",
+      "title": "Court Administrative Orders",
+      "description": "Citation format for administrative orders and rules",
+      "error_types": [
+        {
+          "id": "10.8.4.1",
+          "error_type": "Administrative order without proper court designation",
+          "regex_pattern": "Administrative Order,",
+          "description": "Administrative orders must specify issuing court",
+          "incorrect_example": "Administrative Order (1980)",
+          "correct_example": "Administrative Order No. 001, U.S. Dist. Ct. N.D. Cal. (1980)",
+          "severity": "high"
+        },
+        {
+          "id": "10.8.4.2",
+          "error_type": "Order number format missing or incorrect",
+          "regex_pattern": "Order\\s+(?:\\(|\\d)",
+          "description": "Orders should include order number designation",
+          "incorrect_example": "Order (1980)",
+          "correct_example": "Order No. 001 (1980)",
+          "severity": "medium"
+        },
+        {
+          "id": "10.8.4.3",
+          "error_type": "Local rule missing court",
+          "regex_pattern": "Local Rule\\s+\\d+",
+          "description": "Specify which court's rule",
+          "incorrect_example": "Local Rule 1",
+          "correct_example": "U.S. Dist. Ct. N.D. Ill. L.R. 1",
+          "severity": "high"
+        },
+        {
+          "id": "10.8.4.4",
+          "error_type": "Administrative order number missing",
+          "regex_pattern": "Administrative Order,",
+          "description": "Include order number",
+          "incorrect_example": "Administrative Order",
+          "correct_example": "Administrative Order No. 001",
+          "severity": "medium"
+        }
+      ]
+    },
+    "10.9": {
+      "id": "10.9",
+      "title": "Short Forms for Cases",
+      "description": "Rules for shortening case citations after full citation",
+      "error_types": [
+        {
+          "id": "10.9.1",
+          "error_type": "Short form used without prior full citation",
+          "regex_pattern": "^\\w+,\\s+\\d+\\s+[A-Z]\\.[A-Z]\\.2?d?",
+          "description": "Short forms can only be used after full citation has been given",
+          "incorrect_example": "Smith, 400 N.E.2d 113",
+          "correct_example": "[After full cite] Smith, 400 N.E.2d at 115",
+          "severity": "high"
+        },
+        {
+          "id": "10.9.2",
+          "error_type": "Id. used incorrectly with different source",
+          "regex_pattern": ".*\\n\\s*Id\\.\\s+",
+          "description": "Id. can only be used for immediately preceding source",
+          "incorrect_example": "[Previous cite: Smith v. Jones] Jones v. Brown... Id., 400 N.E.2d",
+          "correct_example": "[Previous cite: Smith v. Jones] Id., 400 N.E.2d at 115",
+          "severity": "high"
+        },
+        {
+          "id": "10.9.3",
+          "error_type": "Supra used without clear prior citation",
+          "regex_pattern": "supra,?\\s+(?!at|notes?)",
+          "description": "Supra should reference specific note or location",
+          "incorrect_example": "Smith v. Jones, supra",
+          "correct_example": "Smith v. Jones, supra note 5",
+          "severity": "medium"
+        },
+        {
+          "id": "10.9.4",
+          "error_type": "Hereinafter abbreviation not properly introduced",
+          "regex_pattern": "\\[hereinafter\\s+",
+          "description": "Hereinafter should be in brackets after full citation",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 hereinafter SJ",
+          "correct_example": "Smith v. Jones, 400 N.E.2d 113 [hereinafter SJ]",
+          "severity": "medium"
+        },
+        {
+          "id": "10.9.5",
+          "error_type": "Short form includes unnecessary information",
+          "regex_pattern": "\\w+\\s+v\\.\\s+\\w+,\\s+\\d+\\s+[A-Z]\\.2?d?\\s+\\d+\\s+\\(.*\\)$",
+          "description": "Short forms should omit reporter citations and year parentheses",
+          "incorrect_example": "Smith v. Jones, 400 N.E.2d 113 (1980) [as short form]",
+          "correct_example": "Smith, 400 N.E.2d at 115",
+          "severity": "medium"
+        },
+        {
+          "id": "10.9.6",
+          "error_type": "Pin-cite missing from short form",
+          "regex_pattern": "^[A-Z]\\w+,\\s+\\d+\\s+[A-Z]\\.2?d?$",
+          "description": "Short forms should include pin-cite page number",
+          "incorrect_example": "Smith, 400 N.E.2d",
+          "correct_example": "Smith, 400 N.E.2d at 115",
+          "severity": "high"
+        },
+        {
+          "id": "10.9.7",
+          "error_type": "Inconsistent short form usage",
+          "regex_pattern": "Jones,.*Jones v\\.",
+          "description": "Use consistent short form throughout",
+          "incorrect_example": "Jones... Jones v. Smith",
+          "correct_example": "Jones... Jones",
+          "severity": "medium"
+        },
+        {
+          "id": "10.9.8",
+          "error_type": "Supra note to non-existent note",
+          "regex_pattern": "supra\\s+note",
+          "description": "Verify note number exists",
+          "incorrect_example": "supra note 50 (only 20 notes)",
+          "correct_example": "supra note 5",
+          "severity": "high"
+        },
+        {
+          "id": "10.9.9",
+          "error_type": "Hereinafter abbreviation inconsistency",
+          "regex_pattern": "\\[hereinafter",
+          "description": "Use abbreviation consistently after introduction",
+          "incorrect_example": "[hereinafter SJ]... Smith v. Jones",
+          "correct_example": "[hereinafter SJ]... SJ",
+          "severity": "medium"
+        },
+        {
+          "id": "10.9.10",
+          "error_type": "Short form as first reference",
+          "regex_pattern": "^[A-Z]\\w+,\\s+\\d+",
+          "description": "Cannot use short form without prior full citation",
+          "incorrect_example": "[First] Smith, 400 N.E.2d at 115",
+          "correct_example": "[First] Smith v. Jones, 400 N.E.2d 113",
+          "severity": "high"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_subrules": 25,
+    "total_error_types": 125,
+    "error_categories": {
+      "case_names": 20,
+      "reporters": 15,
+      "court_jurisdiction": 10,
+      "dates_years": 10,
+      "parenthetical_info": 15,
+      "prior_subsequent_history": 10,
+      "special_forms": 15,
+      "short_forms": 10
+    },
+    "severity_distribution": {
+      "critical": 8,
+      "high": 42,
+      "medium": 52,
+      "low": 23
+    }
+  },
+  "rule_reference": {
+    "source": "Bluebook: A Uniform System of Citation (21st Edition)",
+    "section": "Part II - Case Names and Citations",
+    "rule_title": "Rule 10 - Cases",
+    "applicable_contexts": [
+      "Law review articles",
+      "Court pleadings",
+      "Briefs and motions",
+      "Legal memoranda",
+      "Scholarly publications"
+    ]
+  }
+}

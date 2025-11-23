@@ -1,0 +1,1015 @@
+{
+  "analysis_metadata": {
+    "version": "1.0.0",
+    "created_date": "2025-11-23",
+    "rules_covered": [11, 12, 13],
+    "rule_details": {
+      "rule_11": {
+        "title": "Constitutions",
+        "subrules_count": 0,
+        "has_content": true
+      },
+      "rule_12": {
+        "title": "Statutes",
+        "subrules_count": 21,
+        "subrules": ["12.1", "12.2", "12.2.1", "12.2.2", "12.3", "12.3.1", "12.3.2", "12.4", "12.5", "12.6", "12.7", "12.7.1", "12.7.2", "12.7.3", "12.7.4", "12.8", "12.9", "12.9.1", "12.9.2", "12.9.3", "12.9.4", "12.9.5", "12.10"]
+      },
+      "rule_13": {
+        "title": "Legislative Materials",
+        "subrules_count": 8,
+        "subrules": ["13.1", "13.2", "13.3", "13.4", "13.5", "13.6", "13.7", "13.8"]
+      }
+    },
+    "total_subrules": 29,
+    "total_error_types": 84
+  },
+  "error_categories": {
+    "rule_11_errors": {
+      "rule_id": 11,
+      "rule_title": "Constitutions",
+      "error_count": 12,
+      "errors": [
+        {
+          "error_id": "R11_E001",
+          "error_code": "CONST_ABBREV_MISSING_US",
+          "severity": "high",
+          "category": "Abbreviation",
+          "description": "Missing 'U.S.' abbreviation in U.S. Constitution citation",
+          "violation": "Rule 11 requires abbreviating 'U.S. Constitution' to 'U.S. Const.' in citations",
+          "example_incorrect": "United States Constitution art. I, § 8",
+          "example_correct": "U.S. Const. art. I, § 8",
+          "remediation": "Use 'U.S. Const.' abbreviation for U.S. Constitution citations"
+        },
+        {
+          "error_id": "R11_E002",
+          "error_code": "CONST_ABBREV_INCOMPLETE",
+          "severity": "high",
+          "category": "Abbreviation",
+          "description": "Using full 'U.S. Constitution' instead of abbreviated form in citation",
+          "violation": "Rule 11 mandates abbreviation in citation format",
+          "example_incorrect": "U.S. Constitution art. II, § 3",
+          "example_correct": "U.S. Const. art. II, § 3",
+          "remediation": "Always abbreviate U.S. Constitution to 'U.S. Const.' in citations"
+        },
+        {
+          "error_id": "R11_E003",
+          "error_code": "STATE_CONST_MISSING_NAME",
+          "severity": "high",
+          "category": "State Citation",
+          "description": "Missing state abbreviation in state constitution citation",
+          "violation": "Rule 11 requires state abbreviation for state constitutions (e.g., 'N.Y. Const.')",
+          "example_incorrect": "Const. art. VI, § 2",
+          "example_correct": "N.Y. Const. art. VI, § 2",
+          "remediation": "Include state abbreviation in state constitution citations"
+        },
+        {
+          "error_id": "R11_E004",
+          "error_code": "STATE_CONST_ABBREV_WRONG",
+          "severity": "high",
+          "category": "State Citation",
+          "description": "Incorrect state abbreviation used in state constitution citation",
+          "violation": "Rule 11 requires accurate state abbreviations",
+          "example_incorrect": "Ca. Const. art. I, § 1 (should be Cal.)",
+          "example_correct": "Cal. Const. art. I, § 1",
+          "remediation": "Use correct state abbreviation per Bluebook Table 10"
+        },
+        {
+          "error_id": "R11_E005",
+          "error_code": "CONST_IMPROPER_DATE",
+          "severity": "medium",
+          "category": "Dating",
+          "description": "Including unnecessary date in constitution citation",
+          "violation": "Rule 11 states: 'Do not include dates for constitutions in citations'",
+          "example_incorrect": "U.S. Const. art. I, § 8 (1787)",
+          "example_correct": "U.S. Const. art. I, § 8",
+          "remediation": "Remove date from constitution citations unless specifically discussing historical versions"
+        },
+        {
+          "error_id": "R11_E006",
+          "error_code": "CONST_ARTICLE_NOTATION_WRONG",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Incorrect article notation abbreviation",
+          "violation": "Rule 11 requires proper abbreviations like 'art.' for articles",
+          "example_incorrect": "U.S. Const. Article I, § 8",
+          "example_correct": "U.S. Const. art. I, § 8",
+          "remediation": "Use 'art.' for article, 'amend.' for amendment abbreviations"
+        },
+        {
+          "error_id": "R11_E007",
+          "error_code": "CONST_SECTION_SYMBOL_MISSING",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Missing section symbol (§) in constitution citation",
+          "violation": "Rule 11 requires section symbols for constitutional sections",
+          "example_incorrect": "U.S. Const. art. I, 8",
+          "example_correct": "U.S. Const. art. I, § 8",
+          "remediation": "Include section symbol (§) before section numbers"
+        },
+        {
+          "error_id": "R11_E008",
+          "error_code": "CONST_AMENDMENT_ABBREV_WRONG",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Using 'Amendment' instead of abbreviated 'amend.'",
+          "violation": "Rule 11 requires abbreviations including 'amend.' for amendments",
+          "example_incorrect": "U.S. Const. Amendment XIV",
+          "example_correct": "U.S. Const. amend. XIV",
+          "remediation": "Abbreviate amendments as 'amend.'"
+        },
+        {
+          "error_id": "R11_E009",
+          "error_code": "CONST_MISSING_SECTION_NUMBER",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Missing section number when section is referenced",
+          "violation": "Rule 11 requires section numbers in citations",
+          "example_incorrect": "U.S. Const. art. I",
+          "example_correct": "U.S. Const. art. I, § 8",
+          "remediation": "Include specific section numbers when available"
+        },
+        {
+          "error_id": "R11_E010",
+          "error_code": "CONST_CAPITALIZATION_IMPROPER",
+          "severity": "medium",
+          "category": "Formatting",
+          "description": "Improper capitalization in constitution citation elements",
+          "violation": "Rule 11 requires lowercase abbreviations and proper formatting",
+          "example_incorrect": "U.S. CONST. Art. I, § 8",
+          "example_correct": "U.S. Const. art. I, § 8",
+          "remediation": "Use lowercase for article and amendment abbreviations"
+        },
+        {
+          "error_id": "R11_E011",
+          "error_code": "CONST_REPROBLEM_CLAUSE_NOTATION",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Improper notation for constitutional clauses",
+          "violation": "Rule 11 requires proper clause abbreviations like 'cl.'",
+          "example_incorrect": "U.S. Const. art. I, § 8 (clause 1)",
+          "example_correct": "U.S. Const. art. I, § 8, cl. 1",
+          "remediation": "Use 'cl.' abbreviation for constitutional clauses"
+        },
+        {
+          "error_id": "R11_E012",
+          "error_code": "CONST_CONTEXTUAL_DROP_WRONG",
+          "severity": "medium",
+          "category": "Abbreviation",
+          "description": "Improperly dropping 'U.S.' or state name in subsequent references when context is unclear",
+          "violation": "Rule 11 allows dropping name only if obvious from context",
+          "example_incorrect": "First: U.S. Const. art. I, § 8. Later in different section: Const. art. II, § 1",
+          "example_correct": "First: U.S. Const. art. I, § 8. Later (with clear context): Const. art. II, § 1",
+          "remediation": "Only drop U.S./state name if immediately clear which constitution is referenced"
+        }
+      ]
+    },
+    "rule_12_errors": {
+      "rule_id": 12,
+      "rule_title": "Statutes",
+      "error_count": 52,
+      "errors": [
+        {
+          "error_id": "R12_E001",
+          "error_code": "STAT_TITLE_MISSING",
+          "severity": "high",
+          "category": "Basic Citation Format",
+          "description": "Missing statute title in citation",
+          "violation": "Rule 12.1 requires statute title or official code reference",
+          "example_incorrect": "§ 1983",
+          "example_correct": "42 U.S.C. § 1983 (2018)",
+          "remediation": "Always include title, code, and section in statute citations"
+        },
+        {
+          "error_id": "R12_E002",
+          "error_code": "STAT_CODE_ABBREV_MISSING",
+          "severity": "high",
+          "category": "Code Reference",
+          "description": "Missing code abbreviation (e.g., 'U.S.C.')",
+          "violation": "Rule 12.1 requires code abbreviation",
+          "example_incorrect": "42 § 1983 (2018)",
+          "example_correct": "42 U.S.C. § 1983 (2018)",
+          "remediation": "Include proper code abbreviation (U.S.C., N.Y. Penal Law, etc.)"
+        },
+        {
+          "error_id": "R12_E003",
+          "error_code": "STAT_CODE_ABBREV_WRONG",
+          "severity": "high",
+          "category": "Code Reference",
+          "description": "Incorrect code abbreviation used",
+          "violation": "Rule 12.1 requires proper code abbreviations",
+          "example_incorrect": "42 USCA § 1983 (2018)",
+          "example_correct": "42 U.S.C.A. § 1983 (2018)",
+          "remediation": "Use correct code abbreviations per Bluebook Table 1"
+        },
+        {
+          "error_id": "R12_E004",
+          "error_code": "STAT_YEAR_MISSING",
+          "severity": "high",
+          "category": "Dating",
+          "description": "Missing year in parentheses for statute citation",
+          "violation": "Rule 12 requires year in parentheses",
+          "example_incorrect": "42 U.S.C. § 1983",
+          "example_correct": "42 U.S.C. § 1983 (2018)",
+          "remediation": "Include year in parentheses for all statute citations (except current U.S.C. per 21st ed.)"
+        },
+        {
+          "error_id": "R12_E005",
+          "error_code": "STAT_YEAR_WRONG",
+          "severity": "high",
+          "category": "Dating",
+          "description": "Using incorrect year in statute citation",
+          "violation": "Rule 12.3.2 requires edition year, not effective date",
+          "example_incorrect": "42 U.S.C. § 1983 (2010)",
+          "example_correct": "42 U.S.C. § 1983 (2018)",
+          "remediation": "Use code edition year, not effective date or passage date"
+        },
+        {
+          "error_id": "R12_E006",
+          "error_code": "STAT_SECTION_SYMBOL_MISSING",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Missing section symbol (§) in statute citation",
+          "violation": "Rule 12.1 requires section symbol",
+          "example_incorrect": "42 U.S.C. 1983 (2018)",
+          "example_correct": "42 U.S.C. § 1983 (2018)",
+          "remediation": "Always include section symbol (§) before section number"
+        },
+        {
+          "error_id": "R12_E007",
+          "error_code": "STAT_SECTION_NUMBER_MISSING",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Missing section number in statute citation",
+          "violation": "Rule 12.1 requires section number",
+          "example_incorrect": "42 U.S.C. (2018)",
+          "example_correct": "42 U.S.C. § 1983 (2018)",
+          "remediation": "Include section number after section symbol"
+        },
+        {
+          "error_id": "R12_E008",
+          "error_code": "STAT_DOUBLE_SECTION_MISSING",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Missing double section symbol (§§) for multiple sections",
+          "violation": "Rule 12 requires §§ for ranges or multiple sections",
+          "example_incorrect": "42 U.S.C. §§ 9601-9675 cited as § 9601-9675",
+          "example_correct": "42 U.S.C. §§ 9601-9675",
+          "remediation": "Use §§ (double section symbol) for ranges or multiple sections"
+        },
+        {
+          "error_id": "R12_E009",
+          "error_code": "STAT_SECTION_RANGE_FORMAT",
+          "severity": "high",
+          "category": "Notation",
+          "description": "Incorrect format for section range (missing dash or brackets)",
+          "violation": "Rule 12 requires proper range notation",
+          "example_incorrect": "42 U.S.C. §§ 9601 to 9675",
+          "example_correct": "42 U.S.C. §§ 9601-9675",
+          "remediation": "Use hyphen/dash for section ranges without 'to' or 'through'"
+        },
+        {
+          "error_id": "R12_E010",
+          "error_code": "STAT_UNOFFICIAL_CODE_NO_INDICATOR",
+          "severity": "medium",
+          "category": "Unofficial Code",
+          "description": "Using unofficial code without publisher or year indication",
+          "violation": "Rule 12.3 requires indication when using unofficial code",
+          "example_incorrect": "42 U.S.C.A. § 1983",
+          "example_correct": "42 U.S.C.A. § 1983 (West 2018)",
+          "remediation": "Add publisher and year when using unofficial codes (U.S.C.A., U.S.C.S.)"
+        },
+        {
+          "error_id": "R12_E011",
+          "error_code": "STAT_SUPPLEMENT_NOTATION_WRONG",
+          "severity": "high",
+          "category": "Supplements",
+          "description": "Incorrect supplement notation format",
+          "violation": "Rule 12.3 requires proper 'Supp.' format for supplements",
+          "example_incorrect": "42 U.S.C. § 1983 (Supplement 2020)",
+          "example_correct": "42 U.S.C. § 1983 (Supp. 2020)",
+          "remediation": "Use 'Supp.' abbreviation with year for supplements"
+        },
+        {
+          "error_id": "R12_E012",
+          "error_code": "STAT_SUPPLEMENT_MISSING",
+          "severity": "high",
+          "category": "Supplements",
+          "description": "Missing supplement designation when citing from supplement",
+          "violation": "Rule 12.3 requires indicating when citing supplement",
+          "example_incorrect": "42 U.S.C. § 1983 (2020)",
+          "example_correct": "42 U.S.C. § 1983 (Supp. 2020)",
+          "remediation": "Include 'Supp.' designation when statute cited from supplement"
+        },
+        {
+          "error_id": "R12_E013",
+          "error_code": "STAT_SESSION_LAW_PREFERENCE",
+          "severity": "high",
+          "category": "Code Selection",
+          "description": "Citing session law when official code is available",
+          "violation": "Rule 12.2.1 requires citing official code if available",
+          "example_incorrect": "Civil Rights Act of 1964, Pub. L. No. 88-352, 78 Stat. 241 (1964)",
+          "example_correct": "42 U.S.C. § 1981 (2018)",
+          "remediation": "Cite official code unless statute not yet codified"
+        },
+        {
+          "error_id": "R12_E014",
+          "error_code": "STAT_STATE_ABBREV_MISSING",
+          "severity": "high",
+          "category": "State Citation",
+          "description": "Missing jurisdiction abbreviation in state statute citation",
+          "violation": "Rule 12.3 requires state abbreviation for clarity",
+          "example_incorrect": "Code Ann. § 15-101 (2018)",
+          "example_correct": "Ariz. Rev. Stat. Ann. § 15-101 (2018)",
+          "remediation": "Include state abbreviation in state statute citations"
+        },
+        {
+          "error_id": "R12_E015",
+          "error_code": "STAT_STATE_ABBREV_WRONG",
+          "severity": "high",
+          "category": "State Citation",
+          "description": "Incorrect state abbreviation in statute citation",
+          "violation": "Rule 12.3 requires proper state abbreviations",
+          "example_incorrect": "Ar. Rev. Stat. Ann. § 15-101 (2018)",
+          "example_correct": "Ariz. Rev. Stat. Ann. § 15-101 (2018)",
+          "remediation": "Use correct state abbreviation per Bluebook Table 10"
+        },
+        {
+          "error_id": "R12_E016",
+          "error_code": "STAT_CODE_NAME_WRONG",
+          "severity": "high",
+          "category": "Code Reference",
+          "description": "Using wrong code name abbreviation for state",
+          "violation": "Rule 12.3 requires proper code name abbreviation per jurisdiction",
+          "example_incorrect": "Ariz. Stat. § 15-101 (2018)",
+          "example_correct": "Ariz. Rev. Stat. Ann. § 15-101 (2018)",
+          "remediation": "Use correct code name abbreviation per Bluebook Table 1"
+        },
+        {
+          "error_id": "R12_E017",
+          "error_code": "STAT_PUBLISHER_MISSING_UNOFFICIAL",
+          "severity": "medium",
+          "category": "Unofficial Code",
+          "description": "Missing publisher designation for unofficial code",
+          "violation": "Rule 12.3 recommends indicating publisher for unofficial codes",
+          "example_incorrect": "42 U.S.C.A. § 1983 (2018)",
+          "example_correct": "42 U.S.C.A. § 1983 (West 2018)",
+          "remediation": "Add publisher (West, Lexis) for unofficial codes in court documents"
+        },
+        {
+          "error_id": "R12_E018",
+          "error_code": "STAT_PUBLIC_LAW_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Session Law",
+          "description": "Incorrect Public Law citation format",
+          "violation": "Rule 12.4 requires 'Pub. L. No.' format for session laws",
+          "example_incorrect": "Public Law 88-352",
+          "example_correct": "Pub. L. No. 88-352",
+          "remediation": "Use 'Pub. L. No.' format for public law citations"
+        },
+        {
+          "error_id": "R12_E019",
+          "error_code": "STAT_SESSION_LAW_REPORTER_WRONG",
+          "severity": "high",
+          "category": "Session Law",
+          "description": "Incorrect reporter abbreviation in session law citation",
+          "violation": "Rule 12.4 requires correct reporter abbreviations",
+          "example_incorrect": "Pub. L. No. 88-352, 78 Statutes 241 (1964)",
+          "example_correct": "Pub. L. No. 88-352, 78 Stat. 241 (1964)",
+          "remediation": "Use 'Stat.' abbreviation for United States Statutes at Large"
+        },
+        {
+          "error_id": "R12_E020",
+          "error_code": "STAT_VOLUME_NUMBER_MISSING",
+          "severity": "high",
+          "category": "Session Law",
+          "description": "Missing volume number in session law citation",
+          "violation": "Rule 12.4 requires volume number",
+          "example_incorrect": "Pub. L. No. 88-352, Stat. 241 (1964)",
+          "example_correct": "Pub. L. No. 88-352, 78 Stat. 241 (1964)",
+          "remediation": "Include volume number before reporter abbreviation"
+        },
+        {
+          "error_id": "R12_E021",
+          "error_code": "STAT_PAGE_NUMBER_MISSING",
+          "severity": "high",
+          "category": "Session Law",
+          "description": "Missing page number in session law citation",
+          "violation": "Rule 12.4 requires page number",
+          "example_incorrect": "Pub. L. No. 88-352 (1964)",
+          "example_correct": "Pub. L. No. 88-352, 78 Stat. 241 (1964)",
+          "remediation": "Include page number after reporter abbreviation"
+        },
+        {
+          "error_id": "R12_E022",
+          "error_code": "STAT_ELECTRONIC_DB_CURRENCY_MISSING",
+          "severity": "medium",
+          "category": "Electronic Databases",
+          "description": "Missing database currency indicator for online statute",
+          "violation": "Rule 12.5 requires database and currency information",
+          "example_incorrect": "42 U.S.C. § 1983 (LEXIS)",
+          "example_correct": "42 U.S.C. § 1983 (LEXIS through Pub. L. No. 116-140)",
+          "remediation": "Add currency information in parenthetical for electronic databases"
+        },
+        {
+          "error_id": "R12_E023",
+          "error_code": "STAT_ELECTRONIC_DB_NAME_WRONG",
+          "severity": "medium",
+          "category": "Electronic Databases",
+          "description": "Incorrect database name or designation",
+          "violation": "Rule 12.5 requires proper database abbreviations",
+          "example_incorrect": "42 U.S.C. § 1983 (LEXUS through Pub. L. No. 116-140)",
+          "example_correct": "42 U.S.C. § 1983 (LEXIS through Pub. L. No. 116-140)",
+          "remediation": "Use correct database abbreviations (LEXIS, Westlaw, etc.)"
+        },
+        {
+          "error_id": "R12_E024",
+          "error_code": "STAT_INVALIDATION_MISSING",
+          "severity": "high",
+          "category": "Prior History",
+          "description": "Missing parenthetical indicating statute invalidity",
+          "violation": "Rule 12.7.1 requires noting when statute held unconstitutional",
+          "example_incorrect": "18 U.S.C. § 3501 (2000)",
+          "example_correct": "18 U.S.C. § 3501 (2000) (held unconstitutional by Dickerson v. United States, 530 U.S. 428 (2000))",
+          "remediation": "Add parenthetical indicating basis of invalidation with case citation"
+        },
+        {
+          "error_id": "R12_E025",
+          "error_code": "STAT_INVALIDATION_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Prior History",
+          "description": "Incorrect format for invalidation parenthetical",
+          "violation": "Rule 12.7.1 requires specific format for invalidation citations",
+          "example_incorrect": "18 U.S.C. § 3501 (held unconstitutional)",
+          "example_correct": "18 U.S.C. § 3501 (held unconstitutional by Dickerson v. United States, 530 U.S. 428 (2000))",
+          "remediation": "Include case citation and year in invalidation parenthetical"
+        },
+        {
+          "error_id": "R12_E026",
+          "error_code": "STAT_REPEAL_MISSING",
+          "severity": "medium",
+          "category": "Prior History",
+          "description": "Missing notation of statute repeal",
+          "violation": "Rule 12.7.2 may require noting repeal if discussing historical version",
+          "example_incorrect": "42 U.S.C. § 6000 (1988)",
+          "example_correct": "42 U.S.C. § 6000 (1988) (repealed 1992)",
+          "remediation": "Include repeal information when citing historical statute versions"
+        },
+        {
+          "error_id": "R12_E027",
+          "error_code": "STAT_REPEAL_FORMAT_WRONG",
+          "severity": "medium",
+          "category": "Prior History",
+          "description": "Incorrect format for repeal notation",
+          "violation": "Rule 12.7.2 requires proper repeal citation format",
+          "example_incorrect": "42 U.S.C. § 6000 (repealed by Pub. L. No. 95-91 in 1992)",
+          "example_correct": "42 U.S.C. § 6000 (1988) (repealed 1992)",
+          "remediation": "Use simplified repeal format: (repealed YEAR)"
+        },
+        {
+          "error_id": "R12_E028",
+          "error_code": "STAT_SHORT_FORM_SUPRA_PROHIBITED",
+          "severity": "high",
+          "category": "Short Form",
+          "description": "Using 'supra' for statute short form (prohibited by Bluebook)",
+          "violation": "Rule 12.10 prohibits using 'supra' for statute citations",
+          "example_incorrect": "Id. at 10. See supra note 5 (quoting 42 U.S.C. § 1983)",
+          "example_correct": "Id. at 10. See 42 U.S.C. § 1983",
+          "remediation": "Use Id., statute abbreviation, or full citation; never use supra for statutes"
+        },
+        {
+          "error_id": "R12_E029",
+          "error_code": "STAT_SHORT_FORM_REDUNDANT",
+          "severity": "medium",
+          "category": "Short Form",
+          "description": "Using full citation instead of appropriate short form",
+          "violation": "Rule 12.10 encourages efficient short forms after full citation",
+          "example_incorrect": "First cite: 42 U.S.C. § 1983 (2018). Later cite: 42 U.S.C. § 1983 (2018)",
+          "example_correct": "First cite: 42 U.S.C. § 1983 (2018). Later cite: § 1983",
+          "remediation": "Use abbreviated short form (§ number) when statute previously cited in full"
+        },
+        {
+          "error_id": "R12_E030",
+          "error_code": "STAT_IRC_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Incorrect Internal Revenue Code citation format",
+          "violation": "Rule 12.9.1 requires 'I.R.C.' for IRC citations",
+          "example_incorrect": "26 U.S.C. Section 61",
+          "example_correct": "I.R.C. § 61",
+          "remediation": "Use 'I.R.C.' abbreviation for Internal Revenue Code citations"
+        },
+        {
+          "error_id": "R12_E031",
+          "error_code": "STAT_IRC_YEAR_INCLUDED_WRONG",
+          "severity": "medium",
+          "category": "Special Forms",
+          "description": "Including unnecessary year in IRC citation",
+          "violation": "Rule 12.9.1 typically omits year for current I.R.C.",
+          "example_incorrect": "I.R.C. § 61 (2018)",
+          "example_correct": "I.R.C. § 61",
+          "remediation": "Omit year for current IRC citations unless discussing historical version"
+        },
+        {
+          "error_id": "R12_E032",
+          "error_code": "STAT_ORDINANCE_JURISDICTION_MISSING",
+          "severity": "high",
+          "category": "Ordinances",
+          "description": "Missing jurisdiction designation in ordinance citation",
+          "violation": "Rule 12.9.2 requires jurisdiction identification",
+          "example_incorrect": "Municipal Code § 8-4-015 (2020)",
+          "example_correct": "Chicago, Ill., Municipal Code § 8-4-015 (2020)",
+          "remediation": "Include municipality and state abbreviation in ordinance citations"
+        },
+        {
+          "error_id": "R12_E033",
+          "error_code": "STAT_ORDINANCE_CODE_TYPE_MISSING",
+          "severity": "high",
+          "category": "Ordinances",
+          "description": "Missing indication that ordinance is from a code",
+          "violation": "Rule 12.9.2 requires specifying if ordinal is codified",
+          "example_incorrect": "Chicago, Ill. § 8-4-015 (2020)",
+          "example_correct": "Chicago, Ill., Municipal Code § 8-4-015 (2020)",
+          "remediation": "Include type of ordinance source (Municipal Code, Ordinance, etc.)"
+        },
+        {
+          "error_id": "R12_E034",
+          "error_code": "STAT_FED_RULE_ABBREV_WRONG",
+          "severity": "high",
+          "category": "Federal Rules",
+          "description": "Incorrect Federal Rules abbreviation",
+          "violation": "Rule 12.9.3 requires proper 'Fed. R. [Type] P.' format",
+          "example_incorrect": "F.R. Civ. P. 56",
+          "example_correct": "Fed. R. Civ. P. 56",
+          "remediation": "Use 'Fed. R.' abbreviation with correct rule type (Civ., Crim., Evid., App.)"
+        },
+        {
+          "error_id": "R12_E035",
+          "error_code": "STAT_FED_RULE_TYPE_WRONG",
+          "severity": "high",
+          "category": "Federal Rules",
+          "description": "Incorrect Federal Rules type abbreviation",
+          "violation": "Rule 12.9.3 requires correct type (Civ., Crim., Evid., App.)",
+          "example_incorrect": "Fed. R. Civil P. 56",
+          "example_correct": "Fed. R. Civ. P. 56",
+          "remediation": "Use proper abbreviation: Civ., Crim., Evid., or App."
+        },
+        {
+          "error_id": "R12_E036",
+          "error_code": "STAT_FED_RULE_NUMBER_MISSING",
+          "severity": "high",
+          "category": "Federal Rules",
+          "description": "Missing rule number in Federal Rules citation",
+          "violation": "Rule 12.9.3 requires rule number",
+          "example_incorrect": "Fed. R. Civ. P.",
+          "example_correct": "Fed. R. Civ. P. 56",
+          "remediation": "Include specific rule number after rule type"
+        },
+        {
+          "error_id": "R12_E037",
+          "error_code": "STAT_MODEL_CODE_ABBREV_WRONG",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Incorrect Model Code abbreviation",
+          "violation": "Rule 12.9.4 requires proper Model Code citation format",
+          "example_incorrect": "M.P.C. § 210.3",
+          "example_correct": "Model Penal Code § 210.3",
+          "remediation": "Use 'Model Penal Code' (not abbreviated) with proper section reference"
+        },
+        {
+          "error_id": "R12_E038",
+          "error_code": "STAT_MODEL_CODE_PUBLISHER_MISSING",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Missing publisher information for Model Code citation",
+          "violation": "Rule 12.9.4 requires publisher and year",
+          "example_incorrect": "Model Penal Code § 210.3",
+          "example_correct": "Model Penal Code § 210.3 (Am. Law Inst. 1962)",
+          "remediation": "Include '(Am. Law Inst. YEAR)' in parenthetical"
+        },
+        {
+          "error_id": "R12_E039",
+          "error_code": "STAT_RESTATEMENT_EDITION_MISSING",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Missing edition designation in Restatement citation",
+          "violation": "Rule 12.9.4 requires edition number",
+          "example_incorrect": "Restatement of Contracts § 90",
+          "example_correct": "Restatement (Second) of Contracts § 90",
+          "remediation": "Include edition: (First), (Second), (Third), etc."
+        },
+        {
+          "error_id": "R12_E040",
+          "error_code": "STAT_RESTATEMENT_YEAR_MISSING",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Missing year in Restatement citation",
+          "violation": "Rule 12.9.4 requires year of Restatement publication",
+          "example_incorrect": "Restatement (Second) of Contracts § 90",
+          "example_correct": "Restatement (Second) of Contracts § 90 (Am. Law Inst. 1981)",
+          "remediation": "Add '(Am. Law Inst. YEAR)' in parenthetical"
+        },
+        {
+          "error_id": "R12_E041",
+          "error_code": "STAT_UCC_ABBREV_WRONG",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Incorrect Uniform Commercial Code abbreviation",
+          "violation": "Rule 12.9.4 requires proper UCC citation format",
+          "example_incorrect": "U.C.C. Section 2-201",
+          "example_correct": "U.C.C. § 2-201",
+          "remediation": "Use section symbol and proper UCC abbreviation"
+        },
+        {
+          "error_id": "R12_E042",
+          "error_code": "STAT_UCC_PUBLISHERS_MISSING",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Missing publisher information for UCC citation",
+          "violation": "Rule 12.9.4 requires publisher identification",
+          "example_incorrect": "U.C.C. § 2-201 (2017)",
+          "example_correct": "U.C.C. § 2-201 (Am. Law Inst. & Unif. Law Comm'n 2017)",
+          "remediation": "Include '(Am. Law Inst. & Unif. Law Comm'n YEAR)'"
+        },
+        {
+          "error_id": "R12_E043",
+          "error_code": "STAT_ABA_MODEL_RULES_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Incorrect ABA Model Rules citation format",
+          "violation": "Rule 12.9.5 requires proper ABA Model Rules format",
+          "example_incorrect": "ABA Model Rules of Professional Conduct 1.7",
+          "example_correct": "Model Rules of Prof. Conduct r. 1.7",
+          "remediation": "Use 'Model Rules of Prof. Conduct r.' with rule number and year"
+        },
+        {
+          "error_id": "R12_E044",
+          "error_code": "STAT_ABA_MODEL_RULES_YEAR_MISSING",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Missing year in ABA Model Rules citation",
+          "violation": "Rule 12.9.5 requires year",
+          "example_incorrect": "Model Rules of Prof. Conduct r. 1.7",
+          "example_correct": "Model Rules of Prof. Conduct r. 1.7 (Am. Bar Ass'n 2020)",
+          "remediation": "Add '(Am. Bar Ass'n YEAR)' in parenthetical"
+        },
+        {
+          "error_id": "R12_E045",
+          "error_code": "STAT_ETHICS_OPINION_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Special Forms",
+          "description": "Incorrect format for ABA ethics opinion citation",
+          "violation": "Rule 12.9.5 requires specific ethics opinion format",
+          "example_incorrect": "ABA Opinion 466",
+          "example_correct": "ABA Comm. on Ethics & Prof. Resp., Formal Op. 466 (2014)",
+          "remediation": "Use full format: 'ABA Comm. on Ethics & Prof. Resp., Formal Op. [NUMBER] ([YEAR])'"
+        },
+        {
+          "error_id": "R12_E046",
+          "error_code": "STAT_EXPLANATORY_PAREN_MISSING",
+          "severity": "medium",
+          "category": "Parentheticals",
+          "description": "Missing explanatory parenthetical when statute relevance is unclear",
+          "violation": "Rule 12.8 recommends explanatory parentheticals for clarity",
+          "example_incorrect": "42 U.S.C. § 1983 (2018)",
+          "example_correct": "42 U.S.C. § 1983 (2018) (providing federal cause of action for civil rights violations)",
+          "remediation": "Add parenthetical explaining statute's relevance to proposition"
+        },
+        {
+          "error_id": "R12_E047",
+          "error_code": "STAT_EXPLANATORY_PAREN_CAPITALIZATION",
+          "severity": "medium",
+          "category": "Parentheticals",
+          "description": "Incorrect capitalization in explanatory parenthetical",
+          "violation": "Rule 12.8 requires lowercase except for proper nouns",
+          "example_incorrect": "42 U.S.C. § 1983 (2018) (Providing Federal Cause of Action)",
+          "example_correct": "42 U.S.C. § 1983 (2018) (providing federal cause of action)",
+          "remediation": "Use lowercase at start of parenthetical unless with proper nouns"
+        },
+        {
+          "error_id": "R12_E048",
+          "error_code": "STAT_PINPOINT_CITATION_MISSING",
+          "severity": "medium",
+          "category": "Pinpoint References",
+          "description": "Missing pinpoint page reference when citing specific part of statute",
+          "violation": "Best practice to include specific section/subsection when referencing part",
+          "example_incorrect": "42 U.S.C. (2018) (citing subsection (b))",
+          "example_correct": "42 U.S.C. § 1983(b) (2018)",
+          "remediation": "Include specific subsection or paragraph in citation"
+        },
+        {
+          "error_id": "R12_E049",
+          "error_code": "STAT_YEAR_PLACEMENT_WRONG",
+          "severity": "high",
+          "category": "Dating",
+          "description": "Year placed incorrectly (not at end in parentheses)",
+          "violation": "Rule 12 requires year in parentheses at end of citation",
+          "example_incorrect": "42 (2018) U.S.C. § 1983",
+          "example_correct": "42 U.S.C. § 1983 (2018)",
+          "remediation": "Always place year in parentheses at end of citation"
+        },
+        {
+          "error_id": "R12_E050",
+          "error_code": "STAT_AMENDMENT_HISTORY_MISSING",
+          "severity": "medium",
+          "category": "Prior History",
+          "description": "Missing amendment history when discussing recent changes",
+          "violation": "Rule 12.7.3 may require noting significant amendments",
+          "example_incorrect": "42 U.S.C. § 1983 (2018)",
+          "example_correct": "42 U.S.C. § 1983 (2018) (amended by Pub. L. No. 116-123)",
+          "remediation": "Include amendment information when relevant to analysis"
+        }
+      ]
+    },
+    "rule_13_errors": {
+      "rule_id": 13,
+      "rule_title": "Legislative Materials",
+      "error_count": 22,
+      "errors": [
+        {
+          "error_id": "R13_E001",
+          "error_code": "LEG_BILL_NUMBER_MISSING",
+          "severity": "high",
+          "category": "Bills",
+          "description": "Missing bill number in legislative material citation",
+          "violation": "Rule 13.1 requires bill number",
+          "example_incorrect": "116th Cong. (2019)",
+          "example_correct": "S. 1234, 116th Cong. (2019)",
+          "remediation": "Include chamber designation and bill number"
+        },
+        {
+          "error_id": "R13_E002",
+          "error_code": "LEG_BILL_CHAMBER_MISSING",
+          "severity": "high",
+          "category": "Bills",
+          "description": "Missing chamber designation (H.R. or S.) in bill citation",
+          "violation": "Rule 13.2 requires chamber identification",
+          "example_incorrect": "1234, 116th Cong. (2019)",
+          "example_correct": "S. 1234, 116th Cong. (2019)",
+          "remediation": "Include H.R. for House bills or S. for Senate bills"
+        },
+        {
+          "error_id": "R13_E003",
+          "error_code": "LEG_BILL_CONGRESS_MISSING",
+          "severity": "high",
+          "category": "Bills",
+          "description": "Missing Congress number in bill citation",
+          "violation": "Rule 13.2 requires Congress number",
+          "example_incorrect": "S. 1234 (2019)",
+          "example_correct": "S. 1234, 116th Cong. (2019)",
+          "remediation": "Include Congress number (e.g., '116th Cong.')"
+        },
+        {
+          "error_id": "R13_E004",
+          "error_code": "LEG_BILL_CONGRESS_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Bills",
+          "description": "Incorrect Congress number format",
+          "violation": "Rule 13.2 requires proper ordinal format",
+          "example_incorrect": "S. 1234, 116 Congress (2019)",
+          "example_correct": "S. 1234, 116th Cong. (2019)",
+          "remediation": "Use ordinal number with 'Cong.' abbreviation (116th, 117th, etc.)"
+        },
+        {
+          "error_id": "R13_E005",
+          "error_code": "LEG_BILL_YEAR_MISSING",
+          "severity": "high",
+          "category": "Bills",
+          "description": "Missing year in bill citation",
+          "violation": "Rule 13.2 requires year",
+          "example_incorrect": "S. 1234, 116th Cong.",
+          "example_correct": "S. 1234, 116th Cong. (2019)",
+          "remediation": "Include year in parentheses"
+        },
+        {
+          "error_id": "R13_E006",
+          "error_code": "LEG_RESOLUTION_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Resolutions",
+          "description": "Incorrect resolution citation format",
+          "violation": "Rule 13.2 requires proper resolution format",
+          "example_incorrect": "Resolution 20, 116th Cong. (2019)",
+          "example_correct": "S. Res. 20, 116th Cong. (2019)",
+          "remediation": "Use chamber prefix: 'H.R. Res.' for House, 'S. Res.' for Senate"
+        },
+        {
+          "error_id": "R13_E007",
+          "error_code": "LEG_BILL_TITLE_ITALICS_WRONG",
+          "severity": "medium",
+          "category": "Formatting",
+          "description": "Bill title not italicized when included",
+          "violation": "Rule 13.2 requires italics for bill titles in law review",
+          "example_incorrect": "Family and Medical Leave Act, H.R. 2500, 117th Cong. (2021)",
+          "example_correct": "Family and Medical Leave Act, H.R. 2500, 117th Cong. (2021) [italicized]",
+          "remediation": "Italicize bill titles when included before bill number"
+        },
+        {
+          "error_id": "R13_E008",
+          "error_code": "LEG_HEARING_TITLE_MISSING",
+          "severity": "high",
+          "category": "Hearings",
+          "description": "Missing hearing title in citation",
+          "violation": "Rule 13.3 requires hearing title",
+          "example_incorrect": "Data Privacy: Before the S. Comm. on Commerce",
+          "example_correct": "Data Privacy: Hearing Before the S. Comm. on Commerce, Sci. & Transp., 116th Cong. (2019)",
+          "remediation": "Include complete hearing title in italics"
+        },
+        {
+          "error_id": "R13_E009",
+          "error_code": "LEG_HEARING_COMMITTEE_NAME_MISSING",
+          "severity": "high",
+          "category": "Hearings",
+          "description": "Missing committee name in hearing citation",
+          "violation": "Rule 13.3 requires committee identification",
+          "example_incorrect": "Data Privacy: Hearing Before Congress (2019)",
+          "example_correct": "Data Privacy: Hearing Before the S. Comm. on Commerce, Sci. & Transp., 116th Cong. (2019)",
+          "remediation": "Include full committee name with proper abbreviations"
+        },
+        {
+          "error_id": "R13_E010",
+          "error_code": "LEG_HEARING_CONGRESS_MISSING",
+          "severity": "high",
+          "category": "Hearings",
+          "description": "Missing Congress number in hearing citation",
+          "violation": "Rule 13.3 requires Congress designation",
+          "example_incorrect": "Data Privacy: Hearing Before the S. Comm. on Commerce, Sci. & Transp. (2019)",
+          "example_correct": "Data Privacy: Hearing Before the S. Comm. on Commerce, Sci. & Transp., 116th Cong. (2019)",
+          "remediation": "Include Congress number in citation"
+        },
+        {
+          "error_id": "R13_E011",
+          "error_code": "LEG_HEARING_CONGRESS_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Hearings",
+          "description": "Incorrect Congress number format in hearing",
+          "violation": "Rule 13.3 requires proper Congress format",
+          "example_incorrect": "Data Privacy: Hearing Before the S. Comm. on Commerce, 116 Congress (2019)",
+          "example_correct": "Data Privacy: Hearing Before the S. Comm. on Commerce, 116th Cong. (2019)",
+          "remediation": "Use ordinal with 'Cong.' abbreviation"
+        },
+        {
+          "error_id": "R13_E012",
+          "error_code": "LEG_HEARING_YEAR_MISSING",
+          "severity": "high",
+          "category": "Hearings",
+          "description": "Missing year in hearing citation",
+          "violation": "Rule 13.3 requires year",
+          "example_incorrect": "Data Privacy: Hearing Before the S. Comm. on Commerce, 116th Cong.",
+          "example_correct": "Data Privacy: Hearing Before the S. Comm. on Commerce, 116th Cong. (2019)",
+          "remediation": "Always include year in parentheses at end of citation"
+        },
+        {
+          "error_id": "R13_E013",
+          "error_code": "LEG_REPORT_NUMBER_MISSING",
+          "severity": "high",
+          "category": "Reports",
+          "description": "Missing report number in committee report citation",
+          "violation": "Rule 13.4 requires report number",
+          "example_incorrect": "H.R. Rep. (2017)",
+          "example_correct": "H.R. Rep. No. 115-10 (2017)",
+          "remediation": "Include 'No.' and report number"
+        },
+        {
+          "error_id": "R13_E014",
+          "error_code": "LEG_REPORT_CHAMBER_WRONG",
+          "severity": "high",
+          "category": "Reports",
+          "description": "Incorrect chamber designation in report citation",
+          "violation": "Rule 13.4 requires proper chamber format",
+          "example_incorrect": "Senate Rep. No. 115-10 (2017)",
+          "example_correct": "S. Rep. No. 115-10 (2017)",
+          "remediation": "Use 'H.R. Rep.' for House or 'S. Rep.' for Senate"
+        },
+        {
+          "error_id": "R13_E015",
+          "error_code": "LEG_REPORT_CONGRESS_MISSING",
+          "severity": "high",
+          "category": "Reports",
+          "description": "Missing Congress number in report citation",
+          "violation": "Rule 13.4 requires Congress identification",
+          "example_incorrect": "H.R. Rep. No. 115-10",
+          "example_correct": "H.R. Rep. No. 115-10, 115th Cong. (2017)",
+          "remediation": "Include Congress number, e.g., '115th Cong.'"
+        },
+        {
+          "error_id": "R13_E016",
+          "error_code": "LEG_REPORT_YEAR_MISSING",
+          "severity": "high",
+          "category": "Reports",
+          "description": "Missing year in report citation",
+          "violation": "Rule 13.4 requires year",
+          "example_incorrect": "H.R. Rep. No. 115-10",
+          "example_correct": "H.R. Rep. No. 115-10 (2017)",
+          "remediation": "Include year in parentheses at end"
+        },
+        {
+          "error_id": "R13_E017",
+          "error_code": "LEG_DEBATE_CONG_REC_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Debates",
+          "description": "Incorrect Congressional Record citation format",
+          "violation": "Rule 13.5 requires 'Cong. Rec.' abbreviation",
+          "example_incorrect": "Congressional Record, vol. 165, p. H1234",
+          "example_correct": "165 Cong. Rec. H1234 (daily ed. May 5, 2019)",
+          "remediation": "Use format: '[VOLUME] Cong. Rec. [PAGE] (daily ed. [DATE])'"
+        },
+        {
+          "error_id": "R13_E018",
+          "error_code": "LEG_DEBATE_PAGE_MISSING",
+          "severity": "high",
+          "category": "Debates",
+          "description": "Missing page number in Congressional Record citation",
+          "violation": "Rule 13.5 requires page reference",
+          "example_incorrect": "165 Cong. Rec. (daily ed. May 5, 2019)",
+          "example_correct": "165 Cong. Rec. H1234 (daily ed. May 5, 2019)",
+          "remediation": "Include page number with session letter (H for House, S for Senate)"
+        },
+        {
+          "error_id": "R13_E019",
+          "error_code": "LEG_DEBATE_EDITION_FORMAT_WRONG",
+          "severity": "high",
+          "category": "Debates",
+          "description": "Incorrect edition designation in Congressional Record citation",
+          "violation": "Rule 13.5 requires 'daily ed.' or bound edition format",
+          "example_incorrect": "165 Cong. Rec. H1234 (May 5, 2019)",
+          "example_correct": "165 Cong. Rec. H1234 (daily ed. May 5, 2019)",
+          "remediation": "Include '(daily ed. DATE)' or specify bound edition year"
+        },
+        {
+          "error_id": "R13_E020",
+          "error_code": "LEG_SHORT_FORM_HEREINAFTER_MISSING",
+          "severity": "medium",
+          "category": "Short Forms",
+          "description": "Missing hereinafter designation for long legislative material title",
+          "violation": "Rule 13.8 permits using 'hereinafter' to avoid repetition",
+          "example_incorrect": "First cite: Data Privacy: Hearing Before the S. Comm. on Commerce... Later: Data Privacy: Hearing Before the S. Comm. on Commerce...",
+          "example_correct": "First cite: [full citation] (hereinafter [Short Title]). Later: [Short Title]",
+          "remediation": "Add hereinafter designation when document has lengthy title"
+        },
+        {
+          "error_id": "R13_E021",
+          "error_code": "LEG_SHORT_FORM_SUPRA_IMPROPER",
+          "severity": "medium",
+          "category": "Short Forms",
+          "description": "Using supra for legislative materials without appropriate hereinafter",
+          "violation": "Rule 13.8 permits supra with hereinafter but not as primary short form",
+          "example_incorrect": "Supra note 12",
+          "example_correct": "Supra note 12 (referring to [Document Name])",
+          "remediation": "Use supra only with hereinafter designation previously established"
+        },
+        {
+          "error_id": "R13_E022",
+          "error_code": "LEG_DOCUMENT_TYPE_UNCLEAR",
+          "severity": "high",
+          "category": "Document Type",
+          "description": "Ambiguous or missing document type designation (report, hearing, print, etc.)",
+          "violation": "Rule 13.4 requires clear document type identification",
+          "example_incorrect": "H. Doc. 115-10",
+          "example_correct": "H.R. Doc. No. 115-10 (2017)",
+          "remediation": "Clearly identify document type: 'H.R. Doc.', 'S. Doc.', 'Comm. Print', etc."
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_rules": 3,
+    "total_subrules": 29,
+    "total_error_types": 84,
+    "error_breakdown": {
+      "rule_11": 12,
+      "rule_12": 50,
+      "rule_13": 22
+    },
+    "severity_distribution": {
+      "high": 66,
+      "medium": 18
+    },
+    "error_categories": [
+      "Abbreviation",
+      "Notation",
+      "Dating",
+      "Code Reference",
+      "Formatting",
+      "State Citation",
+      "Session Law",
+      "Supplements",
+      "Code Selection",
+      "Unofficial Code",
+      "Electronic Databases",
+      "Prior History",
+      "Short Form",
+      "Special Forms",
+      "Ordinances",
+      "Federal Rules",
+      "Parentheticals",
+      "Pinpoint References",
+      "Bills",
+      "Resolutions",
+      "Hearings",
+      "Reports",
+      "Debates",
+      "Document Type",
+      "Basic Citation Format"
+    ],
+    "generation_date": "2025-11-23T00:00:00Z"
+  }
+}

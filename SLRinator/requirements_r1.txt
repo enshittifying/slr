@@ -1,0 +1,40 @@
+# SLRinator Requirements
+# Core dependencies for sourcepull, redboxing, and R1 cite checking
+
+# PDF Processing
+PyMuPDF>=1.23.0          # PDF reading and manipulation
+pypdf2>=3.0.0            # PDF operations
+reportlab>=4.0.0         # PDF generation and annotations
+
+# Document Processing
+python-docx>=1.0.0       # Word document processing
+openpyxl>=3.1.0          # Excel spreadsheet processing
+
+# Web & HTTP
+requests>=2.31.0         # HTTP requests
+selenium>=4.15.0         # Web automation for captures
+beautifulsoup4>=4.12.0   # HTML parsing
+
+# AI & NLP
+openai>=1.10.0           # OpenAI API (GPT-4o-mini, GPT-5, Assistants)
+tiktoken>=0.5.0          # Token counting
+
+# Data Processing
+pandas>=2.1.0            # Data manipulation
+numpy>=1.24.0            # Numerical operations
+
+# Utilities
+tqdm>=4.66.0             # Progress bars
+colorama>=0.4.6          # Colored terminal output
+python-dotenv>=1.0.0     # Environment variable management
+
+# Optional: Quote verification fuzzy matching
+python-Levenshtein>=0.21.0  # String similarity (optional)
+
+# Testing
+pytest>=7.4.0            # Testing framework
+pytest-cov>=4.1.0        # Coverage reporting
+
+# Development
+flake8>=6.1.0            # Code linting
+black>=23.0.0            # Code formatting

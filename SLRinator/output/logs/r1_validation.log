@@ -1,0 +1,13 @@
+2025-11-23 06:07:01 - __main__ - INFO - [process_all_rules.py:33] - Initializing rule processor...
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:126] - Loaded 331 total rules
+2025-11-23 06:07:01 - __main__ - INFO - [process_all_rules.py:40] - Found 331 total rules to process
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:126] - Loaded 331 total rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:462] - Processing 331 rules with 20 workers...
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:478] - Processed 50/331 rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:478] - Processed 100/331 rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:478] - Processed 150/331 rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:478] - Processed 200/331 rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:478] - Processed 250/331 rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:478] - Processed 300/331 rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:484] - Completed processing 331 rules
+2025-11-23 06:07:01 - src.r1_validation.rule_processor - INFO - [rule_processor.py:527] - Saved 331 processed rules to /home/user/slr/SLRinator/config/rules/enhanced_rules.json

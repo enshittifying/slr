@@ -1,0 +1,1103 @@
+{
+  "analysis_metadata": {
+    "title": "Bluebook Rules 14-16 Comprehensive Error Analysis",
+    "scope": "Administrative Materials, Books, and Periodicals",
+    "total_rules": 3,
+    "total_subrules": 35,
+    "total_error_types": 127,
+    "generation_date": "2025-11-23",
+    "version": "1.0.0"
+  },
+  "rules_summary": {
+    "rule_14": {
+      "title": "Administrative and Executive Materials",
+      "subrules_count": 7,
+      "subrule_ids": ["14.1", "14.2", "14.3", "14.3.1", "14.3.2", "14.3.3", "14.4", "14.5"]
+    },
+    "rule_15": {
+      "title": "Books, Reports, and Other Nonperiodic Materials",
+      "subrules_count": 12,
+      "subrule_ids": ["15.1", "15.2", "15.3", "15.4", "15.5", "15.5.1", "15.5.2", "15.6", "15.7", "15.8", "15.9", "15.10", "15.10.1"]
+    },
+    "rule_16": {
+      "title": "Periodical Materials",
+      "subrules_count": 16,
+      "subrule_ids": ["16.1", "16.2", "16.3", "16.4", "16.5", "16.6", "16.7", "16.7.1", "16.7.2", "16.7.3", "16.7.4", "16.7.5", "16.7.6", "16.7.7", "16.7.8", "16.8", "16.9"]
+    }
+  },
+  "error_categories": {
+    "rule_14_administrative_materials": {
+      "rule_id": "14",
+      "rule_title": "Administrative and Executive Materials",
+      "error_types": [
+        {
+          "error_id": "14.1.ERR.001",
+          "subrule": "14.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Missing CFR Volume Number in Regulation Citation",
+          "description": "Regulation citation lacks the required volume number before C.F.R.",
+          "example_incorrect": "C.F.R. § 261.4 (2020)",
+          "example_correct": "40 C.F.R. § 261.4 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.1.ERR.002",
+          "subrule": "14.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Incorrect CFR Year Format",
+          "description": "CFR year provided as retrieval date instead of current edition year",
+          "example_incorrect": "40 C.F.R. § 261.4 (last visited Jan. 5, 2020)",
+          "example_correct": "40 C.F.R. § 261.4 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.1.ERR.003",
+          "subrule": "14.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Missing Page/Date in Federal Register Citation",
+          "description": "Federal Register citation lacks required page number or publication date",
+          "example_incorrect": "75 Fed. Reg. (2010)",
+          "example_correct": "75 Fed. Reg. 12456 (Mar. 1, 2010)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.1.ERR.004",
+          "subrule": "14.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Incorrect Executive Order Format",
+          "description": "Executive order citation lacks required Federal Register publication info",
+          "example_incorrect": "Exec. Order No. 13,999",
+          "example_correct": "Exec. Order No. 13,999, 75 Fed. Reg. 12456 (Mar. 1, 2010)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.1.ERR.005",
+          "subrule": "14.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Missing Proclamation Publication Source",
+          "description": "Presidential proclamation citation lacks publication source information",
+          "example_incorrect": "Proclamation No. 9,999 (2020)",
+          "example_correct": "Proclamation No. 9,999, 85 Fed. Reg. 12456 (Mar. 1, 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.2.ERR.006",
+          "subrule": "14.2",
+          "subrule_title": "Rules, Regulations, and Other Publications",
+          "error_type": "Incomplete Agency Manual Citation",
+          "description": "Agency publication lacks required title, date, or identifying information",
+          "example_incorrect": "FDA Guidance (2019)",
+          "example_correct": "U.S. Food & Drug Admin., Guidance for Industry: X Title (2019)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.2.ERR.007",
+          "subrule": "14.2",
+          "subrule_title": "Rules, Regulations, and Other Publications",
+          "error_type": "Missing Section References in Multiple Sections",
+          "description": "Citation to multiple CFR sections fails to use proper 'et seq.' notation",
+          "example_incorrect": "40 C.F.R. §§ 261.4, 261.5, 261.6 and 261.7 (2020)",
+          "example_correct": "40 C.F.R. §§ 261.4 to .7 (2020) or 40 C.F.R. §§ 261.4 et seq. (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "14.2.ERR.008",
+          "subrule": "14.2",
+          "subrule_title": "Rules, Regulations, and Other Publications",
+          "error_type": "Improper Federal Register Date Format",
+          "description": "Federal Register publication date uses incorrect format or is incomplete",
+          "example_incorrect": "85 Fed. Reg. (2020)",
+          "example_correct": "85 Fed. Reg. 12456 (Feb. 15, 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.3.1.ERR.009",
+          "subrule": "14.3.1",
+          "subrule_title": "Administrative Adjudications - Names",
+          "error_type": "Incorrect Party Name Format in Admin Citation",
+          "description": "Administrative adjudication citation uses improper party naming convention",
+          "example_incorrect": "Smith and Jones versus Agency (NLRB 2019)",
+          "example_correct": "In re Smith, or Smith v. Agency (NLRB 2019)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.3.1.ERR.010",
+          "subrule": "14.3.1",
+          "subrule_title": "Administrative Adjudications - Names",
+          "error_type": "Missing Docket Number When No Official Style",
+          "description": "Administrative adjudication without official case name fails to cite docket number",
+          "example_incorrect": "(FTC 2019)",
+          "example_correct": "FTC Docket No. 123-4567 (2019)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.3.2.ERR.011",
+          "subrule": "14.3.2",
+          "subrule_title": "Administrative Adjudications - Which Source to Cite",
+          "error_type": "Citing Secondary Source When Primary Reporter Available",
+          "description": "Administrative decision cited to commercial service when official reporter exists",
+          "example_incorrect": "Smith v. Agency, Westlaw (NLRB 2019)",
+          "example_correct": "Smith v. Agency, 365 N.L.R.B. 123 (2019)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.3.2.ERR.012",
+          "subrule": "14.3.2",
+          "subrule_title": "Administrative Adjudications - Which Source to Cite",
+          "error_type": "Incomplete Citation to Non-Reported Decision",
+          "description": "Unpublished administrative decision lacks required agency decision number or URL",
+          "example_incorrect": "FTC Decision (2019)",
+          "example_correct": "FTC Decision No. C-1234 (2019) or FTC Decision (2019), https://...",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.3.3.ERR.013",
+          "subrule": "14.3.3",
+          "subrule_title": "Administrative Adjudications - Issuing Agency",
+          "error_type": "Missing Agency Identification Parenthetical",
+          "description": "Citation to administrative decision lacks agency identification where not obvious from reporter",
+          "example_incorrect": "Smith v. Agency, 456 F. Supp. 2d 789 (2020)",
+          "example_correct": "Smith v. Agency, 456 F. Supp. 2d 789 (FTC 2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "14.3.3.ERR.014",
+          "subrule": "14.3.3",
+          "subrule_title": "Administrative Adjudications - Issuing Agency",
+          "error_type": "Ambiguous Arbitration Panel Designation",
+          "description": "Arbitration decision citation lacks clear identification of arbitration body",
+          "example_incorrect": "Decision 456 (2019)",
+          "example_correct": "Decision 456 (Arb. Panel: X Ass'n 2019)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "14.4.ERR.015",
+          "subrule": "14.4",
+          "subrule_title": "Commercial Electronic Databases",
+          "error_type": "Missing Database Name in Electronic Citation",
+          "description": "Electronic database citation lacks identification of the database used",
+          "example_incorrect": "(FAA Order No. 2018-1)",
+          "example_correct": "(FAA Order No. 2018-1, Westlaw)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.4.ERR.016",
+          "subrule": "14.4",
+          "subrule_title": "Commercial Electronic Databases",
+          "error_type": "Incomplete Agency Website Citation",
+          "description": "Agency website citation lacks required URL or sufficient identification",
+          "example_incorrect": "(agency website)",
+          "example_correct": "(FAA, https://www.faa.gov/documents/order-2018-1.pdf)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.4.ERR.017",
+          "subrule": "14.4",
+          "subrule_title": "Commercial Electronic Databases",
+          "error_type": "Slip Opinion Citation Missing Required Information",
+          "description": "Slip opinion from agency lacks date or sufficient identifying information",
+          "example_incorrect": "EPA Slip Opinion (on file)",
+          "example_correct": "EPA Slip Opinion (Mar. 15, 2020) (on file with author)",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.5.ERR.018",
+          "subrule": "14.5",
+          "subrule_title": "Short Forms for Regulations",
+          "error_type": "Incorrect Use of 'Id.' for Different Regulation",
+          "description": "Using 'Id.' to reference different regulation than immediately preceding citation",
+          "example_incorrect": "40 C.F.R. § 261.4 (2020). Id. [referring to 42 U.S.C. § 789].",
+          "example_correct": "40 C.F.R. § 261.4 (2020). 42 U.S.C. § 789 (2020).",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.5.ERR.019",
+          "subrule": "14.5",
+          "subrule_title": "Short Forms for Regulations",
+          "error_type": "Ambiguous Short Citation to Regulation",
+          "description": "Short form regulation citation lacks prior full citation context for clarity",
+          "example_incorrect": "§ 261.4 (without prior full cite in same document)",
+          "example_correct": "[After full cite] § 261.4 [when context is clear]",
+          "severity": "high"
+        },
+        {
+          "error_id": "14.5.ERR.020",
+          "subrule": "14.5",
+          "subrule_title": "Short Forms for Regulations",
+          "error_type": "Incorrect 'Supra Note' Format for Regulations",
+          "description": "Using supra note incorrectly for regulation citations when full cite should be repeated",
+          "example_incorrect": "40 C.F.R. § 261.4 (2020). [footnote 5] Supra note 3.",
+          "example_correct": "[footnote 3: full cite] [footnote 5: id. or repeat full citation]",
+          "severity": "medium"
+        }
+      ]
+    },
+    "rule_15_books_and_reports": {
+      "rule_id": "15",
+      "rule_title": "Books, Reports, and Other Nonperiodic Materials",
+      "error_types": [
+        {
+          "error_id": "15.1.ERR.021",
+          "subrule": "15.1",
+          "subrule_title": "Author",
+          "error_type": "Missing Middle Initial in Author Name",
+          "description": "Author citation omits middle initial when provided in source",
+          "example_incorrect": "John Smith, Book Title (2020)",
+          "example_correct": "John Q. Smith, Book Title (2020)",
+          "severity": "low"
+        },
+        {
+          "error_id": "15.1.ERR.022",
+          "subrule": "15.1",
+          "subrule_title": "Author",
+          "error_type": "Incorrect Et Al. Usage for Two Authors",
+          "description": "Using 'et al.' for two-author work instead of listing both authors",
+          "example_incorrect": "John Smith et al., Book Title (2020)",
+          "example_correct": "John Smith & Jane Doe, Book Title (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.1.ERR.023",
+          "subrule": "15.1",
+          "subrule_title": "Author",
+          "error_type": "Incorrect Ampersand Usage in Author Names",
+          "description": "Using 'and' instead of '&' to separate multiple authors",
+          "example_incorrect": "John Smith and Jane Doe, Book Title (2020)",
+          "example_correct": "John Smith & Jane Doe, Book Title (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.1.ERR.024",
+          "subrule": "15.1",
+          "subrule_title": "Author",
+          "error_type": "Improper Institutional Author Abbreviation",
+          "description": "Institutional author uses non-standard or excessive abbreviation",
+          "example_incorrect": "USAMD, Report Title (2020)",
+          "example_correct": "U.S. Army Medical Dept., Report Title (2020) [or approved abbreviation]",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.1.ERR.025",
+          "subrule": "15.1",
+          "subrule_title": "Author",
+          "error_type": "Inconsistent Author Name Format",
+          "description": "Author name format differs from that shown on title page",
+          "example_incorrect": "Smith, J., Book Title (2020) [when title page shows 'John Smith']",
+          "example_correct": "John Smith, Book Title (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.2.ERR.026",
+          "subrule": "15.2",
+          "subrule_title": "Editor or Translator",
+          "error_type": "Missing Editor Designation Abbreviation",
+          "description": "Editor or translator name included without required 'ed.' or 'trans.' abbreviation",
+          "example_incorrect": "Book Title (John Doe, 2020)",
+          "example_correct": "Book Title (John Doe ed., 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.2.ERR.027",
+          "subrule": "15.2",
+          "subrule_title": "Editor or Translator",
+          "error_type": "Incorrect Plural Editor Abbreviation",
+          "description": "Using singular 'ed.' for multiple editors instead of 'eds.'",
+          "example_incorrect": "Book Title (John Doe & Jane Smith ed., 2020)",
+          "example_correct": "Book Title (John Doe & Jane Smith eds., 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.2.ERR.028",
+          "subrule": "15.2",
+          "subrule_title": "Editor or Translator",
+          "error_type": "Including Editor When Author Present and Not Primary Association",
+          "description": "Including editor designation when main author is present and edition not primarily associated with editor",
+          "example_incorrect": "John Smith, Book Title (Jane Doe ed., 2020)",
+          "example_correct": "John Smith, Book Title (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.3.ERR.029",
+          "subrule": "15.3",
+          "subrule_title": "Title",
+          "error_type": "Title Not Italicized in Citation",
+          "description": "Book title presented in regular type instead of italics",
+          "example_incorrect": "John Smith, Book Title (2020)",
+          "example_correct": "John Smith, Book Title (2020) [with Book Title in italics]",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.3.ERR.030",
+          "subrule": "15.3",
+          "subrule_title": "Title",
+          "error_type": "Incorrect Capitalization of Article in Title",
+          "description": "Article ('a', 'an', 'the') capitalized when it should not be",
+          "example_incorrect": "John Smith, The Book Title Here (2020)",
+          "example_correct": "John Smith, The Book Title Here (2020) [if begins title] or John Smith, Book Title Here (2020) [if mid-title]",
+          "severity": "low"
+        },
+        {
+          "error_id": "15.3.ERR.031",
+          "subrule": "15.3",
+          "subrule_title": "Title",
+          "error_type": "Failure to Capitalize Main Title Words",
+          "description": "Main nouns, verbs, and adjectives not capitalized in title",
+          "example_incorrect": "John Smith, book title and the law (2020)",
+          "example_correct": "John Smith, Book Title and the Law (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.3.ERR.032",
+          "subrule": "15.3",
+          "subrule_title": "Title",
+          "error_type": "Missing Subtitle After Colon",
+          "description": "Subtitle present in source but omitted from citation",
+          "example_incorrect": "John Smith, Book Title (2020)",
+          "example_correct": "John Smith, Book Title: Subtitle (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.3.ERR.033",
+          "subrule": "15.3",
+          "subrule_title": "Title",
+          "error_type": "Omitted Multi-Volume Series Designation",
+          "description": "Citation to specific volume of multi-volume series lacking volume number",
+          "example_incorrect": "John Smith, Book Title (2020)",
+          "example_correct": "John Smith, 5 Book Title (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.4.ERR.034",
+          "subrule": "15.4",
+          "subrule_title": "Edition, Publisher, and Date",
+          "error_type": "Missing Edition Designation for Non-First Edition",
+          "description": "Non-first edition cited without edition number",
+          "example_incorrect": "John Smith, Book Title (2020)",
+          "example_correct": "John Smith, Book Title (2d ed. 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.4.ERR.035",
+          "subrule": "15.4",
+          "subrule_title": "Edition, Publisher, and Date",
+          "error_type": "Incorrect Edition Abbreviation Format",
+          "description": "Edition abbreviation uses incorrect format (e.g., '2D' instead of '2d')",
+          "example_incorrect": "John Smith, Book Title (2D ED. 2020)",
+          "example_correct": "John Smith, Book Title (2d ed. 2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.4.ERR.036",
+          "subrule": "15.4",
+          "subrule_title": "Edition, Publisher, and Date",
+          "error_type": "Missing Publication Year",
+          "description": "Citation lacks required publication year",
+          "example_incorrect": "John Smith, Book Title",
+          "example_correct": "John Smith, Book Title (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.4.ERR.037",
+          "subrule": "15.4",
+          "subrule_title": "Edition, Publisher, and Date",
+          "error_type": "Incorrect Year Format or Range",
+          "description": "Publication year presented as range or with incorrect format",
+          "example_incorrect": "John Smith, Book Title (2019-2020)",
+          "example_correct": "John Smith, Book Title (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.4.ERR.038",
+          "subrule": "15.4",
+          "subrule_title": "Edition, Publisher, and Date",
+          "error_type": "Incomplete Publisher Information for Specialized Work",
+          "description": "Lesser-known work or specialized edition cited without publisher when clarity needed",
+          "example_incorrect": "John Smith, Book Title (2020)",
+          "example_correct": "John Smith, Book Title (Oxford Univ. Press 2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.5.1.ERR.039",
+          "subrule": "15.5.1",
+          "subrule_title": "Works in Collection - Generally",
+          "error_type": "Chapter Title in Italics Instead of Quotes",
+          "description": "Chapter or essay title italicized when it should be in quotation marks",
+          "example_incorrect": "John Doe, Essay Title, in Book Title 123 (Jane Smith ed., 2020)",
+          "example_correct": "John Doe, Essay Title, in Book Title 123 (Jane Smith ed., 2020) [with Essay Title in quotes]",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.5.1.ERR.040",
+          "subrule": "15.5.1",
+          "subrule_title": "Works in Collection - Generally",
+          "error_type": "Missing Starting Page of Collection",
+          "description": "Citation to work in collection lacks page on which piece begins",
+          "example_incorrect": "John Doe, Essay Title, in Book Title (Jane Smith ed., 2020)",
+          "example_correct": "John Doe, Essay Title, in Book Title 123 (Jane Smith ed., 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.5.1.ERR.041",
+          "subrule": "15.5.1",
+          "subrule_title": "Works in Collection - Generally",
+          "error_type": "Missing Pinpoint Page in Collection",
+          "description": "Collection citation lacks pinpoint reference to cited page",
+          "example_incorrect": "John Doe, Essay Title, in Book Title 123 (Jane Smith ed., 2020)",
+          "example_correct": "John Doe, Essay Title, in Book Title 123, 130 (Jane Smith ed., 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.5.1.ERR.042",
+          "subrule": "15.5.1",
+          "subrule_title": "Works in Collection - Generally",
+          "error_type": "Incorrect Multiple Editor Format",
+          "description": "Using 'ed.' instead of 'eds.' for multiple editors in collection",
+          "example_incorrect": "John Doe, Essay Title, in Book Title 123 (Jane Smith & John Brown ed., 2020)",
+          "example_correct": "John Doe, Essay Title, in Book Title 123 (Jane Smith & John Brown eds., 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.5.1.ERR.043",
+          "subrule": "15.5.1",
+          "subrule_title": "Works in Collection - Generally",
+          "error_type": "Missing Volume Number in Multi-Volume Collection",
+          "description": "Citation to specific volume of multi-volume collection omits volume number",
+          "example_incorrect": "John Doe, Essay Title, in Book Title 123 (Jane Smith ed., 2020)",
+          "example_correct": "John Doe, Essay Title, in 5 Book Title 123 (Jane Smith ed., 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.5.2.ERR.044",
+          "subrule": "15.5.2",
+          "subrule_title": "Collected Documents",
+          "error_type": "Insufficient Document Description",
+          "description": "Collected document citation lacks identifying details (date, addressee, etc.)",
+          "example_incorrect": "Letter, in 5 Collected Letters of X (Z ed., 2000)",
+          "example_correct": "Letter from X to Y (Dec. 1, 1900), in 5 Collected Letters of X 67 (Z ed., 2000)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.5.2.ERR.045",
+          "subrule": "15.5.2",
+          "subrule_title": "Collected Documents",
+          "error_type": "Missing Page Reference in Document Collection",
+          "description": "Citation to collected document lacks page number",
+          "example_incorrect": "Letter from X to Y (Dec. 1, 1900), in 5 Collected Letters of X (Z ed., 2000)",
+          "example_correct": "Letter from X to Y (Dec. 1, 1900), in 5 Collected Letters of X 67 (Z ed., 2000)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.6.ERR.046",
+          "subrule": "15.6",
+          "subrule_title": "Prefaces, Forewords, Introductions, and Epilogues",
+          "error_type": "Missing Section Type Designation",
+          "description": "Citation to foreword/introduction/preface lacks designation ('Foreword', 'Introduction', etc.)",
+          "example_incorrect": "Jane Doe, in John Smith, Book Title xiii (2020)",
+          "example_correct": "Jane Doe, Introduction, in John Smith, Book Title xiii (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.6.ERR.047",
+          "subrule": "15.6",
+          "subrule_title": "Prefaces, Forewords, Introductions, and Epilogues",
+          "error_type": "Incorrect Use of Roman Numerals for Introduction Page",
+          "description": "Page citation to introduction fails to use proper roman numeral format",
+          "example_incorrect": "Jane Doe, Introduction, in John Smith, Book Title 13 (2020)",
+          "example_correct": "Jane Doe, Introduction, in John Smith, Book Title xiii (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.6.ERR.048",
+          "subrule": "15.6",
+          "subrule_title": "Prefaces, Forewords, Introductions, and Epilogues",
+          "error_type": "Missing Titled Introduction/Foreword Reference",
+          "description": "Titled introduction/foreword citation omits title of the section",
+          "example_incorrect": "Jane Doe, Introduction, in John Smith, Book Title (2020)",
+          "example_correct": "Jane Doe, Introduction: Title of Introduction, in John Smith, Book Title xiii (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.7.ERR.049",
+          "subrule": "15.7",
+          "subrule_title": "Serial Number",
+          "error_type": "Missing Series Name in Serial Numbered Work",
+          "description": "Citation to series-numbered work omits series name",
+          "example_incorrect": "Author, Title, No. 123 (2020)",
+          "example_correct": "Author, Title, Univ. of X Working Paper No. 123 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.7.ERR.050",
+          "subrule": "15.7",
+          "subrule_title": "Serial Number",
+          "error_type": "Incorrect Serial Number Format",
+          "description": "Series number presentation uses incorrect abbreviation or format",
+          "example_incorrect": "Author, Title, Series Number 123 (2020)",
+          "example_correct": "Author, Title, Univ. of X Working Paper No. 123 (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.8.ERR.051",
+          "subrule": "15.8",
+          "subrule_title": "Special Citation Forms",
+          "error_type": "Incomplete Looseleaf Service Citation",
+          "description": "Looseleaf citation lacks required release date or update information",
+          "example_incorrect": "Charles Alan Wright et al., Federal Practice & Procedure § 1234",
+          "example_correct": "2 Charles Alan Wright et al., Federal Practice & Procedure § 1234 (3d ed. 2019)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.8.ERR.052",
+          "subrule": "15.8",
+          "subrule_title": "Special Citation Forms",
+          "error_type": "Missing Update Date for Looseleaf Materials",
+          "description": "Looseleaf or regularly updated work cited without most recent update date",
+          "example_incorrect": "Wright, Federal Practice & Procedure § 1234 (2015)",
+          "example_correct": "Wright, Federal Practice & Procedure § 1234 (Supp. 2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.8.ERR.053",
+          "subrule": "15.8",
+          "subrule_title": "Special Citation Forms",
+          "error_type": "Inadequate Court Rules Citation",
+          "description": "Court rules pamphlet or special forms cited without required identifying information",
+          "example_incorrect": "Court Rules (2020)",
+          "example_correct": "Federal Rules of Civil Procedure Rule 12(b), 28 U.S.C. (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.9.ERR.054",
+          "subrule": "15.9",
+          "subrule_title": "Electronic Databases and Online Sources",
+          "error_type": "Print Citation Omitted When Online Only",
+          "description": "Book accessed online cited without attempting to identify print publication info",
+          "example_incorrect": "John Smith, Book Title (available at https://example.com)",
+          "example_correct": "John Smith, Book Title (2020) (available at https://example.com)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.9.ERR.055",
+          "subrule": "15.9",
+          "subrule_title": "Electronic Databases and Online Sources",
+          "error_type": "Incomplete E-Book Citation",
+          "description": "E-book citation lacks required information about database or publication format",
+          "example_incorrect": "John Smith, Book Title (2020)",
+          "example_correct": "John Smith, Book Title (2020) (Westlaw)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "15.10.ERR.056",
+          "subrule": "15.10",
+          "subrule_title": "Short Citation Forms",
+          "error_type": "Incorrect Use of 'Id.' with Different Book",
+          "description": "Using 'Id.' to reference different book than immediately preceding citation",
+          "example_incorrect": "[Cite book A] Id. [referring to book B]",
+          "example_correct": "[Cite book A] [Full or supra citation to book B]",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.10.ERR.057",
+          "subrule": "15.10",
+          "subrule_title": "Short Citation Forms",
+          "error_type": "Missing Short Title in Hereinafter Abbreviation",
+          "description": "First citation lacks hereinafter abbreviation for works with long titles",
+          "example_incorrect": "[Later cite:] Long Title, supra note 5, at 100",
+          "example_correct": "[First cite:] ... (hereinafter \"Short Title\")] [Later cite:] Short Title, supra note 5, at 100",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.10.ERR.058",
+          "subrule": "15.10",
+          "subrule_title": "Short Citation Forms",
+          "error_type": "Ambiguous Supra Reference Without Author Name",
+          "description": "Short cite using supra lacks author name when needed for clarity",
+          "example_incorrect": "Supra note 5, at 100",
+          "example_correct": "Smith, supra note 5, at 100",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.10.1.ERR.059",
+          "subrule": "15.10.1",
+          "subrule_title": "Short Forms for Works in Collection",
+          "error_type": "Missing Author Name in Chapter Short Citation",
+          "description": "Short citation to chapter in collection omits chapter author's name",
+          "example_incorrect": "Supra note 12, at 45",
+          "example_correct": "Doe, supra note 12, at 45",
+          "severity": "high"
+        },
+        {
+          "error_id": "15.10.1.ERR.060",
+          "subrule": "15.10.1",
+          "subrule_title": "Short Forms for Works in Collection",
+          "error_type": "Insufficient Disambiguation Between Multiple Chapters",
+          "description": "Short citation to collection fails to distinguish between multiple chapters",
+          "example_incorrect": "[When citing multiple chapters:] Supra note 10 [and] Supra note 12",
+          "example_correct": "Doe, supra note 10, at 45 [and] Smith, supra note 12, at 100",
+          "severity": "high"
+        }
+      ]
+    },
+    "rule_16_periodicals": {
+      "rule_id": "16",
+      "rule_title": "Periodical Materials",
+      "error_types": [
+        {
+          "error_id": "16.1.ERR.061",
+          "subrule": "16.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Missing Journal Abbreviation",
+          "description": "Law review citation uses full journal name instead of required abbreviation",
+          "example_incorrect": "John Doe, Article Title, 123 Harvard Law Review 456 (2020)",
+          "example_correct": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.1.ERR.062",
+          "subrule": "16.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Magazine Citation Missing Month/Date",
+          "description": "Magazine article citation lacks required month or specific date",
+          "example_incorrect": "Jane Smith, Article, Time 20 (2020)",
+          "example_correct": "Jane Smith, Article, Time, Jan. 1, 2020, at 20",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.1.ERR.063",
+          "subrule": "16.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Newspaper Citation Without Page Reference",
+          "description": "Newspaper article citation omitted page number or 'at' notation",
+          "example_incorrect": "John Doe, Article, N.Y. Times, Jan. 5, 2021",
+          "example_correct": "John Doe, Article, N.Y. Times, Jan. 5, 2021, at A1",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.1.ERR.064",
+          "subrule": "16.1",
+          "subrule_title": "Basic Citation Forms",
+          "error_type": "Missing Volume Number in Academic Journal Citation",
+          "description": "Academic journal citation lacks required volume number",
+          "example_incorrect": "John Doe, Article Title, Harv. L. Rev. 456 (2020)",
+          "example_correct": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.2.ERR.065",
+          "subrule": "16.2",
+          "subrule_title": "Author",
+          "error_type": "Incorrect 'Et Al.' Usage for Two Authors",
+          "description": "Using 'et al.' for two-author article instead of listing both",
+          "example_incorrect": "John Doe et al., Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "John Doe & Jane Smith, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.2.ERR.066",
+          "subrule": "16.2",
+          "subrule_title": "Author",
+          "error_type": "Missing Author for Unsigned Student Note",
+          "description": "Unsigned student note/comment fails to include 'Comment' or 'Note' designation",
+          "example_incorrect": "Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "Comment, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.2.ERR.067",
+          "subrule": "16.2",
+          "subrule_title": "Author",
+          "error_type": "Institutional Author Improperly Abbreviated",
+          "description": "Institutional author uses non-standard or overly abbreviated form",
+          "example_incorrect": "ABA, Article Title, 123 ABA Rev. 456 (2020)",
+          "example_correct": "American Bar Ass'n, Article Title, 123 A.B.A. Rev. 456 (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.3.ERR.068",
+          "subrule": "16.3",
+          "subrule_title": "Title",
+          "error_type": "Title Not Italicized or Properly Quoted",
+          "description": "Article title presented without proper italics (academic) or quotes (court documents)",
+          "example_incorrect": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020) [with title italicized in academic context]",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.3.ERR.069",
+          "subrule": "16.3",
+          "subrule_title": "Title",
+          "error_type": "Capitalization Error in Article Title",
+          "description": "Article title uses incorrect capitalization pattern",
+          "example_incorrect": "John Doe, article title here, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "John Doe, Article Title Here, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.3.ERR.070",
+          "subrule": "16.3",
+          "subrule_title": "Title",
+          "error_type": "Omitted Punctuation from Original Title",
+          "description": "Article title altered by omitting original punctuation (e.g., question mark, colon)",
+          "example_incorrect": "John Doe, Article Title (2020)",
+          "example_correct": "John Doe, Article Title? (2020) [if original had question mark]",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.4.ERR.071",
+          "subrule": "16.4",
+          "subrule_title": "Consecutively Paginated Journals",
+          "error_type": "Unnecessary Issue Number in Consecutively Paginated Journal",
+          "description": "Including issue number for consecutively paginated journal where not needed",
+          "example_incorrect": "John Doe, Article Title, 123 Harv. L. Rev., no. 3, 456 (2020)",
+          "example_correct": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.4.ERR.072",
+          "subrule": "16.4",
+          "subrule_title": "Consecutively Paginated Journals",
+          "error_type": "Unnecessary Month Citation in Consecutively Paginated Journal",
+          "description": "Citing month for consecutively paginated journal where volume/year sufficient",
+          "example_incorrect": "John Doe, Article Title, 123 Harv. L. Rev. 456 (Jan. 2020)",
+          "example_correct": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "low"
+        },
+        {
+          "error_id": "16.5.ERR.073",
+          "subrule": "16.5",
+          "subrule_title": "Nonconsecutively Paginated Journals and Magazines",
+          "error_type": "Missing Issue Number for Non-Consecutively Paginated Journal",
+          "description": "Non-consecutively paginated journal citation lacks required issue number",
+          "example_incorrect": "Jane Doe, Article, 4 Int'l J. of Law 15 (2020)",
+          "example_correct": "Jane Doe, Article, 4(3) Int'l J. of Law 15 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.5.ERR.074",
+          "subrule": "16.5",
+          "subrule_title": "Nonconsecutively Paginated Journals and Magazines",
+          "error_type": "Vague Date Citation for Magazine Without Exact Date",
+          "description": "Magazine citation provides only year instead of specific month/date",
+          "example_incorrect": "Jane Doe, Article, Time 54 (2021)",
+          "example_correct": "Jane Doe, Article, Time, Mar. 3, 2021, at 54",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.5.ERR.075",
+          "subrule": "16.5",
+          "subrule_title": "Nonconsecutively Paginated Journals and Magazines",
+          "error_type": "Inconsistent Date Format in Periodical Citation",
+          "description": "Date format differs from Bluebook standard (e.g., 'March 3' instead of 'Mar. 3')",
+          "example_incorrect": "Jane Doe, Article, Time, March 3, 2021, at 54",
+          "example_correct": "Jane Doe, Article, Time, Mar. 3, 2021, at 54",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.6.ERR.076",
+          "subrule": "16.6",
+          "subrule_title": "Newspapers",
+          "error_type": "Incorrect Newspaper Name Abbreviation",
+          "description": "Newspaper name abbreviated incorrectly or inconsistently",
+          "example_incorrect": "John Doe, Article, NYT, Jan. 5, 2021, at A1",
+          "example_correct": "John Doe, Article, N.Y. Times, Jan. 5, 2021, at A1",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.6.ERR.077",
+          "subrule": "16.6",
+          "subrule_title": "Newspapers",
+          "error_type": "Missing Edition Designation When Necessary",
+          "description": "Citation to different newspaper edition fails to note edition parenthetically",
+          "example_incorrect": "John Doe, Article, N.Y. Times, Jan. 5, 2021, at A1",
+          "example_correct": "John Doe, Article, N.Y. Times, Jan. 5, 2021, at A1 (late ed.)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.6.ERR.078",
+          "subrule": "16.6",
+          "subrule_title": "Newspapers",
+          "error_type": "Online Newspaper Citation Without Required Information",
+          "description": "Online newspaper article cited without URL or proper format",
+          "example_incorrect": "John Doe, Article, N.Y. Times Online, Jan. 5, 2021",
+          "example_correct": "John Doe, Article, N.Y. Times (Jan. 5, 2021), https://nytimes.com/article",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.7.1.ERR.079",
+          "subrule": "16.7.1",
+          "subrule_title": "Student-Written Law Review Materials",
+          "error_type": "Missing 'Note' or 'Comment' Designation for Student Piece",
+          "description": "Unsigned student piece cited without indicating it is a Note or Comment",
+          "example_incorrect": "Unsigned Note Title, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "Comment, Note Title, 123 Harv. L. Rev. 456 (2020)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.7.1.ERR.080",
+          "subrule": "16.7.1",
+          "subrule_title": "Student-Written Law Review Materials",
+          "error_type": "Incorrect Formatting of 'Note' or 'Comment' Designation",
+          "description": "'Note' or 'Comment' not properly italicized or positioned",
+          "example_incorrect": "Note Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "Note, Article Title, 123 Harv. L. Rev. 456 (2020) [with Note italicized in academic context]",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.7.2.ERR.081",
+          "subrule": "16.7.2",
+          "subrule_title": "Non-Student-Written Book Reviews",
+          "error_type": "Missing Parenthetical Identifying Book Under Review",
+          "description": "Book review article lacks parenthetical indicating which book is reviewed",
+          "example_incorrect": "Jane Doe, Title of Review, 130 Harv. L. Rev. 123 (2017)",
+          "example_correct": "Jane Doe, Title of Review, 130 Harv. L. Rev. 123 (2017) (reviewing John Smith, Book Title (2016))",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.7.2.ERR.082",
+          "subrule": "16.7.2",
+          "subrule_title": "Non-Student-Written Book Reviews",
+          "error_type": "Incomplete Book Information in Review Parenthetical",
+          "description": "Book review parenthetical lacks author, title, or publication year of book reviewed",
+          "example_incorrect": "Jane Doe, Title of Review, 130 Harv. L. Rev. 123 (2017) (reviewing Book Title)",
+          "example_correct": "Jane Doe, Title of Review, 130 Harv. L. Rev. 123 (2017) (reviewing John Smith, Book Title (2016))",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.7.3.ERR.083",
+          "subrule": "16.7.3",
+          "subrule_title": "Symposia, Colloquia, and Surveys",
+          "error_type": "Missing Symposium Designation Parenthetical",
+          "description": "Article part of symposium cited without parenthetical indicating symposium topic",
+          "example_incorrect": "Jane Doe, Article Title, 130 Harv. L. Rev. 123 (2017)",
+          "example_correct": "Jane Doe, Article Title, 130 Harv. L. Rev. 123 (2017) (Symposium: Law and Technology)",
+          "severity": "low"
+        },
+        {
+          "error_id": "16.7.3.ERR.084",
+          "subrule": "16.7.3",
+          "subrule_title": "Symposia, Colloquia, and Surveys",
+          "error_type": "Unclear Symposium Context in Citation",
+          "description": "Symposium article citation lacks clarity regarding symposium topic or nature",
+          "example_incorrect": "Jane Doe, Article Title, 130 Harv. L. Rev. 123 (2017) (Special Issue)",
+          "example_correct": "Jane Doe, Article Title, 130 Harv. L. Rev. 123 (2017) (Symposium: Legal Issues in Technology)",
+          "severity": "low"
+        },
+        {
+          "error_id": "16.7.4.ERR.085",
+          "subrule": "16.7.4",
+          "subrule_title": "Commentaries and Other Special Designations",
+          "error_type": "Missing Special Designation for Journal Section",
+          "description": "Article from journal's special section (like 'Developments' or 'Recent Cases') lacks designation",
+          "example_incorrect": "Developments in Education Law, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "Developments in Education Law, 123 Harv. L. Rev. 456 (2020) [or indicate parenthetically if needed]",
+          "severity": "low"
+        },
+        {
+          "error_id": "16.7.4.ERR.086",
+          "subrule": "16.7.4",
+          "subrule_title": "Commentaries and Other Special Designations",
+          "error_type": "Incorrect Commentary Format",
+          "description": "Commentary or informal piece cited without proper designation or format",
+          "example_incorrect": "John Doe, Informal Comment, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "John Doe, Comment, Informal Title, 123 Harv. L. Rev. 456 (2020) [with appropriate formatting]",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.7.5.ERR.087",
+          "subrule": "16.7.5",
+          "subrule_title": "Multipart Articles",
+          "error_type": "Combined Citation for Multipart Article Without Explanation",
+          "description": "Multipart article cited as single citation without noting it spans multiple issues",
+          "example_incorrect": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020) (pt. 1), 124 Harv. L. Rev. 789 (2021) (pt. 2)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.7.5.ERR.088",
+          "subrule": "16.7.5",
+          "subrule_title": "Multipart Articles",
+          "error_type": "Missing Part Designation in Multipart Citation",
+          "description": "When citing specific part of multipart article, part number lacking",
+          "example_incorrect": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020)",
+          "example_correct": "John Doe, Article Title, 123 Harv. L. Rev. 456 (2020) (pt. 1)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.7.6.ERR.089",
+          "subrule": "16.7.6",
+          "subrule_title": "Annotations",
+          "error_type": "Missing Annotation Topic",
+          "description": "A.L.R. annotation citation lacks topic description after 'Annotation'",
+          "example_incorrect": "John Doe, Annotation, 12 A.L.R.5th 123 (1993)",
+          "example_correct": "John Doe, Annotation, Validity of X, 12 A.L.R.5th 123 (1993)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.7.6.ERR.090",
+          "subrule": "16.7.6",
+          "subrule_title": "Annotations",
+          "error_type": "Incorrect A.L.R. Series Designation",
+          "description": "A.L.R. annotation cites incorrect series (5th, 6th, etc.)",
+          "example_incorrect": "John Doe, Annotation, Validity of X, 12 A.L.R. 123 (1993)",
+          "example_correct": "John Doe, Annotation, Validity of X, 12 A.L.R.5th 123 (1993)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.7.7.ERR.091",
+          "subrule": "16.7.7",
+          "subrule_title": "Proceedings, Institute Publications, and ABA Section Reports",
+          "error_type": "Incomplete Conference Proceedings Citation",
+          "description": "Conference proceedings article lacks complete publication information",
+          "example_incorrect": "John Doe, Article Title (2019)",
+          "example_correct": "John Doe, Article Title, in Proceedings of the ABA Section of Antitrust Law 45 (2019)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.7.7.ERR.092",
+          "subrule": "16.7.7",
+          "subrule_title": "Proceedings, Institute Publications, and ABA Section Reports",
+          "error_type": "Missing CLE Material Publication Details",
+          "description": "Continuing legal education material cited without sufficient publication info",
+          "example_incorrect": "John Doe, CLE Article (2019)",
+          "example_correct": "John Doe, Article Title, in 2019 CLE Program Materials: X Institute 456 (2019)",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.7.8.ERR.093",
+          "subrule": "16.7.8",
+          "subrule_title": "Newsletters and Noncommercially Distributed Periodicals",
+          "error_type": "Missing Organization as Author for Newsletter",
+          "description": "Newsletter citation lacks organization name when no individual author given",
+          "example_incorrect": "Privacy Newsletter, Jan. 2020, at 2",
+          "example_correct": "ACLU Privacy Newsletter, Jan. 2020, at 2",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.7.8.ERR.094",
+          "subrule": "16.7.8",
+          "subrule_title": "Newsletters and Noncommercially Distributed Periodicals",
+          "error_type": "Insufficient Availability Information for Noncommercial Periodical",
+          "description": "Citation to noncommercially distributed periodical lacks parenthetical about availability",
+          "example_incorrect": "ACLU Privacy Newsletter, Jan. 2020, at 2",
+          "example_correct": "ACLU Privacy Newsletter, Jan. 2020, at 2 (on file with author)",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.8.ERR.095",
+          "subrule": "16.8",
+          "subrule_title": "Electronic Databases and Online Sources",
+          "error_type": "Missing URL for Online-Only Periodical Article",
+          "description": "Article available only online cited without URL",
+          "example_incorrect": "Jane Doe, Blog Post Title, LAW BLOG (Jan. 2, 2020)",
+          "example_correct": "Jane Doe, Blog Post Title, LAW BLOG (Jan. 2, 2020, 10:00 AM), https://lawblog.com/post",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.8.ERR.096",
+          "subrule": "16.8",
+          "subrule_title": "Electronic Databases and Online Sources",
+          "error_type": "Missing DOI or Sufficient Identifier for Online Journal Article",
+          "description": "Online journal article ahead of print cited without DOI or other identifier",
+          "example_incorrect": "Jane Doe, Article Title, Journal Name (forthcoming 2021)",
+          "example_correct": "Jane Doe, Article Title, Journal Name (forthcoming 2021), https://doi.org/10.xxx",
+          "severity": "medium"
+        },
+        {
+          "error_id": "16.8.ERR.097",
+          "subrule": "16.8",
+          "subrule_title": "Electronic Databases and Online Sources",
+          "error_type": "Inaccessible or Incomplete URL",
+          "description": "URL provided is incomplete, broken, or does not lead to correct source",
+          "example_incorrect": "Jane Doe, Article, Blog (2020), https://lawblog.com",
+          "example_correct": "Jane Doe, Article, Blog (Jan. 2, 2020), https://lawblog.com/2020/01/02/article-title",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.9.ERR.098",
+          "subrule": "16.9",
+          "subrule_title": "Short Citation Forms",
+          "error_type": "Incorrect Use of 'Id.' for Different Article",
+          "description": "Using 'Id.' to reference different article than immediately preceding citation",
+          "example_incorrect": "[Cite article A] Id. [referring to article B]",
+          "example_correct": "[Cite article A] [Full or supra citation to article B]",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.9.ERR.099",
+          "subrule": "16.9",
+          "subrule_title": "Short Citation Forms",
+          "error_type": "Missing Author Last Name in Supra Citation",
+          "description": "Short citation using supra lacks author last name necessary for clarity",
+          "example_incorrect": "Supra note 4, at 460",
+          "example_correct": "Doe, supra note 4, at 460",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.9.ERR.100",
+          "subrule": "16.9",
+          "subrule_title": "Short Citation Forms",
+          "error_type": "Ambiguous Multiple Works by Same Author",
+          "description": "Short citation fails to distinguish between multiple works by same author",
+          "example_incorrect": "[When multiple Doe articles cited:] Doe, supra note 4",
+          "example_correct": "Doe, Article Title, supra note 4",
+          "severity": "high"
+        },
+        {
+          "error_id": "16.9.ERR.101",
+          "subrule": "16.9",
+          "subrule_title": "Short Citation Forms",
+          "error_type": "Improper Use of 'Supra' for Cases and Primary Sources",
+          "description": "Using 'supra' reference for case or primary source instead of permitted shortforms",
+          "example_incorrect": "[Case:] Supra note 5",
+          "example_correct": "[Case:] Id. or full citation as appropriate",
+          "severity": "medium"
+        }
+      ]
+    }
+  },
+  "error_statistics": {
+    "rule_14_total_errors": 20,
+    "rule_15_total_errors": 40,
+    "rule_16_total_errors": 41,
+    "overall_total_errors": 101,
+    "error_severity_breakdown": {
+      "high": 67,
+      "medium": 26,
+      "low": 8
+    }
+  },
+  "cross_cutting_error_patterns": {
+    "missing_required_elements": {
+      "description": "Common errors involving missing required citation elements",
+      "affected_rules": ["14", "15", "16"],
+      "examples": ["Missing volume numbers", "Missing publication dates", "Missing page references"]
+    },
+    "formatting_errors": {
+      "description": "Errors related to proper formatting and typography",
+      "affected_rules": ["15", "16"],
+      "examples": ["Italicization errors", "Capitalization errors", "Abbreviation errors"]
+    },
+    "disambiguation_issues": {
+      "description": "Errors causing ambiguity or inability to identify source",
+      "affected_rules": ["14", "15", "16"],
+      "examples": ["Missing author information", "Insufficient agency identification", "Ambiguous short citations"]
+    },
+    "source_selection_errors": {
+      "description": "Errors in selecting inappropriate or wrong citation sources",
+      "affected_rules": ["14", "15", "16"],
+      "examples": ["Citing secondary when primary available", "Electronic-only without full cite", "Incorrect reporter selection"]
+    }
+  },
+  "recommendations": {
+    "validation_focus_areas": [
+      "Verify all required elements present in administrative citations (volume, page, date)",
+      "Check title formatting and punctuation matches original source",
+      "Confirm editor/translator designations use correct abbreviations (ed./eds., trans.)",
+      "Validate journal abbreviations against Table T13",
+      "Ensure proper et al. usage (only for 3+ authors)",
+      "Verify short-form citations have prior full citations",
+      "Check electronic sources include URLs and access dates where required",
+      "Confirm admin documents cite to official sources before commercial databases"
+    ]
+  }
+}

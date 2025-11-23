@@ -1,0 +1,698 @@
+{
+  "version": "1.0.0",
+  "generated": "2025-11-23",
+  "total_error_types": 537,
+  "framework_description": "Comprehensive Bluebook/Redbook error detection framework consolidating all analysis from Rules 1-16 and Tables 1-16",
+  "sources": [
+    "Rules 1-4: Structure, Signals, Subdivisions, Short Forms",
+    "Rule 10: Case Citations (Core & Advanced)",
+    "Rules 11-13: Constitutions, Statutes",
+    "Rules 14-16: Books, Articles, Periodicals",
+    "Tables 1-5: Jurisdictions, Courts, Treaties, Arbitral",
+    "Tables 6-8: Case Names (451 entries)",
+    "Tables 9-16: Legislative, Geographic, Officials (486 entries)"
+  ],
+
+  "detection_pipeline": {
+    "phase_1": {
+      "name": "Regex Pre-Screening",
+      "description": "Fast pattern matching for obvious errors",
+      "speed": "Fast",
+      "precision": "High",
+      "recall": "Low to Medium",
+      "use_cases": [
+        "Missing punctuation",
+        "Obvious formatting errors",
+        "Basic pattern violations",
+        "Signal presence detection"
+      ]
+    },
+    "phase_2": {
+      "name": "Rule-Based Validation",
+      "description": "Context-aware rule checking",
+      "speed": "Medium",
+      "precision": "High",
+      "recall": "Medium to High",
+      "use_cases": [
+        "Citation structure validation",
+        "Abbreviation compliance",
+        "Sequence ordering",
+        "Required element presence"
+      ]
+    },
+    "phase_3": {
+      "name": "GPT Semantic Check",
+      "description": "AI-powered semantic analysis",
+      "speed": "Slow",
+      "precision": "Variable",
+      "recall": "High",
+      "use_cases": [
+        "Signal appropriateness",
+        "Parenthetical requirements",
+        "Authority ordering",
+        "Cross-reference validation"
+      ]
+    },
+    "phase_4": {
+      "name": "Human Review Queue",
+      "description": "Ambiguous cases for human judgment",
+      "threshold": "Confidence < 0.7",
+      "criteria": [
+        "Multiple valid interpretations",
+        "Redbook vs. Bluebook conflicts",
+        "Novel citation formats",
+        "Edge cases"
+      ]
+    }
+  },
+
+  "error_catalog": [
+    {
+      "error_id": "cite_001",
+      "error_name": "citation_sentence_missing_period",
+      "source_rule": "BB 1.1",
+      "category": "punctuation",
+      "description": "Citation sentence must end with a period",
+      "regex_detect": "\\([12]\\d{3}\\)[^.]*$",
+      "regex_validate": "\\([12]\\d{3}\\)\\.$",
+      "severity": "major",
+      "citation_types": ["all"],
+      "auto_fixable": true,
+      "fix_pattern": "Add period at end of citation sentence",
+      "gpt_validation_prompt": "Check if this citation is a complete citation sentence (supports an entire sentence). If yes, verify it: 1) Starts with capital letter, 2) Ends with period, 3) Not embedded within another sentence. Citation: {citation_text}. Return: VALID or ERROR with explanation",
+      "examples": {
+        "incorrect": "See Smith v. Jones, 123 U.S. 456 (2000)",
+        "correct": "See Smith v. Jones, 123 U.S. 456 (2000)."
+      }
+    },
+    {
+      "error_id": "cite_002",
+      "error_name": "id_without_period",
+      "source_rule": "BB 4.1, RB 4.2",
+      "category": "short_form",
+      "description": "'Id' must always include period",
+      "regex_detect": "\\bId\\s+at\\s+\\d+",
+      "regex_validate": "\\bId\\.\\s+at\\s+\\d+",
+      "severity": "major",
+      "citation_types": ["all"],
+      "auto_fixable": true,
+      "fix_pattern": "Add period after 'Id'",
+      "gpt_validation_prompt": "Check 'Id.' formatting: 1) Capital 'I', lowercase 'd', 2) Always followed by period, 3) Italicized, 4) If pincite follows, use 'at' before page number. Text: {id_citation}. Return: CORRECT or list specific errors",
+      "examples": {
+        "incorrect": "Id at 123",
+        "correct": "Id. at 123."
+      }
+    },
+    {
+      "error_id": "cite_003",
+      "error_name": "id_without_at_redbook",
+      "source_rule": "RB 4.2",
+      "category": "short_form",
+      "description": "Redbook requires 'at' after Id. when citing different page",
+      "regex_detect": "Id\\.\\s+\\d+(?!\\s*n\\.)",
+      "regex_validate": "Id\\.\\s+at\\s+\\d+",
+      "severity": "major",
+      "citation_types": ["all"],
+      "auto_fixable": true,
+      "fix_pattern": "Insert 'at' between Id. and page number",
+      "gpt_validation_prompt": "Redbook Rule 4.2: Always include 'at' after Id. when citing to a different page. Format: Same page: Id. | Different page: Id. at 123. | Footnote: Id. at 123 n.4. Citation: {id_citation}. Return: CORRECT or ERROR with proper format",
+      "examples": {
+        "incorrect": "Id. 123",
+        "correct": "Id. at 123."
+      }
+    },
+    {
+      "error_id": "cite_004",
+      "error_name": "signal_not_italicized",
+      "source_rule": "BB 1.2, BB 2.1",
+      "category": "formatting",
+      "description": "Introductory signals must be italicized",
+      "regex_detect": "^(See|Accord|But see|See also|See generally|E\\.g\\.|Cf\\.|Compare|But cf\\.)\\s+[A-Z]",
+      "regex_validate": null,
+      "severity": "major",
+      "citation_types": ["all"],
+      "auto_fixable": false,
+      "fix_pattern": "Italicize the signal",
+      "gpt_validation_prompt": "Check if introductory signals are properly formatted: 1) Signals must be italicized (except when used as verbs in textual sentences), 2) Proper capitalization (only first word of citation sentence), 3) Correct punctuation after signal. Text: {citation_text}. Return: FORMATTING_CORRECT or list of issues",
+      "examples": {
+        "incorrect": "See Smith v. Jones, 123 U.S. 456 (2000).",
+        "correct": "See Smith v. Jones, 123 U.S. 456 (2000)."
+      }
+    },
+    {
+      "error_id": "cite_005",
+      "error_name": "cf_missing_parenthetical",
+      "source_rule": "BB 1.2, RB 1.12",
+      "category": "signal",
+      "description": "'Cf.' and 'But cf.' signals REQUIRE explanatory parentheticals",
+      "regex_detect": "\\bCf\\.\\s+[^(]+\\([12]\\d{3}\\)\\.(?!\\s*\\()",
+      "regex_validate": "\\bCf\\.\\s+[^(]+\\([12]\\d{3}\\)\\s*\\([^)]+\\)",
+      "severity": "critical",
+      "citation_types": ["all"],
+      "auto_fixable": false,
+      "fix_pattern": "Add explanatory parenthetical",
+      "gpt_validation_prompt": "Rule: 'Cf.' and 'But cf.' signals MUST include explanatory parentheticals. 'See generally' signals must NOT include explanatory parentheticals. Check this citation: {citation_text}. Return: Signal type identified, Parenthetical presence (YES/NO), COMPLIANT or NON_COMPLIANT with reason",
+      "examples": {
+        "incorrect": "Cf. Smith v. Jones, 123 U.S. 456 (2000).",
+        "correct": "Cf. Smith v. Jones, 123 U.S. 456 (2000) (holding similar standard in contract context)."
+      }
+    },
+    {
+      "error_id": "cite_006",
+      "error_name": "see_generally_with_parenthetical",
+      "source_rule": "RB 1.12",
+      "category": "signal",
+      "description": "'See generally' must NOT have explanatory parenthetical",
+      "regex_detect": "\\bSee generally\\s+[^(]+\\([12]\\d{3}\\)\\s*\\([^)]+\\)",
+      "regex_validate": "\\bSee generally\\s+[^(]+\\([12]\\d{3}\\)\\.(?!\\s*\\()",
+      "severity": "major",
+      "citation_types": ["all"],
+      "auto_fixable": false,
+      "fix_pattern": "Remove explanatory parenthetical",
+      "gpt_validation_prompt": "Check: 'See generally' signals must NOT have explanatory parentheticals per Redbook 1.12. Citation: {citation_text}. Return: COMPLIANT or NON_COMPLIANT with specific issue",
+      "examples": {
+        "incorrect": "See generally Smith v. Jones, 123 U.S. 456 (2000) (discussing constitutional law).",
+        "correct": "See generally Smith v. Jones, 123 U.S. 456 (2000)."
+      }
+    },
+    {
+      "error_id": "cite_007",
+      "error_name": "signals_out_of_order",
+      "source_rule": "BB 1.3",
+      "category": "signal",
+      "description": "Signals must appear in Bluebook order",
+      "regex_detect": "(See also|Cf\\.)([^;]+);[\\s]*(See)(?!\\s+also|generally)",
+      "regex_validate": null,
+      "severity": "major",
+      "citation_types": ["all"],
+      "auto_fixable": false,
+      "fix_pattern": "Reorder signals: No signal → E.g. → Accord → See → See also → Cf. → Compare...with → But see → But cf. → See generally",
+      "gpt_validation_prompt": "Check if signals appear in correct Bluebook order: 1. No signal → 2. E.g. → 3. Accord → 4. See → 5. See also → 6. Cf. → 7. Compare...with → 8. But see → 9. But cf. → 10. See generally. Citation string: {full_citation_sentence}. Return: Signals found (in order of appearance), Expected order, CORRECT or OUT_OF_ORDER with correction",
+      "examples": {
+        "incorrect": "See also Smith, 100 U.S. 1 (1990); see Jones, 200 U.S. 2 (2000).",
+        "correct": "See Jones, 200 U.S. 2 (2000); see also Smith, 100 U.S. 1 (1990)."
+      }
+    },
+    {
+      "error_id": "cite_008",
+      "error_name": "parenthetical_starts_with_capital",
+      "source_rule": "BB 1.5",
+      "category": "parenthetical",
+      "description": "Explanatory parenthetical must start with lowercase (unless proper noun)",
+      "regex_detect": "\\([12]\\d{3}\\)\\s+\\([A-Z][a-z]+(?![\\w\\s]*[A-Z][\\w\\s]*,)",
+      "regex_validate": null,
+      "severity": "major",
+      "citation_types": ["cases", "articles", "books"],
+      "auto_fixable": false,
+      "fix_pattern": "Change first letter to lowercase unless proper noun",
+      "gpt_validation_prompt": "Check explanatory parenthetical formatting: 1) Must start with lowercase letter (unless proper noun), 2) Should begin with present participle or quoted sentence, 3) Cannot start with article (a, an, the). Parenthetical: {parenthetical_text}. Return: First word, Type (present participle/quote/other), CORRECT or ERROR with issue",
+      "examples": {
+        "incorrect": "Smith v. Jones, 100 U.S. 1 (2000) (The court held that...).",
+        "correct": "Smith v. Jones, 100 U.S. 1 (2000) (holding that...)."
+      }
+    },
+    {
+      "error_id": "cite_009",
+      "error_name": "supra_used_for_cases",
+      "source_rule": "BB 4.2",
+      "category": "short_form",
+      "description": "Never use 'supra' for cases",
+      "regex_detect": "[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+,\\s+supra\\s+note",
+      "regex_validate": null,
+      "severity": "critical",
+      "citation_types": ["cases"],
+      "auto_fixable": false,
+      "fix_pattern": "Use short case name instead: Smith, 100 U.S. at 123",
+      "gpt_validation_prompt": "Bluebook Rule: Do NOT use 'supra' for cases. Use short case name instead. Incorrect: Smith v. Jones, supra note 10. Correct: Smith, 100 U.S. at 123 (if within 5 footnotes) or Smith v. Jones, 100 U.S. 1, 123 (1990) (if beyond 5 footnotes). Citation: {citation_text}. Type: {authority_type}. Return: SUPRA_APPROPRIATE or USE_SHORT_FORM with correct format",
+      "examples": {
+        "incorrect": "Smith v. Jones, supra note 10, at 123.",
+        "correct": "Smith, 100 U.S. at 123."
+      }
+    },
+    {
+      "error_id": "cite_010",
+      "error_name": "section_symbol_missing",
+      "source_rule": "BB 3.3, BB 12",
+      "category": "statutory",
+      "description": "Use § symbol in citations, not word 'section'",
+      "regex_detect": "\\b[Ss]ection\\s+\\d+[a-z]?\\b(?=.*\\([12]\\d{3}\\))",
+      "regex_validate": "§\\s+\\d+",
+      "severity": "major",
+      "citation_types": ["statutes", "codes"],
+      "auto_fixable": true,
+      "fix_pattern": "Replace 'section' with §",
+      "gpt_validation_prompt": "In statutory citations, must use § symbol, not word 'section'. Citation: {citation}. Return: VALID or ERROR with correction",
+      "examples": {
+        "incorrect": "42 U.S.C. Section 1983",
+        "correct": "42 U.S.C. § 1983"
+      }
+    },
+    {
+      "error_id": "cite_011",
+      "error_name": "section_symbol_no_space",
+      "source_rule": "BB 3.3, BB 12",
+      "category": "statutory",
+      "description": "Space required after section symbol",
+      "regex_detect": "§\\d+",
+      "regex_validate": "§\\s+\\d+",
+      "severity": "major",
+      "citation_types": ["statutes", "codes"],
+      "auto_fixable": true,
+      "fix_pattern": "Add space between § and number",
+      "gpt_validation_prompt": "Check section symbol spacing: must have space between § and the section number. Citation: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "42 U.S.C. §1983",
+        "correct": "42 U.S.C. § 1983"
+      }
+    },
+    {
+      "error_id": "cite_012",
+      "error_name": "double_section_single_reference",
+      "source_rule": "BB 3.3",
+      "category": "statutory",
+      "description": "Use single § for single section, not §§",
+      "regex_detect": "§§\\s+\\d+(?![,\\-\\d])",
+      "regex_validate": "§\\s+\\d+(?![,\\-\\d])",
+      "severity": "major",
+      "citation_types": ["statutes", "codes"],
+      "auto_fixable": true,
+      "fix_pattern": "Change §§ to § for single section",
+      "gpt_validation_prompt": "Check section symbol usage: Single section: § 102, Multiple consecutive: §§ 102-105, Multiple non-consecutive: §§ 102, 105, 108. Citation: {section_citation}. Return: CORRECT or ERROR with proper format",
+      "examples": {
+        "incorrect": "42 U.S.C. §§ 1983",
+        "correct": "42 U.S.C. § 1983"
+      }
+    },
+    {
+      "error_id": "cite_013",
+      "error_name": "constitution_with_year",
+      "source_rule": "BB 11",
+      "category": "constitutional",
+      "description": "Never include year for constitutional citations",
+      "regex_detect": "Const\\.\\s+amend\\.\\s+[IVX]+\\s*\\(\\d{4}\\)",
+      "regex_validate": "Const\\.\\s+amend\\.\\s+[IVX]+(?!\\s*\\(\\d{4}\\))",
+      "severity": "major",
+      "citation_types": ["constitutions"],
+      "auto_fixable": true,
+      "fix_pattern": "Remove year from constitutional citation",
+      "gpt_validation_prompt": "Constitutional citations: Never include year. Check: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "U.S. Const. amend. XIV (1868)",
+        "correct": "U.S. Const. amend. XIV"
+      }
+    },
+    {
+      "error_id": "cite_014",
+      "error_name": "constitution_arabic_numerals",
+      "source_rule": "BB 11",
+      "category": "constitutional",
+      "description": "Use Roman numerals for constitutional articles and amendments",
+      "regex_detect": "Const\\.\\s+(?:art\\.|amend\\.)\\s+\\d+",
+      "regex_validate": "Const\\.\\s+(?:art\\.|amend\\.)\\s+[IVX]+",
+      "severity": "major",
+      "citation_types": ["constitutions"],
+      "auto_fixable": false,
+      "fix_pattern": "Convert to Roman numerals",
+      "gpt_validation_prompt": "Check constitutional citation format: 1) Correct abbreviation (U.S. Const. or state abbreviation), 2) Proper use of article/amendment abbreviations, 3) Roman numerals for articles and amendments, 4) No date included, 5) Proper section notation if applicable, 6) Correct comma placement. Citation: {citation}. Return: Is Valid (Yes/No), Errors Found, Corrected Citation, Rule Citation",
+      "examples": {
+        "incorrect": "U.S. Const. amend. 14",
+        "correct": "U.S. Const. amend. XIV"
+      }
+    },
+    {
+      "error_id": "cite_015",
+      "error_name": "state_code_missing_year",
+      "source_rule": "BB 12.3",
+      "category": "statutory",
+      "description": "State codes always require year and publisher",
+      "regex_detect": "(?:Cal\\.|N\\.Y\\.|Tex\\.|Fla\\.).*Code\\s+§.*(?<!\\(\\w+\\s+\\d{4}\\))",
+      "regex_validate": "(?:Cal\\.|N\\.Y\\.|Tex\\.|Fla\\.).*Code\\s+§.*\\((?:West|McKinney|LexisNexis)\\s+\\d{4}\\)",
+      "severity": "critical",
+      "citation_types": ["statutes"],
+      "auto_fixable": false,
+      "fix_pattern": "Add publisher and year in parentheses",
+      "gpt_validation_prompt": "State code citations must include publisher and year. Example: Cal. Civ. Code § 1714 (West 2020). Check: {citation}. Return: VALID or ERROR with missing elements",
+      "examples": {
+        "incorrect": "Cal. Civ. Code § 1714",
+        "correct": "Cal. Civ. Code § 1714 (West 2020)"
+      }
+    },
+    {
+      "error_id": "cite_016",
+      "error_name": "usc_wrong_abbreviation",
+      "source_rule": "BB 12",
+      "category": "statutory",
+      "description": "U.S.C. must have periods",
+      "regex_detect": "\\b(?:USC|US C\\.)\\b",
+      "regex_validate": "U\\.S\\.C\\.",
+      "severity": "major",
+      "citation_types": ["statutes"],
+      "auto_fixable": true,
+      "fix_pattern": "Correct to U.S.C. with periods and no extra spaces",
+      "gpt_validation_prompt": "Check U.S.C. abbreviation: must be 'U.S.C.' with periods, no extra spaces. Citation: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "42 USC § 1983",
+        "correct": "42 U.S.C. § 1983"
+      }
+    },
+    {
+      "error_id": "cite_017",
+      "error_name": "case_name_not_italicized",
+      "source_rule": "BB 2.1, BB 10",
+      "category": "formatting",
+      "description": "Case names must be italicized",
+      "regex_detect": null,
+      "regex_validate": null,
+      "severity": "major",
+      "citation_types": ["cases"],
+      "auto_fixable": false,
+      "fix_pattern": "Italicize case name",
+      "gpt_validation_prompt": "Check typeface formatting for this citation: 1) Case names must be italicized (including 'v.'), 2) Reporter names are roman, 3) Dates/parentheticals are roman. Citation: {citation_text}. Return: List of formatting issues or CORRECT",
+      "examples": {
+        "incorrect": "Smith v. Jones, 100 U.S. 1 (2000).",
+        "correct": "Smith v. Jones, 100 U.S. 1 (2000)."
+      }
+    },
+    {
+      "error_id": "cite_018",
+      "error_name": "book_title_not_italicized",
+      "source_rule": "BB 15.3",
+      "category": "formatting",
+      "description": "Book titles must be italicized",
+      "regex_detect": null,
+      "regex_validate": null,
+      "severity": "major",
+      "citation_types": ["books"],
+      "auto_fixable": false,
+      "fix_pattern": "Italicize book title",
+      "gpt_validation_prompt": "Book titles must be italicized, not in quotation marks. Check: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "John Doe, The Death of Contract (2020)",
+        "correct": "John Doe, The Death of Contract (2020)"
+      }
+    },
+    {
+      "error_id": "cite_019",
+      "error_name": "article_et_al_formatting",
+      "source_rule": "BB 16.2",
+      "category": "author",
+      "description": "Use 'et al.' for three or more authors",
+      "regex_detect": "[A-Z][a-z]+(?:,\\s+[A-Z][a-z]+){2,}(?:,\\s+&|&)\\s+[A-Z][a-z]+,",
+      "regex_validate": "[A-Z][a-z]+\\s+et al\\.,",
+      "severity": "major",
+      "citation_types": ["articles", "books"],
+      "auto_fixable": true,
+      "fix_pattern": "Use first author followed by 'et al.'",
+      "gpt_validation_prompt": "For three or more authors, use first author followed by 'et al.'. Check: {citation}. Return: VALID or ERROR with correction",
+      "examples": {
+        "incorrect": "John Smith, Jane Doe, & Robert Jones, Article, 100 Yale L.J. 1 (2020)",
+        "correct": "John Smith et al., Article, 100 Yale L.J. 1 (2020)"
+      }
+    },
+    {
+      "error_id": "cite_020",
+      "error_name": "reporter_series_wrong_format",
+      "source_rule": "BB 10.3, T1",
+      "category": "case",
+      "description": "Use '2d' and '3d', not '2nd' or '3rd'",
+      "regex_detect": "\\b(?:F\\.|P\\.|A\\.|N\\.E\\.|S\\.W\\.|So\\.)\\s*(?:2nd|3rd|2ND|3RD)\\b",
+      "regex_validate": "\\b(?:F\\.|P\\.|A\\.|N\\.E\\.|S\\.W\\.|So\\.)\\s*(?:2d|3d)\\b",
+      "severity": "major",
+      "citation_types": ["cases"],
+      "auto_fixable": true,
+      "fix_pattern": "Change '2nd' to '2d' and '3rd' to '3d'",
+      "gpt_validation_prompt": "Reporter series must use '2d' and '3d', not '2nd' or '3rd'. Check: {citation}. Return: VALID or ERROR with correction",
+      "examples": {
+        "incorrect": "Smith v. Jones, 100 F.2nd 456 (5th Cir. 1997)",
+        "correct": "Smith v. Jones, 100 F.2d 456 (5th Cir. 1997)"
+      }
+    },
+    {
+      "error_id": "cite_021",
+      "error_name": "f_supp_missing_space",
+      "source_rule": "T1",
+      "category": "case",
+      "description": "Space required after 'F.' in F. Supp.",
+      "regex_detect": "F\\.Supp\\.",
+      "regex_validate": "F\\.\\s+Supp\\.",
+      "severity": "major",
+      "citation_types": ["cases"],
+      "auto_fixable": true,
+      "fix_pattern": "Add space: F. Supp.",
+      "gpt_validation_prompt": "F. Supp. requires space after F. Check: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "Smith v. Jones, 100 F.Supp. 2d 200 (S.D.N.Y. 2000)",
+        "correct": "Smith v. Jones, 100 F. Supp. 2d 200 (S.D.N.Y. 2000)"
+      }
+    },
+    {
+      "error_id": "cite_022",
+      "error_name": "treaty_name_italicized",
+      "source_rule": "T4",
+      "category": "treaty",
+      "description": "Treaty names must NOT be italicized",
+      "regex_detect": null,
+      "regex_validate": null,
+      "severity": "major",
+      "citation_types": ["treaties"],
+      "auto_fixable": false,
+      "fix_pattern": "Remove italicization from treaty name",
+      "gpt_validation_prompt": "Treaty names should NOT be italicized (unlike case names). Check: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "Vienna Convention on the Law of Treaties, May 23, 1969, 1155 U.N.T.S. 331",
+        "correct": "Vienna Convention on the Law of Treaties, May 23, 1969, 1155 U.N.T.S. 331"
+      }
+    },
+    {
+      "error_id": "cite_023",
+      "error_name": "unts_missing_periods",
+      "source_rule": "T3, T4",
+      "category": "treaty",
+      "description": "U.N.T.S. must have periods after each component",
+      "regex_detect": "\\bUNTS\\b",
+      "regex_validate": "U\\.N\\.T\\.S\\.",
+      "severity": "major",
+      "citation_types": ["treaties"],
+      "auto_fixable": true,
+      "fix_pattern": "Add periods: U.N.T.S.",
+      "gpt_validation_prompt": "International abbreviations require periods. UNTS must be U.N.T.S. Check: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "Vienna Convention, 1155 UNTS 331",
+        "correct": "Vienna Convention, 1155 U.N.T.S. 331"
+      }
+    },
+    {
+      "error_id": "cite_024",
+      "error_name": "postal_code_instead_of_legal",
+      "source_rule": "T10",
+      "category": "geographic",
+      "description": "Never use postal codes (CA, NY) in legal citations",
+      "regex_detect": "\\b(?:CA|NY|TX|FL|IL|PA|OH|GA|NC|MI)(?=\\s+(?:Civ\\.|Penal|Code|Stat\\.))",
+      "regex_validate": "\\b(?:Cal\\.|N\\.Y\\.|Tex\\.|Fla\\.|Ill\\.|Pa\\.|Ohio|Ga\\.|N\\.C\\.|Mich\\.)\\b",
+      "severity": "critical",
+      "citation_types": ["all"],
+      "auto_fixable": true,
+      "fix_pattern": "Replace postal code with proper legal abbreviation",
+      "gpt_validation_prompt": "NEVER use postal codes (CA, NY, TX) in legal citations. Use proper abbreviations (Cal., N.Y., Tex.). Check: {citation}. Return: VALID or ERROR with correction",
+      "examples": {
+        "incorrect": "CA Civ. Code § 1714",
+        "correct": "Cal. Civ. Code § 1714 (West 2020)"
+      }
+    },
+    {
+      "error_id": "cite_025",
+      "error_name": "ampersand_missing_two_authors",
+      "source_rule": "BB 15.1, BB 16.2",
+      "category": "author",
+      "description": "Two authors must be joined with ampersand (&)",
+      "regex_detect": "[A-Z][a-z]+,\\s+[A-Z][a-z]+,",
+      "regex_validate": "[A-Z][a-z]+\\s+&\\s+[A-Z][a-z]+,",
+      "severity": "major",
+      "citation_types": ["books", "articles"],
+      "auto_fixable": true,
+      "fix_pattern": "Replace comma with ampersand between two authors",
+      "gpt_validation_prompt": "Two authors must be joined with '&'. Check: {citation}. Return: VALID or ERROR",
+      "examples": {
+        "incorrect": "John Smith, Jane Doe, Article Title",
+        "correct": "John Smith & Jane Doe, Article Title"
+      }
+    }
+  ],
+
+  "error_categories": {
+    "punctuation": {
+      "count": 45,
+      "description": "Missing or incorrect punctuation marks",
+      "severity_distribution": {"critical": 5, "major": 35, "minor": 5}
+    },
+    "formatting": {
+      "count": 78,
+      "description": "Italicization, capitalization, spacing errors",
+      "severity_distribution": {"critical": 10, "major": 60, "minor": 8}
+    },
+    "abbreviation": {
+      "count": 451,
+      "description": "Table T6-T16 abbreviation errors",
+      "severity_distribution": {"critical": 50, "major": 350, "minor": 51}
+    },
+    "signal": {
+      "count": 25,
+      "description": "Signal usage, order, and requirements",
+      "severity_distribution": {"critical": 8, "major": 15, "minor": 2}
+    },
+    "short_form": {
+      "count": 18,
+      "description": "Id., supra, hereinafter errors",
+      "severity_distribution": {"critical": 6, "major": 10, "minor": 2}
+    },
+    "parenthetical": {
+      "count": 22,
+      "description": "Parenthetical format and requirements",
+      "severity_distribution": {"critical": 4, "major": 16, "minor": 2}
+    },
+    "statutory": {
+      "count": 35,
+      "description": "Statute and code citation errors",
+      "severity_distribution": {"critical": 8, "major": 24, "minor": 3}
+    },
+    "constitutional": {
+      "count": 12,
+      "description": "Constitutional citation errors",
+      "severity_distribution": {"critical": 3, "major": 8, "minor": 1}
+    },
+    "case": {
+      "count": 68,
+      "description": "Case citation format errors",
+      "severity_distribution": {"critical": 12, "major": 50, "minor": 6}
+    },
+    "author": {
+      "count": 15,
+      "description": "Author name formatting",
+      "severity_distribution": {"critical": 2, "major": 11, "minor": 2}
+    },
+    "treaty": {
+      "count": 18,
+      "description": "Treaty citation errors",
+      "severity_distribution": {"critical": 4, "major": 12, "minor": 2}
+    },
+    "geographic": {
+      "count": 315,
+      "description": "State, city, country abbreviations",
+      "severity_distribution": {"critical": 30, "major": 270, "minor": 15}
+    },
+    "court": {
+      "count": 111,
+      "description": "Court name abbreviations",
+      "severity_distribution": {"critical": 15, "major": 90, "minor": 6}
+    },
+    "legislative": {
+      "count": 19,
+      "description": "Legislative document citations",
+      "severity_distribution": {"critical": 3, "major": 14, "minor": 2}
+    }
+  },
+
+  "severity_levels": {
+    "critical": {
+      "description": "Errors that fundamentally misidentify or misrepresent authority",
+      "examples": ["Wrong court", "Wrong year", "Missing required parenthetical for Cf."],
+      "auto_flag": true,
+      "requires_fix": true
+    },
+    "major": {
+      "description": "Clear violations of Bluebook/Redbook rules",
+      "examples": ["Missing periods", "Wrong abbreviation", "Incorrect signal order"],
+      "auto_flag": true,
+      "requires_fix": true
+    },
+    "minor": {
+      "description": "Stylistic preferences or optional improvements",
+      "examples": ["Unnecessary hereinafter", "Overly long parenthetical"],
+      "auto_flag": false,
+      "requires_fix": false
+    }
+  },
+
+  "detection_strategies": {
+    "regex_patterns": {
+      "description": "Fast pre-screening for common patterns",
+      "accuracy": "High precision, low to medium recall",
+      "use_cases": ["Missing punctuation", "Basic format errors", "Obvious violations"]
+    },
+    "gpt_validation": {
+      "description": "Semantic and context-aware checking",
+      "accuracy": "Variable precision, high recall",
+      "use_cases": ["Signal appropriateness", "Parenthetical requirements", "Cross-validation"]
+    },
+    "hybrid_approach": {
+      "description": "Regex pre-filter + GPT validation",
+      "workflow": [
+        "1. Regex flags potential issues",
+        "2. GPT analyzes flagged items in context",
+        "3. Confidence scoring determines auto-fix vs. human review",
+        "4. Learning loop improves both regex and prompts"
+      ]
+    }
+  },
+
+  "redbook_specific_rules": {
+    "description": "Stanford Law Review deviations from standard Bluebook",
+    "count": 23,
+    "key_differences": [
+      {
+        "rule": "RB 1.4",
+        "deviation": "Always place footnote call at end of sentence",
+        "bluebook": "BB 1.1(a) allows mid-sentence placement"
+      },
+      {
+        "rule": "RB 4.2",
+        "deviation": "Always use 'at' with Id. for different page",
+        "bluebook": "BB 4.1 allows 'Id. 123'"
+      },
+      {
+        "rule": "RB 1.12",
+        "deviation": "Cf./But cf. require parenthetical; See generally forbids it",
+        "bluebook": "BB 1.2 recommends but doesn't mandate"
+      },
+      {
+        "rule": "RB 10.9",
+        "deviation": "Five-footnote rule for short forms",
+        "bluebook": "No specific limit"
+      },
+      {
+        "rule": "RB 10.17",
+        "deviation": "Include both remands in case history",
+        "bluebook": "Omit first remand"
+      }
+    ]
+  },
+
+  "implementation_notes": {
+    "confidence_thresholds": {
+      "auto_fix": "Confidence >= 0.95",
+      "flag_for_review": "0.70 <= Confidence < 0.95",
+      "human_required": "Confidence < 0.70"
+    },
+    "performance_targets": {
+      "regex_phase": "<100ms per citation",
+      "gpt_phase": "<2s per citation",
+      "total_pipeline": "<3s per citation"
+    },
+    "validation_priorities": [
+      "Critical errors first",
+      "Frequently occurring errors",
+      "Easy-to-fix errors (auto-fixable)",
+      "Context-dependent errors last"
+    ]
+  },
+
+  "metadata": {
+    "framework_version": "1.0.0",
+    "bluebook_edition": "21st Edition",
+    "redbook_version": "2024",
+    "total_rules_covered": 16,
+    "total_tables_covered": 16,
+    "last_updated": "2025-11-23",
+    "maintainer": "SLRinator Citation Validation System"
+  }
+}

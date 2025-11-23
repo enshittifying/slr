@@ -53,4 +53,4 @@ docs/.doctrees/
 # Distribution
 dist/
 build/
-*.egg-info/
+*.egg-info/output/logs/*.log

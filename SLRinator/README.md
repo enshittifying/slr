@@ -6,6 +6,7 @@ The SLRinator is a comprehensive automation system for Stanford Law Review edito
 
 ## Features
 
+### Sourcepull (SP)
 - **Systematic Source Retrieval**: Hierarchical retrieval system with multiple fallback strategies
 - **Smart Classification**: Automatic citation type detection (cases, statutes, articles, books)
 - **PDF Redboxing**: Intelligent highlighting of citation elements in retrieved PDFs
@@ -13,7 +14,30 @@ The SLRinator is a comprehensive automation system for Stanford Law Review edito
 - **Multi-Database Support**: CourtListener, GovInfo, HeinOnline, Westlaw, Lexis
 - **Reasoning Documentation**: Tracks and documents why each source was retrieved from specific locations
 
+### R1 Cite Checking (NEW!)
+- **Citation Format Validation**: Validates against 354 Bluebook + Redbook rules
+- **Quote Accuracy Verification**: Character-by-character quote checking
+- **Proposition Support Analysis**: Verifies source supports legal claims (optional)
+- **Hybrid Validation**: Deterministic checks + AI-powered analysis
+- **Comprehensive Reporting**: JSON and HTML reports with human review queue
+- **Cost-Effective**: ~$0.002 per citation using GPT-4o-mini
+
+See [R1_CITE_CHECKING_README.md](R1_CITE_CHECKING_README.md) for details.
+
 ## Installation
+
+### Quick Setup (R1 Cite Checking)
+
+```bash
+cd SLRinator
+python setup_r1.py
+```
+
+This installs all dependencies and configures the R1 cite checking system.
+
+See [QUICKSTART.md](QUICKSTART.md) for detailed instructions.
+
+### Manual Installation
 
 ```bash
 # Clone the repository
@@ -21,7 +45,7 @@ git clone [repository-url]
 cd SLRinator
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r requirements_r1.txt
 
 # Set up API keys
 cp config/api_keys.example.json config/api_keys.json
@@ -37,20 +61,43 @@ SLRinator/
 │   ├── retrievers/        # Source retrieval implementations
 │   ├── processors/        # Document processing (extraction, redboxing)
 │   ├── integration/       # External service integrations
-│   └── utils/            # Utility functions
+│   ├── r1_validation/     # R1 cite checking validation (NEW)
+│   └── utils/             # Utility functions
+├── config/                # Configuration files
+│   ├── rules/             # Bluebook.json (354 rules)
+│   └── validation_settings.py  # R1 validation config
+├── prompts/r1/            # R1 validation prompts
 ├── output/                # All generated output
 │   ├── data/             # Retrieved and processed documents
+│   ├── r1_validation/    # R1 validation reports
 │   ├── logs/             # Application logs
 │   └── reports/          # Generated reports
-├── config/               # Configuration files
 ├── examples/             # Example usage scripts
-├── tests/               # Test suite
-└── readme/              # Additional documentation
+│   └── r1_basic_example.py  # R1 validation examples
+├── tests/                # Test suite
+│   └── test_r1_validation.py  # R1 validation tests
+├── r1_workflow.py        # Complete R1 workflow (NEW)
+├── setup_r1.py           # R1 setup script (NEW)
+├── setup_vector_store.py # Vector store setup (NEW)
+├── QUICKSTART.md         # Quick start guide (NEW)
+└── R1_CITE_CHECKING_README.md  # R1 documentation (NEW)
 ```
 
 ## Quick Start
 
-### Basic Retrieval
+### R1 Workflow (Sourcepull + Cite Checking)
+
+```bash
+# Process entire document with validation
+python r1_workflow.py article.docx
+
+# Process specific footnotes
+python r1_workflow.py article.docx --footnotes 1-50
+```
+
+See [QUICKSTART.md](QUICKSTART.md) for more options.
+
+### Basic Retrieval (Sourcepull Only)
 
 ```python
 from src.retrievers.unified_retriever import SourceRetriever

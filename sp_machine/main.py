@@ -1,71 +1,123 @@
+#!/usr/bin/env python
 """
-Main pipeline orchestrator for the Source Pull machine.
+Sourcepull Machine: Main entry point
+
+This machine retrieves raw, format-preserving source files based on citations
+from the master spreadsheet.
 """
+
+import os
 import sys
-import logging
+import argparse
 from pathlib import Path
-import pandas as pd
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent / "src"))
+# Add parent directory to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from doc_parser import DocParser
-from citation_parser import Citation, CitationParser
-from pullers import pull_website
-from spreadsheet_parser import SpreadsheetParser
+from shared_utils import load_config, setup_logger
+from sp_machine.src.spreadsheet_parser import SpreadsheetParser
+from sp_machine.src.citation_parser import CitationParser
+from sp_machine.src.source_puller import SourcePuller
 
-# Setup logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-)
 
-class SpMachine:
-    def __init__(self):
-        self.source_list_path = Path(__file__).parent.parent / "78.6 Sanders Master Sheet.xlsx"
-        self.doc_path = Path(__file__).parent.parent / "78 SLR V2 R2 F" / "References" / "Bersh_PreR2.docx"
-        self.spreadsheet_parser = SpreadsheetParser(str(self.source_list_path))
-        self.sources = self.spreadsheet_parser.get_sources(281, 327)
-        self.doc_parser = DocParser(str(self.doc_path))
-        self.citation_map = self.doc_parser.get_citation_map()
+def main():
+    """Main entry point for the Sourcepull Machine."""
+    parser = argparse.ArgumentParser(
+        description="Sourcepull Machine: Retrieve source files for citations"
+    )
+    parser.add_argument(
+        "--article-id",
+        required=True,
+        help="Article ID (e.g., '79.1.article_name')",
+    )
+    parser.add_argument(
+        "--spreadsheet-id",
+        help="Google Sheets ID (defaults to env var GOOGLE_SHEETS_ID)",
+    )
+    parser.add_argument(
+        "--output-dir",
+        help="Output directory for source PDFs (defaults to sp_machine/output)",
+    )
+    parser.add_argument(
+        "--log-level",
+        default="INFO",
+        choices=["DEBUG", "INFO", "WARNING", "ERROR"],
+        help="Logging level",
+    )
 
-    def run(self):
-        """Main pipeline execution."""
-        print("--- Citation Map ---")
-        print(self.citation_map)
-        print("--- Sources ---")
-        print(self.sources)
+    args = parser.parse_args()
 
-        for source in self.sources:
-            logging.info(f"Processing source #{source['Source Number']}: {source['Citation']}")
+    # Set up logger
+    logger = setup_logger("sp_machine", log_level=args.log_level)
+    logger.info(f"Starting Sourcepull Machine for article: {args.article_id}")
 
-            # Parse the citation
-            parser = CitationParser(source["Citation"], source["Source Number"])
-            parsed_citations = parser.parse()
+    # Load configuration
+    config = load_config()
 
-            for parsed_citation in parsed_citations:
-                print(f"  - Parsed citation: {parsed_citation}")
+    # Set output directory
+    output_dir = args.output_dir or config.sp_machine_output_dir
+    output_path = Path(output_dir) / args.article_id
+    output_path.mkdir(parents=True, exist_ok=True)
+    logger.info(f"Output directory: {output_path}")
 
-                source_type = self.detect_source_type(parsed_citation)
-                if source_type == 'website':
-                    pull_website(
-                        url=parsed_citation.full_text,
-                        output_dir=str(Path(__file__).parent / "data" / "output" / "pulled_sources"),
-                        source_number=source['Source Number'],
-                        short_name=source['Short Name']
-                    )
+    # Initialize components
+    spreadsheet_id = args.spreadsheet_id or config.google_sheets_id
+    if not spreadsheet_id:
+        logger.error("No spreadsheet ID provided")
+        sys.exit(1)
 
-    def detect_source_type(self, citation: Citation) -> str:
-        """Detect the type of a source based on the citation."""
-        if citation.full_text.startswith("http"):
-            return "website"
-        elif citation.type == "case":
-            return "case"
-        elif citation.type == "article":
-            return "article"
-        else:
-            return "unknown"
+    spreadsheet_parser = SpreadsheetParser(spreadsheet_id)
+    citation_parser = CitationParser()
+    source_puller = SourcePuller(output_dir=str(output_path))
+
+    try:
+        # Parse citations from spreadsheet
+        logger.info("Parsing citations from spreadsheet...")
+        citations = spreadsheet_parser.get_citations_for_article(args.article_id)
+        logger.info(f"Found {len(citations)} citations")
+
+        # Process each citation
+        successful = 0
+        failed = 0
+
+        for i, citation_row in enumerate(citations, 1):
+            logger.info(f"\nProcessing citation {i}/{len(citations)}")
+
+            try:
+                # Parse citation
+                citation_text = citation_row.get("citation_text", "")
+                citation_data = citation_parser.parse(citation_text)
+                logger.info(f"  Citation: {citation_data.get('title', 'Unknown')}")
+
+                # Pull source
+                result = source_puller.pull_source(citation_data, citation_row)
+
+                if result["success"]:
+                    logger.info(f"  ✓ Successfully retrieved: {result['file_path']}")
+                    successful += 1
+                else:
+                    logger.warning(f"  ✗ Failed: {result['error']}")
+                    failed += 1
+
+            except Exception as e:
+                logger.error(f"  Error processing citation: {e}")
+                failed += 1
+
+        # Summary
+        logger.info(f"\n{'='*60}")
+        logger.info(f"Sourcepull complete!")
+        logger.info(f"  Successful: {successful}")
+        logger.info(f"  Failed: {failed}")
+        logger.info(f"  Total: {len(citations)}")
+        logger.info(f"  Output directory: {output_path}")
+        logger.info(f"{'='*60}")
+
+        sys.exit(0 if failed == 0 else 1)
+
+    except Exception as e:
+        logger.error(f"Fatal error: {e}", exc_info=True)
+        sys.exit(1)
+
 
 if __name__ == "__main__":
-    machine = SpMachine()
-    machine.run()
+    main()

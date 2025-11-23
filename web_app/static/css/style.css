@@ -1,0 +1,43 @@
+/* Custom styles for SLR Workflow Management System */
+
+:root {
+    --slr-primary: #8C1515;
+    --slr-secondary: #2E2D29;
+}
+
+body {
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+    background-color: var(--slr-primary);
+    border-color: var(--slr-primary);
+}
+
+.btn-primary:hover {
+    background-color: #7a1211;
+    border-color: #7a1211;
+}
+
+.bg-dark {
+    background-color: var(--slr-secondary) !important;
+}
+
+.spinner-border {
+    width: 2rem;
+    height: 2rem;
+}

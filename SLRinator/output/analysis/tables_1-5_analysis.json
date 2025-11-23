@@ -1,0 +1,1872 @@
+{
+  "metadata": {
+    "source": "Bluebook Tables T1-T5",
+    "source_file": "/home/user/slr/SLRinator/config/rules/Bluebook.json",
+    "generated_date": "2025-11-23",
+    "description": "Comprehensive analysis of Bluebook Tables T1-T5 for citation validation",
+    "version": "1.0"
+  },
+  "tables": {
+    "T1": {
+      "name": "United States Jurisdictions",
+      "description": "Federal and state court reporters, statutory compilations, and administrative materials",
+      "subsections": {
+        "federal_judicial": {
+          "name": "Federal Judicial and Legislative Materials",
+          "courts": {
+            "supreme_court": {
+              "name": "Supreme Court (U.S.)",
+              "jurisdiction": "Federal",
+              "preferred_reporters": ["U.S."],
+              "other_reporters": ["S. Ct.", "L. Ed.", "U.S.L.W."],
+              "regex_patterns": {
+                "case_citation": "^\\d+\\s+U\\.S\\.\\s+\\d+",
+                "reporter_abbrev": "^(U\\.S\\.|S\\. Ct\\.|L\\. Ed\\.|U\\.S\\.L\\.W\\.)$"
+              },
+              "common_errors": [
+                "Using 'US' instead of 'U.S.' (missing periods)",
+                "Using unofficial reporter when U.S. is available",
+                "Incorrect spacing in 'S. Ct.' or 'L. Ed.'",
+                "Forgetting to include year in parentheses"
+              ],
+              "gpt_prompts": {
+                "validation": "Validate that this Supreme Court citation uses 'U.S.' as the preferred reporter when available. Check: (1) Reporter abbreviation has proper periods and spacing, (2) Volume and page numbers are present, (3) Year is in parentheses at the end.",
+                "correction": "If this citation uses an unofficial reporter (S. Ct., L. Ed., U.S.L.W.) and the case is in U.S. Reports, suggest changing to U.S. citation. Ensure proper Bluebook format with spaces and periods.",
+                "example": "Brown v. Board of Education, 347 U.S. 483 (1954)"
+              }
+            },
+            "circuit_courts": {
+              "name": "Courts of Appeals (U.S. Circuits)",
+              "jurisdiction": "Federal",
+              "reporters": ["F.", "F.2d", "F.3d"],
+              "additional": ["F. App'x"],
+              "regex_patterns": {
+                "case_citation": "^\\d+\\s+F\\.(?:2d|3d)?\\s+\\d+",
+                "reporter_abbrev": "^F\\.(?: App'x|2d|3d)?$",
+                "circuit": "\\((?:\\d+(?:st|nd|rd|th) Cir\\.|D\\.C\\. Cir\\.|Fed\\. Cir\\.)\\s+\\d{4}\\)"
+              },
+              "common_errors": [
+                "Using 'F.2nd' or 'F.3rd' instead of 'F.2d' or 'F.3d'",
+                "Missing circuit designation in parenthetical",
+                "Using 'F. Appx' instead of 'F. App'x' (apostrophe required)",
+                "Incorrect spacing around periods in 'F.'",
+                "Forgetting to abbreviate 'First' as '1st', etc."
+              ],
+              "gpt_prompts": {
+                "validation": "Verify this circuit court citation: (1) Reporter is F., F.2d, F.3d, or F. App'x, (2) Circuit is properly designated (e.g., '2d Cir.' not '2nd Cir.'), (3) Year follows circuit designation in parentheses.",
+                "correction": "Check if 'F.2nd' or 'F.3rd' appears and change to 'F.2d' or 'F.3d'. Verify circuit abbreviation uses ordinal format (1st, 2d, 3d, 4th, etc.). Ensure apostrophe in 'F. App'x'.",
+                "example": "United States v. Smith, 123 F.3d 456 (5th Cir. 1997)"
+              }
+            },
+            "district_courts": {
+              "name": "District Courts",
+              "jurisdiction": "Federal",
+              "reporters": ["F. Supp.", "F. Supp. 2d", "F. Supp. 3d", "F.R.D.", "B.R."],
+              "older_reporters": ["Fed. Cas. (pre-1880)", "F. (1890s)"],
+              "regex_patterns": {
+                "case_citation": "^\\d+\\s+F\\. Supp\\.(?: 2d| 3d)?\\s+\\d+",
+                "reporter_abbrev": "^F\\. Supp\\.(?: 2d| 3d)?$|^F\\.R\\.D\\.$|^B\\.R\\.$",
+                "district": "\\((?:[NESW]\\.D\\.|[NESW]\\.|D\\.|M\\.D\\.|C\\.D\\.)\\s+[A-Z][a-z\\.]+\\s+\\d{4}\\)"
+              },
+              "common_errors": [
+                "Omitting space in 'F. Supp.' or using 'F.Supp.'",
+                "Using 'F. Supp. 2nd' or 'F. Supp. 3rd' instead of '2d' or '3d'",
+                "Missing district designation (e.g., 'S.D.N.Y.')",
+                "Incorrect district abbreviations",
+                "Forgetting year in parentheses"
+              ],
+              "gpt_prompts": {
+                "validation": "Check district court citation: (1) Reporter is F. Supp., F. Supp. 2d, F. Supp. 3d, F.R.D., or B.R., (2) Proper spacing after 'F.' and 'Supp.', (3) District designation is correct (e.g., 'S.D.N.Y.' for Southern District of New York), (4) Year included.",
+                "correction": "Fix spacing in 'F. Supp.' (space after each period). Change '2nd/3rd' to '2d/3d'. Verify district abbreviation follows Bluebook Table T1.",
+                "example": "Smith v. Jones, 789 F. Supp. 2d 123 (S.D.N.Y. 2011)"
+              }
+            },
+            "federal_circuit": {
+              "name": "United States Court of Appeals for the Federal Circuit",
+              "jurisdiction": "Federal",
+              "reporters": ["F.", "F.2d", "F.3d"],
+              "official_reporters": ["Ct. Cl.", "C.C.P.A.", "Ct. Cust."],
+              "regex_patterns": {
+                "case_citation": "^\\d+\\s+F\\.(?:2d|3d)?\\s+\\d+",
+                "circuit": "\\(Fed\\. Cir\\.\\s+\\d{4}\\)"
+              },
+              "common_errors": [
+                "Not specifying 'Fed. Cir.' in parenthetical",
+                "Confusing with other circuits"
+              ],
+              "gpt_prompts": {
+                "validation": "Ensure Federal Circuit citations specify '(Fed. Cir. YEAR)' in the parenthetical, not just a numbered circuit.",
+                "correction": "Add 'Fed. Cir.' designation if missing from parenthetical.",
+                "example": "Apple Inc. v. Samsung Elecs. Co., 678 F.3d 1314 (Fed. Cir. 2012)"
+              }
+            },
+            "court_of_federal_claims": {
+              "name": "United States Court of Federal Claims",
+              "jurisdiction": "Federal",
+              "reporters": ["Fed. Cl."],
+              "former_reporters": ["Cl. Ct.", "Ct. Cl.", "F. Supp.", "F.2d"],
+              "regex_patterns": {
+                "case_citation": "^\\d+\\s+Fed\\. Cl\\.\\s+\\d+"
+              },
+              "common_errors": [
+                "Using old reporter abbreviations for recent cases",
+                "Incorrect spacing in 'Fed. Cl.'"
+              ],
+              "gpt_prompts": {
+                "validation": "For Court of Federal Claims cases after 1992, ensure 'Fed. Cl.' is used (not 'Cl. Ct.' or 'Ct. Cl.').",
+                "correction": "Update reporter abbreviation to 'Fed. Cl.' for post-1992 cases.",
+                "example": "Contractor v. United States, 45 Fed. Cl. 678 (2000)"
+              }
+            },
+            "court_of_international_trade": {
+              "name": "United States Court of International Trade",
+              "jurisdiction": "Federal",
+              "official_reporter": "Ct. Int'l Trade",
+              "alternative_reporters": ["F. Supp.", "F. Supp. 2d", "F. Supp. 3d", "Cust. B. & Dec.", "I.T.R.D. (BNA)"],
+              "regex_patterns": {
+                "case_citation": "^\\d+\\s+Ct\\. Int'l Trade\\s+\\d+"
+              },
+              "common_errors": [
+                "Missing apostrophe in \"Int'l\"",
+                "Using alternative reporters when official is available"
+              ],
+              "gpt_prompts": {
+                "validation": "Check that Court of International Trade citations use 'Ct. Int'l Trade' with apostrophe in 'Int'l'.",
+                "correction": "Ensure apostrophe is present in \"Int'l\" and prefer official reporter when available.",
+                "example": "Import Co. v. United States, 123 Ct. Int'l Trade 456 (1999)"
+              }
+            }
+          },
+          "legislative_materials": {
+            "United States Code": {
+              "abbreviation": "U.S.C.",
+              "regex_pattern": "^\\d+\\s+U\\.S\\.C\\.\\s+§\\s+\\d+",
+              "common_errors": [
+                "Using 'USC' without periods",
+                "Missing section symbol '§'",
+                "Incorrect spacing"
+              ],
+              "gpt_prompt": "Validate U.S. Code citations: (1) Format is 'Title U.S.C. § Section', (2) Periods in U.S.C., (3) Section symbol present."
+            },
+            "Statutes at Large": {
+              "abbreviation": "Stat.",
+              "regex_pattern": "^Pub\\. L\\. No\\.\\s+\\d+-\\d+,\\s+\\d+\\s+Stat\\.\\s+\\d+",
+              "common_errors": [
+                "Missing Public Law number",
+                "Incorrect format for Pub. L. No."
+              ],
+              "gpt_prompt": "Check Statutes at Large format: 'Pub. L. No. XXX-YYY, Volume Stat. Page (Year)'."
+            },
+            "United States Code Annotated": {
+              "abbreviation": "U.S.C.A.",
+              "regex_pattern": "^\\d+\\s+U\\.S\\.C\\.A\\.\\s+§\\s+\\d+",
+              "common_errors": [
+                "Confusing with U.S.C.",
+                "Missing publisher parenthetical"
+              ],
+              "gpt_prompt": "For U.S.C.A. citations, include publisher (West) in parenthetical with year."
+            },
+            "United States Code Service": {
+              "abbreviation": "U.S.C.S.",
+              "regex_pattern": "^\\d+\\s+U\\.S\\.C\\.S\\.\\s+§\\s+\\d+",
+              "common_errors": [
+                "Confusing with U.S.C. or U.S.C.A.",
+                "Missing publisher parenthetical"
+              ],
+              "gpt_prompt": "For U.S.C.S. citations, include publisher (LexisNexis) in parenthetical with year."
+            },
+            "Session Laws (Congressional)": {
+              "abbreviation": "Pub. L. No.",
+              "regex_pattern": "^Pub\\. L\\. No\\.\\s+\\d+-\\d+",
+              "common_errors": [
+                "Missing spaces or periods in 'Pub. L. No.'",
+                "Incorrect format for law number"
+              ],
+              "gpt_prompt": "Session law format should be 'Pub. L. No. Congress-Number, Volume Stat. Page (Year)'."
+            }
+          }
+        },
+        "federal_administrative": {
+          "name": "Federal Administrative and Executive Materials",
+          "materials": {
+            "Code of Federal Regulations": {
+              "abbreviation": "C.F.R.",
+              "regex_pattern": "^\\d+\\s+C\\.F\\.R\\.\\s+§\\s+\\d+",
+              "common_errors": [
+                "Using 'CFR' without periods",
+                "Missing section symbol",
+                "Incorrect year in parenthetical"
+              ],
+              "gpt_prompt": "C.F.R. format: 'Title C.F.R. § Section (Year)'. Year should reflect the edition consulted."
+            },
+            "Federal Register": {
+              "abbreviation": "Fed. Reg.",
+              "regex_pattern": "^\\d+\\s+Fed\\. Reg\\.\\s+\\d+",
+              "common_errors": [
+                "Incorrect spacing in 'Fed. Reg.'",
+                "Missing date parenthetical"
+              ],
+              "gpt_prompt": "Federal Register format: 'Volume Fed. Reg. Page (Month Day, Year)'."
+            },
+            "Executive Orders and Proclamations": {
+              "abbreviation": "3 C.F.R.",
+              "format": "3 C.F.R. <year>",
+              "common_errors": [
+                "Not citing to 3 C.F.R. compilation",
+                "Missing executive order number"
+              ],
+              "gpt_prompt": "Executive orders should cite to 3 C.F.R. when available, with E.O. number included."
+            }
+          }
+        },
+        "states": {
+          "name": "State Jurisdictions",
+          "count": 50,
+          "plus_dc": true,
+          "jurisdictions": {
+            "Alabama": {
+              "abbreviation": "Ala.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["So.", "So. 2d", "So. 3d", "Ala."],
+                  "preferred": "So. 3d (current)",
+                  "regex_pattern": "^\\d+\\s+(?:So\\.|So\\. 2d|So\\. 3d|Ala\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["Ala. App."],
+                  "regex_pattern": "^\\d+\\s+Ala\\. App\\.\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Ala. Code",
+              "session_laws": "Ala. Acts",
+              "administrative_code": "Ala. Admin. Code",
+              "administrative_register": "Ala. Admin. Bull.",
+              "common_errors": [
+                "Using 'So.2d' without space",
+                "Confusing state reporter with regional"
+              ],
+              "gpt_prompt": "For Alabama citations, use Southern Reporter (So., So. 2d, So. 3d) with proper spacing. Include 'Ala.' for court designation in parenthetical."
+            },
+            "Alaska": {
+              "abbreviation": "Alaska",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Alaska"],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Alaska)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Alaska Stat.",
+              "session_laws": "Alaska Sess. Laws",
+              "administrative_code": "Alaska Admin. Code",
+              "administrative_register": "Alaska Admin. Reg.",
+              "common_errors": [
+                "Using Pacific Reporter without Alaska designation",
+                "Abbreviating Alaska incorrectly"
+              ],
+              "gpt_prompt": "Alaska citations use Pacific Reporter (P.2d, P.3d). Include 'Alaska' in parenthetical to distinguish from other Pacific states."
+            },
+            "Arizona": {
+              "abbreviation": "Ariz.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Ariz."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Ariz\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["Ariz. App."],
+                  "regex_pattern": "^\\d+\\s+Ariz\\. App\\.\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Ariz. Rev. Stat. Ann.",
+              "session_laws": "Ariz. Sess. Laws",
+              "administrative_code": "Ariz. Admin. Code",
+              "administrative_register": "Ariz. Admin. Reg.",
+              "common_errors": [
+                "Not distinguishing Court of Appeals from Supreme Court",
+                "Missing 'Rev. Stat. Ann.' in statutory citations"
+              ],
+              "gpt_prompt": "Arizona uses Pacific Reporter. Distinguish Supreme Court (Ariz.) from Court of Appeals (Ariz. Ct. App.) in parenthetical."
+            },
+            "Arkansas": {
+              "abbreviation": "Ark.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.W.", "S.W.2d", "S.W.3d", "Ark."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.W\\.|S\\.W\\.2d|S\\.W\\.3d|Ark\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["Ark. App."],
+                  "regex_pattern": "^\\d+\\s+Ark\\. App\\.\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Ark. Code Ann.",
+              "session_laws": "Ark. Acts",
+              "administrative_code": "Ark. Admin. Code",
+              "administrative_register": "Ark. Admin. Bull.",
+              "common_errors": [
+                "Using 'S.W.2nd' instead of 'S.W.2d'",
+                "Missing spaces in S.W. abbreviations"
+              ],
+              "gpt_prompt": "Arkansas uses South Western Reporter (S.W., S.W.2d, S.W.3d). Ensure '2d' and '3d' not '2nd' or '3rd'."
+            },
+            "California": {
+              "abbreviation": "Cal.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.", "P.2d", "P.3d", "Cal."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.|P\\.2d|P\\.3d|Cal\\.)\\s+\\d+"
+                },
+                "Court of Appeal": {
+                  "reporters": ["Cal. App.", "Cal. App. 2d", "Cal. App. 3d", "Cal. App. 4th"],
+                  "regex_pattern": "^\\d+\\s+Cal\\. App\\.(?: 2d| 3d| 4th)?\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Cal. Codes (various) or Cal. Stat.",
+              "session_laws": "Cal. Stat.",
+              "administrative_code": "Cal. Code Regs. (C.C.R.)",
+              "administrative_register": "Cal. Reg. Notice",
+              "common_errors": [
+                "Using 'Cal. App. 4th' incorrectly (should be '4th' not '4d')",
+                "Not specifying which California code",
+                "Confusing Cal. Stat. (session laws) with statutory codes"
+              ],
+              "gpt_prompt": "California has multiple codes (Cal. Civ. Code, Cal. Penal Code, etc.). Court of Appeal uses '4th' not '4d'. Distinguish Supreme Court (Cal.) from Courts of Appeal (Cal. Ct. App.)."
+            },
+            "Colorado": {
+              "abbreviation": "Colo.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.", "P.2d", "P.3d", "Colo."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.|P\\.2d|P\\.3d|Colo\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["Colo. App."],
+                  "regex_pattern": "^\\d+\\s+Colo\\. App\\.\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Colo. Rev. Stat.",
+              "session_laws": "Colo. Sess. Laws",
+              "administrative_code": "Colo. Code Regs.",
+              "administrative_register": "Colo. Reg.",
+              "gpt_prompt": "Colorado uses Pacific Reporter. Include proper court designation in parenthetical."
+            },
+            "Connecticut": {
+              "abbreviation": "Conn.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["A.", "A.2d", "A.3d", "Conn."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.|A\\.2d|A\\.3d|Conn\\.)\\s+\\d+"
+                },
+                "Appellate Court": {
+                  "reporters": ["A.2d", "A.3d", "Conn. App."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.2d|A\\.3d|Conn\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Conn. Gen. Stat.",
+              "session_laws": "Conn. Pub. Acts",
+              "administrative_code": "Conn. Agencies Regs.",
+              "administrative_register": "Conn. Law Journal",
+              "gpt_prompt": "Connecticut uses Atlantic Reporter (A., A.2d, A.3d). Specify court in parenthetical."
+            },
+            "Delaware": {
+              "abbreviation": "Del.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["A.2d", "A.3d", "Del."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.2d|A\\.3d|Del\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Del. Code Ann.",
+              "session_laws": "Del. Laws",
+              "administrative_code": "Del. Admin. Code",
+              "gpt_prompt": "Delaware uses Atlantic Reporter. Include year in parenthetical."
+            },
+            "District of Columbia": {
+              "abbreviation": "D.C.",
+              "courts": {
+                "Court of Appeals": {
+                  "reporters": ["A.2d", "A.3d", "D.C."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.2d|A\\.3d|D\\.C\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "D.C. Code",
+              "session_laws": "D.C. Stat.",
+              "administrative_code": "D.C. Mun. Reg.",
+              "common_errors": [
+                "Confusing D.C. Court of Appeals with U.S. Court of Appeals for D.C. Circuit",
+                "Using 'DC' without periods"
+              ],
+              "gpt_prompt": "D.C. Court of Appeals is local court (uses A.2d, A.3d). Don't confuse with federal D.C. Circuit (uses F.2d, F.3d)."
+            },
+            "Florida": {
+              "abbreviation": "Fla.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["So.", "So. 2d", "So. 3d", "Fla."],
+                  "regex_pattern": "^\\d+\\s+(?:So\\.|So\\. 2d|So\\. 3d|Fla\\.)\\s+\\d+"
+                },
+                "District Courts of Appeal": {
+                  "reporters": ["So. 2d", "So. 3d", "Fla. Dist. Ct. App."],
+                  "regex_pattern": "^\\d+\\s+(?:So\\. 2d|So\\. 3d)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Fla. Stat.",
+              "session_laws": "Fla. Laws (Session)",
+              "administrative_code": "Fla. Admin. Code",
+              "administrative_register": "Fla. Admin. Reg.",
+              "gpt_prompt": "Florida uses Southern Reporter. Specify which District Court of Appeal (1st, 2d, 3d, 4th, 5th) in parenthetical."
+            },
+            "Georgia": {
+              "abbreviation": "Ga.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.E.", "S.E.2d", "Ga."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.E\\.|S\\.E\\.2d|Ga\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["S.E.2d", "Ga. App."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.E\\.2d|Ga\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "O.C.G.A. (Ga. Code Ann.)",
+              "session_laws": "Ga. Laws",
+              "administrative_code": "Ga. Comp. R. & Regs.",
+              "common_errors": [
+                "Using 'OCGA' without periods",
+                "Not including 'Ga.' in parenthetical"
+              ],
+              "gpt_prompt": "Georgia uses South Eastern Reporter (S.E., S.E.2d). Statutory code is O.C.G.A. (Official Code of Georgia Annotated)."
+            },
+            "Hawaii": {
+              "abbreviation": "Haw.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Haw."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Haw\\.)\\s+\\d+"
+                },
+                "Intermediate Court": {
+                  "reporters": ["P.3d", "Haw. App."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.3d|Haw\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Haw. Rev. Stat.",
+              "session_laws": "Haw. Sess. Laws",
+              "administrative_rules": "Haw. Code R.",
+              "gpt_prompt": "Hawaii uses Pacific Reporter. Include 'Haw.' in parenthetical to distinguish from other Pacific jurisdictions."
+            },
+            "Idaho": {
+              "abbreviation": "Idaho",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Idaho"],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Idaho)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Idaho Code",
+              "session_laws": "Idaho Sess. Laws",
+              "administrative_code": "Idaho Admin. Code",
+              "administrative_bulletin": "Idaho Admin. Bull.",
+              "gpt_prompt": "Idaho uses Pacific Reporter. Do not abbreviate 'Idaho' in citations."
+            },
+            "Illinois": {
+              "abbreviation": "Ill.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.E.", "N.E.2d", "Ill."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.|N\\.E\\.2d|Ill\\.)\\s+\\d+"
+                },
+                "Appellate Court": {
+                  "reporters": ["N.E.2d", "Ill. App.", "Ill. App. Ct."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.2d|Ill\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Ill. Comp. Stat.",
+              "session_laws": "Ill. Laws",
+              "administrative_code": "Ill. Admin. Code",
+              "gpt_prompt": "Illinois uses North Eastern Reporter (N.E., N.E.2d). Specify appellate district in parenthetical for appellate court cases."
+            },
+            "Indiana": {
+              "abbreviation": "Ind.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.E.", "N.E.2d", "Ind."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.|N\\.E\\.2d|Ind\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["N.E.2d", "Ind. App."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.2d|Ind\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Ind. Code",
+              "session_laws": "Ind. Acts",
+              "administrative_code": "Ind. Admin. Code",
+              "gpt_prompt": "Indiana uses North Eastern Reporter. Include court designation in parenthetical."
+            },
+            "Iowa": {
+              "abbreviation": "Iowa",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.W.", "N.W.2d", "Iowa"],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.|N\\.W\\.2d|Iowa)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Iowa Code",
+              "session_laws": "Iowa Acts",
+              "administrative_code": "Iowa Admin. Code",
+              "gpt_prompt": "Iowa uses North Western Reporter. Do not abbreviate 'Iowa'."
+            },
+            "Kansas": {
+              "abbreviation": "Kan.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Kan."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Kan\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["P.3d", "Kan. App."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.3d|Kan\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Kan. Stat. Ann.",
+              "session_laws": "Kan. Sess. Laws",
+              "administrative_regulations": "Kan. Admin. Regs.",
+              "gpt_prompt": "Kansas uses Pacific Reporter. Distinguish Supreme Court from Court of Appeals in parenthetical."
+            },
+            "Kentucky": {
+              "abbreviation": "Ky.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.W.2d", "S.W.3d", "Ky."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.W\\.2d|S\\.W\\.3d|Ky\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Ky. Rev. Stat. Ann.",
+              "session_laws": "Ky. Acts",
+              "administrative_regulations": "Ky. Admin. Regs.",
+              "gpt_prompt": "Kentucky uses South Western Reporter (S.W.2d, S.W.3d currently)."
+            },
+            "Louisiana": {
+              "abbreviation": "La.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["So.", "So. 2d", "So. 3d", "La."],
+                  "regex_pattern": "^\\d+\\s+(?:So\\.|So\\. 2d|So\\. 3d|La\\.)\\s+\\d+"
+                },
+                "Courts of Appeal": {
+                  "reporters": ["So. 2d", "So. 3d", "La. App."],
+                  "regex_pattern": "^\\d+\\s+(?:So\\. 2d|So\\. 3d)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "La. Rev. Stat. Ann.",
+              "session_laws": "La. Acts",
+              "administrative_code": "La. Admin. Code",
+              "gpt_prompt": "Louisiana uses Southern Reporter. Specify circuit for Courts of Appeal (1st, 2d, 3d, 4th, 5th Cir.)."
+            },
+            "Maine": {
+              "abbreviation": "Me.",
+              "courts": {
+                "Supreme Judicial Court": {
+                  "reporters": ["A.", "A.2d", "A.3d", "Me."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.|A\\.2d|A\\.3d|Me\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Me. Rev. Stat. Ann.",
+              "session_laws": "Me. Laws",
+              "administrative_code": "Code of Me. Rules",
+              "gpt_prompt": "Maine's highest court is the Supreme Judicial Court, uses Atlantic Reporter."
+            },
+            "Maryland": {
+              "abbreviation": "Md.",
+              "courts": {
+                "Court of Appeals": {
+                  "reporters": ["A.", "A.2d", "A.3d", "Md."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.|A\\.2d|A\\.3d|Md\\.)\\s+\\d+"
+                },
+                "Court of Special Appeals": {
+                  "reporters": ["Md. Ct. Spec. App."],
+                  "regex_pattern": "^\\d+\\s+Md\\. Ct\\. Spec\\. App\\.\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Md. Code Ann.",
+              "session_laws": "Md. Laws",
+              "administrative_code": "Md. Regs. Code (COMAR)",
+              "common_errors": [
+                "Confusing Court of Appeals (highest court) with Court of Special Appeals (intermediate)",
+                "Not specifying which Code section"
+              ],
+              "gpt_prompt": "Maryland's highest court is the Court of Appeals. Intermediate appellate is Court of Special Appeals. Use Atlantic Reporter."
+            },
+            "Massachusetts": {
+              "abbreviation": "Mass.",
+              "courts": {
+                "Supreme Judicial Court": {
+                  "reporters": ["N.E.", "N.E.2d", "Mass."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.|N\\.E\\.2d|Mass\\.)\\s+\\d+"
+                },
+                "Appeals Court": {
+                  "reporters": ["N.E.2d", "Mass. App. Ct."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.2d|Mass\\. App\\. Ct\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Mass. Gen. Laws",
+              "session_laws": "Mass. Acts",
+              "administrative_code": "Mass. Regs. Code (CMR)",
+              "gpt_prompt": "Massachusetts highest court is Supreme Judicial Court, uses North Eastern Reporter."
+            },
+            "Michigan": {
+              "abbreviation": "Mich.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.W.", "N.W.2d", "Mich."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.|N\\.W\\.2d|Mich\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["N.W.2d", "Mich. App."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.2d|Mich\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Mich. Comp. Laws",
+              "session_laws": "Mich. Pub. Acts",
+              "administrative_code": "Mich. Admin. Code",
+              "gpt_prompt": "Michigan uses North Western Reporter. Include court in parenthetical."
+            },
+            "Minnesota": {
+              "abbreviation": "Minn.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.W.", "N.W.2d", "Minn."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.|N\\.W\\.2d|Minn\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["N.W.2d", "Minn. Ct. App."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.2d|Minn\\. Ct\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Minn. Stat.",
+              "session_laws": "Minn. Laws",
+              "administrative_rules": "Minn. R.",
+              "gpt_prompt": "Minnesota uses North Western Reporter. Specify court designation."
+            },
+            "Mississippi": {
+              "abbreviation": "Miss.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["So.", "So. 2d", "So. 3d", "Miss."],
+                  "regex_pattern": "^\\d+\\s+(?:So\\.|So\\. 2d|So\\. 3d|Miss\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Miss. Code Ann.",
+              "session_laws": "Miss. Laws",
+              "administrative_code": "Miss. Admin. Code",
+              "gpt_prompt": "Mississippi uses Southern Reporter."
+            },
+            "Missouri": {
+              "abbreviation": "Mo.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.W.", "S.W.2d", "S.W.3d", "Mo."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.W\\.|S\\.W\\.2d|S\\.W\\.3d|Mo\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["S.W.2d", "S.W.3d", "Mo. App."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.W\\.2d|S\\.W\\.3d)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Mo. Rev. Stat.",
+              "session_laws": "Mo. Laws",
+              "administrative_code": "Mo. Code Regs.",
+              "gpt_prompt": "Missouri uses South Western Reporter. Specify district for Court of Appeals."
+            },
+            "Montana": {
+              "abbreviation": "Mont.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Mont."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Mont\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Mont. Code Ann.",
+              "session_laws": "Mont. Laws",
+              "administrative_rules": "Mont. Admin. R.",
+              "gpt_prompt": "Montana uses Pacific Reporter."
+            },
+            "Nebraska": {
+              "abbreviation": "Neb.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.W.", "N.W.2d", "Neb."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.|N\\.W\\.2d|Neb\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["N.W.2d", "Neb. Ct. App."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.2d|Neb\\. Ct\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Neb. Rev. Stat.",
+              "session_laws": "Neb. Laws",
+              "administrative_code": "Neb. Admin. Code",
+              "gpt_prompt": "Nebraska uses North Western Reporter."
+            },
+            "Nevada": {
+              "abbreviation": "Nev.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Nev."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Nev\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Nev. Rev. Stat.",
+              "session_laws": "Nev. Stat.",
+              "administrative_code": "Nev. Admin. Code",
+              "gpt_prompt": "Nevada uses Pacific Reporter."
+            },
+            "New Hampshire": {
+              "abbreviation": "N.H.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["A.", "A.2d", "A.3d", "N.H."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.|A\\.2d|A\\.3d|N\\.H\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "N.H. Rev. Stat. Ann.",
+              "session_laws": "N.H. Laws",
+              "administrative_rules": "N.H. Code Admin. R.",
+              "gpt_prompt": "New Hampshire uses Atlantic Reporter."
+            },
+            "New Jersey": {
+              "abbreviation": "N.J.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["A.2d", "A.3d", "N.J."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.2d|A\\.3d|N\\.J\\.)\\s+\\d+"
+                },
+                "Appellate Division": {
+                  "reporters": ["A.3d", "N.J. Super."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.3d|N\\.J\\. Super\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "N.J. Stat. Ann.",
+              "session_laws": "N.J. Laws",
+              "administrative_code": "N.J. Admin. Code",
+              "gpt_prompt": "New Jersey uses Atlantic Reporter. Appellate Division uses N.J. Super."
+            },
+            "New Mexico": {
+              "abbreviation": "N.M.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "N.M."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|N\\.M\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["P.3d", "N.M. Ct. App."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.3d|N\\.M\\. Ct\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "N.M. Stat. Ann.",
+              "session_laws": "N.M. Laws",
+              "administrative_code": "N.M. Admin. Code",
+              "gpt_prompt": "New Mexico uses Pacific Reporter."
+            },
+            "New York": {
+              "abbreviation": "N.Y.",
+              "courts": {
+                "Court of Appeals": {
+                  "reporters": ["N.E.", "N.E.2d", "N.Y."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.|N\\.E\\.2d|N\\.Y\\.)\\s+\\d+"
+                },
+                "Appellate Division": {
+                  "reporters": ["N.Y.S.", "N.Y.S.2d", "N.Y.S.3d", "N.Y. App. Div."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.Y\\.S\\.|N\\.Y\\.S\\.2d|N\\.Y\\.S\\.3d)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "N.Y. Consol. Laws",
+              "session_laws": "N.Y. Laws",
+              "administrative_code": "N.Y.C.R.R.",
+              "common_errors": [
+                "Confusing Court of Appeals (highest) with Appellate Division",
+                "Not specifying department for Appellate Division",
+                "Using wrong reporter series"
+              ],
+              "gpt_prompt": "New York Court of Appeals (highest) uses N.E./N.Y. Appellate Division uses N.Y.S. series. Specify department (1st, 2d, 3d, 4th Dep't) for Appellate Division."
+            },
+            "North Carolina": {
+              "abbreviation": "N.C.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.E.", "S.E.2d", "N.C."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.E\\.|S\\.E\\.2d|N\\.C\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["S.E.2d", "N.C. App."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.E\\.2d|N\\.C\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "N.C. Gen. Stat.",
+              "session_laws": "N.C. Sess. Laws",
+              "administrative_code": "N.C. Admin. Code",
+              "gpt_prompt": "North Carolina uses South Eastern Reporter."
+            },
+            "North Dakota": {
+              "abbreviation": "N.D.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.W.", "N.W.2d", "N.D."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.|N\\.W\\.2d|N\\.D\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "N.D. Cent. Code",
+              "session_laws": "N.D. Laws",
+              "administrative_code": "N.D. Admin. Code",
+              "gpt_prompt": "North Dakota uses North Western Reporter."
+            },
+            "Ohio": {
+              "abbreviation": "Ohio",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.E.", "N.E.2d", "Ohio St.", "Ohio St. 2d", "Ohio St. 3d"],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.|N\\.E\\.2d|Ohio St\\.(?: 2d| 3d)?)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["N.E.2d", "Ohio App."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.E\\.2d|Ohio App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Ohio Rev. Code Ann.",
+              "session_laws": "Ohio Laws",
+              "administrative_code": "Ohio Admin. Code",
+              "gpt_prompt": "Ohio uses North Eastern Reporter. State reporter is Ohio St. (with series). Do not abbreviate 'Ohio'."
+            },
+            "Oklahoma": {
+              "abbreviation": "Okla.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Okla."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Okla\\.)\\s+\\d+"
+                },
+                "Court of Civil Appeals": {
+                  "reporters": ["P.3d", "Okla. Civ. App."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.3d|Okla\\. Civ\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Okla. Stat. Ann.",
+              "session_laws": "Okla. Sess. Laws",
+              "administrative_code": "Okla. Admin. Code",
+              "gpt_prompt": "Oklahoma uses Pacific Reporter. Has separate Court of Civil Appeals and Court of Criminal Appeals."
+            },
+            "Oregon": {
+              "abbreviation": "Or.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Or."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Or\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["P.3d", "Or. App."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.3d|Or\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Or. Rev. Stat.",
+              "session_laws": "Or. Laws",
+              "administrative_rules": "Or. Admin. R.",
+              "gpt_prompt": "Oregon uses Pacific Reporter."
+            },
+            "Pennsylvania": {
+              "abbreviation": "Pa.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["A.2d", "A.3d", "Pa."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.2d|A\\.3d|Pa\\.)\\s+\\d+"
+                },
+                "Superior Court / Commonwealth Court": {
+                  "reporters": ["A.3d", "Pa. Super.", "Pa. Commw."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.3d|Pa\\. Super\\.|Pa\\. Commw\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Pa. Cons. Stat.",
+              "session_laws": "Pa. Laws",
+              "administrative_code": "Pa. Code",
+              "common_errors": [
+                "Confusing Superior Court with Commonwealth Court",
+                "Not specifying which intermediate appellate court"
+              ],
+              "gpt_prompt": "Pennsylvania has two intermediate appellate courts: Superior Court and Commonwealth Court. Uses Atlantic Reporter."
+            },
+            "Rhode Island": {
+              "abbreviation": "R.I.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["A.", "A.2d", "A.3d", "R.I."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.|A\\.2d|A\\.3d|R\\.I\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "R.I. Gen. Laws",
+              "session_laws": "R.I. Pub. Laws",
+              "administrative_code": "R.I. Code R.",
+              "gpt_prompt": "Rhode Island uses Atlantic Reporter."
+            },
+            "South Carolina": {
+              "abbreviation": "S.C.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.E.", "S.E.2d", "S.C."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.E\\.|S\\.E\\.2d|S\\.C\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "S.C. Code Ann.",
+              "session_laws": "S.C. Acts & Joint Res.",
+              "administrative_code": "S.C. Code Regs.",
+              "gpt_prompt": "South Carolina uses South Eastern Reporter."
+            },
+            "South Dakota": {
+              "abbreviation": "S.D.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.W.", "N.W.2d", "S.D."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.|N\\.W\\.2d|S\\.D\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "S.D. Codified Laws",
+              "session_laws": "S.D. Sess. Laws",
+              "administrative_rules": "S.D. Admin. R.",
+              "gpt_prompt": "South Dakota uses North Western Reporter."
+            },
+            "Tennessee": {
+              "abbreviation": "Tenn.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.W.", "S.W.2d", "S.W.3d", "Tenn."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.W\\.|S\\.W\\.2d|S\\.W\\.3d|Tenn\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Tenn. Code Ann.",
+              "session_laws": "Tenn. Pub. Acts",
+              "administrative_code": "Tenn. Comp. R. & Regs.",
+              "gpt_prompt": "Tennessee uses South Western Reporter."
+            },
+            "Texas": {
+              "abbreviation": "Tex.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.W.", "S.W.2d", "S.W.3d", "Tex."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.W\\.|S\\.W\\.2d|S\\.W\\.3d|Tex\\.)\\s+\\d+"
+                },
+                "Courts of Appeals": {
+                  "reporters": ["S.W.2d", "S.W.3d", "Tex. App."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.W\\.2d|S\\.W\\.3d)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Tex. Code Ann.",
+              "session_laws": "Tex. Gen. Laws",
+              "administrative_code": "Tex. Admin. Code",
+              "common_errors": [
+                "Not specifying which Court of Appeals district",
+                "Confusing Supreme Court (civil) with Court of Criminal Appeals"
+              ],
+              "gpt_prompt": "Texas has Supreme Court (civil) and Court of Criminal Appeals (criminal). Specify court and district for Courts of Appeals. Uses South Western Reporter."
+            },
+            "Utah": {
+              "abbreviation": "Utah",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Utah"],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Utah)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Utah Code Ann.",
+              "session_laws": "Utah Laws",
+              "administrative_code": "Utah Admin. Code",
+              "gpt_prompt": "Utah uses Pacific Reporter. Do not abbreviate 'Utah'."
+            },
+            "Vermont": {
+              "abbreviation": "Vt.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["A.2d", "A.3d", "Vt."],
+                  "regex_pattern": "^\\d+\\s+(?:A\\.2d|A\\.3d|Vt\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Vt. Stat. Ann.",
+              "session_laws": "Vt. Acts & Resolves",
+              "administrative_code": "Vt. Code R.",
+              "gpt_prompt": "Vermont uses Atlantic Reporter."
+            },
+            "Virginia": {
+              "abbreviation": "Va.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["S.E.", "S.E.2d", "Va."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.E\\.|S\\.E\\.2d|Va\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Va. Code Ann.",
+              "session_laws": "Va. Acts",
+              "administrative_code": "Va. Admin. Code",
+              "gpt_prompt": "Virginia uses South Eastern Reporter."
+            },
+            "Washington": {
+              "abbreviation": "Wash.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Wash."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Wash\\.)\\s+\\d+"
+                },
+                "Court of Appeals": {
+                  "reporters": ["P.3d", "Wash. App."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.3d|Wash\\. App\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Wash. Rev. Code (RCW)",
+              "session_laws": "Wash. Sess. Laws",
+              "administrative_code": "Wash. Admin. Code (WAC)",
+              "gpt_prompt": "Washington uses Pacific Reporter. Specify division for Court of Appeals."
+            },
+            "West Virginia": {
+              "abbreviation": "W. Va.",
+              "courts": {
+                "Supreme Court of Appeals": {
+                  "reporters": ["S.E.", "S.E.2d", "W. Va."],
+                  "regex_pattern": "^\\d+\\s+(?:S\\.E\\.|S\\.E\\.2d|W\\. Va\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "W. Va. Code",
+              "session_laws": "W. Va. Acts",
+              "administrative_code": "W. Va. Code St. R.",
+              "gpt_prompt": "West Virginia's highest court is Supreme Court of Appeals. Uses South Eastern Reporter."
+            },
+            "Wisconsin": {
+              "abbreviation": "Wis.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["N.W.", "N.W.2d", "Wis."],
+                  "regex_pattern": "^\\d+\\s+(?:N\\.W\\.|N\\.W\\.2d|Wis\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Wis. Stat. Ann.",
+              "session_laws": "Wis. Laws",
+              "administrative_code": "Wis. Admin. Code",
+              "gpt_prompt": "Wisconsin uses North Western Reporter."
+            },
+            "Wyoming": {
+              "abbreviation": "Wyo.",
+              "courts": {
+                "Supreme Court": {
+                  "reporters": ["P.2d", "P.3d", "Wyo."],
+                  "regex_pattern": "^\\d+\\s+(?:P\\.2d|P\\.3d|Wyo\\.)\\s+\\d+"
+                }
+              },
+              "statutory_compilation": "Wyo. Stat. Ann.",
+              "session_laws": "Wyo. Sess. Laws",
+              "administrative_rules": "Wyo. Rules & Regs.",
+              "gpt_prompt": "Wyoming uses Pacific Reporter."
+            }
+          }
+        },
+        "other_us_jurisdictions": {
+          "name": "Other U.S. Jurisdictions",
+          "count": 7,
+          "jurisdictions": {
+            "American Samoa": {
+              "abbreviation": "Am. Samoa",
+              "statutory_compilation": "Am. Samoa Code Ann.",
+              "gpt_prompt": "American Samoa citations use 'Am. Samoa' abbreviation, not 'A.S.' Abbreviate as shown in Table T1."
+            },
+            "Canal Zone": {
+              "abbreviation": "C.Z.",
+              "statutory_compilation": "C.Z. Code",
+              "note": "Historical - Canal Zone no longer exists",
+              "gpt_prompt": "Canal Zone (C.Z.) citations are historical only. Used for pre-1979 materials."
+            },
+            "Guam": {
+              "abbreviation": "Guam",
+              "statutory_compilation": "Guam Code Ann.",
+              "gpt_prompt": "Guam is not abbreviated in citations."
+            },
+            "Navajo Nation": {
+              "abbreviation": "Navajo Nation",
+              "statutory_compilation": "Navajo Nation Code",
+              "gpt_prompt": "Navajo Nation is not abbreviated. Tribal court citations require specific formatting."
+            },
+            "Northern Mariana Islands": {
+              "abbreviation": "N. Mar. I.",
+              "statutory_compilation": "N. Mar. I. Code",
+              "gpt_prompt": "Northern Mariana Islands abbreviates to 'N. Mar. I.' in citations."
+            },
+            "Puerto Rico": {
+              "abbreviation": "P.R.",
+              "statutory_compilation": "P.R. Laws Ann.",
+              "common_errors": [
+                "Using 'PR' without periods",
+                "Not specifying language of decision"
+              ],
+              "gpt_prompt": "Puerto Rico abbreviates to 'P.R.' Include language indication if decision is in Spanish."
+            },
+            "Virgin Islands": {
+              "abbreviation": "V.I.",
+              "statutory_compilation": "V.I. Code Ann.",
+              "gpt_prompt": "Virgin Islands abbreviates to 'V.I.' with periods."
+            }
+          }
+        }
+      },
+      "summary": {
+        "total_jurisdictions": 58,
+        "states": 50,
+        "dc": 1,
+        "other_territories": 7,
+        "key_validation_points": [
+          "Reporter abbreviations must have proper spacing and periods (e.g., 'F. Supp.' not 'F.Supp.')",
+          "Series numbers use '2d' and '3d' not '2nd' or '3rd'",
+          "Regional reporters require state/court designation in parenthetical",
+          "Year must be included in parenthetical",
+          "Prefer official/preferred reporters when available",
+          "State abbreviations follow Table T1 exactly"
+        ]
+      }
+    },
+    "T2": {
+      "name": "Foreign Jurisdictions",
+      "description": "Citation formats for non-U.S. jurisdictions",
+      "note": "Table T2 content is available online at the Bluebook website with jurisdiction-specific citation formats",
+      "content_reference": "Bluebook website provides detailed citation formats for foreign jurisdictions",
+      "common_errors": [
+        "Using U.S. citation format for foreign cases",
+        "Not consulting country-specific rules",
+        "Incorrect abbreviations for foreign courts",
+        "Missing required elements for specific jurisdictions"
+      ],
+      "gpt_prompts": {
+        "validation": "For foreign jurisdiction citations, consult Bluebook Table T2 online for country-specific requirements. Common foreign jurisdictions include: United Kingdom (U.K.), European Union (E.U.), Canada, Australia, etc. Each has unique citation formats.",
+        "correction": "Foreign citations require jurisdiction-specific formatting per Table T2. Identify the country and apply appropriate rules from Bluebook online Table T2.",
+        "general_guidance": "Foreign case citations typically include: Case name, citation to reporter/court, jurisdiction designation, and year. Format varies significantly by country."
+      },
+      "examples": {
+        "UK": "R v. Smith [2020] UKSC 15 (United Kingdom Supreme Court)",
+        "Canada": "R. v. Jones, [2020] 1 S.C.R. 123 (Canadian Supreme Court)",
+        "Australia": "Smith v. Jones (2020) 264 CLR 123 (High Court of Australia)",
+        "Germany": "BVerfG [German Constitutional Court], Case No. 1 BvR 123/20, Decision of Jan. 15, 2020",
+        "France": "Cass. civ. [Court of Cassation, Civil Chamber], Jan. 15, 2020, Bull. civ. I, No. 20-12345"
+      },
+      "validation_notes": "Table T2 is primarily available online. For comprehensive validation of foreign citations, reference the Bluebook website's Table T2 which provides detailed rules for major foreign jurisdictions worldwide."
+    },
+    "T3": {
+      "name": "Intergovernmental Organizations",
+      "description": "Citation formats for international and intergovernmental organization materials",
+      "subsections": {
+        "T3.1_United_Nations": {
+          "name": "United Nations",
+          "organization": "United Nations",
+          "abbreviation": "U.N.",
+          "materials": {
+            "UN_Documents": {
+              "abbreviation": "U.N. Docs.",
+              "regex_pattern": "U\\.N\\. Doc\\. [A-Z]+/[A-Z]*/?\\d+",
+              "common_errors": [
+                "Missing 'Doc.' in 'U.N. Doc.'",
+                "Incorrect document symbol format",
+                "Missing year"
+              ],
+              "gpt_prompt": "U.N. documents cite as: U.N. Doc. [Symbol] (Date). Example: U.N. Doc. A/RES/70/1 (Sept. 25, 2015). Verify document symbol follows U.N. format.",
+              "example": "G.A. Res. 70/1, U.N. Doc. A/RES/70/1 (Sept. 25, 2015)"
+            },
+            "General_Assembly_Official_Records": {
+              "abbreviation": "GAOR",
+              "full_name": "General Assembly Official Records",
+              "regex_pattern": "U\\.N\\. GAOR",
+              "gpt_prompt": "General Assembly Official Records cite as: U.N. GAOR, [session], [supplement], U.N. Doc. [symbol] (year).",
+              "example": "U.N. GAOR, 70th Sess., Supp. No. 1, U.N. Doc. A/70/1 (2015)"
+            },
+            "Security_Council_Official_Records": {
+              "abbreviation": "SCOR",
+              "full_name": "Security Council Official Records",
+              "regex_pattern": "U\\.N\\. SCOR",
+              "gpt_prompt": "Security Council Official Records cite as: U.N. SCOR, [year], [meeting], U.N. Doc. [symbol].",
+              "example": "U.N. SCOR, 70th Year, 7389th mtg., U.N. Doc. S/PV.7389 (Feb. 12, 2015)"
+            },
+            "Economic_and_Social_Council_Official_Records": {
+              "abbreviation": "ESCOR",
+              "full_name": "Economic and Social Council Official Records",
+              "regex_pattern": "U\\.N\\. ESCOR",
+              "gpt_prompt": "ECOSOC Official Records cite with 'U.N. ESCOR' and appropriate document symbol."
+            },
+            "Trusteeship_Council_Official_Records": {
+              "abbreviation": "TCOR",
+              "full_name": "Trusteeship Council Official Records",
+              "regex_pattern": "U\\.N\\. TCOR",
+              "note": "Trusteeship Council suspended operations in 1994",
+              "gpt_prompt": "Trusteeship Council Official Records (historical) cite as: U.N. TCOR."
+            }
+          },
+          "ICJ": {
+            "name": "International Court of Justice",
+            "abbreviation": "I.C.J.",
+            "materials": {
+              "Judgments_Opinions_Orders": {
+                "format": "<year> I.C.J. <page>",
+                "regex_pattern": "\\d{4}\\s+I\\.C\\.J\\.\\s+\\d+",
+                "common_errors": [
+                  "Using 'ICJ' without periods",
+                  "Missing year before I.C.J.",
+                  "Incorrect page citation"
+                ],
+                "gpt_prompt": "I.C.J. judgments cite as: Case Name, Year I.C.J. Page (Date of decision). Example: Corfu Channel (U.K. v. Alb.), 1949 I.C.J. 4 (Apr. 9).",
+                "example": "Corfu Channel (U.K. v. Alb.), 1949 I.C.J. 4 (Apr. 9)"
+              },
+              "Pleadings": {
+                "format": "<year> I.C.J. Pleadings <page>",
+                "regex_pattern": "\\d{4}\\s+I\\.C\\.J\\. Pleadings\\s+\\d+",
+                "gpt_prompt": "I.C.J. pleadings cite as: Case Name, Year I.C.J. Pleadings Page.",
+                "example": "Case Name, 1950 I.C.J. Pleadings 123"
+              },
+              "Acts_and_Documents": {
+                "format": "<year> I.C.J. Acts & Docs. <page>",
+                "regex_pattern": "\\d{4}\\s+I\\.C\\.J\\. Acts & Docs\\.\\s+\\d+",
+                "gpt_prompt": "I.C.J. Acts and Documents cite as: Year I.C.J. Acts & Docs. Page."
+              }
+            }
+          },
+          "UN_Treaties": {
+            "name": "United Nations Treaty Series",
+            "abbreviation": "U.N.T.S.",
+            "format": "<volume> U.N.T.S. <page>",
+            "regex_pattern": "\\d+\\s+U\\.N\\.T\\.S\\.\\s+\\d+",
+            "common_errors": [
+              "Using 'UNTS' without periods",
+              "Missing volume or page number",
+              "Not including treaty name and parties"
+            ],
+            "gpt_prompt": "U.N.T.S. citations: Treaty Name, Month Day, Year, Volume U.N.T.S. Page. Example: Vienna Convention on the Law of Treaties, May 23, 1969, 1155 U.N.T.S. 331.",
+            "example": "Vienna Convention on the Law of Treaties, May 23, 1969, 1155 U.N.T.S. 331"
+          }
+        },
+        "T3.2_League_of_Nations": {
+          "name": "League of Nations",
+          "abbreviation": "L.N.",
+          "note": "Historical - League of Nations dissolved in 1946",
+          "materials": {
+            "PCIJ": {
+              "name": "Permanent Court of International Justice",
+              "abbreviation": "P.C.I.J.",
+              "format": "<year> P.C.I.J. (ser. <X>) No. <x>",
+              "regex_pattern": "\\d{4}\\s+P\\.C\\.I\\.J\\.\\s+\\(ser\\. [A-Z]\\)\\s+No\\.\\s+\\d+",
+              "common_errors": [
+                "Using 'PCIJ' without periods",
+                "Missing series designation",
+                "Incorrect series letter"
+              ],
+              "gpt_prompt": "P.C.I.J. citations include year, series (A, B, A/B, C, D, E, F), and number. Example: S.S. Lotus (Fr. v. Turk.), 1927 P.C.I.J. (ser. A) No. 10 (Sept. 7).",
+              "example": "S.S. Lotus (Fr. v. Turk.), 1927 P.C.I.J. (ser. A) No. 10 (Sept. 7)"
+            },
+            "League_Treaty_Series": {
+              "name": "League of Nations Treaty Series",
+              "abbreviation": "L.N.T.S.",
+              "format": "<volume> L.N.T.S. <page> (<year>)",
+              "regex_pattern": "\\d+\\s+L\\.N\\.T\\.S\\.\\s+\\d+\\s+\\(\\d{4}\\)",
+              "gpt_prompt": "L.N.T.S. citations: Treaty Name, Month Day, Year, Volume L.N.T.S. Page.",
+              "example": "Treaty Name, Jan. 1, 1930, 100 L.N.T.S. 50"
+            }
+          }
+        },
+        "T3.3_European_Union": {
+          "name": "European Union",
+          "abbreviation": "E.U.",
+          "materials": {
+            "EU_Courts": {
+              "name": "Court of Justice of the European Union and General Court",
+              "courts": ["C.J.E.U.", "General Court"],
+              "reporters": {
+                "European_Court_Reports": {
+                  "abbreviation": "E.C.R.",
+                  "format": "<year> E.C.R. <page>",
+                  "regex_pattern": "\\d{4}\\s+E\\.C\\.R\\.\\s+[I\\-]+\\d+",
+                  "note": "E.C.R. publication ceased in 2011; cases now published online",
+                  "gpt_prompt": "E.C.R. citations (through 2011): Case Name, Case No., Year E.C.R. Page-number. For post-2011, cite to ECLI or official website.",
+                  "example": "Case C-26/62, Van Gend en Loos v. Nederlandse Administratie der Belastingen, 1963 E.C.R. 1"
+                },
+                "Common_Market_Law_Reports": {
+                  "abbreviation": "C.M.L.R.",
+                  "format": "<year> C.M.L.R. <page>",
+                  "regex_pattern": "\\d{4}\\s+C\\.M\\.L\\.R\\.\\s+\\d+",
+                  "gpt_prompt": "C.M.L.R. (unofficial reporter) cite as: Case Name, Case No., Year C.M.L.R. Page."
+                },
+                "Common_Market_Reports_CCH": {
+                  "abbreviation": "Common Mkt. Rep. (CCH)",
+                  "format": "<year> Common Mkt. Rep. (CCH) <page>",
+                  "gpt_prompt": "CCH Common Market Reports cite as: Year Common Mkt. Rep. (CCH) ¶ paragraph number."
+                }
+              }
+            },
+            "EU_Legislative_Acts": {
+              "name": "EU Legislative Acts and Official Journal",
+              "materials": {
+                "Official_Journal": {
+                  "abbreviation": "O.J.",
+                  "format": "<year> O.J. L <issue> <page>",
+                  "regex_pattern": "\\d{4}\\s+O\\.J\\.\\s+[LC]\\s+\\d+",
+                  "common_errors": [
+                    "Missing series designation (L for legislation, C for information)",
+                    "Incorrect year format",
+                    "Missing issue number"
+                  ],
+                  "gpt_prompt": "Official Journal citations: Title, Year O.J. (L/C) Issue, Page. 'L' series for legislation, 'C' series for information and notices. Example: Council Regulation 1234/2020, 2020 O.J. (L 280) 5.",
+                  "example": "Council Regulation 1234/2020, 2020 O.J. (L 280) 5"
+                },
+                "Official_Journal_Special_Edition": {
+                  "abbreviation": "O.J. Spec. Ed.",
+                  "format": "<year> O.J. Spec. Ed. <page>",
+                  "gpt_prompt": "Special Edition Official Journal cite with year, O.J. Spec. Ed., and page."
+                }
+              }
+            },
+            "EU_Parliamentary_Documents": {
+              "name": "European Parliament Documents",
+              "materials": {
+                "Parliamentary_Debates": {
+                  "abbreviation": "EUR. PARL. DEB.",
+                  "format": "EUR. PARL. DEB. (<debate no.>) <page>",
+                  "gpt_prompt": "European Parliament debates cite as: EUR. PARL. DEB. (debate no.) page (date)."
+                },
+                "COM_Documents": {
+                  "abbreviation": "EUR. PARL. Doc. (COM)",
+                  "format": "EUR. PARL. Doc. (COM <doc no.>) <page>",
+                  "gpt_prompt": "Commission documents cite as: EUR. PARL. Doc. (COM doc-no.) (year)."
+                }
+              }
+            }
+          }
+        },
+        "T3.4_European_Commission_Human_Rights": {
+          "name": "European Commission of Human Rights",
+          "abbreviation": "Eur. Comm'n H.R.",
+          "note": "Abolished in 1998; cases now heard by European Court of Human Rights",
+          "materials": {
+            "Decisions_and_Reports": {
+              "abbreviation": "Eur. Comm'n H.R. Dec. & Rep.",
+              "format": "<volume> Eur. Comm'n H.R. Dec. & Rep. <page>",
+              "regex_pattern": "\\d+\\s+Eur\\. Comm'n H\\.R\\. Dec\\. & Rep\\.\\s+\\d+",
+              "gpt_prompt": "European Commission of Human Rights (historical, pre-1998) cite as: Application No., Volume Eur. Comm'n H.R. Dec. & Rep. Page (Year)."
+            },
+            "Yearbook": {
+              "abbreviation": "Y.B. Eur. Conv. on H.R.",
+              "gpt_prompt": "Yearbook of the European Convention on Human Rights cite with volume, Y.B. Eur. Conv. on H.R., page, and year."
+            }
+          }
+        },
+        "T3.5_European_Court_Human_Rights": {
+          "name": "European Court of Human Rights",
+          "abbreviation": "Eur. Ct. H.R.",
+          "materials": {
+            "Reports_of_Judgments": {
+              "abbreviation": "Eur. Ct. H.R.",
+              "format": "Eur. Ct. H.R. <vol> (<year>) <page>",
+              "regex_pattern": "Eur\\. Ct\\. H\\.R\\.\\s+\\d+\\s+\\(\\d{4}\\)",
+              "common_errors": [
+                "Not including application number",
+                "Missing year in parentheses",
+                "Incorrect abbreviation format"
+              ],
+              "gpt_prompt": "ECtHR judgments cite as: Case Name v. Country, App. No. xxxxx/xx, Eur. Ct. H.R. (year) or cite to ¶ paragraph if available online. Include application number.",
+              "example": "Pretty v. United Kingdom, App. No. 2346/02, Eur. Ct. H.R. (2002)"
+            },
+            "European_Human_Rights_Reports": {
+              "abbreviation": "Eur. H.R. Rep.",
+              "format": "<volume> Eur. H.R. Rep. <page>",
+              "gpt_prompt": "Unofficial reporter European Human Rights Reports cite as: Volume Eur. H.R. Rep. Page (Year)."
+            }
+          }
+        },
+        "T3.6_Inter_American_Commission": {
+          "name": "Inter-American Commission on Human Rights",
+          "abbreviation": "Inter-Am. Comm'n H.R.",
+          "materials": {
+            "Annual_Reports": {
+              "abbreviation": "Inter-Am. Comm'n H.R.",
+              "gpt_prompt": "Inter-American Commission on Human Rights reports cite with case name/number, report designation, OAS Doc. symbol, and year.",
+              "example": "Case 12.345, Report No. 45/20, Inter-Am. Comm'n H.R., OEA/Ser.L/V/II, doc. 50 (2020)"
+            }
+          }
+        },
+        "T3.7_Inter_American_Court": {
+          "name": "Inter-American Court of Human Rights",
+          "abbreviation": "Inter-Am. Ct. H.R.",
+          "materials": {
+            "Series_A_Judgments": {
+              "name": "Series A (Judgments and Opinions)",
+              "format": "Inter-Am. Ct. H.R. (ser. A) No. <xx>",
+              "regex_pattern": "Inter-Am\\. Ct\\. H\\.R\\.\\s+\\(ser\\. A\\)\\s+No\\.\\s+\\d+",
+              "gpt_prompt": "Inter-American Court Series A (judgments) cite as: Case Name, Inter-Am. Ct. H.R. (ser. A) No. XX, ¶ para (Month Day, Year).",
+              "example": "Velásquez Rodríguez Case, Inter-Am. Ct. H.R. (ser. A) No. 1, ¶ 164 (July 29, 1988)"
+            },
+            "Series_B_Pleadings": {
+              "name": "Series B (Pleadings, Oral Arguments, and Documents)",
+              "format": "Inter-Am. Ct. H.R. (ser. B) No. <xx>, <page>",
+              "gpt_prompt": "Series B contains pleadings and related documents."
+            },
+            "Series_C_Decisions": {
+              "name": "Series C (Decisions and Judgments)",
+              "format": "Inter-Am. Ct. H.R. (ser. C) No. <xx>",
+              "regex_pattern": "Inter-Am\\. Ct\\. H\\.R\\.\\s+\\(ser\\. C\\)\\s+No\\.\\s+\\d+",
+              "gpt_prompt": "Series C (current series for decisions) cite as: Case Name, Inter-Am. Ct. H.R. (ser. C) No. XXX, ¶ para (Month Day, Year)."
+            },
+            "Series_D_Pleadings_C": {
+              "name": "Series D (Pleadings relative to Series C)",
+              "format": "Inter-Am. Ct. H.R. (ser. D) No. <xx>, <page>",
+              "gpt_prompt": "Series D contains pleadings corresponding to Series C cases."
+            },
+            "Series_E_Provisional": {
+              "name": "Series E (Provisional Measures)",
+              "format": "Inter-Am. Ct. H.R. (ser. E) No. <xx>, <page>",
+              "gpt_prompt": "Series E contains provisional measures orders."
+            }
+          }
+        },
+        "T3.8_ITLOS": {
+          "name": "International Tribunal for the Law of the Sea",
+          "abbreviation": "ITLOS",
+          "materials": {
+            "ITLOS_Reports": {
+              "abbreviation": "ITLOS Rep.",
+              "format": "<year> ITLOS Rep. <page>",
+              "regex_pattern": "\\d{4}\\s+ITLOS Rep\\.\\s+\\d+",
+              "common_errors": [
+                "Using 'ITLOS' without 'Rep.'",
+                "Missing year or page citation"
+              ],
+              "gpt_prompt": "ITLOS cases cite as: Case Name, Case No., Year ITLOS Rep. Page (Month Day).",
+              "example": "The M/V 'Saiga' (No. 2) Case (St. Vincent v. Guinea), Case No. 2, 1999 ITLOS Rep. 10 (July 1)"
+            }
+          }
+        },
+        "T3.9_Other_IGOs": {
+          "name": "Other Intergovernmental Organizations",
+          "organizations": {
+            "CTBTO": {
+              "name": "Comprehensive Nuclear-Test-Ban Treaty Organization",
+              "abbreviation": "CTBTO"
+            },
+            "FAO": {
+              "name": "Food and Agriculture Organization",
+              "abbreviation": "FAO"
+            },
+            "GEF": {
+              "name": "Global Environment Facility",
+              "abbreviation": "GEF"
+            },
+            "IPCC": {
+              "name": "Intergovernmental Panel on Climate Change",
+              "abbreviation": "IPCC"
+            },
+            "IAEA": {
+              "name": "International Atomic Energy Agency",
+              "abbreviation": "IAEA"
+            },
+            "IBRD": {
+              "name": "International Bank for Reconstruction and Development (World Bank)",
+              "abbreviation": "IBRD"
+            },
+            "ICSID": {
+              "name": "International Centre for Settlement of Investment Disputes",
+              "abbreviation": "ICSID"
+            },
+            "ICAO": {
+              "name": "International Civil Aviation Organization",
+              "abbreviation": "ICAO"
+            },
+            "INTERPOL": {
+              "name": "International Criminal Police Organization",
+              "abbreviation": "INTERPOL"
+            },
+            "IDA": {
+              "name": "International Development Association",
+              "abbreviation": "IDA"
+            },
+            "IFC": {
+              "name": "International Finance Corporation",
+              "abbreviation": "IFC"
+            }
+          },
+          "gpt_prompt": "For other intergovernmental organizations not listed in T3.1-T3.8, use the organization's standard abbreviation and cite to official documents with document numbers and dates. Consult Bluebook Table T3.9 for specific organizations."
+        }
+      },
+      "common_errors": [
+        "Missing periods in abbreviations (e.g., 'UN' instead of 'U.N.')",
+        "Incorrect document symbol formats",
+        "Not including required date information",
+        "Confusing different court reporters (I.C.J. vs. P.C.I.J.)",
+        "Missing series designations",
+        "Incorrect spacing in multi-part abbreviations"
+      ],
+      "gpt_prompts": {
+        "validation": "For international organization citations, verify: (1) Correct abbreviation with periods, (2) Proper document symbol or case number, (3) Appropriate reporter or series, (4) Complete date information, (5) Compliance with specific T3 subsection rules.",
+        "correction": "Check abbreviations match Table T3 exactly. Ensure document symbols follow organization's format. Include all required elements (case number, series, page, date).",
+        "general": "International citations vary by organization. U.N. uses 'U.N. Doc.' with symbols. I.C.J. uses 'Year I.C.J. Page'. E.U. uses 'O.J.' for legislation. Always include periods in abbreviations."
+      }
+    },
+    "T4": {
+      "name": "Treaty Sources",
+      "description": "Citation formats for international treaties and agreements",
+      "subsections": {
+        "T4.1_Official_US_Sources": {
+          "name": "Official U.S. Treaty Sources",
+          "sources": {
+            "United_States_Treaties_and_Other_International_Agreements": {
+              "abbreviation": "U.S.T.",
+              "format": "U.S.T. <vol> <page>",
+              "regex_pattern": "\\d+\\s+U\\.S\\.T\\.\\s+\\d+",
+              "coverage": "1950-1984",
+              "note": "Publication ceased in 1984",
+              "common_errors": [
+                "Using U.S.T. for post-1984 treaties",
+                "Missing volume or page",
+                "Incorrect treaty name"
+              ],
+              "gpt_prompt": "U.S.T. citations (1950-1984 only): Treaty Name, Country, Month Day, Year, Volume U.S.T. Page. Example: Treaty of Friendship, U.S.-Japan, Sept. 8, 1951, 3 U.S.T. 3169.",
+              "example": "Treaty of Friendship, U.S.-Japan, Sept. 8, 1951, 3 U.S.T. 3169"
+            },
+            "Statutes_at_Large_Treaties": {
+              "abbreviation": "Stat.",
+              "format": "Stat. <page>",
+              "regex_pattern": "\\d+\\s+Stat\\.\\s+\\d+",
+              "coverage": "Treaties prior to 1950",
+              "gpt_prompt": "For treaties prior to 1950, cite to Statutes at Large: Treaty Name, Month Day, Year, Volume Stat. Page.",
+              "example": "Treaty of Paris, U.S.-Gr. Brit., Sept. 3, 1783, 8 Stat. 80"
+            },
+            "Treaties_and_Other_International_Acts_Series": {
+              "abbreviation": "T.I.A.S.",
+              "format": "T.I.A.S. No. <x>",
+              "regex_pattern": "T\\.I\\.A\\.S\\. No\\.\\s+\\d+",
+              "coverage": "1945-present",
+              "common_errors": [
+                "Missing 'No.' in T.I.A.S. citation",
+                "Using T.I.A.S. without treaty name",
+                "Omitting parties to treaty"
+              ],
+              "gpt_prompt": "T.I.A.S. citations (1945-present): Treaty Name, Parties, Month Day, Year, T.I.A.S. No. XXXX. This is a slip treaty format, each treaty gets a number.",
+              "example": "Agreement on Trade Relations, U.S.-China, July 7, 1979, T.I.A.S. No. 9630"
+            },
+            "Treaty_Series": {
+              "abbreviation": "T.S.",
+              "format": "T.S. No. <x>",
+              "regex_pattern": "T\\.S\\. No\\.\\s+\\d+",
+              "coverage": "1778-1945",
+              "gpt_prompt": "T.S. citations (1778-1945): Treaty Name, Parties, Month Day, Year, T.S. No. XXX.",
+              "example": "Treaty Name, U.S.-Country, Jan. 1, 1920, T.S. No. 123"
+            },
+            "Executive_Agreement_Series": {
+              "abbreviation": "E.A.S.",
+              "format": "E.A.S. No. <x>",
+              "regex_pattern": "E\\.A\\.S\\. No\\.\\s+\\d+",
+              "coverage": "1922-1945",
+              "gpt_prompt": "E.A.S. citations (1922-1945) for executive agreements: Agreement Name, Parties, Month Day, Year, E.A.S. No. XXX."
+            },
+            "Senate_Treaty_Documents": {
+              "abbreviation": "S. Treaty Doc.",
+              "format": "S. Treaty Doc. No. <x>",
+              "regex_pattern": "S\\. Treaty Doc\\. No\\.\\s+\\d+-\\d+",
+              "coverage": "Post-1981",
+              "common_errors": [
+                "Not including Congress number",
+                "Using old 'S. Exec. Doc.' format for recent treaties"
+              ],
+              "gpt_prompt": "Senate Treaty Documents (post-1981): Treaty Name, S. Treaty Doc. No. Congress-Number (Year). Include Congress number and document number.",
+              "example": "Convention on Climate Change, S. Treaty Doc. No. 102-38 (1992)"
+            },
+            "Senate_Executive_Documents": {
+              "abbreviation": "S. Exec. Doc.",
+              "format": "S. Exec. Doc. No. <x>",
+              "regex_pattern": "S\\. Exec\\. Doc\\. No\\.\\s+[A-Z]-\\d+",
+              "coverage": "Pre-1981",
+              "gpt_prompt": "Senate Executive Documents (pre-1981): Treaty Name, S. Exec. Doc. No. Letter-Number, Congress (Year).",
+              "example": "Treaty Name, S. Exec. Doc. No. A-1, 95th Cong. (1977)"
+            }
+          }
+        },
+        "T4.2_Intergovernmental_Treaty_Sources": {
+          "name": "Intergovernmental Treaty Sources",
+          "sources": {
+            "United_Nations_Treaty_Series": {
+              "abbreviation": "U.N.T.S.",
+              "format": "<volume> U.N.T.S. <page>",
+              "regex_pattern": "\\d+\\s+U\\.N\\.T\\.S\\.\\s+\\d+",
+              "common_errors": [
+                "Using 'UNTS' without periods",
+                "Missing volume or page",
+                "Not including treaty registration number"
+              ],
+              "gpt_prompt": "U.N.T.S. is the primary source for multilateral treaties. Cite as: Treaty Name, Month Day, Year, Volume U.N.T.S. Page. Example: Vienna Convention on the Law of Treaties, May 23, 1969, 1155 U.N.T.S. 331.",
+              "example": "Vienna Convention on the Law of Treaties, May 23, 1969, 1155 U.N.T.S. 331"
+            },
+            "League_of_Nations_Treaty_Series": {
+              "abbreviation": "L.N.T.S.",
+              "format": "<volume> L.N.T.S. <page>",
+              "regex_pattern": "\\d+\\s+L\\.N\\.T\\.S\\.\\s+\\d+",
+              "coverage": "1920-1946",
+              "note": "Historical - League of Nations",
+              "gpt_prompt": "L.N.T.S. (historical, 1920-1946): Treaty Name, Month Day, Year, Volume L.N.T.S. Page.",
+              "example": "Treaty Name, Jan. 1, 1925, 50 L.N.T.S. 100"
+            },
+            "Pan_American_Treaty_Series": {
+              "abbreviation": "Pan-Am. T.S.",
+              "format": "<volume> Pan-Am. T.S. <page>",
+              "gpt_prompt": "Pan-American Treaty Series cite with volume, Pan-Am. T.S., and page."
+            },
+            "European_Treaty_Series": {
+              "abbreviation": "E.T.S.",
+              "format": "E.T.S. No. <x>",
+              "regex_pattern": "E\\.T\\.S\\. No\\.\\s+\\d+",
+              "gpt_prompt": "European Treaty Series cite as: Treaty Name, Month Day, Year, E.T.S. No. XXX.",
+              "example": "European Convention on Human Rights, Nov. 4, 1950, E.T.S. No. 5"
+            },
+            "Organization_of_American_States_Treaty_Series": {
+              "abbreviation": "O.A.S.T.S.",
+              "format": "O.A.S.T.S. No. <x>",
+              "regex_pattern": "O\\.A\\.S\\.T\\.S\\. No\\.\\s+\\d+",
+              "gpt_prompt": "O.A.S. Treaty Series cite with treaty name, date, and O.A.S.T.S. number."
+            },
+            "Council_of_Europe_Treaty_Series": {
+              "abbreviation": "C.E.T.S.",
+              "format": "C.E.T.S. No. <x>",
+              "regex_pattern": "C\\.E\\.T\\.S\\. No\\.\\s+\\d+",
+              "gpt_prompt": "Council of Europe Treaty Series cite as: Treaty Name, Month Day, Year, C.E.T.S. No. XXX."
+            }
+          }
+        },
+        "T4.3_Unofficial_Treaty_Sources": {
+          "name": "Unofficial Treaty Sources",
+          "note": "Use only when official sources are unavailable",
+          "sources": {
+            "LEXIS_Treaties": {
+              "name": "U.S. Treaties on LEXIS",
+              "format": "Lexis <id>",
+              "gpt_prompt": "When official print sources unavailable, cite to electronic database: Treaty Name, Month Day, Year, Lexis [document ID]. Indicate if available in print but you used electronic."
+            },
+            "International_Legal_Materials": {
+              "abbreviation": "I.L.M.",
+              "format": "<volume> I.L.M. <page>",
+              "regex_pattern": "\\d+\\s+I\\.L\\.M\\.\\s+\\d+",
+              "common_errors": [
+                "Using I.L.M. when official source is available",
+                "Missing volume or page"
+              ],
+              "gpt_prompt": "I.L.M. is an unofficial source, use only when official unavailable. Cite as: Treaty Name, Month Day, Year, Volume I.L.M. Page.",
+              "example": "Montreal Protocol, Sept. 16, 1987, 26 I.L.M. 1550"
+            },
+            "Parrys_Consolidated_Treaty_Series": {
+              "abbreviation": "Consol. T.S.",
+              "format": "<volume> Consol. T.S. <page>",
+              "coverage": "Historical treaties 1648-1919",
+              "gpt_prompt": "Parry's Consolidated Treaty Series (historical): Treaty Name, Month Day, Year, Volume Consol. T.S. Page."
+            },
+            "Heins_Treaties": {
+              "abbreviation": "Hein's No. KAV",
+              "format": "Hein's No. KAV<xxxx>",
+              "gpt_prompt": "Hein's online collection: Treaty Name, Month Day, Year, Hein's No. KAV####."
+            },
+            "Bevans": {
+              "abbreviation": "Bevans",
+              "format": "<volume> Bevans <page>",
+              "coverage": "U.S. Treaties 1776-1949",
+              "gpt_prompt": "Bevans (compilation of early U.S. treaties 1776-1949): Treaty Name, Month Day, Year, Volume Bevans Page.",
+              "example": "Treaty of Ghent, U.S.-Gr. Brit., Dec. 24, 1814, 2 Bevans 42"
+            }
+          }
+        }
+      },
+      "general_treaty_format": {
+        "elements": [
+          "Treaty name (not underlined or italicized)",
+          "Parties (if bilateral) or 'multilateral' indication",
+          "Signing date (Month Day, Year)",
+          "Citation to source(s)",
+          "Ratification/entry into force date if relevant"
+        ],
+        "preference_order": [
+          "1. Official U.S. source (U.S.T., T.I.A.S., etc.)",
+          "2. Intergovernmental source (U.N.T.S., etc.)",
+          "3. Unofficial source (I.L.M., electronic, etc.)"
+        ]
+      },
+      "common_errors": [
+        "Using unofficial source when official is available",
+        "Missing periods in abbreviations",
+        "Italicizing treaty names (should not be italicized)",
+        "Not identifying parties for bilateral treaties",
+        "Omitting signing date",
+        "Using wrong source for time period (e.g., U.S.T. for pre-1950 or post-1984)"
+      ],
+      "gpt_prompts": {
+        "validation": "Verify treaty citation: (1) Treaty name not italicized, (2) Parties identified if bilateral, (3) Full date (Month Day, Year), (4) Appropriate source for time period, (5) Proper abbreviation format with periods, (6) Volume and page/number included.",
+        "correction": "Check treaty source matches signing date: Pre-1950 use Stat., 1950-1984 use U.S.T., 1945+ use T.I.A.S. For multilateral, cite to U.N.T.S. when available. Ensure abbreviations have periods.",
+        "general": "Treaties cite to official sources first. Format: Treaty Name, Parties, Month Day, Year, Source. Don't italicize treaty names. Include volume and page or series number."
+      }
+    },
+    "T5": {
+      "name": "Arbitral Reporters",
+      "description": "Citation formats for international arbitration decisions and awards",
+      "reporters": {
+        "Arbitration_Materials": {
+          "abbreviation": "Arb. Mat'l",
+          "full_name": "Arbitration Materials",
+          "gpt_prompt": "Arbitration Materials cite with case name, Arb. Mat'l citation, and date."
+        },
+        "Hague_Court_Reports_First_Series": {
+          "abbreviation": "Hague Ct. Rep. (Scott)",
+          "full_name": "Hague Court Reports, First Series (Scott)",
+          "coverage": "Early Hague arbitrations",
+          "regex_pattern": "Hague Ct\\. Rep\\.\\s+\\(Scott\\)",
+          "common_errors": [
+            "Missing '(Scott)' designation",
+            "Confusing with Second Series"
+          ],
+          "gpt_prompt": "Hague Court Reports, First Series edited by James Brown Scott. Cite as: Case Name, Hague Ct. Rep. (Scott) Page (Year).",
+          "example": "The Pious Fund Case (U.S. v. Mex.), Hague Ct. Rep. (Scott) 1 (1902)"
+        },
+        "Hague_Court_Reports_Second_Series": {
+          "abbreviation": "Hague Ct. Rep. 2d (Scott)",
+          "full_name": "Hague Court Reports, Second Series (Scott)",
+          "regex_pattern": "Hague Ct\\. Rep\\. 2d\\s+\\(Scott\\)",
+          "gpt_prompt": "Hague Court Reports, Second Series. Cite as: Case Name, Hague Ct. Rep. 2d (Scott) Page (Year)."
+        },
+        "ICSID_Reports": {
+          "abbreviation": "ICSID Rep.",
+          "full_name": "International Centre for Settlement of Investment Disputes Reports",
+          "regex_pattern": "\\d+\\s+ICSID Rep\\.\\s+\\d+",
+          "common_errors": [
+            "Not including case number",
+            "Missing ICSID designation",
+                "Confusing ICSID Rep. with ICSID Rev."
+          ],
+          "gpt_prompt": "ICSID Reports contain investment dispute awards. Cite as: Case Name, ICSID Case No. ARB/XX/X, Volume ICSID Rep. Page (Year). Include case number and award type (Award, Decision on Jurisdiction, etc.).",
+          "example": "Compañía de Aguas del Aconquija S.A. v. Argentine Republic, ICSID Case No. ARB/97/3, 5 ICSID Rep. 3 (2000)"
+        },
+        "ICSID_Review": {
+          "abbreviation": "ICSID Rev.",
+          "full_name": "ICSID Review - Foreign Investment Law Journal",
+          "regex_pattern": "\\d+\\s+ICSID Rev\\.\\s+\\d+",
+          "note": "Journal, not reporter - use only when case not in ICSID Rep.",
+          "gpt_prompt": "ICSID Review is a journal, not official reporter. Use only if case not available in ICSID Rep. Cite as: Case Name, Volume ICSID Rev. Page (Year)."
+        },
+        "ICC_Arbitration": {
+          "abbreviation": "Int'l Comm. Arb.",
+          "full_name": "International Chamber of Commerce Arbitration",
+          "regex_pattern": "Int'l Comm\\. Arb\\.",
+          "common_errors": [
+            "Not including ICC Case Number",
+            "Missing apostrophe in Int'l"
+          ],
+          "gpt_prompt": "ICC arbitration awards cite as: ICC Case No. XXXX, Int'l Comm. Arb. (or cite to publication in YCA, Mealey's, etc. if published). Include interim or final award designation.",
+          "example": "ICC Case No. 1234, Final Award, Int'l Comm. Arb. (1990)"
+        },
+        "ITLOS_Reports": {
+          "abbreviation": "ITLOS Rep.",
+          "full_name": "International Tribunal for the Law of the Sea Reports",
+          "format": "<year> ITLOS Rep. <page>",
+          "regex_pattern": "\\d{4}\\s+ITLOS Rep\\.\\s+\\d+",
+          "note": "Also covered in T3.8",
+          "gpt_prompt": "ITLOS Reports cite as: Case Name, Case No. X, Year ITLOS Rep. Page (Month Day). Include case number and decision type.",
+          "example": "The M/V 'Saiga' (No. 2) Case (St. Vincent v. Guinea), Case No. 2, 1999 ITLOS Rep. 10 (July 1)"
+        },
+        "ITA_Investment_Treaty_Cases": {
+          "abbreviation": "ITA Inv. Treaty Cases",
+          "full_name": "Investment Treaty Arbitration (ITA) - Investment Treaty Cases",
+          "regex_pattern": "ITA Inv\\. Treaty Cases",
+          "note": "Online resource",
+          "gpt_prompt": "ITA is online resource. When citing unpublished investment treaty awards, may cite as: Case Name, ITA Inv. Treaty Cases (Date), [URL]. Prefer published sources when available."
+        },
+        "PCA_Case_Repository": {
+          "abbreviation": "PCA Case Repository",
+          "full_name": "Permanent Court of Arbitration Case Repository",
+          "note": "Online repository for PCA cases",
+          "common_errors": [
+            "Not specifying which PCA tribunal (UNCITRAL, bilateral treaty, etc.)",
+            "Missing case number"
+          ],
+          "gpt_prompt": "PCA Case Repository citations for unpublished awards: Case Name, PCA Case No. XXXX-XX, Award/Decision (Date). Specify arbitration rules (UNCITRAL, bilateral investment treaty, etc.). Include URL for online-only materials.",
+          "example": "Abyei Arbitration (Sudan v. Sudan People's Liberation Movement/Army), PCA Case No. 2008-7, Final Award (July 22, 2009)"
+        },
+        "RIAA_UN_Reports": {
+          "abbreviation": "R.I.A.A.",
+          "full_name": "United Nations Reports of International Arbitral Awards",
+          "format": "<volume> R.I.A.A. <page>",
+          "regex_pattern": "\\d+\\s+R\\.I\\.A\\.A\\.\\s+\\d+",
+          "common_errors": [
+            "Using 'RIAA' without periods",
+            "Missing volume or page citation",
+            "Not including decision date"
+          ],
+          "gpt_prompt": "R.I.A.A. (U.N. compilation of arbitral awards): Case Name, Volume R.I.A.A. Page (Tribunal, Year). Include tribunal designation and year of award.",
+          "example": "Island of Palmas Case (Neth. v. U.S.), 2 R.I.A.A. 829 (Perm. Ct. Arb. 1928)"
+        },
+        "World_Arbitration_Reporter": {
+          "abbreviation": "World Arb. Rep.",
+          "full_name": "World Arbitration Reporter",
+          "format": "World Arb. Rep. (issue no.)",
+          "gpt_prompt": "World Arbitration Reporter cite with issue number: Case Name, World Arb. Rep. (Issue) (Year)."
+        }
+      },
+      "general_arbitration_citation_notes": {
+        "elements": [
+          "Case name (parties)",
+          "Case number (if applicable)",
+          "Decision type (Award, Interim Award, Decision on Jurisdiction, etc.)",
+          "Citation to reporter or repository",
+          "Tribunal/arbitration body",
+          "Date of decision"
+        ],
+        "unpublished_awards": "For unpublished awards, cite to party or publicly available source with descriptive parenthetical. Include case number, tribunal, and date.",
+        "procedural_orders": "Procedural orders generally not published; cite with case name, 'Procedural Order No. X', tribunal, and date."
+      },
+      "common_errors": [
+        "Not distinguishing between ICSID Rep. (reporter) and ICSID Rev. (journal)",
+        "Missing case numbers for institutional arbitrations",
+        "Omitting tribunal designation",
+        "Not specifying type of decision (Award vs. Interim Award vs. Jurisdictional Decision)",
+        "Using unofficial sources when official reporter available",
+        "Missing periods in abbreviations (R.I.A.A., ICSID Rep.)",
+        "Not including date of award"
+      ],
+      "gpt_prompts": {
+        "validation": "For arbitral awards, verify: (1) Case name with parties, (2) Case number if institutional arbitration, (3) Type of decision specified, (4) Appropriate reporter abbreviation with periods, (5) Tribunal identified, (6) Complete date (Month Day, Year).",
+        "correction": "Check reporter abbreviation: ICSID Rep. (not ICSID Rev. unless unavailable), R.I.A.A. with periods, proper spacing in 'Hague Ct. Rep.' Include case number for ICSID, ICC, PCA cases. Specify award type.",
+        "general": "Arbitral awards cite to official reporter when available (ICSID Rep., R.I.A.A., ITLOS Rep.). Include case number, award type, tribunal, and date. For unpublished awards, cite to repository or party materials with descriptive information."
+      }
+    }
+  },
+  "cross_table_validation": {
+    "jurisdiction_overlap": {
+      "note": "Some materials appear in multiple tables",
+      "examples": {
+        "ITLOS": "Appears in both T3 (Intergovernmental Organizations) and T5 (Arbitral Reporters)",
+        "I.C.J.": "Appears in T3 under United Nations",
+        "U.N.T.S.": "Appears in both T3 (UN Treaties) and T4 (Treaty Sources)"
+      }
+    },
+    "citation_hierarchy": {
+      "courts_and_tribunals": "For court decisions, cite to official reporter when available, then regional/unofficial reporters",
+      "treaties": "Cite to official national source first, then intergovernmental source, then unofficial source",
+      "arbitral_awards": "Cite to official arbitral reporter when available, then compilations, then repositories"
+    }
+  },
+  "validation_summary": {
+    "key_principles": [
+      "All abbreviations must include proper periods and spacing",
+      "Series numbers use ordinal abbreviations: '2d' and '3d' not '2nd' or '3rd'",
+      "Years must be included in parentheticals for case citations",
+      "Jurisdictional or court designation required in parentheticals for regional reporters",
+      "Treaty names are NOT italicized",
+      "Case names ARE italicized (or underlined)",
+      "Prefer official/primary sources over unofficial/secondary sources",
+      "State abbreviations must exactly match Table T1",
+      "Foreign and international citations have specific requirements per Tables T2-T5"
+    ],
+    "common_global_errors": [
+      "Missing or incorrect periods in abbreviations",
+      "Incorrect ordinal abbreviations (2nd/3rd instead of 2d/3d)",
+      "Missing parenthetical information (court, jurisdiction, year)",
+      "Using unofficial sources when official available",
+      "Incorrect spacing in multi-word abbreviations",
+      "Not matching exact abbreviation from tables",
+      "Confusing similar reporters (e.g., ICSID Rep. vs. ICSID Rev.)",
+      "Missing required identifiers (case numbers, document symbols, etc.)"
+    ]
+  }
+}

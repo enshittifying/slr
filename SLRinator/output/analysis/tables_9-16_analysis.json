@@ -1,0 +1,2114 @@
+{
+  "metadata": {
+    "title": "Bluebook Tables T9-T16 Comprehensive Analysis",
+    "description": "Complete structured data for Bluebook tables covering legislative documents, geographical terms, judges/officials, months, institutional names, publishing terms, services, and subdivisions",
+    "created": "2025-11-23",
+    "scope": "Tables T9-T16",
+    "total_entries": 486,
+    "tables_included": [
+      "T9: Legislative Documents",
+      "T10: Geographical Terms",
+      "T11: Judges and Officials",
+      "T12: Months",
+      "T13: Institutional Names",
+      "T14: Publishing Terms",
+      "T15: Services",
+      "T16: Subdivisions"
+    ]
+  },
+
+  "T9_legislative_documents": {
+    "description": "Abbreviations for U.S. federal legislative documents",
+    "usage_context": "Citations to bills, resolutions, reports, and other congressional materials",
+    "total_entries": 19,
+    "entries": [
+      {
+        "full_form": "House Bill",
+        "abbreviation": "H.R.",
+        "regex_pattern": "\\bH\\.R\\.\\s*\\d+",
+        "validation_regex": "^H\\.R\\.\\s*\\d+$",
+        "example_usage": "H.R. 1234",
+        "gpt_prompt": "Identify House Bills in citations and ensure they use the abbreviation 'H.R.' followed by a space and bill number",
+        "common_errors": [
+          "HR (missing periods)",
+          "H. R. (extra space)",
+          "House Resolution (should be H.R. Res.)"
+        ],
+        "notes": "Numbered bills introduced in the House of Representatives"
+      },
+      {
+        "full_form": "House Resolution",
+        "abbreviation": "H.R. Res.",
+        "regex_pattern": "\\bH\\.R\\.\\s*Res\\.\\s*\\d+",
+        "validation_regex": "^H\\.R\\.\\s*Res\\.\\s*\\d+$",
+        "example_usage": "H.R. Res. 456",
+        "gpt_prompt": "Verify House Resolutions use 'H.R. Res.' abbreviation with proper spacing and periods",
+        "common_errors": [
+          "H. Res. (missing 'R.')",
+          "H.R.Res. (missing space)"
+        ],
+        "notes": "Simple resolutions passed by the House only"
+      },
+      {
+        "full_form": "House Concurrent Resolution",
+        "abbreviation": "H.R. Con. Res.",
+        "regex_pattern": "\\bH\\.R\\.\\s*Con\\.\\s*Res\\.\\s*\\d+",
+        "validation_regex": "^H\\.R\\.\\s*Con\\.\\s*Res\\.\\s*\\d+$",
+        "example_usage": "H.R. Con. Res. 78",
+        "gpt_prompt": "Check that House Concurrent Resolutions use full abbreviation 'H.R. Con. Res.' with all periods and spaces",
+        "common_errors": [
+          "H. Con. Res. (missing 'R.')",
+          "H.R. Concurrent Res. (not abbreviated 'Con.')"
+        ],
+        "notes": "Concurrent resolutions requiring passage by both chambers"
+      },
+      {
+        "full_form": "House Joint Resolution",
+        "abbreviation": "H.R.J. Res.",
+        "regex_pattern": "\\bH\\.R\\.J\\.\\s*Res\\.\\s*\\d+",
+        "validation_regex": "^H\\.R\\.J\\.\\s*Res\\.\\s*\\d+$",
+        "example_usage": "H.R.J. Res. 90",
+        "gpt_prompt": "Ensure House Joint Resolutions use 'H.R.J. Res.' with period after 'J'",
+        "common_errors": [
+          "H.J. Res. (missing 'R.')",
+          "H.R. J. Res. (extra space before J)"
+        ],
+        "notes": "Joint resolutions requiring presidential signature"
+      },
+      {
+        "full_form": "House Report",
+        "abbreviation": "H.R. Rep. No.",
+        "regex_pattern": "\\bH\\.R\\.\\s*Rep\\.\\s*No\\.\\s*\\d+",
+        "validation_regex": "^H\\.R\\.\\s*Rep\\.\\s*No\\.\\s*\\d+-\\d+$",
+        "example_usage": "H.R. Rep. No. 117-234",
+        "gpt_prompt": "Verify House Reports include 'No.' and follow format: Congress number-Report number",
+        "common_errors": [
+          "H. Rep. (missing 'R.')",
+          "H.R. Report (not abbreviated)",
+          "Missing 'No.'"
+        ],
+        "notes": "Committee reports accompanying legislation; format is [Congress]-[Number]"
+      },
+      {
+        "full_form": "House Document",
+        "abbreviation": "H.R. Doc. No.",
+        "regex_pattern": "\\bH\\.R\\.\\s*Doc\\.\\s*No\\.\\s*\\d+",
+        "validation_regex": "^H\\.R\\.\\s*Doc\\.\\s*No\\.\\s*\\d+-\\d+$",
+        "example_usage": "H.R. Doc. No. 116-45",
+        "gpt_prompt": "Check House Documents use 'H.R. Doc. No.' abbreviation with Congress-Document number format",
+        "common_errors": [
+          "H. Doc. (missing 'R.')",
+          "Missing 'No.'"
+        ],
+        "notes": "Official House documents"
+      },
+      {
+        "full_form": "House Miscellaneous Document",
+        "abbreviation": "H.R. Misc. Doc. No.",
+        "regex_pattern": "\\bH\\.R\\.\\s*Misc\\.\\s*Doc\\.\\s*No\\.\\s*\\d+",
+        "validation_regex": "^H\\.R\\.\\s*Misc\\.\\s*Doc\\.\\s*No\\.\\s*\\d+-\\d+$",
+        "example_usage": "H.R. Misc. Doc. No. 100-12",
+        "gpt_prompt": "Ensure House Miscellaneous Documents include 'Misc.' in abbreviation",
+        "common_errors": [
+          "H.R. Doc. No. (missing 'Misc.')",
+          "H.R. Miscellaneous (not abbreviated)"
+        ],
+        "notes": "Historical designation for certain House documents"
+      },
+      {
+        "full_form": "Senate Bill",
+        "abbreviation": "S.",
+        "regex_pattern": "\\bS\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*\\d+$",
+        "example_usage": "S. 1234",
+        "gpt_prompt": "Verify Senate Bills use simple 'S.' abbreviation followed by space and bill number",
+        "common_errors": [
+          "Sen. (wrong abbreviation)",
+          "S (missing period)",
+          "Senate (not abbreviated)"
+        ],
+        "notes": "Numbered bills introduced in the Senate"
+      },
+      {
+        "full_form": "Senate Resolution",
+        "abbreviation": "S. Res.",
+        "regex_pattern": "\\bS\\.\\s*Res\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*Res\\.\\s*\\d+$",
+        "example_usage": "S. Res. 456",
+        "gpt_prompt": "Check Senate Resolutions use 'S. Res.' abbreviation",
+        "common_errors": [
+          "S.Res. (missing space)",
+          "Sen. Res. (wrong abbreviation)"
+        ],
+        "notes": "Simple resolutions passed by the Senate only"
+      },
+      {
+        "full_form": "Senate Concurrent Resolution",
+        "abbreviation": "S. Con. Res.",
+        "regex_pattern": "\\bS\\.\\s*Con\\.\\s*Res\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*Con\\.\\s*Res\\.\\s*\\d+$",
+        "example_usage": "S. Con. Res. 78",
+        "gpt_prompt": "Ensure Senate Concurrent Resolutions use 'S. Con. Res.' with proper spacing",
+        "common_errors": [
+          "S. Concurrent Res. (not abbreviated)",
+          "Missing spaces between elements"
+        ],
+        "notes": "Concurrent resolutions requiring passage by both chambers"
+      },
+      {
+        "full_form": "Senate Joint Resolution",
+        "abbreviation": "S.J. Res.",
+        "regex_pattern": "\\bS\\.J\\.\\s*Res\\.\\s*\\d+",
+        "validation_regex": "^S\\.J\\.\\s*Res\\.\\s*\\d+$",
+        "example_usage": "S.J. Res. 90",
+        "gpt_prompt": "Verify Senate Joint Resolutions use 'S.J. Res.' (note: no space between S. and J.)",
+        "common_errors": [
+          "S. J. Res. (extra space)",
+          "S. Joint Res. (not abbreviated)"
+        ],
+        "notes": "Joint resolutions requiring presidential signature; note 'J.' connects directly to 'S.'"
+      },
+      {
+        "full_form": "Senate Executive Resolution",
+        "abbreviation": "S. Exec. Res.",
+        "regex_pattern": "\\bS\\.\\s*Exec\\.\\s*Res\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*Exec\\.\\s*Res\\.\\s*\\d+$",
+        "example_usage": "S. Exec. Res. 12",
+        "gpt_prompt": "Check Senate Executive Resolutions use 'S. Exec. Res.' abbreviation",
+        "common_errors": [
+          "S. Executive Res. (not abbreviated)",
+          "S.E. Res. (wrong abbreviation)"
+        ],
+        "notes": "Resolutions related to executive business"
+      },
+      {
+        "full_form": "Senate Report",
+        "abbreviation": "S. Rep. No.",
+        "regex_pattern": "\\bS\\.\\s*Rep\\.\\s*No\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*Rep\\.\\s*No\\.\\s*\\d+-\\d+$",
+        "example_usage": "S. Rep. No. 117-234",
+        "gpt_prompt": "Verify Senate Reports include 'No.' and follow format: Congress number-Report number",
+        "common_errors": [
+          "S. Report (not abbreviated)",
+          "Missing 'No.'",
+          "Sen. Rep. (wrong abbreviation)"
+        ],
+        "notes": "Committee reports accompanying legislation"
+      },
+      {
+        "full_form": "Senate Document",
+        "abbreviation": "S. Doc. No.",
+        "regex_pattern": "\\bS\\.\\s*Doc\\.\\s*No\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*Doc\\.\\s*No\\.\\s*\\d+-\\d+$",
+        "example_usage": "S. Doc. No. 116-45",
+        "gpt_prompt": "Check Senate Documents use 'S. Doc. No.' abbreviation",
+        "common_errors": [
+          "S. Document (not abbreviated)",
+          "Missing 'No.'"
+        ],
+        "notes": "Official Senate documents"
+      },
+      {
+        "full_form": "Senate Executive Document",
+        "abbreviation": "S. Exec. Doc. No.",
+        "regex_pattern": "\\bS\\.\\s*Exec\\.\\s*Doc\\.\\s*No\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*Exec\\.\\s*Doc\\.\\s*No\\.\\s*\\d+-\\d+$",
+        "example_usage": "S. Exec. Doc. No. 100-5",
+        "gpt_prompt": "Ensure Senate Executive Documents include 'Exec.' in abbreviation",
+        "common_errors": [
+          "S. Doc. No. (missing 'Exec.')",
+          "S. Executive Doc. (not fully abbreviated)"
+        ],
+        "notes": "Documents related to executive business"
+      },
+      {
+        "full_form": "Senate Treaty Document",
+        "abbreviation": "S. Treaty Doc. No.",
+        "regex_pattern": "\\bS\\.\\s*Treaty\\s*Doc\\.\\s*No\\.\\s*\\d+",
+        "validation_regex": "^S\\.\\s*Treaty\\s*Doc\\.\\s*No\\.\\s*\\d+-\\d+$",
+        "example_usage": "S. Treaty Doc. No. 115-1",
+        "gpt_prompt": "Check Senate Treaty Documents use full word 'Treaty' (not abbreviated)",
+        "common_errors": [
+          "S. Tr. Doc. No. (incorrectly abbreviated)",
+          "Missing 'No.'"
+        ],
+        "notes": "Documents containing treaty text; 'Treaty' is NOT abbreviated"
+      },
+      {
+        "full_form": "Committee Print",
+        "abbreviation": "Comm. Print",
+        "regex_pattern": "\\bComm\\.\\s*Print",
+        "validation_regex": "^Comm\\.\\s*Print$",
+        "example_usage": "Comm. Print",
+        "gpt_prompt": "Verify Committee Prints use 'Comm. Print' abbreviation",
+        "common_errors": [
+          "Committee Print (not abbreviated)",
+          "Com. Print (missing second 'm')"
+        ],
+        "notes": "Materials printed by committee order"
+      },
+      {
+        "full_form": "Congressional Record",
+        "abbreviation": "Cong. Rec.",
+        "regex_pattern": "\\bCong\\.\\s*Rec\\.",
+        "validation_regex": "^\\d+\\s*Cong\\.\\s*Rec\\.\\s*\\d+",
+        "example_usage": "165 Cong. Rec. 12345",
+        "gpt_prompt": "Ensure Congressional Record citations use 'Cong. Rec.' abbreviation",
+        "common_errors": [
+          "Congressional Record (not abbreviated)",
+          "Cong. R. (incomplete abbreviation)"
+        ],
+        "notes": "Official record of congressional proceedings"
+      },
+      {
+        "full_form": "Congressional Research Service",
+        "abbreviation": "Cong. Rsch. Serv.",
+        "regex_pattern": "\\bCong\\.\\s*Rsch\\.\\s*Serv\\.",
+        "validation_regex": "^Cong\\.\\s*Rsch\\.\\s*Serv\\.$",
+        "example_usage": "Cong. Rsch. Serv.",
+        "gpt_prompt": "Check Congressional Research Service uses 'Cong. Rsch. Serv.' abbreviation",
+        "common_errors": [
+          "Cong. Research Serv. (not abbreviated)",
+          "CRS (overly abbreviated in legal citations)"
+        ],
+        "notes": "Research arm of Congress; note 'Rsch.' abbreviation"
+      }
+    ]
+  },
+
+  "T10_geographical_terms": {
+    "description": "Abbreviations for geographical locations including U.S. states, cities, territories, and countries",
+    "usage_context": "Citations to courts, publications, statutes, and administrative materials",
+    "total_entries": 315,
+    "categories": [
+      {
+        "name": "T10.1 U.S. States",
+        "entry_count": 50,
+        "entries": [
+          {
+            "full_form": "Alabama",
+            "abbreviation": "Ala.",
+            "regex_pattern": "\\bAla\\.",
+            "validation_regex": "^Ala\\.$",
+            "example_usage": "Ala. Code § 12-1-1",
+            "gpt_prompt": "Ensure Alabama is abbreviated as 'Ala.' with period",
+            "common_errors": ["AL (postal code)", "Alabama (not abbreviated)"],
+            "notes": "Use in case names, court names, statutes"
+          },
+          {
+            "full_form": "Alaska",
+            "abbreviation": "Alaska",
+            "regex_pattern": "\\bAlaska\\b",
+            "validation_regex": "^Alaska$",
+            "example_usage": "Alaska Stat. § 01.01.010",
+            "gpt_prompt": "Alaska is NOT abbreviated in Bluebook citations",
+            "common_errors": ["Alas. (incorrectly abbreviated)", "AK (postal code)"],
+            "notes": "One of few states never abbreviated"
+          },
+          {
+            "full_form": "Arizona",
+            "abbreviation": "Ariz.",
+            "regex_pattern": "\\bAriz\\.",
+            "validation_regex": "^Ariz\\.$",
+            "example_usage": "Ariz. Rev. Stat. Ann. § 1-101",
+            "gpt_prompt": "Verify Arizona abbreviation is 'Ariz.' with period",
+            "common_errors": ["AZ (postal code)", "Ari. (incomplete)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Arkansas",
+            "abbreviation": "Ark.",
+            "regex_pattern": "\\bArk\\.",
+            "validation_regex": "^Ark\\.$",
+            "example_usage": "Ark. Code Ann. § 1-1-101",
+            "gpt_prompt": "Check Arkansas uses 'Ark.' abbreviation",
+            "common_errors": ["AR (postal code)", "Arks. (plural form)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "California",
+            "abbreviation": "Cal.",
+            "regex_pattern": "\\bCal\\.",
+            "validation_regex": "^Cal\\.$",
+            "example_usage": "Cal. Civ. Code § 1",
+            "gpt_prompt": "Ensure California is abbreviated as 'Cal.' (not 'Calif.' except in California Law Review)",
+            "common_errors": ["CA (postal code)", "Calif. (except Cal. L. Rev.)"],
+            "notes": "Use 'Cal.' generally; 'Calif.' only for California Law Review"
+          },
+          {
+            "full_form": "Colorado",
+            "abbreviation": "Colo.",
+            "regex_pattern": "\\bColo\\.",
+            "validation_regex": "^Colo\\.$",
+            "example_usage": "Colo. Rev. Stat. § 1-1-101",
+            "gpt_prompt": "Verify Colorado abbreviation is 'Colo.' with period",
+            "common_errors": ["CO (postal code)", "Col. (incomplete)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Connecticut",
+            "abbreviation": "Conn.",
+            "regex_pattern": "\\bConn\\.",
+            "validation_regex": "^Conn\\.$",
+            "example_usage": "Conn. Gen. Stat. § 1-1",
+            "gpt_prompt": "Check Connecticut uses 'Conn.' abbreviation with double 'n'",
+            "common_errors": ["CT (postal code)", "Con. (single 'n')"],
+            "notes": "Note double 'n' in abbreviation"
+          },
+          {
+            "full_form": "Delaware",
+            "abbreviation": "Del.",
+            "regex_pattern": "\\bDel\\.",
+            "validation_regex": "^Del\\.$",
+            "example_usage": "Del. Code Ann. tit. 1, § 101",
+            "gpt_prompt": "Ensure Delaware abbreviation is 'Del.' with period",
+            "common_errors": ["DE (postal code)", "Delaware (not abbreviated)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Florida",
+            "abbreviation": "Fla.",
+            "regex_pattern": "\\bFla\\.",
+            "validation_regex": "^Fla\\.$",
+            "example_usage": "Fla. Stat. § 1.01",
+            "gpt_prompt": "Verify Florida abbreviation is 'Fla.' with period",
+            "common_errors": ["FL (postal code)", "Flor. (incorrect)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Georgia",
+            "abbreviation": "Ga.",
+            "regex_pattern": "\\bGa\\.",
+            "validation_regex": "^Ga\\.$",
+            "example_usage": "Ga. Code Ann. § 1-1-1",
+            "gpt_prompt": "Check Georgia uses short 'Ga.' abbreviation",
+            "common_errors": ["GA (postal code)", "Geo. (incorrect)"],
+            "notes": "One of shortest state abbreviations"
+          },
+          {
+            "full_form": "Hawaii",
+            "abbreviation": "Haw.",
+            "regex_pattern": "\\bHaw\\.",
+            "validation_regex": "^Haw\\.$",
+            "example_usage": "Haw. Rev. Stat. § 1-1",
+            "gpt_prompt": "Ensure Hawaii abbreviation is 'Haw.' with period",
+            "common_errors": ["HI (postal code)", "Hawaii (not abbreviated)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Idaho",
+            "abbreviation": "Idaho",
+            "regex_pattern": "\\bIdaho\\b",
+            "validation_regex": "^Idaho$",
+            "example_usage": "Idaho Code § 1-101",
+            "gpt_prompt": "Idaho is NOT abbreviated in Bluebook citations",
+            "common_errors": ["Id. (conflicts with 'id.' signal)", "ID (postal code)"],
+            "notes": "Never abbreviated to avoid confusion with 'id.' citation signal"
+          },
+          {
+            "full_form": "Illinois",
+            "abbreviation": "Ill.",
+            "regex_pattern": "\\bIll\\.",
+            "validation_regex": "^Ill\\.$",
+            "example_usage": "Ill. Comp. Stat. 5/1-1",
+            "gpt_prompt": "Verify Illinois uses 'Ill.' with double 'l'",
+            "common_errors": ["IL (postal code)", "Il. (single 'l')"],
+            "notes": "Note double 'l' in abbreviation"
+          },
+          {
+            "full_form": "Indiana",
+            "abbreviation": "Ind.",
+            "regex_pattern": "\\bInd\\.",
+            "validation_regex": "^Ind\\.$",
+            "example_usage": "Ind. Code § 1-1-1-1",
+            "gpt_prompt": "Check Indiana abbreviation is 'Ind.' with period",
+            "common_errors": ["IN (postal code)", "Indi. (too long)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Iowa",
+            "abbreviation": "Iowa",
+            "regex_pattern": "\\bIowa\\b",
+            "validation_regex": "^Iowa$",
+            "example_usage": "Iowa Code § 1.1",
+            "gpt_prompt": "Iowa is NOT abbreviated in Bluebook citations",
+            "common_errors": ["Ia. (incorrectly abbreviated)", "IA (postal code)"],
+            "notes": "One of few states never abbreviated"
+          },
+          {
+            "full_form": "Kansas",
+            "abbreviation": "Kan.",
+            "regex_pattern": "\\bKan\\.",
+            "validation_regex": "^Kan\\.$",
+            "example_usage": "Kan. Stat. Ann. § 1-101",
+            "gpt_prompt": "Ensure Kansas abbreviation is 'Kan.' with period",
+            "common_errors": ["KS (postal code)", "Kans. (too long)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Kentucky",
+            "abbreviation": "Ky.",
+            "regex_pattern": "\\bKy\\.",
+            "validation_regex": "^Ky\\.$",
+            "example_usage": "Ky. Rev. Stat. Ann. § 1.010",
+            "gpt_prompt": "Verify Kentucky abbreviation is short 'Ky.' with period",
+            "common_errors": ["KY (postal code)", "Ken. (incorrect)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Louisiana",
+            "abbreviation": "La.",
+            "regex_pattern": "\\bLa\\.",
+            "validation_regex": "^La\\.$",
+            "example_usage": "La. Civ. Code Ann. art. 1",
+            "gpt_prompt": "Check Louisiana uses short 'La.' abbreviation",
+            "common_errors": ["LA (postal code)", "Lou. (incorrect)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Maine",
+            "abbreviation": "Me.",
+            "regex_pattern": "\\bMe\\.",
+            "validation_regex": "^Me\\.$",
+            "example_usage": "Me. Rev. Stat. tit. 1, § 1",
+            "gpt_prompt": "Ensure Maine uses short 'Me.' abbreviation",
+            "common_errors": ["ME (postal code)", "Main. (incorrect)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Maryland",
+            "abbreviation": "Md.",
+            "regex_pattern": "\\bMd\\.",
+            "validation_regex": "^Md\\.$",
+            "example_usage": "Md. Code Ann., Com. Law § 1-101",
+            "gpt_prompt": "Verify Maryland abbreviation is 'Md.' with period",
+            "common_errors": ["MD (postal code)", "Mary. (incorrect)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Massachusetts",
+            "abbreviation": "Mass.",
+            "regex_pattern": "\\bMass\\.",
+            "validation_regex": "^Mass\\.$",
+            "example_usage": "Mass. Gen. Laws ch. 1, § 1",
+            "gpt_prompt": "Check Massachusetts uses 'Mass.' abbreviation",
+            "common_errors": ["MA (postal code)", "Mas. (single 's')"],
+            "notes": "Note double 's' in abbreviation"
+          },
+          {
+            "full_form": "Michigan",
+            "abbreviation": "Mich.",
+            "regex_pattern": "\\bMich\\.",
+            "validation_regex": "^Mich\\.$",
+            "example_usage": "Mich. Comp. Laws § 1.1",
+            "gpt_prompt": "Ensure Michigan abbreviation is 'Mich.' with period",
+            "common_errors": ["MI (postal code)", "Mic. (too short)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Minnesota",
+            "abbreviation": "Minn.",
+            "regex_pattern": "\\bMinn\\.",
+            "validation_regex": "^Minn\\.$",
+            "example_usage": "Minn. Stat. § 1.01",
+            "gpt_prompt": "Verify Minnesota uses 'Minn.' with double 'n'",
+            "common_errors": ["MN (postal code)", "Min. (single 'n')"],
+            "notes": "Note double 'n' in abbreviation"
+          },
+          {
+            "full_form": "Mississippi",
+            "abbreviation": "Miss.",
+            "regex_pattern": "\\bMiss\\.",
+            "validation_regex": "^Miss\\.$",
+            "example_usage": "Miss. Code Ann. § 1-1-1",
+            "gpt_prompt": "Check Mississippi uses 'Miss.' abbreviation",
+            "common_errors": ["MS (postal code)", "Mis. (too short)"],
+            "notes": "Note double 's' in abbreviation"
+          },
+          {
+            "full_form": "Missouri",
+            "abbreviation": "Mo.",
+            "regex_pattern": "\\bMo\\.",
+            "validation_regex": "^Mo\\.$",
+            "example_usage": "Mo. Rev. Stat. § 1.010",
+            "gpt_prompt": "Ensure Missouri abbreviation is short 'Mo.' with period",
+            "common_errors": ["MO (postal code)", "Mis. (incorrect)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Montana",
+            "abbreviation": "Mont.",
+            "regex_pattern": "\\bMont\\.",
+            "validation_regex": "^Mont\\.$",
+            "example_usage": "Mont. Code Ann. § 1-1-101",
+            "gpt_prompt": "Verify Montana abbreviation is 'Mont.' with period",
+            "common_errors": ["MT (postal code)", "Mon. (too short)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Nebraska",
+            "abbreviation": "Neb.",
+            "regex_pattern": "\\bNeb\\.",
+            "validation_regex": "^Neb\\.$",
+            "example_usage": "Neb. Rev. Stat. § 1-101",
+            "gpt_prompt": "Check Nebraska abbreviation is 'Neb.' with period",
+            "common_errors": ["NE (postal code)", "Nebr. (too long)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Nevada",
+            "abbreviation": "Nev.",
+            "regex_pattern": "\\bNev\\.",
+            "validation_regex": "^Nev\\.$",
+            "example_usage": "Nev. Rev. Stat. § 1.010",
+            "gpt_prompt": "Ensure Nevada abbreviation is 'Nev.' with period",
+            "common_errors": ["NV (postal code)", "Neva. (too long)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "New Hampshire",
+            "abbreviation": "N.H.",
+            "regex_pattern": "\\bN\\.H\\.",
+            "validation_regex": "^N\\.H\\.$",
+            "example_usage": "N.H. Rev. Stat. Ann. § 1:1",
+            "gpt_prompt": "Verify New Hampshire uses 'N.H.' with periods after both letters",
+            "common_errors": ["NH (postal code)", "N. H. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "New Jersey",
+            "abbreviation": "N.J.",
+            "regex_pattern": "\\bN\\.J\\.",
+            "validation_regex": "^N\\.J\\.$",
+            "example_usage": "N.J. Stat. Ann. § 1:1-1",
+            "gpt_prompt": "Check New Jersey uses 'N.J.' with periods after both letters",
+            "common_errors": ["NJ (postal code)", "N. J. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "New Mexico",
+            "abbreviation": "N.M.",
+            "regex_pattern": "\\bN\\.M\\.",
+            "validation_regex": "^N\\.M\\.$",
+            "example_usage": "N.M. Stat. Ann. § 1-1-1",
+            "gpt_prompt": "Ensure New Mexico uses 'N.M.' with periods after both letters",
+            "common_errors": ["NM (postal code)", "N. M. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "New York",
+            "abbreviation": "N.Y.",
+            "regex_pattern": "\\bN\\.Y\\.",
+            "validation_regex": "^N\\.Y\\.$",
+            "example_usage": "N.Y. Gen. Bus. Law § 1",
+            "gpt_prompt": "Verify New York uses 'N.Y.' with periods after both letters",
+            "common_errors": ["NY (postal code)", "N. Y. (extra space)"],
+            "notes": "Two-letter abbreviation with periods; also 'N.Y.C.' for New York City"
+          },
+          {
+            "full_form": "North Carolina",
+            "abbreviation": "N.C.",
+            "regex_pattern": "\\bN\\.C\\.",
+            "validation_regex": "^N\\.C\\.$",
+            "example_usage": "N.C. Gen. Stat. § 1-1",
+            "gpt_prompt": "Check North Carolina uses 'N.C.' with periods after both letters",
+            "common_errors": ["NC (postal code)", "N. C. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "North Dakota",
+            "abbreviation": "N.D.",
+            "regex_pattern": "\\bN\\.D\\.",
+            "validation_regex": "^N\\.D\\.$",
+            "example_usage": "N.D. Cent. Code § 1-01-01",
+            "gpt_prompt": "Ensure North Dakota uses 'N.D.' with periods after both letters",
+            "common_errors": ["ND (postal code)", "N. D. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "Ohio",
+            "abbreviation": "Ohio",
+            "regex_pattern": "\\bOhio\\b",
+            "validation_regex": "^Ohio$",
+            "example_usage": "Ohio Rev. Code Ann. § 1.01",
+            "gpt_prompt": "Ohio is NOT abbreviated in Bluebook citations",
+            "common_errors": ["O. (incorrectly abbreviated)", "OH (postal code)"],
+            "notes": "One of few states never abbreviated"
+          },
+          {
+            "full_form": "Oklahoma",
+            "abbreviation": "Okla.",
+            "regex_pattern": "\\bOkla\\.",
+            "validation_regex": "^Okla\\.$",
+            "example_usage": "Okla. Stat. tit. 1, § 1",
+            "gpt_prompt": "Verify Oklahoma abbreviation is 'Okla.' with period",
+            "common_errors": ["OK (postal code)", "Okl. (too short)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Oregon",
+            "abbreviation": "Or.",
+            "regex_pattern": "\\bOr\\.",
+            "validation_regex": "^Or\\.$",
+            "example_usage": "Or. Rev. Stat. § 1.010",
+            "gpt_prompt": "Check Oregon abbreviation is short 'Or.' with period",
+            "common_errors": ["OR (postal code)", "Ore. (too long)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Pennsylvania",
+            "abbreviation": "Pa.",
+            "regex_pattern": "\\bPa\\.",
+            "validation_regex": "^Pa\\.$",
+            "example_usage": "Pa. Stat. Ann. tit. 1, § 1",
+            "gpt_prompt": "Ensure Pennsylvania abbreviation is short 'Pa.' with period",
+            "common_errors": ["PA (postal code)", "Penn. (too long)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Rhode Island",
+            "abbreviation": "R.I.",
+            "regex_pattern": "\\bR\\.I\\.",
+            "validation_regex": "^R\\.I\\.$",
+            "example_usage": "R.I. Gen. Laws § 1-1-1",
+            "gpt_prompt": "Verify Rhode Island uses 'R.I.' with periods after both letters",
+            "common_errors": ["RI (postal code)", "R. I. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "South Carolina",
+            "abbreviation": "S.C.",
+            "regex_pattern": "\\bS\\.C\\.",
+            "validation_regex": "^S\\.C\\.$",
+            "example_usage": "S.C. Code Ann. § 1-1-10",
+            "gpt_prompt": "Check South Carolina uses 'S.C.' with periods after both letters",
+            "common_errors": ["SC (postal code)", "S. C. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "South Dakota",
+            "abbreviation": "S.D.",
+            "regex_pattern": "\\bS\\.D\\.",
+            "validation_regex": "^S\\.D\\.$",
+            "example_usage": "S.D. Codified Laws § 1-1-1",
+            "gpt_prompt": "Ensure South Dakota uses 'S.D.' with periods after both letters",
+            "common_errors": ["SD (postal code)", "S. D. (extra space)"],
+            "notes": "Two-letter abbreviation with periods"
+          },
+          {
+            "full_form": "Tennessee",
+            "abbreviation": "Tenn.",
+            "regex_pattern": "\\bTenn\\.",
+            "validation_regex": "^Tenn\\.$",
+            "example_usage": "Tenn. Code Ann. § 1-1-101",
+            "gpt_prompt": "Verify Tennessee uses 'Tenn.' with double 'n'",
+            "common_errors": ["TN (postal code)", "Ten. (single 'n')"],
+            "notes": "Note double 'n' in abbreviation"
+          },
+          {
+            "full_form": "Texas",
+            "abbreviation": "Tex.",
+            "regex_pattern": "\\bTex\\.",
+            "validation_regex": "^Tex\\.$",
+            "example_usage": "Tex. Bus. & Com. Code Ann. § 1.001",
+            "gpt_prompt": "Check Texas abbreviation is 'Tex.' with period",
+            "common_errors": ["TX (postal code)", "Tx. (missing 'e')"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Utah",
+            "abbreviation": "Utah",
+            "regex_pattern": "\\bUtah\\b",
+            "validation_regex": "^Utah$",
+            "example_usage": "Utah Code Ann. § 1-1-1",
+            "gpt_prompt": "Utah is NOT abbreviated in Bluebook citations",
+            "common_errors": ["Ut. (incorrectly abbreviated)", "UT (postal code)"],
+            "notes": "One of few states never abbreviated"
+          },
+          {
+            "full_form": "Vermont",
+            "abbreviation": "Vt.",
+            "regex_pattern": "\\bVt\\.",
+            "validation_regex": "^Vt\\.$",
+            "example_usage": "Vt. Stat. Ann. tit. 1, § 1",
+            "gpt_prompt": "Ensure Vermont abbreviation is short 'Vt.' with period",
+            "common_errors": ["VT (postal code)", "Ver. (incorrect)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Virginia",
+            "abbreviation": "Va.",
+            "regex_pattern": "\\bVa\\.",
+            "validation_regex": "^Va\\.$",
+            "example_usage": "Va. Code Ann. § 1-200",
+            "gpt_prompt": "Verify Virginia abbreviation is short 'Va.' with period",
+            "common_errors": ["VA (postal code)", "Vir. (incorrect)"],
+            "notes": "Very short abbreviation"
+          },
+          {
+            "full_form": "Washington",
+            "abbreviation": "Wash.",
+            "regex_pattern": "\\bWash\\.",
+            "validation_regex": "^Wash\\.$",
+            "example_usage": "Wash. Rev. Code § 1.01.010",
+            "gpt_prompt": "Check Washington abbreviation is 'Wash.' with period",
+            "common_errors": ["WA (postal code)", "Was. (too short)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "West Virginia",
+            "abbreviation": "W. Va.",
+            "regex_pattern": "\\bW\\.\\s*Va\\.",
+            "validation_regex": "^W\\.\\s*Va\\.$",
+            "example_usage": "W. Va. Code § 1-1-1",
+            "gpt_prompt": "Ensure West Virginia uses 'W. Va.' with space between W. and Va.",
+            "common_errors": ["WV (postal code)", "W.Va. (missing space)"],
+            "notes": "Note space between 'W.' and 'Va.'"
+          },
+          {
+            "full_form": "Wisconsin",
+            "abbreviation": "Wis.",
+            "regex_pattern": "\\bWis\\.",
+            "validation_regex": "^Wis\\.$",
+            "example_usage": "Wis. Stat. § 1.01",
+            "gpt_prompt": "Verify Wisconsin abbreviation is 'Wis.' with period",
+            "common_errors": ["WI (postal code)", "Wisc. (too long)"],
+            "notes": "Standard state abbreviation"
+          },
+          {
+            "full_form": "Wyoming",
+            "abbreviation": "Wyo.",
+            "regex_pattern": "\\bWyo\\.",
+            "validation_regex": "^Wyo\\.$",
+            "example_usage": "Wyo. Stat. Ann. § 1-1-101",
+            "gpt_prompt": "Check Wyoming abbreviation is 'Wyo.' with period",
+            "common_errors": ["WY (postal code)", "Wy. (too short)"],
+            "notes": "Standard state abbreviation"
+          }
+        ]
+      },
+      {
+        "name": "Cities",
+        "entry_count": 13,
+        "note": "Examples only; compose others by state abbreviation",
+        "entries": [
+          {
+            "full_form": "Baltimore",
+            "abbreviation": "Balt.",
+            "example_usage": "Balt. City Code art. 1, § 1-1",
+            "regex_pattern": "\\bBalt\\.",
+            "gpt_prompt": "Check Baltimore city abbreviation is 'Balt.' in citations"
+          },
+          {
+            "full_form": "Boston",
+            "abbreviation": "Bos.",
+            "example_usage": "Bos. Mun. Code ch. 1, § 1",
+            "regex_pattern": "\\bBos\\.",
+            "gpt_prompt": "Verify Boston abbreviation is 'Bos.' with period"
+          },
+          {
+            "full_form": "Chicago",
+            "abbreviation": "Chi.",
+            "example_usage": "Chi. Mun. Code § 1-1",
+            "regex_pattern": "\\bChi\\.",
+            "gpt_prompt": "Ensure Chicago abbreviation is 'Chi.' with period"
+          },
+          {
+            "full_form": "Dallas",
+            "abbreviation": "Dall.",
+            "example_usage": "Dall. City Code § 1-1",
+            "regex_pattern": "\\bDall\\.",
+            "gpt_prompt": "Check Dallas abbreviation is 'Dall.' with double 'l'"
+          },
+          {
+            "full_form": "District of Columbia",
+            "abbreviation": "D.C.",
+            "example_usage": "D.C. Code § 1-101",
+            "regex_pattern": "\\bD\\.C\\.",
+            "gpt_prompt": "Verify District of Columbia uses 'D.C.' abbreviation"
+          },
+          {
+            "full_form": "Houston",
+            "abbreviation": "Hous.",
+            "example_usage": "Hous. Code § 1-1",
+            "regex_pattern": "\\bHous\\.",
+            "gpt_prompt": "Check Houston abbreviation is 'Hous.' with period"
+          },
+          {
+            "full_form": "Los Angeles",
+            "abbreviation": "L.A.",
+            "example_usage": "L.A. Mun. Code § 1.01",
+            "regex_pattern": "\\bL\\.A\\.",
+            "gpt_prompt": "Ensure Los Angeles uses 'L.A.' abbreviation"
+          },
+          {
+            "full_form": "Miami",
+            "abbreviation": "Mia.",
+            "example_usage": "Mia. Code § 1-1",
+            "regex_pattern": "\\bMia\\.",
+            "gpt_prompt": "Verify Miami abbreviation is 'Mia.' with period"
+          },
+          {
+            "full_form": "New York (City)",
+            "abbreviation": "N.Y.C.",
+            "example_usage": "N.Y.C. Admin. Code § 1-01",
+            "regex_pattern": "\\bN\\.Y\\.C\\.",
+            "gpt_prompt": "Check New York City uses 'N.Y.C.' (distinct from 'N.Y.' state)"
+          },
+          {
+            "full_form": "Philadelphia",
+            "abbreviation": "Phila.",
+            "example_usage": "Phila. Code § 1-100",
+            "regex_pattern": "\\bPhila\\.",
+            "gpt_prompt": "Ensure Philadelphia abbreviation is 'Phila.' with period"
+          },
+          {
+            "full_form": "Phoenix",
+            "abbreviation": "Phx.",
+            "example_usage": "Phx. City Code § 1-1",
+            "regex_pattern": "\\bPhx\\.",
+            "gpt_prompt": "Verify Phoenix abbreviation is 'Phx.' with period"
+          },
+          {
+            "full_form": "San Francisco",
+            "abbreviation": "S.F.",
+            "example_usage": "S.F. Admin. Code § 1.1",
+            "regex_pattern": "\\bS\\.F\\.",
+            "gpt_prompt": "Check San Francisco uses 'S.F.' abbreviation"
+          }
+        ]
+      },
+      {
+        "name": "Territories",
+        "entry_count": 5,
+        "entries": [
+          {
+            "full_form": "American Samoa",
+            "abbreviation": "Am. Sam.",
+            "regex_pattern": "\\bAm\\.\\s*Sam\\.",
+            "example_usage": "Am. Sam. Code Ann. § 1.0101"
+          },
+          {
+            "full_form": "Guam",
+            "abbreviation": "Guam",
+            "regex_pattern": "\\bGuam\\b",
+            "example_usage": "Guam Code Ann. tit. 1, § 1001",
+            "notes": "Not abbreviated"
+          },
+          {
+            "full_form": "Northern Mariana Islands",
+            "abbreviation": "N. Mar. I.",
+            "regex_pattern": "\\bN\\.\\s*Mar\\.\\s*I\\.",
+            "example_usage": "N. Mar. I. Code § 1-1001"
+          },
+          {
+            "full_form": "Puerto Rico",
+            "abbreviation": "P.R.",
+            "regex_pattern": "\\bP\\.R\\.",
+            "example_usage": "P.R. Laws Ann. tit. 1, § 1"
+          },
+          {
+            "full_form": "Virgin Islands",
+            "abbreviation": "V.I.",
+            "regex_pattern": "\\bV\\.I\\.",
+            "example_usage": "V.I. Code Ann. tit. 1, § 1"
+          }
+        ]
+      },
+      {
+        "name": "T10.2 Australian States and Canadian Provinces",
+        "entry_count": 21,
+        "subcategories": [
+          {
+            "name": "Australia",
+            "entries": [
+              {"full_form": "Australian Capital Territory", "abbreviation": "Austl. Cap. Terr."},
+              {"full_form": "New South Wales", "abbreviation": "N.S.W."},
+              {"full_form": "Northern Territory", "abbreviation": "N. Terr."},
+              {"full_form": "Queensland", "abbreviation": "Queensl."},
+              {"full_form": "South Australia", "abbreviation": "S. Austl."},
+              {"full_form": "Tasmania", "abbreviation": "Tas."},
+              {"full_form": "Victoria", "abbreviation": "Vict."},
+              {"full_form": "Western Australia", "abbreviation": "W. Austl."}
+            ]
+          },
+          {
+            "name": "Canada",
+            "entries": [
+              {"full_form": "Alberta", "abbreviation": "Alta."},
+              {"full_form": "British Columbia", "abbreviation": "B.C."},
+              {"full_form": "Manitoba", "abbreviation": "Man."},
+              {"full_form": "New Brunswick", "abbreviation": "N.B."},
+              {"full_form": "Newfoundland & Labrador", "abbreviation": "Nfld."},
+              {"full_form": "Northwest Territories", "abbreviation": "N.W.T."},
+              {"full_form": "Nova Scotia", "abbreviation": "N.S."},
+              {"full_form": "Nunavut", "abbreviation": "Nun."},
+              {"full_form": "Ontario", "abbreviation": "Ont."},
+              {"full_form": "Prince Edward Island", "abbreviation": "P.E.I."},
+              {"full_form": "Québec", "abbreviation": "Que."},
+              {"full_form": "Saskatchewan", "abbreviation": "Sask."},
+              {"full_form": "Yukon", "abbreviation": "Yukon", "notes": "Not abbreviated"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "T10.3 Countries and Regions",
+        "entry_count": 226,
+        "note": "Partial listing provided - includes major countries and regions",
+        "key_examples": [
+          {"full_form": "United States of America", "abbreviation": "U.S."},
+          {"full_form": "United Kingdom", "abbreviation": "U.K."},
+          {"full_form": "England", "abbreviation": "Eng."},
+          {"full_form": "Scotland", "abbreviation": "Scot."},
+          {"full_form": "Wales", "abbreviation": "Wales", "notes": "Not abbreviated"},
+          {"full_form": "Canada", "abbreviation": "Can."},
+          {"full_form": "Australia", "abbreviation": "Austl."},
+          {"full_form": "New Zealand", "abbreviation": "N.Z."},
+          {"full_form": "China, People's Republic of", "abbreviation": "China"},
+          {"full_form": "Hong Kong", "abbreviation": "H.K."},
+          {"full_form": "Germany", "abbreviation": "Ger."},
+          {"full_form": "France", "abbreviation": "Fr."},
+          {"full_form": "Italy", "abbreviation": "It."},
+          {"full_form": "Spain", "abbreviation": "Spain", "notes": "Not abbreviated"},
+          {"full_form": "Russia", "abbreviation": "Russ."},
+          {"full_form": "Japan", "abbreviation": "Japan", "notes": "Not abbreviated"},
+          {"full_form": "India", "abbreviation": "India", "notes": "Not abbreviated"},
+          {"full_form": "Brazil", "abbreviation": "Braz."},
+          {"full_form": "Mexico", "abbreviation": "Mex."},
+          {"full_form": "South Africa", "abbreviation": "S. Afr."}
+        ],
+        "gpt_prompt": "Check country abbreviations against T10.3; many countries are NOT abbreviated; ensure proper use of periods and spaces"
+      }
+    ]
+  },
+
+  "T11_judges_officials": {
+    "description": "Abbreviations for judicial and governmental titles",
+    "usage_context": "Case names, opinions, legislative materials, and governmental documents",
+    "total_entries": 21,
+    "entries": [
+      {
+        "full_form": "Administrative Law Judge",
+        "abbreviation": "A.L.J.",
+        "regex_pattern": "\\bA\\.L\\.J\\.",
+        "validation_regex": "^A\\.L\\.J\\.$",
+        "example_usage": "Opinion by A.L.J. Smith",
+        "gpt_prompt": "Verify Administrative Law Judge uses 'A.L.J.' with periods after each letter",
+        "common_errors": ["ALJ (missing periods)", "Admin. L.J. (too long)"]
+      },
+      {
+        "full_form": "Arbitrator",
+        "abbreviation": "Arb.",
+        "regex_pattern": "\\bArb\\.",
+        "validation_regex": "^Arb\\.$",
+        "example_usage": "Decision of Arb. Johnson",
+        "gpt_prompt": "Check Arbitrator abbreviation is 'Arb.' with period",
+        "common_errors": ["Arbitrator (not abbreviated)"]
+      },
+      {
+        "full_form": "Assemblyman/Assemblywoman/Assemblymember",
+        "abbreviation": "Assemb.",
+        "regex_pattern": "\\bAssemb\\.",
+        "validation_regex": "^Assemb\\.$",
+        "example_usage": "Assemb. Garcia",
+        "gpt_prompt": "Ensure Assembly members use 'Assemb.' abbreviation",
+        "common_errors": ["Asm. (too short)", "Assemblyman (not abbreviated)"]
+      },
+      {
+        "full_form": "Attorney General",
+        "abbreviation": "Att'y Gen.",
+        "regex_pattern": "\\bAtt'y\\s*Gen\\.",
+        "validation_regex": "^Att'y\\s*Gen\\.$",
+        "example_usage": "Opinion of Att'y Gen.",
+        "gpt_prompt": "Verify Attorney General uses 'Att'y Gen.' with apostrophe in 'Att'y'",
+        "common_errors": ["Atty Gen. (missing apostrophe)", "A.G. (too abbreviated)"],
+        "notes": "Note apostrophe in 'Att'y'"
+      },
+      {
+        "full_form": "Baron",
+        "abbreviation": "B.",
+        "regex_pattern": "\\bB\\.",
+        "validation_regex": "^B\\.$",
+        "example_usage": "B. Smith (historical UK cases)",
+        "gpt_prompt": "Check Baron title uses simple 'B.' abbreviation",
+        "common_errors": ["Baron (not abbreviated)"],
+        "notes": "Historical; mainly in UK cases"
+      },
+      {
+        "full_form": "Chancellor",
+        "abbreviation": "C.",
+        "regex_pattern": "\\bC\\.",
+        "validation_regex": "^C\\.$",
+        "example_usage": "C. Williams",
+        "gpt_prompt": "Ensure Chancellor uses simple 'C.' abbreviation",
+        "common_errors": ["Chan. (incorrect)", "Chancellor (not abbreviated)"],
+        "notes": "Equity court judges"
+      },
+      {
+        "full_form": "Chief Baron",
+        "abbreviation": "C.B.",
+        "regex_pattern": "\\bC\\.B\\.",
+        "validation_regex": "^C\\.B\\.$",
+        "example_usage": "C.B. Jones (historical UK)",
+        "gpt_prompt": "Verify Chief Baron uses 'C.B.' abbreviation",
+        "common_errors": ["Chief Baron (not abbreviated)"],
+        "notes": "Historical; UK Exchequer Court"
+      },
+      {
+        "full_form": "Chief Judge / Chief Justice",
+        "abbreviation": "C.J.",
+        "regex_pattern": "\\bC\\.J\\.",
+        "validation_regex": "^C\\.J\\.$",
+        "example_usage": "Roberts, C.J.",
+        "gpt_prompt": "Check Chief Judge/Chief Justice uses 'C.J.' abbreviation",
+        "common_errors": ["CJ (missing periods)", "Ch. J. (incorrect format)"],
+        "notes": "Used for both Chief Judge and Chief Justice"
+      },
+      {
+        "full_form": "Commissioner",
+        "abbreviation": "Comm'r",
+        "regex_pattern": "\\bComm'r\\b",
+        "validation_regex": "^Comm'r$",
+        "example_usage": "Comm'r Brown",
+        "gpt_prompt": "Ensure Commissioner uses 'Comm'r' with apostrophe, no period",
+        "common_errors": ["Commr (missing apostrophe)", "Comm'r. (extra period)", "Com'r (single 'm')"],
+        "notes": "Note double 'm' and apostrophe; no period at end"
+      },
+      {
+        "full_form": "Delegate",
+        "abbreviation": "Del.",
+        "regex_pattern": "\\bDel\\.",
+        "validation_regex": "^Del\\.$",
+        "example_usage": "Del. Martinez",
+        "gpt_prompt": "Verify Delegate abbreviation is 'Del.' with period",
+        "common_errors": ["Delegate (not abbreviated)"],
+        "notes": "Legislative delegates (e.g., DC, MD, VA)"
+      },
+      {
+        "full_form": "Honorable",
+        "abbreviation": "Hon.",
+        "regex_pattern": "\\bHon\\.",
+        "validation_regex": "^Hon\\.$",
+        "example_usage": "Hon. Sandra Day O'Connor",
+        "gpt_prompt": "Check Honorable uses 'Hon.' abbreviation",
+        "common_errors": ["Honorable (not abbreviated)", "Hn. (too short)"],
+        "notes": "Used before names as courtesy title"
+      },
+      {
+        "full_form": "Judge / Justice",
+        "abbreviation": "J.",
+        "regex_pattern": "\\bJ\\.",
+        "validation_regex": "^J\\.$",
+        "example_usage": "Ginsburg, J.",
+        "gpt_prompt": "Ensure Judge/Justice uses simple 'J.' abbreviation",
+        "common_errors": ["Judge (not abbreviated)", "Justice (not abbreviated)"],
+        "notes": "Used for both Judge and Justice; placed after name"
+      },
+      {
+        "full_form": "Judges / Justices (plural)",
+        "abbreviation": "JJ.",
+        "regex_pattern": "\\bJJ\\.",
+        "validation_regex": "^JJ\\.$",
+        "example_usage": "Sotomayor and Kagan, JJ.",
+        "gpt_prompt": "Verify plural Judges/Justices uses 'JJ.' (double J)",
+        "common_errors": ["J. (singular when plural needed)", "Js. (incorrect plural)"],
+        "notes": "Plural form uses double 'J'"
+      },
+      {
+        "full_form": "Lord Justice",
+        "abbreviation": "L.J.",
+        "regex_pattern": "\\bL\\.J\\.",
+        "validation_regex": "^L\\.J\\.$",
+        "example_usage": "L.J. Denning",
+        "gpt_prompt": "Check Lord Justice uses 'L.J.' abbreviation (UK)",
+        "common_errors": ["Lord Justice (not abbreviated)"],
+        "notes": "UK Court of Appeal judges"
+      },
+      {
+        "full_form": "Magistrate",
+        "abbreviation": "Mag.",
+        "regex_pattern": "\\bMag\\.",
+        "validation_regex": "^Mag\\.$",
+        "example_usage": "Mag. Thompson",
+        "gpt_prompt": "Ensure Magistrate uses 'Mag.' abbreviation",
+        "common_errors": ["Magistrate (not abbreviated)", "Magis. (too long)"]
+      },
+      {
+        "full_form": "Master of the Rolls",
+        "abbreviation": "M.R.",
+        "regex_pattern": "\\bM\\.R\\.",
+        "validation_regex": "^M\\.R\\.$",
+        "example_usage": "M.R. Smith",
+        "gpt_prompt": "Verify Master of the Rolls uses 'M.R.' abbreviation (UK)",
+        "common_errors": ["Master of the Rolls (not abbreviated)"],
+        "notes": "Presiding judge of UK Court of Appeal (Civil Division)"
+      },
+      {
+        "full_form": "Mediator",
+        "abbreviation": "Med.",
+        "regex_pattern": "\\bMed\\.",
+        "validation_regex": "^Med\\.$",
+        "example_usage": "Med. Anderson",
+        "gpt_prompt": "Check Mediator abbreviation is 'Med.' with period",
+        "common_errors": ["Mediator (not abbreviated)"]
+      },
+      {
+        "full_form": "Referee",
+        "abbreviation": "Ref.",
+        "regex_pattern": "\\bRef\\.",
+        "validation_regex": "^Ref\\.$",
+        "example_usage": "Ref. Wilson",
+        "gpt_prompt": "Ensure Referee uses 'Ref.' abbreviation",
+        "common_errors": ["Referee (not abbreviated)"]
+      },
+      {
+        "full_form": "Representative",
+        "abbreviation": "Rep.",
+        "regex_pattern": "\\bRep\\.",
+        "validation_regex": "^Rep\\.$",
+        "example_usage": "Rep. Ocasio-Cortez",
+        "gpt_prompt": "Verify Representative uses 'Rep.' abbreviation",
+        "common_errors": ["Representative (not abbreviated)", "R. (too short)"],
+        "notes": "U.S. House of Representatives members"
+      },
+      {
+        "full_form": "Senator",
+        "abbreviation": "Sen.",
+        "regex_pattern": "\\bSen\\.",
+        "validation_regex": "^Sen\\.$",
+        "example_usage": "Sen. Warren",
+        "gpt_prompt": "Check Senator abbreviation is 'Sen.' with period",
+        "common_errors": ["Senator (not abbreviated)", "S. (too short)"],
+        "notes": "U.S. and state senators"
+      },
+      {
+        "full_form": "Vice Chancellor",
+        "abbreviation": "V.C.",
+        "regex_pattern": "\\bV\\.C\\.",
+        "validation_regex": "^V\\.C\\.$",
+        "example_usage": "V.C. Davis",
+        "gpt_prompt": "Ensure Vice Chancellor uses 'V.C.' abbreviation",
+        "common_errors": ["Vice Chancellor (not abbreviated)", "V. C. (extra space)"],
+        "notes": "Equity court vice-chancellors"
+      }
+    ]
+  },
+
+  "T12_months": {
+    "description": "Abbreviations for months of the year",
+    "usage_context": "Dates in all citations, case names, and legal documents",
+    "total_entries": 12,
+    "special_note": "May, June, and July are never abbreviated",
+    "entries": [
+      {
+        "full_form": "January",
+        "abbreviation": "Jan.",
+        "regex_pattern": "\\bJan\\.",
+        "validation_regex": "^Jan\\.$",
+        "example_usage": "Jan. 15, 2024",
+        "gpt_prompt": "Verify January is abbreviated as 'Jan.' with period",
+        "common_errors": ["January (not abbreviated in citations)"]
+      },
+      {
+        "full_form": "February",
+        "abbreviation": "Feb.",
+        "regex_pattern": "\\bFeb\\.",
+        "validation_regex": "^Feb\\.$",
+        "example_usage": "Feb. 28, 2024",
+        "gpt_prompt": "Check February abbreviation is 'Feb.' with period",
+        "common_errors": ["February (not abbreviated)"]
+      },
+      {
+        "full_form": "March",
+        "abbreviation": "Mar.",
+        "regex_pattern": "\\bMar\\.",
+        "validation_regex": "^Mar\\.$",
+        "example_usage": "Mar. 1, 2024",
+        "gpt_prompt": "Ensure March is abbreviated as 'Mar.' with period",
+        "common_errors": ["March (not abbreviated)", "Mrch. (incorrect)"]
+      },
+      {
+        "full_form": "April",
+        "abbreviation": "Apr.",
+        "regex_pattern": "\\bApr\\.",
+        "validation_regex": "^Apr\\.$",
+        "example_usage": "Apr. 10, 2024",
+        "gpt_prompt": "Verify April abbreviation is 'Apr.' with period",
+        "common_errors": ["April (not abbreviated)", "Ap. (too short)"]
+      },
+      {
+        "full_form": "May",
+        "abbreviation": "May",
+        "regex_pattern": "\\bMay\\b",
+        "validation_regex": "^May$",
+        "example_usage": "May 5, 2024",
+        "gpt_prompt": "May is NEVER abbreviated in Bluebook citations",
+        "common_errors": ["May. (incorrectly abbreviated)"],
+        "notes": "Never abbreviated - too short"
+      },
+      {
+        "full_form": "June",
+        "abbreviation": "June",
+        "regex_pattern": "\\bJune\\b",
+        "validation_regex": "^June$",
+        "example_usage": "June 20, 2024",
+        "gpt_prompt": "June is NEVER abbreviated in Bluebook citations",
+        "common_errors": ["Jun. (incorrectly abbreviated)"],
+        "notes": "Never abbreviated - too short"
+      },
+      {
+        "full_form": "July",
+        "abbreviation": "July",
+        "regex_pattern": "\\bJuly\\b",
+        "validation_regex": "^July$",
+        "example_usage": "July 4, 2024",
+        "gpt_prompt": "July is NEVER abbreviated in Bluebook citations",
+        "common_errors": ["Jul. (incorrectly abbreviated)"],
+        "notes": "Never abbreviated - too short"
+      },
+      {
+        "full_form": "August",
+        "abbreviation": "Aug.",
+        "regex_pattern": "\\bAug\\.",
+        "validation_regex": "^Aug\\.$",
+        "example_usage": "Aug. 15, 2024",
+        "gpt_prompt": "Check August abbreviation is 'Aug.' with period",
+        "common_errors": ["August (not abbreviated)"]
+      },
+      {
+        "full_form": "September",
+        "abbreviation": "Sept.",
+        "regex_pattern": "\\bSept\\.",
+        "validation_regex": "^Sept\\.$",
+        "example_usage": "Sept. 1, 2024",
+        "gpt_prompt": "Ensure September is abbreviated as 'Sept.' (note: 4 letters plus period)",
+        "common_errors": ["Sep. (too short)", "September (not abbreviated)"],
+        "notes": "Four-letter abbreviation: 'Sept.'"
+      },
+      {
+        "full_form": "October",
+        "abbreviation": "Oct.",
+        "regex_pattern": "\\bOct\\.",
+        "validation_regex": "^Oct\\.$",
+        "example_usage": "Oct. 31, 2024",
+        "gpt_prompt": "Verify October abbreviation is 'Oct.' with period",
+        "common_errors": ["October (not abbreviated)"]
+      },
+      {
+        "full_form": "November",
+        "abbreviation": "Nov.",
+        "regex_pattern": "\\bNov\\.",
+        "validation_regex": "^Nov\\.$",
+        "example_usage": "Nov. 11, 2024",
+        "gpt_prompt": "Check November abbreviation is 'Nov.' with period",
+        "common_errors": ["November (not abbreviated)"]
+      },
+      {
+        "full_form": "December",
+        "abbreviation": "Dec.",
+        "regex_pattern": "\\bDec\\.",
+        "validation_regex": "^Dec\\.$",
+        "example_usage": "Dec. 25, 2024",
+        "gpt_prompt": "Ensure December is abbreviated as 'Dec.' with period",
+        "common_errors": ["December (not abbreviated)"]
+      }
+    ]
+  },
+
+  "T13_institutional_names": {
+    "description": "Abbreviations for institutional names in periodical titles",
+    "usage_context": "Law review and journal citations",
+    "total_entries": 36,
+    "note": "These abbreviations are used within periodical titles; see T14 for full periodical abbreviations",
+    "entries": [
+      {"full_form": "Adelaide", "abbreviation": "Adel.", "example": "Adel. L. Rev."},
+      {"full_form": "Air Force", "abbreviation": "A.F.", "example": "A.F. L. Rev."},
+      {"full_form": "Albany", "abbreviation": "Alb.", "example": "Alb. L. Rev."},
+      {"full_form": "American Bar Association", "abbreviation": "A.B.A.", "example": "A.B.A. J."},
+      {"full_form": "American Intellectual Property Law Association", "abbreviation": "AIPLA", "example": "AIPLA Q.J."},
+      {"full_form": "American Law Institute", "abbreviation": "A.L.I.", "example": "A.L.I. Principles"},
+      {"full_form": "[Journal of the] American Medical Association", "abbreviation": "[J]AMA", "example": "JAMA"},
+      {"full_form": "American Society of Composers, Authors & Publishers", "abbreviation": "ASCAP", "example": "ASCAP Copyright Law Symp."},
+      {"full_form": "American University", "abbreviation": "Am. U.", "example": "Am. U. L. Rev."},
+      {"full_form": "Boston College", "abbreviation": "B.C.", "example": "B.C. L. Rev."},
+      {"full_form": "Boston University", "abbreviation": "B.U.", "example": "B.U. L. Rev."},
+      {"full_form": "Brigham Young University", "abbreviation": "BYU", "example": "BYU L. Rev."},
+      {"full_form": "Brooklyn", "abbreviation": "Brook.", "example": "Brook. L. Rev."},
+      {"full_form": "Buffalo", "abbreviation": "Buff.", "example": "Buff. L. Rev."},
+      {"full_form": "California (when referring to California Law Review)", "abbreviation": "Calif.", "example": "Calif. L. Rev.", "notes": "Special case: 'Calif.' only for California Law Review; otherwise use 'Cal.'"},
+      {"full_form": "Capital", "abbreviation": "Cap.", "example": "Cap. U. L. Rev."},
+      {"full_form": "Chapman", "abbreviation": "Chap.", "example": "Chap. L. Rev."},
+      {"full_form": "Chartered Life Underwriters", "abbreviation": "C.L.U.", "example": "C.L.U. J."},
+      {"full_form": "Cincinnati", "abbreviation": "Cin.", "example": "Cin. L. Rev."},
+      {"full_form": "City University of New York", "abbreviation": "CUNY", "example": "CUNY L. Rev."},
+      {"full_form": "Cleveland", "abbreviation": "Clev.", "example": "Clev. St. L. Rev."},
+      {"full_form": "Columbia", "abbreviation": "Colum.", "example": "Colum. L. Rev."},
+      {"full_form": "Cumberland", "abbreviation": "Cumb.", "example": "Cumb. L. Rev."},
+      {"full_form": "Denver", "abbreviation": "Denv.", "example": "Denv. L. Rev."},
+      {"full_form": "Detroit", "abbreviation": "Det.", "example": "Det. C.L. Rev."},
+      {"full_form": "Dickinson", "abbreviation": "Dick.", "example": "Dick. L. Rev."},
+      {"full_form": "Duquesne", "abbreviation": "Duq.", "example": "Duq. L. Rev."},
+      {"full_form": "Eastern", "abbreviation": "E.", "example": "E. Eur. Const. Rev."},
+      {"full_form": "Florida International University", "abbreviation": "FIU", "example": "FIU L. Rev."},
+      {"full_form": "Foreign Broadcast Information Service", "abbreviation": "F.B.I.S.", "example": "F.B.I.S. Daily Rep."},
+      {"full_form": "George Mason", "abbreviation": "Geo. Mason", "example": "Geo. Mason L. Rev."},
+      {"full_form": "George Washington", "abbreviation": "Geo. Wash.", "example": "Geo. Wash. L. Rev."},
+      {"full_form": "Georgetown", "abbreviation": "Geo.", "example": "Geo. L.J."},
+      {"full_form": "Gonzaga", "abbreviation": "Gonz.", "example": "Gonz. L. Rev."},
+      {"full_form": "Harvard", "abbreviation": "Harv.", "example": "Harv. L. Rev."},
+      {"full_form": "Howard", "abbreviation": "How.", "example": "How. L.J."}
+    ],
+    "gpt_prompt": "Check institutional name abbreviations in periodical titles against T13; ensure consistency with established law review citation formats"
+  },
+
+  "T14_publishing_terms": {
+    "description": "Abbreviations for publishing and editorial terms",
+    "usage_context": "Book citations, publisher information, and editorial descriptions",
+    "total_entries": 28,
+    "entries": [
+      {
+        "full_form": "abridged/abridgment",
+        "abbreviation": "abr.",
+        "regex_pattern": "\\babr\\.",
+        "example_usage": "BLACK'S LAW DICTIONARY (abr. 5th ed. 1983)",
+        "gpt_prompt": "Check abridged/abridgment uses 'abr.' abbreviation"
+      },
+      {
+        "full_form": "annotated",
+        "abbreviation": "ann.",
+        "regex_pattern": "\\bann\\.",
+        "example_usage": "U.S.C.A. (United States Code Annotated)",
+        "gpt_prompt": "Verify annotated uses 'ann.' abbreviation",
+        "notes": "Common in statute citations"
+      },
+      {
+        "full_form": "anonymous",
+        "abbreviation": "anon.",
+        "regex_pattern": "\\banon\\.",
+        "example_usage": "Author: anon.",
+        "gpt_prompt": "Ensure anonymous uses 'anon.' abbreviation"
+      },
+      {
+        "full_form": "circa",
+        "abbreviation": "c.",
+        "regex_pattern": "\\bc\\.",
+        "example_usage": "c. 1850",
+        "gpt_prompt": "Check circa (approximately) uses 'c.' abbreviation",
+        "notes": "Used for approximate dates"
+      },
+      {
+        "full_form": "compiled/compilation",
+        "abbreviation": "comp.",
+        "regex_pattern": "\\bcomp\\.",
+        "example_usage": "John Doe comp.",
+        "gpt_prompt": "Verify compiled/compilation uses 'comp.' abbreviation"
+      },
+      {
+        "full_form": "copyright",
+        "abbreviation": "copy.",
+        "regex_pattern": "\\bcopy\\.",
+        "example_usage": "copy. 2024",
+        "gpt_prompt": "Ensure copyright uses 'copy.' abbreviation (though © symbol often preferred)"
+      },
+      {
+        "full_form": "draft",
+        "abbreviation": "drft.",
+        "regex_pattern": "\\bdrft\\.",
+        "example_usage": "drft. version",
+        "gpt_prompt": "Check draft uses 'drft.' abbreviation"
+      },
+      {
+        "full_form": "edition/editor",
+        "abbreviation": "ed.",
+        "regex_pattern": "\\bed\\.",
+        "example_usage": "3d ed. / Jane Smith ed.",
+        "gpt_prompt": "Verify edition/editor uses 'ed.' abbreviation",
+        "notes": "Context determines whether 'edition' or 'editor'"
+      },
+      {
+        "full_form": "manuscript",
+        "abbreviation": "ms.",
+        "regex_pattern": "\\bms\\.",
+        "example_usage": "available in ms.",
+        "gpt_prompt": "Ensure manuscript uses 'ms.' abbreviation"
+      },
+      {
+        "full_form": "mimeograph",
+        "abbreviation": "mimeo.",
+        "regex_pattern": "\\bmimeo\\.",
+        "example_usage": "mimeo. copy",
+        "gpt_prompt": "Check mimeograph uses 'mimeo.' abbreviation",
+        "notes": "Historical reproduction method"
+      },
+      {
+        "full_form": "new series",
+        "abbreviation": "n.s.",
+        "regex_pattern": "\\bn\\.s\\.",
+        "example_usage": "Vol. 10 n.s.",
+        "gpt_prompt": "Verify new series uses 'n.s.' abbreviation",
+        "notes": "Used when periodical restarts numbering"
+      },
+      {
+        "full_form": "no date",
+        "abbreviation": "n.d.",
+        "regex_pattern": "\\bn\\.d\\.",
+        "example_usage": "(n.d.)",
+        "gpt_prompt": "Ensure no date uses 'n.d.' abbreviation",
+        "notes": "When publication date unknown"
+      },
+      {
+        "full_form": "no place",
+        "abbreviation": "n.p.",
+        "regex_pattern": "\\bn\\.p\\.",
+        "example_usage": "(n.p.)",
+        "gpt_prompt": "Check no place uses 'n.p.' abbreviation",
+        "notes": "When place of publication unknown"
+      },
+      {
+        "full_form": "no publisher",
+        "abbreviation": "n. pub.",
+        "regex_pattern": "\\bn\\.\\s*pub\\.",
+        "example_usage": "(n. pub.)",
+        "gpt_prompt": "Verify no publisher uses 'n. pub.' abbreviation",
+        "notes": "When publisher unknown"
+      },
+      {
+        "full_form": "offprint",
+        "abbreviation": "offprt.",
+        "regex_pattern": "\\boffprt\\.",
+        "example_usage": "available as offprt.",
+        "gpt_prompt": "Ensure offprint uses 'offprt.' abbreviation"
+      },
+      {
+        "full_form": "old series",
+        "abbreviation": "o.s.",
+        "regex_pattern": "\\bo\\.s\\.",
+        "example_usage": "Vol. 50 o.s.",
+        "gpt_prompt": "Check old series uses 'o.s.' abbreviation",
+        "notes": "Original numbering before new series"
+      },
+      {
+        "full_form": "permanent",
+        "abbreviation": "perm.",
+        "regex_pattern": "\\bperm\\.",
+        "example_usage": "perm. ed.",
+        "gpt_prompt": "Verify permanent uses 'perm.' abbreviation"
+      },
+      {
+        "full_form": "photoduplicated reprint",
+        "abbreviation": "photo. reprt.",
+        "regex_pattern": "\\bphoto\\.\\s*reprt\\.",
+        "example_usage": "photo. reprt. 1990",
+        "gpt_prompt": "Ensure photoduplicated reprint uses 'photo. reprt.' abbreviation"
+      },
+      {
+        "full_form": "printing",
+        "abbreviation": "prtg.",
+        "regex_pattern": "\\bprtg\\.",
+        "example_usage": "2d prtg.",
+        "gpt_prompt": "Check printing uses 'prtg.' abbreviation"
+      },
+      {
+        "full_form": "replacement",
+        "abbreviation": "repl.",
+        "regex_pattern": "\\brepl\\.",
+        "example_usage": "repl. vol.",
+        "gpt_prompt": "Verify replacement uses 'repl.' abbreviation"
+      },
+      {
+        "full_form": "reprint",
+        "abbreviation": "reprt.",
+        "regex_pattern": "\\breprt\\.",
+        "example_usage": "reprt. 2000",
+        "gpt_prompt": "Ensure reprint uses 'reprt.' abbreviation"
+      },
+      {
+        "full_form": "revised/revision",
+        "abbreviation": "rev.",
+        "regex_pattern": "\\brev\\.",
+        "example_usage": "rev. ed.",
+        "gpt_prompt": "Check revised/revision uses 'rev.' abbreviation",
+        "notes": "Common in edition descriptions"
+      },
+      {
+        "full_form": "special",
+        "abbreviation": "spec.",
+        "regex_pattern": "\\bspec\\.",
+        "example_usage": "spec. ed.",
+        "gpt_prompt": "Verify special uses 'spec.' abbreviation"
+      },
+      {
+        "full_form": "temporary",
+        "abbreviation": "temp.",
+        "regex_pattern": "\\btemp\\.",
+        "example_usage": "temp. ed.",
+        "gpt_prompt": "Ensure temporary uses 'temp.' abbreviation"
+      },
+      {
+        "full_form": "tentative",
+        "abbreviation": "tent.",
+        "regex_pattern": "\\btent\\.",
+        "example_usage": "tent. draft",
+        "gpt_prompt": "Check tentative uses 'tent.' abbreviation"
+      },
+      {
+        "full_form": "translation/translator",
+        "abbreviation": "trans.",
+        "regex_pattern": "\\btrans\\.",
+        "example_usage": "Jane Doe trans.",
+        "gpt_prompt": "Verify translation/translator uses 'trans.' abbreviation"
+      },
+      {
+        "full_form": "unabridged",
+        "abbreviation": "unabr.",
+        "regex_pattern": "\\bunabr\\.",
+        "example_usage": "unabr. ed.",
+        "gpt_prompt": "Ensure unabridged uses 'unabr.' abbreviation"
+      },
+      {
+        "full_form": "volume",
+        "abbreviation": "vol.",
+        "regex_pattern": "\\bvol\\.",
+        "example_usage": "vol. 5",
+        "gpt_prompt": "Check volume uses 'vol.' abbreviation",
+        "notes": "Also in T16; used for multi-volume works"
+      }
+    ]
+  },
+
+  "T15_services": {
+    "description": "Abbreviations for looseleaf and bound legal services",
+    "usage_context": "Citations to commercial legal reporters and services",
+    "total_entries": 53,
+    "categories": [
+      {
+        "name": "Common Service Publisher Abbreviations",
+        "entries": [
+          {"publisher": "Bloomberg Law", "abbreviation": "BL"},
+          {"publisher": "Commerce Clearing House", "abbreviation": "CCH"},
+          {"publisher": "Matthew Bender", "abbreviation": "MB"},
+          {"publisher": "Research Institute of America", "abbreviation": "RIA"}
+        ]
+      },
+      {
+        "name": "Selected Services",
+        "note": "Format: Service Name, Abbreviation, (Publisher)",
+        "entries": [
+          {
+            "service": "Administrative Law Third Series",
+            "abbreviation": "Admin. L.3d",
+            "publisher": "BL",
+            "full_citation_format": "Admin. L.3d (BL)"
+          },
+          {
+            "service": "Affirmative Action Compliance Manual for Federal Contractors",
+            "abbreviation": "Aff. Action Compl. Man.",
+            "publisher": "BL",
+            "full_citation_format": "Aff. Action Compl. Man. (BL)"
+          },
+          {
+            "service": "AIDS Law & Litigation Reporter",
+            "abbreviation": "AIDS L. & Litig. Rep.",
+            "publisher": "Univ. Pub. Group",
+            "full_citation_format": "AIDS L. & Litig. Rep. (Univ. Pub. Group)"
+          },
+          {
+            "service": "All States Tax Guide",
+            "abbreviation": "All St. Tax Guide",
+            "publisher": "RIA",
+            "full_citation_format": "All St. Tax Guide (RIA)"
+          },
+          {
+            "service": "American Federal Tax Reports, Second Series",
+            "abbreviation": "A.F.T.R.2d",
+            "publisher": "RIA",
+            "full_citation_format": "A.F.T.R.2d (RIA)"
+          },
+          {
+            "service": "American Stock Exchange Guide",
+            "abbreviation": "Am. Stock Ex. Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Am. Stock Ex. Guide (CCH)"
+          },
+          {
+            "service": "Antitrust & Trade Regulation Report",
+            "abbreviation": "Antitrust & Trade Reg. Rep.",
+            "publisher": "BL",
+            "full_citation_format": "Antitrust & Trade Reg. Rep. (BL)"
+          },
+          {
+            "service": "Aviation Law Reporter",
+            "abbreviation": "Av. L. Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "Av. L. Rep. (CCH)"
+          },
+          {
+            "service": "Aviation Cases (bound)",
+            "abbreviation": "Av. Cas.",
+            "publisher": "CCH",
+            "full_citation_format": "Av. Cas. (CCH)"
+          },
+          {
+            "service": "BL's Banking Report",
+            "abbreviation": "Banking Rep.",
+            "publisher": "BL",
+            "full_citation_format": "Banking Rep. (BL)"
+          },
+          {
+            "service": "Bankruptcy Court Decisions",
+            "abbreviation": "Bankr. Ct. Dec.",
+            "publisher": "LRP",
+            "full_citation_format": "Bankr. Ct. Dec. (LRP)"
+          },
+          {
+            "service": "Bankruptcy Law Reports",
+            "abbreviation": "Bankr. L. Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "Bankr. L. Rep. (CCH)"
+          },
+          {
+            "service": "Benefits Review Board Service",
+            "abbreviation": "Ben. Rev. Bd. Serv.",
+            "publisher": "MB",
+            "full_citation_format": "Ben. Rev. Bd. Serv. (MB)"
+          },
+          {
+            "service": "BioLaw",
+            "abbreviation": "BioLaw",
+            "publisher": "LexisNexis",
+            "full_citation_format": "BioLaw (LexisNexis)"
+          },
+          {
+            "service": "Blue Sky Law Reporter",
+            "abbreviation": "Blue Sky L. Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "Blue Sky L. Rep. (CCH)"
+          },
+          {
+            "service": "Board of Contract Appeals Decisions",
+            "abbreviation": "B.C.A.",
+            "publisher": "CCH",
+            "full_citation_format": "B.C.A. (CCH)"
+          },
+          {
+            "service": "Business Franchise Guide",
+            "abbreviation": "Bus. Franchise Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Bus. Franchise Guide (CCH)"
+          },
+          {
+            "service": "Canadian Commercial Law Guide",
+            "abbreviation": "Can. Com. L. Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Can. Com. L. Guide (CCH)"
+          },
+          {
+            "service": "Canadian Tax Reporter",
+            "abbreviation": "Can. Tax Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "Can. Tax Rep. (CCH)"
+          },
+          {
+            "service": "Chemical Regulation Reporter",
+            "abbreviation": "Chem. Reg. Rep.",
+            "publisher": "BL",
+            "full_citation_format": "Chem. Reg. Rep. (BL)"
+          },
+          {
+            "service": "Chicago Board Options Exchange Guide",
+            "abbreviation": "Chicago Bd. Options Ex. Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Chicago Bd. Options Ex. Guide (CCH)"
+          },
+          {
+            "service": "Collective Bargaining Negotiations & Contracts",
+            "abbreviation": "Collective Bargaining Negot. & Cont.",
+            "publisher": "BL",
+            "full_citation_format": "Collective Bargaining Negot. & Cont. (BL)"
+          },
+          {
+            "service": "Collier Bankruptcy Cases, Second Series",
+            "abbreviation": "Collier Bankr. Cas. 2d",
+            "publisher": "MB",
+            "full_citation_format": "Collier Bankr. Cas. 2d (MB)"
+          },
+          {
+            "service": "Commodity Futures Law Reporter",
+            "abbreviation": "Comm. Fut. L. Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "Comm. Fut. L. Rep. (CCH)"
+          },
+          {
+            "service": "Communications Regulation",
+            "abbreviation": "Commc'ns Reg.",
+            "publisher": "BL",
+            "full_citation_format": "Commc'ns Reg. (BL)"
+          },
+          {
+            "service": "Congressional Index",
+            "abbreviation": "Cong. Index",
+            "publisher": "CCH",
+            "full_citation_format": "Cong. Index (CCH)"
+          },
+          {
+            "service": "Consumer Credit Guide",
+            "abbreviation": "Consumer Cred. Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Consumer Cred. Guide (CCH)"
+          },
+          {
+            "service": "Consumer Product Safety Guide",
+            "abbreviation": "Consumer Prod. Safety Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Consumer Prod. Safety Guide (CCH)"
+          },
+          {
+            "service": "Contract Appeals Decisions",
+            "abbreviation": "Cont. App. Dec.",
+            "publisher": "CCH",
+            "full_citation_format": "Cont. App. Dec. (CCH)"
+          },
+          {
+            "service": "Copyright Law Decisions",
+            "abbreviation": "Copyright L. Dec.",
+            "publisher": "CCH",
+            "full_citation_format": "Copyright L. Dec. (CCH)"
+          },
+          {
+            "service": "Copyright Law Reporter",
+            "abbreviation": "Copyright L. Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "Copyright L. Rep. (CCH)"
+          },
+          {
+            "service": "Cost Accounting Standards Guide",
+            "abbreviation": "Cost Accounting Stand. Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Cost Accounting Stand. Guide (CCH)"
+          },
+          {
+            "service": "Criminal Law Reporter",
+            "abbreviation": "Crim. L. Rep.",
+            "publisher": "BL",
+            "full_citation_format": "Crim. L. Rep. (BL)"
+          },
+          {
+            "service": "Daily Labor Report",
+            "abbreviation": "Daily Lab. Rep.",
+            "publisher": "BL",
+            "full_citation_format": "Daily Lab. Rep. (BL)"
+          },
+          {
+            "service": "Dominion Tax Cases",
+            "abbreviation": "Dominion Tax Cas.",
+            "publisher": "CCH",
+            "full_citation_format": "Dominion Tax Cas. (CCH)"
+          },
+          {
+            "service": "EEOC Compliance Manual (BL)",
+            "abbreviation": "EEOC Compl. Man.",
+            "publisher": "BL",
+            "full_citation_format": "EEOC Compl. Man. (BL)"
+          },
+          {
+            "service": "EEOC Compliance Manual (CCH)",
+            "abbreviation": "EEOC Compl. Man.",
+            "publisher": "CCH",
+            "full_citation_format": "EEOC Compl. Man. (CCH)"
+          },
+          {
+            "service": "Employee Benefits Cases",
+            "abbreviation": "Empl. Benefits Cas.",
+            "publisher": "BL",
+            "full_citation_format": "Empl. Benefits Cas. (BL)"
+          },
+          {
+            "service": "Employee Benefits Compliance Coordinator",
+            "abbreviation": "Empl. Coordinator",
+            "publisher": "RIA",
+            "full_citation_format": "Empl. Coordinator (RIA)"
+          },
+          {
+            "service": "Employment Safety & Health Guide",
+            "abbreviation": "Empl. Safety & Health Guide",
+            "publisher": "CCH",
+            "full_citation_format": "Empl. Safety & Health Guide (CCH)"
+          },
+          {
+            "service": "U.S. Tax Reporter",
+            "abbreviation": "U.S. Tax Rep.",
+            "publisher": "RIA",
+            "full_citation_format": "U.S. Tax Rep. (RIA)"
+          },
+          {
+            "service": "U.S. Tax Treaties Reporter",
+            "abbreviation": "U.S. Tax Treaties Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "U.S. Tax Treaties Rep. (CCH)"
+          },
+          {
+            "service": "Utilities Law Reports",
+            "abbreviation": "Util. L. Rep.",
+            "publisher": "CCH",
+            "full_citation_format": "Util. L. Rep. (CCH)"
+          }
+        ]
+      }
+    ],
+    "gpt_prompt": "Check looseleaf service citations against T15; ensure proper abbreviation and publisher designation in parentheses"
+  },
+
+  "T16_subdivisions": {
+    "description": "Abbreviations for document parts and subdivisions",
+    "usage_context": "Internal cross-references and pinpoint citations",
+    "total_entries": 25,
+    "special_rules": {
+      "spacing": "No space between abbreviation and number/letter for: fig., n., hist. n., tbl.",
+      "section_symbol": "Use § for section(s); use §§ for plural",
+      "examples": {
+        "with_space": "art. 5, ch. 10, para. 3",
+        "no_space": "fig.4, n.12, tbl.A"
+      }
+    },
+    "entries": [
+      {
+        "full_form": "amendment(s)",
+        "abbreviation": "amend.",
+        "regex_pattern": "\\bamend\\.\\s*\\d+",
+        "example_usage": "amend. XIV",
+        "gpt_prompt": "Check amendment(s) uses 'amend.' abbreviation with space before number",
+        "spacing": "space"
+      },
+      {
+        "full_form": "article(s)",
+        "abbreviation": "art.",
+        "regex_pattern": "\\bart\\.\\s*\\d+",
+        "example_usage": "art. II",
+        "gpt_prompt": "Verify article(s) uses 'art.' abbreviation with space before number",
+        "spacing": "space",
+        "notes": "Common in constitutions and codes"
+      },
+      {
+        "full_form": "book(s)",
+        "abbreviation": "bk.",
+        "regex_pattern": "\\bbk\\.\\s*\\d+",
+        "example_usage": "bk. 3",
+        "gpt_prompt": "Ensure book(s) uses 'bk.' abbreviation with space before number",
+        "spacing": "space"
+      },
+      {
+        "full_form": "chapter(s)",
+        "abbreviation": "ch.",
+        "regex_pattern": "\\bch\\.\\s*\\d+",
+        "example_usage": "ch. 10",
+        "gpt_prompt": "Check chapter(s) uses 'ch.' abbreviation with space before number",
+        "spacing": "space",
+        "notes": "Common in statutes and books"
+      },
+      {
+        "full_form": "clause(s)",
+        "abbreviation": "cl.",
+        "regex_pattern": "\\bcl\\.\\s*\\d+",
+        "example_usage": "cl. 2",
+        "gpt_prompt": "Verify clause(s) uses 'cl.' abbreviation with space before number",
+        "spacing": "space"
+      },
+      {
+        "full_form": "column(s)",
+        "abbreviation": "col.",
+        "regex_pattern": "\\bcol\\.\\s*\\d+",
+        "example_usage": "col. 3",
+        "gpt_prompt": "Ensure column(s) uses 'col.' abbreviation with space before number",
+        "spacing": "space"
+      },
+      {
+        "full_form": "division(s)",
+        "abbreviation": "div.",
+        "regex_pattern": "\\bdiv\\.\\s*\\d+",
+        "example_usage": "div. A",
+        "gpt_prompt": "Check division(s) uses 'div.' abbreviation with space before number",
+        "spacing": "space"
+      },
+      {
+        "full_form": "figure(s)",
+        "abbreviation": "fig.",
+        "regex_pattern": "\\bfig\\.\\d+",
+        "example_usage": "fig.4",
+        "gpt_prompt": "Verify figure(s) uses 'fig.' abbreviation with NO space before number",
+        "spacing": "no space",
+        "notes": "SPECIAL: No space between 'fig.' and number"
+      },
+      {
+        "full_form": "footnote(s)",
+        "abbreviation": "n.",
+        "regex_pattern": "\\bn\\.\\d+",
+        "example_usage": "n.12",
+        "gpt_prompt": "Ensure footnote(s) uses 'n.' abbreviation with NO space before number",
+        "spacing": "no space",
+        "notes": "SPECIAL: No space between 'n.' and number"
+      },
+      {
+        "full_form": "historical note(s)",
+        "abbreviation": "hist. n.",
+        "regex_pattern": "\\bhist\\.\\s*n\\.\\d+",
+        "example_usage": "hist. n.5",
+        "gpt_prompt": "Check historical note(s) uses 'hist. n.' with NO space before number",
+        "spacing": "no space",
+        "notes": "SPECIAL: No space between 'hist. n.' and number"
+      },
+      {
+        "full_form": "line(s)",
+        "abbreviation": "l.",
+        "regex_pattern": "\\bl\\.\\s*\\d+",
+        "example_usage": "l. 45",
+        "gpt_prompt": "Verify line(s) uses 'l.' abbreviation with space before number",
+        "spacing": "space"
+      },
+      {
+        "full_form": "number(s)",
+        "abbreviation": "no.",
+        "regex_pattern": "\\bno\\.\\s*\\d+",
+        "example_usage": "No. 21-1234",
+        "gpt_prompt": "Ensure number(s) uses 'no.' abbreviation (often capitalized as 'No.')",
+        "spacing": "space",
+        "notes": "Often capitalized in case numbers"
+      },
+      {
+        "full_form": "paragraph(s)",
+        "abbreviation": "para.",
+        "regex_pattern": "\\bpara\\.\\s*\\d+",
+        "example_usage": "para. 5",
+        "gpt_prompt": "Check paragraph(s) uses 'para.' abbreviation with space before number",
+        "spacing": "space",
+        "notes": "Also see '¶' symbol as alternative"
+      },
+      {
+        "full_form": "part(s)",
+        "abbreviation": "pt.",
+        "regex_pattern": "\\bpt\\.\\s*\\d+",
+        "example_usage": "pt. II",
+        "gpt_prompt": "Verify part(s) uses 'pt.' abbreviation with space before number",
+        "spacing": "space"
+      },
+      {
+        "full_form": "section(s)",
+        "abbreviation": "§ (plural: §§)",
+        "regex_pattern": "§§?\\s*\\d+",
+        "example_usage": "§ 1983, §§ 101-105",
+        "gpt_prompt": "Ensure section(s) uses § symbol (single) or §§ (plural); NEVER 'sec.'",
+        "spacing": "space",
+        "notes": "CRITICAL: Always use § symbol, never abbreviate as 'sec.'; double §§ for plural"
+      },
+      {
+        "full_form": "series",
+        "abbreviation": "ser.",
+        "regex_pattern": "\\bser\\.\\s*\\d+",
+        "example_usage": "ser. 2",
+        "gpt_prompt": "Check series uses 'ser.' abbreviation",
+        "spacing": "space"
+      },
+      {
+        "full_form": "subchapter(s)",
+        "abbreviation": "subch.",
+        "regex_pattern": "\\bsubch\\.\\s*\\d+",
+        "example_usage": "subch. A",
+        "gpt_prompt": "Verify subchapter(s) uses 'subch.' abbreviation",
+        "spacing": "space"
+      },
+      {
+        "full_form": "subclause(s)",
+        "abbreviation": "subcl.",
+        "regex_pattern": "\\bsubcl\\.\\s*\\d+",
+        "example_usage": "subcl. (ii)",
+        "gpt_prompt": "Ensure subclause(s) uses 'subcl.' abbreviation",
+        "spacing": "space"
+      },
+      {
+        "full_form": "subdivision(s)",
+        "abbreviation": "subdiv.",
+        "regex_pattern": "\\bsubdiv\\.\\s*\\d+",
+        "example_usage": "subdiv. (a)",
+        "gpt_prompt": "Check subdivision(s) uses 'subdiv.' abbreviation",
+        "spacing": "space"
+      },
+      {
+        "full_form": "subparagraph(s)",
+        "abbreviation": "subpara.",
+        "regex_pattern": "\\bsubpara\\.\\s*\\d+",
+        "example_usage": "subpara. (B)",
+        "gpt_prompt": "Verify subparagraph(s) uses 'subpara.' abbreviation",
+        "spacing": "space"
+      },
+      {
+        "full_form": "subsection(s)",
+        "abbreviation": "subsec.",
+        "regex_pattern": "\\bsubsec\\.\\s*\\([a-z]\\)",
+        "example_usage": "subsec. (b)",
+        "gpt_prompt": "Ensure subsection(s) uses 'subsec.' abbreviation",
+        "spacing": "space",
+        "notes": "Common in statute citations"
+      },
+      {
+        "full_form": "subtitle(s)",
+        "abbreviation": "subt.",
+        "regex_pattern": "\\bsubt\\.\\s*[A-Z]",
+        "example_usage": "subt. D",
+        "gpt_prompt": "Check subtitle(s) uses 'subt.' abbreviation",
+        "spacing": "space"
+      },
+      {
+        "full_form": "table(s)",
+        "abbreviation": "tbl.",
+        "regex_pattern": "\\btbl\\.\\d+",
+        "example_usage": "tbl.2",
+        "gpt_prompt": "Verify table(s) uses 'tbl.' abbreviation with NO space before number",
+        "spacing": "no space",
+        "notes": "SPECIAL: No space between 'tbl.' and number"
+      },
+      {
+        "full_form": "title(s)",
+        "abbreviation": "tit.",
+        "regex_pattern": "\\btit\\.\\s*\\d+",
+        "example_usage": "tit. 42",
+        "gpt_prompt": "Ensure title(s) uses 'tit.' abbreviation with space before number",
+        "spacing": "space",
+        "notes": "Common in U.S. Code and state code citations"
+      },
+      {
+        "full_form": "volume(s)",
+        "abbreviation": "vol.",
+        "regex_pattern": "\\bvol\\.\\s*\\d+",
+        "example_usage": "vol. 5",
+        "gpt_prompt": "Check volume(s) uses 'vol.' abbreviation with space before number",
+        "spacing": "space",
+        "notes": "Also in T14; used for multi-volume works"
+      }
+    ]
+  },
+
+  "usage_guidelines": {
+    "general_principles": [
+      "Always use periods after abbreviations unless specifically noted",
+      "Maintain consistent spacing as specified in tables",
+      "Context determines meaning for multi-use abbreviations (e.g., 'ed.' for edition vs. editor)",
+      "Never use postal codes (e.g., 'CA', 'NY') in legal citations",
+      "Some terms are never abbreviated (Alaska, Hawaii, Idaho, Iowa, Ohio, Utah, May, June, July)"
+    ],
+    "citation_checking_workflow": [
+      "1. Identify the type of citation element (legislative doc, geographic term, etc.)",
+      "2. Locate the appropriate table (T9-T16)",
+      "3. Verify exact abbreviation including punctuation and spacing",
+      "4. Check for context-specific rules (e.g., 'Calif.' only for California Law Review)",
+      "5. Validate against regex patterns for proper formatting"
+    ],
+    "common_errors_to_avoid": [
+      "Using postal codes instead of Bluebook abbreviations",
+      "Abbreviating terms that should not be abbreviated",
+      "Incorrect spacing (especially fig., n., hist. n., tbl.)",
+      "Missing periods in multi-letter abbreviations",
+      "Using 'sec.' instead of § symbol",
+      "Confusing similar abbreviations (e.g., 'H.R.' vs 'H.R. Res.')"
+    ]
+  }
+}

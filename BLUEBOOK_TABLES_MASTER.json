@@ -1,0 +1,1956 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2025-08-18T02:25:50.309Z",
+  "source": "Bluebook 21st Edition - All Tables T1-T16",
+  "description": {
+    "T1": "U.S. Jurisdictions",
+    "T2": "Foreign Jurisdictions",
+    "T3": "Abbreviations for Canadian Provinces and Territories",
+    "T4": "Abbreviations for Australian States and Territories",
+    "T5": "Abbreviations for United Kingdom and Other English-Speaking Jurisdictions",
+    "T6": "Abbreviations for Case Names and Institutional Author Names",
+    "T7": "Abbreviations for Institutional Author Names",
+    "T8": "Abbreviations for Publishing Terms",
+    "T9": "Abbreviations for Commonly Used Words in Case Names",
+    "T10": "Geographical and Jurisdictional Abbreviations",
+    "T11": "Abbreviations for Periodicals and Journals",
+    "T12": "Court Abbreviations",
+    "T13": "Abbreviations for Law Journals and Periodicals",
+    "T14": "Abbreviations for Legal Periodicals (Non-Law Review Periodicals)",
+    "T15": "Abbreviations for Treaty and International Agreement Sources",
+    "T16": "Abbreviations for Subdivisions"
+  },
+  "tables": {
+    "T1": {
+      "Federal Judicial and Legislative Materials": {
+        "Supreme Court (U.S.)": {
+          "preferred_reporters": [
+            "U.S."
+          ],
+          "other_reporters": [
+            "S. Ct.",
+            "L. Ed.",
+            "U.S.L.W."
+          ]
+        },
+        "Circuit Justices (in chambers)": {
+          "preferred_reporters": [
+            "U.S."
+          ],
+          "other_reporters": [
+            "S. Ct.",
+            "Rapp",
+            "L. Ed.",
+            "U.S.L.W."
+          ]
+        },
+        "Courts of Appeals (U.S. Circuits)": {
+          "reporters": [
+            "F.",
+            "F.2d",
+            "F.3d"
+          ],
+          "additional": [
+            "F. App'x"
+          ]
+        },
+        "District Courts": {
+          "reporters": [
+            "F. Supp.",
+            "F. Supp. 2d",
+            "F. Supp. 3d",
+            "F.R.D.",
+            "B.R."
+          ],
+          "older_reporters": [
+            "Fed. Cas. (pre-1880)",
+            "F. (1890s)"
+          ]
+        },
+        "United States Court of Appeals for the Federal Circuit": {
+          "reporters": [
+            "F.",
+            "F.2d",
+            "F.3d"
+          ],
+          "official_reporters": [
+            "Ct. Cl.",
+            "C.C.P.A.",
+            "Ct. Cust."
+          ]
+        },
+        "United States Court of Federal Claims": {
+          "reporters": [
+            "Fed. Cl."
+          ],
+          "former_reporters": [
+            "Cl. Ct.",
+            "Ct. Cl.",
+            "F. Supp.",
+            "F.2d"
+          ]
+        },
+        "United States Court of International Trade": {
+          "official_reporter": "Ct. Int'l Trade",
+          "alternative_reporters": [
+            "F. Supp.",
+            "F. Supp. 2d",
+            "F. Supp. 3d",
+            "Cust. B. & Dec.",
+            "I.T.R.D. (BNA)"
+          ]
+        },
+        "Legislative Materials": {
+          "United States Code": "U.S.C.",
+          "Statutes at Large": "Stat.",
+          "United States Code Annotated": "U.S.C.A.",
+          "United States Code Service": "U.S.C.S.",
+          "Session Laws (Congressional)": "Pub. L. No."
+        }
+      },
+      "Federal Administrative and Executive Materials": {
+        "Code of Federal Regulations": "C.F.R.",
+        "Federal Register": "Fed. Reg.",
+        "Executive Orders and Proclamations": "3 C.F.R. <year>",
+        "Reorganization Plan": "reprinted in 5 U.S.C. app.",
+        "Public Papers of the Presidents": "Pub. Papers",
+        "Weekly Compilation of Presidential Documents": "Weekly Comp. Pres. Doc.",
+        "Daily Compilation of Presidential Documents": "Daily Comp. Pres. Doc.",
+        "U.S.C.C.A.N.": "U.S.C.C.A.N."
+      },
+      "States": {
+        "Alabama": {
+          "Supreme Court": [
+            "So.",
+            "So. 2d",
+            "So. 3d",
+            "Ala."
+          ],
+          "Court of Appeals": [
+            "Ala. App."
+          ],
+          "Statutory Compilation": "Ala. Code",
+          "Session Laws": "Ala. Acts",
+          "Administrative Code": "Ala. Admin. Code",
+          "Administrative Register": "Ala. Admin. Bull."
+        },
+        "Alaska": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Alaska"
+          ],
+          "Statutory Compilation": "Alaska Stat.",
+          "Session Laws": "Alaska Sess. Laws",
+          "Administrative Code": "Alaska Admin. Code",
+          "Administrative Register": "Alaska Admin. Reg."
+        },
+        "Arizona": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Ariz."
+          ],
+          "Court of Appeals": [
+            "Ariz. App."
+          ],
+          "Statutory Compilation": "Ariz. Rev. Stat. Ann.",
+          "Session Laws": "Ariz. Sess. Laws",
+          "Administrative Code": "Ariz. Admin. Code",
+          "Administrative Register": "Ariz. Admin. Reg."
+        },
+        "Arkansas": {
+          "Supreme Court": [
+            "S.W.",
+            "S.W.2d",
+            "S.W.3d",
+            "Ark."
+          ],
+          "Court of Appeals": [
+            "Ark. App."
+          ],
+          "Statutory Compilation": "Ark. Code Ann.",
+          "Session Laws": "Ark. Acts",
+          "Administrative Code": "Ark. Admin. Code",
+          "Administrative Register": "Ark. Admin. Bull."
+        },
+        "California": {
+          "Supreme Court": [
+            "P.",
+            "P.2d",
+            "P.3d",
+            "Cal."
+          ],
+          "Court of Appeal": [
+            "Cal. App.",
+            "Cal. App. 2d",
+            "Cal. App. 3d",
+            "Cal. App. 4th"
+          ],
+          "Statutory Compilation": "Cal. Codes (various) or Cal. Stat.",
+          "Session Laws": "Cal. Stat.",
+          "Administrative Code": "Cal. Code Regs. (C.C.R.)",
+          "Administrative Register": "Cal. Reg. Notice"
+        },
+        "Colorado": {
+          "Supreme Court": [
+            "P.",
+            "P.2d",
+            "P.3d",
+            "Colo."
+          ],
+          "Court of Appeals": [
+            "Colo. App."
+          ],
+          "Statutory Compilation": "Colo. Rev. Stat.",
+          "Session Laws": "Colo. Sess. Laws",
+          "Administrative Code": "Colo. Code Regs.",
+          "Administrative Register": "Colo. Reg."
+        },
+        "Connecticut": {
+          "Supreme Court": [
+            "A.",
+            "A.2d",
+            "A.3d",
+            "Conn."
+          ],
+          "Appellate Court": [
+            "A.2d",
+            "A.3d",
+            "Conn. App."
+          ],
+          "Statutory Compilation": "Conn. Gen. Stat.",
+          "Session Laws": "Conn. Pub. Acts",
+          "Administrative Code": "Conn. Agencies Regs.",
+          "Administrative Register": "Conn. Law Journal"
+        },
+        "Delaware": {
+          "Supreme Court": [
+            "A.2d",
+            "A.3d",
+            "Del."
+          ],
+          "Statutory Compilation": "Del. Code Ann.",
+          "Session Laws": "Del. Laws",
+          "Administrative Code": "Del. Admin. Code"
+        },
+        "District of Columbia": {
+          "Court of Appeals": [
+            "A.2d",
+            "A.3d",
+            "D.C."
+          ],
+          "Statutory Compilation": "D.C. Code",
+          "Session Laws": "D.C. Stat.",
+          "Administrative Code": "D.C. Mun. Reg."
+        },
+        "Florida": {
+          "Supreme Court": [
+            "So.",
+            "So. 2d",
+            "So. 3d",
+            "Fla."
+          ],
+          "District Courts of Appeal": [
+            "So. 2d",
+            "So. 3d",
+            "Fla. Dist. Ct. App."
+          ],
+          "Statutory Compilation": "Fla. Stat.",
+          "Session Laws": "Fla. Laws (Session)",
+          "Administrative Code": "Fla. Admin. Code",
+          "Administrative Register": "Fla. Admin. Reg."
+        },
+        "Georgia": {
+          "Supreme Court": [
+            "S.E.",
+            "S.E.2d",
+            "Ga."
+          ],
+          "Court of Appeals": [
+            "S.E.2d",
+            "Ga. App."
+          ],
+          "Statutory Compilation": "O.C.G.A. (Ga. Code Ann.)",
+          "Session Laws": "Ga. Laws",
+          "Administrative Code": "Ga. Comp. R. & Regs."
+        },
+        "Hawaii": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Haw."
+          ],
+          "Intermediate Court": [
+            "P.3d",
+            "Haw. App."
+          ],
+          "Statutory Compilation": "Haw. Rev. Stat.",
+          "Session Laws": "Haw. Sess. Laws",
+          "Administrative Rules": "Haw. Code R."
+        },
+        "Idaho": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Idaho"
+          ],
+          "Statutory Compilation": "Idaho Code",
+          "Session Laws": "Idaho Sess. Laws",
+          "Administrative Code": "Idaho Admin. Code",
+          "Administrative Bulletin": "Idaho Admin. Bull."
+        },
+        "Illinois": {
+          "Supreme Court": [
+            "N.E.",
+            "N.E.2d",
+            "Ill."
+          ],
+          "Appellate Court": [
+            "N.E.2d",
+            "Ill. App. (Ill. App. Ct.)"
+          ],
+          "Statutory Compilation": "Ill. Comp. Stat.",
+          "Session Laws": "Ill. Laws",
+          "Administrative Code": "Ill. Admin. Code"
+        },
+        "Indiana": {
+          "Supreme Court": [
+            "N.E.",
+            "N.E.2d",
+            "Ind."
+          ],
+          "Court of Appeals": [
+            "N.E.2d",
+            "Ind. App."
+          ],
+          "Statutory Compilation": "Ind. Code",
+          "Session Laws": "Ind. Acts",
+          "Administrative Code": "Ind. Admin. Code"
+        },
+        "Iowa": {
+          "Supreme Court": [
+            "N.W.",
+            "N.W.2d",
+            "Iowa"
+          ],
+          "Statutory Compilation": "Iowa Code",
+          "Session Laws": "Iowa Acts",
+          "Administrative Code": "Iowa Admin. Code"
+        },
+        "Kansas": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Kan."
+          ],
+          "Court of Appeals": [
+            "P.3d",
+            "Kan. App."
+          ],
+          "Statutory Compilation": "Kan. Stat. Ann.",
+          "Session Laws": "Kan. Sess. Laws",
+          "Administrative Regulations": "Kan. Admin. Regs."
+        },
+        "Kentucky": {
+          "Supreme Court": [
+            "S.W.2d",
+            "S.W.3d",
+            "Ky."
+          ],
+          "Statutory Compilation": "Ky. Rev. Stat. Ann.",
+          "Session Laws": "Ky. Acts",
+          "Administrative Regulations": "Ky. Admin. Regs."
+        },
+        "Louisiana": {
+          "Supreme Court": [
+            "So.",
+            "So. 2d",
+            "So. 3d",
+            "La."
+          ],
+          "Courts of Appeal": [
+            "So. 2d",
+            "So. 3d",
+            "La. App."
+          ],
+          "Statutory Compilation": "La. Rev. Stat. Ann.",
+          "Session Laws": "La. Acts",
+          "Administrative Code": "La. Admin. Code"
+        },
+        "Maine": {
+          "Supreme Judicial Court": [
+            "A.",
+            "A.2d",
+            "A.3d",
+            "Me."
+          ],
+          "Statutory Compilation": "Me. Rev. Stat. Ann.",
+          "Session Laws": "Me. Laws",
+          "Administrative Code": "Code of Me. Rules"
+        },
+        "Maryland": {
+          "Court of Appeals": [
+            "A.",
+            "A.2d",
+            "A.3d",
+            "Md."
+          ],
+          "Court of Special Appeals": [
+            "Md. Ct. Spec. App."
+          ],
+          "Statutory Compilation": "Md. Code Ann.",
+          "Session Laws": "Md. Laws",
+          "Administrative Code": "Md. Regs. Code (COMAR)"
+        },
+        "Massachusetts": {
+          "Supreme Judicial Court": [
+            "N.E.",
+            "N.E.2d",
+            "Mass."
+          ],
+          "Appeals Court": [
+            "N.E.2d",
+            "Mass. App. Ct."
+          ],
+          "Statutory Compilation": "Mass. Gen. Laws",
+          "Session Laws": "Mass. Acts",
+          "Administrative Code": "Mass. Regs. Code (CMR)"
+        },
+        "Michigan": {
+          "Supreme Court": [
+            "N.W.",
+            "N.W.2d",
+            "Mich."
+          ],
+          "Court of Appeals": [
+            "N.W.2d",
+            "Mich. App."
+          ],
+          "Statutory Compilation": "Mich. Comp. Laws",
+          "Session Laws": "Mich. Pub. Acts",
+          "Administrative Code": "Mich. Admin. Code"
+        },
+        "Minnesota": {
+          "Supreme Court": [
+            "N.W.",
+            "N.W.2d",
+            "Minn."
+          ],
+          "Court of Appeals": [
+            "N.W.2d",
+            "Minn. Ct. App."
+          ],
+          "Statutory Compilation": "Minn. Stat.",
+          "Session Laws": "Minn. Laws",
+          "Administrative Rules": "Minn. R."
+        },
+        "Mississippi": {
+          "Supreme Court": [
+            "So.",
+            "So. 2d",
+            "So. 3d",
+            "Miss."
+          ],
+          "Statutory Compilation": "Miss. Code Ann.",
+          "Session Laws": "Miss. Laws",
+          "Administrative Code": "Miss. Admin. Code"
+        },
+        "Missouri": {
+          "Supreme Court": [
+            "S.W.",
+            "S.W.2d",
+            "S.W.3d",
+            "Mo."
+          ],
+          "Court of Appeals": [
+            "S.W.2d",
+            "S.W.3d",
+            "Mo. App."
+          ],
+          "Statutory Compilation": "Mo. Rev. Stat.",
+          "Session Laws": "Mo. Laws",
+          "Administrative Code": "Mo. Code Regs."
+        },
+        "Montana": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Mont."
+          ],
+          "Statutory Compilation": "Mont. Code Ann.",
+          "Session Laws": "Mont. Laws",
+          "Administrative Rules": "Mont. Admin. R."
+        },
+        "Nebraska": {
+          "Supreme Court": [
+            "N.W.",
+            "N.W.2d",
+            "Neb."
+          ],
+          "Court of Appeals": [
+            "N.W.2d",
+            "Neb. Ct. App."
+          ],
+          "Statutory Compilation": "Neb. Rev. Stat.",
+          "Session Laws": "Neb. Laws",
+          "Administrative Code": "Neb. Admin. Code"
+        },
+        "Nevada": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Nev."
+          ],
+          "Statutory Compilation": "Nev. Rev. Stat.",
+          "Session Laws": "Nev. Stat.",
+          "Administrative Code": "Nev. Admin. Code"
+        },
+        "New Hampshire": {
+          "Supreme Court": [
+            "A.",
+            "A.2d",
+            "A.3d",
+            "N.H."
+          ],
+          "Statutory Compilation": "N.H. Rev. Stat. Ann.",
+          "Session Laws": "N.H. Laws",
+          "Administrative Rules": "N.H. Code Admin. R."
+        },
+        "New Jersey": {
+          "Supreme Court": [
+            "A.2d",
+            "A.3d",
+            "N.J."
+          ],
+          "Appellate Division": [
+            "A.3d",
+            "N.J. Super."
+          ],
+          "Statutory Compilation": "N.J. Stat. Ann.",
+          "Session Laws": "N.J. Laws",
+          "Administrative Code": "N.J. Admin. Code"
+        },
+        "New Mexico": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "N.M."
+          ],
+          "Court of Appeals": [
+            "P.3d",
+            "N.M. Ct. App."
+          ],
+          "Statutory Compilation": "N.M. Stat. Ann.",
+          "Session Laws": "N.M. Laws",
+          "Administrative Code": "N.M. Admin. Code"
+        },
+        "New York": {
+          "Court of Appeals": [
+            "N.E.",
+            "N.E.2d",
+            "N.Y."
+          ],
+          "Appellate Division": [
+            "N.Y.S.",
+            "N.Y.S.2d",
+            "N.Y.S.3d",
+            "N.Y. App. Div."
+          ],
+          "Statutory Compilation": "N.Y. Consol. Laws",
+          "Session Laws": "N.Y. Laws",
+          "Administrative Code": "N.Y.C.R.R."
+        },
+        "North Carolina": {
+          "Supreme Court": [
+            "S.E.",
+            "S.E.2d",
+            "N.C."
+          ],
+          "Court of Appeals": [
+            "S.E.2d",
+            "N.C. App."
+          ],
+          "Statutory Compilation": "N.C. Gen. Stat.",
+          "Session Laws": "N.C. Sess. Laws",
+          "Administrative Code": "N.C. Admin. Code"
+        },
+        "North Dakota": {
+          "Supreme Court": [
+            "N.W.",
+            "N.W.2d",
+            "N.D."
+          ],
+          "Statutory Compilation": "N.D. Cent. Code",
+          "Session Laws": "N.D. Laws",
+          "Administrative Code": "N.D. Admin. Code"
+        },
+        "Ohio": {
+          "Supreme Court": [
+            "N.E.",
+            "N.E.2d",
+            "Ohio St.",
+            "Ohio St. 2d",
+            "Ohio St. 3d"
+          ],
+          "Court of Appeals": [
+            "N.E.2d",
+            "Ohio App."
+          ],
+          "Statutory Compilation": "Ohio Rev. Code Ann.",
+          "Session Laws": "Ohio Laws",
+          "Administrative Code": "Ohio Admin. Code"
+        },
+        "Oklahoma": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Okla."
+          ],
+          "Court of Civil Appeals": [
+            "P.3d",
+            "Okla. Civ. App."
+          ],
+          "Statutory Compilation": "Okla. Stat. Ann.",
+          "Session Laws": "Okla. Sess. Laws",
+          "Administrative Code": "Okla. Admin. Code"
+        },
+        "Oregon": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Or."
+          ],
+          "Court of Appeals": [
+            "P.3d",
+            "Or. App."
+          ],
+          "Statutory Compilation": "Or. Rev. Stat.",
+          "Session Laws": "Or. Laws",
+          "Administrative Rules": "Or. Admin. R."
+        },
+        "Pennsylvania": {
+          "Supreme Court": [
+            "A.2d",
+            "A.3d",
+            "Pa."
+          ],
+          "Superior Court / Commonwealth Ct.": [
+            "A.3d",
+            "Pa. Super.",
+            "Pa. Commw."
+          ],
+          "Statutory Compilation": "Pa. Cons. Stat.",
+          "Session Laws": "Pa. Laws",
+          "Administrative Code": "Pa. Code"
+        },
+        "Rhode Island": {
+          "Supreme Court": [
+            "A.",
+            "A.2d",
+            "A.3d",
+            "R.I."
+          ],
+          "Statutory Compilation": "R.I. Gen. Laws",
+          "Session Laws": "R.I. Pub. Laws",
+          "Administrative Code": "R.I. Code R."
+        },
+        "South Carolina": {
+          "Supreme Court": [
+            "S.E.",
+            "S.E.2d",
+            "S.C."
+          ],
+          "Statutory Compilation": "S.C. Code Ann.",
+          "Session Laws": "S.C. Acts & Joint Res.",
+          "Administrative Code": "S.C. Code Regs."
+        },
+        "South Dakota": {
+          "Supreme Court": [
+            "N.W.",
+            "N.W.2d",
+            "S.D."
+          ],
+          "Statutory Compilation": "S.D. Codified Laws",
+          "Session Laws": "S.D. Sess. Laws",
+          "Administrative Rules": "S.D. Admin. R."
+        },
+        "Tennessee": {
+          "Supreme Court": [
+            "S.W.",
+            "S.W.2d",
+            "S.W.3d",
+            "Tenn."
+          ],
+          "Statutory Compilation": "Tenn. Code Ann.",
+          "Session Laws": "Tenn. Pub. Acts",
+          "Administrative Code": "Tenn. Comp. R. & Regs."
+        },
+        "Texas": {
+          "Supreme Court": [
+            "S.W.",
+            "S.W.2d",
+            "S.W.3d",
+            "Tex."
+          ],
+          "Courts of Appeals": [
+            "S.W.2d",
+            "S.W.3d",
+            "Tex. App."
+          ],
+          "Statutory Compilation": "Tex. Code Ann.",
+          "Session Laws": "Tex. Gen. Laws",
+          "Administrative Code": "Tex. Admin. Code"
+        },
+        "Utah": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Utah"
+          ],
+          "Statutory Compilation": "Utah Code Ann.",
+          "Session Laws": "Utah Laws",
+          "Administrative Code": "Utah Admin. Code"
+        },
+        "Vermont": {
+          "Supreme Court": [
+            "A.2d",
+            "A.3d",
+            "Vt."
+          ],
+          "Statutory Compilation": "Vt. Stat. Ann.",
+          "Session Laws": "Vt. Acts & Resolves",
+          "Administrative Code": "Vt. Code R."
+        },
+        "Virginia": {
+          "Supreme Court": [
+            "S.E.",
+            "S.E.2d",
+            "Va."
+          ],
+          "Statutory Compilation": "Va. Code Ann.",
+          "Session Laws": "Va. Acts",
+          "Administrative Code": "Va. Admin. Code"
+        },
+        "Washington": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Wash."
+          ],
+          "Court of Appeals": [
+            "P.3d",
+            "Wash. App."
+          ],
+          "Statutory Compilation": "Wash. Rev. Code (RCW)",
+          "Session Laws": "Wash. Sess. Laws",
+          "Administrative Code": "Wash. Admin. Code (WAC)"
+        },
+        "West Virginia": {
+          "Supreme Court of Appeals": [
+            "S.E.",
+            "S.E.2d",
+            "W. Va."
+          ],
+          "Statutory Compilation": "W. Va. Code",
+          "Session Laws": "W. Va. Acts",
+          "Administrative Code": "W. Va. Code St. R."
+        },
+        "Wisconsin": {
+          "Supreme Court": [
+            "N.W.",
+            "N.W.2d",
+            "Wis."
+          ],
+          "Statutory Compilation": "Wis. Stat. Ann.",
+          "Session Laws": "Wis. Laws",
+          "Administrative Code": "Wis. Admin. Code"
+        },
+        "Wyoming": {
+          "Supreme Court": [
+            "P.2d",
+            "P.3d",
+            "Wyo."
+          ],
+          "Statutory Compilation": "Wyo. Stat. Ann.",
+          "Session Laws": "Wyo. Sess. Laws",
+          "Administrative Rules": "Wyo. Rules & Regs."
+        }
+      },
+      "Other U.S. Jurisdictions": {
+        "American Samoa": {
+          "Abbreviation": "Am. Samoa",
+          "Statutory Compilation": "Am. Samoa Code Ann."
+        },
+        "Canal Zone": {
+          "Abbreviation": "C.Z.",
+          "Statutory Compilation": "C.Z. Code"
+        },
+        "Guam": {
+          "Abbreviation": "Guam",
+          "Statutory Compilation": "Guam Code Ann."
+        },
+        "Navajo Nation": {
+          "Abbreviation": "Navajo Nation",
+          "Statutory Compilation": "Navajo Nation Code"
+        },
+        "Northern Mariana Islands": {
+          "Abbreviation": "N. Mar. I.",
+          "Statutory Compilation": "N. Mar. I. Code"
+        },
+        "Puerto Rico": {
+          "Abbreviation": "P.R.",
+          "Statutory Compilation": "P.R. Laws Ann."
+        },
+        "Virgin Islands": {
+          "Abbreviation": "V.I.",
+          "Statutory Compilation": "V.I. Code Ann."
+        }
+      }
+    },
+    "T2": {
+      "Foreign Jurisdictions": "Table T2 content is available online at the Bluebook website (jurisdiction-specific citation formats for non-U.S. jurisdictions):contentReference[oaicite:0]{index=0}"
+    },
+    "T3": {
+      "Intergovernmental Organizations": {
+        "T3.1 United Nations": {
+          "Documents": "U.N. Docs.",
+          "Principal Organs Records": {
+            "General Assembly": "GAOR",
+            "Security Council": "SCOR",
+            "Economic and Social Council": "ESCOR",
+            "Trusteeship Council": "TCOR"
+          },
+          "International Court of Justice (I.C.J.)": {
+            "Judgments/Opinions/Orders": "<year> I.C.J. <page>:contentReference[oaicite:1]{index=1}",
+            "Pleadings": "<year> I.C.J. Pleadings <page>:contentReference[oaicite:2]{index=2}",
+            "Acts & Documents": "<year> I.C.J. Acts & Docs. <page>"
+          },
+          "Treaties and International Agreements": {
+            "United Nations Treaty Series": "<volume> U.N.T.S. <page>:contentReference[oaicite:3]{index=3}"
+          }
+        },
+        "T3.2 League of Nations": {
+          "Permanent Court of International Justice (P.C.I.J.)": {
+            "Judgments/etc.": "<year> P.C.I.J. (ser. <X>) No. <x>:contentReference[oaicite:4]{index=4}"
+          },
+          "Treaties and International Agreements": {
+            "League of Nations Treaty Series": "<volume> L.N.T.S. <page> (<year>):contentReference[oaicite:5]{index=5}"
+          }
+        },
+        "T3.3 European Union": {
+          "Courts (C.J.E.U. & General Court)": {
+            "Reports of Cases (E.C.R.)": "<year> E.C.R. <page>:contentReference[oaicite:6]{index=6}",
+            "Common Market Law Reports": "<year> C.M.L.R. <page>:contentReference[oaicite:7]{index=7}",
+            "Common Market Reports (CCH)": "<year> Common Mkt. Rep. (CCH) <page>:contentReference[oaicite:8]{index=8}",
+            "European Community Cases (CEC)": "<year> CEC (CCH) <page>:contentReference[oaicite:9]{index=9}"
+          },
+          "Legislative Acts": {
+            "Official Journal (O.J.)": "<year> O.J. L <issue> <page>:contentReference[oaicite:10]{index=10}",
+            "Official Journal, Special Edition": "<year> O.J. Spec. Ed. <page>:contentReference[oaicite:11]{index=11}",
+            "Journal Officiel (pre-1967)": "<year> J.O. <issue> <page>:contentReference[oaicite:12]{index=12}"
+          },
+          "Parliamentary Documents": {
+            "European Parliamentary Debates": "EUR. PARL. DEB. (<debate no.>) <page>:contentReference[oaicite:13]{index=13}",
+            "European Parliament Documents (COM)": "EUR. PARL. Doc. (COM <doc no.>) <page>:contentReference[oaicite:14]{index=14}",
+            "Parlement Europ\u00e9en Documents (SEC)": "PARL. EUR. Doc. (SEC <doc no.>) <page>:contentReference[oaicite:15]{index=15}"
+          }
+        },
+        "T3.4 European Commission of Human Rights": {
+          "Decisions & Reports": "<volume> Eur. Comm'n H.R. Dec. & Rep. <page>:contentReference[oaicite:16]{index=16}",
+          "Yearbook ECHR": "Y.B. Eur. Conv. on H.R.",
+          "European Human Rights Reports": "<volume> Eur. H.R. Rep. <page>:contentReference[oaicite:17]{index=17}"
+        },
+        "T3.5 European Court of Human Rights": {
+          "Reports of Judgments and Decisions": "Eur. Ct. H.R. <vol> (<year>) <page>:contentReference[oaicite:18]{index=18}",
+          "Yearbook ECHR": "Y.B. Eur. Conv. on H.R."
+        },
+        "T3.6 Inter-American Commission on Human Rights": {
+          "Annual Reports": "Inter-Am. Comm'n H.R."
+        },
+        "T3.7 Inter-American Court of Human Rights": {
+          "Series A (Judgments/Opinions)": "Inter-Am. Ct. H.R. (ser. A) No. <xx>:contentReference[oaicite:19]{index=19}",
+          "Series B (Pleadings etc.)": "Inter-Am. Ct. H.R. (ser. B) No. <xx>, <page>:contentReference[oaicite:20]{index=20}",
+          "Series C (Decisions/Judgments)": "Inter-Am. Ct. H.R. (ser. C) No. <xx>:contentReference[oaicite:21]{index=21}",
+          "Series D (Pleadings etc. relative to C)": "Inter-Am. Ct. H.R. (ser. D) No. <xx>, <page>:contentReference[oaicite:22]{index=22}",
+          "Series E (Provisional Measures)": "Inter-Am. Ct. H.R. (ser. E) No. <xx>, <page>:contentReference[oaicite:23]{index=23}",
+          "Series F (Procedural Decisions)": "Inter-Am. Ct. H.R. (ser. F) No. <xx>, <page>:contentReference[oaicite:24]{index=24}",
+          "Annual Reports (Complete Opinions)": "<year> Rep. Inter-Am. Ct. H.R. <page>:contentReference[oaicite:25]{index=25}"
+        },
+        "T3.8 International Tribunal for the Law of the Sea": {
+          "Reports (ITLOS Rep.)": "<year> ITLOS Rep. <page>:contentReference[oaicite:26]{index=26}"
+        },
+        "T3.9 Other Intergovernmental Organizations": {
+          "Comprehensive Nuclear-Test-Ban Treaty Organization": "CTBTO",
+          "Food and Agriculture Organization": "FAO",
+          "Global Environment Facility": "GEF",
+          "Intergovernmental Panel on Climate Change": "IPCC",
+          "International Atomic Energy Agency": "IAEA",
+          "International Bank for Reconstruction and Development": "IBRD",
+          "International Centre for Settlement of Investment Disputes": "ICSID",
+          "International Civil Aviation Organization": "ICAO",
+          "International Criminal Police Organization": "INTERPOL",
+          "International Development Association": "IDA",
+          "International Finance Corporation": "IFC",
+          "... (and other intergovernmental organizations as needed)": "..."
+        }
+      }
+    },
+    "T4": {
+      "Treaty Sources": {
+        "T4.1 Official U.S. Sources": {
+          "United States Treaties and Other International Agreements": "U.S.T. <vol> <page>",
+          "Statutes at Large (treaties prior to 1950)": "Stat. <page>",
+          "Treaties and Other International Acts Series": "T.I.A.S. No. <x>",
+          "Treaty Series (1778\u20131945)": "T.S. No. <x>",
+          "Executive Agreement Series (1922\u20131945)": "E.A.S. No. <x>",
+          "Senate Treaty Documents (post-1981)": "S. Treaty Doc. No. <x>",
+          "Senate Executive Documents (pre-1981)": "S. Exec. Doc. No. <x>"
+        },
+        "T4.2 Intergovernmental Treaty Sources": {
+          "United Nations Treaty Series": "<volume> U.N.T.S. <page>:contentReference[oaicite:27]{index=27}",
+          "League of Nations Treaty Series": "<volume> L.N.T.S. <page>",
+          "Pan-American Treaty Series": "<volume> Pan-Am. T.S. <page>",
+          "European Treaty Series": "E.T.S. No. <x>",
+          "Organization of American States Treaty Series": "O.A.S.T.S. No. <x>",
+          "Council of Europe Treaty Series": "C.E.T.S. No. <x>"
+        },
+        "T4.3 Unofficial Treaty Sources": {
+          "U.S. Treaties on LEXIS": "Lexis <id>",
+          "International Legal Materials": "<volume> I.L.M. <page>",
+          "Parry\u2019s Consolidated Treaty Series": "<volume> Consol. T.S. <page>",
+          "Hein\u2019s U.S. Treaties and Other Int\u2019l Agreements (KAV files)": "Hein\u2019s No. KAV<xxxx>",
+          "Bevans (U.S. Treaties 1776\u20131949)": "<volume> Bevans <page>"
+        }
+      }
+    },
+    "T5": {
+      "Arbitral Reporters": {
+        "Arbitration Materials": "Arb. Mat'l",
+        "Hague Court Reports, First Series": "Hague Ct. Rep. (Scott)",
+        "Hague Court Reports, Second Series": "Hague Ct. Rep. 2d (Scott)",
+        "International Centre for Settlement of Investment Disputes Reports": "ICSID Rep.",
+        "International Centre for Settlement of Investment Disputes Review": "ICSID Rev.",
+        "International Chamber of Commerce Arbitration": "Int'l Comm. Arb.",
+        "International Tribunal for the Law of the Sea Reports": "ITLOS Rep.",
+        "Investment Treaty Arbitration (ITA), Investment Treaty Cases": "ITA Inv. Treaty Cases:contentReference[oaicite:28]{index=28}",
+        "Permanent Court of Arbitration Case Repository": "PCA Case Repository",
+        "United Nations Reports of International Arbitral Awards": "R.I.A.A.",
+        "World Arbitration Reporter": "World Arb. Rep. (issue no.)"
+      }
+    },
+    "T6": {
+      "Common Words in Case Names, Institutional Names, and Periodical Titles": {
+        "Academic": "Acad.",
+        "Academy": "Acad.",
+        "Accountant/Accounting/Accountancy": "Acct.",
+        "Administrator/Administrative": "Admin.",
+        "Admiral/Administrator (female)": "Adm'r, Adm'x",
+        "Advertising": "Advert.",
+        "Advocate/Advocacy": "Advoc.",
+        "Affair": "Aff.",
+        "Africa/African": "Afr.",
+        "Agriculture/Agricultural": "Agric.",
+        "Alliance": "All.",
+        "Alternative": "Alt.",
+        "Amendment": "Amend.",
+        "America/American": "Am.",
+        "Ancestry": "Anc.",
+        "and": "&",
+        "Annual": "Ann.",
+        "Appellate": "App.",
+        "Arbitration/Arbitrator": "Arb.",
+        "Artificial Intelligence": "A.I.",
+        "Associate": "Assoc.",
+        "Association": "Ass'n",
+        "Atlantic": "Atl.",
+        "Attorney": "Att'y",
+        "Authority": "Auth.",
+        "Automobile/Automotive": "Auto.",
+        "Avenue": "Ave.",
+        "Bankruptcy": "Bankr.",
+        "Behavior/Behavioral": "Behav.",
+        "Board": "Bd.",
+        "British": "Brit.",
+        "Broadcast(er/ing)": "Broad.",
+        "Building": "Bldg.",
+        "Bulletin": "Bull.",
+        "Business(es)": "Bus.",
+        "Capital": "Cap.",
+        "Casualty/Casualties": "Cas.",
+        "Catholic": "Cath.",
+        "Center/Centre": "Ctr.",
+        "Central": "Cent.",
+        "Chemical": "Chem.",
+        "Children/Child": "Child.",
+        "Chronicle": "Chron.",
+        "Circuit": "Cir.",
+        "Civil": "Civ.",
+        "Civil Liberties": "C.L.",
+        "Civil Rights": "C.R.",
+        "Coalition": "Coal.",
+        "College": "Coll.",
+        "Commentary/Comments": "Comment.",
+        "Commerce/Commercial": "Com.",
+        "Commission": "Comm'n",
+        "Commissioner": "Comm'r",
+        "Committee": "Comm.",
+        "Communication": "Commc'n",
+        "Community": "Cmty.",
+        "Company": "Co.",
+        "Comparative": "Compar.",
+        "Compensation": "Comp.",
+        "Computer": "Comput.",
+        "Condominium": "Condo.",
+        "Conference": "Conf.",
+        "Congress/Congressional": "Cong.",
+        "Consolidated": "Consol.",
+        "Constitution/Constitutional": "Const.",
+        "Construction": "Constr.",
+        "Contemporary": "Contemp.",
+        "Continental": "Cont'l",
+        "Contract": "Cont.",
+        "Conveyance/Conveyor": "Conv.",
+        "Cooperation/Cooperative": "Coop.",
+        "Corporation/Corporate": "Corp.",
+        "Correction(s)/Correctional": "Corr.",
+        "Cosmetic": "Cosm.",
+        "Counsel(or/s)": "Couns.",
+        "County": "Cnty.",
+        "Court": "Ct.",
+        "Criminal": "Crim.",
+        "Defendant/Defense": "Def.",
+        "Delinquent/Delinquency": "Delinq.",
+        "Department": "Dep't",
+        "Detention": "Det.",
+        "Developer/Development": "Dev.",
+        "Digest": "Dig.",
+        "Digital": "Digit.",
+        "Diplomacy": "Dipl.",
+        "Director": "Dir.",
+        "Discount": "Disc.",
+        "Dispute": "Disp.",
+        "Distributor/Distribution": "Distrib.",
+        "District": "Dist.",
+        "Division": "Div.",
+        "Doctor": "Dr.",
+        "Eastern": "E.",
+        "Economic/Economical/Economics/Economy": "Econ.",
+        "Editorial": "Ed.",
+        "Education/Educational": "Educ.",
+        "Electric/Electrical/Electricity/Electronic": "Elec.",
+        "Employee/Employer/Employment": "Emp.",
+        "Enforcement": "Enf't",
+        "Engineer": "Eng'r",
+        "Engineering": "Eng'g",
+        "English": "Eng.",
+        "Enterprise": "Enter.",
+        "Entertainment": "Ent.",
+        "Environment/Environmental": "Env't",
+        "Equality": "Equal.",
+        "Equipment": "Equip.",
+        "Estate": "Est.",
+        "Europe/European": "Eur.",
+        "Examiner": "Exam'r",
+        "Exchange": "Exch.",
+        "Executive": "Exec.",
+        "Executor/Executrix": "Ex'r, Ex'x",
+        "Exploration/Exploratory": "Expl.",
+        "Exporter/Exportation": "Exp.",
+        "Faculty": "Fac.",
+        "Family": "Fam.",
+        "Federal": "Fed.",
+        "Federation": "Fed'n",
+        "Fidelity": "Fid.",
+        "Finance/Financial/Financing": "Fin.",
+        "Fortnightly": "Fort.",
+        "Forum": "F.",
+        "Foundation": "Found.",
+        "General": "Gen.",
+        "Global": "Glob.",
+        "Government": "Gov't",
+        "Group": "Grp.",
+        "Guaranty/Guarantor": "Guar.",
+        "Hispanic": "Hisp.",
+        "Historical/History": "Hist.",
+        "Hospital/Hospitality": "Hosp.",
+        "Housing": "Hous.",
+        "Human": "Hum.",
+        "Humanity": "Human.",
+        "Immigration": "Immigr.",
+        "Import/Importer/Importation": "Imp.",
+        "Incorporated": "Inc.",
+        "Indemnity": "Indem.",
+        "Independence/Independent": "Indep.",
+        "Industry/Industrial/Industries": "Indus.",
+        "Inequality": "Ineq.",
+        "Information": "Info.",
+        "Injury": "Inj.",
+        "Institute/Institution": "Inst.",
+        "Insurance": "Ins.",
+        "Intellectual": "Intell.",
+        "Intelligence": "Intel.",
+        "Interdisciplinary": "Interdisc.",
+        "Interest": "Int.",
+        "International": "Int'l",
+        "Investment/Investor": "Inv.",
+        "Journal(s)": "J.",
+        "Judicial": "Jud.",
+        "Juridical": "Jurid.",
+        "Jurisprudence": "Juris.",
+        "Justice": "Just.",
+        "Juvenile": "Juv.",
+        "Labor": "Lab.",
+        "Laboratory": "Lab'y",
+        "Law(s)": "L.",
+        "Law (as first word of title)": "Law",
+        "Lawyer": "Law.",
+        "Legislation/Legislative": "Legis.",
+        "Liability": "Liab.",
+        "Library/Librarian": "Libr.",
+        "Limited": "Ltd.",
+        "Litigation": "Litig.",
+        "Local": "Loc.",
+        "Machine/Machinery": "Mach.",
+        "Magazine": "Mag.",
+        "Maintenance": "Maint.",
+        "Management": "Mgmt.",
+        "Manufacturer": "Mfr.",
+        "Manufacturing": "Mfg.",
+        "Maritime": "Mar.",
+        "Market": "Mkt.",
+        "Marketing": "Mktg.",
+        "Matrimonial": "Matrim.",
+        "Mechanical": "Mech.",
+        "Medical/Medicinal/Medicine": "Med.",
+        "Memorial": "Mem'l",
+        "Merchant/Merchandise/Merchandising": "Merch.",
+        "Metropolitan": "Metro.",
+        "Military": "Mil.",
+        "Mineral": "Min.",
+        "Modern": "Mod.",
+        "Mortgage": "Mortg.",
+        "Municipal/Municipality": "Mun.",
+        "Mutual": "Mut.",
+        "National": "Nat'l",
+        "Nationality": "Nat'y",
+        "Natural": "Nat.",
+        "Negligence": "Negl.",
+        "Negotiation/Negotiator": "Negot.",
+        "Newsletter": "Newsl.",
+        "North(ern)": "N.",
+        "Northeast(ern)": "Ne.",
+        "Northwest(ern)": "Nw.",
+        "Number": "No.",
+        "Office/Official": "Off.",
+        "Opinion": "Op.",
+        "Order": "Ord.",
+        "Organization/Organizing": "Org.",
+        "Pacific": "Pac.",
+        "Parish": "Par.",
+        "Partnership": "P'ship",
+        "Personal/Personnel": "Pers.",
+        "Perspective": "Persp.",
+        "Pharmaceutical": "Pharm.",
+        "Philosophical/Philosophy": "Phil.",
+        "Planning": "Plan.",
+        "Policy": "Pol'y",
+        "Political/Politics": "Pol.",
+        "Practical/Practice/Practitioner": "Prac.",
+        "Preserve/Preservation": "Pres.",
+        "Privacy/Private": "Priv.",
+        "Probate/Probation": "Prob.",
+        "Problems": "Probs.",
+        "Proceedings/Procedure": "Proc.",
+        "Production": "Prod.",
+        "Professional": "Pro.",
+        "Property": "Prop.",
+        "Protection": "Prot.",
+        "Psychological/Psychologist/Psychology": "Psych.",
+        "Public": "Pub.",
+        "Publication": "Publ'n",
+        "Publishing": "Publ'g",
+        "Quarterly": "Q.",
+        "Railroad": "R.R.",
+        "Railway": "Ry.",
+        "Record": "Rec.",
+        "Referee": "Ref.",
+        "Refining/Refinement": "Refin.",
+        "Regional": "Reg'l",
+        "Register": "Reg.",
+        "Regulation/Regulatory": "Regul.",
+        "Rehabilitation/Rehabilitative": "Rehab.",
+        "Relation": "Rel.",
+        "Report/Reporter": "Rep.",
+        "Reproduction/Reproductive": "Reprod.",
+        "Research": "Rsch.",
+        "Reservation/Reserve": "Rsrv.",
+        "Resolution": "Resol.",
+        "Resource(s)": "Res.",
+        "Responsibility": "Resp.",
+        "Restaurant": "Rest.",
+        "Retirement": "Ret.",
+        "Review/Revista": "Rev.",
+        "Rights": "Rts.",
+        "Science/Scientific": "Sci.",
+        "Scottish": "Scot.",
+        "Secretary": "Sec'y",
+        "Security/ Securities": "Sec.",
+        "Sentencing": "Sent'g",
+        "Service": "Serv.",
+        "Shareholder/Stockholder": "S'holder",
+        "Social": "Soc.",
+        "Society": "Soc'y",
+        "Sociological/Sociology": "Socio.",
+        "Solicitor": "Sol.",
+        "Solution": "Sol.",
+        "South(ern)": "S.",
+        "Southeast(ern)": "Se.",
+        "Southwest(ern)": "Sw.",
+        "Statistics/Statistical": "Stat.",
+        "Steamship(s)": "S.S.",
+        "Street": "St.",
+        "Studies": "Stud.",
+        "Subcommittee": "Subcomm.",
+        "Supreme Court": "Sup. Ct.",
+        "Surety": "Sur.",
+        "Survey": "Surv.",
+        "Symposium": "Symp.",
+        "System(s)": "Sys.",
+        "Taxation": "Tax'n",
+        "Teacher": "Tchr.",
+        "Technical/Technique/Technology": "Tech.",
+        "Telecommunication": "Telecomm.",
+        "Telephone/Telegraph": "Tel.",
+        "Temporary": "Temp.",
+        "Township": "Twp.",
+        "Transcontinental": "Transcon.",
+        "Transnational": "Transnat'l",
+        "Transport(ation)": "Transp.",
+        "Tribune": "Trib.",
+        "Trust(ee)": "Tr.",
+        "Turnpike": "Tpk.",
+        "Uniform": "Unif.",
+        "United States": "U.S.",
+        "University": "Univ.",
+        "Urban": "Urb.",
+        "Utility": "Util.",
+        "Village": "Vill.",
+        "Week": "Wk.",
+        "Weekly": "Wkly.",
+        "Western": "W.",
+        "Yearbook": "Y.B."
+      }
+    },
+    "T7": {
+      "Court Names": {
+        "Administrative Court": "Admin. Ct.",
+        "Admiralty Court/Division": "Adm.",
+        "Aldermen's Court": "Alder. Ct.",
+        "Appeals Court": "App. Ct.",
+        "Appellate Court": "App. Ct.",
+        "Appellate Department": "App. Dep't",
+        "Appellate Division": "App. Div.",
+        "Armed Services Board of Contract Appeals": "ASBCA",
+        "Bankruptcy Appellate Panel": "B.A.P.",
+        "Bankruptcy Court/Judge": "Bankr.",
+        "Board of Contract Appeals": "B.C.A.",
+        "Board of Immigration Appeals": "B.I.A.",
+        "Board of Patent Appeals and Interferences": "B.P.A.I.",
+        "Board of Tax Appeals": "B.T.A.",
+        "Borough Court": "<Name> Bor. Ct.",
+        "Central District": "C.D.",
+        "Chancery Court/Division": "Ch.",
+        "Children's Court": "Child. Ct.",
+        "Circuit Court (old federal)": "C.C.",
+        "Circuit Court (state)": "Cir. Ct.",
+        "Circuit Court of Appeals (federal)": "Cir.",
+        "Circuit Court of Appeals (state)": "Cir. Ct. App.",
+        "City Court": "<Name> City Ct.",
+        "Civil Appeals": "Civ. App.",
+        "Civil Court of Record": "Civ. Ct. Rec.",
+        "Civil District Court": "Civ. Dist. Ct.",
+        "Claims Court": "Cl. Ct.",
+        "Commerce Court": "Comm. Ct.",
+        "Commission": "Comm'n",
+        "Common Pleas": "C.P. (name county if needed)",
+        "Commonwealth Court": "Commw. Ct.",
+        "Conciliation Court": "Concil. Ct.",
+        "County Court": "<Name> Cnty. Ct.",
+        "County Judge's Court": "Cnty. J. Ct.",
+        "Court": "Ct.",
+        "Court of Appeal (England)": "C.A.",
+        "Court of Appeals (federal)": "Cir.",
+        "Court of Appeal(s) (state)": "Ct. App.",
+        "Court of Appeals for the Armed Forces": "C.A.A.F.",
+        "Court of Appeals for Veterans Claims": "Vet. App.",
+        "Court of Civil Appeals": "Civ. App.",
+        "Court of Claims": "Ct. Cl.",
+        "Court of Common Pleas": "Ct. Com. Pl.",
+        "Court of Criminal Appeals": "Crim. App.",
+        "Court of Customs and Patent Appeals": "C.C.P.A.",
+        "Court of Customs Appeals": "Ct. Cust. App.",
+        "Court of Errors": "Ct. Err.",
+        "Court of Errors and Appeals": "Ct. Err. & App.",
+        "Court of Federal Claims": "Fed. Cl.",
+        "Court of General/Special Sessions": "Ct. Gen. Sess. / Ct. Spec. Sess.",
+        "Court of International Trade": "Ct. Int'l Trade",
+        "Court of Military Appeals": "C.M.A.",
+        "Court of Military Review": "C.M.R.",
+        "Court of Special Appeals": "Ct. Spec. App.",
+        "Criminal Appeals": "Crim. App.",
+        "Criminal District Court": "Crim. Dist. Ct.",
+        "Customs Court": "Cust. Ct.",
+        "District Court (federal)": "D.",
+        "District Court (state)": "Dist. Ct.",
+        "District Court of Appeal(s)": "Dist. Ct. App.",
+        "Division": "Div.",
+        "Domestic Relations Court": "Dom. Rel. Ct.",
+        "Eastern District": "E.D.",
+        "Emergency Court of Appeals": "Emer. Ct. App.",
+        "Equity Court/Division": "Eq.",
+        "Family Court": "Fam. Ct.",
+        "High Court": "High Ct.",
+        "Judicial District": "Jud. Dist.",
+        "Judicial Division": "Jud. Div.",
+        "Judicial Panel on Multidistrict Litigation": "J.P.M.L.",
+        "Justice of the Peace's Court": "J.P. Ct.",
+        "Juvenile Court": "Juv. Ct.",
+        "Land Court": "Land Ct.",
+        "Law Court": "Law Ct.",
+        "Law Division": "Law Div.",
+        "Magistrate Division": "Magis. Div.",
+        "Magistrate's Court": "Magis. Ct.",
+        "Middle District": "M.D.",
+        "Municipal Court": "<Name> Mun. Ct.",
+        "Northern District": "N.D.",
+        "Orphans' Court": "Orphans' Ct.",
+        "Parish Court": "<Name> Parish Ct.",
+        "Police Justice's Court": "Police J. Ct.",
+        "Prerogative Court": "Prerog. Ct.",
+        "Probate Court": "Prob. Ct.",
+        "Public Utilities Commission": "P.U.C.",
+        "Real Estate Commission": "Real Est. Comm'n",
+        "Recorder's Court": "Rec'r's Ct.",
+        "Southern District": "S.D.",
+        "Special Court Regional Rail Reorganization Act": "Reg'l Rail Reorg. Ct.",
+        "Superior Court": "Super. Ct.",
+        "Supreme Court (federal)": "U.S.",
+        "Supreme Court (other jurisdictions)": "Sup. Ct.",
+        "Supreme Court, Appellate Division": "App. Div.",
+        "Supreme Court, Appellate Term": "App. Term",
+        "Supreme Court of Errors": "Sup. Ct. Err.",
+        "Supreme Judicial Court": "Sup. Jud. Ct.",
+        "Surrogate's Court": "Sur. Ct.",
+        "Tax Appeal Court": "Tax App. Ct.",
+        "Tax Court": "T.C.",
+        "Teen Court": "Teen Ct.",
+        "Temporary Emergency Court of Appeals": "Temp. Emer. Ct. App.",
+        "Territorial Court/Territory": "Terr.",
+        "Trademark Trial and Appeal Board": "T.T.A.B.",
+        "Traffic Court": "Traffic Ct.",
+        "Tribal Court": "<Name> Tribal Ct.",
+        "Tribunal": "Trib.",
+        "Water Court": "Water Ct.",
+        "Western District": "W.D.",
+        "Workmen's Compensation Division": "Workmen's Comp. Div.",
+        "Youth Court": "Youth Ct."
+      }
+    },
+    "T8": {
+      "Explanatory Phrases": {
+        "acquiesced": "acq.",
+        "acquiesced in result": "acq. in result",
+        "affirmed": "aff'd",
+        "affirmed by an equally divided court": "aff'd by an equally divided court",
+        "affirmed memorandum (without opinion)": "aff'd mem.",
+        "affirmed on other grounds": "aff'd on other grounds",
+        "affirmed on rehearing": "aff'd on reh'g",
+        "affirming": "aff'g",
+        "amended by": "amended by",
+        "appeal denied": "appeal denied",
+        "appeal dismissed": "appeal dismissed",
+        "appeal docketed": "appeal docketed",
+        "appeal filed": "appeal filed",
+        "argued": "argued",
+        "certiorari denied": "cert. denied",
+        "certiorari dismissed": "cert. dismissed",
+        "certiorari dismissed as improvidently granted": "cert. dismissed as improvidently granted",
+        "certiorari granted": "cert. granted",
+        "certifying questions to": "certifying questions to",
+        "denying certiorari to": "denying cert. to",
+        "dismissing appeal from": "dismissing appeal from",
+        "enforced": "enforced",
+        "enforcing": "enforcing",
+        "invalidated by": "invalidated by",
+        "mandamus denied": "mandamus denied",
+        "modified": "modified",
+        "modifying": "modifying",
+        "nonacquiescence": "nonacq.",
+        "overruled by": "overruled by",
+        "permission to appeal denied": "perm. app. denied",
+        "permission to appeal granted": "perm. app. granted",
+        "petition for certiorari filed": "petition for cert. filed",
+        "probable jurisdiction noted": "prob. juris. noted",
+        "rehearing granted [denied]": "reh'g granted [denied]",
+        "reversed": "rev'd",
+        "reversed on other grounds": "rev'd on other grounds",
+        "reversed per curiam": "rev'd per curiam",
+        "reversing": "rev'g",
+        "vacated": "vacated",
+        "vacating as moot": "vacating as moot",
+        "withdrawn": "withdrawn"
+      }
+    },
+    "T9": {
+      "Legislative Documents": {
+        "House Bill": "H.R.",
+        "House Resolution": "H.R. Res.",
+        "House Concurrent Resolution": "H.R. Con. Res.",
+        "House Joint Resolution": "H.R.J. Res.",
+        "House Report": "H.R. Rep. No.",
+        "House Document": "H.R. Doc. No.",
+        "House Miscellaneous Document": "H.R. Misc. Doc. No.",
+        "Senate Bill": "S.",
+        "Senate Resolution": "S. Res.",
+        "Senate Concurrent Resolution": "S. Con. Res.",
+        "Senate Joint Resolution": "S.J. Res.",
+        "Senate Executive Resolution": "S. Exec. Res.",
+        "Senate Report": "S. Rep. No.",
+        "Senate Document": "S. Doc. No.",
+        "Senate Executive Document": "S. Exec. Doc. No.",
+        "Senate Treaty Document": "S. Treaty Doc. No.",
+        "Committee Print": "Comm. Print",
+        "Congressional Record": "Cong. Rec.",
+        "Congressional Research Service": "Cong. Rsch. Serv."
+      }
+    },
+    "T10": {
+      "Geographical Terms": {
+        "T10.1 U.S. States": {
+          "Alabama": "Ala.",
+          "Alaska": "Alaska",
+          "Arizona": "Ariz.",
+          "Arkansas": "Ark.",
+          "California": "Cal.",
+          "Colorado": "Colo.",
+          "Connecticut": "Conn.",
+          "Delaware": "Del.",
+          "Florida": "Fla.",
+          "Georgia": "Ga.",
+          "Hawaii": "Haw.",
+          "Idaho": "Idaho",
+          "Illinois": "Ill.",
+          "Indiana": "Ind.",
+          "Iowa": "Iowa",
+          "Kansas": "Kan.",
+          "Kentucky": "Ky.",
+          "Louisiana": "La.",
+          "Maine": "Me.",
+          "Maryland": "Md.",
+          "Massachusetts": "Mass.",
+          "Michigan": "Mich.",
+          "Minnesota": "Minn.",
+          "Mississippi": "Miss.",
+          "Missouri": "Mo.",
+          "Montana": "Mont.",
+          "Nebraska": "Neb.",
+          "Nevada": "Nev.",
+          "New Hampshire": "N.H.",
+          "New Jersey": "N.J.",
+          "New Mexico": "N.M.",
+          "New York": "N.Y.",
+          "North Carolina": "N.C.",
+          "North Dakota": "N.D.",
+          "Ohio": "Ohio",
+          "Oklahoma": "Okla.",
+          "Oregon": "Or.",
+          "Pennsylvania": "Pa.",
+          "Rhode Island": "R.I.",
+          "South Carolina": "S.C.",
+          "South Dakota": "S.D.",
+          "Tennessee": "Tenn.",
+          "Texas": "Tex.",
+          "Utah": "Utah",
+          "Vermont": "Vt.",
+          "Virginia": "Va.",
+          "Washington": "Wash.",
+          "West Virginia": "W. Va.",
+          "Wisconsin": "Wis.",
+          "Wyoming": "Wyo."
+        },
+        "Cities (examples)": {
+          "Baltimore": "Balt.",
+          "Boston": "Bos.",
+          "Chicago": "Chi.",
+          "Dallas": "Dall.",
+          "District of Columbia": "D.C.",
+          "Houston": "Hous.",
+          "Los Angeles": "L.A.",
+          "Miami": "Mia.",
+          "New York (City)": "N.Y.C.",
+          "Philadelphia": "Phila.",
+          "Phoenix": "Phx.",
+          "San Francisco": "S.F.",
+          "(Compose others by state abbrev.)": "e.g., Okla. City"
+        },
+        "Territories": {
+          "American Samoa": "Am. Sam.",
+          "Guam": "Guam",
+          "Northern Mariana Islands": "N. Mar. I.",
+          "Puerto Rico": "P.R.",
+          "Virgin Islands": "V.I."
+        },
+        "T10.2 Australian States and Canadian Provinces": {
+          "Australia": {
+            "Australian Capital Territory": "Austl. Cap. Terr.",
+            "New South Wales": "N.S.W.",
+            "Northern Territory": "N. Terr.",
+            "Queensland": "Queensl.",
+            "South Australia": "S. Austl.",
+            "Tasmania": "Tas.",
+            "Victoria": "Vict.",
+            "Western Australia": "W. Austl."
+          },
+          "Canada": {
+            "Alberta": "Alta.",
+            "British Columbia": "B.C.",
+            "Manitoba": "Man.",
+            "New Brunswick": "N.B.",
+            "Newfoundland & Labrador": "Nfld.",
+            "Northwest Territories": "N.W.T.",
+            "Nova Scotia": "N.S.",
+            "Nunavut": "Nun.",
+            "Ontario": "Ont.",
+            "Prince Edward Island": "P.E.I.",
+            "Qu\u00e9bec": "Que.",
+            "Saskatchewan": "Sask.",
+            "Yukon": "Yukon"
+          }
+        },
+        "T10.3 Countries and Regions": {
+          "Afghanistan": "Afg.",
+          "Africa": "Afr.",
+          "Albania": "Alb.",
+          "Algeria": "Alg.",
+          "Andorra": "Andorra",
+          "Angola": "Ang.",
+          "Anguilla": "Anguilla",
+          "Antarctica": "Antarctica",
+          "Antigua & Barbuda": "Ant. & Barb.",
+          "Argentina": "Arg.",
+          "Armenia": "Arm.",
+          "Asia": "Asia",
+          "Australia": "Austl.",
+          "Austria": "Austria",
+          "Azerbaijan": "Azer.",
+          "Bahamas": "Bah.",
+          "Bahrain": "Bahr.",
+          "Bangladesh": "Bangl.",
+          "Barbados": "Barb.",
+          "Belarus": "Belr.",
+          "Belgium": "Belg.",
+          "Belize": "Belize",
+          "Benin": "Benin",
+          "Bermuda": "Berm.",
+          "Bhutan": "Bhutan",
+          "Bolivia": "Bol.",
+          "Bosnia & Herzegovina": "Bosn. & Herz.",
+          "Botswana": "Bots.",
+          "Brazil": "Braz.",
+          "Brunei": "Brunei",
+          "Bulgaria": "Bulg.",
+          "Burkina Faso": "Burk. Faso",
+          "Burundi": "Burundi",
+          "Cambodia": "Cambodia",
+          "Cameroon": "Cameroon",
+          "Canada": "Can.",
+          "Cape Verde": "Cape Verde",
+          "Cayman Islands": "Cayman Is.",
+          "Central African Republic": "Cent. Afr. Rep.",
+          "Chad": "Chad",
+          "Chile": "Chile",
+          "China, People's Republic of": "China",
+          "Colombia": "Colom.",
+          "Comoros": "Comoros",
+          "Congo, Democratic Republic of the": "Dem. Rep. Congo",
+          "Congo, Republic of the": "Congo",
+          "Costa Rica": "Costa Rica",
+          "C\u00f4te d'Ivoire": "C\u00f4te d'Ivoire",
+          "Croatia": "Croat.",
+          "Cuba": "Cuba",
+          "Cyprus": "Cyprus",
+          "Czech Republic": "Czech",
+          "Denmark": "Den.",
+          "Djibouti": "Djib.",
+          "Dominica": "Dominica",
+          "Dominican Republic": "Dom. Rep.",
+          "Ecuador": "Ecuador",
+          "Egypt": "Egypt",
+          "El Salvador": "El Sal.",
+          "England": "Eng.",
+          "Equatorial Guinea": "Eq. Guinea",
+          "Eritrea": "Eri.",
+          "Estonia": "Est.",
+          "Ethiopia": "Eth.",
+          "Europe": "Eur.",
+          "Falkland Islands": "Falkland Is.",
+          "Fiji": "Fiji",
+          "Finland": "Fin.",
+          "France": "Fr.",
+          "Gabon": "Gabon",
+          "Gambia": "Gam.",
+          "Georgia (country)": "Geor.",
+          "Germany": "Ger.",
+          "Ghana": "Ghana",
+          "Gibraltar": "Gib.",
+          "Great Britain": "Gr. Brit.",
+          "Greece": "Greece",
+          "Greenland": "Green.",
+          "Grenada": "Gren.",
+          "Guadeloupe": "Guad.",
+          "Guatemala": "Guat.",
+          "Guinea": "Guinea",
+          "Guinea-Bissau": "Guinea-Bissau",
+          "Guyana": "Guy.",
+          "Haiti": "Haiti",
+          "Honduras": "Hond.",
+          "Hong Kong": "H.K.",
+          "Hungary": "Hung.",
+          "Iceland": "Ice.",
+          "India": "India",
+          "Indonesia": "Indon.",
+          "Iran": "Iran",
+          "Iraq": "Iraq",
+          "Ireland": "Ir.",
+          "Israel": "Isr.",
+          "Italy": "It.",
+          "Jamaica": "Jam.",
+          "Japan": "Japan",
+          "Jordan": "Jordan",
+          "Kazakhstan": "Kaz.",
+          "Kenya": "Kenya",
+          "Kiribati": "Kiribati",
+          "Korea, North": "N. Kor.",
+          "Korea, South": "S. Kor.",
+          "Kosovo": "Kos.",
+          "Kuwait": "Kuwait",
+          "Kyrgyzstan": "Kyrg.",
+          "Laos": "Laos",
+          "Latvia": "Lat.",
+          "Lebanon": "Leb.",
+          "Lesotho": "Lesotho",
+          "Liberia": "Liberia",
+          "Libya": "Libya",
+          "Liechtenstein": "Liech.",
+          "Lithuania": "Lith.",
+          "Luxembourg": "Lux.",
+          "Macedonia": "Maced.",
+          "Madagascar": "Madag.",
+          "Malawi": "Malawi",
+          "Malaysia": "Malay.",
+          "Maldives": "Maldives",
+          "Mali": "Mali",
+          "Malta": "Malta",
+          "Marshall Islands": "Marshall Is.",
+          "Martinique": "Mart.",
+          "Mauritania": "Mauritania",
+          "Mauritius": "Mauritius",
+          "Mexico": "Mex.",
+          "Micronesia": "Micronesia",
+          "Moldova": "Mold.",
+          "Monaco": "Monaco",
+          "Mongolia": "Mong.",
+          "Montenegro": "Monten.",
+          "Montserrat": "Montserrat",
+          "Morocco": "Mor.",
+          "Mozambique": "Mozam.",
+          "Myanmar": "Myan.",
+          "Namibia": "Namib.",
+          "NATO": "NATO",
+          "Nauru": "Nauru",
+          "Nepal": "Nepal",
+          "Netherlands": "Neth.",
+          "New Zealand": "N.Z.",
+          "Nicaragua": "Nicar.",
+          "Niger": "Niger",
+          "Nigeria": "Niger.",
+          "Norway": "Nor.",
+          "Oman": "Oman",
+          "Pakistan": "Pak.",
+          "Palau": "Palau",
+          "Panama": "Pan.",
+          "Papua New Guinea": "Papua N.G.",
+          "Paraguay": "Para.",
+          "Peru": "Peru",
+          "Philippines": "Phil.",
+          "Pitcairn Island": "Pitcairn Is.",
+          "Poland": "Pol.",
+          "Portugal": "Port.",
+          "Qatar": "Qatar",
+          "R\u00e9union": "R\u00e9union",
+          "Romania": "Rom.",
+          "Russia": "Russ.",
+          "Rwanda": "Rwanda",
+          "Saint Helena": "St. Helena",
+          "Saint Kitts & Nevis": "St. Kitts & Nevis",
+          "Saint Lucia": "St. Lucia",
+          "Saint Vincent": "St. Vincent",
+          "Samoa": "Samoa",
+          "San Marino": "San Marino",
+          "S\u00e3o Tom\u00e9 and Pr\u00edncipe": "S\u00e3o Tom\u00e9 & Pr\u00edncipe",
+          "Saudi Arabia": "Saudi Arabia",
+          "Scotland": "Scot.",
+          "Senegal": "Sen.",
+          "Serbia": "Serb.",
+          "Seychelles": "Sey.",
+          "Sierra Leone": "Sierra Leone",
+          "Singapore": "Sing.",
+          "Slovakia": "Slovk.",
+          "Slovenia": "Slovn.",
+          "Solomon Islands": "Solom. Is.",
+          "Somalia": "Som.",
+          "South Africa": "S. Afr.",
+          "South America": "S. Am.",
+          "Spain": "Spain",
+          "Sri Lanka": "Sri Lanka",
+          "Sudan": "Sudan",
+          "Suriname": "Surin.",
+          "Swaziland": "Swaz.",
+          "Sweden": "Swed.",
+          "Switzerland": "Switz.",
+          "Syria": "Syria",
+          "Taiwan": "Taiwan",
+          "Tajikistan": "Taj.",
+          "Tanzania": "Tanz.",
+          "Thailand": "Thai.",
+          "Timor-Leste (East Timor)": "Timor-Leste",
+          "Togo": "Togo",
+          "Tonga": "Tonga",
+          "Trinidad & Tobago": "Trin. & Tobago",
+          "Tunisia": "Tunis.",
+          "Turkey": "Turk.",
+          "Turkmenistan": "Turkm.",
+          "Turks & Caicos Islands": "Turks & Caicos Is.",
+          "Tuvalu": "Tuvalu",
+          "Uganda": "Uganda",
+          "Ukraine": "Ukr.",
+          "United Arab Emirates": "U.A.E.",
+          "United Kingdom": "U.K.",
+          "United States of America": "U.S.",
+          "Uruguay": "Uru.",
+          "Uzbekistan": "Uzb.",
+          "Vanuatu": "Vanuatu",
+          "Vatican City": "Vatican",
+          "Venezuela": "Venez.",
+          "Vietnam": "Viet.",
+          "Virgin Islands, British": "Virgin Is.",
+          "Wales": "Wales",
+          "Yemen": "Yemen",
+          "Zambia": "Zam.",
+          "Zimbabwe": "Zim."
+        }
+      }
+    },
+    "T11": {
+      "Judges and Officials (Titles)": {
+        "Administrative Law Judge": "A.L.J.",
+        "Arbitrator": "Arb.",
+        "Assemblyman/Assemblywoman/Assemblymember": "Assemb.",
+        "Attorney General": "Att'y Gen.",
+        "Baron": "B.",
+        "Chancellor": "C.",
+        "Chief Baron": "C.B.",
+        "Chief Judge / Chief Justice": "C.J.",
+        "Commissioner": "Comm'r",
+        "Delegate": "Del.",
+        "Honorable": "Hon.",
+        "Judge / Justice": "J.",
+        "Judges / Justices (plural)": "JJ.",
+        "Lord Justice": "L.J.",
+        "Magistrate": "Mag.",
+        "Master of the Rolls": "M.R.",
+        "Mediator": "Med.",
+        "Referee": "Ref.",
+        "Representative": "Rep.",
+        "Senator": "Sen.",
+        "Vice Chancellor": "V.C."
+      }
+    },
+    "T12": {
+      "Months": {
+        "January": "Jan.",
+        "February": "Feb.",
+        "March": "Mar.",
+        "April": "Apr.",
+        "May": "May",
+        "June": "June",
+        "July": "July",
+        "August": "Aug.",
+        "September": "Sept.",
+        "October": "Oct.",
+        "November": "Nov.",
+        "December": "Dec."
+      }
+    },
+    "T13": {
+      "Institutional Names in Periodical Titles (Common Names and Abbreviations)": {
+        "Adelaide": "Adel.",
+        "Air Force": "A.F.",
+        "Albany": "Alb.",
+        "American Bar Association": "A.B.A.",
+        "American Intellectual Property Law Association": "AIPLA",
+        "American Law Institute": "A.L.I.",
+        "[Journal of the] American Medical Association": "[J]AMA",
+        "American Society of Composers, Authors & Publishers": "ASCAP",
+        "American University": "Am. U.",
+        "Boston College": "B.C.",
+        "Boston University": "B.U.",
+        "Brigham Young University": "BYU",
+        "Brooklyn": "Brook.",
+        "Buffalo": "Buff.",
+        "California (when referring to California Law Review)": "Calif.",
+        "Capital": "Cap.",
+        "Chapman": "Chap.",
+        "Chartered Life Underwriters": "C.L.U.",
+        "Cincinnati": "Cin.",
+        "City University of New York": "CUNY",
+        "Cleveland": "Clev.",
+        "Columbia": "Colum.",
+        "Cumberland": "Cumb.",
+        "Denver": "Denv.",
+        "Detroit": "Det.",
+        "Dickinson": "Dick.",
+        "Duquesne": "Duq.",
+        "Eastern": "E.",
+        "Florida International University": "FIU",
+        "Foreign Broadcast Information Service": "F.B.I.S.",
+        "George Mason": "Geo. Mason",
+        "George Washington": "Geo. Wash.",
+        "Georgetown": "Geo.",
+        "Gonzaga": "Gonz.",
+        "Harvard": "Harv.",
+        "Howard": "How."
+      }
+    },
+    "T14": {
+      "Publishing Terms": {
+        "abridged/abridgment": "abr.",
+        "annotated": "ann.",
+        "anonymous": "anon.",
+        "circa": "c.",
+        "compiled/compilation": "comp.",
+        "copyright": "copy.",
+        "draft": "drft.",
+        "edition/editor": "ed.",
+        "manuscript": "ms.",
+        "mimeograph": "mimeo.",
+        "new series": "n.s.",
+        "no date": "n.d.",
+        "no place": "n.p.",
+        "no publisher": "n. pub.",
+        "offprint": "offprt.",
+        "old series": "o.s.",
+        "permanent": "perm.",
+        "photoduplicated reprint": "photo. reprt.",
+        "printing": "prtg.",
+        "replacement": "repl.",
+        "reprint": "reprt.",
+        "revised/revision": "rev.",
+        "special": "spec.",
+        "temporary": "temp.",
+        "tentative": "tent.",
+        "translation/translator": "trans.",
+        "unabridged": "unabr.",
+        "volume": "vol."
+      }
+    },
+    "T15": {
+      "Services (Looseleaf & Bound Services)": {
+        "Common Service Publisher Abbreviations": {
+          "Bloomberg Law": "BL",
+          "Commerce Clearing House": "CCH",
+          "Matthew Bender": "MB",
+          "Research Institute of America": "RIA"
+        },
+        "Selected Services (with abbreviation, publisher, bound service)": {
+          "Administrative Law Third Series": "Admin. L.3d (BL)",
+          "Affirmative Action Compliance Manual for Federal Contractors": "Aff. Action Compl. Man. (BL)",
+          "AIDS Law & Litigation Reporter": "AIDS L. & Litig. Rep. (Univ. Pub. Group)",
+          "All States Tax Guide": "All St. Tax Guide (RIA)",
+          "American Federal Tax Reports, Second Series": "A.F.T.R.2d (RIA)",
+          "American Stock Exchange Guide": "Am. Stock Ex. Guide (CCH)",
+          "Antitrust & Trade Regulation Report": "Antitrust & Trade Reg. Rep. (BL)",
+          "Aviation Law Reporter": "Av. L. Rep. (CCH)",
+          "Aviation Cases (bound)": "Av. Cas. (CCH)",
+          "BL's Banking Report": "Banking Rep. (BL)",
+          "Bankruptcy Court Decisions": "Bankr. Ct. Dec. (LRP)",
+          "Bankruptcy Law Reports": "Bankr. L. Rep. (CCH)",
+          "Benefits Review Board Service": "Ben. Rev. Bd. Serv. (MB)",
+          "BioLaw": "BioLaw (LexisNexis)",
+          "Blue Sky Law Reporter": "Blue Sky L. Rep. (CCH)",
+          "Board of Contract Appeals Decisions": "B.C.A. (CCH)",
+          "Business Franchise Guide": "Bus. Franchise Guide (CCH)",
+          "Canadian Commercial Law Guide": "Can. Com. L. Guide (CCH)",
+          "Canadian Tax Reporter": "Can. Tax Rep. (CCH)",
+          "Chemical Regulation Reporter": "Chem. Reg. Rep. (BL)",
+          "Chicago Board Options Exchange Guide": "Chicago Bd. Options Ex. Guide (CCH)",
+          "Collective Bargaining Negotiations & Contracts": "Collective Bargaining Negot. & Cont. (BL)",
+          "Collier Bankruptcy Cases, Second Series": "Collier Bankr. Cas. 2d (MB)",
+          "Commodity Futures Law Reporter": "Comm. Fut. L. Rep. (CCH)",
+          "Communications Regulation": "Commc'ns Reg. (BL)",
+          "Congressional Index": "Cong. Index (CCH)",
+          "Consumer Credit Guide": "Consumer Cred. Guide (CCH)",
+          "Consumer Product Safety Guide": "Consumer Prod. Safety Guide (CCH)",
+          "Contract Appeals Decisions": "Cont. App. Dec. (CCH)",
+          "Contracts Cases, Federal (see Government Contracts Reporter)": "(covered in Gov. Contracts Rep.)",
+          "Copyright Law Decisions": "Copyright L. Dec. (CCH)",
+          "Copyright Law Reporter": "Copyright L. Rep. (CCH)",
+          "Cost Accounting Standards Guide": "Cost Accounting Stand. Guide (CCH)",
+          "Criminal Law Reporter": "Crim. L. Rep. (BL)",
+          "Daily Labor Report": "Daily Lab. Rep. (BL)",
+          "Dominion Tax Cases": "Dominion Tax Cas. (CCH)",
+          "EEOC Compliance Manual (BL)": "EEOC Compl. Man. (BL)",
+          "EEOC Compliance Manual (CCH)": "EEOC Compl. Man. (CCH)",
+          "Employee Benefits Cases": "Empl. Benefits Cas. (BL)",
+          "Employee Benefits Compliance Coordinator": "Empl. Coordinator (RIA)",
+          "Employment Safety & Health Guide": "Empl. Safety & Health Guide (CCH)",
+          "United States Tax Cases (bound in Fed. Estate & Gift / Std. Fed. Tax Rep.)": "U.S. Tax Cases \u2013 see other reporters",
+          "U.S. Tax Reporter": "U.S. Tax Rep. (RIA)",
+          "U.S. Tax Treaties Reporter": "U.S. Tax Treaties Rep. (CCH)",
+          "Utilities Law Reports": "Util. L. Rep. (CCH)"
+        }
+      }
+    },
+    "T16": {
+      "Subdivisions (Document Parts)": {
+        "amendment(s)": "amend.",
+        "article(s)": "art.",
+        "book(s)": "bk.",
+        "chapter(s)": "ch.",
+        "clause(s)": "cl.",
+        "column(s)": "col.",
+        "division(s)": "div.",
+        "figure(s)": "fig.",
+        "footnote(s)": "n.",
+        "historical note(s)": "hist. n.",
+        "line(s)": "l.",
+        "number(s)": "no.",
+        "paragraph(s)": "para.",
+        "part(s)": "pt.",
+        "section(s)": "\u00a7 (plural: \u00a7\u00a7)",
+        "series": "ser.",
+        "subchapter(s)": "subch.",
+        "subclause(s)": "subcl.",
+        "subdivision(s)": "subdiv.",
+        "subparagraph(s)": "subpara.",
+        "subsection(s)": "subsec.",
+        "subtitle(s)": "subt.",
+        "table(s)": "tbl.",
+        "title(s)": "tit.",
+        "volume(s)": "vol."
+      },
+      "Spacing Note": "No space between abbreviation and number/letter for 'fig.', 'n.', 'hist. n.', 'tbl.' (e.g., 'fig.4', 'n.4'):contentReference[oaicite:29]{index=29}"
+    }
+  }
+}

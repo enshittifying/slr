@@ -1,0 +1,803 @@
+{
+  "rule_id": "10",
+  "rule_title": "Cases",
+  "rule_text": "Citations to cases include the case name, reporter information, and date. Cases must be cited in a standardized format that includes all essential elements for identification and retrieval.",
+  "formatting_requirements": [
+    "Case names must be italicized in court documents or underlined/italicized in academic writing",
+    "Reporter volume abbreviations must follow Table T1",
+    "Court and jurisdiction abbreviations must follow applicable tables",
+    "Year must be in parentheses",
+    "Pinpoint pages must be included when referencing specific passages"
+  ],
+  "sub_rules": [
+    {
+      "rule_id": "10.1",
+      "rule_title": "Basic Citation Forms",
+      "rule_text": "A full case citation includes the case name (italicized in court documents or underlined/italicized in academic writing), the published reporter volume, reporter abbreviation, first page of the case, pinpoint page if needed, the court abbreviation (if not obvious from reporter), and the year in parentheses.",
+      "formatting_requirements": [
+        "Case name must be italicized",
+        "Reporter volume must precede reporter abbreviation",
+        "First page number required",
+        "Pinpoint page preceded by comma",
+        "Court abbreviation in parentheses with year",
+        "Year in parentheses is mandatory"
+      ],
+      "correct_regex_pattern": "^[A-Za-z0-9\\s,\\.&]+ v\\. [A-Za-z0-9\\s,\\.&]+,\\s*\\d+\\s+[A-Z][A-Z0-9\\.]*\\s+\\d+(?:,\\s*\\d+)?\\s*\\((?:[A-Z][A-Za-z\\.\\s]*\\s+)?\\d{4}\\)$",
+      "error_regex_patterns": [
+        {
+          "pattern": "^[A-Za-z0-9\\s,\\.&]+ v\\. [A-Za-z0-9\\s,\\.&]+,\\s*\\d+\\s+[A-Z][A-Z0-9\\.]*\\s+\\d+\\s*$",
+          "description": "Missing year in parentheses"
+        },
+        {
+          "pattern": "^[A-Za-z0-9\\s,\\.&]+ v\\. [A-Za-z0-9\\s,\\.&]+\\s+\\d+\\s+[A-Z][A-Z0-9\\.]*\\s+\\d+",
+          "description": "Missing comma after case name"
+        },
+        {
+          "pattern": "^[A-Za-z0-9\\s,\\.&]+ v\\. [A-Za-z0-9\\s,\\.&]+,\\s*\\d+\\s+[A-Z][A-Z0-9\\.]*\\s+\\d+\\s*\\(\\d{4}\\)$",
+          "description": "Missing court abbreviation when needed"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Roe v. Wade, 410 U.S. 113, 115 (1973)",
+          "correct": true,
+          "description": "U.S. Supreme Court case with pinpoint citation"
+        }
+      ],
+      "sub_rules": []
+    },
+    {
+      "rule_id": "10.2",
+      "rule_title": "Case Names",
+      "rule_text": "Case names must be formatted according to specific rules for abbreviation and omission of parties and words.",
+      "formatting_requirements": [
+        "Omit first names, middle names, and initials (use only last names)",
+        "Omit 'The' as the first word of a party name",
+        "Use acronyms for widely known entities (NLRB)",
+        "Abbreviate entity designations according to Table T6",
+        "Omit all parties except first on each side of the 'v.'",
+        "Omit alternative names (AKA, d/b/a)"
+      ],
+      "correct_regex_pattern": "^[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*\\s+v\\.\\s+[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*$",
+      "error_regex_patterns": [
+        {
+          "pattern": "^The\\s+[A-Za-z]+",
+          "description": "Case name begins with 'The'"
+        },
+        {
+          "pattern": "[A-Za-z]+\\s+[A-Z]\\.\\s+[A-Za-z]+\\s+v\\.",
+          "description": "Contains middle initials in case name"
+        },
+        {
+          "pattern": "v\\.\\s+[A-Za-z0-9\\s]+\\s+&\\s+[A-Za-z0-9\\s]+",
+          "description": "Multiple defendants listed (should be omitted after first)"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Roe v. Wade",
+          "correct": true,
+          "description": "Proper case name with last names only"
+        },
+        {
+          "text": "The State v. Smith",
+          "correct": false,
+          "description": "Incorrect - 'The' should be omitted"
+        },
+        {
+          "text": "John P. Smith v. Mary Jones",
+          "correct": false,
+          "description": "Incorrect - includes first name and middle initial"
+        }
+      ],
+      "sub_rules": [
+        {
+          "rule_id": "10.2.1",
+          "rule_title": "General Rules for Case Names",
+          "rule_text": "In case names, omit first names, middle names, and initials of individuals (use just last names). Omit 'The' as the first word of a party name. Use acronyms for entities if widely known ('NLRB'), otherwise abbreviate & according to table T6. Always abbreviate certain words (e.g., 'Co.', 'Inc.' per T6) and any word listed in table T6 when it is part of a party name (except when it is the first word of a party name).",
+          "formatting_requirements": [
+            "Use only last names for individuals",
+            "Omit 'The' at beginning",
+            "Use standard acronyms for known entities",
+            "Abbreviate entity words per Table T6",
+            "Abbreviate geographic units per Table T6"
+          ],
+          "correct_regex_pattern": "^[A-Z][a-z]+(?:\\s+(?:[A-Z][a-z]+|Corp\\.|Inc\\.|Ltd\\.|Co\\.))*\\s+v\\.\\s+[A-Z][a-z]+(?:\\s+(?:[A-Z][a-z]+|Corp\\.|Inc\\.|Ltd\\.|Co\\.))*$",
+          "error_regex_patterns": [
+            {
+              "pattern": "[A-Za-z]+\\s+[A-Za-z]+\\s+[A-Z]\\.\\s+[A-Za-z]+",
+              "description": "Contains first and middle names or initials"
+            },
+            {
+              "pattern": "^The\\s",
+              "description": "Begins with 'The'"
+            },
+            {
+              "pattern": "Company\\s|Corporation\\s|Incorporated\\s",
+              "description": "Uses unabbreviated entity designations"
+            }
+          ],
+          "examples": [
+            {
+              "text": "Smith v. Jones",
+              "correct": true,
+              "description": "Correct format with last names only"
+            },
+            {
+              "text": "NLRB v. Company, Inc.",
+              "correct": true,
+              "description": "Correct use of acronym and abbreviation"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.2.2",
+          "rule_title": "Additional Rules for Case Names in Citations",
+          "rule_text": "Omit all parties other than the first listed on each side of the 'v.' (unless required for clarity, such as ex rel. parties). Also omit alternative names for the first party (like 'AKA' or 'd/b/a' entries). Use 'In re' or 'Ex parte' for certain procedural cases as appropriate. Abbreviate any state, country, or other geographical unit according to T10 when it is part of a case name (except if it's a named party like 'State of...').",
+          "formatting_requirements": [
+            "Omit all but first party on each side of v.",
+            "Include ex rel. parties for clarity when needed",
+            "Omit AKA and d/b/a designations",
+            "Use 'In re' for certain procedural cases",
+            "Abbreviate geographic units per Table T10",
+            "Preserve named parties like 'State of'"
+          ],
+          "correct_regex_pattern": "^(?:(?:In re|Ex parte)\\s+)?[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*(?:\\s+ex rel\\.\\s+[A-Z][a-z]+)*\\s+v\\.\\s+[A-Z][a-z]+",
+          "error_regex_patterns": [
+            {
+              "pattern": "v\\.\\s+[A-Za-z0-9\\s]*\\s+&\\s+[A-Za-z0-9\\s]*(?:,\\s+[A-Za-z0-9\\s]*)*",
+              "description": "Multiple parties listed after v."
+            },
+            {
+              "pattern": "AKA\\s|aka\\s|d/b/a\\s",
+              "description": "Contains alternative name designations"
+            },
+            {
+              "pattern": "(?<!ex rel\\.\\s)[A-Z][a-z]+\\s+ex rel\\.\\s+[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+\\s+ex rel\\.\\s+[A-Z][a-z]+",
+              "description": "Multiple ex rel. parties"
+            }
+          ],
+          "examples": [
+            {
+              "text": "Smith v. Jones",
+              "correct": true,
+              "description": "Single parties on each side"
+            },
+            {
+              "text": "Smith ex rel. Johnson v. Jones",
+              "correct": true,
+              "description": "ex rel. party included for clarity"
+            },
+            {
+              "text": "Smith & Brown v. Jones & Green",
+              "correct": false,
+              "description": "Multiple parties should be omitted, only first retained"
+            }
+          ],
+          "sub_rules": []
+        }
+      ]
+    },
+    {
+      "rule_id": "10.3",
+      "rule_title": "Reporters and Other Sources",
+      "rule_text": "For decisions published in reporters, cite to those reporters according to their citation format (e.g., U.S., F.2d, N.E.2d). If a case is unreported, provide an equivalent citation such as a docket number and database identifier, or a court website, or a slip opinion information. For cases in regional reporters, include the region abbreviation. If citing multiple reporters (parallel citations), Bluebook strongly prefers citing only the official or most authoritative reporter in academic writing (some court rules differ).",
+      "formatting_requirements": [
+        "Use official reporter abbreviations per Table T1",
+        "Include series notation (2d, 3d, etc.) when applicable",
+        "Use U.S. for Supreme Court if available",
+        "Omit publisher names (no Lexis/Westlaw in published citations)",
+        "For unreported: include docket number, date, and court",
+        "For parallel citations: generally cite only official/most-used reporter in law reviews"
+      ],
+      "correct_regex_pattern": "^\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+(?:,\\s*\\d+)?(?:\\s*\\([^)]+\\))?$",
+      "error_regex_patterns": [
+        {
+          "pattern": "Lexis\\s|\\bWestlaw\\b|LexisNexis",
+          "description": "Contains publisher name in citation"
+        },
+        {
+          "pattern": "[0-9]+\\s+U\\.S\\.\\s+[0-9]+[,;]\\s+[0-9]+\\s+F\\.\\d+d",
+          "description": "Multiple reporters listed without proper format"
+        }
+      ],
+      "examples": [
+        {
+          "text": "410 U.S. 113",
+          "correct": true,
+          "description": "Supreme Court reporter"
+        },
+        {
+          "text": "500 F.2d 123",
+          "correct": true,
+          "description": "Federal reporter with series"
+        }
+      ],
+      "sub_rules": [
+        {
+          "rule_id": "10.3.1",
+          "rule_title": "Parallel Citations and Which Source(s) to Cite",
+          "rule_text": "When required to provide parallel citations (typically in court documents, not in law reviews), list the citations separated by commas. In law reviews, generally cite only the official or most-used reporter. If citing a public domain citation (for jurisdictions that have adopted such systems), provide that followed by a parallel to a regional reporter if available.",
+          "formatting_requirements": [
+            "Parallel citations separated by commas",
+            "Law reviews: cite only official or most-used reporter",
+            "Court documents: provide multiple parallel citations",
+            "Public domain citations listed first if using public domain system"
+          ],
+          "correct_regex_pattern": "^\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+(?:,\\s*\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+)*$",
+          "error_regex_patterns": [
+            {
+              "pattern": "[0-9]+\\s+[A-Z].*?[,;]\\s+[0-9]+\\s+[A-Z].*?[,;]\\s+[0-9]+\\s+[A-Z]",
+              "description": "More than two parallel citations (excessive)"
+            }
+          ],
+          "examples": [
+            {
+              "text": "410 U.S. 113, 93 S. Ct. 705",
+              "correct": true,
+              "description": "Proper parallel citations"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.3.2",
+          "rule_title": "Reporters",
+          "rule_text": "Abbreviate reporter names as per table T1. Use correct series notation (2d, 3d, etc.). Do not include publisher names in citations (no Lexis or Westlaw in a citation to published reporters). For U.S. Supreme Court, cite U.S. if available; otherwise S. Ct., L. Ed., or U.S.L.W. as required.",
+          "formatting_requirements": [
+            "Reporter abbreviations per Table T1",
+            "Correct series notation (2d, 3d, etc.)",
+            "No publisher names",
+            "U.S. preferred for Supreme Court",
+            "Alternative Supreme Court reporters: S. Ct., L. Ed., U.S.L.W."
+          ],
+          "correct_regex_pattern": "^\\d+\\s+(?:U\\.S\\.|S\\. Ct\\.|L\\. Ed\\.|U\\.S\\.L\\.W\\.|F\\.\\d+d|F\\. Supp\\.\\d+d|[A-Z]{2}\\.\\d+d|[A-Z]{2}\\. Supp\\.\\d+d)\\s+\\d+$",
+          "error_regex_patterns": [
+            {
+              "pattern": "\\b[a-z]+\\s+[0-9]+$",
+              "description": "Contains lowercase reporter abbreviation"
+            },
+            {
+              "pattern": "Federal Reporter 2d|Federal Supplement|Supreme Court Reporter",
+              "description": "Reporter name spelled out instead of abbreviated"
+            }
+          ],
+          "examples": [
+            {
+              "text": "410 U.S. 113",
+              "correct": true,
+              "description": "U.S. Supreme Court reporter"
+            },
+            {
+              "text": "123 F.2d 456",
+              "correct": true,
+              "description": "Federal reporter second series"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.3.3",
+          "rule_title": "Public Domain Format",
+          "rule_text": "Some jurisdictions assign official citations that do not depend on a reporter (e.g., '1999 ND 45'). When citing cases in these jurisdictions, use the public domain citation followed by a pinpoint (if any) and the court if not evident, plus the year. If also published in a reporter, some rules require including that as a parallel.",
+          "formatting_requirements": [
+            "Public domain citation format: YYYY Jurisdiction Number",
+            "Include pinpoint if needed",
+            "Court and year in parentheses if not evident",
+            "May include parallel reporter citation"
+          ],
+          "correct_regex_pattern": "^\\d{4}\\s+[A-Z]{2}\\s+\\d+(?:\\s+at\\s+\\d+)?(?:\\s*\\(([A-Z][A-Za-z\\.\\s]*)?\\s*\\d{4}\\))?$",
+          "error_regex_patterns": [
+            {
+              "pattern": "^\\d{4}\\s+[A-Za-z]{2}\\s+\\d+$",
+              "description": "Missing court and year when not evident"
+            }
+          ],
+          "examples": [
+            {
+              "text": "1999 ND 45",
+              "correct": true,
+              "description": "North Dakota public domain citation"
+            }
+          ],
+          "sub_rules": []
+        }
+      ]
+    },
+    {
+      "rule_id": "10.4",
+      "rule_title": "Court and Jurisdiction",
+      "rule_text": "In the parentheses at the end of a citation, include the abbreviation for the court and jurisdiction if not evident from the reporter or context. For state high courts, generally just the state abbreviation and year (e.g., 'N.Y. 1990' for New York Court of Appeals). For intermediate state courts or federal courts, include abbreviations ('Cal. Ct. App.' or '5th Cir.'). Omit the court name if using a state reporter that clearly indicates the court.",
+      "formatting_requirements": [
+        "Court and jurisdiction in final parentheses",
+        "State high court: state abbreviation and year",
+        "Federal courts: circuit number or court abbreviation",
+        "Omit court if evident from reporter",
+        "Follow Table T1 for court abbreviations"
+      ],
+      "correct_regex_pattern": "\\((?:[A-Z][A-Za-z\\.\\s]+\\s+)?\\d{4}\\)$",
+      "error_regex_patterns": [
+        {
+          "pattern": "\\(Court\\s+of\\s+Appeals\\s+of\\s+[A-Z][a-z]+\\s+\\d{4}\\)",
+          "description": "Court name spelled out instead of abbreviated"
+        },
+        {
+          "pattern": "\\([A-Za-z]+\\s+\\d{4}\\)",
+          "description": "Lowercase court abbreviation"
+        }
+      ],
+      "examples": [
+        {
+          "text": "(N.Y. 1990)",
+          "correct": true,
+          "description": "New York high court"
+        },
+        {
+          "text": "(5th Cir. 2020)",
+          "correct": true,
+          "description": "Federal appellate court"
+        },
+        {
+          "text": "(Cal. Ct. App. 2015)",
+          "correct": true,
+          "description": "California appellate court"
+        }
+      ],
+      "sub_rules": []
+    },
+    {
+      "rule_id": "10.5",
+      "rule_title": "Date or Year",
+      "rule_text": "Always include the year of decision in the parentheses after the court/jurisdiction. If the decision date is essential (e.g., multiple decisions by the same court in one year cited together), include the full date. Otherwise, year alone suffices. For U.S. Supreme Court cases, year alone is used. For recent cases not yet published, you might include the full date.",
+      "formatting_requirements": [
+        "Year in parentheses is mandatory",
+        "Year alone sufficient for most citations",
+        "Full date if essential for clarity",
+        "Full date for unpublished/recent cases",
+        "U.S. Supreme Court: year only standard"
+      ],
+      "correct_regex_pattern": "\\((?:Jan\\.|Feb\\.|Mar\\.|Apr\\.|May\\s|June|July|Aug\\.|Sept\\.|Oct\\.|Nov\\.|Dec\\.)?\\s*\\d+,?\\s*\\d{4}\\)$",
+      "error_regex_patterns": [
+        {
+          "pattern": "(?<!Year\\s=\\s)\\d{4}(?!\\s*\\))",
+          "description": "Year not in parentheses"
+        },
+        {
+          "pattern": "\\(\\d{1,2}/\\d{1,2}/\\d{4}\\)",
+          "description": "Invalid date format (should use month abbreviation or year only)"
+        }
+      ],
+      "examples": [
+        {
+          "text": "(1973)",
+          "correct": true,
+          "description": "Year alone"
+        },
+        {
+          "text": "(Jan. 15, 2020)",
+          "correct": true,
+          "description": "Full date for unpublished case"
+        }
+      ],
+      "sub_rules": []
+    },
+    {
+      "rule_id": "10.6",
+      "rule_title": "Parenthetical Information Regarding Cases",
+      "rule_text": "Parenthetical information can be added to case citations to provide additional context about the weight of authority, nature of the ruling, or quoted material.",
+      "formatting_requirements": [
+        "Parentheticals separate from citation parentheses",
+        "Weight of authority descriptors: per curiam, en banc, plurality",
+        "In chambers opinions noted parenthetically",
+        "Interior citations not italicized within parenthetical",
+        "Order: weight of authority first, then subsequent history"
+      ],
+      "correct_regex_pattern": "^\\(\\w+(?:\\s+\\w+)*\\)$",
+      "error_regex_patterns": [
+        {
+          "pattern": "\\(\\(",
+          "description": "Nested parentheses improperly formatted"
+        },
+        {
+          "pattern": "\\(per curiam\\)\\s*\\(per curiam\\)",
+          "description": "Duplicate parentheticals"
+        }
+      ],
+      "examples": [
+        {
+          "text": "(per curiam)",
+          "correct": true,
+          "description": "Indicates per curiam opinion"
+        },
+        {
+          "text": "(en banc)",
+          "correct": true,
+          "description": "Indicates en banc opinion"
+        }
+      ],
+      "sub_rules": [
+        {
+          "rule_id": "10.6.1",
+          "rule_title": "Weight of Authority",
+          "rule_text": "If a decision is per curiam, en banc, or a plurality, indicate that in a parenthetical. For example, (per curiam) or (en banc) or (plurality opinion). Only include if it's not clear from the citation itself or if relevant to the point.",
+          "formatting_requirements": [
+            "Use per curiam, en banc, plurality opinion",
+            "Include only if relevant and not clear from context",
+            "Not italicized in final parenthetical"
+          ],
+          "correct_regex_pattern": "\\((?:per curiam|en banc|plurality opinion)\\)$",
+          "error_regex_patterns": [
+            {
+              "pattern": "\\(Per Curiam\\)|\\(EN BANC\\)",
+              "description": "Improper capitalization"
+            }
+          ],
+          "examples": [
+            {
+              "text": "(per curiam)",
+              "correct": true,
+              "description": "Correct weight of authority indicator"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.6.2",
+          "rule_title": "In-Chambers Opinions",
+          "rule_text": "If citing a single-Justice in-chambers opinion (U.S. Supreme Court), indicate it parenthetically: e.g., '(in chambers)'. This distinguishes such rulings (often on stay applications or similar) from the Court's full opinions.",
+          "formatting_requirements": [
+            "Use (in chambers) for single-Justice opinions",
+            "Distinguishes from full Court opinions",
+            "Lowercase except for Justice name if included"
+          ],
+          "correct_regex_pattern": "\\(in chambers\\)$",
+          "error_regex_patterns": [
+            {
+              "pattern": "\\(In Chambers\\)|\\(In-chambers\\)",
+              "description": "Incorrect capitalization or punctuation"
+            }
+          ],
+          "examples": [
+            {
+              "text": "(in chambers)",
+              "correct": true,
+              "description": "In-chambers opinion indicator"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.6.3",
+          "rule_title": "Quoting/Citing Parentheticals in Case Citations",
+          "rule_text": "When one case citation is quoted or cited within the parenthetical of another, format the interior citation in normal citation format but do not italicize it (because the parenthetical as a whole is not italicized in law review footnotes, and interior citations remain roman). For example: (quoting Smith v. Jones, 123 U.S. 456 (1900)).",
+          "formatting_requirements": [
+            "Interior citations in normal format but not italicized",
+            "Use quoting or citing verbs",
+            "Interior case citations complete but without italics"
+          ],
+          "correct_regex_pattern": "\\((?:quoting|citing)\\s+[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+,\\s+\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+\\s+\\(\\d{4}\\)\\)$",
+          "error_regex_patterns": [
+            {
+              "pattern": "\\(quoting Smith v. Jones\\)$",
+              "description": "Interior citation missing reporter information"
+            }
+          ],
+          "examples": [
+            {
+              "text": "(quoting Smith v. Jones, 123 U.S. 456 (1900))",
+              "correct": true,
+              "description": "Correct nested citation format"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.6.4",
+          "rule_title": "Order of Parentheticals",
+          "rule_text": "When multiple parentheticals are needed (e.g., one for weight of authority and one for quoted material), the order is: explanatory parenthetical first, then any subsequent history parenthetical. Keep them as separate parentheticals, not one combined.",
+          "formatting_requirements": [
+            "Multiple parentheticals kept separate",
+            "Weight of authority first",
+            "Subsequent history second",
+            "Explanatory information ordered logically"
+          ],
+          "correct_regex_pattern": "\\([a-z\\s]+\\)\\s+\\([a-z\\s]+\\)$",
+          "error_regex_patterns": [
+            {
+              "pattern": "\\((?:aff'd|rev'd|cert\\. denied)[^)]*[,;][^)]*(?:per curiam|en banc)\\)",
+              "description": "Improper parenthetical ordering"
+            }
+          ],
+          "examples": [
+            {
+              "text": "(per curiam) (aff'd on other grounds, 500 U.S. 123 (2005))",
+              "correct": true,
+              "description": "Proper multiple parentheticals"
+            }
+          ],
+          "sub_rules": []
+        }
+      ]
+    },
+    {
+      "rule_id": "10.7",
+      "rule_title": "Prior and Subsequent History",
+      "rule_text": "Prior and subsequent history of cases should be indicated when relevant to the citation. Abbreviations from Table T8 should be used for common history indicators.",
+      "formatting_requirements": [
+        "Use abbreviations from Table T8",
+        "Include only if significant and within two years (for cert. denied)",
+        "Subsequent history after main citation",
+        "Use sub nom. for changed case names on appeal"
+      ],
+      "correct_regex_pattern": "(?:aff'd|rev'd|cert\\. denied|vacated|remanded|modified)",
+      "error_regex_patterns": [
+        {
+          "pattern": "affirmed|reversed|certiorari|denied",
+          "description": "Unabbreviated history terms"
+        },
+        {
+          "pattern": "[A-Za-z]+ on appeal",
+          "description": "Informal history notation"
+        }
+      ],
+      "examples": [
+        {
+          "text": "aff'd, 500 U.S. 123 (2005)",
+          "correct": true,
+          "description": "Proper affirmance notation"
+        },
+        {
+          "text": "rev'd, 475 U.S. 456 (2003)",
+          "correct": true,
+          "description": "Proper reversal notation"
+        }
+      ],
+      "sub_rules": [
+        {
+          "rule_id": "10.7.1",
+          "rule_title": "Explanatory Phrases and Weight of Authority",
+          "rule_text": "If a case's prior or subsequent history is significant (aff'd, rev'd, cert. denied, etc.), include it in a parenthetical. Use the abbreviations from table T8 ('aff'd', 'rev'd', 'cert. denied'). Only include if the history is not already reflected or if it is within two years for cert. denied (Bluebook rule sets a two-year limit on including cert. denials). Place this parenthetical after the main citation but before any explanatory parenthetical that is about the proposition.",
+          "formatting_requirements": [
+            "Abbreviations from Table T8",
+            "cert. denied only within two years",
+            "History after main citation",
+            "Before explanatory parentheticals",
+            "Include full citation for history case if available"
+          ],
+          "correct_regex_pattern": "(?:aff'd|rev'd|cert\\. denied|vacated|remanded),\\s+\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+\\s+\\(\\d{4}\\)$",
+          "error_regex_patterns": [
+            {
+              "pattern": "cert\\.?\\s*denied\\s+[5-9]\\s+years\\s+ago",
+              "description": "cert. denied older than two years"
+            },
+            {
+              "pattern": "Affirmed|Reversed|Cert\\. denied",
+              "description": "Improperly capitalized history"
+            }
+          ],
+          "examples": [
+            {
+              "text": "aff'd, 500 U.S. 123 (2005)",
+              "correct": true,
+              "description": "Proper subsequent history"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.7.2",
+          "rule_title": "Different Case Name on Appeal",
+          "rule_text": "If the case name changed on appeal (perhaps due to a change in the parties), you may indicate the new name in a parenthetical. For example: (sub nom. New Name v. Original Defendant). Use 'sub nom.' (under the name of) to introduce the new case name.",
+          "formatting_requirements": [
+            "Use sub nom. for name changes",
+            "Include full new case name",
+            "Place after history citation",
+            "Full citation for case under new name"
+          ],
+          "correct_regex_pattern": "\\(sub nom\\.\\s+[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+,\\s+\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+\\s+\\(\\d{4}\\)\\)$",
+          "error_regex_patterns": [
+            {
+              "pattern": "\\(subtitled|under the name of\\)",
+              "description": "sub nom. not used or spelled out"
+            },
+            {
+              "pattern": "\\(sub\\s+nom\\.\\s+[A-Z][a-z]+\\s+[Cc]ase\\)",
+              "description": "Incomplete case name in sub nom. parenthetical"
+            }
+          ],
+          "examples": [
+            {
+              "text": "(sub nom. New Name v. Old Defendant, 500 U.S. 123 (2005))",
+              "correct": true,
+              "description": "Proper sub nom. citation"
+            }
+          ],
+          "sub_rules": []
+        }
+      ]
+    },
+    {
+      "rule_id": "10.8",
+      "rule_title": "Special Citation Forms",
+      "rule_text": "Special citation forms are used for pending cases, unreported cases, briefs, and other specialized materials.",
+      "formatting_requirements": [
+        "Pending cases: include docket number, date, court",
+        "Unreported cases: database identifier or court website",
+        "Briefs: document name, page, case name, docket number",
+        "Full dates for pending/unreported cases"
+      ],
+      "correct_regex_pattern": "^(?:No\\.|[A-Z][a-z]+)\\s+",
+      "error_regex_patterns": [
+        {
+          "pattern": "Case #|Docket #",
+          "description": "Non-standard abbreviation for docket number"
+        }
+      ],
+      "examples": [],
+      "sub_rules": [
+        {
+          "rule_id": "10.8.1",
+          "rule_title": "Pending and Unreported Cases",
+          "rule_text": "For cases that are pending (no decision yet) or unreported (no published or official citation), cite to an electronic database (like Westlaw or Lexis) or to the court's filing information. Include docket numbers and court names and full dates for pending/unreported cases. E.g., Brief for Appellant at 15, Smith v. Jones, No. 20-1234 (U.S. filed Jan. 5, 2020).",
+          "formatting_requirements": [
+            "Docket number with No. abbreviation",
+            "Full date for pending/unreported",
+            "Court name included",
+            "Filed date included",
+            "Database identifier if electronic"
+          ],
+          "correct_regex_pattern": "^[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+,\\s+No\\.\\s+[0-9-]+\\s+\\([A-Z]\\.\\S*\\s+filed\\s+[A-Z][a-z]+\\s+\\d+,\\s+\\d{4}\\)$",
+          "error_regex_patterns": [
+            {
+              "pattern": "No\\.\\s+[0-9-]+\\s+\\([A-Z].*?\\s+\\d{4}\\)$",
+              "description": "Missing 'filed' date for pending case"
+            },
+            {
+              "pattern": "filed\\s+\\d{1,2}/\\d{1,2}/\\d{4}",
+              "description": "Invalid date format (should use month abbreviation)"
+            }
+          ],
+          "examples": [
+            {
+              "text": "Smith v. Jones, No. 20-1234 (U.S. filed Jan. 5, 2020)",
+              "correct": true,
+              "description": "Pending case proper format"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.8.2",
+          "rule_title": "Fifth Circuit Split",
+          "rule_text": "When noting a split of authority in the Fifth Circuit (or any circuit), ensure clarity by citing representative cases from both lines of authority. There is no unique format besides providing citations to the cases that demonstrate the split, possibly with a parenthetical explaining it.",
+          "formatting_requirements": [
+            "Cite cases from both sides of split",
+            "Use explanatory parenthetical",
+            "Standard citation format for each case",
+            "May use compare...with structure"
+          ],
+          "correct_regex_pattern": "^Compare\\s+[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+,\\s+\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+\\s+\\(\\d{4}\\)\\s+with\\s+[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+,\\s+\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+\\d+\\s+\\(\\d{4}\\)",
+          "error_regex_patterns": [
+            {
+              "pattern": "Compare.*?with.*?and",
+              "description": "Multiple authorities on one side without proper grouping"
+            }
+          ],
+          "examples": [
+            {
+              "text": "Compare Smith v. Jones, 500 F.2d 123 (5th Cir. 2010) (holding X), with Brown v. Green, 600 F.2d 456 (5th Cir. 2015) (holding Y)",
+              "correct": true,
+              "description": "Proper circuit split citation"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.8.3",
+          "rule_title": "Briefs, Court Filings, and Transcripts",
+          "rule_text": "For briefs and other court filings, include the document name, page (if pinpoint), the case, and the filing info. Example: Brief for Petitioner at 10, Smith v. Jones, 123 U.S. 456 (No. 18-123). For transcripts, include speaker if relevant and page. Example: Transcript of Oral Argument at 12, Smith v. Jones, 123 U.S. 456 (No. 18-123).",
+          "formatting_requirements": [
+            "Document name (Brief, Transcript, etc.)",
+            "Page or pinpoint citation",
+            "Complete case name",
+            "Case citation or docket number",
+            "Filing information if applicable"
+          ],
+          "correct_regex_pattern": "^(?:Brief|Transcript|Motion|Reply)\\s+(?:for\\s+[A-Z][a-z]+\\s+)?at\\s+\\d+,?\\s+[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+",
+          "error_regex_patterns": [
+            {
+              "pattern": "(?:Brief|Transcript)\\s+no\\s+pinpoint",
+              "description": "Brief or transcript without page reference"
+            },
+            {
+              "pattern": "page\\s+\\d+",
+              "description": "Should use 'at' not 'page'"
+            }
+          ],
+          "examples": [
+            {
+              "text": "Brief for Petitioner at 10, Smith v. Jones, 123 U.S. 456 (No. 18-123)",
+              "correct": true,
+              "description": "Proper brief citation"
+            },
+            {
+              "text": "Transcript of Oral Argument at 25, Smith v. Jones, 123 U.S. 456 (No. 18-123)",
+              "correct": true,
+              "description": "Proper transcript citation"
+            }
+          ],
+          "sub_rules": []
+        },
+        {
+          "rule_id": "10.8.4",
+          "rule_title": "Court Administrative Orders",
+          "rule_text": "Cite administrative orders, standing orders, or other court-issued materials by name if available, court, and date. These often are not published; you may refer to the court's website or another source. The Bluebook does not have a specific unique format beyond treating them similar to other court documents or rules, with the title or order number if any.",
+          "formatting_requirements": [
+            "Order name or number",
+            "Court identifier",
+            "Date of order",
+            "Source or website if unpublished",
+            "Similar to rule citation format"
+          ],
+          "correct_regex_pattern": "^(?:[A-Z][a-z]+\\s+)?[A-Z][a-z]+\\s+Order,?\\s+[0-9-]*\\s*(?:\\([A-Z].*?\\))?",
+          "error_regex_patterns": [
+            {
+              "pattern": "^Administrative\\s+[Oo]rder",
+              "description": "Generic order name"
+            }
+          ],
+          "examples": [
+            {
+              "text": "Standing Order 2020-1 (N.D. Tex. 2020)",
+              "correct": true,
+              "description": "Administrative order proper format"
+            }
+          ],
+          "sub_rules": []
+        }
+      ]
+    },
+    {
+      "rule_id": "10.9",
+      "rule_title": "Short Forms for Cases",
+      "rule_text": "After a full citation of a case, you can use a short form in later citations. Acceptable short forms include the case name (if unique) or a shortened case name, with or without a pinpoint cite, or 'Id.' if the immediately preceding citation is the same case. E.g., 'Roe, 410 U.S. at 116.' Do not use 'supra' or 'hereinafter' for cases.",
+      "formatting_requirements": [
+        "Case name (if unique)",
+        "Shortened case name acceptable",
+        "Pinpoint may be included",
+        "Id. if immediately following same case",
+        "No supra or hereinafter"
+      ],
+      "correct_regex_pattern": "^(?:Id\\.|[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*(?:\\s+v\\.\\s+[A-Z][a-z]+)?)(?:,\\s*\\d+\\s+[A-Z][A-Z0-9\\.]+\\s+at\\s+\\d+)?\\.?$",
+      "error_regex_patterns": [
+        {
+          "pattern": "supra\\s+note|hereinafter",
+          "description": "Uses supra or hereinafter for case citations"
+        },
+        {
+          "pattern": "^Id\\.\\s+(?:at|,)\\s+[a-z]",
+          "description": "Id. followed by lowercase text"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Id.",
+          "correct": true,
+          "description": "Short form for immediately preceding citation"
+        },
+        {
+          "text": "Roe, 410 U.S. at 116",
+          "correct": true,
+          "description": "Shortened case name with pinpoint"
+        },
+        {
+          "text": "Roe supra note 1",
+          "correct": false,
+          "description": "Incorrect - should not use supra for cases"
+        }
+      ],
+      "sub_rules": []
+    }
+  ]
+}

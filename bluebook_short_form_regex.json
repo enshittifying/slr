@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0",
+  "title": "Bluebook Short Form Citation Regex Patterns",
+  "description": "Complete collection of regex patterns for validating and identifying Bluebook short form citations (Rule 4 and related rules)",
+  "generated_from": "/home/user/slr/reference_files/Bluebook.json",
+  "valid_patterns": {
+    "id_alone": {
+      "pattern": "^Id\\.$",
+      "description": "Id. citation with no pinpoint",
+      "examples": [
+        "Id."
+      ],
+      "invalid_examples": [
+        "id.",
+        "ID.",
+        "Id",
+        "Id.,"
+      ],
+      "rule": "Rule 4.1"
+    },
+    "id_with_pinpoint_at": {
+      "pattern": "^Id\\.\\s+at\\s+\\d+$",
+      "description": "Id. citation with 'at' pinpoint",
+      "examples": [
+        "Id. at 100",
+        "Id. at 50",
+        "Id.  at  420"
+      ],
+      "invalid_examples": [
+        "Id at 100",
+        "Id. at p. 100",
+        "Id. @ 100",
+        "Id. p. 100"
+      ],
+      "rule": "Rule 4.2",
+      "note": "Always include 'at' after id. when using a pincite"
+    },
+    "id_with_parenthetical_pinpoint": {
+      "pattern": "^Id\\.\\s*\\((?:para|p|pp|page|pages|§)\\s*\\.?\\d+(?:\\s*-\\s*\\d+)?\\)$",
+      "description": "Id. citation with parenthetical pinpoint (para, p, page, §)",
+      "examples": [
+        "Id. (para. 5)",
+        "Id.(para 5)",
+        "Id. (p. 100)",
+        "Id. (§ 123)",
+        "Id. (pages 100-105)",
+        "Id. (pp. 50-75)"
+      ],
+      "invalid_examples": [
+        "Id (para. 5)",
+        "Id. para 5",
+        "Id. (paragraphs 5)"
+      ],
+      "rule": "Rule 4.1"
+    },
+    "supra_with_author": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*,\\s+supra\\s+note\\s+\\d+(?:,\\s+at\\s+\\d+)?$",
+      "description": "Supra citation with author or source name",
+      "examples": [
+        "Doe, supra note 5",
+        "Doe, supra note 10, at 100",
+        "Smith-Jones, supra note 3",
+        "O'Brien, supra note 15, at 45"
+      ],
+      "invalid_examples": [
+        "Doe supra note 5",
+        "doe, supra note 5",
+        "Doe, supra note five",
+        "Doe, supra note 5 at 100",
+        "Doe, supra 5"
+      ],
+      "rule": "Rule 4.2",
+      "applicable_to": [
+        "Books",
+        "Periodicals",
+        "Unpublished sources",
+        "Internet sources",
+        "Foreign sources",
+        "Services"
+      ]
+    },
+    "supra_with_title": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*,\\s+[A-Z][a-zA-Z\\s0-9]*,\\s+supra\\s+note\\s+\\d+(?:,\\s+at\\s+\\d+)?$",
+      "description": "Supra citation with author and short title",
+      "examples": [
+        "Doe, Article Title, supra note 5",
+        "Smith, Important Case, supra note 10, at 50",
+        "Jones, The Law Review Article, supra note 3"
+      ],
+      "invalid_examples": [
+        "Doe, supra note 5",
+        "Doe, article title, supra note 5",
+        "Doe Article Title supra note 5"
+      ],
+      "rule": "Rule 4.2",
+      "note": "Required when multiple works by same author are cited",
+      "applicable_to": [
+        "Books",
+        "Periodicals"
+      ]
+    },
+    "case_name_short": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*(?:\\s+v\\.?\\s+[A-Z][a-zA-Z\\s']*)?(?:,\\s+\\d+\\s+[A-Z\\.]+\\s+\\d+)?(?:,\\s+at\\s+\\d+)?$",
+      "description": "Short form case citation by case name",
+      "examples": [
+        "Roe",
+        "Roe v. Wade",
+        "Roe, 410 U.S. 113",
+        "Roe, 410 U.S. 113, at 116"
+      ],
+      "invalid_examples": [
+        "Roe, supra note 5",
+        "Roe, hereinafter \"R\"",
+        "roe",
+        "ROE"
+      ],
+      "rule": "Rule 10.9",
+      "note": "Cases do NOT use supra or hereinafter. Use case name short form instead."
+    },
+    "hereinafter_short": {
+      "pattern": "^[A-Z][a-zA-Z\\s0-9]*,\\s+supra\\s+note\\s+\\d+(?:,\\s+(?:art|§|¶|\\s+at)\\s+[\\d\\.]+)?$",
+      "description": "Short form using established hereinafter abbreviation",
+      "examples": [
+        "UNCLOS, supra note 2",
+        "BGB, supra note 5, § 823",
+        "Short Title, supra note 10, art. 55",
+        "Short Title, supra note 3, at 100"
+      ],
+      "invalid_examples": [
+        "UNCLOS supra note 2",
+        "Short Title, hereinafter supra note 2",
+        "Short Title, supra 2"
+      ],
+      "rule": "Rule 4.2",
+      "note": "Use SPARINGLY. Default to supra unless confusion would result."
+    },
+    "chapter_short": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*,\\s+supra\\s+note\\s+\\d+(?:,\\s+at\\s+\\d+)?$",
+      "description": "Short form for chapter/essay in collection (chapter author, not editor)",
+      "examples": [
+        "Doe, supra note 12",
+        "Doe, supra note 12, at 45"
+      ],
+      "invalid_examples": [
+        "Editor, supra note 12",
+        "Doe supra note 12"
+      ],
+      "rule": "Rule 15.10.1",
+      "note": "Use chapter author's name, not the book editor's name"
+    },
+    "service_citation_short": {
+      "pattern": "^[A-Z\\.]+\\s+[A-Z][a-zA-Z\\s0-9\\.]*,\\s+supra\\s+note\\s+\\d+(?:,\\s+¶\\s+[\\d,]+)?$",
+      "description": "Short form for services/looseleafs with service name and paragraph",
+      "examples": [
+        "CCH Cons. Fin. Guide, supra note 10",
+        "CCH Cons. Fin. Guide, supra note 10, ¶ 72,205",
+        "Tax Service, supra note 3"
+      ],
+      "invalid_examples": [
+        "CCH Cons. Fin. Guide supra note 10",
+        "CCH Cons. Fin. Guide, supra note 10 ¶ 72,205"
+      ],
+      "rule": "Rule 19.2"
+    },
+    "foreign_source_short": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*(?:\\s+(?:Code|Act|Statute|Law|Reporter))?(?:,\\s+supra\\s+note\\s+\\d+)?(?:,\\s+(?:art|§|¶)\\s+[\\d\\.]+)?(?:\\s+\\([A-Z][a-zA-Z\\.]+\\))?$",
+      "description": "Short form for foreign materials with optional country identifier",
+      "examples": [
+        "German Civil Code, supra note 10, § 823",
+        "French Penal Code, supra note 5, art. 1234",
+        "BGHZ, supra note 12"
+      ],
+      "invalid_examples": [
+        "German Civil Code supra note 10",
+        "german civil code, supra note 10"
+      ],
+      "rule": "Rule 20.7",
+      "note": "Include country identifier if confusion with domestic sources is likely"
+    },
+    "treaty_short": {
+      "pattern": "^[A-Z][\\w\\s\\.'-]*(?:Charter|Convention|Treaty|Agreement|Protocol|Covenant)[\\w\\s\\.'-]*,\\s+supra\\s+note\\s+\\d+(?:,\\s+(?:art|¶|§)\\s+[\\d\\.]+)?$",
+      "description": "Short form for treaties and international agreements",
+      "examples": [
+        "U.N. Charter, supra note 1, art. 55",
+        "Convention on Human Rights, supra note 5",
+        "UNCLOS, supra note 2, art. 320"
+      ],
+      "invalid_examples": [
+        "UN Charter supra note 1",
+        "Convention on Human Rights hereinafter \"COHR\""
+      ],
+      "rule": "Rule 21.17"
+    },
+    "internet_source_short": {
+      "pattern": "^[A-Z][A-Za-z\\s'-]*(?:Blog|Website|Post|Article)?,\\s+supra\\s+note\\s+\\d+(?:,\\s+at\\s+(?:para|p)\\s*\\.?\\s*\\d+)?$",
+      "description": "Short form for internet and media sources",
+      "examples": [
+        "Doe, supra note 15",
+        "DOE BLOG, supra note 5",
+        "Law & Order Blog, supra note 3, at para. 5"
+      ],
+      "invalid_examples": [
+        "DOE BLOG supra note 5",
+        "Doe Blog, supra note 5"
+      ],
+      "rule": "Rule 18.9",
+      "note": "For cases/statutes found online, use normal short forms"
+    },
+    "unpublished_source_short": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*(?:\\s+(?:Letter|Interview|Manuscript|Paper))?(?:,\\s+supra\\s+note\\s+\\d+)?(?:,\\s+at\\s+\\d+)?$",
+      "description": "Short form for unpublished materials",
+      "examples": [
+        "Doe, supra note 10",
+        "Smith Letter, supra note 5",
+        "Author Manuscript, supra note 3, at page 50"
+      ],
+      "invalid_examples": [
+        "Doe at page 10",
+        "Smith Letter supra note 5"
+      ],
+      "rule": "Rule 17.6"
+    }
+  },
+  "invalid_patterns": {
+    "lowercase_id": {
+      "pattern": "^id\\.",
+      "description": "Id. citation with incorrect lowercase 'id'",
+      "invalid_examples": [
+        "id. at 100",
+        "id. at 50"
+      ],
+      "correct_form": "Id. at 100",
+      "reason": "Id. must have uppercase I"
+    },
+    "missing_period_after_id": {
+      "pattern": "^Id\\s+at\\s+\\d+$",
+      "description": "Id. missing period before 'at'",
+      "invalid_examples": [
+        "Id at 100",
+        "Id at 50",
+        "Id, at 100"
+      ],
+      "correct_form": "Id. at 100",
+      "reason": "Period must follow Id"
+    },
+    "missing_comma_before_supra": {
+      "pattern": "^[A-Z][a-zA-Z]*\\s+supra\\s+note\\s+\\d+$",
+      "description": "Supra citation missing comma before 'supra'",
+      "invalid_examples": [
+        "Doe supra note 5",
+        "Smith supra note 10"
+      ],
+      "correct_form": "Doe, supra note 5",
+      "reason": "Comma required between author and supra"
+    },
+    "missing_note_keyword": {
+      "pattern": "^[A-Z][a-zA-Z]*,\\s+supra\\s+\\d+$",
+      "description": "Supra citation missing 'note' keyword",
+      "invalid_examples": [
+        "Doe, supra 5",
+        "Smith, supra 10"
+      ],
+      "correct_form": "Doe, supra note 5",
+      "reason": "Must include 'note' keyword between 'supra' and number"
+    },
+    "supra_for_cases": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*\\s+v\\.\\s+[A-Z][a-zA-Z\\s']*,\\s+supra\\s+note\\s+\\d+$",
+      "description": "Using supra for case citation (not allowed)",
+      "invalid_examples": [
+        "Smith v. Jones, supra note 5",
+        "Roe v. Wade, supra note 3"
+      ],
+      "correct_form": "Smith v. Jones (or Smith v. Jones, 100 U.S. 1, at 50)",
+      "reason": "Cases do NOT use supra. Use case name short form instead."
+    },
+    "hereinafter_for_cases": {
+      "pattern": "^[A-Z][a-zA-Z\\s']*\\s+v\\.\\s+[A-Z][a-zA-Z\\s']*,\\s+hereinafter\\s+",
+      "description": "Using hereinafter for case citation (not allowed)",
+      "invalid_examples": [
+        "Smith v. Jones, hereinafter \"S.J.\"",
+        "Roe v. Wade, hereinafter \"Roe\""
+      ],
+      "correct_form": "Roe (or Roe, 410 U.S. 113, at 116)",
+      "reason": "Cases do NOT use hereinafter. Use case name short form only."
+    },
+    "standalone_at_pinpoint": {
+      "pattern": "^at\\s+\\d+$",
+      "description": "Pinpoint 'at' without preceding authority reference",
+      "invalid_examples": [
+        "at 100",
+        "at 50"
+      ],
+      "correct_form": "Id. at 100 OR Doe, supra note 5, at 100",
+      "reason": "'At' pinpoint must follow an authority reference"
+    },
+    "uppercase_supra_note": {
+      "pattern": "^[A-Z][a-zA-Z]*,\\s+(?:SUPRA|Supra)\\s+(?:NOTE|Note)",
+      "description": "Supra or Note with incorrect capitalization",
+      "invalid_examples": [
+        "Doe, SUPRA NOTE 5",
+        "Doe, Supra NOTE 5"
+      ],
+      "correct_form": "Doe, supra note 5",
+      "reason": "'supra' and 'note' must be lowercase"
+    },
+    "misplaced_comma": {
+      "pattern": "^[A-Z][a-zA-Z]*\\s+supra,\\s+note\\s+\\d+$",
+      "description": "Comma incorrectly placed between supra and note",
+      "invalid_examples": [
+        "Doe supra, note 5",
+        "Smith supra, note 10"
+      ],
+      "correct_form": "Doe, supra note 5",
+      "reason": "Comma goes between author and supra, not between supra and note"
+    },
+    "quotes_around_author": {
+      "pattern": "^\"[A-Z][a-zA-Z]*\",\\s+supra\\s+note\\s+\\d+$",
+      "description": "Quotation marks around author name (incorrect)",
+      "invalid_examples": [
+        "\"Doe\", supra note 5",
+        "\"Smith\", supra note 10"
+      ],
+      "correct_form": "Doe, supra note 5",
+      "reason": "Author names should not be in quotation marks"
+    },
+    "hereinafter_without_definition": {
+      "pattern": "^[A-Z][A-Z]+,\\s+hereinafter\\s+at\\s+\\d+$",
+      "description": "Using hereinafter short form without prior definition",
+      "invalid_examples": [
+        "UNCLOS, hereinafter at 100"
+      ],
+      "correct_form": "First: (\"United Nations Convention on the Law of the Sea\", hereinafter \"UNCLOS\") | Later: UNCLOS, supra note X, art. 55",
+      "reason": "Hereinafter abbreviation must be established in full citation first"
+    },
+    "double_at_clause": {
+      "pattern": "^[A-Z][a-zA-Z]*,\\s+supra\\s+note\\s+\\d+,\\s+at\\s+\\d+,\\s+at\\s+\\d+$",
+      "description": "Multiple 'at' clauses in single citation",
+      "invalid_examples": [
+        "Doe, supra note 5, at 100, at 100",
+        "Smith, supra note 3, at 45, at 45"
+      ],
+      "correct_form": "Doe, supra note 5, at 100",
+      "reason": "Only one 'at' clause per citation"
+    },
+    "id_with_author": {
+      "pattern": "^Id\\.\\s+\\([A-Z][a-zA-Z]*\\)$",
+      "description": "Id. citation with author name in parenthetical",
+      "invalid_examples": [
+        "Id. (Doe)",
+        "Id. (Smith)"
+      ],
+      "correct_form": "Id.",
+      "reason": "Id. refers to preceding authority; no author name needed"
+    },
+    "word_number_pinpoint": {
+      "pattern": "^[A-Z][a-zA-Z]*,\\s+supra\\s+note\\s+[a-z]$",
+      "description": "Note number expressed as word instead of digit",
+      "invalid_examples": [
+        "Doe, supra note x",
+        "Smith, supra note five",
+        "Jones, supra note infra"
+      ],
+      "correct_form": "Doe, supra note 5",
+      "reason": "Note numbers must be digits only"
+    },
+    "word_pinpoint_page": {
+      "pattern": "^[A-Z][a-zA-Z]*,\\s+supra\\s+note\\s+\\d+,\\s+at\\s+[a-z]+$",
+      "description": "Page number expressed as word instead of digit",
+      "invalid_examples": [
+        "Doe, supra note 5, at one",
+        "Smith, supra note 10, at fifty"
+      ],
+      "correct_form": "Doe, supra note 5, at 100",
+      "reason": "Page numbers must be digits"
+    }
+  },
+  "master_valid_regex": "^(?:Id\\.(?:\\s+at\\s+\\d+)?(?:\\s*\\([^)]*\\))?|[A-Z][a-zA-Z\\s']*(?:,\\s+[A-Z][a-zA-Z\\s0-9']*)*,\\s+supra\\s+note\\s+\\d+(?:,\\s+at\\s+\\d+)?|[A-Z][a-zA-Z\\s']*\\s+v\\.?\\s+[A-Z][a-zA-Z\\s']*(?:,\\s+\\d+\\s+[A-Z\\.]+\\s+\\d+)?(?:,\\s+at\\s+\\d+)?|(?:UNCLOS|BGB|BGHZ|[A-Z][a-zA-Z\\s]*),\\s+supra\\s+note\\s+\\d+(?:,\\s+(?:art|§|¶)\\s+[\\d\\.]+)?)$",
+  "master_invalid_regex": "(?:^id\\.|^Id\\s+at|^[a-z][a-zA-Z]*,\\s+supra|^[A-Z][a-zA-Z]* supra note|^[A-Z][a-zA-Z]*,\\s+supra\\s+\\d+|^.*v\\..+,\\s+supra\\s+note|^.*v\\..+,\\s+hereinafter|^at\\s+\\d+$|^[A-Z][a-zA-Z]*,\\s+(?:SUPRA|Supra)|^[A-Z][a-zA-Z]*\\s+supra,|^[A-Z][a-zA-Z]*,\\s+supra\\s+(?:NOTE|Note))",
+  "rules_reference": {
+    "Rule 4.1": "Id. - Using the immediately preceding authority",
+    "Rule 4.2": "Supra and Hereinafter - Using previously cited authorities",
+    "Rule 4.3": "Id. and Footnotes - Restrictions on id. usage",
+    "Rule 4.4": "Hereinafter - Sparse usage guidelines",
+    "Rule 10.9": "Short Forms for Cases - Case name short forms only",
+    "Rule 15.10": "Short Forms for Books - Author + supra format",
+    "Rule 15.10.1": "Short Forms for Chapters - Chapter author usage",
+    "Rule 16.9": "Short Forms for Periodicals - Author + supra",
+    "Rule 17.6": "Short Forms for Unpublished - Author + supra",
+    "Rule 18.9": "Short Forms for Internet - Author/title + supra",
+    "Rule 19.2": "Short Forms for Services - Service name + supra",
+    "Rule 20.7": "Short Forms for Foreign Materials - Jurisdiction considerations",
+    "Rule 21.17": "Short Forms for Treaties - Treaty name + supra"
+  }
+}

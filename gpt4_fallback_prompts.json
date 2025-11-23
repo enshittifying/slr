@@ -1,0 +1,2190 @@
+{
+  "version": "1.0.0",
+  "description": "GPT-4o fallback prompts for complex legal citation validation scenarios that exceed regex capabilities",
+  "model_config": {
+    "model": "gpt-4o",
+    "temperature": 0.1,
+    "max_tokens": 2000,
+    "top_p": 0.95
+  },
+  "scenarios": [
+    {
+      "id": "author_name_ambiguity",
+      "name": "Author Name Ambiguity",
+      "scenario_description": "Handles complex author attribution including multiple authors, institutional authors, 'et al.' determination, author suffixes, and hybrid authorship (individual + institutional).",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) author attribution rules.\n\nAnalyze the following author information and determine the correct citation format:\n\nAuthor Information:\n{author_data}\n\nSource Type: {source_type}\nContext: {citation_context}\n\nTasks:\n1. Identify all authors (individual and institutional)\n2. Determine if 'et al.' should be used (>2 authors for most sources, >3 for cases)\n3. Handle name suffixes (Jr., Sr., III) correctly\n4. Format institutional authors properly\n5. Determine author order and formatting\n6. Identify any ambiguities or edge cases\n\nRules to apply:\n- For books/articles: Use 'et al.' if more than 2 authors\n- For cases: List all parties if ≤3, otherwise use first party + 'et al.'\n- Institutional authors: Use full name on first reference\n- Name suffixes: Include and format according to Bluebook Rule 10.2.1\n- Abbreviate 'and' to '&' between authors\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_authors", "author_count", "used_et_al", "confidence", "reasoning"],
+        "properties": {
+          "formatted_authors": {
+            "type": "string",
+            "description": "Properly formatted author string for citation"
+          },
+          "author_count": {
+            "type": "integer",
+            "description": "Total number of authors identified"
+          },
+          "used_et_al": {
+            "type": "boolean",
+            "description": "Whether et al. was used"
+          },
+          "primary_author_type": {
+            "type": "string",
+            "enum": ["individual", "institutional", "hybrid"],
+            "description": "Type of primary author"
+          },
+          "author_list": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "full_name": {"type": "string"},
+                "formatted_name": {"type": "string"},
+                "type": {"type": "string", "enum": ["individual", "institutional"]},
+                "suffix": {"type": "string"}
+              }
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Confidence score for the determination"
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List of any ambiguities or uncertainties"
+          },
+          "reasoning": {
+            "type": "string",
+            "description": "Explanation of formatting decisions"
+          },
+          "bluebook_rule": {
+            "type": "string",
+            "description": "Applicable Bluebook rule reference"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.75,
+        "requires_human_review": 0.85,
+        "auto_apply": 0.95
+      },
+      "examples": [
+        {
+          "input": {
+            "author_data": "John Smith Jr., Mary Johnson, Robert Williams III, Sarah Davis",
+            "source_type": "law_review_article",
+            "citation_context": "footnote"
+          },
+          "expected_output": {
+            "formatted_authors": "John Smith Jr. et al.",
+            "author_count": 4,
+            "used_et_al": true,
+            "primary_author_type": "individual",
+            "author_list": [
+              {"full_name": "John Smith Jr.", "formatted_name": "John Smith Jr.", "type": "individual", "suffix": "Jr."},
+              {"full_name": "Mary Johnson", "formatted_name": "Mary Johnson", "type": "individual", "suffix": ""},
+              {"full_name": "Robert Williams III", "formatted_name": "Robert Williams III", "type": "individual", "suffix": "III"},
+              {"full_name": "Sarah Davis", "formatted_name": "Sarah Davis", "type": "individual", "suffix": ""}
+            ],
+            "confidence": 0.98,
+            "ambiguities": [],
+            "reasoning": "Four individual authors for a law review article. Bluebook Rule 16.1 requires 'et al.' for more than 2 authors. First author's suffix (Jr.) is retained.",
+            "bluebook_rule": "Rule 16.1"
+          }
+        },
+        {
+          "input": {
+            "author_data": "American Law Institute; National Conference of Commissioners on Uniform State Laws",
+            "source_type": "institutional_publication",
+            "citation_context": "textual"
+          },
+          "expected_output": {
+            "formatted_authors": "Am. Law Inst. & Nat'l Conf. of Comm'rs on Unif. State Laws",
+            "author_count": 2,
+            "used_et_al": false,
+            "primary_author_type": "institutional",
+            "author_list": [
+              {"full_name": "American Law Institute", "formatted_name": "Am. Law Inst.", "type": "institutional", "suffix": ""},
+              {"full_name": "National Conference of Commissioners on Uniform State Laws", "formatted_name": "Nat'l Conf. of Comm'rs on Unif. State Laws", "type": "institutional", "suffix": ""}
+            ],
+            "confidence": 0.92,
+            "ambiguities": ["Abbreviation variations possible"],
+            "reasoning": "Two institutional authors joined by '&'. Abbreviated according to Bluebook Table T6 and Rule 15.1(c).",
+            "bluebook_rule": "Rule 15.1(c)"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.75, flag for human review",
+        "If author_count and author_list.length mismatch, reject",
+        "If used_et_al is true but author_count <= 2 for non-case sources, flag error",
+        "If institutional author lacks proper abbreviation, suggest review",
+        "Verify all suffixes match approved list (Jr., Sr., II, III, IV, etc.)"
+      ]
+    },
+    {
+      "id": "case_name_complexity",
+      "name": "Case Name Complexity",
+      "scenario_description": "Handles complex case name formatting including abbreviation decisions, party name omissions, procedural phrases, consolidations, and special case types (in re, ex parte, etc.).",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) case name formatting.\n\nAnalyze the following case name and determine the correct citation format:\n\nFull Case Name: {full_case_name}\nCourt: {court}\nCase Type: {case_type}\nCitation Context: {citation_context}\n\nTasks:\n1. Identify parties and determine which to include\n2. Apply appropriate abbreviations per Bluebook Rule 10.2 and Table T6\n3. Handle procedural phrases (e.g., 'In re', 'Ex parte', 'Ex rel.')\n4. Determine party omissions (consolidations, '& Anor.', 'et al.')\n5. Apply italicization rules\n6. Handle special case types (bankruptcy, admiralty, etc.)\n7. Remove or retain procedural posture indicators\n\nKey Rules:\n- Omit 'The' at beginning of party names (except The Federalist)\n- Abbreviate common words per Table T6 when >5 parties\n- For 'In re' cases: use single party name\n- For 'Ex parte' cases: use petitioner's name only\n- Remove 'State of', 'Commonwealth of', 'People of' when state/govt is party\n- Use '&' not 'and' between party names\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_case_name", "short_form", "confidence", "reasoning"],
+        "properties": {
+          "formatted_case_name": {
+            "type": "string",
+            "description": "Properly formatted full case name for citation"
+          },
+          "short_form": {
+            "type": "string",
+            "description": "Short form for subsequent references"
+          },
+          "case_type_classification": {
+            "type": "string",
+            "enum": ["adversarial", "in_re", "ex_parte", "ex_rel", "consolidated", "bankruptcy", "admiralty", "other"],
+            "description": "Classification of case type"
+          },
+          "parties": {
+            "type": "object",
+            "properties": {
+              "plaintiff": {"type": "string"},
+              "defendant": {"type": "string"},
+              "additional_parties": {"type": "array", "items": {"type": "string"}}
+            }
+          },
+          "abbreviations_applied": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "original": {"type": "string"},
+                "abbreviated": {"type": "string"},
+                "rule_reference": {"type": "string"}
+              }
+            }
+          },
+          "omissions": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Parts of original name omitted with reasons"
+          },
+          "procedural_phrases": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Procedural phrases identified and retained/removed"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.80,
+        "requires_human_review": 0.88,
+        "auto_apply": 0.96
+      },
+      "examples": [
+        {
+          "input": {
+            "full_case_name": "The United States of America v. Microsoft Corporation and Another",
+            "court": "D.C. Circuit",
+            "case_type": "adversarial",
+            "citation_context": "footnote"
+          },
+          "expected_output": {
+            "formatted_case_name": "United States v. Microsoft Corp.",
+            "short_form": "Microsoft",
+            "case_type_classification": "adversarial",
+            "parties": {
+              "plaintiff": "United States",
+              "defendant": "Microsoft Corporation",
+              "additional_parties": ["Another"]
+            },
+            "abbreviations_applied": [
+              {"original": "Corporation", "abbreviated": "Corp.", "rule_reference": "Table T6"}
+            ],
+            "omissions": [
+              "The - removed per Rule 10.2.1(a)",
+              "of America - removed per Rule 10.2.1(f)",
+              "and Another - removed per Rule 10.2.1(a)"
+            ],
+            "procedural_phrases": [],
+            "confidence": 0.97,
+            "ambiguities": [],
+            "reasoning": "Removed 'The' and 'of America' per Rule 10.2.1. Abbreviated 'Corporation' to 'Corp.' per Table T6. Omitted 'and Another' as it indicates additional unnamed parties.",
+            "bluebook_rule": "Rule 10.2, Table T6"
+          }
+        },
+        {
+          "input": {
+            "full_case_name": "In re: Estate of John Smith, Deceased",
+            "court": "Surrogate's Court",
+            "case_type": "in_re",
+            "citation_context": "footnote"
+          },
+          "expected_output": {
+            "formatted_case_name": "In re Estate of Smith",
+            "short_form": "Smith",
+            "case_type_classification": "in_re",
+            "parties": {
+              "plaintiff": "",
+              "defendant": "",
+              "additional_parties": []
+            },
+            "abbreviations_applied": [],
+            "omissions": [
+              "John - first name removed per Rule 10.2.1(g)",
+              "Deceased - descriptive term removed"
+            ],
+            "procedural_phrases": ["In re - retained per Rule 10.2.1(b)"],
+            "confidence": 0.95,
+            "ambiguities": [],
+            "reasoning": "'In re' cases use single party name with last name only. Removed first name 'John' and descriptive term 'Deceased' per Rule 10.2.1(g).",
+            "bluebook_rule": "Rule 10.2.1(b), (g)"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.80, flag for human review",
+        "Verify formatted_case_name is properly italicized",
+        "Ensure 'v.' appears in adversarial cases",
+        "Check that procedural phrases match case_type_classification",
+        "Validate abbreviations against Table T6",
+        "Ensure no double spaces or trailing punctuation",
+        "Verify short_form contains only party name without procedural phrases"
+      ]
+    },
+    {
+      "id": "citation_context",
+      "name": "Citation Context Determination",
+      "scenario_description": "Determines whether a citation should be formatted as textual (in-sentence) or parenthetical (standalone), and adjusts formatting accordingly including case name italicization, abbreviation levels, and punctuation.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) citation context analysis.\n\nAnalyze the following text and citation to determine the correct formatting based on context:\n\nFull Text: {full_text}\nCitation: {citation}\nSurrounding Sentences: {context_window}\n\nTasks:\n1. Determine if citation is textual (in-sentence) or parenthetical\n2. Identify grammatical role of citation in sentence\n3. Adjust case name formatting (abbreviation level varies by context)\n4. Determine punctuation requirements\n5. Assess if citation is embedded clause or standalone support\n6. Identify signal words and their proper formatting\n\nKey Rules:\n- Textual citation: Case name is part of sentence grammar, less abbreviation\n- Parenthetical citation: Full abbreviation per Table T6\n- Textual citations: Case name italicized, 'v.' not abbreviated\n- Signals (see, e.g., but see): italicized, followed by comma\n- Multiple citations: semicolon-separated in parenthetical\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["citation_type", "formatted_citation", "confidence", "reasoning"],
+        "properties": {
+          "citation_type": {
+            "type": "string",
+            "enum": ["textual", "parenthetical", "embedded"],
+            "description": "Type of citation based on grammatical context"
+          },
+          "formatted_citation": {
+            "type": "string",
+            "description": "Citation formatted according to determined context"
+          },
+          "grammatical_role": {
+            "type": "string",
+            "enum": ["subject", "object", "possessive", "standalone_support", "embedded_clause"],
+            "description": "Grammatical function of citation in sentence"
+          },
+          "signal_word": {
+            "type": "string",
+            "description": "Signal word if present (see, e.g., cf., but see, etc.)"
+          },
+          "signal_formatting": {
+            "type": "object",
+            "properties": {
+              "italicized": {"type": "boolean"},
+              "punctuation_after": {"type": "string"}
+            }
+          },
+          "case_name_treatment": {
+            "type": "object",
+            "properties": {
+              "abbreviation_level": {"type": "string", "enum": ["minimal", "standard", "full"]},
+              "italicized": {"type": "boolean"},
+              "parties_shown": {"type": "string"}
+            }
+          },
+          "punctuation_analysis": {
+            "type": "object",
+            "properties": {
+              "before_citation": {"type": "string"},
+              "after_citation": {"type": "string"},
+              "internal_commas": {"type": "boolean"}
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.78,
+        "requires_human_review": 0.87,
+        "auto_apply": 0.94
+      },
+      "examples": [
+        {
+          "input": {
+            "full_text": "The Supreme Court in Brown v. Board of Education established that separate educational facilities are inherently unequal.",
+            "citation": "Brown v. Board of Education, 347 U.S. 483 (1954)",
+            "context_window": "This principle has guided desegregation efforts for decades. The Supreme Court in Brown v. Board of Education established that separate educational facilities are inherently unequal. Subsequent cases have reinforced this holding."
+          },
+          "expected_output": {
+            "citation_type": "textual",
+            "formatted_citation": "Brown v. Board of Education, 347 U.S. 483 (1954)",
+            "grammatical_role": "object",
+            "signal_word": "",
+            "signal_formatting": {
+              "italicized": false,
+              "punctuation_after": ""
+            },
+            "case_name_treatment": {
+              "abbreviation_level": "minimal",
+              "italicized": true,
+              "parties_shown": "Brown v. Board of Education"
+            },
+            "punctuation_analysis": {
+              "before_citation": "in ",
+              "after_citation": " established",
+              "internal_commas": true
+            },
+            "confidence": 0.96,
+            "ambiguities": [],
+            "reasoning": "Citation is textual because case name serves as grammatical object of preposition 'in'. Case name is part of sentence structure. Minimal abbreviation used ('Board of Education' not abbreviated). No signal word present.",
+            "bluebook_rule": "Rule 10.2, B11"
+          }
+        },
+        {
+          "input": {
+            "full_text": "Separate educational facilities are inherently unequal. See Brown v. Bd. of Educ., 347 U.S. 483 (1954).",
+            "citation": "See Brown v. Bd. of Educ., 347 U.S. 483 (1954)",
+            "context_window": "This principle is well-established. Separate educational facilities are inherently unequal. See Brown v. Bd. of Educ., 347 U.S. 483 (1954). The holding has been consistently applied."
+          },
+          "expected_output": {
+            "citation_type": "parenthetical",
+            "formatted_citation": "See Brown v. Bd. of Educ., 347 U.S. 483 (1954).",
+            "grammatical_role": "standalone_support",
+            "signal_word": "See",
+            "signal_formatting": {
+              "italicized": true,
+              "punctuation_after": " "
+            },
+            "case_name_treatment": {
+              "abbreviation_level": "full",
+              "italicized": true,
+              "parties_shown": "Brown v. Bd. of Educ."
+            },
+            "punctuation_analysis": {
+              "before_citation": ". ",
+              "after_citation": ".",
+              "internal_commas": true
+            },
+            "confidence": 0.98,
+            "ambiguities": [],
+            "reasoning": "Citation is parenthetical (standalone support for proposition). Signal word 'See' indicates directly supporting authority. Full abbreviation applied ('Board of Education' → 'Bd. of Educ.'). Citation sentence ends with period after citation.",
+            "bluebook_rule": "Rule 1.2, 10.2, Table T6"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.78, flag for human review",
+        "Verify signal words are properly italicized if present",
+        "Ensure textual citations have minimal abbreviation",
+        "Confirm parenthetical citations have full abbreviation",
+        "Check punctuation consistency (comma before year, period at end)",
+        "Validate that case names are always italicized",
+        "Ensure 'v.' is not abbreviated in textual citations"
+      ]
+    },
+    {
+      "id": "nested_parentheticals",
+      "name": "Nested Parentheticals",
+      "scenario_description": "Handles complex parenthetical ordering, nesting, and formatting including explanatory parentheticals, weight of authority parentheticals, quotation parentheticals, and prior/subsequent history in parenthetical form.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) parenthetical formatting and ordering.\n\nAnalyze the following citation with parenthetical information:\n\nBase Citation: {base_citation}\nParenthetical Information: {parenthetical_data}\nContext: {context}\n\nTasks:\n1. Identify all parenthetical types (explanatory, weight, quotation, history)\n2. Determine correct ordering per Bluebook Rule 1.5\n3. Format nested parentheticals with proper punctuation\n4. Apply quotation marks and alterations correctly\n5. Handle 'quoting', 'citing', 'alteration in original' properly\n6. Ensure proper spacing and punctuation between parentheticals\n\nParenthetical Order (Rule 1.5):\n1. Weight of authority (per curiam, en banc, plurality, etc.)\n2. Explanatory information about holding/reasoning\n3. Quotations from the case\n4. Citations to other authorities (quoting, citing)\n5. Prior/subsequent history\n\nFormatting Rules:\n- Each parenthetical in separate parentheses\n- Space between consecutive parentheticals\n- Internal quotations use double quotes\n- Case names within parentheticals italicized\n- No period inside explanatory parentheticals unless complete sentence\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_citation", "parenthetical_count", "confidence", "reasoning"],
+        "properties": {
+          "formatted_citation": {
+            "type": "string",
+            "description": "Complete citation with properly ordered and formatted parentheticals"
+          },
+          "parenthetical_count": {
+            "type": "integer",
+            "description": "Number of parenthetical elements"
+          },
+          "parenthetical_breakdown": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["weight", "explanatory", "quotation", "citation_reference", "history"]
+                },
+                "content": {"type": "string"},
+                "order_position": {"type": "integer"},
+                "nested_level": {"type": "integer"}
+              }
+            }
+          },
+          "quotation_handling": {
+            "type": "object",
+            "properties": {
+              "has_quotations": {"type": "boolean"},
+              "quote_alterations": {"type": "array", "items": {"type": "string"}},
+              "attribution": {"type": "string"}
+            }
+          },
+          "cross_references": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {"type": "string", "enum": ["quoting", "citing", "referencing"]},
+                "cited_authority": {"type": "string"}
+              }
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.80,
+        "requires_human_review": 0.88,
+        "auto_apply": 0.95
+      },
+      "examples": [
+        {
+          "input": {
+            "base_citation": "Smith v. Jones, 500 U.S. 100, 105",
+            "parenthetical_data": [
+              {"type": "weight", "content": "plurality opinion"},
+              {"type": "explanatory", "content": "holding that statutory interpretation requires consideration of legislative history"},
+              {"type": "quotation", "content": "Legislative history is 'an important tool' in interpretation"},
+              {"type": "citation_reference", "content": "quoting Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837, 843 (1984)"}
+            ],
+            "context": "footnote"
+          },
+          "expected_output": {
+            "formatted_citation": "Smith v. Jones, 500 U.S. 100, 105 (plurality opinion) (holding that statutory interpretation requires consideration of legislative history) (\"Legislative history is 'an important tool' in interpretation\") (quoting Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837, 843 (1984))",
+            "parenthetical_count": 4,
+            "parenthetical_breakdown": [
+              {
+                "type": "weight",
+                "content": "plurality opinion",
+                "order_position": 1,
+                "nested_level": 1
+              },
+              {
+                "type": "explanatory",
+                "content": "holding that statutory interpretation requires consideration of legislative history",
+                "order_position": 2,
+                "nested_level": 1
+              },
+              {
+                "type": "quotation",
+                "content": "\"Legislative history is 'an important tool' in interpretation\"",
+                "order_position": 3,
+                "nested_level": 1
+              },
+              {
+                "type": "citation_reference",
+                "content": "quoting Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837, 843 (1984)",
+                "order_position": 4,
+                "nested_level": 1
+              }
+            ],
+            "quotation_handling": {
+              "has_quotations": true,
+              "quote_alterations": ["Single quotes within double quotes for nested quotation"],
+              "attribution": "quoting Chevron"
+            },
+            "cross_references": [
+              {
+                "type": "quoting",
+                "cited_authority": "Chevron U.S.A. Inc. v. Nat. Res. Def. Council, Inc., 467 U.S. 837, 843 (1984)"
+              }
+            ],
+            "confidence": 0.94,
+            "ambiguities": [],
+            "reasoning": "Parentheticals ordered per Rule 1.5: (1) weight of authority first, (2) explanatory holding second, (3) quotation third, (4) citation reference fourth. Nested quotation properly formatted with single quotes inside double quotes.",
+            "bluebook_rule": "Rule 1.5, 5.1"
+          }
+        },
+        {
+          "input": {
+            "base_citation": "Williams v. Taylor, 529 U.S. 362",
+            "parenthetical_data": [
+              {"type": "weight", "content": "6-3 decision"},
+              {"type": "explanatory", "content": "establishing standard for habeas review of state court decisions"},
+              {"type": "history", "content": "aff'g 163 F.3d 860 (4th Cir. 1998)"}
+            ],
+            "context": "footnote"
+          },
+          "expected_output": {
+            "formatted_citation": "Williams v. Taylor, 529 U.S. 362 (6-3 decision) (establishing standard for habeas review of state court decisions), aff'g 163 F.3d 860 (4th Cir. 1998)",
+            "parenthetical_count": 3,
+            "parenthetical_breakdown": [
+              {
+                "type": "weight",
+                "content": "6-3 decision",
+                "order_position": 1,
+                "nested_level": 1
+              },
+              {
+                "type": "explanatory",
+                "content": "establishing standard for habeas review of state court decisions",
+                "order_position": 2,
+                "nested_level": 1
+              },
+              {
+                "type": "history",
+                "content": "aff'g 163 F.3d 860 (4th Cir. 1998)",
+                "order_position": 3,
+                "nested_level": 0
+              }
+            ],
+            "quotation_handling": {
+              "has_quotations": false,
+              "quote_alterations": [],
+              "attribution": ""
+            },
+            "cross_references": [],
+            "confidence": 0.96,
+            "ambiguities": [],
+            "reasoning": "Weight and explanatory parentheticals come before subsequent history. History is not parenthetical but follows comma per Rule 10.7. Ordered: weight, explanatory, then history with proper punctuation.",
+            "bluebook_rule": "Rule 1.5, 10.7"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.80, flag for human review",
+        "Verify parenthetical order matches Rule 1.5 hierarchy",
+        "Ensure each parenthetical is properly enclosed in parentheses",
+        "Check that quotations use correct quote marks (double outer, single inner)",
+        "Validate spacing between consecutive parentheticals",
+        "Ensure prior/subsequent history follows comma, not parenthetical",
+        "Verify italicization of case names within parentheticals",
+        "Check that 'quoting' and 'citing' are not italicized"
+      ]
+    },
+    {
+      "id": "foreign_language_materials",
+      "name": "Foreign Language Materials",
+      "scenario_description": "Handles citation of foreign language materials including translation requirements, transliteration from non-Latin scripts, parallel language citations, and proper indication of translation sources.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) foreign language source citation.\n\nAnalyze the following foreign language material citation:\n\nOriginal Title: {original_title}\nLanguage: {source_language}\nScript: {script_type}\nTranslation Available: {has_translation}\nTranslation Source: {translation_source}\nPublication Info: {publication_info}\n\nTasks:\n1. Determine if translation is required in citation\n2. Apply proper transliteration for non-Latin scripts\n3. Format parallel language citations (original + translation)\n4. Indicate translation source and responsibility\n5. Handle diacritical marks and special characters\n6. Apply language-specific abbreviation rules\n7. Determine whether to romanize or translate title\n\nKey Rules (Rule 20):\n- Cite English translation if available and cite original in parallel\n- If no translation: provide English translation in brackets by you or source\n- Indicate who translated: '[Author's translation]' or '[J. Smith trans.]'\n- Transliterate non-Latin scripts per Rule 20.1.3\n- Preserve foreign language author names unless Anglicized version exists\n- Use language-specific abbreviations where applicable\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_citation", "translation_required", "confidence", "reasoning"],
+        "properties": {
+          "formatted_citation": {
+            "type": "string",
+            "description": "Complete citation with proper foreign language handling"
+          },
+          "translation_required": {
+            "type": "boolean",
+            "description": "Whether translation is required in citation"
+          },
+          "translation_handling": {
+            "type": "object",
+            "properties": {
+              "has_english_version": {"type": "boolean"},
+              "translator": {"type": "string"},
+              "translation_note": {"type": "string"},
+              "parallel_citation": {"type": "boolean"}
+            }
+          },
+          "transliteration": {
+            "type": "object",
+            "properties": {
+              "required": {"type": "boolean"},
+              "script_source": {"type": "string"},
+              "romanization_system": {"type": "string"},
+              "transliterated_title": {"type": "string"}
+            }
+          },
+          "language_info": {
+            "type": "object",
+            "properties": {
+              "source_language": {"type": "string"},
+              "language_family": {"type": "string"},
+              "special_characters": {"type": "array", "items": {"type": "string"}},
+              "diacriticals_preserved": {"type": "boolean"}
+            }
+          },
+          "original_citation": {
+            "type": "string",
+            "description": "Citation in original language"
+          },
+          "english_citation": {
+            "type": "string",
+            "description": "Citation with English translation"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.75,
+        "requires_human_review": 0.85,
+        "auto_apply": 0.93
+      },
+      "examples": [
+        {
+          "input": {
+            "original_title": "Code civil [C. civ.] [Civil Code] (Fr.)",
+            "source_language": "French",
+            "script_type": "Latin",
+            "has_translation": false,
+            "translation_source": "",
+            "publication_info": "Art. 1382"
+          },
+          "expected_output": {
+            "formatted_citation": "Code civil [C. civ.] [Civil Code] art. 1382 (Fr.)",
+            "translation_required": true,
+            "translation_handling": {
+              "has_english_version": false,
+              "translator": "standard",
+              "translation_note": "Civil Code",
+              "parallel_citation": true
+            },
+            "transliteration": {
+              "required": false,
+              "script_source": "Latin",
+              "romanization_system": "N/A",
+              "transliterated_title": ""
+            },
+            "language_info": {
+              "source_language": "French",
+              "language_family": "Romance",
+              "special_characters": [],
+              "diacriticals_preserved": true
+            },
+            "original_citation": "Code civil [C. civ.] art. 1382 (Fr.)",
+            "english_citation": "[Civil Code] art. 1382 (Fr.)",
+            "confidence": 0.97,
+            "ambiguities": [],
+            "reasoning": "French civil code cited with original title, abbreviation in first brackets, English translation in second brackets per Rule 20.5.1. Country designation (Fr.) indicates French source.",
+            "bluebook_rule": "Rule 20.5.1"
+          }
+        },
+        {
+          "input": {
+            "original_title": "Основы гражданского законодательства",
+            "source_language": "Russian",
+            "script_type": "Cyrillic",
+            "has_translation": false,
+            "translation_source": "author",
+            "publication_info": "1991, art. 15 (USSR)"
+          },
+          "expected_output": {
+            "formatted_citation": "Osnovy grazhdanskogo zakonodatel'stva [Fundamental Principles of Civil Legislation] art. 15 (USSR 1991) [author's translation]",
+            "translation_required": true,
+            "translation_handling": {
+              "has_english_version": false,
+              "translator": "author",
+              "translation_note": "[author's translation]",
+              "parallel_citation": true
+            },
+            "transliteration": {
+              "required": true,
+              "script_source": "Cyrillic",
+              "romanization_system": "BGN/PCGN",
+              "transliterated_title": "Osnovy grazhdanskogo zakonodatel'stva"
+            },
+            "language_info": {
+              "source_language": "Russian",
+              "language_family": "Slavic",
+              "special_characters": ["ь", "а", "о", "е"],
+              "diacriticals_preserved": true
+            },
+            "original_citation": "Osnovy grazhdanskogo zakonodatel'stva art. 15 (USSR 1991)",
+            "english_citation": "[Fundamental Principles of Civil Legislation] art. 15 (USSR 1991) [author's translation]",
+            "confidence": 0.89,
+            "ambiguities": ["Transliteration system choice may vary"],
+            "reasoning": "Cyrillic title transliterated using standard romanization. English translation provided in brackets with attribution to author per Rule 20.1.3. Country and year designation follows Bluebook format.",
+            "bluebook_rule": "Rule 20.1.3, 20.5"
+          }
+        },
+        {
+          "input": {
+            "original_title": "民法",
+            "source_language": "Chinese",
+            "script_type": "Chinese characters",
+            "has_translation": true,
+            "translation_source": "official",
+            "publication_info": "art. 106 (China)"
+          },
+          "expected_output": {
+            "formatted_citation": "Minfa [Civil Code] art. 106 (China)",
+            "translation_required": true,
+            "translation_handling": {
+              "has_english_version": true,
+              "translator": "official",
+              "translation_note": "",
+              "parallel_citation": true
+            },
+            "transliteration": {
+              "required": true,
+              "script_source": "Chinese characters",
+              "romanization_system": "Pinyin",
+              "transliterated_title": "Minfa"
+            },
+            "language_info": {
+              "source_language": "Chinese",
+              "language_family": "Sino-Tibetan",
+              "special_characters": ["民", "法"],
+              "diacriticals_preserved": false
+            },
+            "original_citation": "Minfa art. 106 (China)",
+            "english_citation": "[Civil Code] art. 106 (China)",
+            "confidence": 0.92,
+            "ambiguities": [],
+            "reasoning": "Chinese characters romanized using Pinyin system. English translation 'Civil Code' provided in brackets. No translator attribution needed for official/standard translation per Rule 20.1.3.",
+            "bluebook_rule": "Rule 20.1.3, 20.5"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.75, flag for human review",
+        "Verify transliteration system is appropriate for source language",
+        "Ensure English translation is provided in brackets for non-English titles",
+        "Check that translator attribution is included if non-official translation",
+        "Validate that diacritical marks are preserved where appropriate",
+        "Ensure country designation is included per Rule 20.5",
+        "Verify parallel citation format when both original and translation present",
+        "Check that romanization follows consistent system throughout"
+      ]
+    },
+    {
+      "id": "supra_hereinafter",
+      "name": "Supra and Hereinafter",
+      "scenario_description": "Determines when to use supra and hereinafter short forms, proper formatting with context, establishing hereinafter designations, and applying id. vs. supra rules correctly.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) short form citations, particularly supra and hereinafter.\n\nAnalyze the following citation context:\n\nCurrent Citation: {current_citation}\nPrevious Citations: {citation_history}\nSource Type: {source_type}\nPages Between References: {distance}\nIntervening Authorities: {intervening_cites}\n\nTasks:\n1. Determine if id., supra, or full citation is required\n2. Check if hereinafter designation was established\n3. Verify proper use of supra with page/note references\n4. Ensure id. is not used incorrectly (cases, statutes)\n5. Format supra with proper volume/page information\n6. Establish hereinafter for long/complex titles if first reference\n\nKey Rules:\n- Id.: Only when immediately preceding citation, same source\n- Supra: For books, articles, unpublished materials (NOT cases/statutes)\n- Hereinafter: Establish in first citation for complex titles\n- Cases: Use short case name, volume, reporter, at page\n- Statutes: Generally use full citation or recognized short form\n- Format: Author, supra note X, at Y (for footnotes)\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["short_form_type", "formatted_citation", "confidence", "reasoning"],
+        "properties": {
+          "short_form_type": {
+            "type": "string",
+            "enum": ["id", "supra", "hereinafter", "case_short_form", "full_citation", "not_applicable"],
+            "description": "Type of short form to use"
+          },
+          "formatted_citation": {
+            "type": "string",
+            "description": "Properly formatted short form citation"
+          },
+          "can_use_id": {
+            "type": "boolean",
+            "description": "Whether id. is permissible in this context"
+          },
+          "id_analysis": {
+            "type": "object",
+            "properties": {
+              "immediately_preceding": {"type": "boolean"},
+              "same_source": {"type": "boolean"},
+              "different_page": {"type": "boolean"},
+              "id_format": {"type": "string"}
+            }
+          },
+          "supra_analysis": {
+            "type": "object",
+            "properties": {
+              "applicable": {"type": "boolean"},
+              "note_reference": {"type": "string"},
+              "page_reference": {"type": "string"},
+              "volume_info": {"type": "string"},
+              "author_name": {"type": "string"}
+            }
+          },
+          "hereinafter_analysis": {
+            "type": "object",
+            "properties": {
+              "should_establish": {"type": "boolean"},
+              "already_established": {"type": "boolean"},
+              "designation": {"type": "string"},
+              "establishment_format": {"type": "string"}
+            }
+          },
+          "source_type_rules": {
+            "type": "object",
+            "properties": {
+              "allows_supra": {"type": "boolean"},
+              "allows_id": {"type": "boolean"},
+              "requires_full_citation": {"type": "boolean"},
+              "special_short_form": {"type": "string"}
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.82,
+        "requires_human_review": 0.90,
+        "auto_apply": 0.96
+      },
+      "examples": [
+        {
+          "input": {
+            "current_citation": "Reference to Smith article on page 45",
+            "citation_history": [
+              {"note": 15, "citation": "John Smith, The Future of Constitutional Law, 100 Harv. L. Rev. 23 (2020)"},
+              {"note": 18, "citation": "Brown v. Board of Education, 347 U.S. 483 (1954)"}
+            ],
+            "source_type": "law_review_article",
+            "distance": 3,
+            "intervening_cites": ["Brown v. Board of Education, 347 U.S. 483 (1954)"]
+          },
+          "expected_output": {
+            "short_form_type": "supra",
+            "formatted_citation": "Smith, supra note 15, at 45",
+            "can_use_id": false,
+            "id_analysis": {
+              "immediately_preceding": false,
+              "same_source": false,
+              "different_page": true,
+              "id_format": "N/A"
+            },
+            "supra_analysis": {
+              "applicable": true,
+              "note_reference": "note 15",
+              "page_reference": "at 45",
+              "volume_info": "",
+              "author_name": "Smith"
+            },
+            "hereinafter_analysis": {
+              "should_establish": false,
+              "already_established": false,
+              "designation": "",
+              "establishment_format": ""
+            },
+            "source_type_rules": {
+              "allows_supra": true,
+              "allows_id": true,
+              "requires_full_citation": false,
+              "special_short_form": ""
+            },
+            "confidence": 0.97,
+            "ambiguities": [],
+            "reasoning": "Law review article allows supra form. Cannot use id. because intervening citation exists. Use author's last name, supra, note reference to first citation, and specific page number per Rule 4.2.",
+            "bluebook_rule": "Rule 4.2, B9"
+          }
+        },
+        {
+          "input": {
+            "current_citation": "Need to cite International Covenant on Civil and Political Rights again",
+            "citation_history": [
+              {"note": 8, "citation": "International Covenant on Civil and Political Rights, Dec. 16, 1966, 999 U.N.T.S. 171 [hereinafter ICCPR]"},
+              {"note": 12, "citation": "ICCPR, supra note 8, art. 14"}
+            ],
+            "source_type": "treaty",
+            "distance": 5,
+            "intervening_cites": ["Smith v. Jones, 500 U.S. 100 (1990)", "Other Treaty, 1000 U.N.T.S. 1"]
+          },
+          "expected_output": {
+            "short_form_type": "hereinafter",
+            "formatted_citation": "ICCPR, supra note 8",
+            "can_use_id": false,
+            "id_analysis": {
+              "immediately_preceding": false,
+              "same_source": false,
+              "different_page": false,
+              "id_format": "N/A"
+            },
+            "supra_analysis": {
+              "applicable": true,
+              "note_reference": "note 8",
+              "page_reference": "",
+              "volume_info": "",
+              "author_name": ""
+            },
+            "hereinafter_analysis": {
+              "should_establish": false,
+              "already_established": true,
+              "designation": "ICCPR",
+              "establishment_format": "[hereinafter ICCPR]"
+            },
+            "source_type_rules": {
+              "allows_supra": true,
+              "allows_id": true,
+              "requires_full_citation": false,
+              "special_short_form": "hereinafter designation"
+            },
+            "confidence": 0.96,
+            "ambiguities": [],
+            "reasoning": "Hereinafter designation 'ICCPR' was established in note 8. Use the hereinafter short form with supra referring back to establishing note. Format: designation, supra note X per Rule 4.2(b).",
+            "bluebook_rule": "Rule 4.2(b), 21.7.1"
+          }
+        },
+        {
+          "input": {
+            "current_citation": "Same page reference as immediately preceding citation",
+            "citation_history": [
+              {"note": 25, "citation": "Richard Posner, Economic Analysis of Law 45 (9th ed. 2014)"}
+            ],
+            "source_type": "book",
+            "distance": 0,
+            "intervening_cites": []
+          },
+          "expected_output": {
+            "short_form_type": "id",
+            "formatted_citation": "Id.",
+            "can_use_id": true,
+            "id_analysis": {
+              "immediately_preceding": true,
+              "same_source": true,
+              "different_page": false,
+              "id_format": "Id."
+            },
+            "supra_analysis": {
+              "applicable": false,
+              "note_reference": "",
+              "page_reference": "",
+              "volume_info": "",
+              "author_name": ""
+            },
+            "hereinafter_analysis": {
+              "should_establish": false,
+              "already_established": false,
+              "designation": "",
+              "establishment_format": ""
+            },
+            "source_type_rules": {
+              "allows_supra": true,
+              "allows_id": true,
+              "requires_full_citation": false,
+              "special_short_form": ""
+            },
+            "confidence": 0.99,
+            "ambiguities": [],
+            "reasoning": "Id. is proper because citation immediately follows previous citation with no intervening authorities and refers to same page. Use 'Id.' per Rule 4.1.",
+            "bluebook_rule": "Rule 4.1, B9.1"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.82, flag for human review",
+        "Never use id. for cases in law review footnotes (use short form instead)",
+        "Never use supra for cases or statutes",
+        "Verify hereinafter designation was actually established before using it",
+        "Ensure id. only follows immediately preceding citation",
+        "Check that supra includes proper note reference",
+        "Validate page references use 'at' before page number",
+        "Confirm source type allows the short form being used"
+      ]
+    },
+    {
+      "id": "prior_subsequent_history",
+      "name": "Prior and Subsequent History",
+      "scenario_description": "Determines which case history to include, proper abbreviations for procedural phrases, ordering of multiple histories, and when history can be omitted.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) case history citation.\n\nAnalyze the following case history information:\n\nMain Case: {main_case}\nPrior History: {prior_history}\nSubsequent History: {subsequent_history}\nCase Status: {current_status}\nCitation Purpose: {citation_purpose}\n\nTasks:\n1. Determine which history is relevant to include\n2. Apply proper abbreviations (aff'g, rev'g, cert. denied, etc.)\n3. Order multiple history items correctly\n4. Assess if history can be omitted per Rule 10.7.1(b)\n5. Format history with proper punctuation and spacing\n6. Include explanatory parentheticals if needed\n\nKey Rules (Rule 10.7):\n- Generally include subsequent history\n- Include prior history only if significant\n- Use italicized procedural phrases (cert. denied, aff'g, etc.)\n- Separate from main citation with comma\n- Omit history for well-known cases if irrelevant\n- Order: main case, prior history, subsequent history\n\nAbbreviations (Table T8):\n- affirmed: aff'd\n- affirming: aff'g\n- reversed: rev'd\n- certiorari denied: cert. denied\n- appeal dismissed: appeal dismissed\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_citation", "history_included", "confidence", "reasoning"],
+        "properties": {
+          "formatted_citation": {
+            "type": "string",
+            "description": "Complete citation with properly formatted history"
+          },
+          "history_included": {
+            "type": "boolean",
+            "description": "Whether any history was included"
+          },
+          "history_breakdown": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {"type": "string", "enum": ["prior", "subsequent"]},
+                "procedural_phrase": {"type": "string"},
+                "case_citation": {"type": "string"},
+                "year": {"type": "string"},
+                "order_position": {"type": "integer"},
+                "significance": {"type": "string", "enum": ["required", "recommended", "optional", "omitted"]}
+              }
+            }
+          },
+          "procedural_phrases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "full_phrase": {"type": "string"},
+                "abbreviated": {"type": "string"},
+                "italicized": {"type": "boolean"}
+              }
+            }
+          },
+          "omission_analysis": {
+            "type": "object",
+            "properties": {
+              "can_omit": {"type": "boolean"},
+              "omission_reason": {"type": "string"},
+              "rule_reference": {"type": "string"}
+            }
+          },
+          "relevance_assessment": {
+            "type": "object",
+            "properties": {
+              "prior_history_relevant": {"type": "boolean"},
+              "subsequent_history_relevant": {"type": "boolean"},
+              "explanatory_parenthetical_needed": {"type": "boolean"}
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.80,
+        "requires_human_review": 0.88,
+        "auto_apply": 0.94
+      },
+      "examples": [
+        {
+          "input": {
+            "main_case": "Johnson v. Transportation Agency, 480 U.S. 616 (1987)",
+            "prior_history": [
+              {"citation": "770 F.2d 752 (9th Cir. 1985)", "procedural_phrase": "affirming"}
+            ],
+            "subsequent_history": [],
+            "current_status": "final",
+            "citation_purpose": "supporting_authority"
+          },
+          "expected_output": {
+            "formatted_citation": "Johnson v. Transp. Agency, 480 U.S. 616 (1987)",
+            "history_included": false,
+            "history_breakdown": [
+              {
+                "type": "prior",
+                "procedural_phrase": "aff'g",
+                "case_citation": "770 F.2d 752 (9th Cir. 1985)",
+                "year": "1985",
+                "order_position": 1,
+                "significance": "omitted"
+              }
+            ],
+            "procedural_phrases": [],
+            "omission_analysis": {
+              "can_omit": true,
+              "omission_reason": "Prior history of Supreme Court case is generally not included unless particularly relevant to the point cited",
+              "rule_reference": "Rule 10.7.1"
+            },
+            "relevance_assessment": {
+              "prior_history_relevant": false,
+              "subsequent_history_relevant": false,
+              "explanatory_parenthetical_needed": false
+            },
+            "confidence": 0.96,
+            "ambiguities": [],
+            "reasoning": "Supreme Court decision with prior appellate history. Per Rule 10.7.1, prior history of Supreme Court cases is typically omitted unless significant to discussion. No subsequent history exists.",
+            "bluebook_rule": "Rule 10.7.1"
+          }
+        },
+        {
+          "input": {
+            "main_case": "Smith v. Jones, 500 F.3d 100 (2d Cir. 2008)",
+            "prior_history": [],
+            "subsequent_history": [
+              {"citation": "cert. denied, 555 U.S. 1100 (2009)", "procedural_phrase": "certiorari denied"}
+            ],
+            "current_status": "final_cert_denied",
+            "citation_purpose": "supporting_authority"
+          },
+          "expected_output": {
+            "formatted_citation": "Smith v. Jones, 500 F.3d 100 (2d Cir. 2008), cert. denied, 555 U.S. 1100 (2009)",
+            "history_included": true,
+            "history_breakdown": [
+              {
+                "type": "subsequent",
+                "procedural_phrase": "cert. denied",
+                "case_citation": "555 U.S. 1100 (2009)",
+                "year": "2009",
+                "order_position": 1,
+                "significance": "required"
+              }
+            ],
+            "procedural_phrases": [
+              {
+                "full_phrase": "certiorari denied",
+                "abbreviated": "cert. denied",
+                "italicized": true
+              }
+            ],
+            "omission_analysis": {
+              "can_omit": false,
+              "omission_reason": "Subsequent history showing cert. denied should be included per Rule 10.7",
+              "rule_reference": "Rule 10.7"
+            },
+            "relevance_assessment": {
+              "prior_history_relevant": false,
+              "subsequent_history_relevant": true,
+              "explanatory_parenthetical_needed": false
+            },
+            "confidence": 0.98,
+            "ambiguities": [],
+            "reasoning": "Circuit court decision with cert. denied. Subsequent history included per Rule 10.7 showing Supreme Court denied review. Comma separates main citation from history. 'cert. denied' italicized per Table T8.",
+            "bluebook_rule": "Rule 10.7, Table T8"
+          }
+        },
+        {
+          "input": {
+            "main_case": "Williams v. Taylor, 163 F.3d 860 (4th Cir. 1998)",
+            "prior_history": [
+              {"citation": "940 F. Supp. 1196 (E.D. Va. 1996)", "procedural_phrase": "reversing"}
+            ],
+            "subsequent_history": [
+              {"citation": "reversed, 529 U.S. 362 (2000)", "procedural_phrase": "reversed"}
+            ],
+            "current_status": "reversed",
+            "citation_purpose": "compare_holding"
+          },
+          "expected_output": {
+            "formatted_citation": "Williams v. Taylor, 163 F.3d 860 (4th Cir. 1998), rev'd, 529 U.S. 362 (2000)",
+            "history_included": true,
+            "history_breakdown": [
+              {
+                "type": "prior",
+                "procedural_phrase": "rev'g",
+                "case_citation": "940 F. Supp. 1196 (E.D. Va. 1996)",
+                "year": "1996",
+                "order_position": 1,
+                "significance": "omitted"
+              },
+              {
+                "type": "subsequent",
+                "procedural_phrase": "rev'd",
+                "case_citation": "529 U.S. 362 (2000)",
+                "year": "2000",
+                "order_position": 2,
+                "significance": "required"
+              }
+            ],
+            "procedural_phrases": [
+              {
+                "full_phrase": "reversed",
+                "abbreviated": "rev'd",
+                "italicized": true
+              }
+            ],
+            "omission_analysis": {
+              "can_omit": false,
+              "omission_reason": "Subsequent history showing reversal must be included",
+              "rule_reference": "Rule 10.7"
+            },
+            "relevance_assessment": {
+              "prior_history_relevant": false,
+              "subsequent_history_relevant": true,
+              "explanatory_parenthetical_needed": false
+            },
+            "confidence": 0.97,
+            "ambiguities": [],
+            "reasoning": "Circuit decision later reversed by Supreme Court. Subsequent history showing reversal is required per Rule 10.7. Prior history omitted as not significant. Used 'rev'd' abbreviation per Table T8.",
+            "bluebook_rule": "Rule 10.7, Table T8"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.80, flag for human review",
+        "Always include subsequent history showing reversal, affirmance, or modification",
+        "Include cert. denied history for circuit court decisions",
+        "Verify procedural phrases are properly italicized",
+        "Check abbreviations match Table T8",
+        "Ensure comma separates main citation from history",
+        "Confirm year is included for history citations",
+        "Validate that omitted prior history is truly insignificant"
+      ]
+    },
+    {
+      "id": "quote_alterations",
+      "name": "Quote Alterations",
+      "scenario_description": "Handles proper bracket placement for quote alterations, [sic] usage, emphasis additions, omissions with ellipses, and indicating changes to original quotations.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) quotation alteration rules.\n\nAnalyze the following quotation and alterations:\n\nOriginal Quote: {original_quote}\nProposed Alterations: {proposed_alterations}\nContext: {quotation_context}\nReason for Alteration: {alteration_reason}\n\nTasks:\n1. Verify proper use of brackets for alterations\n2. Determine if [sic] is necessary and properly placed\n3. Handle emphasis additions/omissions correctly\n4. Apply ellipsis rules for omissions\n5. Check capitalization changes and bracket usage\n6. Verify 'alteration in original' vs. 'emphasis added' notations\n\nKey Rules (Rule 5):\n- Brackets [ ] for alterations, changes, or insertions\n- [sic] immediately after error in original\n- (emphasis added) or (emphasis omitted) in parenthetical\n- Ellipsis (...) for omissions, not at beginning\n- Capitalize first letter with bracket if needed for sentence\n- 'alteration in original' if quote already had alterations\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_quote", "alterations_count", "confidence", "reasoning"],
+        "properties": {
+          "formatted_quote": {
+            "type": "string",
+            "description": "Properly formatted quotation with all alterations indicated"
+          },
+          "alterations_count": {
+            "type": "integer",
+            "description": "Number of alterations made"
+          },
+          "alterations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["substitution", "addition", "omission", "capitalization", "emphasis", "sic", "clarification"]
+                },
+                "original_text": {"type": "string"},
+                "altered_text": {"type": "string"},
+                "notation": {"type": "string"},
+                "location": {"type": "string"}
+              }
+            }
+          },
+          "sic_usage": {
+            "type": "object",
+            "properties": {
+              "used": {"type": "boolean"},
+              "locations": {"type": "array", "items": {"type": "string"}},
+              "justification": {"type": "string"}
+            }
+          },
+          "emphasis_notation": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string", "enum": ["added", "omitted", "in_original", "none"]},
+              "format": {"type": "string"},
+              "placement": {"type": "string"}
+            }
+          },
+          "ellipsis_usage": {
+            "type": "object",
+            "properties": {
+              "used": {"type": "boolean"},
+              "count": {"type": "integer"},
+              "locations": {"type": "array", "items": {"type": "string"}},
+              "proper_spacing": {"type": "boolean"}
+            }
+          },
+          "bracket_analysis": {
+            "type": "object",
+            "properties": {
+              "total_brackets": {"type": "integer"},
+              "bracket_types": {"type": "array", "items": {"type": "string"}},
+              "all_necessary": {"type": "boolean"}
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.82,
+        "requires_human_review": 0.90,
+        "auto_apply": 0.96
+      },
+      "examples": [
+        {
+          "input": {
+            "original_quote": "the defendant was not present at the crime scene",
+            "proposed_alterations": [
+              {"type": "capitalization", "change": "Capitalize 'the' to 'The' for sentence start"}
+            ],
+            "quotation_context": "beginning_of_sentence",
+            "alteration_reason": "grammatical_integration"
+          },
+          "expected_output": {
+            "formatted_quote": "[T]he defendant was not present at the crime scene",
+            "alterations_count": 1,
+            "alterations": [
+              {
+                "type": "capitalization",
+                "original_text": "the",
+                "altered_text": "[T]he",
+                "notation": "bracketed capital letter",
+                "location": "first word"
+              }
+            ],
+            "sic_usage": {
+              "used": false,
+              "locations": [],
+              "justification": "N/A"
+            },
+            "emphasis_notation": {
+              "type": "none",
+              "format": "",
+              "placement": ""
+            },
+            "ellipsis_usage": {
+              "used": false,
+              "count": 0,
+              "locations": [],
+              "proper_spacing": true
+            },
+            "bracket_analysis": {
+              "total_brackets": 1,
+              "bracket_types": ["capitalization"],
+              "all_necessary": true
+            },
+            "confidence": 0.99,
+            "ambiguities": [],
+            "reasoning": "Original quote began with lowercase 'the'. When used at beginning of sentence, capitalize with brackets per Rule 5.2. Format: [T]he shows alteration from original lowercase.",
+            "bluebook_rule": "Rule 5.2"
+          }
+        },
+        {
+          "input": {
+            "original_quote": "The court found that the statute was unconstitutional and therefore invalid",
+            "proposed_alterations": [
+              {"type": "omission", "change": "Remove 'and therefore invalid'"},
+              {"type": "emphasis", "change": "Add emphasis to 'unconstitutional'"}
+            ],
+            "quotation_context": "mid_sentence",
+            "alteration_reason": "focus_on_key_point"
+          },
+          "expected_output": {
+            "formatted_quote": "The court found that the statute was unconstitutional . . . . (emphasis added)",
+            "alterations_count": 2,
+            "alterations": [
+              {
+                "type": "omission",
+                "original_text": "and therefore invalid",
+                "altered_text": ". . . .",
+                "notation": "ellipsis with spaces",
+                "location": "end of quote"
+              },
+              {
+                "type": "emphasis",
+                "original_text": "unconstitutional",
+                "altered_text": "unconstitutional",
+                "notation": "(emphasis added)",
+                "location": "parenthetical at end"
+              }
+            ],
+            "sic_usage": {
+              "used": false,
+              "locations": [],
+              "justification": "N/A"
+            },
+            "emphasis_notation": {
+              "type": "added",
+              "format": "(emphasis added)",
+              "placement": "end of citation"
+            },
+            "ellipsis_usage": {
+              "used": true,
+              "count": 1,
+              "locations": ["end of sentence"],
+              "proper_spacing": true
+            },
+            "bracket_analysis": {
+              "total_brackets": 0,
+              "bracket_types": [],
+              "all_necessary": true
+            },
+            "confidence": 0.95,
+            "ambiguities": [],
+            "reasoning": "Omitted end of sentence using four-dot ellipsis (three for ellipsis, one for period) per Rule 5.3. Added emphasis indicated in parenthetical per Rule 5.2. Space before and after ellipsis dots.",
+            "bluebook_rule": "Rule 5.2, 5.3"
+          }
+        },
+        {
+          "input": {
+            "original_quote": "The defendent [sic] had no alibi for the night in question",
+            "proposed_alterations": [
+              {"type": "sic", "change": "Indicate error in 'defendent'"}
+            ],
+            "quotation_context": "standalone",
+            "alteration_reason": "preserve_original_error"
+          },
+          "expected_output": {
+            "formatted_quote": "The defendent [sic] had no alibi for the night in question",
+            "alterations_count": 1,
+            "alterations": [
+              {
+                "type": "sic",
+                "original_text": "defendent",
+                "altered_text": "defendent [sic]",
+                "notation": "[sic]",
+                "location": "after misspelling"
+              }
+            ],
+            "sic_usage": {
+              "used": true,
+              "locations": ["after 'defendent'"],
+              "justification": "Original contained misspelling of 'defendant', preserved with [sic] to indicate error in source"
+            },
+            "emphasis_notation": {
+              "type": "none",
+              "format": "",
+              "placement": ""
+            },
+            "ellipsis_usage": {
+              "used": false,
+              "count": 0,
+              "locations": [],
+              "proper_spacing": true
+            },
+            "bracket_analysis": {
+              "total_brackets": 1,
+              "bracket_types": ["sic"],
+              "all_necessary": true
+            },
+            "confidence": 0.98,
+            "ambiguities": [],
+            "reasoning": "[sic] properly placed immediately after error in original. Indicates misspelling of 'defendant' was in source material, not transcription error. Brackets indicate editorial insertion per Rule 5.2.",
+            "bluebook_rule": "Rule 5.2"
+          }
+        },
+        {
+          "input": {
+            "original_quote": "We hold that the Fourth Amendment protects people, not places",
+            "proposed_alterations": [
+              {"type": "substitution", "original": "Fourth Amendment", "replacement": "Constitution"},
+              {"type": "clarification", "add": "the U.S. Constitution" }
+            ],
+            "quotation_context": "supporting_citation",
+            "alteration_reason": "clarify_reference"
+          },
+          "expected_output": {
+            "formatted_quote": "We hold that the [Constitution] protects people, not places",
+            "alterations_count": 1,
+            "alterations": [
+              {
+                "type": "substitution",
+                "original_text": "Fourth Amendment",
+                "altered_text": "[Constitution]",
+                "notation": "bracketed substitution",
+                "location": "mid-quote"
+              }
+            ],
+            "sic_usage": {
+              "used": false,
+              "locations": [],
+              "justification": "N/A"
+            },
+            "emphasis_notation": {
+              "type": "none",
+              "format": "",
+              "placement": ""
+            },
+            "ellipsis_usage": {
+              "used": false,
+              "count": 0,
+              "locations": [],
+              "proper_spacing": true
+            },
+            "bracket_analysis": {
+              "total_brackets": 1,
+              "bracket_types": ["substitution"],
+              "all_necessary": true
+            },
+            "confidence": 0.93,
+            "ambiguities": ["Substitution changes meaning significantly; consider using ellipsis and separate citation instead"],
+            "reasoning": "Substituted 'Fourth Amendment' with 'Constitution' in brackets per Rule 5.2. However, this alteration significantly changes the quote's specificity. May be better to use partial quote or parenthetical explanation.",
+            "bluebook_rule": "Rule 5.2"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.82, flag for human review",
+        "Verify all brackets are paired and properly formatted",
+        "Check that [sic] only appears after actual errors in original",
+        "Ensure emphasis notations use parentheses, not brackets",
+        "Validate ellipsis spacing (space before and after)",
+        "Confirm capitalization changes use brackets: [T]he",
+        "Check that alterations don't materially change quote meaning",
+        "Verify 'emphasis added' or 'emphasis omitted' placement at end",
+        "Ensure no unnecessary [sic] usage (don't overcorrect)"
+      ]
+    },
+    {
+      "id": "parallel_citations",
+      "name": "Parallel Citations",
+      "scenario_description": "Determines when parallel citations are required, proper ordering of reporters (official before unofficial), regional/state reporter combinations, and jurisdiction-specific rules.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) parallel citation requirements.\n\nAnalyze the following case citation for parallel citation needs:\n\nPrimary Citation: {primary_citation}\nJurisdiction: {jurisdiction}\nCourt: {court}\nAvailable Reporters: {available_reporters}\nCitation Audience: {audience}\nDocument Type: {document_type}\n\nTasks:\n1. Determine if parallel citations are required\n2. Identify official vs. unofficial reporters\n3. Order reporters correctly (official first, then regional)\n4. Apply jurisdiction-specific rules (state court local rules)\n5. Format parallel citations with proper punctuation\n6. Handle public domain citations if applicable\n\nKey Rules (Rule 10.3.1, Table T1):\n- Practitioners: Include all parallel citations required by local rules\n- Academic: Cite only to regional reporter for state cases (unless unique)\n- Official reporter before unofficial\n- State reporter, then regional reporter (e.g., N.E., P., S.W.)\n- U.S. Supreme Court: Only cite U.S. Reports (official)\n- Public domain: Include if jurisdiction requires\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_citation", "parallel_required", "confidence", "reasoning"],
+        "properties": {
+          "formatted_citation": {
+            "type": "string",
+            "description": "Complete citation with proper parallel citations"
+          },
+          "parallel_required": {
+            "type": "boolean",
+            "description": "Whether parallel citations are required"
+          },
+          "citation_format": {
+            "type": "string",
+            "enum": ["academic", "practitioner", "public_domain"],
+            "description": "Format type used"
+          },
+          "reporters_used": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "reporter_name": {"type": "string"},
+                "reporter_abbreviation": {"type": "string"},
+                "type": {"type": "string", "enum": ["official", "unofficial", "regional", "public_domain"]},
+                "order_position": {"type": "integer"},
+                "volume": {"type": "string"},
+                "page": {"type": "string"}
+              }
+            }
+          },
+          "jurisdiction_rules": {
+            "type": "object",
+            "properties": {
+              "state": {"type": "string"},
+              "local_rules_require_parallel": {"type": "boolean"},
+              "specific_requirements": {"type": "string"},
+              "public_domain_available": {"type": "boolean"}
+            }
+          },
+          "ordering_rationale": {
+            "type": "string",
+            "description": "Explanation of reporter ordering"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.78,
+        "requires_human_review": 0.86,
+        "auto_apply": 0.94
+      },
+      "examples": [
+        {
+          "input": {
+            "primary_citation": "People v. Smith",
+            "jurisdiction": "Illinois",
+            "court": "Illinois Supreme Court",
+            "available_reporters": [
+              {"name": "Illinois Reports", "abbrev": "Ill.", "volume": "200", "page": "100", "type": "official"},
+              {"name": "North Eastern Reporter", "abbrev": "N.E.2d", "volume": "650", "page": "500", "type": "regional"}
+            ],
+            "audience": "practitioner",
+            "document_type": "brief"
+          },
+          "expected_output": {
+            "formatted_citation": "People v. Smith, 200 Ill. 100, 650 N.E.2d 500",
+            "parallel_required": true,
+            "citation_format": "practitioner",
+            "reporters_used": [
+              {
+                "reporter_name": "Illinois Reports",
+                "reporter_abbreviation": "Ill.",
+                "type": "official",
+                "order_position": 1,
+                "volume": "200",
+                "page": "100"
+              },
+              {
+                "reporter_name": "North Eastern Reporter",
+                "reporter_abbreviation": "N.E.2d",
+                "type": "regional",
+                "order_position": 2,
+                "volume": "650",
+                "page": "500"
+              }
+            ],
+            "jurisdiction_rules": {
+              "state": "Illinois",
+              "local_rules_require_parallel": true,
+              "specific_requirements": "Illinois Supreme Court Rule 6 requires parallel citations to official and regional reporters",
+              "public_domain_available": false
+            },
+            "ordering_rationale": "Official state reporter (Ill.) cited first, followed by regional reporter (N.E.2d) per Rule 10.3.1 and Table T1",
+            "confidence": 0.97,
+            "ambiguities": [],
+            "reasoning": "Practitioner document citing Illinois Supreme Court requires parallel citations per local rules. Official Illinois Reports cited first, then North Eastern Reporter. No parenthetical court designation needed as 'Ill.' identifies court.",
+            "bluebook_rule": "Rule 10.3.1, Table T1"
+          }
+        },
+        {
+          "input": {
+            "primary_citation": "Johnson v. State",
+            "jurisdiction": "Maryland",
+            "court": "Court of Appeals of Maryland",
+            "available_reporters": [
+              {"name": "Maryland Reports", "abbrev": "Md.", "volume": "450", "page": "200", "type": "official"},
+              {"name": "Atlantic Reporter", "abbrev": "A.3d", "volume": "100", "page": "50", "type": "regional"}
+            ],
+            "audience": "academic",
+            "document_type": "law_review"
+          },
+          "expected_output": {
+            "formatted_citation": "Johnson v. State, 100 A.3d 50 (Md. 2015)",
+            "parallel_required": false,
+            "citation_format": "academic",
+            "reporters_used": [
+              {
+                "reporter_name": "Atlantic Reporter",
+                "reporter_abbreviation": "A.3d",
+                "type": "regional",
+                "order_position": 1,
+                "volume": "100",
+                "page": "50"
+              }
+            ],
+            "jurisdiction_rules": {
+              "state": "Maryland",
+              "local_rules_require_parallel": true,
+              "specific_requirements": "Practitioners must cite both Md. and A.3d; academic writing uses regional only",
+              "public_domain_available": false
+            },
+            "ordering_rationale": "Academic citation uses only regional reporter per Bluebook Rule 10.3.1(b)",
+            "confidence": 0.96,
+            "ambiguities": [],
+            "reasoning": "Academic writing (law review) cites only to regional reporter (Atlantic) per Rule 10.3.1(b). Court designation (Md.) in parenthetical identifies Maryland Court of Appeals. Year required in academic format.",
+            "bluebook_rule": "Rule 10.3.1(b), Table T1"
+          }
+        },
+        {
+          "input": {
+            "primary_citation": "Brown v. Board of Education",
+            "jurisdiction": "Federal",
+            "court": "U.S. Supreme Court",
+            "available_reporters": [
+              {"name": "United States Reports", "abbrev": "U.S.", "volume": "347", "page": "483", "type": "official"},
+              {"name": "Supreme Court Reporter", "abbrev": "S. Ct.", "volume": "74", "page": "686", "type": "unofficial"},
+              {"name": "Lawyer's Edition", "abbrev": "L. Ed.", "volume": "98", "page": "873", "type": "unofficial"}
+            ],
+            "audience": "academic",
+            "document_type": "law_review"
+          },
+          "expected_output": {
+            "formatted_citation": "Brown v. Board of Education, 347 U.S. 483 (1954)",
+            "parallel_required": false,
+            "citation_format": "academic",
+            "reporters_used": [
+              {
+                "reporter_name": "United States Reports",
+                "reporter_abbreviation": "U.S.",
+                "type": "official",
+                "order_position": 1,
+                "volume": "347",
+                "page": "483"
+              }
+            ],
+            "jurisdiction_rules": {
+              "state": "Federal",
+              "local_rules_require_parallel": false,
+              "specific_requirements": "Cite only to U.S. Reports (official reporter) per Rule 10.3.1(a)",
+              "public_domain_available": false
+            },
+            "ordering_rationale": "U.S. Supreme Court cases cite only to official U.S. Reports",
+            "confidence": 0.99,
+            "ambiguities": [],
+            "reasoning": "U.S. Supreme Court cases cite only to official U.S. Reports per Rule 10.3.1(a). Never cite parallel reporters (S. Ct. or L. Ed.) for Supreme Court cases with U.S. Reports citation.",
+            "bluebook_rule": "Rule 10.3.1(a)"
+          }
+        },
+        {
+          "input": {
+            "primary_citation": "State v. Williams",
+            "jurisdiction": "North Dakota",
+            "court": "North Dakota Supreme Court",
+            "available_reporters": [
+              {"name": "North Western Reporter", "abbrev": "N.W.2d", "volume": "800", "page": "450", "type": "regional"}
+            ],
+            "audience": "practitioner",
+            "document_type": "brief"
+          },
+          "expected_output": {
+            "formatted_citation": "State v. Williams, 2018 ND 100, 800 N.W.2d 450",
+            "parallel_required": true,
+            "citation_format": "public_domain",
+            "reporters_used": [
+              {
+                "reporter_name": "North Dakota Public Domain",
+                "reporter_abbreviation": "ND",
+                "type": "public_domain",
+                "order_position": 1,
+                "volume": "2018",
+                "page": "100"
+              },
+              {
+                "reporter_name": "North Western Reporter",
+                "reporter_abbreviation": "N.W.2d",
+                "type": "regional",
+                "order_position": 2,
+                "volume": "800",
+                "page": "450"
+              }
+            ],
+            "jurisdiction_rules": {
+              "state": "North Dakota",
+              "local_rules_require_parallel": true,
+              "specific_requirements": "North Dakota requires public domain citation first, followed by regional reporter",
+              "public_domain_available": true
+            },
+            "ordering_rationale": "Public domain citation first (2018 ND 100), then regional reporter (N.W.2d) per North Dakota adoption of public domain format",
+            "confidence": 0.95,
+            "ambiguities": [],
+            "reasoning": "North Dakota adopted public domain citations. Format: Year Court SequenceNumber, Volume Reporter Page. Public domain cited first, then parallel to N.W.2d per Table T1 and Rule 10.3.3.",
+            "bluebook_rule": "Rule 10.3.3, Table T1"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.78, flag for human review",
+        "Verify jurisdiction's parallel citation requirements in Table T1",
+        "Ensure official reporter precedes unofficial/regional reporters",
+        "Check that U.S. Supreme Court cites only to U.S. Reports",
+        "Validate public domain format for jurisdictions that require it",
+        "Confirm practitioner vs. academic format matches document type",
+        "Verify reporter abbreviations match Table T1",
+        "Ensure proper comma separation between parallel citations",
+        "Check that court designation is omitted when reporter makes it clear"
+      ]
+    },
+    {
+      "id": "electronic_source_stability",
+      "name": "Electronic Source Stability",
+      "scenario_description": "Determines archive requirements for electronic sources, URL handling, permalink usage, DOI citations, and when to include access dates for unstable online materials.",
+      "prompt_template": "You are a legal citation validation expert specializing in Bluebook (21st ed.) electronic source citation.\n\nAnalyze the following electronic source:\n\nSource Type: {source_type}\nURL: {url}\nDOI Available: {has_doi}\nArchive Available: {archive_info}\nLast Updated: {last_updated}\nAccess Date: {access_date}\nStability Assessment: {stability}\n\nTasks:\n1. Determine if URL citation is required or preferred\n2. Assess source stability and permanence\n3. Decide if archive link (Perma.cc, Internet Archive) needed\n4. Apply DOI citation rules if available\n5. Determine if access date is required\n6. Format electronic citation with proper parentheticals\n7. Handle paywalled or subscription-required sources\n\nKey Rules (Rule 18):\n- Prefer DOI over URL when available\n- Use Perma.cc or archive.org for unstable sources\n- Include access date for sources likely to change\n- Indicate if commercial database required\n- Use permanent/stable URLs (not session-specific)\n- Include 'archived at' parenthetical for archives\n\nProvide your analysis in the specified JSON format.",
+      "expected_output_schema": {
+        "type": "object",
+        "required": ["formatted_citation", "requires_archive", "confidence", "reasoning"],
+        "properties": {
+          "formatted_citation": {
+            "type": "string",
+            "description": "Complete citation with proper electronic source handling"
+          },
+          "requires_archive": {
+            "type": "boolean",
+            "description": "Whether archival URL is required"
+          },
+          "url_handling": {
+            "type": "object",
+            "properties": {
+              "use_doi": {"type": "boolean"},
+              "doi": {"type": "string"},
+              "use_url": {"type": "boolean"},
+              "url": {"type": "string"},
+              "url_type": {"type": "string", "enum": ["direct", "permalink", "archive", "paywall"]},
+              "url_stability": {"type": "string", "enum": ["permanent", "stable", "unstable", "unknown"]}
+            }
+          },
+          "archive_info": {
+            "type": "object",
+            "properties": {
+              "required": {"type": "boolean"},
+              "service": {"type": "string", "enum": ["perma.cc", "archive.org", "other", "none"]},
+              "archive_url": {"type": "string"},
+              "archive_date": {"type": "string"}
+            }
+          },
+          "access_date": {
+            "type": "object",
+            "properties": {
+              "required": {"type": "boolean"},
+              "date": {"type": "string"},
+              "format": {"type": "string"}
+            }
+          },
+          "source_stability": {
+            "type": "object",
+            "properties": {
+              "assessment": {"type": "string", "enum": ["permanent", "stable", "potentially_unstable", "unstable"]},
+              "factors": {"type": "array", "items": {"type": "string"}},
+              "recommendation": {"type": "string"}
+            }
+          },
+          "database_info": {
+            "type": "object",
+            "properties": {
+              "commercial_database": {"type": "boolean"},
+              "database_name": {"type": "string"},
+              "subscription_required": {"type": "boolean"},
+              "alternative_source": {"type": "string"}
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "ambiguities": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "reasoning": {
+            "type": "string"
+          },
+          "bluebook_rule": {
+            "type": "string"
+          }
+        }
+      },
+      "confidence_threshold": {
+        "minimum_acceptable": 0.75,
+        "requires_human_review": 0.85,
+        "auto_apply": 0.93
+      },
+      "examples": [
+        {
+          "input": {
+            "source_type": "journal_article",
+            "url": "https://example.com/article?id=12345",
+            "has_doi": true,
+            "doi": "10.1234/example.2020.001",
+            "archive_info": null,
+            "last_updated": "2020-03-15",
+            "access_date": "2024-01-20",
+            "stability": "stable"
+          },
+          "expected_output": {
+            "formatted_citation": "John Smith, Article Title, 100 J. L. 50 (2020), https://doi.org/10.1234/example.2020.001",
+            "requires_archive": false,
+            "url_handling": {
+              "use_doi": true,
+              "doi": "10.1234/example.2020.001",
+              "use_url": false,
+              "url": "",
+              "url_type": "direct",
+              "url_stability": "permanent"
+            },
+            "archive_info": {
+              "required": false,
+              "service": "none",
+              "archive_url": "",
+              "archive_date": ""
+            },
+            "access_date": {
+              "required": false,
+              "date": "",
+              "format": ""
+            },
+            "source_stability": {
+              "assessment": "permanent",
+              "factors": ["DOI provides permanent identifier", "Published journal article"],
+              "recommendation": "Use DOI; no archive needed"
+            },
+            "database_info": {
+              "commercial_database": false,
+              "database_name": "",
+              "subscription_required": false,
+              "alternative_source": ""
+            },
+            "confidence": 0.98,
+            "ambiguities": [],
+            "reasoning": "Journal article with DOI. Per Rule 18.2.1(d), prefer DOI over URL for published articles. DOI provides permanent, stable citation. No access date needed. Format: https://doi.org/[DOI]",
+            "bluebook_rule": "Rule 18.2.1(d)"
+          }
+        },
+        {
+          "input": {
+            "source_type": "blog_post",
+            "url": "https://lawblog.example.com/2023/analysis-supreme-court-decision",
+            "has_doi": false,
+            "archive_info": {"service": "perma.cc", "url": "https://perma.cc/ABCD-EFGH", "date": "2024-01-15"},
+            "last_updated": "2023-06-10",
+            "access_date": "2024-01-15",
+            "stability": "unstable"
+          },
+          "expected_output": {
+            "formatted_citation": "Jane Doe, Analysis of Supreme Court Decision, Law Blog (June 10, 2023), https://lawblog.example.com/2023/analysis-supreme-court-decision [https://perma.cc/ABCD-EFGH]",
+            "requires_archive": true,
+            "url_handling": {
+              "use_doi": false,
+              "doi": "",
+              "use_url": true,
+              "url": "https://lawblog.example.com/2023/analysis-supreme-court-decision",
+              "url_type": "direct",
+              "url_stability": "unstable"
+            },
+            "archive_info": {
+              "required": true,
+              "service": "perma.cc",
+              "archive_url": "https://perma.cc/ABCD-EFGH",
+              "archive_date": "2024-01-15"
+            },
+            "access_date": {
+              "required": false,
+              "date": "2024-01-15",
+              "format": "Jan. 15, 2024"
+            },
+            "source_stability": {
+              "assessment": "unstable",
+              "factors": ["Blog post may be edited or removed", "No DOI or permanent identifier", "Not archived by publisher"],
+              "recommendation": "Include Perma.cc archive link"
+            },
+            "database_info": {
+              "commercial_database": false,
+              "database_name": "",
+              "subscription_required": false,
+              "alternative_source": ""
+            },
+            "confidence": 0.94,
+            "ambiguities": [],
+            "reasoning": "Blog post is unstable source. Per Rule 18.2.1(c), include Perma.cc archive in brackets after URL. Original URL cited first, then archive. Access date not required when archive provided. Perma.cc creates permanent snapshot.",
+            "bluebook_rule": "Rule 18.2.1(c)"
+          }
+        },
+        {
+          "input": {
+            "source_type": "government_report",
+            "url": "https://www.agency.gov/reports/2022/annual-report.pdf",
+            "has_doi": false,
+            "archive_info": null,
+            "last_updated": "2022-12-31",
+            "access_date": "2024-01-20",
+            "stability": "stable"
+          },
+          "expected_output": {
+            "formatted_citation": "Agency Name, Annual Report (2022), https://www.agency.gov/reports/2022/annual-report.pdf",
+            "requires_archive": false,
+            "url_handling": {
+              "use_doi": false,
+              "doi": "",
+              "use_url": true,
+              "url": "https://www.agency.gov/reports/2022/annual-report.pdf",
+              "url_type": "direct",
+              "url_stability": "stable"
+            },
+            "archive_info": {
+              "required": false,
+              "service": "none",
+              "archive_url": "",
+              "archive_date": ""
+            },
+            "access_date": {
+              "required": false,
+              "date": "",
+              "format": ""
+            },
+            "source_stability": {
+              "assessment": "stable",
+              "factors": ["Government (.gov) domain", "Official report with PDF", "Structured URL pattern suggesting permanence"],
+              "recommendation": "Direct URL sufficient; government sources generally stable"
+            },
+            "database_info": {
+              "commercial_database": false,
+              "database_name": "",
+              "subscription_required": false,
+              "alternative_source": ""
+            },
+            "confidence": 0.92,
+            "ambiguities": ["Government websites occasionally reorganize; consider archive for long-term citation"],
+            "reasoning": "Government report on .gov domain is generally stable per Rule 18.2.1. PDF format and structured URL suggest permanence. Archive not required but recommended for long-term preservation. No access date needed for stable sources.",
+            "bluebook_rule": "Rule 18.2.1"
+          }
+        },
+        {
+          "input": {
+            "source_type": "news_article",
+            "url": "https://newspaper.com/paywall/article/12345",
+            "has_doi": false,
+            "archive_info": {"service": "perma.cc", "url": "https://perma.cc/WXYZ-1234", "date": "2024-01-15"},
+            "last_updated": "2024-01-10",
+            "access_date": "2024-01-15",
+            "stability": "stable_but_paywalled"
+          },
+          "expected_output": {
+            "formatted_citation": "Reporter Name, Article Headline, Newspaper (Jan. 10, 2024), https://newspaper.com/paywall/article/12345 [https://perma.cc/WXYZ-1234]",
+            "requires_archive": true,
+            "url_handling": {
+              "use_doi": false,
+              "doi": "",
+              "use_url": true,
+              "url": "https://newspaper.com/paywall/article/12345",
+              "url_type": "paywall",
+              "url_stability": "stable"
+            },
+            "archive_info": {
+              "required": true,
+              "service": "perma.cc",
+              "archive_url": "https://perma.cc/WXYZ-1234",
+              "archive_date": "2024-01-15"
+            },
+            "access_date": {
+              "required": false,
+              "date": "2024-01-15",
+              "format": "Jan. 15, 2024"
+            },
+            "source_stability": {
+              "assessment": "stable",
+              "factors": ["Newspaper archive is stable", "Paywall limits accessibility", "Perma.cc may preserve full text"],
+              "recommendation": "Include both paywall URL and Perma.cc archive for accessibility"
+            },
+            "database_info": {
+              "commercial_database": true,
+              "database_name": "Newspaper subscription",
+              "subscription_required": true,
+              "alternative_source": "May be available through public library databases"
+            },
+            "confidence": 0.90,
+            "ambiguities": ["Perma.cc may not capture full paywalled content"],
+            "reasoning": "Paywalled newspaper article is stable but access-limited. Include original URL and Perma.cc archive per Rule 18.2. Archive provides accessibility alternative. Consider noting subscription requirement if relevant to readers.",
+            "bluebook_rule": "Rule 18.2.1"
+          }
+        }
+      ],
+      "failsafe_validation_rules": [
+        "If confidence < 0.75, flag for human review",
+        "Prefer DOI over URL when both available",
+        "Require archive link for blogs, social media, and unstable sources",
+        "Verify URLs are not session-specific or temporary",
+        "Check that Perma.cc links are properly formatted in brackets",
+        "Ensure .gov and .edu sources assessed for stability",
+        "Validate that access dates included only when required",
+        "Confirm commercial database sources indicate subscription if needed",
+        "Check that URLs are complete and properly formatted"
+      ]
+    }
+  ],
+  "usage_guidelines": {
+    "when_to_use": [
+      "Regex validation fails or returns low confidence",
+      "Human reviewer flags complex citation issue",
+      "Citation contains multiple complex elements (e.g., foreign language + nested parentheticals)",
+      "Automated system detects patterns matching scenario triggers",
+      "User explicitly requests GPT-4o validation"
+    ],
+    "confidence_interpretation": {
+      "0.95-1.00": "Auto-apply with high confidence; minimal human review needed",
+      "0.85-0.94": "Recommended for use; suggest human review for critical citations",
+      "0.75-0.84": "Use with caution; human review recommended",
+      "0.00-0.74": "Do not auto-apply; requires human expert review"
+    },
+    "fallback_chain": [
+      "1. Attempt regex validation",
+      "2. If regex confidence < 0.80, escalate to GPT-4o with appropriate scenario prompt",
+      "3. If GPT-4o confidence < threshold, flag for human expert review",
+      "4. Log all decisions and confidence scores for system improvement"
+    ],
+    "best_practices": [
+      "Always provide complete context to GPT-4o (surrounding text, citation history)",
+      "Use specific scenario prompts rather than generic validation",
+      "Combine multiple scenario prompts for complex citations",
+      "Validate GPT-4o output against failsafe rules before applying",
+      "Log ambiguities and edge cases for future training",
+      "Update prompts based on error patterns and user feedback"
+    ]
+  },
+  "integration_notes": {
+    "api_requirements": {
+      "model": "gpt-4o",
+      "minimum_version": "gpt-4o-2024-05-13",
+      "recommended_temperature": 0.1,
+      "max_tokens": 2000
+    },
+    "response_handling": {
+      "parse_json_output": true,
+      "validate_schema": true,
+      "check_confidence_threshold": true,
+      "apply_failsafe_rules": true,
+      "log_ambiguities": true
+    },
+    "error_handling": {
+      "invalid_json": "Request human review and log error",
+      "low_confidence": "Escalate to human expert",
+      "schema_mismatch": "Re-prompt with schema validation",
+      "timeout": "Retry once, then flag for manual review"
+    }
+  },
+  "maintenance": {
+    "review_schedule": "Quarterly review of prompt effectiveness",
+    "update_triggers": [
+      "Bluebook edition updates",
+      "New edge cases discovered",
+      "Confidence scores consistently below threshold",
+      "User feedback indicating prompt issues"
+    ],
+    "version_control": "Maintain version history with changelog",
+    "testing_requirements": "Test each prompt with example inputs before deployment"
+  }
+}

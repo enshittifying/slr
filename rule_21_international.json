@@ -1,0 +1,280 @@
+{
+  "rule": "21",
+  "title": "International Materials",
+  "description": "This covers treaties, international cases, U.N. documents, EU materials, and other international law sources. Generally, cite treaties by official U.S. sources if available (U.S.T. or I.A. etc.), or U.N.T.S for multilateral treaties. Cite international cases from the court reporters (like I.C.J. Rep.), and U.N. documents by U.N. document numbers.",
+  "categories": {
+    "basic_citation_forms": {
+      "rule_id": "21.1",
+      "title": "Basic Citation Forms",
+      "content": "Treaties: [Agreement Name], [date], [volume] [Reporter] [page]. E.g., Charter of the United Nations art. 2, June 26, 1945, 59 Stat. 1031, 3 Bevans 1153. International cases: [Case Name] ([Year]) [Reporter] [page]. UN documents: U.N. Doc. [symbol] ([Year]). EU regulations/directives: cite Official Journal (e.g., 2016 O.J. (L 119) 1)."
+    },
+    "non_english_language_documents": {
+      "rule_id": "21.2",
+      "title": "Non-English-Language Documents",
+      "content": "For treaties or international agreements in a language other than English, if there is an official English translation, cite that if you are writing in English. Otherwise cite the original language title italicized, followed by an English translation in brackets. Use the same approach as foreign domestic laws for language handling. Example: [Russian title] [English title] art. X, Feb. 1, 1995, [citation]."
+    },
+    "jurisdiction_not_evident": {
+      "rule_id": "21.3",
+      "title": "Jurisdiction Not Evident from Context",
+      "content": "If citing an international material where the jurisdiction or context might not be clear (like an international tribunal's decision), clarify by including the name of the tribunal or jurisdiction. For example, for an arbitral award: [Case Name], (ICSID Arb. 2010). Or if citing a national court decision in an international context, mention the country."
+    },
+    "treaties_and_agreements": {
+      "rule_id": "21.4",
+      "title": "Treaties and Other International Agreements",
+      "sub_rules": {
+        "21.4.1": {
+          "title": "Name of the Agreement",
+          "content": "Use the official or popular name of the treaty, if there is one, italicized. If no common name, use a descriptive title. Include parties if necessary for clarity (especially if agreement is bilateral and has no title). For bilateral treaties, you can format as \"Agreement between [Party1] and [Party2] concerning [Subject]\" if no formal title."
+        },
+        "21.4.2": {
+          "title": "Parties to the Agreement",
+          "content": "If a multilateral treaty, no need to list parties in citation. If bilateral and no official title, naming the parties in a parenthetical or in the description might be done as above. If citing an agreement in an open source like U.N.T.S., listing parties isn't required. In the case of unusual parties (like non-state entities), maybe mention them in the description."
+        },
+        "21.4.3": {
+          "title": "Subdivisions",
+          "content": "If citing a specific part of a treaty, use article or paragraph numbers (e.g., art. IV, para. 2). Many treaties are divided into articles, sections, or paragraphs. Use the English term used in the treaty (Article, Section, Chapter, etc.). Indicate subparagraphs with lowercase letters or numbers exactly as in the text (e.g., art. 5(1)(a))."
+        },
+        "21.4.4": {
+          "title": "Date of Signing",
+          "content": "Include the date the treaty was signed (or concluded). If it was later amended or protocols added, you can indicate in parenthetical if you're citing the amended version. The date goes before the citation to the source. Example: Dec. 10, 1982, 1833 U.N.T.S. 3."
+        },
+        "21.4.5": {
+          "title": "Treaty Sources",
+          "content": "Use official sources: For U.S., U.S.T. (until 1984) or T.I.A.S., etc. For multilateral, U.N.T.S. or regional treaty series. You can list parallel cites if useful (like both U.S.T. and U.N.T.S.). If a treaty not yet in a reporter, cite to a slip or the Department of State website etc., with a parenthetical (not yet in force) if applicable. Also see table T4 for treaty source abbreviations."
+        }
+      }
+    },
+    "international_law_cases": {
+      "rule_id": "21.5",
+      "title": "International Law Cases",
+      "sub_rules": {
+        "21.5.1": {
+          "title": "The International Court of Justice and the Permanent Court of International Justice",
+          "content": "Cite ICJ cases to the I.C.J. Reports: [Case Name] (Party v. Party), Judgment, [year] I.C.J. [page] ([date]). Similarly for PCIJ: [Case Name] (Ser. A or A/B) No. [no.], at [page] ([year]). Include the type of decision (Judgment, Advisory Opinion, Order) if relevant by using a parenthetical or part of citation as above."
+        },
+        "21.5.2": {
+          "title": "European Union Courts",
+          "content": "Cite European Court of Justice (ECJ) cases by case number and report: Case C-123/04, [Party v. Party], 2005 E.C.R. I-1234. For General Court (formerly CFI): Case T-1/99, [Name], 2000 E.C.R. II-0000. Since 2012, official reporter (E.C.R.) ceased; cite to EUR-Lex or other sources with case number and judgment date: Case C-123/17, Name (Jan. 15, 2018), http... (if needed)."
+        },
+        "21.5.3": {
+          "title": "European Court of Human Rights",
+          "content": "Cite ECtHR decisions with case name, application number, and paragraph if pinpoint, plus the year of the decision. Example: Smith v. United Kingdom, App. No. 12345/06, 2010 Eur. Ct. H.R.  (Judgment of July 2, 2010). Alternatively, use the official Reports if available (ECHR series up to 1996; after that, just application no. and date). Some cite as: Smith v. UK, 50 Eur. H.R. Rep. 20 (2010)."
+        },
+        "21.5.4": {
+          "title": "Inter-American Commission on Human Rights",
+          "content": "Cite IACHR decisions or reports: Name of Case, Case No. or Report No., Inter-Am. C.H.R., OEA/Ser.L/V/II. Doc. [number], [year]. Or if citing a specific report: Report No. 5/04, Smith (Country), Inter-Am. C.H.R., OEA/Ser.L/V/II.122 Doc. 5 rev.1 (2004). Provide enough info to identify the report and use OAS document numbers where possible."
+        },
+        "21.5.5": {
+          "title": "Inter-American Court of Human Rights",
+          "content": "Cite IACtHR cases by case name (translated if needed), series and number: e.g., Smith v. Argentina, Merits, Judgment, Inter-Am. Ct. H.R. (ser. C) No. 150, ¶ 50 (2001). The series C number is for judgments and series A for advisory opinions. Include paragraph for pinpoint if relevant. Always mention if it's merits, reparations, or advisory, etc., as in the example."
+        },
+        "21.5.6": {
+          "title": "International Tribunal for the Law of the Sea",
+          "content": "Cite ITLOS cases by name, case number, ITLOS Reporter and page/year if available. e.g., The M/V Saiga (No. 2) (St. Vincent v. Guinea), Case No. 2, Order of Jan. 20, 1998, ITLOS Rep. 123. If no official reporter, cite to a UN document or print source, or to ITLOS's online report with case number and date."
+        },
+        "21.5.7": {
+          "title": "International Criminal Court and Other Tribunals",
+          "content": "Cite ICC cases by name and case number, including perhaps the type of decision. E.g., Prosecutor v. Lubanga, Case No. ICC-01/04-01/06, Judgment (Mar. 14, 2012). For ICTY or ICTR, use their reporting: e.g., Prosecutor v. Tadić, Case No. IT-94-1-A, Appeals Chamber Judgment (Int'l Crim. Trib. for the Former Yugoslavia July 15, 1999). Generally include court name and chamber if needed, case number, and date."
+        },
+        "21.5.8": {
+          "title": "Other International Courts",
+          "content": "For other international courts (e.g., WTO dispute panels/Appellate Body, Court of Justice of the Andean Community, etc.), use a similar format: case name, body, document number or citation, date. For WTO: cite the report by its WTO document symbol and paragraph if pinpoint, plus date of adoption. E.g., WTO Appellate Body Report, United States – Measures Affecting XYZ, WT/DS###/AB/R (Year)."
+        },
+        "21.5.9": {
+          "title": "International Cases in National Courts",
+          "content": "If citing a national court case that deals with international law, cite it as a national case (rule 20 for foreign or just normal if US/UK) rather than as an \"international case\". The only caveat is if using International Law Reports or similar compilation, you could cite that, but Bluebook prefers original source when available."
+        }
+      }
+    },
+    "international_arbitrations": {
+      "rule_id": "21.6",
+      "title": "International Arbitrations and Claims Commissions",
+      "content": "For arbitration awards: e.g., [Case Name], Award, [year], [volume] [Reporter] [page]. Many are published in International Law Reports or in specialized reports. If not, cite to an official source or a PDF: e.g., (Permanent Ct. Arb. 2012) with case info. For Iran-U.S. Claims Tribunal: use the official reports or ILM if applicable. E.g., Amoco Int'l Finance Corp. v. Iran, 15 Iran-U.S. Cl. Trib. Rep. 189 (1987). Provide tribunal name and date if needed."
+    },
+    "united_nations_sources": {
+      "rule_id": "21.7",
+      "title": "United Nations Sources",
+      "sub_rules": {
+        "21.7.1": {
+          "title": "Verbatim and Summary Records",
+          "content": "Cite UN meeting records: e.g., U.N. GAOR, 55th Sess., 40th plen. mtg., U.N. Doc. A/55/PV.40 (Oct. 10, 2000). PV stands for procès-verbal (verbatim records). Summary records of committees are indicated by SR. Example: U.N. GAOR, 3d Comm., 72d Sess., Summary Record of Meetings 1-3, U.N. Doc. A/C.3/72/SR.1-3 (2017). Include session, committee, etc., as needed, with UN Doc symbol and date."
+        },
+        "21.7.2": {
+          "title": "Resolutions and Decisions",
+          "content": "Cite UN resolutions: U.N. Security Council Resolution 1441, U.N. SCOR, 57th Sess., U.N. Doc. S/RES/1441 (2002). For GA: G.A. Res. 217A, U.N. GAOR, 3d Sess., U.N. Doc. A/810 (1948). If named, you can include name in parenthesis (e.g., (Universal Declaration of Human Rights)). Always include document symbols and year. For decisions (which are often not numbered like resolutions), give description, session, date, and doc number if applicable."
+        },
+        "21.7.3": {
+          "title": "U.N. Reports",
+          "content": "Cite reports of the Secretary-General or other UN officials as: [Author], [Title], U.N. Doc. [symbol] ([Year]). E.g., Secretary-General, Report on the Work of the Organization, U.N. Doc. A/74/1 (2019). Similarly for committee reports: e.g., Human Rights Comm., Concluding Observations: Canada, ¶ 5, U.N. Doc. CCPR/C/CAN/CO/6 (2015). Always provide the U.N. doc symbol and year."
+        },
+        "21.7.4": {
+          "title": "Masthead Documents",
+          "content": "Masthead documents are those with official U.N. document numbers (like A/--, S/-- etc.). The citation should include that doc symbol as above. Essentially any official UN doc is cited by author or subject, doc symbol, date/year. E.g., Letter from the Permanent Rep. of X to the U.N. to the President of the S.C., U.N. Doc. S/2000/123 (Mar. 1, 2000)."
+        },
+        "21.7.5": {
+          "title": "U.N. Press Releases and Memoranda",
+          "content": "Cite press releases by U.N. office and PR number: e.g., U.N. Dep't of Pub. Info., Press Release No. SG/SM/2021 (Jan. 1, 2020). For memoranda or statements, if they are not official documents with symbols, treat similarly or as unpublished: name, description, date. Often they are later in press releases or documents though. If only a press release number is available, use that with date."
+        },
+        "21.7.6": {
+          "title": "Adjudicatory Bodies Established by the United Nations",
+          "content": "This includes things like the UN Administrative Tribunal, UNAT, and others. Cite according to whatever reports they produce. If none, cite as a UN doc if available, or as an international case. Many UN-established bodies (ICTY, ICTR, ICC) already covered in rule 21.5. If citing say a UN internal tribunal: Author v. U.N., Judgment, U.N. Admin. Trib., No. 123 (Year). Provide enough context in the parenthetical if needed."
+        },
+        "21.7.7": {
+          "title": "Sales Publications",
+          "content": "UN sales publications often have a \"U.N. Sales No.\". Bluebook suggests citing like a book, possibly noting the sales number in parenthesis if needed. Example: U.N. DEP'T OF ECON. & SOC. AFFAIRS, TITLE OF PUBLICATION, U.N. Sales No. E.19.XIII.5 (2019). Usually, though, you can treat it like a report with that info. If widely known by sales number, include it."
+        },
+        "21.7.8": {
+          "title": "Yearbooks and Periodicals",
+          "content": "Cite the U.N. Yearbook or other yearbooks as any serial: e.g., 1995 U.N. Y.B. 120. If referring to specific content, possibly indicate section or chapter. For periodicals like UN Chronicle: format as magazine: Author, Article Title, U.N. Chron., Month Year, at page."
+        },
+        "21.7.9": {
+          "title": "Regional Organization Documents",
+          "content": "Cite EU, OAS, AU, etc., documents similarly: identify organization, body, document number, date. For EU, official journal if published; for OAS, use OEA/Ser.L or OAS Doc numbers. E.g., O.A.S. Charter art. 3, Apr. 30, 1948, 2 U.S.T. 2394. Or for OAS GA resolutions: AG/RES. 2908 (XLVII-O/17) (2017). Use sources from T2 for regions."
+        },
+        "21.7.10": {
+          "title": "U.N. Charter",
+          "content": "Cite the U.N. Charter as: U.N. Charter art. X, ¶ Y. No need for date or treaty series as it's universally known. If you need to reference an amendment, you can parenthetically mention the date of amendment. But generally \"U.N. Charter\" suffice."
+        },
+        "21.7.11": {
+          "title": "U.N. Internet Materials",
+          "content": "Treat U.N. websites and web publications per rule 18. If a piece of information is only on a website (like a web article on un.org), cite with author (if any) or U.N. agency, title, date (if given), URL (last visited date). But if it's an official document accessible via the UN Official Document System, prefer the document citation as above instead of a URL."
+        }
+      }
+    },
+    "league_of_nations": {
+      "rule_id": "21.8",
+      "title": "League of Nations",
+      "content": "For historical League of Nations documents or treaties, cite League of Nations Treaty Series (L.N.T.S.) for treaties: similar to U.N.T.S format. For League publications or Assembly documents, give the League document number and year, if available. Example: Convention on XYZ art. 1, July 5, 1921, 10 L.N.T.S. 50. Use full titles and L.N. Doc. references for other materials as per any available reference."
+    },
+    "european_union": {
+      "rule_id": "21.9",
+      "title": "European Union",
+      "content": "Cite EU legislation (regulations, directives) to the Official Journal (OJ). Format: Council Regulation 2016/679, 2016 O.J. (L 119) 1 (EU). That example is the GDPR. EU cases: (see rule 21.5.2). EU official documents (like COM documents or Green Papers): give document number and date, e.g., COM (2020) 123 final (Jan. 1, 2020). Always include (EU) at end of cite for clarity when needed. Regulations and directives should include year, number, and OJ reference."
+    },
+    "council_of_europe": {
+      "rule_id": "21.10",
+      "title": "Council of Europe",
+      "content": "Cite Council of Europe treaties via European Treaty Series (E.T.S.) or Council of Europe Treaty Series (C.E.T.S.). E.g., European Convention on Human Rights, Nov. 4, 1950, Europ. T.S. No. 5. Council of Europe recommendations or resolutions: just provide name and date, and source if in a compilation or website. E.g., Committee of Ministers Recommendation No. R (99) 2 (Feb. 2, 1999)."
+    },
+    "world_trade_organization": {
+      "rule_id": "21.11",
+      "title": "World Trade Organization",
+      "content": "Cite WTO agreements (like GATT, GATS, etc.) by name, date, and source (often the Marrakesh Agreement establishing WTO, or U.N.T.S.). e.g., Marrakesh Agreement Establishing the World Trade Organization art. IX, Apr. 15, 1994, 1867 U.N.T.S. 154. WTO panel or Appellate Body reports: cite the official WTO citation (DS number, report type, and date of adoption). e.g., Appellate Body Report, United States – Standard for Reformulated Gasoline, WTO Doc. WT/DS2/AB/R (adopted May 20, 1996)."
+    },
+    "international_monetary_fund": {
+      "rule_id": "21.12",
+      "title": "International Monetary Fund",
+      "content": "Cite IMF materials like reports or working papers as you would a book or periodical. E.g., IMF, Country Report No. 20/123: Title (2020). For decisions or publications with volume numbers, use them. If referencing the Articles of Agreement of the IMF: Articles of Agreement of the International Monetary Fund art. V, § 3, Dec. 27, 1945, 60 Stat. 1401. The IMF also has publications like \"IMF Staff Papers\" which are cited like journals."
+    },
+    "other_intergovernmental_organizations": {
+      "rule_id": "21.13",
+      "title": "Other Intergovernmental Organizations",
+      "content": "Cite other IGO documents similar to UN style: identify organization, type of doc, number, date. For example, for the OECD: OECD, Title of Report, OECD Doc. no. (Year). For OAS, African Union, etc., see their document formats. If none, treat as institutional author publications (with name of org as author). For NGOs (non-governmental organizations) like Amnesty International reports, cite like a book or report with the organization as author, title, year."
+    },
+    "international_non_governmental_organizations": {
+      "rule_id": "21.14",
+      "title": "International Non-Governmental Organizations (NGOs)",
+      "content": "As above, treat NGO publications as books or reports by the organization. E.g., Human Rights Watch, Title of Report 27 (2020). If an NGO resolution or policy paper has a number, include it in the citation. The Bluebook doesn't have a special format beyond normal for these. If quoting a charter or constitution of an NGO, treat it like an internal document with name and date."
+    },
+    "yearbooks": {
+      "rule_id": "21.15",
+      "title": "Yearbooks",
+      "content": "Cite yearbooks (like Yearbook of the International Law Commission) by Year, Name, page (if pinpoint). E.g., 2018 Y.B. Int'l L. Comm'n vol. II, pt. 2, at 10, U.N. Doc. A/CN.4/SER.A/2018/Add.1. Provide volume and part if applicable. If citing by UN doc number (as the ILC yearbook has), include that as well."
+    },
+    "digests": {
+      "rule_id": "21.16",
+      "title": "Digests",
+      "content": "Cite digests of state practice or case law by title and volume. E.g., 8 Digest of United States Practice in International Law 123 (1977). Or Digest of International Cases, No. 15, at 45 (Int'l Ct. 2010). If the digest is organized by year and editor, treat like multi-volume book. The Bluebook rule basically says cite appropriately as either book or serial reference with enough info."
+    },
+    "short_citation_forms": {
+      "rule_id": "21.17",
+      "title": "Short Citation Forms",
+      "content": "Use supra for treaties by short name if previously cited: e.g., U.N. Charter, supra note 1, art. 55. For cases, use id. or case name short form as appropriate (e.g., Case Name, supra note 10, at para. 50). For UN docs and resolutions, you can use supra if it's clear (e.g., Resolution 1441, supra note 5). Always ensure no ambiguity. If multiple treaties or documents, a hereinafter might be used for long titles. E.g., (\"UNCLOS\") supra. Use id. if the immediately preceding footnote is exactly the same source and context."
+    }
+  },
+  "citation_examples": {
+    "treaties": [
+      "Charter of the United Nations art. 2, June 26, 1945, 59 Stat. 1031, 3 Bevans 1153",
+      "Convention on International Trade in Endangered Species art. IV, Mar. 3, 1973, 27 U.S.T. 1087, 993 U.N.T.S. 243",
+      "Agreement between [Party1] and [Party2] concerning [Subject], [date], [citation]"
+    ],
+    "icj_cases": [
+      "Case Name (Party v. Party), Judgment, [year] I.C.J. [page] ([date])",
+      "Permanent Court of International Justice: Case Name (Ser. A or A/B) No. [no.], at [page] ([year])"
+    ],
+    "eu_courts": [
+      "Case C-123/04, Party v. Party, 2005 E.C.R. I-1234",
+      "Case T-1/99, Name, 2000 E.C.R. II-0000",
+      "Case C-123/17, Name (Jan. 15, 2018), http..."
+    ],
+    "human_rights": [
+      "Smith v. United Kingdom, App. No. 12345/06, 2010 Eur. Ct. H.R. (Judgment of July 2, 2010)",
+      "Smith v. Argentina, Merits, Judgment, Inter-Am. Ct. H.R. (ser. C) No. 150, ¶ 50 (2001)"
+    ],
+    "international_criminal_court": [
+      "Prosecutor v. Lubanga, Case No. ICC-01/04-01/06, Judgment (Mar. 14, 2012)",
+      "Prosecutor v. Tadić, Case No. IT-94-1-A, Appeals Chamber Judgment (Int'l Crim. Trib. for the Former Yugoslavia July 15, 1999)"
+    ],
+    "un_documents": [
+      "U.N. GAOR, 55th Sess., 40th plen. mtg., U.N. Doc. A/55/PV.40 (Oct. 10, 2000)",
+      "U.N. Security Council Resolution 1441, U.N. SCOR, 57th Sess., U.N. Doc. S/RES/1441 (2002)",
+      "G.A. Res. 217A, U.N. GAOR, 3d Sess., U.N. Doc. A/810 (1948)",
+      "Secretary-General, Report on the Work of the Organization, U.N. Doc. A/74/1 (2019)"
+    ],
+    "eu_regulations": [
+      "Council Regulation 2016/679, 2016 O.J. (L 119) 1 (EU)",
+      "COM (2020) 123 final (Jan. 1, 2020)"
+    ],
+    "wto": [
+      "Marrakesh Agreement Establishing the World Trade Organization art. IX, Apr. 15, 1994, 1867 U.N.T.S. 154",
+      "Appellate Body Report, United States – Standard for Reformulated Gasoline, WTO Doc. WT/DS2/AB/R (adopted May 20, 1996)"
+    ],
+    "arbitration": [
+      "Amoco Int'l Finance Corp. v. Iran, 15 Iran-U.S. Cl. Trib. Rep. 189 (1987)",
+      "[Case Name], Award, [year], [volume] [Reporter] [page]"
+    ]
+  },
+  "key_reporters_and_sources": {
+    "treaties": {
+      "us_sources": ["U.S.T.", "T.I.A.S.", "Bevans"],
+      "multilateral_sources": ["U.N.T.S.", "L.N.T.S.", "Regional Treaty Series"]
+    },
+    "international_cases": {
+      "icj_pcij": "I.C.J. Reports, PCIJ Series A/A-B",
+      "eu_courts": "E.C.R. (until 2012), EUR-Lex (after 2012)",
+      "human_rights": "Eur. Ct. H.R., Int'l L. Rep., OEA/Ser.L/V",
+      "criminal_tribunals": "ICC Reports, ICTY Reports, ICTR Reports",
+      "law_of_sea": "ITLOS Rep."
+    },
+    "un_documents": {
+      "general_assembly": "U.N. GAOR, U.N. Doc. A/---",
+      "security_council": "U.N. SCOR, U.N. Doc. S/---",
+      "records": "U.N. Doc. [symbol], PV for verbatim records, SR for summary records"
+    },
+    "eu_sources": {
+      "legislation": "Official Journal (O.J.)",
+      "cases": "E.C.R. (until 2012), EUR-Lex (after 2012)",
+      "documents": "COM documents, Green Papers"
+    },
+    "other_organizations": {
+      "council_of_europe": "E.T.S., C.E.T.S.",
+      "wto": "WT/DS documents, WTO Reports",
+      "oas": "OEA/Ser.L, OAS Doc numbers, AG/RES",
+      "oecd": "OECD Doc. numbers"
+    }
+  },
+  "special_formatting_notes": {
+    "italicization": "Treaty names and case names should be italicized",
+    "pinpoints": "Use paragraph marks (¶) for international cases, article numbers (art.) for treaties, and page numbers as appropriate",
+    "dates": "Include signing/conclusion dates for treaties, decision dates for cases, and publication dates for UN documents",
+    "jurisdiction_clarity": "Always clarify the court/tribunal when the jurisdiction is not evident from context",
+    "translations": "Provide English translations for non-English documents when citing the original language title",
+    "abbreviations": "Use standard Bluebook abbreviations for organizations, courts, and publications (see Table T4 for treaty sources)"
+  },
+  "cross_references": {
+    "foreign_materials": "See Rule 20 for non-English and foreign domestic sources",
+    "internet_materials": "See Rule 18 for online sources and websites",
+    "books_and_reports": "See Rule 15 for citing institutional publications",
+    "periodicals": "See Rule 16 for journal and magazine articles"
+  }
+}

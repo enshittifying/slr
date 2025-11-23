@@ -1,0 +1,576 @@
+═══════════════════════════════════════════════════════════════════════════════════
+BLUEBOOK RULE 12: STATUTES - QUICK REFERENCE GUIDE
+═══════════════════════════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════════════════════════
+1. FEDERAL CODES
+═══════════════════════════════════════════════════════════════════════════════════
+
+STANDARD FEDERAL CODE (U.S.C.)
+Format:     [Title] U.S.C. § [Section] ([Year])
+Example:    42 U.S.C. § 1983 (2018)
+            28 U.S.C. § 1331
+Rule:       Must include section symbol (§)
+            Year optional if citing current code
+            Title is always required
+
+FEDERAL CODE - RANGE
+Format:     [Title] U.S.C. §§ [Section]-[Section] ([Year])
+Example:    42 U.S.C. §§ 9601-9675 (2010)
+            5 U.S.C. §§ 551-559
+Rule:       Use §§ (double symbol) for multiple sections
+            Use en-dash or hyphen between sections
+            Can list non-consecutive sections with commas
+Example:    28 U.S.C. §§ 1331, 1332
+
+FEDERAL CODE - SUPPLEMENT
+Format:     [Title] U.S.C. § [Section] (Supp. [Year])
+Example:    42 U.S.C. § 1983 (Supp. 2020)
+            42 U.S.C. § 1983 (Supp. III 2020)
+Rule:       Use "Supp." for pocket parts or supplements
+            Roman numerals for multiple supplements in same year
+
+UNOFFICIAL FEDERAL CODE (West - U.S.C.A.)
+Format:     [Title] U.S.C.A. § [Section] (West [Year])
+Example:    42 U.S.C.A. § 1983 (West 2020)
+            5 U.S.C.A. § 552 (West Supp. 2021)
+Rule:       Include publisher name (West)
+            Include year in parentheses
+            Always required for unofficial codes
+
+UNOFFICIAL FEDERAL CODE (Lexis - U.S.C.S.)
+Format:     [Title] U.S.C.S. § [Section] (LexisNexis [Year])
+Example:    42 U.S.C.S. § 1983 (LexisNexis 2020)
+            5 U.S.C.S. § 552 (LexisNexis Supp. 2021)
+Rule:       Include publisher name (Lexis or LexisNexis)
+            Include year in parentheses
+
+FEDERAL CODE - DATABASE CITATION
+Format:     [Title] U.S.C. § [Section] ([Database] through Pub. L. No. [#])
+Example:    42 U.S.C. § 1983 (LEXIS through Pub. L. No. 116-140)
+            42 U.S.C. § 552 (Westlaw through Pub. L. No. 117-58)
+Rule:       Use when citing from electronic database only
+            Indicate currency through most recent public law number
+
+═══════════════════════════════════════════════════════════════════════════════════
+2. STATE CODES
+═══════════════════════════════════════════════════════════════════════════════════
+
+STANDARD STATE CODE
+Format:     [State Abbrev.] [Code Name] § [Section] ([Publisher] [Year])
+Example:    Cal. Penal Code § 187 (West 2018)
+            Fla. Stat. § 776.031 (2021)
+            N.Y. Gen. Bus. Law § 349 (McKinney 2020)
+            Va. Code Ann. § 8.01-273 (2018)
+            Tex. Bus. & Prof. Code Ann. § 301.001 (Vernon 2019)
+Rule:       State abbreviation MANDATORY
+            Include code name (Penal Code, Business Code, etc.)
+            Year REQUIRED for state codes
+            Include publisher if unofficial (West, Lexis, McKinney, Vernon)
+
+STATE CODE - ANNOTATED
+Format:     [State] [Code Name] Ann. § [Section] ([Publisher] [Year])
+Example:    Cal. Penal Code Ann. § 187 (West 2018)
+            N.Y. Gen. Bus. Law Ann. § 349 (McKinney 2020)
+Rule:       "Ann." indicates annotated code
+            Usually includes publisher and year
+            Same as standard state code with "Ann."
+
+STATE CODE - SUPPLEMENT
+Format:     [State] [Code Name] § [Section] (Supp. [Year])
+Example:    Cal. Code § 1234 (Supp. 2020)
+            N.Y. Code § 5678 (Supp. 2021)
+Rule:       Same as standard with supplement notation
+            Use "Supp." for pocket parts or supplements
+
+STATE CODE WITH PUBLISHER
+Format:     [State] [Code Name] § [Section] ([Publisher] [Year])
+Publishers: West, Lexis, LexisNexis, McKinney (N.Y.), Vernon (Tex.), Thomson Reuters
+Example:    Tex. Code § 301 (West 2020)
+            N.Y. Code § 5678 (McKinney 2021)
+            Cal. Code § 1234 (LexisNexis 2019)
+Rule:       Publisher name required for unofficial codes
+            Publisher goes in parentheses with year
+
+COMMON STATE CODE ABBREVIATIONS
+Alabama         Ala.        Montana         Mont.
+Alaska          Alaska      Nebraska        Neb.
+Arizona         Ariz.       Nevada          Nev.
+Arkansas        Ark.        New Hampshire   N.H.
+California      Cal.        New Jersey      N.J.
+Colorado        Colo.       New Mexico      N.M.
+Connecticut     Conn.       New York        N.Y.
+Delaware        Del.        North Carolina  N.C.
+Florida         Fla.        North Dakota    N.D.
+Georgia         Ga.         Ohio            Ohio
+Hawaii          Haw.        Oklahoma        Okla.
+Idaho           Idaho       Oregon          Or.
+Illinois        Ill.        Pennsylvania    Pa.
+Indiana         Ind.        Rhode Island    R.I.
+Iowa            Iowa        South Carolina  S.C.
+Kansas          Kan.        South Dakota    S.D.
+Kentucky        Ky.         Tennessee       Tenn.
+Louisiana       La.         Texas           Tex.
+Maine           Me.         Utah            Utah
+Maryland        Md.         Vermont         Vt.
+Massachusetts   Mass.       Virginia        Va.
+Michigan        Mich.       Washington      Wash.
+Minnesota       Minn.       West Virginia   W.Va.
+Mississippi     Miss.       Wisconsin       Wis.
+Missouri        Mo.         Wyoming         Wyo.
+
+═══════════════════════════════════════════════════════════════════════════════════
+3. SESSION LAWS
+═══════════════════════════════════════════════════════════════════════════════════
+
+FEDERAL SESSION LAW (Statutes at Large)
+Format:     [Act Name], Pub. L. No. [#], [Volume] Stat. [Page] ([Year])
+Example:    Civil Rights Act of 1964, Pub. L. No. 88-352, 78 Stat. 241 (1964)
+            Americans with Disabilities Act of 1990, Pub. L. No. 101-336,
+            104 Stat. 327 (1990)
+Rule:       Use when statute not yet codified
+            Always cite as originally passed
+            Must include: Act name, Pub. L. No., volume, Stat., page, year
+            Pub. L. No. format: [Three digits]-[1-4 digits]
+
+FEDERAL BILL WITHOUT ACT NAME
+Format:     Pub. L. No. [#], [Volume] Stat. [Page] ([Year])
+Example:    Pub. L. No. 116-136, 134 Stat. 281 (2020)
+Rule:       Use if act name not commonly known
+            Still requires volume, page, year
+
+STATE SESSION LAW
+Format:     Act of [Month] [Day], [Year], ch. [#], [Year] [State] Stat. [Page]
+Example:    Act of May 15, 2020, ch. 302, 2020 Ill. Stat. 555
+            Act of June 1, 2019, ch. 156, 2019 Cal. Stat. 2300
+Rule:       Include date of enactment
+            Include chapter number
+            Use state statutory format for publication
+
+═══════════════════════════════════════════════════════════════════════════════════
+4. INTERNAL REVENUE CODE (I.R.C.)
+═══════════════════════════════════════════════════════════════════════════════════
+
+I.R.C. CITATION (STANDARD)
+Format:     I.R.C. § [Section]
+Example:    I.R.C. § 61
+            I.R.C. § 1366(a)(1)
+            I.R.C. § 469(c)(2)(A)
+Rule:       Use "I.R.C." abbreviation (with periods)
+            Do NOT use "IRC" without periods
+            Subsections in parentheses
+            Year typically not needed in practitioner context
+
+ALTERNATIVE FORM (26 U.S.C.)
+Format:     26 U.S.C. § [Section] ([Year])
+Example:    26 U.S.C. § 61
+            26 U.S.C. § 61 (2018)
+            26 U.S.C. § 1366(a)(1)
+Rule:       Title 26 of United States Code
+            Preferred in academic writing
+            Can include year for clarity
+
+═══════════════════════════════════════════════════════════════════════════════════
+5. RULES OF PROCEDURE AND EVIDENCE
+═══════════════════════════════════════════════════════════════════════════════════
+
+FEDERAL RULES OF CIVIL PROCEDURE
+Format:     Fed. R. Civ. P. [Rule] [Subsection]
+Example:    Fed. R. Civ. P. 56
+            Fed. R. Civ. P. 12(b)(6)
+            Fed. R. Civ. P. 26(a)(1)(A)
+Rule:       Never include year (presumed current)
+            Capitalize all abbreviations
+            Use proper spacing
+
+FEDERAL RULES OF CRIMINAL PROCEDURE
+Format:     Fed. R. Crim. P. [Rule] [Subsection]
+Example:    Fed. R. Crim. P. 26
+            Fed. R. Crim. P. 8(b)(2)
+Rule:       Never include year (presumed current)
+            Capitalize all abbreviations
+            Use proper spacing
+
+FEDERAL RULES OF EVIDENCE
+Format:     Fed. R. Evid. [Rule] [Subsection]
+Example:    Fed. R. Evid. 801
+            Fed. R. Evid. 801(c)(1)
+Rule:       Never include year (presumed current)
+            Capitalize all abbreviations
+            Use proper spacing
+
+FEDERAL RULES OF APPELLATE PROCEDURE
+Format:     Fed. R. App. P. [Rule] [Subsection]
+Example:    Fed. R. App. P. 32
+            Fed. R. App. P. 26(a)(2)
+Rule:       Never include year (presumed current)
+            Capitalize all abbreviations
+            Use proper spacing
+
+STATE RULES OF PROCEDURE
+Format:     [State] R. Civ. P. [Rule]  or  [State] R. Crim. P. [Rule]
+Example:    Cal. R. Ct. 8.1012
+            N.Y. R. Civ. P. 213
+            Tex. R. Civ. P. 56
+Rule:       Use state abbreviation
+            Include rule type (Civ., Crim., App.)
+            Never include year
+
+DISTRICT COURT RULES
+Format:     [Dist.] [State] R. [Rule]
+Example:    N.D. Ill. R. 1.4
+            S.D.N.Y. R. 4.1
+Rule:       Include court designation
+            N.D. = Northern District
+            S.D. = Southern District
+            E.D. = Eastern District
+            W.D. = Western District
+
+═══════════════════════════════════════════════════════════════════════════════════
+6. MUNICIPAL ORDINANCES
+═══════════════════════════════════════════════════════════════════════════════════
+
+MUNICIPAL CODE
+Format:     [City], [State], [Code Type] § [Section] ([Year])
+Example:    Chicago, Ill., Municipal Code § 8-4-015 (2020)
+            New York, N.Y., City Code § 1-101 (2018)
+            Los Angeles, Cal., Municipal Code § 14.00 (2019)
+            San Francisco, Cal., Administrative Code § 1.1 (2019)
+Rule:       Full city name required
+            State abbreviation required
+            Code type (Municipal, Administrative, City, County)
+            Section symbol required
+            Year required
+
+ORDINANCE NUMBER AND DATE
+Format:     Ord. No. [#], [adopted/passed] [Month] [Day], [Year]
+Example:    Ord. No. 2020-15, adopted Jan. 15, 2020
+            Ord. No. 1997-450, passed June 30, 1997
+Rule:       Use for ordinances not yet codified
+            Include adoption date
+            Use month abbreviations (Jan., Feb., etc.)
+
+═══════════════════════════════════════════════════════════════════════════════════
+7. RESTATEMENTS OF LAW
+═══════════════════════════════════════════════════════════════════════════════════
+
+RESTATEMENT CITATION (STANDARD)
+Format:     Restatement ([Ed]) of [Subject] § [Section] (Am. Law Inst. [Year])
+Example:    Restatement (Second) of Contracts § 90 (Am. Law Inst. 1981)
+            Restatement (Third) of Torts § 7 (Am. Law Inst. 2010)
+            Restatement (First) of Agency § 139 (Am. Law Inst. 1933)
+Rule:       Include edition (First, Second, Third, Fourth)
+            Full subject matter name
+            Section symbol required
+            "Am. Law Inst." or "American Law Institute"
+            Year of publication required
+            Can include subsection in parentheses
+
+RESTATEMENT WITH SUBSECTION
+Format:     Restatement ([Ed]) of [Subject] § [Section] ([Subsection])
+            (Am. Law Inst. [Year])
+Example:    Restatement (Second) of Contracts § 90(2) (Am. Law Inst. 1981)
+            Restatement (Third) of Torts § 5 cmt. a (Am. Law Inst. 2010)
+Rule:       Include subsection numbers or comments
+            Comments referenced with "cmt."
+
+═══════════════════════════════════════════════════════════════════════════════════
+8. MODEL CODES AND UNIFORM ACTS
+═══════════════════════════════════════════════════════════════════════════════════
+
+MODEL PENAL CODE
+Format:     Model Penal Code § [Section] (Am. Law Inst. [Year])
+Example:    Model Penal Code § 210.3 (Am. Law Inst. 1962)
+            Model Penal Code § 2.02 (Am. Law Inst. 1985)
+Rule:       Section format: [#].[##]
+            Always include year
+            Use "Am. Law Inst."
+            Include subsections in parentheses if applicable
+
+UNIFORM COMMERCIAL CODE
+Format:     U.C.C. § [Section] or [Full Name] (AM. LAW INST. & UNIF. LAW COMM'N [Year])
+Example:    U.C.C. § 2-201
+            Uniform Commercial Code § 2-201 (AM. LAW INST. & UNIF. LAW COMM'N 2017)
+Rule:       Section format: [#]-[###]
+            Can abbreviate as U.C.C.
+            When citing codified version, use state code format
+
+UNIFORM ACTS (GENERAL)
+Format:     [Act Name] § [Section] ([Drafting Organization] [Year])
+Example:    Uniform Probate Code § 3-803 (UNIF. LAW COMM'N 2008)
+            Uniform Limited Partnership Act § 201 (UNIF. LAW COMM'N 1976)
+Rule:       Use official title
+            Include drafting organization
+            Include year of promulgation
+
+═══════════════════════════════════════════════════════════════════════════════════
+9. SENTENCING GUIDELINES AND ETHICS RULES
+═══════════════════════════════════════════════════════════════════════════════════
+
+U.S. SENTENCING GUIDELINES
+Format:     U.S. Sentencing Guidelines § [Section] (U.S. Sentencing Comm'n [Year])
+Example:    U.S. Sentencing Guidelines § 4A1.1 (U.S. Sentencing Comm'n 2016)
+            U.S. Sentencing Guidelines § 5F1.1 (U.S. Sentencing Comm'n 2018)
+Rule:       Section format: [#][Letter][#].[#]
+            Always include year
+            Use "U.S. Sentencing Comm'n"
+
+ABA MODEL RULES OF PROFESSIONAL CONDUCT
+Format:     Model Rules of Professional Conduct r. [Rule] (Am. Bar Ass'n [Year])
+Example:    Model Rules of Professional Conduct r. 1.7 (Am. Bar Ass'n 2020)
+            ABA Model Rules of Professional Conduct r. 3.3 (Am. Bar Ass'n 2018)
+Rule:       Use "r." for rule (not § symbol)
+            Use "Am. Bar Ass'n"
+            Include year
+            Can include subsections
+
+ABA ETHICS OPINIONS
+Format:     ABA Comm. on Ethics & Pro. Resp., Formal Op. [#] ([Year])
+Example:    ABA Comm. on Ethics & Pro. Resp., Formal Op. 466 (2014)
+Rule:       Include "Formal Op." or "Informal Op."
+            Include opinion number
+            Include year issued
+
+═══════════════════════════════════════════════════════════════════════════════════
+10. SPECIAL CITATION SITUATIONS
+═══════════════════════════════════════════════════════════════════════════════════
+
+STATUTE WITH INVALIDATION
+Format:     [Citation] (held unconstitutional by [Case Citation])
+Example:    18 U.S.C. § 3501 (2000) (held unconstitutional by Dickerson v. United
+            States, 530 U.S. 428 (2000))
+Rule:       Include parenthetical explaining disposition
+            Cite to case holding statute invalid
+
+REPEALED STATUTE (HISTORICAL REFERENCE)
+Format:     [Citation] (repealed [Year])
+Example:    42 U.S.C. § 6000 (1988) (repealed 1992)
+Rule:       Include repeal year in parenthetical
+            Only when citing historical version
+            Current code doesn't need repeal note
+
+AMENDED STATUTE
+Format:     [Citation] (amended [Year by Pub. L. No.])
+Example:    42 U.S.C. § 1983 (amended 2018 by Pub. L. No. 115-196)
+Rule:       Include amendment information if relevant
+            Usually not needed if citing current version
+            Current code presumed current
+
+STATUTE WITH EXPLANATORY PARENTHETICAL
+Format:     [Citation] (explanation of relevance)
+Example:    42 U.S.C. § 1983 (providing civil remedy for constitutional violations)
+            Cal. Penal Code § 187 (defining murder)
+            I.R.C. § 61 (defining gross income)
+Rule:       Use parentheticals to clarify relevance
+            Comes after year parenthetical
+            Use present tense participle
+
+SHORT FORM FOR STATUTES
+After:      42 U.S.C. § 1983 (2018)
+Short:      § 1983 (if context is clear)
+            Id. (if immediately preceding citation)
+Rule:       Avoid "supra" for statutes
+            Use § and section number if unambiguous
+            Use full citation if any doubt about which statute
+
+═══════════════════════════════════════════════════════════════════════════════════
+COMMON ERRORS AND CORRECTIONS
+═══════════════════════════════════════════════════════════════════════════════════
+
+ERROR 1: Missing Section Symbol
+WRONG:      42 USC 1983 (2018)
+WRONG:      42 U.S.C. 1983 (2018)
+RIGHT:      42 U.S.C. § 1983 (2018)
+
+ERROR 2: Wrong Abbreviation Spacing
+WRONG:      42 U S C § 1983 (2018)
+WRONG:      42U.S.C. § 1983 (2018)
+RIGHT:      42 U.S.C. § 1983 (2018)
+
+ERROR 3: Missing State Abbreviation
+WRONG:      Penal Code § 187 (2018)
+WRONG:      California Penal Code § 187 (2018)
+RIGHT:      Cal. Penal Code § 187 (West 2018)
+
+ERROR 4: Incorrect Code Name
+WRONG:      Cal. P.C. § 187 (2018)
+WRONG:      Cal. PC § 187 (2018)
+RIGHT:      Cal. Penal Code § 187 (West 2018)
+
+ERROR 5: Incomplete Session Law
+WRONG:      Pub. L. No. 88-352
+WRONG:      Civil Rights Act of 1964, 78 Stat. 241
+RIGHT:      Civil Rights Act of 1964, Pub. L. No. 88-352, 78 Stat. 241 (1964)
+
+ERROR 6: Missing Spacing in Pub. L. No.
+WRONG:      Pub.L. No. 88-352, 78 Stat. 241 (1964)
+WRONG:      Pub. L.88-352, 78 Stat. 241 (1964)
+RIGHT:      Pub. L. No. 88-352, 78 Stat. 241 (1964)
+
+ERROR 7: I.R.C. Without Periods
+WRONG:      IRC § 61
+WRONG:      I.R.C § 61
+RIGHT:      I.R.C. § 61
+
+ERROR 8: Federal Rules With Wrong Abbreviation
+WRONG:      Fed. R. Civ. P 56 (missing final period)
+WRONG:      Fed. R. Civil. P. 56 (wrong word)
+RIGHT:      Fed. R. Civ. P. 56
+
+ERROR 9: Federal Rules With Incorrect Spacing
+WRONG:      Fed.R.Civ.P.56 (no spaces)
+WRONG:      Fed. R. Civ .P. 56 (space before P)
+RIGHT:      Fed. R. Civ. P. 56
+
+ERROR 10: Ordinance Without Jurisdiction
+WRONG:      Municipal Code § 8-4-015 (2020)
+WRONG:      Chicago Code § 8-4-015 (2020)
+RIGHT:      Chicago, Ill., Municipal Code § 8-4-015 (2020)
+
+═══════════════════════════════════════════════════════════════════════════════════
+KEY RULES TO REMEMBER
+═══════════════════════════════════════════════════════════════════════════════════
+
+1. ALWAYS INCLUDE SECTION SYMBOL (§)
+   - Never abbreviate as "Sec." or omit it
+   - Use §§ for multiple sections
+   - Exception: Some informal contexts may vary
+
+2. FEDERAL CODE CITATION HIERARCHY
+   1st choice: U.S.C. (Official Code)
+   2nd choice: U.S.C.A. or U.S.C.S. (if more current)
+   3rd choice: Session law (if not yet codified)
+
+3. STATE CODES REQUIRE:
+   - State abbreviation
+   - Code name
+   - Section symbol
+   - Year (usually in parentheses)
+   - Publisher (if unofficial)
+
+4. SESSION LAWS REQUIRE:
+   - Act name (if commonly known)
+   - Pub. L. No. (federal) or Ch. (state)
+   - Public law number or chapter number
+   - Volume and page number
+   - Year (in parentheses)
+
+5. RULES DON'T NEED YEARS
+   - Federal Rules (Civ., Crim., Evid., App.)
+   - State procedural rules
+   - Presumed current and updated by amendments
+
+6. FEDERAL ABBREVIATIONS ARE STANDARDIZED
+   - Fed. R. Civ. P. = Federal Rules of Civil Procedure
+   - Fed. R. Crim. P. = Federal Rules of Criminal Procedure
+   - Fed. R. Evid. = Federal Rules of Evidence
+   - Fed. R. App. P. = Federal Rules of Appellate Procedure
+
+7. PARENTHETICALS ARE IMPORTANT
+   - Include context about statute
+   - Explain relevance to proposition
+   - Note invalidation, repeal, or amendment if relevant
+
+8. CONSISTENCY IS KEY
+   - Maintain same format throughout document
+   - Check local court rules
+   - Verify jurisdiction-specific requirements
+
+═══════════════════════════════════════════════════════════════════════════════════
+QUICK CHECKLIST FOR STATUTE CITATIONS
+═══════════════════════════════════════════════════════════════════════════════════
+
+FEDERAL CODE (U.S.C.)
+☐ Title number included
+☐ "U.S.C." properly abbreviated with periods
+☐ Section symbol (§) included
+☐ Section number accurate
+☐ Year in parentheses (optional if current)
+☐ No extra punctuation inside citation
+
+FEDERAL CODE - RANGE
+☐ Title number included
+☐ Double section symbol (§§) used
+☐ First section and last section accurate
+☐ Proper separator (hyphen or en-dash)
+☐ Year in parentheses
+
+UNOFFICAL FEDERAL CODE (U.S.C.A./U.S.C.S.)
+☐ Title number included
+☐ Correct abbreviation (U.S.C.A. or U.S.C.S.)
+☐ Section symbol (§) included
+☐ Section number accurate
+☐ Publisher name included (West or Lexis)
+☐ Year in parentheses
+☐ Supplement notation if applicable
+
+STATE CODE
+☐ State abbreviation (per Bluebook Table T1)
+☐ Code name accurate
+☐ Section symbol (§) included
+☐ Section number accurate
+☐ Year in parentheses
+☐ Publisher name included (if unofficial)
+☐ Supplement notation if applicable
+
+SESSION LAW
+☐ Act name accurate (if commonly known)
+☐ "Pub. L. No." (federal) or "ch." (state)
+☐ Public law or chapter number accurate
+☐ Volume number included
+☐ Page number included
+☐ "Stat." used for federal session laws
+☐ Year in parentheses
+
+FEDERAL RULES
+☐ "Fed. R." abbreviation used
+☐ Rule type accurate (Civ., Crim., Evid., App.)
+☐ "P." included for procedure rules
+☐ Rule number accurate
+☐ Subsections in parentheses if applicable
+☐ No year included
+☐ Proper spacing and capitalization
+
+STATE RULES
+☐ State abbreviation included
+☐ Rule type accurate (R. Civ. P., R. Crim. P., etc.)
+☐ Rule number accurate
+☐ Subsections in parentheses if applicable
+☐ No year included
+☐ Proper spacing and capitalization
+
+I.R.C.
+☐ "I.R.C." properly abbreviated with periods
+☐ Section symbol (§) included
+☐ Section number accurate
+☐ Subsections in parentheses if applicable
+☐ No year needed (unless for clarity)
+
+ORDINANCE
+☐ City name included
+☐ State abbreviation included
+☐ Code type specified (Municipal, Administrative, etc.)
+☐ Section symbol (§) included
+☐ Section number accurate
+☐ Year in parentheses
+☐ Proper punctuation and formatting
+
+RESTATEMENT
+☐ Edition included (First, Second, Third, Fourth)
+☐ Subject matter accurate
+☐ Section symbol (§) included
+☐ Section number accurate
+☐ Author/organization in parentheses
+☐ Year in parentheses
+☐ Subsections/comments if applicable
+
+═══════════════════════════════════════════════════════════════════════════════════
+REFERENCE: BLUEBOOK TABLE T1 (STATE ABBREVIATIONS)
+═══════════════════════════════════════════════════════════════════════════════════
+
+For complete list of state abbreviations, refer to Bluebook Table T1.
+Common abbreviations shown above in section 2.
+
+═══════════════════════════════════════════════════════════════════════════════════
+END OF QUICK REFERENCE GUIDE
+═══════════════════════════════════════════════════════════════════════════════════

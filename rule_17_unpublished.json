@@ -1,0 +1,120 @@
+{
+  "schema_version": "2.0.0",
+  "generated_at": "2025-11-23T00:00:00Z",
+  "source": "Bluebook 21st Edition",
+  "rule_title": "Rule 17: Unpublished and Forthcoming Sources",
+  "rule_id": "17",
+  "overview": "Unpublished materials include manuscripts, working papers, dissertations, letters, memos, etc., that are not formally published. Forthcoming sources are those accepted for publication but not yet out. Cite unpublished material by describing it (and if applicable, where on file), and forthcoming by indicating the expected publication.",
+  "comprehensive_rules": [
+    {
+      "id": "17.1",
+      "title": "Basic Citation Forms",
+      "text": "Unpublished: Author, Title (unpublished [descriptor] [year]) (on file with ...). Example: John Doe, Article Draft (unpublished manuscript, 2020) (on file with author). Forthcoming: cite like published but replace year with \"forthcoming\" and include the journal or publisher if known. Example: Jane Smith, Book Title (forthcoming 2021). If in a journal: ... 123 Harv. L. Rev. (forthcoming 2022).",
+      "children": []
+    },
+    {
+      "id": "17.2",
+      "title": "Unpublished Materials",
+      "text": "",
+      "children": [
+        {
+          "id": "17.2.1",
+          "title": "Manuscripts",
+          "text": "For manuscripts that are not formally published, provide as much information as possible: Author, Title (date) (unpublished manuscript) and where it is (on file with ... or available at ... if online). If part of a collection, note the collection. Use descriptive parentheticals to clarify the nature (e.g., \"draft\").",
+          "children": []
+        },
+        {
+          "id": "17.2.2",
+          "title": "Dissertations and Theses",
+          "text": "Cite dissertations like: Author, Title (unpublished Ph.D. dissertation, University, year). For LL.M. theses or J.S.D. dissertations, similarly specify. If it's published in Dissertation Abstracts or a database, you could cite that source. But generally treat as an unpublished manuscript with university info.",
+          "children": []
+        },
+        {
+          "id": "17.2.3",
+          "title": "Letters, Memoranda, and Press Releases",
+          "text": "These may be cited as: [Author name], [Description] ([Date]) (on file with ...). For example, Letter from John Doe to Jane Smith (Jan. 5, 2020) (on file with the Columbia Law Review). For memoranda or internal documents, similar format, naming the document if it has a title or a brief description. If citing a press release that's not easily found, treat it like a short document: Organization, Press Release, Title (Date) (on file with ...).",
+          "children": []
+        },
+        {
+          "id": "17.2.4",
+          "title": "E-mail Correspondence and Listserv Postings",
+          "text": "Cite email like a letter: Email from [Author] to [Recipient] (Date, Time) (on file with ...). If a listserv or forum posting, you can do: [Poster Name], Message, [Name of Listserv] (Date, Time) (on file with ... or URL if archived). Often, if the content is accessible online, one might prefer to cite the online source with rule 18 format.",
+          "children": []
+        },
+        {
+          "id": "17.2.5",
+          "title": "Interviews",
+          "text": "For unpublished interviews, cite: Interview with [Name, Title], in [Location] (Date). If you're the interviewer, you could mention that (with author). If a recording or transcript exists, cite that if possible. Example: Interview with John Doe, former Dir., ABC Agency, in New York, N.Y. (May 5, 2020). If the interview is by telephone, you could say (telephone interview).",
+          "children": []
+        },
+        {
+          "id": "17.2.6",
+          "title": "Speeches and Addresses",
+          "text": "Cite speeches: [Speaker], [Title of Speech] (Date). If unpublished, maybe (transcript on file with ...). If published in a source, cite that source. If you just have details of the event, include event info: e.g., Speech, Location, Date. Example: Remarks of Jane Doe at the Annual Meeting of the XYZ Ass'n (May 1, 2020).",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "17.3",
+      "title": "Forthcoming Publications",
+      "text": "Cite forthcoming journal articles as: Author, Title, [Volume if known] Journal Name (forthcoming Year). For books: ... (forthcoming Publisher Year). If the year is known or likely, use it; if not, you might omit or say (forthcoming). If an article is accepted but volume/issue not assigned, just (forthcoming). If just submitted, treat as a manuscript rather than forthcoming.",
+      "children": []
+    },
+    {
+      "id": "17.4",
+      "title": "Working Papers",
+      "text": "Many working papers (like SSRN drafts) can be cited similar to unpublished manuscripts: Author, Title (Working Paper, Organization Year). If a specific working paper series: Author, Title, ABC Institute Working Paper No. 123 (2020). If available online, you might add a URL parenthetical. The Bluebook generally says to treat them as unpublished unless they have a specific series reference.",
+      "children": []
+    },
+    {
+      "id": "17.5",
+      "title": "Electronic Databases and Online Sources",
+      "text": "If an unpublished or forthcoming source is available online (like a draft on SSRN or an online repository), include the URL and date accessed if required (see rule 18). For example: John Doe, Draft Title (Apr. 2020) (unpublished manuscript), https://ssrn.com/abstract=123456 (last visited Jan. 1, 2021). For forthcoming, you might not have a URL yet, just cite as forthcoming.",
+      "children": []
+    },
+    {
+      "id": "17.6",
+      "title": "Short Citation Forms",
+      "text": "Short cite unpublished sources by last name and a supra note if possible (assuming you gave a full citation in a prior footnote). E.g., Doe, supra note 10. If only one work by Doe is cited, that suffices. If a letter or interview, you might refer to it in text or use an id. if it\u2019s clear. Bluebook doesn\u2019t have special short forms beyond using supra for previously cited miscellaneous sources.",
+      "children": []
+    }
+  ],
+  "summary_by_type": {
+    "unpublished_materials": {
+      "description": "Materials not formally published, including manuscripts, dissertations, letters, memos, emails, interviews, and speeches",
+      "subrules": [
+        "17.2.1",
+        "17.2.2",
+        "17.2.3",
+        "17.2.4",
+        "17.2.5",
+        "17.2.6"
+      ]
+    },
+    "forthcoming_publications": {
+      "description": "Sources accepted for publication but not yet out",
+      "subrules": [
+        "17.3"
+      ]
+    },
+    "working_papers": {
+      "description": "Including SSRN drafts and working paper series",
+      "subrules": [
+        "17.4"
+      ]
+    },
+    "electronic_sources": {
+      "description": "Unpublished or forthcoming sources available online",
+      "subrules": [
+        "17.5"
+      ]
+    },
+    "short_citation_forms": {
+      "description": "How to short cite unpublished and forthcoming sources",
+      "subrules": [
+        "17.6"
+      ]
+    }
+  }
+}

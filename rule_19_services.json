@@ -1,0 +1,374 @@
+{
+  "rule_19": {
+    "id": "19",
+    "title": "Services",
+    "overview": "Services refer to looseleaf and electronic services that provide compilations of primary law and analysis (like tax services, CCH looseleafs, etc.). These can be cited like books or periodicals depending on how they are organized. Often, they have paragraph or section numbers rather than pages.",
+    "subrules": [
+      {
+        "id": "19.1",
+        "title": "Citation Form for Services",
+        "content": "Cite the service by name, publisher (if helpful), and pinpoint. Many services have preferred abbreviations. For example: 5 CCH Cons. Fin. Guide ¶ 72,205 (2019). Here, volume 5 of the Commerce Clearing House Consumer Finance Guide, paragraph 72,205. If the service is electronic, indicate the database (e.g., Westlaw) if needed. If the service is organized by release, you might cite release or issue.",
+        "key_points": [
+          "Cite by service name, publisher (if helpful), and pinpoint",
+          "Many services have preferred abbreviations (see T15)",
+          "Example: 5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+          "Include volume number if applicable",
+          "Use paragraph (¶) or section (§) numbers rather than pages",
+          "For electronic services, indicate database (e.g., Westlaw) if needed",
+          "If organized by release, cite release or issue information",
+          "Include year in parentheses"
+        ],
+        "examples": [
+          {
+            "format": "5 CCH Cons. Fin. Guide ¶ 72,205 (2019)",
+            "explanation": "Volume 5 of Commerce Clearing House Consumer Finance Guide, paragraph 72,205, published in 2019"
+          }
+        ]
+      },
+      {
+        "id": "19.2",
+        "title": "Short Citation Forms",
+        "content": "Short cite services by name (if unique) and paragraph/section. E.g., CCH Cons. Fin. Guide, supra note 10, ¶ 72,205. Or simply Id. if immediately previous. Services often have continuous updates, so ensure the supra still points to the same material (services can update paragraph numbers, but assume static).",
+        "key_points": [
+          "Short cite by service name (if unique) and paragraph/section",
+          "Use 'supra' with the note number for previously cited services",
+          "Use 'id.' if the service was cited in the immediately preceding footnote",
+          "Example: CCH Cons. Fin. Guide, supra note 10, ¶ 72,205",
+          "Services often have continuous updates",
+          "Ensure that a supra citation still points to the same material",
+          "Note: Services can update paragraph numbers; assume they are static for citation purposes"
+        ],
+        "examples": [
+          {
+            "format": "CCH Cons. Fin. Guide, supra note 10, ¶ 72,205",
+            "explanation": "Short form citing a previously-cited service"
+          },
+          {
+            "format": "Id.",
+            "explanation": "Short form if the service was cited in the immediately preceding footnote"
+          }
+        ]
+      }
+    ]
+  },
+  "services_table": {
+    "table_number": "T15",
+    "title": "Services (Looseleaf & Bound Services)",
+    "common_service_publisher_abbreviations": {
+      "Bloomberg Law": "BL",
+      "Commerce Clearing House": "CCH",
+      "Matthew Bender": "MB",
+      "Research Institute of America": "RIA"
+    },
+    "selected_services": [
+      {
+        "service_name": "Administrative Law Third Series",
+        "abbreviation": "Admin. L.3d (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Affirmative Action Compliance Manual for Federal Contractors",
+        "abbreviation": "Aff. Action Compl. Man. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "AIDS Law & Litigation Reporter",
+        "abbreviation": "AIDS L. & Litig. Rep. (Univ. Pub. Group)",
+        "publisher": "University Publishing Group"
+      },
+      {
+        "service_name": "All States Tax Guide",
+        "abbreviation": "All St. Tax Guide (RIA)",
+        "publisher": "Research Institute of America"
+      },
+      {
+        "service_name": "American Federal Tax Reports, Second Series",
+        "abbreviation": "A.F.T.R.2d (RIA)",
+        "publisher": "Research Institute of America"
+      },
+      {
+        "service_name": "American Stock Exchange Guide",
+        "abbreviation": "Am. Stock Ex. Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Antitrust & Trade Regulation Report",
+        "abbreviation": "Antitrust & Trade Reg. Rep. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Aviation Law Reporter",
+        "abbreviation": "Av. L. Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Aviation Cases (bound)",
+        "abbreviation": "Av. Cas. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "BL's Banking Report",
+        "abbreviation": "Banking Rep. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Bankruptcy Court Decisions",
+        "abbreviation": "Bankr. Ct. Dec. (LRP)",
+        "publisher": "LRP"
+      },
+      {
+        "service_name": "Bankruptcy Law Reports",
+        "abbreviation": "Bankr. L. Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Benefits Review Board Service",
+        "abbreviation": "Ben. Rev. Bd. Serv. (MB)",
+        "publisher": "Matthew Bender"
+      },
+      {
+        "service_name": "BioLaw",
+        "abbreviation": "BioLaw (LexisNexis)",
+        "publisher": "LexisNexis"
+      },
+      {
+        "service_name": "Blue Sky Law Reporter",
+        "abbreviation": "Blue Sky L. Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Board of Contract Appeals Decisions",
+        "abbreviation": "B.C.A. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Business Franchise Guide",
+        "abbreviation": "Bus. Franchise Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Canadian Commercial Law Guide",
+        "abbreviation": "Can. Com. L. Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Canadian Tax Reporter",
+        "abbreviation": "Can. Tax Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Chemical Regulation Reporter",
+        "abbreviation": "Chem. Reg. Rep. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Chicago Board Options Exchange Guide",
+        "abbreviation": "Chicago Bd. Options Ex. Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Collective Bargaining Negotiations & Contracts",
+        "abbreviation": "Collective Bargaining Negot. & Cont. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Collier Bankruptcy Cases, Second Series",
+        "abbreviation": "Collier Bankr. Cas. 2d (MB)",
+        "publisher": "Matthew Bender"
+      },
+      {
+        "service_name": "Commodity Futures Law Reporter",
+        "abbreviation": "Comm. Fut. L. Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Communications Regulation",
+        "abbreviation": "Commc'ns Reg. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Congressional Index",
+        "abbreviation": "Cong. Index (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Consumer Credit Guide",
+        "abbreviation": "Consumer Cred. Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Consumer Product Safety Guide",
+        "abbreviation": "Consumer Prod. Safety Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Contract Appeals Decisions",
+        "abbreviation": "Cont. App. Dec. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Contracts Cases, Federal",
+        "abbreviation": "(covered in Gov. Contracts Rep.)",
+        "note": "See Government Contracts Reporter"
+      },
+      {
+        "service_name": "Copyright Law Decisions",
+        "abbreviation": "Copyright L. Dec. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Copyright Law Reporter",
+        "abbreviation": "Copyright L. Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Cost Accounting Standards Guide",
+        "abbreviation": "Cost Accounting Stand. Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Criminal Law Reporter",
+        "abbreviation": "Crim. L. Rep. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Daily Labor Report",
+        "abbreviation": "Daily Lab. Rep. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Dominion Tax Cases",
+        "abbreviation": "Dominion Tax Cas. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "EEOC Compliance Manual (BL)",
+        "abbreviation": "EEOC Compl. Man. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "EEOC Compliance Manual (CCH)",
+        "abbreviation": "EEOC Compl. Man. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Employee Benefits Cases",
+        "abbreviation": "Empl. Benefits Cas. (BL)",
+        "publisher": "Bloomberg Law"
+      },
+      {
+        "service_name": "Employee Benefits Compliance Coordinator",
+        "abbreviation": "Empl. Coordinator (RIA)",
+        "publisher": "Research Institute of America"
+      },
+      {
+        "service_name": "Employment Safety & Health Guide",
+        "abbreviation": "Empl. Safety & Health Guide (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "United States Tax Cases (bound in Fed. Estate & Gift / Std. Fed. Tax Rep.)",
+        "abbreviation": "U.S. Tax Cases – see other reporters",
+        "note": "See other reporter abbreviations"
+      },
+      {
+        "service_name": "U.S. Tax Reporter",
+        "abbreviation": "U.S. Tax Rep. (RIA)",
+        "publisher": "Research Institute of America"
+      },
+      {
+        "service_name": "U.S. Tax Treaties Reporter",
+        "abbreviation": "U.S. Tax Treaties Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      },
+      {
+        "service_name": "Utilities Law Reports",
+        "abbreviation": "Util. L. Rep. (CCH)",
+        "publisher": "Commerce Clearing House"
+      }
+    ]
+  },
+  "citation_guidelines": {
+    "basic_format": "[Volume] [Service Abbreviation] ¶ [Paragraph Number] ([Year])",
+    "components": {
+      "volume": "Optional; include if the service is multi-volume",
+      "service_abbreviation": "Use preferred abbreviation from T15; include publisher abbreviation in parentheses",
+      "pinpoint": "Use paragraph (¶) or section (§) symbols; services typically use paragraph numbers",
+      "year": "Include in parentheses; represents publication or update year"
+    },
+    "electronic_services": {
+      "note": "For electronic services, indicate the database (e.g., Westlaw, LexisNexis) if needed",
+      "format": "[Service Name] (database), ¶ [Number]"
+    },
+    "release_organized_services": {
+      "note": "If service is organized by release or issue, cite the release or issue information",
+      "format": "[Service Name] Release No. [Number]"
+    },
+    "multi_volume_services": {
+      "note": "When citing multi-volume services, include volume number before the service name",
+      "format": "[Volume] [Service Name], ¶ [Paragraph]"
+    },
+    "updates_and_supplements": {
+      "note": "Services have continuous updates; verify that supra citations still point to the same material",
+      "caution": "Paragraph numbers may change with updates"
+    }
+  },
+  "short_citation_forms": {
+    "supra_form": "[Service Abbreviation], supra note [X], ¶ [Paragraph]",
+    "id_form": "Id. (if immediately preceding citation)",
+    "notes": [
+      "Use 'supra' with note number for previously cited services",
+      "Use 'id.' only if the service was cited in the immediately preceding footnote",
+      "Ensure supra citations still reference the correct material in updated services"
+    ]
+  },
+  "key_considerations": {
+    "primary_law_and_analysis": "Services typically compile both primary law and analysis",
+    "citation_flexibility": "Services can be cited like books or periodicals depending on organization",
+    "pinpoint_numbering": "Services often use paragraph/section numbers instead of page numbers",
+    "updates_tracking": "Services have continuous updates; verify paragraph numbers remain consistent",
+    "publisher_identification": "Include publisher abbreviation for clarity",
+    "preferred_abbreviations": "Use T15 for preferred service abbreviations and publisher identifications"
+  },
+  "common_service_publishers": {
+    "CCH": {
+      "full_name": "Commerce Clearing House",
+      "examples": [
+        "CCH Cons. Fin. Guide",
+        "Bankr. L. Rep. (CCH)",
+        "Blue Sky L. Rep. (CCH)",
+        "Commodity Futures Law Reporter"
+      ]
+    },
+    "RIA": {
+      "full_name": "Research Institute of America",
+      "examples": [
+        "All St. Tax Guide (RIA)",
+        "A.F.T.R.2d (RIA)",
+        "U.S. Tax Rep. (RIA)"
+      ]
+    },
+    "BL": {
+      "full_name": "Bloomberg Law",
+      "examples": [
+        "Admin. L.3d (BL)",
+        "Antitrust & Trade Reg. Rep. (BL)",
+        "Crim. L. Rep. (BL)"
+      ]
+    },
+    "MB": {
+      "full_name": "Matthew Bender",
+      "examples": [
+        "Ben. Rev. Bd. Serv. (MB)",
+        "Collier Bankr. Cas. 2d (MB)"
+      ]
+    }
+  },
+  "metadata": {
+    "source": "Bluebook.json",
+    "rule_number": "Rule 19",
+    "rule_title": "Services",
+    "extracted": "2025-11-23",
+    "coverage": "Comprehensive extraction of all Rule 19 subsections and T15 Services table"
+  }
+}

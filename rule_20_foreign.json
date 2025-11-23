@@ -1,0 +1,555 @@
+{
+  "rule": 20,
+  "title": "Foreign Materials",
+  "overview": "This covers citation of foreign legal materials. The Bluebook has extensive tables (T2) for specific countries. General rules: use the official source of foreign law if available, in the original language, with an English parenthetical explanation if needed. Provide jurisdiction if not obvious.",
+  "key_principles": [
+    "Use the official source of foreign law if available",
+    "Cite in the original language",
+    "Provide English parenthetical explanation if needed",
+    "Always indicate jurisdiction unless obvious from context",
+    "Use table T2 for country abbreviations and specific formats"
+  ],
+  "sections": {
+    "20.1": {
+      "id": "20.1",
+      "title": "Jurisdiction",
+      "description": "Always indicate the country (and subdivision like state or province if needed) unless it's obvious from context. Use table T2 for abbreviations.",
+      "rules": [
+        "Indicate country and subdivision (state, province, canton) if needed",
+        "Use table T2 for official abbreviations",
+        "Provide English title in parenthesis if source is not in English"
+      ],
+      "examples": [
+        {
+          "jurisdiction": "England/UK",
+          "example": "[Name of Act] [year] (UK)",
+          "description": "English statute citation format"
+        },
+        {
+          "jurisdiction": "France",
+          "example": "C. civ. art. 1234 (Fr.)",
+          "description": "French Civil Code article citation"
+        }
+      ]
+    },
+    "20.2": {
+      "id": "20.2",
+      "title": "Non-English-Language Documents",
+      "description": "If citing a source in a language that uses the Roman alphabet, cite in the original language, but you may provide an English translation of the title in parenthesis. If language uses a non-Roman alphabet (Chinese, Arabic, etc.), transliterate the title and then parenthesize the English translation.",
+      "key_rules": [
+        "Cite in original language for Roman alphabet languages",
+        "May provide English translation of title in parenthesis",
+        "For non-Roman scripts: transliterate then translate",
+        "Include language or jurisdiction in parenthesis if needed for clarity"
+      ],
+      "subsections": {
+        "20.2.1": {
+          "id": "20.2.1",
+          "title": "Documents Appearing in More than One Language",
+          "description": "If a document is officially published in multiple languages (like some Swiss laws in German, French, Italian), cite the version you are using and can read. If an English version is official or authoritative, you can cite that. If not, cite the original.",
+          "guidance": [
+            "Cite the version you are using and can read",
+            "If English version is official, you may cite that",
+            "Otherwise cite the original language",
+            "May note existence of translations if relevant"
+          ],
+          "examples": [
+            {
+              "jurisdiction": "Quebec",
+              "example": "Cite Quebec law in French even if English version exists unofficially, unless an official English is provided"
+            },
+            {
+              "jurisdiction": "Switzerland",
+              "example": "Some Swiss laws are officially published in German, French, and Italian - cite the version you use"
+            }
+          ]
+        },
+        "20.2.2": {
+          "id": "20.2.2",
+          "title": "Titles and Names of Documents in Languages Other than English",
+          "description": "Capitalize foreign titles according to the capitalization rules of that language. Italicize case names or titles of books as in English.",
+          "capitalization_rules": [
+            "Follow the capitalization rules of the source language",
+            "In French: only first word and proper nouns capitalized",
+            "In German: nouns capitalized, other words lowercase unless proper nouns",
+            "In Spanish: first word and proper nouns capitalized"
+          ],
+          "formatting": [
+            "Italicize case names and titles as in English",
+            "Provide English translation of title in parenthesis if reader might not understand"
+          ],
+          "example": "Loi relative aux sociétés par actions [Law on Joint Stock Companies] (Belgium)"
+        },
+        "20.2.3": {
+          "id": "20.2.3",
+          "title": "Abbreviations in Languages Other than English",
+          "description": "Use the foreign-language abbreviations as per local convention or table T2. Do not translate abbreviations of source names.",
+          "rules": [
+            "Use foreign-language abbreviations as per local convention",
+            "Consult table T2 for standardized abbreviations",
+            "Do not translate abbreviations of source names",
+            "Provide parenthetical explanation for less-known abbreviations on first use"
+          ],
+          "examples": [
+            {
+              "abbreviation": "OJ",
+              "meaning": "Official Journal of the EU",
+              "use": "Do not translate"
+            },
+            {
+              "abbreviation": "BVerfGE",
+              "meaning": "German Federal Constitutional Court reporter",
+              "use": "Keep as is"
+            }
+          ]
+        },
+        "20.2.4": {
+          "id": "20.2.4",
+          "title": "Languages That Do Not Use the Roman Alphabet",
+          "description": "Transliterate non-Roman scripts. Use the system given in Bluebook table (for example, pinyin for Chinese, Hepburn for Japanese, etc.). Once transliterated, treat as a foreign title (with italicization rules as appropriate).",
+          "transliteration_systems": [
+            {
+              "language": "Chinese",
+              "system": "Pinyin"
+            },
+            {
+              "language": "Japanese",
+              "system": "Hepburn romanization"
+            },
+            {
+              "language": "Arabic",
+              "system": "Consult table T2"
+            },
+            {
+              "language": "Cyrillic/Russian",
+              "system": "Consult table T2"
+            }
+          ],
+          "process": [
+            "Transliterate non-Roman script using appropriate system",
+            "Treat transliterated text as foreign title",
+            "Provide English translation in parenthesis",
+            "Include jurisdiction if helpful"
+          ],
+          "example": "Supreme Court of Japan [Saikō Saibansho] (Japan)"
+        },
+        "20.2.5": {
+          "id": "20.2.5",
+          "title": "Citations to Translations of Non-English-Language Documents",
+          "description": "If you are citing a translation, indicate the translator and that it's a translation. Also, if you quote a translated passage, you might parenthetically credit the translation.",
+          "format": "Civil Code of Germany, translated in 2 The German Civil Code: As Amended to January 1987, at 123 (Simon L. Goren trans., Fred B. Rothman & Co. 1994)",
+          "requirements": [
+            "Identify the translator",
+            "Clearly indicate it is a translation",
+            "Include publication information for the translation",
+            "For quoted passages, parenthetically credit the translation source"
+          ]
+        }
+      }
+    },
+    "20.3": {
+      "id": "20.3",
+      "title": "Cases",
+      "description": "Cite foreign cases with the case name (if applicable, italicize as in English), the volume/reporter/page (if analogous to common law citation), and the court and date in parenthesis. Many civil law countries use case numbers and dates instead of reporter citations, so adapt accordingly.",
+      "general_format": "[Case Name] [volume/reporter/page] ([Court] [Date])",
+      "example": "Bundesverfassungsgericht [BVerfG] [Federal Constitutional Court] Mar. 3, 2004, 111 Entscheidungen des Bundesverfassungsgerichts [BVerfGE] 307 (Ger.)",
+      "guidance": [
+        "Use the format provided in table T2 for each country",
+        "Adapt to specific country's citation style",
+        "Distinguish between common law and civil law formatting"
+      ],
+      "subsections": {
+        "20.3.1": {
+          "id": "20.3.1",
+          "title": "Common Law Cases",
+          "description": "Cite as: [Case Name] [year/volume] [Reporter] [page or case number] ([Court abbreviation] [Year]). For example, R. v. Smith, [2001] 2 S.C.R. 42 (Can.). If country uses year in brackets, follow their style.",
+          "format": "[Case Name] [year/volume] [Reporter] [page or case number] ([Court] [Year])",
+          "structure": {
+            "case_name": "Italicized name of case",
+            "year_or_volume": "Year in brackets [year] or volume number",
+            "reporter": "Name of official reporter",
+            "page_or_citation": "Page number or case number",
+            "court": "Court abbreviation",
+            "year": "Year of decision"
+          },
+          "examples": [
+            {
+              "jurisdiction": "Canada",
+              "example": "R. v. Smith, [2001] 2 S.C.R. 42 (Can.)",
+              "components": {
+                "case_name": "R. v. Smith",
+                "year_bracket": "[2001]",
+                "volume": "2",
+                "reporter": "S.C.R.",
+                "page": "42",
+                "court": "Can."
+              }
+            }
+          ],
+          "guidance": [
+            "Always include jurisdiction if not obvious from reporter",
+            "Include country or province as needed",
+            "Follow the year in brackets convention if used by that jurisdiction",
+            "Use official reporter names and abbreviations from table T2"
+          ]
+        },
+        "20.3.2": {
+          "id": "20.3.2",
+          "title": "Civil Law and Other Non-Common Law Cases",
+          "description": "Often no official case name; you might use the parties or a descriptor. Provide docket or decision number if available, court name, date.",
+          "format": "[Court] [Date] [Decision Number] [Reporter/Volume] [page]",
+          "structure": {
+            "court_name": "Name of court in original language",
+            "date": "Date of decision",
+            "decision_number": "Docket or decision number if available",
+            "reporter": "Official gazette or court bulletin reference",
+            "page": "Page or paragraph number"
+          },
+          "examples": [
+            {
+              "jurisdiction": "Germany",
+              "example": "BVerfG Mar. 3, 2004, 111 BVerfGE 307 (case regarding ...)",
+              "description": "German Federal Constitutional Court format"
+            },
+            {
+              "jurisdiction": "France",
+              "example": "Conseil d'État [CE] [Council of State] June 27, 2014, Rec. Lebon 312",
+              "description": "French Council of State format with official publication reference"
+            }
+          ],
+          "guidance": [
+            "Use available references like official gazettes or court bulletins",
+            "Consult table T2 for specific country formats",
+            "Many civil law countries use case numbers and dates instead of reporter citations",
+            "Adapt citation format accordingly to jurisdiction",
+            "Always provide enough information to identify the specific case"
+          ]
+        }
+      }
+    },
+    "20.4": {
+      "id": "20.4",
+      "title": "Constitutions",
+      "description": "Cite foreign constitutions by country name and then constitution (in English if known) and pinpoint. Provide year of adoption or amendment if relevant and not clear by context.",
+      "format": "Constitution of the [Country Name] [pinpoint reference]",
+      "examples": [
+        {
+          "jurisdiction": "Italy",
+          "example": "Constitution of the Italian Republic art. 5"
+        },
+        {
+          "jurisdiction": "Germany",
+          "example": "Grundgesetz [GG] [Basic Law] art. 1 (Ger.)",
+          "note": "Original language with English translation"
+        },
+        {
+          "jurisdiction": "Germany (with year)",
+          "example": "(Germany 1949)",
+          "note": "Include year if multiple constitutions in history or if relevant"
+        }
+      ],
+      "pinpoint_references": [
+        "Article numbers (art. X)",
+        "Sections (§ X)",
+        "Paragraphs (¶ X)",
+        "Provisions and subdivisions"
+      ],
+      "guidance": [
+        "Always include country name unless obvious from context",
+        "Provide English name if known",
+        "Use original language name in italics with English translation in brackets if needed",
+        "Include year of adoption if relevant and not clear from context",
+        "Use article abbreviations consistent with source document"
+      ]
+    },
+    "20.5": {
+      "id": "20.5",
+      "title": "Statutes",
+      "description": "Cite foreign statutes by official name (possibly translated in brackets if needed), the promulgation or code information, and date. Civil law countries often use: Law Name (date) (Country). For codes: give the article number and code name.",
+      "general_format": "[Law Name] [promulgation info] ([Country])",
+      "examples": [
+        {
+          "type": "Civil Law Code",
+          "example": "Code civil [C. civ.] art. 1382 (Fr.)",
+          "description": "French Civil Code format"
+        },
+        {
+          "type": "Session Laws",
+          "example": "Official Journal citation for official gazette",
+          "description": "Use official gazette if applicable"
+        }
+      ],
+      "guidance": [
+        "Use official name of statute/code",
+        "Provide English translation in brackets if needed",
+        "Include promulgation date or code article information",
+        "Always include country abbreviation in parentheses",
+        "Consult table T2 for jurisdiction-specific formats"
+      ],
+      "subsections": {
+        "20.5.1": {
+          "id": "20.5.1",
+          "title": "Statutes in Common Law Systems",
+          "description": "Common law jurisdictions often mirror U.S./U.K. style: Title (Jurisdiction year). Include jurisdiction abbreviation if sub-national (like Ontario or New South Wales).",
+          "format": "[Title] [year] ([Jurisdiction])",
+          "examples": [
+            {
+              "jurisdiction": "Australia",
+              "example": "Australian Consumer Law, Competition and Consumer Act 2010 (Cth) sch 2 (Austl.)",
+              "components": {
+                "title": "Australian Consumer Law, Competition and Consumer Act",
+                "year": "2010",
+                "jurisdiction": "Cth (Commonwealth)",
+                "pinpoint": "sch 2 (schedule 2)",
+                "country": "Austl."
+              }
+            },
+            {
+              "jurisdiction": "Canada (Ontario)",
+              "example": "[Statute Name] [year] (Ont.)",
+              "note": "Sub-national jurisdiction abbreviation"
+            },
+            {
+              "jurisdiction": "Australia (New South Wales)",
+              "example": "[Statute Name] [year] (N.S.W.)",
+              "note": "Sub-national jurisdiction abbreviation"
+            }
+          ],
+          "guidance": [
+            "Use their official compilation or session law citation",
+            "Include jurisdiction abbreviation if sub-national",
+            "Follow the citation style of that common law jurisdiction",
+            "Include schedule or part references as applicable",
+            "Use table T2 for country-specific abbreviations"
+          ]
+        },
+        "20.5.2": {
+          "id": "20.5.2",
+          "title": "Statutes in Civil Law and Other Non-Common Law Jurisdictions",
+          "description": "Civil law: often use the date and title: e.g., Gesetz über die ... [Act on ...], Oct. 1, 2020, BGBL I at 123 (Ger.). Or the year/number style: e.g., Law No. 100 of 2006 (Japan).",
+          "formats": [
+            {
+              "style": "Dated Law Format",
+              "example": "Gesetz über die ... [Act on ...], Oct. 1, 2020, BGBL I at 123 (Ger.)",
+              "jurisdiction": "Germany",
+              "components": [
+                "Original language law name",
+                "English translation in brackets",
+                "Enactment date",
+                "Official gazette citation (Bundesgesetzblatt)",
+                "Page number"
+              ]
+            },
+            {
+              "style": "Numbered Law Format",
+              "example": "Law No. 100 of 2006 (Japan)",
+              "jurisdiction": "Japan",
+              "components": [
+                "Law number",
+                "Year of enactment",
+                "Country abbreviation"
+              ]
+            }
+          ],
+          "guidance": [
+            "Provide English description in brackets if title is not self-explanatory",
+            "Include publication reference like an official gazette citation",
+            "Use date and/or number as per country's format",
+            "Consult table T2 for each country's preferred format",
+            "Include whether it's a national or regional/provincial law if relevant"
+          ]
+        }
+      }
+    },
+    "20.6": {
+      "id": "20.6",
+      "title": "Non-English-Language and Foreign Periodicals",
+      "description": "Cite foreign journals similar to U.S. journals, but use the original title abbreviation (per T13 for that language) and include an English translation of the title in parenthesis if not obvious.",
+      "format": "[Volume] [Abbreviated Journal Title] [page] ([year]) [Country]",
+      "example": "20 Revue Internationale de Droit Comparé 25 (1988) (Fr.) (\"International Review of Comparative Law\")",
+      "structure": {
+        "volume": "Volume number",
+        "abbreviation": "Official journal abbreviation per T13",
+        "page": "Starting page or page number",
+        "year": "Year of publication",
+        "country": "Country abbreviation if helpful",
+        "english_translation": "English translation of journal title in parenthesis"
+      },
+      "guidance": [
+        "Use original title abbreviation from table T13 for that language",
+        "Include English translation of title if not obvious",
+        "Format similarly to U.S. journal citations",
+        "For article titles in foreign languages: may translate in parenthetical if helpful",
+        "Always provide enough information to locate the source"
+      ]
+    },
+    "20.7": {
+      "id": "20.7",
+      "title": "Short Citation Forms",
+      "description": "Use id., supra, etc., for foreign sources similarly. If you've given an English hereinafter, use that. Ensure not to confuse foreign sources with domestic ones if similar names.",
+      "short_forms": [
+        {
+          "form": "id.",
+          "usage": "If immediately preceding footnote is exactly the same source",
+          "note": "Standard short citation form"
+        },
+        {
+          "form": "supra",
+          "usage": "For previously cited sources",
+          "example": "German Civil Code, supra note 10, § 823"
+        },
+        {
+          "form": "Hereinafter abbreviation",
+          "usage": "If an English hereinafter was given in initial citation",
+          "example": "[Long name] (hereinafter \"ABBR\")"
+        }
+      ],
+      "guidance": [
+        "Use id. for immediately preceding identical source",
+        "Use supra for previously cited sources with note number",
+        "If given English hereinafter abbreviation, use that in subsequent cites",
+        "Include country abbreviation if needed to avoid confusion with similarly-named domestic sources",
+        "Example: BGHZ, supra note 12 (if using abbreviation for German case reporter)"
+      ],
+      "cautions": [
+        "Do not confuse foreign sources with domestic ones of similar names",
+        "Include country if needed for clarity",
+        "Ensure reader can easily trace back to full citation"
+      ]
+    }
+  },
+  "country_specific_guidance": {
+    "common_law_countries": [
+      {
+        "country": "United Kingdom/England",
+        "format": "[Name of Act] [year] (UK)",
+        "case_format": "[Case Name] [year] [Reporter] [page] ([Court] [Year])",
+        "notes": "Year often in brackets; use official reporter abbreviations"
+      },
+      {
+        "country": "Canada",
+        "case_format": "R. v. Smith, [2001] 2 S.C.R. 42 (Can.)",
+        "statute_format": "[Act Name] [year] ([Province])",
+        "notes": "Include provincial abbreviation for sub-national laws"
+      },
+      {
+        "country": "Australia",
+        "statute_format": "[Act Name] [year] ([State/Commonwealth])",
+        "case_format": "[Case Name] [year] [Reporter] [page] (Austl.)",
+        "notes": "Include state/commonwealth abbreviation; use official reporters"
+      }
+    ],
+    "civil_law_countries": [
+      {
+        "country": "France",
+        "code_format": "C. civ. art. [number] (Fr.)",
+        "statute_format": "[Law Name] [date], official gazette (Fr.)",
+        "case_format": "Conseil d'État [CE] [date], Rec. Lebon [page]",
+        "notes": "Use code abbreviations; consult table T2 for specific format"
+      },
+      {
+        "country": "Germany",
+        "code_format": "BGB [section number] (Ger.) or Bürgerliches Gesetzbuch [section] (Ger.)",
+        "statute_format": "[Law Name], [date], BGBL I [page] (Ger.)",
+        "case_format": "BVerfG [date], [volume] BVerfGE [page] (Ger.)",
+        "notes": "Use official gazette (BGBL); Bundesverfassungsgericht for constitutional cases"
+      },
+      {
+        "country": "Italy",
+        "constitution_format": "Constitution of the Italian Republic art. [number]",
+        "code_format": "C.C. art. [number] (Italy)",
+        "notes": "Consult table T2 for statute-specific abbreviations"
+      },
+      {
+        "country": "Spain",
+        "code_format": "Código Civil art. [number] (Spain) or C.C. art. [number] (Spain)",
+        "statute_format": "[Law Name] [year], Official State Gazette (Spain)",
+        "notes": "Include year and publication reference"
+      },
+      {
+        "country": "Japan",
+        "statute_format": "Law No. [number] of [year] (Japan)",
+        "code_format": "[Code Name] art. [number] (Japan)",
+        "notes": "Use numbered law format; transliterate original language titles"
+      }
+    ],
+    "mixed_systems": [
+      {
+        "country": "Quebec (Canada)",
+        "note": "Civil law jurisdiction within common law Canada",
+        "guidance": "Follow civil law citation conventions but include Quebec/Que. abbreviation; cite French source unless official English available"
+      },
+      {
+        "country": "Scotland",
+        "note": "Mixed system jurisdiction within UK",
+        "guidance": "Use appropriate reporter abbreviations; follow local citation conventions from table T2"
+      }
+    ]
+  },
+  "table_t2_references": {
+    "description": "The Bluebook Table T2 provides country-specific citation formats, abbreviations, and sources. Always consult T2 for:",
+    "content": [
+      "Country and subdivision abbreviations",
+      "Official reporter names and abbreviations",
+      "Preferred format for constitutions, statutes, and cases",
+      "Official publication sources (gazettes, reports, etc.)",
+      "Specific transliteration conventions for non-Roman alphabets",
+      "Language considerations",
+      "Court abbreviations"
+    ]
+  },
+  "common_mistakes_to_avoid": [
+    "Translating abbreviations of source names",
+    "Failing to include jurisdiction when required",
+    "Not following the original language capitalization rules",
+    "Confusing foreign sources with similarly-named domestic sources in short cites",
+    "Failing to transliterate non-Roman scripts properly",
+    "Not providing English translations when helpful for reader comprehension",
+    "Using English-language formatting for sources that require specific foreign citation conventions",
+    "Failing to consult table T2 for country-specific format requirements"
+  ],
+  "key_research_sources": {
+    "official": [
+      "Bluebook Table T2 (Country-Specific Information)",
+      "Bluebook Table T13 (Foreign Language Periodical Abbreviations)",
+      "Official country legal publication sources",
+      "Constitutional and statutory documents in original language"
+    ],
+    "reference": [
+      "International Law Reports (I.L.R.) - for compiled cases",
+      "Country-specific legal databases and official repositories",
+      "Legal reference materials specific to jurisdiction",
+      "Official government websites for statutes and regulations"
+    ]
+  },
+  "practical_tips": [
+    {
+      "tip": "Primary Source Preference",
+      "guidance": "Always use the official source of foreign law if available, in the original language"
+    },
+    {
+      "tip": "Jurisdiction Clarification",
+      "guidance": "When in doubt about clarity, include the country abbreviation - it's better to over-indicate than to confuse the reader"
+    },
+    {
+      "tip": "Translation Provision",
+      "guidance": "Provide English translations of titles in parentheses when the original title may not be understood by your reader"
+    },
+    {
+      "tip": "Consistency",
+      "guidance": "Once you establish a hereinafter abbreviation for a long foreign source title, use it consistently throughout your document"
+    },
+    {
+      "tip": "Consultation of T2",
+      "guidance": "Before citing any foreign material, consult Table T2 to ensure you're using the correct format for that specific country"
+    },
+    {
+      "tip": "Original Language",
+      "guidance": "Cite sources in their original language even if translations are available, unless an official English version exists"
+    },
+    {
+      "tip": "Court Identification",
+      "guidance": "In civil law jurisdictions without case names, clearly identify the court and decision number to allow reader to locate the case"
+    }
+  ]
+}

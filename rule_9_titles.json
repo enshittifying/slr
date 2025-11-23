@@ -1,0 +1,220 @@
+{
+  "rule": "9",
+  "title": "Titles of Judges, Officials, and Terms of Court",
+  "overview": "Capitalize the titles of judges and officials when used before a name ('Chief Justice Marshall') or when referring to a specific person ('the President'). Do not capitalize when used generically ('any justice may...'). Terms of court (like 'Fall Term') are capitalized when naming a specific term of a specific court. Always capitalize 'Court' when naming the U.S. Supreme Court or when the reference is to the court in a case name in text ('the Court held...'). Otherwise, lowercase 'court'.",
+  "capitalization_rules": {
+    "judges_and_officials": {
+      "before_names": {
+        "rule": "CAPITALIZE when used before a name",
+        "examples": [
+          "Chief Justice Marshall",
+          "Justice Sotomayor",
+          "Judge Smith",
+          "Attorney General Sessions",
+          "Senator Johnson",
+          "the President"
+        ]
+      },
+      "specific_person_reference": {
+        "rule": "CAPITALIZE when referring to a specific person",
+        "examples": [
+          "the President",
+          "the Chief Justice",
+          "the Attorney General"
+        ]
+      },
+      "generic_usage": {
+        "rule": "DO NOT CAPITALIZE when used generically",
+        "examples": [
+          "any justice may...",
+          "a federal judge",
+          "several justices argued",
+          "the chief judge dissented"
+        ]
+      }
+    },
+    "terms_of_court": {
+      "specific_terms": {
+        "rule": "CAPITALIZE when naming a specific term of a specific court",
+        "examples": [
+          "Fall Term",
+          "Spring Term",
+          "2023 Fall Term",
+          "October Term"
+        ]
+      },
+      "generic_terms": {
+        "rule": "DO NOT CAPITALIZE when used generically",
+        "examples": [
+          "during the fall term",
+          "in the spring term"
+        ]
+      }
+    },
+    "court_name": {
+      "u_s_supreme_court": {
+        "rule": "ALWAYS CAPITALIZE 'Court' when naming the U.S. Supreme Court",
+        "examples": [
+          "the United States Supreme Court",
+          "the Supreme Court",
+          "the Court held..."
+        ]
+      },
+      "court_in_case_name": {
+        "rule": "CAPITALIZE 'Court' when reference is to the court in a case name in text",
+        "examples": [
+          "In Smith v. Jones, the Court held that...",
+          "the Court's decision"
+        ]
+      },
+      "generic_court": {
+        "rule": "Otherwise, lowercase 'court'",
+        "examples": [
+          "the trial court",
+          "the appellate court",
+          "a district court",
+          "the lower court"
+        ]
+      }
+    }
+  },
+  "judges_and_officials_titles_table": {
+    "description": "Table T11 from Bluebook - Judges and Officials (Titles) with standard abbreviations",
+    "abbreviations": {
+      "Administrative Law Judge": "A.L.J.",
+      "Arbitrator": "Arb.",
+      "Assemblyman/Assemblywoman/Assemblymember": "Assemb.",
+      "Attorney General": "Att'y Gen.",
+      "Baron": "B.",
+      "Chancellor": "C.",
+      "Chief Baron": "C.B.",
+      "Chief Judge / Chief Justice": "C.J.",
+      "Commissioner": "Comm'r",
+      "Delegate": "Del.",
+      "Honorable": "Hon.",
+      "Judge / Justice": "J.",
+      "Judges / Justices (plural)": "JJ.",
+      "Lord Justice": "L.J.",
+      "Magistrate": "Mag.",
+      "Master of the Rolls": "M.R.",
+      "Mediator": "Med.",
+      "Referee": "Ref.",
+      "Representative": "Rep.",
+      "Senator": "Sen.",
+      "Vice Chancellor": "V.C."
+    }
+  },
+  "subsections": {
+    "9.1": {
+      "id": "9.1",
+      "title": "Textual References to Professors",
+      "section": "TITLES OF JUDGES, OFFICIALS, AND TERMS OF COURT",
+      "rule": "In text (as opposed to in citations), omit 'Professor' in front of names.",
+      "examples": [
+        {
+          "right": "Jane Doe argued that...",
+          "wrong": "Professor Doe argued that..."
+        },
+        {
+          "description": "If an author has 'Professor' in front of the name in the text, leave it as is"
+        }
+      ],
+      "references": ["BB 15.1", "BB 15.2", "BB 15.1(c)"]
+    },
+    "9.2": {
+      "id": "9.2",
+      "title": "Textual References to Judges as Authors of Judicial Materials",
+      "section": "TITLES OF JUDGES, OFFICIALS, AND TERMS OF COURT",
+      "rule": "In text, if a judge is the author of a judicial opinion or other document being discussed, use 'Justice' or 'Judge' (etc.) before their name.",
+      "examples": [
+        {
+          "right": "Justice Sotomayor's dissent was...",
+          "wrong": "Sotomayor's dissent was..."
+        },
+        {
+          "right": "Judge Breyer's opinion was...",
+          "wrong": "Breyer's opinion was..."
+        }
+      ],
+      "references": ["BB 15.1", "BB 15.2", "BB 15.1(c)"]
+    },
+    "9.3": {
+      "id": "9.3",
+      "title": "Judges as Authors in General",
+      "section": "TITLES OF JUDGES, OFFICIALS, AND TERMS OF COURT",
+      "rule": "In text, if a judge is NOT the author of the document being discussed, use just the judge's last name without a title.",
+      "examples": [
+        {
+          "right": "Sotomayor joined the majority opinion...",
+          "wrong": "Justice Sotomayor joined the majority opinion..."
+        }
+      ],
+      "references": ["BB 15.1", "BB 15.2", "BB 15.1(c)"]
+    }
+  },
+  "key_distinctions": {
+    "textual_references": {
+      "judges_as_authors": {
+        "rule": "Use title (Justice/Judge) + last name when judge authored the document",
+        "example": "Justice Sotomayor's opinion"
+      },
+      "judges_not_as_authors": {
+        "rule": "Use only last name, NO title, when judge is not the author",
+        "example": "Sotomayor joined the majority"
+      },
+      "professors": {
+        "rule": "Omit 'Professor' title in text",
+        "example": "Jane Doe argued"
+      }
+    },
+    "citations": {
+      "rule": "In citations, use proper abbreviations from Table T11"
+    }
+  },
+  "common_judge_abbreviations": {
+    "Chief Justice": "C.J.",
+    "Justice": "J.",
+    "Judge": "J.",
+    "Justices": "JJ.",
+    "Judges": "JJ.",
+    "Attorney General": "Att'y Gen.",
+    "Senator": "Sen.",
+    "Representative": "Rep.",
+    "Magistrate": "Mag.",
+    "Commissioner": "Comm'r"
+  },
+  "official_titles_to_capitalize": [
+    "Chief Justice",
+    "Justice",
+    "Judge",
+    "Attorney General",
+    "President",
+    "Vice President",
+    "Senator",
+    "Representative",
+    "Governor",
+    "Mayor",
+    "Chancellor",
+    "Magistrate",
+    "Commissioner",
+    "Administrator",
+    "Director"
+  ],
+  "notes": {
+    "important": [
+      "Always capitalize 'Court' when referring to the U.S. Supreme Court specifically",
+      "The difference between author and non-author references is critical for proper judge citation",
+      "Generic references to judges/officials should NOT be capitalized",
+      "Terms of court are capitalized only when referring to a specific term (e.g., 'Fall Term 2023')",
+      "The context determines capitalization - before a name vs. generic reference"
+    ],
+    "quick_reference": [
+      "Before a name = CAPITALIZE (Chief Justice Marshall)",
+      "Specific person = CAPITALIZE (the President)",
+      "Generic = lowercase (any justice, a federal judge)",
+      "Judge authored document = Use title (Justice Sotomayor's opinion)",
+      "Judge did not author = No title (Sotomayor joined)"
+    ]
+  },
+  "source": "Bluebook 21st Edition - Rule 9: Titles of Judges, Officials, and Terms of Court"
+}

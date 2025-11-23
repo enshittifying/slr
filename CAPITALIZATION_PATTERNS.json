@@ -1,0 +1,514 @@
+{
+  "title": "Bluebook Capitalization Rules (Rule 8) - Structured Patterns",
+  "version": "1.0",
+  "rules": {
+    "rule_8": {
+      "title": "Capitalization",
+      "full_text": "Capitalize references to specific constitutional amendments (\"First Amendment\"), specific acts or laws (\"Civil Rights Act\"), titles of court documents (when referring to a specific document, e.g., \"Plaintiff's Motion\"), and titles of periodicals in citations (per Bluebook rules). Do not capitalize generic references (\"the amendment\" or \"the act\") or terms like \"federal\" or \"state\" unless part of an official name. Additionally, follow specific capitalization rules for judges' titles (rule 9) and court names (\"Supreme Court\" when referring to SCOTUS, etc.).",
+      "patterns": [
+        {
+          "element": "Constitutional Amendments",
+          "specific": "First Amendment, Fourth Amendment, Fourteenth Amendment",
+          "generic": "the amendment",
+          "rule": "CAPITALIZE specific amendments; lowercase generic references"
+        },
+        {
+          "element": "Acts and Laws",
+          "specific": "Civil Rights Act, Social Security Act, Americans with Disabilities Act",
+          "generic": "the act, the law, the statute",
+          "rule": "CAPITALIZE official names; lowercase generic references"
+        },
+        {
+          "element": "Court Documents",
+          "specific": "Plaintiff's Motion, Brief for Petitioner, Motion for Summary Judgment",
+          "generic": "the motion, the brief, the document",
+          "rule": "CAPITALIZE when referring to specific document; lowercase when generic"
+        },
+        {
+          "element": "Periodical Titles",
+          "specific": "Harvard Law Review, Yale Journal of Law and Technology",
+          "generic": "a law review, the journal",
+          "rule": "CAPITALIZE periodical names in citations; follow title case rules"
+        }
+      ]
+    },
+    "rule_9": {
+      "title": "Titles of Judges, Officials, and Terms of Court",
+      "full_text": "Capitalize the titles of judges and officials when used before a name (\"Chief Justice Marshall\") or when referring to a specific person (\"the President\"). Do not capitalize when used generically (\"any justice may...\"). Terms of court (like \"Fall Term\") are capitalized when naming a specific term of a specific court. Always capitalize \"Court\" when naming the U.S. Supreme Court or when the reference is to the court in a case name in text (\"the Court held...\"). Otherwise, lowercase \"court\".",
+      "judge_and_official_titles": [
+        {
+          "pattern": "Before Name",
+          "rule": "CAPITALIZE",
+          "examples": [
+            "Chief Justice Marshall",
+            "Justice Roberts",
+            "Judge Smith",
+            "The President",
+            "Senator Johnson"
+          ]
+        },
+        {
+          "pattern": "Generic Use",
+          "rule": "lowercase",
+          "examples": [
+            "any justice may",
+            "the chief justice held",
+            "a judge in that court",
+            "when the president acts"
+          ]
+        }
+      ],
+      "court_names": [
+        {
+          "court_type": "U.S. Supreme Court",
+          "rule": "ALWAYS CAPITALIZE 'Court'",
+          "examples": [
+            "The Supreme Court held",
+            "the Court's decision",
+            "The Court reasoned"
+          ]
+        },
+        {
+          "court_type": "Other Courts",
+          "rule": "lowercase 'court'",
+          "examples": [
+            "the lower courts",
+            "the appellate court ruled",
+            "district court proceedings",
+            "when the court decides"
+          ]
+        },
+        {
+          "court_type": "Court Abbreviations",
+          "rule": "Use standard abbreviations in citations",
+          "examples": [
+            "Cal. Ct. App.",
+            "5th Cir.",
+            "N.Y. (for New York Court of Appeals)"
+          ]
+        }
+      ],
+      "terms_of_court": [
+        {
+          "pattern": "Specific Term Naming",
+          "rule": "CAPITALIZE",
+          "examples": [
+            "Fall Term",
+            "Spring Term 2024",
+            "The October Term"
+          ]
+        },
+        {
+          "pattern": "Generic References",
+          "rule": "lowercase",
+          "examples": [
+            "the next term",
+            "during the court's term"
+          ]
+        }
+      ]
+    },
+    "titles": {
+      "books": {
+        "rule_reference": "Rule 15.3",
+        "pattern": "Title Case (Headline Style)",
+        "rules": [
+          {
+            "rule": "CAPITALIZE each word EXCEPT:",
+            "exceptions": [
+              "Articles: a, an, the",
+              "Conjunctions: and, but, or, nor",
+              "Prepositions (4 or fewer letters): in, on, at, to, for, by, of, etc."
+            ]
+          },
+          {
+            "rule": "EXCEPTIONS to lowercase (always capitalize):",
+            "examples": [
+              "First word of title or subtitle",
+              "Last word of title or subtitle"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "title": "Constitutional Law: Structure and Functions",
+            "breakdown": {
+              "Constitutional": "noun - CAPITALIZE",
+              "Law": "noun - CAPITALIZE",
+              "Structure": "noun - CAPITALIZE",
+              "and": "conjunction - lowercase",
+              "Functions": "noun - CAPITALIZE"
+            }
+          },
+          {
+            "title": "The Right to Counsel: History and Practice",
+            "breakdown": {
+              "The": "article but FIRST WORD - CAPITALIZE",
+              "Right": "noun - CAPITALIZE",
+              "to": "preposition - lowercase",
+              "Counsel": "noun - CAPITALIZE",
+              "History": "noun, first of subtitle - CAPITALIZE",
+              "and": "conjunction - lowercase",
+              "Practice": "noun, last word - CAPITALIZE"
+            }
+          }
+        ]
+      },
+      "articles": {
+        "rule_reference": "Rule 16.3",
+        "pattern": "Same as Books - Normal Title Case",
+        "formatting": {
+          "academic_writing": "ITALICS",
+          "court_documents": "regular type within quotes"
+        },
+        "rules": [
+          "CAPITALIZE according to normal rules",
+          "Each word capitalized except articles, conjunctions, prepositions",
+          "First and last words always capitalized"
+        ],
+        "examples": [
+          "The Right to Due Process in Criminal Procedure",
+          "Interpreting the Commerce Clause: The Modern Framework",
+          "State Action Doctrine and Private Conduct: Unresolved Questions"
+        ]
+      },
+      "legal_documents": {
+        "rule_reference": "Rule 10.8.3",
+        "formatting": "ROMAN TYPE (not italicized)",
+        "pattern_specific": "CAPITALIZE when referring to specific document",
+        "pattern_generic": "lowercase when used generically",
+        "examples_specific": [
+          "Brief for Petitioner",
+          "Motion for Summary Judgment",
+          "Plaintiff's Memorandum in Opposition",
+          "Defendant's Answer",
+          "Reply Brief in Support",
+          "Affidavit of [Name]",
+          "Declaration of [Name]",
+          "Petition for Writ of Certiorari",
+          "Amicus Curiae Brief"
+        ],
+        "examples_generic": [
+          "a brief was filed",
+          "the motion to dismiss",
+          "in the petitioner's reply",
+          "the affidavit stated"
+        ]
+      }
+    },
+    "court_names": {
+      "u_s_supreme_court": {
+        "rule": "ALWAYS CAPITALIZE 'Court'",
+        "examples": [
+          "Supreme Court",
+          "the U.S. Supreme Court",
+          "the Court held",
+          "the Court's opinion"
+        ]
+      },
+      "other_courts": {
+        "rule": "lowercase 'court' unless in official name",
+        "examples": [
+          "circuit court",
+          "district court",
+          "appellate court",
+          "state court"
+        ],
+        "citation_abbreviations": [
+          "Cal. Ct. App.",
+          "5th Cir.",
+          "S.D.N.Y.",
+          "E.D. Tex."
+        ]
+      },
+      "court_designations": {
+        "capitalize": [
+          "Court of Appeals",
+          "District Court",
+          "Supreme Judicial Court"
+        ],
+        "lowercase": [
+          "the appellate court",
+          "the district court",
+          "the trial court"
+        ]
+      }
+    },
+    "party_names": {
+      "rule_reference": "Rule 10.2",
+      "rules": [
+        {
+          "rule": "OMIT first names, middle names, and initials",
+          "correct": "Smith v. Jones",
+          "incorrect": "John Smith v. Mary Jones"
+        },
+        {
+          "rule": "OMIT 'The' as first word of party name",
+          "correct": "Blue Cross v. State",
+          "incorrect": "The Blue Cross v. State"
+        },
+        {
+          "rule": "USE acronyms for widely known entities",
+          "examples": [
+            "NLRB v. Smith",
+            "FDA v. Brown"
+          ]
+        },
+        {
+          "rule": "ABBREVIATE per Table T6",
+          "examples": [
+            "General Motors Corp. v. Johnson",
+            "Smith Co. v. Jones"
+          ]
+        },
+        {
+          "rule": "OMIT parties other than first on each side",
+          "example": "Smith v. Jones (not Smith, Brown v. Jones, Davis)"
+        },
+        {
+          "rule": "USE 'In re' for procedural cases",
+          "examples": [
+            "In re Smith",
+            "In re Estate of Jones"
+          ]
+        },
+        {
+          "rule": "ABBREVIATE geographic units per Table T10",
+          "examples": [
+            "California v. Federal Trade Commission",
+            "Abbreviate state but NOT if named party like 'State of...'"
+          ]
+        }
+      ]
+    },
+    "constitutional_elements": {
+      "articles": {
+        "rule": "CAPITALIZE 'Article' with Roman numeral",
+        "examples": [
+          "Article I",
+          "Article II",
+          "Article III"
+        ]
+      },
+      "amendments": {
+        "rule": "CAPITALIZE 'Amendment' with ordinal number or Roman numeral",
+        "examples": [
+          "First Amendment",
+          "Fourth Amendment",
+          "Fourteenth Amendment",
+          "Amendment I",
+          "Amendment IV"
+        ]
+      },
+      "clauses": {
+        "rule": "CAPITALIZE specific clause names",
+        "examples": [
+          "Commerce Clause",
+          "Necessary and Proper Clause",
+          "Supremacy Clause",
+          "Due Process Clause"
+        ],
+        "slr_note": "SLR capitalizes even in generic use: 'in several Clauses, the Constitution prohibits...'"
+      },
+      "sections": {
+        "rule": "CAPITALIZE 'Section' with number",
+        "examples": [
+          "Section 8",
+          "Section 10"
+        ]
+      }
+    },
+    "acts_and_statutes": {
+      "specific_names": {
+        "rule": "CAPITALIZE official name",
+        "examples": [
+          "Civil Rights Act",
+          "Americans with Disabilities Act (ADA)",
+          "Fair Housing Act",
+          "Social Security Act",
+          "Affordable Care Act",
+          "Environmental Protection Act"
+        ]
+      },
+      "generic_references": {
+        "rule": "lowercase",
+        "examples": [
+          "the act",
+          "the statute",
+          "the law",
+          "this provision"
+        ]
+      },
+      "citation_format": "Official Name, Code Citation § Section (Year)"
+    },
+    "judges_and_officials": {
+      "titles_before_name": {
+        "rule": "CAPITALIZE",
+        "examples": [
+          "Chief Justice Marshall",
+          "Associate Justice Kagan",
+          "Justice Breyer",
+          "Judge Williams",
+          "Magistrate Johnson",
+          "The President",
+          "The Governor"
+        ]
+      },
+      "generic_use": {
+        "rule": "lowercase",
+        "examples": [
+          "any justice may",
+          "the chief justice wrote",
+          "a federal judge",
+          "state judges",
+          "when the president acts",
+          "the governor decided"
+        ]
+      },
+      "specific_person_reference": {
+        "rule": "CAPITALIZE when referring to specific person",
+        "examples": [
+          "Justice Kagan's opinion",
+          "Chief Justice Roberts",
+          "the President's authority"
+        ]
+      }
+    },
+    "typeface_conventions": {
+      "rule_reference": "Rule 2",
+      "italics": [
+        "Case names (Smith v. Jones)",
+        "Book titles (Constitutional Law Principles)",
+        "Periodical titles (Harvard Law Review)",
+        "Article titles (The Right to Counsel)"
+      ],
+      "roman_type": [
+        "Titles of court documents (Brief for Petitioner)",
+        "Titles of legislative materials (House Bill 1234)",
+        "Explanatory phrases",
+        "Introductory signals (See, Compare)",
+        "Prior/subsequent history (aff'd, rev'd)"
+      ],
+      "small_caps": [
+        "Institutional author names (U.S. EPA)",
+        "Regulation titles (CODE OF FEDERAL REGULATIONS)"
+      ]
+    },
+    "parenthetical_capitalization": {
+      "rule_reference": "Rule 1.5",
+      "opening_letter": {
+        "default": "BEGIN with lowercase letter",
+        "exceptions": "Unless first word is a proper noun"
+      },
+      "examples": [
+        "(finding that the statute was unconstitutional)",
+        "(Court held that First Amendment protects speech)",
+        "(Justice Marshall dissenting)",
+        "(Fifth Circuit precedent)"
+      ],
+      "avoid": [
+        "Starting with quotation mark",
+        "Starting with word that would be capitalized in regular text"
+      ]
+    }
+  },
+  "redbook_slr_additions": {
+    "rule_8_1_a": {
+      "title": "Parts of the Constitution",
+      "rule": "Capitalize Articles, Amendments, Clauses, and other subdivisions EVEN when used generically",
+      "example": "In several Clauses, the Constitution prohibits commerce...",
+      "departure_from_bluebook": true
+    },
+    "rule_8_1_c": {
+      "title": "Headings and Subheadings",
+      "rule": "Use title-style capitalization for headings, subheadings, AND text on first page (title, author name, position)",
+      "note": "Do NOT downstyle any text on first page",
+      "departure_from_bluebook": true
+    },
+    "rule_8_1_d": {
+      "title": "Ethnic or National Groups",
+      "rule": "CAPITALIZE names as proper nouns",
+      "examples": [
+        "Black",
+        "Native",
+        "Indigenous",
+        "Asian American"
+      ],
+      "note": "Differs from Chicago Manual of Style (CMOS 8.38)",
+      "departure_from_bluebook": true
+    }
+  },
+  "common_mistakes": [
+    {
+      "mistake": "the Civil rights act",
+      "correct": "the Civil Rights Act",
+      "error": "Failing to capitalize 'Rights' and 'Act'"
+    },
+    {
+      "mistake": "brief for petitioner",
+      "correct": "Brief for Petitioner",
+      "error": "Failing to capitalize document name when referring to specific document"
+    },
+    {
+      "mistake": "first amendment rights",
+      "correct": "First Amendment rights",
+      "error": "Failing to capitalize specific amendment"
+    },
+    {
+      "mistake": "the Court decided",
+      "correct": "the court decided (unless referring to U.S. Supreme Court)",
+      "error": "Capitalizing 'Court' when referring to generic court"
+    },
+    {
+      "mistake": "Chief justice Marshall",
+      "correct": "Chief Justice Marshall",
+      "error": "Failing to capitalize official title"
+    },
+    {
+      "mistake": "The Smith v. Jones",
+      "correct": "Smith v. Jones",
+      "error": "Including 'The' at beginning of party name"
+    },
+    {
+      "mistake": "John Smith v. Mary Jones",
+      "correct": "Smith v. Jones",
+      "error": "Including first and middle names"
+    },
+    {
+      "mistake": "Motion for summary judgment",
+      "correct": "Motion for Summary Judgment",
+      "error": "Failing to capitalize specific document name"
+    },
+    {
+      "mistake": "the statute provides",
+      "correct": "the statute provides",
+      "note": "This is correct - lowercase when using generic reference"
+    },
+    {
+      "mistake": "the Commerce clause",
+      "correct": "the Commerce Clause (SLR: Clause always capitalized)",
+      "error": "Failing to capitalize Clause"
+    }
+  ],
+  "decision_tree": {
+    "is_it_a_title_or_proper_name": {
+      "yes": {
+        "question": "Is it a specific official name or generic reference?",
+        "specific": "CAPITALIZE each word except articles/conjunctions/short prepositions",
+        "generic": "lowercase unless it contains proper nouns"
+      },
+      "no": {
+        "question": "Is it a proper noun or common word?",
+        "proper_noun": "CAPITALIZE",
+        "common_word": "Follow standard grammar rules"
+      }
+    }
+  },
+  "metadata": {
+    "extracted_from": "/home/user/slr/reference_files/Bluebook.json",
+    "extraction_date": "2025-11-23",
+    "bluebook_edition": "21st Edition",
+    "redbook_version": "SLR Redbook",
+    "completeness": "Comprehensive extraction of Rule 8, Rule 9, and all related capitalization rules"
+  }
+}

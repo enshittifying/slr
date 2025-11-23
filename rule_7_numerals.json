@@ -1,0 +1,277 @@
+{
+  "rule_id": "7",
+  "rule_title": "Numerals and Symbols",
+  "description": "Comprehensive extraction of all Bluebook rules regarding numerals, symbols, numbers, ordinals, ranges, section symbols, and formatting conventions",
+  "primary_rule": {
+    "id": "6.2",
+    "title": "Numerals and Symbols",
+    "content": "In text, spell out numbers zero through ninety-nine, and any number that begins a sentence. Use numerals for 100 and above. In citations, use numerals for all numbers (e.g., \"115 F.3d 123\"). Use symbols (like \u00a7 and \u00b6) as appropriate in citations, but in text, use words (\"section\" or \"paragraph\") unless referring to a specific section symbol as a symbol.",
+    "key_rules": [
+      {
+        "context": "Text (non-citation)",
+        "rules": [
+          "Spell out numbers zero through ninety-nine",
+          "Spell out any number that begins a sentence",
+          "Use numerals for 100 and above",
+          "Use words like 'section' or 'paragraph' instead of symbols"
+        ]
+      },
+      {
+        "context": "Citations",
+        "rules": [
+          "Use numerals for all numbers (e.g., '115 F.3d 123')",
+          "Use symbols (\u00a7 and \u00b6) as appropriate",
+          "Do not spell out numbers in citations"
+        ]
+      }
+    ]
+  },
+  "related_rules": {
+    "rule_3_3": {
+      "id": "3.3",
+      "title": "Sections and Paragraphs",
+      "content": "Many legal documents, statutes, and regulations are divided into sections (\u00a7) or paragraphs (\u00b6). When citing such subdivisions, use the appropriate symbol followed by the number (without a period). If citing multiple sequential sections, use a double section symbol (\"\u00a7\u00a7\"). For nonconsecutive sections, separate by commas.",
+      "details": {
+        "section_symbol": "\u00a7",
+        "paragraph_symbol": "\u00b6",
+        "format_rules": [
+          "Use \u00a7 followed by number without a period",
+          "Use \u00a7\u00a7 for multiple sequential sections",
+          "Separate nonconsecutive sections with commas",
+          "Example: \u00a7 1983 or \u00a7\u00a7 101-105"
+        ]
+      }
+    },
+    "rule_12_1": {
+      "id": "12.1",
+      "title": "Basic Citation Forms for Statutes",
+      "content": "The basic form for statutes: [Official Name of Act], [published source] [section symbol and number] ([year]). If the act is commonly known by a name, use that name.",
+      "details": {
+        "format": "[Official Name of Act], [published source] [\u00a7 number] ([year])",
+        "section_usage": "Always include section symbol (\u00a7) with statute citations"
+      }
+    },
+    "rule_12_2": {
+      "id": "12.2",
+      "title": "Choosing the Proper Citation Form",
+      "content": "Use the official code if available (e.g., U.S.C. for federal statutes). If a statute is spread across multiple code sections, cite as a range (e.g., 42 U.S.C. \u00a7\u00a7 9601-9675). If the statute is not in the code yet, cite the session law. If an unofficial code is more up-to-date or commonly used in practice, you may use it in court documents (with an indication of currency or year). In law review, typically stick to official codes whenever possible.",
+      "details": {
+        "range_format": "e.g., 42 U.S.C. \u00a7\u00a7 9601-9675",
+        "key_points": [
+          "Use official code when available",
+          "Use range format for multiple sections",
+          "Include all digits in ranges",
+          "Use double section symbol (\u00a7\u00a7) for ranges"
+        ]
+      }
+    }
+  },
+  "detailed_formatting_rules": {
+    "numbers_in_text": {
+      "rule": "Spell out vs. Use Numerals",
+      "ranges": [
+        {
+          "range": "0-99",
+          "format": "Spell out (zero, one, two...ninety-nine)",
+          "examples": [
+            "There are five elements to the claim.",
+            "Twenty-three states filed amicus briefs."
+          ]
+        },
+        {
+          "range": "100 and above",
+          "format": "Use numerals",
+          "examples": [
+            "The statute applies to 115 different violations.",
+            "The contract spans 500 pages."
+          ]
+        }
+      ],
+      "special_cases": [
+        {
+          "case": "Beginning of sentence",
+          "rule": "Always spell out, regardless of number",
+          "examples": [
+            "Ninety percent of cases settle.",
+            "Twenty-three witnesses testified."
+          ]
+        }
+      ]
+    },
+    "numbers_in_citations": {
+      "rule": "Always use numerals",
+      "notes": [
+        "All numbers in citations use numerals regardless of magnitude",
+        "This applies to case citations, statute citations, page numbers, etc."
+      ],
+      "examples": [
+        "Roe v. Wade, 410 U.S. 113, 115 (1973)",
+        "42 U.S.C. \u00a7 1983 (2012)",
+        "See FED. R. CIV. P. 12(b)(1)"
+      ]
+    },
+    "symbols": {
+      "section_symbol": {
+        "symbol": "\u00a7",
+        "name": "Section symbol",
+        "usage": [
+          "Cite statutes: 42 U.S.C. \u00a7 1983",
+          "Cite regulations: 29 C.F.R. \u00a7 1910.1200",
+          "Cite constitutional provisions: U.S. Const. art. III, \u00a7 2"
+        ],
+        "rules": [
+          "Use \u00a7 followed by number without period",
+          "Use \u00a7\u00a7 for multiple sequential sections",
+          "Do NOT use 'section' or 'sec.' when \u00a7 is used",
+          "In text (non-citation): use 'section' word instead"
+        ]
+      },
+      "paragraph_symbol": {
+        "symbol": "\u00b6",
+        "name": "Paragraph symbol",
+        "usage": [
+          "Cite by paragraph number: \u00b6 15",
+          "Multiple paragraphs: \u00b6\u00b6 10-25",
+          "Used in court documents and practice materials"
+        ],
+        "rules": [
+          "Use \u00b6 followed by number",
+          "Use \u00b6\u00b6 for multiple sequential paragraphs",
+          "In text: use 'paragraph' or 'para.' instead"
+        ]
+      }
+    },
+    "ranges_and_spans": {
+      "en_dash_usage": {
+        "rule": "Use en-dash (\u2013) for ranges",
+        "examples": [
+          "42 U.S.C. \u00a7\u00a7 1001\u20131050",
+          "Pages 215\u2013220",
+          "2015\u20132020"
+        ],
+        "notes": [
+          "Do NOT use hyphens (-) for ranges",
+          "En-dash is the proper typographic mark",
+          "Retain all digits (not 2015\u201320)"
+        ]
+      },
+      "sequential_numbering": {
+        "rule": "For multiple sequential items, use double symbol",
+        "examples": [
+          "\u00a7\u00a7 1\u20135 (sections 1 through 5)",
+          "\u00b6\u00b6 10\u201320 (paragraphs 10 through 20)"
+        ]
+      },
+      "nonconsecutive_references": {
+        "rule": "Separate with commas",
+        "examples": [
+          "\u00a7\u00a7 1, 3, 5 (sections 1, 3, and 5)",
+          "\u00b6\u00b6 10, 25, 35"
+        ]
+      }
+    },
+    "monetary_amounts": {
+      "currency_symbol": "$",
+      "format_rules": [
+        "Place $ before the number: $50",
+        "For ranges: $100\u2013$500 or $100 to $500",
+        "Include cents if relevant: $10.50",
+        "Spell out in formal text if appropriate"
+      ],
+      "note": "While not explicitly detailed in Bluebook Rule 6.2, monetary amounts follow standard number formatting rules"
+    },
+    "percentages": {
+      "format_options": [
+        "Use numeral with % symbol: 15%",
+        "Or spell out: fifteen percent",
+        "In citations and formal contexts: use numeral with %"
+      ],
+      "note": "While not explicitly detailed in Bluebook Rule 6.2, percentages follow standard number formatting rules"
+    },
+    "ordinal_numbers": {
+      "definition": "Numbers indicating order or sequence (1st, 2nd, 3rd, 4th...)",
+      "formatting": [
+        "In text (below 100): spell out ordinals (first, second, third...)",
+        "In text (100+): use numerals with ordinal suffix (101st, 225th)",
+        "In citations: use ordinals as needed (12th Circuit, 5th Amendment)"
+      ],
+      "examples": [
+        "The first element...",
+        "The 101st session of Congress",
+        "Fifth Circuit Court of Appeals",
+        "Fourteenth Amendment"
+      ]
+    }
+  },
+  "italicization_notes": {
+    "rule_7": {
+      "title": "Italicization for Style and in Unique Circumstances",
+      "content": "Words may be italicized in text for emphasis or stylistic purposes, but use this sparingly. In legal writing, certain terms are traditionally italicized: words used as words, foreign words not commonly used in English, and letters or numerals referenced as such.",
+      "italicize_numerals_when": [
+        "Referring to letters or numerals as themselves (e.g., 'the numeral 5', 'the letter a')",
+        "Discussing the form or appearance of the number/symbol",
+        "Using as a word itself: 'The 's' in statutes is important'"
+      ]
+    }
+  },
+  "abbreviations_and_symbols": {
+    "rule_6_1": {
+      "title": "Abbreviations",
+      "content": "Use standard abbreviations for case names (table T6), institutional author names (T7), periodical titles (T10), publishing terms (T8), and geographical terms (T10). Do not abbreviate words in textual sentences (except widely known acronyms), but always abbreviate as shown in tables when in citations."
+    }
+  },
+  "special_formatting_rules": {
+    "decades": {
+      "format": "1780s, 1950s (no apostrophe)",
+      "abbreviated_decades": "'80s, '90s (apostrophe indicates omitted numerals)"
+    },
+    "years": {
+      "ranges": "1993\u20131998 (retain all digits, not 1993\u201398)",
+      "parenthetical_dates": "(1973) for case year",
+      "full_dates": "Use when decision date is essential"
+    },
+    "spacing": {
+      "rule": "Use nonbreaking space between symbol and numeral",
+      "examples": [
+        "\u00a7 1983 (not \u00a71983)",
+        "\u00b6 15 (not \u00b615)",
+        "$ 50 (not $50, though $50 is acceptable)"
+      ],
+      "technical_note": "Use Option+Space on Mac; Ctrl+Shift+Space on PC"
+    }
+  },
+  "common_error_corrections": [
+    {
+      "error": "Using 'sec.' or 'Sec.' with \u00a7 symbol",
+      "correction": "Use only the \u00a7 symbol, not 'section'"
+    },
+    {
+      "error": "Spelling out numbers in citations",
+      "correction": "Always use numerals in citations"
+    },
+    {
+      "error": "Using hyphen for ranges",
+      "correction": "Use en-dash (\u2013)"
+    },
+    {
+      "error": "Abbreviating decades with apostrophe incorrectly",
+      "correction": "1990s (no apostrophe), but '90s (with apostrophe when abbreviating)"
+    },
+    {
+      "error": "Spacing between symbol and number",
+      "correction": "Use nonbreaking space: \u00a7 1 (not \u00a71)"
+    }
+  ],
+  "table_references": {
+    "T6": "Abbreviations for case names",
+    "T7": "Institutional author name abbreviations",
+    "T8": "Publishing term abbreviations",
+    "T10": "Geographic and periodical abbreviations",
+    "T16": "Work subdivision abbreviations"
+  },
+  "metadata": {
+    "source": "Bluebook.json extracted from /home/user/slr/reference_files/",
+    "extraction_date": "2025-11-23",
+    "note": "This comprehensive extraction consolidates Rule 6.2 (Numerals and Symbols) as the primary rule with related rules and formatting conventions for numbers, symbols, and ranges"
+  }
+}

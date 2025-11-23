@@ -1,0 +1,1223 @@
+{
+  "metadata": {
+    "title": "Bluebook All Rules Comprehensive Master JSON",
+    "description": "Complete JSON compilation of all Bluebook citation rules extracted from markdown files",
+    "version": "2.0",
+    "generated_date": "2025-11-23T08:31:41.121177",
+    "source_directory": "/home/user/slr",
+    "source_files": [
+      "SIGNALS_BLUEBOOK_RULE1_EXTRACTION.md",
+      "RULE_2_EXTRACTION_SUMMARY.md",
+      "BLUEBOOK_SHORT_FORM_SUMMARY.md",
+      "BLUEBOOK_ABBREVIATIONS_COMPREHENSIVE.md",
+      "CAPITALIZATION_PATTERNS.md",
+      "Rule_12_Statutes_Comprehensive_Guide.md",
+      "Rule_15_Analysis_and_Regex_Patterns.md",
+      "punctuation_rules_and_regex.md"
+    ],
+    "rules_included": 8,
+    "total_rules_available": 21,
+    "note": "This master file contains detailed information for 8 major Bluebook rules"
+  },
+  "rules": {
+    "1": {
+      "rule_id": "Rule 1",
+      "rule_title": "Structure and Use of Citations - Signals",
+      "rule_text": "Provide citations to authorities so that readers may identify and find those authorities for future research. Citations are made in citation sentences and clauses (rule 1.1) and are introduced by signals. Signals organize authorities and show how those authorities support or relate to a proposition given in the text (rule 1.2).",
+      "sub_rules": [
+        {
+          "rule": "Rule 1.1",
+          "title": "Citation Sentences and Clauses",
+          "description": "A citation sentence is an independent sentence devoted entirely to citations. A citation clause is a series of citations, separated by semicolons when of the same signal type, that is embedded within a sentence."
+        },
+        {
+          "rule": "Rule 1.2",
+          "title": "Introductory Signals",
+          "description": "Signals introduce citations and indicate the degree of support the cited authority provides for the proposition. They are classified as supportive, comparative, contradictory, or background signals."
+        },
+        {
+          "rule": "Rule 1.3",
+          "title": "Order of Signals",
+          "description": "When multiple signals are used, they appear in a specific order: supportive signals first, then comparative, then contradictory, then background signals."
+        },
+        {
+          "rule": "Rule 1.4",
+          "title": "Order of Authorities Within Each Signal",
+          "description": "Authorities within each signal are separated by semicolons and ordered by importance or helpfulness."
+        },
+        {
+          "rule": "Rule 1.5",
+          "title": "Parenthetical Information",
+          "description": "Explanatory parentheticals may follow citations to clarify relevance, but are not allowed after 'See generally' or standalone 'Cf.'"
+        },
+        {
+          "rule": "Rule 1.6",
+          "title": "Related Authority",
+          "description": "Subsequent history and related authority should not be given parenthetically but through explanatory phrases."
+        }
+      ],
+      "signal_types": {
+        "supportive": [
+          {
+            "signal": "E.g.",
+            "meaning": "Exemplifies a rule or principle",
+            "usage": "Use when the cited authority is an example of the stated rule"
+          },
+          {
+            "signal": "Accord",
+            "meaning": "Indicates agreement with cited proposition",
+            "usage": "Use when authority states or supports the proposition but was not the source of the proposition"
+          },
+          {
+            "signal": "See",
+            "meaning": "Indicates direct support",
+            "usage": "Use when authority directly supports the proposition"
+          },
+          {
+            "signal": "See also",
+            "meaning": "Indicates additional support",
+            "usage": "Use for authorities with somewhat less direct support than 'See'"
+          },
+          {
+            "signal": "Cf.",
+            "meaning": "Indicates useful comparison with some explanation",
+            "usage": "Use when comparison between authorities supports the proposition"
+          }
+        ],
+        "comparative": [
+          {
+            "signal": "Compare...with",
+            "meaning": "Shows comparison between authorities",
+            "usage": "Use to introduce first element of comparison"
+          }
+        ],
+        "contradictory": [
+          {
+            "signal": "But see",
+            "meaning": "Indicates contradiction",
+            "usage": "Use when authority directly states or clearly supports a contrary proposition"
+          },
+          {
+            "signal": "But cf.",
+            "meaning": "Indicates contradiction with useful comparison",
+            "usage": "Use when comparison with authority supports a contrary proposition"
+          }
+        ],
+        "background": [
+          {
+            "signal": "See generally",
+            "meaning": "Provides background material and context",
+            "usage": "Use for authorities providing helpful background or context"
+          }
+        ]
+      },
+      "formatting_requirements": [
+        "Signals in roman type (NOT italicized) in citations",
+        "Space between signal and first citation",
+        "Multiple sources with same signal separated by semicolons",
+        "Different signal types in different citation sentences",
+        "Capitalize signals at sentence start",
+        "No parenthetical explanation after 'See generally'",
+        "No parenthetical explanation after standalone 'Cf.'",
+        "Compare/contrast signals use semicolons between paired authorities",
+        "All sources include year in parentheses",
+        "Period at end of citation sentence"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "^\\s*(e\\.g\\.|accord|see|see\\s+also|cf\\.|compare|but\\s+see|but\\s+cf\\.|see\\s+generally)\\b",
+          "description": "Match introductory signals (case-insensitive)"
+        },
+        {
+          "pattern": "^(e\\.g\\.|accord|see|see\\s+also|cf\\.|compare|but\\s+see|but\\s+cf\\.|see\\s+generally)\\s+(.+?),\\s+\\d+\\s+[A-Z\\.\\s]+\\s+\\d+\\s*\\(\\d{4}\\)\\.?$",
+          "description": "Match citation sentence with signal"
+        },
+        {
+          "pattern": ";\\s*(e\\.g\\.|accord|see|see\\s+also|cf\\.)",
+          "description": "Match semicolon separation of same-type signals"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "[*_]+(e\\.g\\.|accord|see|see\\s+also|cf\\.|compare|but\\s+see|but\\s+cf\\.|see\\s+generally)[*_]+\\s+",
+          "description": "Signal italicized (should be roman)",
+          "error_type": "Formatting"
+        },
+        {
+          "pattern": "(see\\s+generally|cf\\.)\\s+(.+?),\\s+\\d+\\s+[A-Z\\.\\s]+\\s+\\d+\\s*\\(\\d{4}\\)\\s+\\(",
+          "description": "Parenthetical after See generally or Cf.",
+          "error_type": "Style"
+        },
+        {
+          "pattern": "(?:See|Accord)\\s+[^;]*\\)\\s*,\\s*(?:See|Accord)",
+          "description": "Comma instead of semicolon between same signals",
+          "error_type": "Punctuation"
+        }
+      ],
+      "examples": [
+        {
+          "text": "See Smith v. Jones, 123 U.S. 456 (2020).",
+          "correct": true,
+          "explanation": "Signal in roman type, proper spacing, period at end, year included"
+        },
+        {
+          "text": "See Smith v. Jones, 123 U.S. 456 (2020); accord Brown v. Green, 234 U.S. 567 (2019).",
+          "correct": true,
+          "explanation": "Multiple sources with same signal type separated by semicolon"
+        },
+        {
+          "text": "Compare Smith v. Jones, 123 U.S. 456 (2020), with Doe v. Bolton, 410 U.S. 179 (1973).",
+          "correct": true,
+          "explanation": "Compare...with structure with comma before 'with'"
+        },
+        {
+          "text": "*See* Smith v. Jones, 123 U.S. 456 (2020).",
+          "correct": false,
+          "explanation": "Signal italicized (should be roman type in citations)"
+        },
+        {
+          "text": "See Smith v. Jones, 123 U.S. 456 (2020) (explaining the doctrine).",
+          "correct": true,
+          "explanation": "Explanatory parenthetical with regular See signal"
+        },
+        {
+          "text": "See generally Smith v. Jones, 123 U.S. 456 (2020) (discussing background).",
+          "correct": false,
+          "explanation": "Parenthetical not allowed after See generally"
+        }
+      ],
+      "exceptions": [
+        "Signals used as verbs in text should be italicized: 'This analysis *sees* the problem differently'",
+        "When signal is used as a verb, separate multiple sources with semicolons",
+        "Compare/contrast signals use semicolons between paired authorities",
+        "In textual material (not citations), signals may have different formatting rules"
+      ]
+    },
+    "2": {
+      "rule_id": "Rule 2",
+      "rule_title": "Typeface Conventions",
+      "rule_text": "Legal writing uses four typefaces, though choice of typeface conventions differs between academic writing (Whitepages) and practitioner documents (Bluepages). In law review footnotes, specific typefaces are used for different citation elements: ordinary roman, italics, SMALL CAPS, and LARGE & SMALL CAPS.",
+      "sub_rules": [
+        {
+          "rule": "Rule 2.1",
+          "title": "Typeface Conventions for Law Review Citations (Whitepages)",
+          "description": "In academic writing, citations use four typefaces: roman, italics, small caps, and large & small caps."
+        },
+        {
+          "rule": "Rule 2.2",
+          "title": "Typeface Conventions for Textual Material (Whitepages)",
+          "description": "In the main text of academic writing, only roman and italics are available."
+        },
+        {
+          "rule": "RB 2.1",
+          "title": "Underlined Type (Bluepages)",
+          "description": "Court documents use underlining instead of italics in limited contexts."
+        },
+        {
+          "rule": "RB 2.2",
+          "title": "Bolded Type (Bluepages)",
+          "description": "Bold is used extremely rarely in court documents, only in extraordinary circumstances."
+        },
+        {
+          "rule": "RB 2.3",
+          "title": "Italics and Punctuation",
+          "description": "Punctuation is italicized only if immediately adjacent to italicized words."
+        }
+      ],
+      "typeface_rules": {
+        "italics_in_citations": {
+          "case_names": "Always italicized (e.g., *Roe v. Wade*)",
+          "book_titles": "Always italicized (e.g., *Democracy and Distrust*)",
+          "periodical_titles": "Use SMALL CAPS instead in Whitepages (e.g., STAN. L. REV.)",
+          "procedural_phrases": "Italicized (e.g., *In re* Smith)",
+          "signals_in_citations": "Roman type (NOT italicized): See, Accord, Cf., etc."
+        },
+        "small_caps_in_citations": {
+          "institutional_author_names": "E.g., AMERICAN BAR ASSOCIATION",
+          "regulation_titles": "E.g., INTERNAL REVENUE CODE",
+          "periodical_names": "E.g., 110 STAN. L. REV. 1",
+          "note": "SMALL CAPS appear ONLY in Whitepages (law review), never in Bluepages"
+        },
+        "roman_type_in_citations": {
+          "signals": "See, Accord, Cf., But see, See generally, etc.",
+          "court_document_titles": "Brief for Petitioner, Motion in Limine",
+          "legislative_material_titles": "House Bill 1234",
+          "explanatory_phrases": "explaining, holding that, providing",
+          "prior_subsequent_history": "aff'd, rev'd, cert. denied, etc."
+        },
+        "whitepages_vs_bluepages": {
+          "case_names": "Whitepages: *italics*, Bluepages: roman or underline",
+          "periodical_names": "Whitepages: SMALL CAPS, Bluepages: roman",
+          "institutional_names": "Whitepages: SMALL CAPS, Bluepages: roman",
+          "emphasis": "Whitepages: italics (sparingly), Bluepages: avoid",
+          "small_caps": "Whitepages: yes, Bluepages: no"
+        }
+      },
+      "formatting_requirements": [
+        "Case names italicized in all contexts (Whitepages)",
+        "Book titles italicized (Whitepages) or roman/underline (Bluepages)",
+        "Periodical names in SMALL CAPS (Whitepages) or roman (Bluepages)",
+        "Institutional author names in SMALL CAPS (Whitepages) or roman (Bluepages)",
+        "Signals in roman type (except when used as verbs)",
+        "Punctuation italicized ONLY if immediately adjacent to italicized word",
+        "No italicization if space between word and punctuation",
+        "No bold in Whitepages citations",
+        "Minimal underlining in Bluepages",
+        "Consistent formatting throughout document"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "\\*[A-Z][a-zA-Z\\s:'-]+\\*",
+          "description": "Match italicized titles (markdown format)"
+        },
+        {
+          "pattern": "^(?:See|Accord|Cf|But\\s+see)\\s+",
+          "description": "Match signals in roman type (not italicized)"
+        },
+        {
+          "pattern": "\\*[A-Za-z]+\\*[,;:.](?!\\s)",
+          "description": "Punctuation italicized when adjacent"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "[*_]+(See|Accord|Cf|But\\s+see)[*_]+",
+          "description": "Signal incorrectly italicized",
+          "error_type": "Formatting"
+        },
+        {
+          "pattern": "\\*[A-Za-z]+\\*\\s+[.,;:!?]",
+          "description": "Punctuation outside italics when should be inside",
+          "error_type": "Formatting"
+        },
+        {
+          "pattern": "\\*\\*[^*]+\\*\\*",
+          "description": "Bold formatting (not allowed in Whitepages)",
+          "error_type": "Style"
+        }
+      ],
+      "examples": [
+        {
+          "text": "See *Roe v. Wade*, 410 U.S. 113 (1973).",
+          "correct": true,
+          "explanation": "Case name italicized, signal in roman, proper punctuation"
+        },
+        {
+          "text": "See John Hart Ely, *Democracy and Distrust* 4-5 (1980).",
+          "correct": true,
+          "explanation": "Book title italicized, proper citation format"
+        },
+        {
+          "text": "110 STAN. L. REV. 1 (2020)",
+          "correct": true,
+          "explanation": "Periodical name in small caps (Whitepages)"
+        },
+        {
+          "text": "*See* Smith v. Jones, 123 U.S. 456 (2020).",
+          "correct": false,
+          "explanation": "Signal should not be italicized in citation context"
+        },
+        {
+          "text": "*Smith v. Jones* , 123 U.S. 456 (2020).",
+          "correct": false,
+          "explanation": "Space between case name and comma breaks adjacency"
+        }
+      ],
+      "exceptions": [
+        "Signals used as verbs in text are italicized: *This analysis sees the issue*",
+        "Blue Pages use roman primarily with minimal special formatting",
+        "Case names may use underline instead of italics in Blue Pages",
+        "Punctuation in block quotations may have different rules",
+        "URLs and special content may have different formatting"
+      ]
+    },
+    "4": {
+      "rule_id": "Rule 4",
+      "rule_title": "Short Citation Forms",
+      "rule_text": "After a full citation has been provided, subsequent citations to the same authority may use a short form. Three main approaches: (1) Id. for identical references, (2) Supra for previous references (except cases), and (3) case name short forms or author short forms.",
+      "sub_rules": [
+        {
+          "rule": "Rule 4.1",
+          "title": "Id. for Identical References",
+          "description": "Use 'Id.' when the immediately preceding citation is to the sole authority."
+        },
+        {
+          "rule": "Rule 4.2",
+          "title": "Supra for Previous References",
+          "description": "Use 'Supra' for authorities previously cited (except cases) with the note number."
+        },
+        {
+          "rule": "Rule 4.3",
+          "title": "Short Forms by Citation Type",
+          "description": "Different citation types use different short form conventions."
+        },
+        {
+          "rule": "Rule 4.4",
+          "title": "Hereinafter Abbreviations",
+          "description": "Use 'hereinafter' sparingly for cumbersome titles or multiple works by same author."
+        }
+      ],
+      "short_form_types": {
+        "id_form": {
+          "usage": "Use when immediately preceding citation is the sole authority",
+          "scope": "Same footnote OR immediately following footnote ONLY",
+          "format": "Id. or Id. at [pinpoint]",
+          "valid_examples": [
+            "Id.",
+            "Id. at 100",
+            "Id. (para. 5)",
+            "Id. (§ 823)"
+          ],
+          "invalid_examples": [
+            "id. (lowercase)",
+            "Id at 100 (missing period)",
+            "Id, at 100 (comma instead of period)"
+          ]
+        },
+        "supra_form": {
+          "usage": "For previously cited authority (not in immediately preceding footnote)",
+          "typical_uses": "Secondary sources, legislative materials, books, articles, unpublished sources",
+          "format": "Author/Source, supra note [X], [at pinpoint]",
+          "restriction": "Cases do NOT use supra - use case name short form instead",
+          "valid_examples": [
+            "Doe, supra note 5",
+            "Doe, supra note 5, at 100",
+            "Smith, Article Title, supra note 10, at 50",
+            "German Civil Code, supra note 10, § 823"
+          ],
+          "invalid_examples": [
+            "Doe supra note 5 (missing comma)",
+            "Doe, supra 5 (missing 'note')",
+            "Smith v. Jones, supra note 5 (cases NOT allowed)"
+          ]
+        },
+        "case_short_forms": {
+          "allowed": [
+            "Case name alone: Roe",
+            "Case name with reporter: Roe, 410 U.S. 113",
+            "Case name with pinpoint: Roe, 410 U.S. at 116",
+            "Id. (if immediately preceding is same case)"
+          ],
+          "forbidden": [
+            "NO 'supra' for cases",
+            "NO 'hereinafter' for cases"
+          ]
+        },
+        "hereinafter_form": {
+          "usage": "Authority with cumbersome name OR multiple works by same author",
+          "use_frequency": "SPARINGLY (only when supra would be confusing)",
+          "format": "('Full Title', hereinafter 'Short') then Short, supra note [X]",
+          "default_approach": "Default to supra unless confusion would result",
+          "valid_examples": [
+            "('United Nations Convention on the Law of the Sea', hereinafter 'UNCLOS')",
+            "Subsequent: UNCLOS, supra note 2, art. 55"
+          ]
+        }
+      },
+      "formatting_requirements": [
+        "Id. must refer to immediately preceding citation",
+        "Id. must include 'at' when using pinpoint page",
+        "Supra includes note number: supra note X",
+        "Supra not allowed for cases",
+        "Hereinafter should be used very sparingly",
+        "Hereinafter defined in first full citation",
+        "Case name short forms omit first names",
+        "Case name short forms may use reporter citations",
+        "Author short forms use last name only",
+        "Capitalization maintained for short forms"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "^Id\\.\\s+(?:at\\s+\\d+)?(?:\\s+\\(.*?\\))?$",
+          "description": "Match Id. short form with optional pinpoint"
+        },
+        {
+          "pattern": "^[A-Z][a-z]+,\\s+supra\\s+note\\s+\\d+",
+          "description": "Match supra short form for books/articles"
+        },
+        {
+          "pattern": "^[A-Z][a-z]+(?:\\s+v\\.\\s+[A-Z][a-z]+)?(?:,\\s+\\d+\\s+[A-Z\\.]+)?",
+          "description": "Match case name short form"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "^id\\.",
+          "description": "Id. must be capitalized",
+          "error_type": "Capitalization"
+        },
+        {
+          "pattern": "[A-Z][a-z]+\\s+v\\.\\s+[A-Z][a-z]+,\\s+supra",
+          "description": "Cases cannot use supra form",
+          "error_type": "Style"
+        },
+        {
+          "pattern": "^(?:Id|Supra)[^.]",
+          "description": "Missing period after short form",
+          "error_type": "Punctuation"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Id.",
+          "correct": true,
+          "explanation": "Valid short form for identical preceding citation"
+        },
+        {
+          "text": "Id. at 100",
+          "correct": true,
+          "explanation": "Id. with pinpoint page number"
+        },
+        {
+          "text": "Doe, supra note 5, at 150",
+          "correct": true,
+          "explanation": "Supra short form for book with pinpoint"
+        },
+        {
+          "text": "Roe",
+          "correct": true,
+          "explanation": "Case name short form alone"
+        },
+        {
+          "text": "Roe, 410 U.S. at 116",
+          "correct": true,
+          "explanation": "Case short form with pinpoint"
+        }
+      ],
+      "exceptions": [
+        "Cases use case name short forms, not supra",
+        "Hereinafter abbreviations only for cumbersome titles",
+        "Id. cannot refer to sources cited only in parentheticals",
+        "Multiple works by same author may need title in short form",
+        "Some courts have specific local short form rules"
+      ]
+    },
+    "6": {
+      "rule_id": "Rule 6",
+      "rule_title": "Abbreviations",
+      "rule_text": "The Bluebook provides comprehensive abbreviation rules for legal citations across multiple tables. Rule 6 governs abbreviations for case names, reporters, jurisdictions, court names, and other legal materials. Key tables include T1 (federal courts/materials), T2 (state courts), T6 (corporate designations), and T10 (geographical terms).",
+      "sub_rules": [
+        {
+          "rule": "Rule 6.1",
+          "title": "Case Name Abbreviations",
+          "description": "Abbreviate case names per Table T1, omitting first/middle names and 'The' at start."
+        },
+        {
+          "rule": "Rule 6.2",
+          "title": "Court Abbreviations",
+          "description": "Abbreviate court names per Table T1 (federal) and T2 (state)."
+        },
+        {
+          "rule": "Rule 6.3",
+          "title": "Reporter Abbreviations",
+          "description": "Abbreviate case reporters per Table T1, including official and unofficial reporters."
+        },
+        {
+          "rule": "Rule 6.4",
+          "title": "Geographic Abbreviations",
+          "description": "Abbreviate geographic terms per Table T10."
+        },
+        {
+          "rule": "Rule 6.5",
+          "title": "Institutional Author Abbreviations",
+          "description": "Abbreviate institutional authors per Table T3."
+        }
+      ],
+      "key_abbreviation_rules": {
+        "case_names": {
+          "omit_first_names": "Use: Smith v. Jones (NOT: John Smith v. Mary Jones)",
+          "omit_the": "Use: Blue Cross v. State (NOT: The Blue Cross v. State)",
+          "use_acronyms": "NLRB v. Smith (use widely known acronyms)",
+          "abbreviate_designations": "Use Table T6 (Co., Inc., Ltd., Corp., etc.)",
+          "omit_other_parties": "List only first party on each side of v."
+        },
+        "federal_reporters": {
+          "supreme_court": "U.S., S. Ct., L. Ed., U.S.L.W.",
+          "courts_of_appeals": "F., F.2d, F.3d, F. App'x",
+          "district_courts": "F. Supp., F. Supp. 2d, F. Supp. 3d, F.R.D.",
+          "specialized": "B.R., Fed. Cl., Ct. Int'l Trade"
+        },
+        "state_codes": {
+          "ala": "Ala. Code",
+          "alaska": "Alaska Stat.",
+          "ariz": "Ariz. Rev. Stat. Ann.",
+          "ark": "Ark. Code Ann.",
+          "cal": "Cal. Code or Cal. Penal Code",
+          "colo": "Colo. Rev. Stat.",
+          "conn": "Conn. Gen. Stat.",
+          "note": "See Table T1 for complete list"
+        },
+        "regional_reporters": {
+          "south": "So., So. 2d, So. 3d",
+          "southeast": "S.E., S.E.2d",
+          "southwest": "S.W., S.W.2d, S.W.3d",
+          "northeast": "N.E., N.E.2d",
+          "northwest": "N.W., N.W.2d",
+          "atlantic": "A., A.2d, A.3d",
+          "pacific": "P., P.2d, P.3d"
+        }
+      },
+      "formatting_requirements": [
+        "Use standard abbreviations from Tables T1-T21",
+        "Omit first and middle names from party names",
+        "Omit 'The' as first word of party name",
+        "Abbreviate corporate designations per Table T6",
+        "Use state abbreviations per Table T10",
+        "Include periods in abbreviations (e.g., U.S.C., not USC)",
+        "Capitalize abbreviations appropriately (S. Ct., not s. ct.)",
+        "Use abbreviations only in citations, not in full text",
+        "No spaces in some abbreviations (F.2d not F. 2d)",
+        "Follow specific rules for agency abbreviations"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "\\b(?:U\\.S\\.|F\\.|F\\.\\d+d|F\\. Supp\\.|S\\. Ct\\.|L\\. Ed\\.)\\b",
+          "description": "Match federal reporter abbreviations"
+        },
+        {
+          "pattern": "\\b(?:So\\.|S\\.E\\.|S\\.W\\.|N\\.E\\.|N\\.W\\.|A\\.|P\\.)\\b",
+          "description": "Match regional reporter abbreviations"
+        },
+        {
+          "pattern": "\\b(?:Ala\\.|Alaska|Ariz\\.|Ark\\.|Cal\\.|Colo\\.|Conn\\.|Del\\.|Fla\\.)\\b",
+          "description": "Match state abbreviations"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "\\bUS\\b|\\bFSUPP\\b|\\bUSC\\b",
+          "description": "Missing periods in abbreviations",
+          "error_type": "Formatting"
+        },
+        {
+          "pattern": "\\b[Tt]he\\s+[A-Z][a-z]+\\s+v\\.",
+          "description": "'The' should be omitted from party names",
+          "error_type": "Style"
+        },
+        {
+          "pattern": "(?:Inc|Corp|Ltd|Co)\\s+v\\.",
+          "description": "Corporate designations should be abbreviated with periods",
+          "error_type": "Formatting"
+        }
+      ],
+      "examples": [
+        {
+          "text": "Smith v. Jones, 123 U.S. 456 (2020)",
+          "correct": true,
+          "explanation": "Proper abbreviations with periods, no first names"
+        },
+        {
+          "text": "The Blue Cross v. State, 234 F.3d 567 (2nd Cir. 2019)",
+          "correct": false,
+          "explanation": "'The' should be omitted from party name"
+        },
+        {
+          "text": "General Motors Corp. v. Johnson, 345 U.S. 678 (2018)",
+          "correct": true,
+          "explanation": "Corporate designation abbreviated per Table T6"
+        }
+      ],
+      "exceptions": [
+        "Well-known abbreviations may be used in text (e.g., NLRB)",
+        "Some state codes use full names instead of abbreviations",
+        "Foreign jurisdictions follow different abbreviation rules",
+        "Local court rules may have specific abbreviation requirements",
+        "Some abbreviations differ between Whitepages and Bluepages"
+      ]
+    },
+    "8": {
+      "rule_id": "Rule 8",
+      "rule_title": "Capitalization",
+      "rule_text": "Specific capitalization rules apply to constitutional amendments, acts, court names, judicial titles, and legal documents. The Bluebook provides detailed guidance on when to capitalize references and when to use lowercase to distinguish specific entities from generic references.",
+      "sub_rules": [
+        {
+          "rule": "Rule 8.1",
+          "title": "Constitutional Amendments",
+          "description": "Capitalize specific constitutional amendments but not generic amendment references."
+        },
+        {
+          "rule": "Rule 8.2",
+          "title": "Acts and Statutes",
+          "description": "Capitalize specific act and statute names but not generic statute references."
+        },
+        {
+          "rule": "Rule 8.3",
+          "title": "Court and Judge References",
+          "description": "Specific rules for capitalizing court names, judge titles, and references to terms of court."
+        },
+        {
+          "rule": "Rule 9.1",
+          "title": "Titles of Judges Before Names",
+          "description": "Capitalize judicial and official titles when they precede a name."
+        },
+        {
+          "rule": "Rule 9.2",
+          "title": "Generic References",
+          "description": "Lowercase judicial and official titles when used generically."
+        }
+      ],
+      "capitalization_rules": {
+        "constitutional_amendments": {
+          "capitalize": "First Amendment, Second Amendment, Fourth Amendment",
+          "lowercase": "the amendment, the constitutional amendment",
+          "rule": "Capitalize specific amendments but not generic references"
+        },
+        "acts_and_statutes": {
+          "capitalize": "Civil Rights Act, Americans with Disabilities Act, Clean Water Act",
+          "lowercase": "the statute, a federal act, state legislation",
+          "rule": "Capitalize specific act names but not generic references"
+        },
+        "court_names": {
+          "always_capitalize_court": "The Court (referring to U.S. Supreme Court)",
+          "lowercase_other_courts": "the lower courts, the appellate court, district court proceedings",
+          "capitalize_in_case_names": "When referring to the court in a case name",
+          "rule": "Capitalize 'Court' for U.S. Supreme Court, lowercase for others"
+        },
+        "judicial_titles": {
+          "capitalize_before_name": "Chief Justice Marshall, Justice Roberts, Judge Smith",
+          "lowercase_generic": "any justice may..., the chief justice held, a judge in that court",
+          "capitalize_the_president": "The President (when referring to specific office)",
+          "lowercase_presidential": "when the president acts, the president stated",
+          "rule": "Capitalize when preceding a name, lowercase when generic"
+        },
+        "terms_of_court": {
+          "capitalize": "Fall Term, Spring Term 2024, The October Term",
+          "lowercase": "the next term, during the court's term",
+          "rule": "Capitalize when naming a specific term, lowercase when generic"
+        },
+        "legal_documents": {
+          "capitalize_specific": "Brief for Petitioner, Motion in Limine, Plaintiff's Complaint",
+          "lowercase_generic": "the brief, the motion, court documents",
+          "rule": "Capitalize when referring to specific document, lowercase generically"
+        }
+      },
+      "formatting_requirements": [
+        "Capitalize specific constitutional amendments",
+        "Capitalize specific acts and statute names",
+        "Capitalize 'Court' when referring to U.S. Supreme Court",
+        "Lowercase 'court' for other courts (unless official name)",
+        "Capitalize judicial titles before names",
+        "Lowercase judicial titles in generic use",
+        "Capitalize specific court document titles",
+        "Lowercase generic document references",
+        "Follow citation format rules for typeface",
+        "Maintain consistency throughout document"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "\\b(?:First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|Tenth|Eleventh|Fourteenth)\\s+Amendment\\b",
+          "description": "Match capitalized constitutional amendments"
+        },
+        {
+          "pattern": "\\b(?:Civil Rights|Americans with Disabilities|Affordable Care|Clean Water)\\s+Act\\b",
+          "description": "Match capitalized acts and statutes"
+        },
+        {
+          "pattern": "\\b(?:Chief Justice|Justice|Judge|Senator|Representative|President|Governor)\\s+[A-Z][a-z]+",
+          "description": "Match capitalized titles before names"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "\\bfirst amendment\\b|\\bsecond amendment\\b",
+          "description": "Constitutional amendments should be capitalized",
+          "error_type": "Capitalization"
+        },
+        {
+          "pattern": "(?<![a-z])[Cc]ourt\\s+(?:held|ruled|decided).*?(?:lower court|appellate court|district court)",
+          "description": "Inconsistent court name capitalization",
+          "error_type": "Capitalization"
+        },
+        {
+          "pattern": "\\bjustice\\s+[A-Z][a-z]+",
+          "description": "Justice title before name should be capitalized",
+          "error_type": "Capitalization"
+        }
+      ],
+      "examples": [
+        {
+          "text": "The First Amendment protects free speech.",
+          "correct": true,
+          "explanation": "Constitutional amendment properly capitalized"
+        },
+        {
+          "text": "Under the Civil Rights Act of 1964, discrimination is prohibited.",
+          "correct": true,
+          "explanation": "Statute name properly capitalized"
+        },
+        {
+          "text": "Chief Justice Marshall wrote the opinion.",
+          "correct": true,
+          "explanation": "Judicial title capitalized before name"
+        },
+        {
+          "text": "The Supreme Court held...",
+          "correct": true,
+          "explanation": "U.S. Supreme Court capitalized"
+        },
+        {
+          "text": "the first amendment protects speech",
+          "correct": false,
+          "explanation": "Amendment reference should be capitalized"
+        },
+        {
+          "text": "Justice smith held that...",
+          "correct": false,
+          "explanation": "Justice title should be capitalized before name"
+        }
+      ],
+      "exceptions": [
+        "Use lowercase for generic references: a statute, any justice, federal law",
+        "Some old or historical references may use different capitalization",
+        "Quoted material maintains original capitalization",
+        "Foreign or non-English material may have different rules",
+        "Some jurisdiction-specific rules may vary"
+      ]
+    },
+    "12": {
+      "rule_id": "Rule 12",
+      "rule_title": "Statutes",
+      "rule_text": "Cite statutes by their official or popular name (if commonly used) and the published source (code or session law) and year. Federal statutes: cite to the U.S. Code when available: Title U.S.C. § Section (Year). For state statutes: cite to the current code if available or the session law if not codified. Include supplements when applicable.",
+      "sub_rules": [
+        {
+          "rule": "Rule 12.1",
+          "title": "Basic Citation Forms",
+          "description": "Standard format for federal and state statute citations with required elements."
+        },
+        {
+          "rule": "Rule 12.2",
+          "title": "Choosing the Proper Citation Form",
+          "description": "Hierarchy of citation preference: official code, unofficial code, session laws."
+        },
+        {
+          "rule": "Rule 12.3",
+          "title": "Current Official and Unofficial Codes",
+          "description": "Information about U.S.C., U.S.C.A., U.S.C.S., and state code editions."
+        },
+        {
+          "rule": "Rule 12.4",
+          "title": "Session Laws",
+          "description": "Citation format for statutes not yet in the code."
+        },
+        {
+          "rule": "Rule 12.5",
+          "title": "Electronic Databases",
+          "description": "Citation format for statutes found only online or in databases."
+        },
+        {
+          "rule": "Rule 12.9",
+          "title": "Special Citation Forms",
+          "description": "Special formats for I.R.C., ordinances, rules of procedure, model codes, and restatements."
+        },
+        {
+          "rule": "Rule 12.10",
+          "title": "Short Forms for Statutes",
+          "description": "Short form citations after full statute citation is provided."
+        }
+      ],
+      "statute_citation_hierarchy": {
+        "federal_statutes": {
+          "first_choice": "U.S.C. (official)",
+          "second_choice": "U.S.C.A. (West) or U.S.C.S. (Lexis)",
+          "third_choice": "Statutes at Large (session laws)"
+        },
+        "state_statutes": {
+          "first_choice": "Official state code if current",
+          "second_choice": "Unofficial annotated code if more current",
+          "third_choice": "Session laws if not yet codified"
+        }
+      },
+      "statute_elements": {
+        "federal_code": {
+          "title": "42",
+          "code": "U.S.C.",
+          "section": "1983",
+          "year": "(2018)",
+          "example": "42 U.S.C. § 1983 (2018)",
+          "note": "Year optional if citing current code"
+        },
+        "state_code": {
+          "abbreviation": "Cal.",
+          "code_name": "Penal Code",
+          "section": "187",
+          "publisher": "(West 2018)",
+          "example": "Cal. Penal Code § 187 (West 2018)",
+          "note": "Year typically required for state codes"
+        },
+        "session_law": {
+          "name": "Civil Rights Act of 1964",
+          "public_law": "Pub. L. No. 88-352",
+          "volume": "78",
+          "reporter": "Stat.",
+          "page": "241",
+          "year": "(1964)",
+          "example": "Civil Rights Act of 1964, Pub. L. No. 88-352, 78 Stat. 241 (1964)"
+        }
+      },
+      "formatting_requirements": [
+        "Include title number for federal statutes",
+        "Include section symbol (§), not words",
+        "Include section number",
+        "Include year in parentheses (with exceptions)",
+        "Use official code when available",
+        "Cite range with double section symbol (§§)",
+        "Include supplement information when applicable",
+        "For state statutes, include state abbreviation and code name",
+        "No period after section symbol",
+        "Proper spacing in abbreviations (U.S.C. not USC)"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "\\b\\d{1,3}\\s+U\\.S\\.C\\.\\s+§+\\s*\\d+(?:\\([A-Za-z0-9\\s\\-\\.]+\\))?\\s*\\(\\d{4}\\)?",
+          "description": "Match federal code citations"
+        },
+        {
+          "pattern": "\\b(?:Ala\\.|Alaska|Ariz\\.)\\s+(?:Code|Rev\\.|Stat\\.)\\s+§+\\s*[\\d\\.]+",
+          "description": "Match state code citations"
+        },
+        {
+          "pattern": "\\b(?:Civil Rights|Americans with Disabilities)\\s+Act\\s+(?:of\\s+)?(?:Pub\\.\\s+L\\.\\s+No\\.|Ch\\.)\\s+\\d{3}[-–]\\d{1,4}",
+          "description": "Match session law citations"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "\\b\\d{1,3}\\s+USC\\s+\\d+",
+          "description": "Missing section symbol and periods",
+          "error_type": "Formatting"
+        },
+        {
+          "pattern": "§\\s*\\d+\\.",
+          "description": "Period after section symbol",
+          "error_type": "Punctuation"
+        },
+        {
+          "pattern": "\\b\\d{1,3}\\s+U\\.S\\.C\\.\\s+\\d+",
+          "description": "Missing section symbol",
+          "error_type": "Formatting"
+        }
+      ],
+      "examples": [
+        {
+          "text": "42 U.S.C. § 1983 (2018)",
+          "correct": true,
+          "explanation": "Proper federal code citation with title, code, section, and year"
+        },
+        {
+          "text": "Cal. Penal Code § 187 (West 2018)",
+          "correct": true,
+          "explanation": "Proper state code citation with publisher"
+        },
+        {
+          "text": "Civil Rights Act of 1964, Pub. L. No. 88-352, 78 Stat. 241 (1964)",
+          "correct": true,
+          "explanation": "Proper session law citation format"
+        },
+        {
+          "text": "42 U.S.C. §§ 9601-9675",
+          "correct": true,
+          "explanation": "Proper citation of multiple sections"
+        },
+        {
+          "text": "42 USC 1983",
+          "correct": false,
+          "explanation": "Missing section symbol and periods in abbreviation"
+        }
+      ],
+      "exceptions": [
+        "U.S.C. year is optional if citing current code",
+        "Some unofficial codes require publisher information",
+        "Historical versions require indication of effectiveness",
+        "Repealed statutes require repeal information",
+        "Court-specific local rules may require parallel citations"
+      ]
+    },
+    "15": {
+      "rule_id": "Rule 15",
+      "rule_title": "Books, Reports, and Other Nonperiodic Materials",
+      "rule_text": "This rule covers how to cite books, treatises, reports, white papers, encyclopedias, dictionaries, and similar non-periodic sources. Include authors as names in full as given on the publication, titles italicized, edition if not first, and year of publication. Publisher information is generally not required for well-known legal publishers but is required for lesser-known works.",
+      "sub_rules": [
+        {
+          "rule": "Rule 15.1",
+          "title": "Author",
+          "description": "Include the author's full name as it appears on the title page."
+        },
+        {
+          "rule": "Rule 15.2",
+          "title": "Editor or Translator",
+          "description": "Include editor or translator information when relevant."
+        },
+        {
+          "rule": "Rule 15.3",
+          "title": "Title",
+          "description": "Titles must be italicized with proper capitalization (title case)."
+        },
+        {
+          "rule": "Rule 15.4",
+          "title": "Edition, Publisher, and Date",
+          "description": "Include edition information (if not first), year of publication, and publisher when necessary."
+        },
+        {
+          "rule": "Rule 15.5",
+          "title": "Shorter Works in Collection",
+          "description": "Citation format for essays, chapters, or articles within edited collections."
+        },
+        {
+          "rule": "Rule 15.6",
+          "title": "Prefaces, Forewords, Introductions",
+          "description": "Special citation format for these supplementary materials."
+        },
+        {
+          "rule": "Rule 15.9",
+          "title": "Electronic Databases and Online Sources",
+          "description": "Citation format for online books and electronic sources."
+        },
+        {
+          "rule": "Rule 15.10",
+          "title": "Short Citation Forms",
+          "description": "Short form citations after full book citation is provided."
+        }
+      ],
+      "book_citation_elements": {
+        "basic_format": {
+          "author": "Author Name",
+          "title": "*Title of Book*",
+          "edition": "(2d ed.",
+          "year": "2020)",
+          "complete": "Author Name, *Title of Book* (2d ed. 2020)"
+        },
+        "author_rules": {
+          "single_author": "John Smith",
+          "two_authors": "John Smith & Jane Doe",
+          "multiple_authors": "John Smith et al.",
+          "institutional": "U.S. Environmental Protection Agency",
+          "rule": "Use full names as given on title page"
+        },
+        "title_capitalization": {
+          "capitalize": "Each major word",
+          "lowercase": "Articles (a, an, the), conjunctions (and, or, but), prepositions (in, on, at, by, from)",
+          "exception": "Always capitalize first and last words of title",
+          "format": "*The Constitution: A Living Document*"
+        },
+        "edition_format": {
+          "not_first": "Include edition (2d ed., 3d ed., etc.)",
+          "first_edition": "Do not include (assumed)",
+          "note": "Edition comes before year in parentheses"
+        }
+      },
+      "formatting_requirements": [
+        "Author's full name as given on publication",
+        "For two authors: list both separated by &",
+        "For more than two authors: first author + et al.",
+        "Title italicized with proper capitalization",
+        "Include edition if not first edition",
+        "Year of publication in parentheses",
+        "Publisher generally not required for standard legal publishers",
+        "Publisher required for non-standard or lesser-known publishers",
+        "Chapter citations include starting and pinpoint pages",
+        "Editors preceded by 'ed.' or 'eds.'",
+        "Translators preceded by 'trans.'"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "^[A-Z][a-z]+(?:\\s[A-Z][a-z]+)*\\s[A-Z][a-z]+(?:\\set\\sal\\.)?",
+          "description": "Match author names"
+        },
+        {
+          "pattern": "\\*?[A-Z][a-zA-Z\\s:'-]+\\*?\\s\\((?:\\d{1,2})?(?:st|nd|rd|th)?\\s?(?:ed\\.|ed)\\.?\\s?(\\d{4})\\)",
+          "description": "Match title with edition and year"
+        },
+        {
+          "pattern": "[A-Z][a-z]+,\\s\\\"[^\\\"]+\\\",\\sin\\s\\*[A-Z][a-zA-Z\\s:'-]+\\*\\s\\d+,\\s\\d+\\s\\([A-Z][a-z]+.*ed\\.,\\s\\d{4}\\)",
+          "description": "Match chapter in edited book"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "^[A-Z][a-z]+,\\s[A-Z][a-z]+\\s&\\s[A-Z][a-z]+,\\s[A-Z][a-z]+\\s&",
+          "description": "More than two authors should use 'et al.'",
+          "error_type": "Style"
+        },
+        {
+          "pattern": "[A-Z][a-z]+,[A-Z][a-z]+\\s\\*",
+          "description": "Missing space before title",
+          "error_type": "Formatting"
+        }
+      ],
+      "examples": [
+        {
+          "text": "John Hart Ely, *Democracy and Distrust* (1980)",
+          "correct": true,
+          "explanation": "Single author, title italicized, year only"
+        },
+        {
+          "text": "John Smith & Jane Doe, *Federal Procedure* (2d ed. 2020)",
+          "correct": true,
+          "explanation": "Two authors with edition and year"
+        },
+        {
+          "text": "James Brown et al., *Rules of Procedure* (5th ed. 2022)",
+          "correct": true,
+          "explanation": "Multiple authors with 'et al.', edition and year"
+        },
+        {
+          "text": "James Thompson, \"Federal Powers\", in *Constitutional Law Studies* 145, 167 (Sarah Wilson ed., 3d ed. 2019)",
+          "correct": true,
+          "explanation": "Chapter in edited collection with proper formatting"
+        }
+      ],
+      "exceptions": [
+        "Multi-volume works may require volume information",
+        "Institutional authors may be abbreviated",
+        "Publisher information required for non-standard publishers",
+        "Some classic texts may have different citation formats",
+        "Unpublished works require special handling"
+      ]
+    },
+    "punctuation": {
+      "rule_id": "Punctuation",
+      "rule_title": "Bluebook Punctuation Rules",
+      "rule_text": "The Bluebook contains comprehensive punctuation rules governing the proper use of commas, periods, semicolons, colons, parentheses, brackets, dashes, quotation marks, and other punctuation in legal citations and academic writing.",
+      "sub_rules": [
+        {
+          "rule": "Comma Rules",
+          "description": "Citation clauses set off by commas; multiple authorities separated by commas or semicolons depending on context."
+        },
+        {
+          "rule": "Period Rules",
+          "description": "Citation sentences end with periods; no periods after section symbols or in degrees."
+        },
+        {
+          "rule": "Semicolon Rules",
+          "description": "Semicolons separate signal groups and multiple authorities within parentheticals."
+        },
+        {
+          "rule": "Parentheses Rules",
+          "description": "Court/year information in parentheses; explanatory parentheticals with proper content."
+        },
+        {
+          "rule": "Bracket Rules",
+          "description": "Square brackets for alterations in quotations and for nested parentheticals."
+        },
+        {
+          "rule": "Colon Rules",
+          "description": "Colons separate titles from subtitles and introduce certain citations."
+        },
+        {
+          "rule": "Dash Rules",
+          "description": "Em dashes for non-grammatical parentheticals; hyphens for ranges."
+        },
+        {
+          "rule": "Quotation and Ellipsis Rules",
+          "description": "Proper quotation mark usage and three-dot ellipsis for omissions."
+        },
+        {
+          "rule": "Spacing Rules",
+          "description": "Proper spacing around all punctuation marks."
+        }
+      ],
+      "comma_rules": {
+        "citation_clauses": "Authorities supporting only part of sentence cited in clauses set off by commas",
+        "multiple_citations_same_signal": "Separate with commas: See X, Y, and Z",
+        "compare_contrast": "Separate with semicolons: Compare X, 410 U.S. 113 (1973), with Y, 410 U.S. 179 (1973)",
+        "parallel_citations": "Separate with commas in periodical citations"
+      },
+      "period_rules": {
+        "citation_sentences": "Must end with period",
+        "section_symbol": "No period after § (e.g., § 1983 not §. 1983)",
+        "degrees": "Include periods (J.D. not JD, Ph.D. not PhD)"
+      },
+      "semicolon_rules": {
+        "same_signal_type": "Separate multiple same-type signals with semicolons",
+        "parenthetical_citations": "Separate multiple authorities in parenthetical with semicolons"
+      },
+      "parentheses_rules": {
+        "court_year": "Court abbreviation and year in parentheses",
+        "explanatory": "Lowercase letter start unless first word is proper noun",
+        "no_nested": "Use brackets instead of nested parentheses"
+      },
+      "bracket_rules": {
+        "alterations": "Mark alterations to quotations [sic], [emphasis added]",
+        "nested_parentheticals": "Use brackets instead of parentheses: (text [inner text] text)",
+        "translations": "Use brackets for descriptive or translated titles"
+      },
+      "formatting_requirements": [
+        "Citation clauses set off by commas",
+        "Multiple authorities same signal separated by commas",
+        "Multiple authorities compare/contrast separated by semicolons",
+        "Citation sentences end with period",
+        "No period after section symbol",
+        "Semicolons separate signal groups",
+        "Court/year in parentheses",
+        "No nested parentheses (use brackets)",
+        "Three dots only for ellipsis",
+        "Proper spacing around all punctuation"
+      ],
+      "correct_regex_patterns": [
+        {
+          "pattern": "(See|Accord|But see)\\s+[^;]*;\\s+(See|Accord|Cf\\.)",
+          "description": "Proper semicolon separation of same signals"
+        },
+        {
+          "pattern": "[A-Z]\\s+\\(\\d{4}\\)\\.$",
+          "description": "Proper court/year with period"
+        },
+        {
+          "pattern": "\\([^)]*\\[[^\\]]*\\][^)]*\\)",
+          "description": "Brackets nested within parentheses"
+        }
+      ],
+      "error_regex_patterns": [
+        {
+          "pattern": "§\\s*\\d+\\.",
+          "description": "Period after section symbol",
+          "error_type": "Critical"
+        },
+        {
+          "pattern": "\\([^)]*\\([^)]*\\)[^)]*\\)",
+          "description": "Nested parentheses without brackets",
+          "error_type": "Critical"
+        },
+        {
+          "pattern": "\\.\\.\\.\\.",
+          "description": "Four dots instead of three",
+          "error_type": "Punctuation"
+        },
+        {
+          "pattern": "\\bJD\\b|\\bPhD\\b|\\bMBA\\b(?!\\.)",
+          "description": "Missing periods in degrees",
+          "error_type": "Formatting"
+        }
+      ],
+      "examples": [
+        {
+          "text": "See Smith v. Jones, 123 U.S. 456 (2020); accord Brown v. Green, 234 U.S. 567 (2019).",
+          "correct": true,
+          "explanation": "Semicolon separates same signal types properly"
+        },
+        {
+          "text": "(citing Smith v. Jones, 123 U.S. 456 (2020); Doe v. Bolton, 410 U.S. 179 (1973))",
+          "correct": true,
+          "explanation": "Multiple authorities in parenthetical separated by semicolon"
+        },
+        {
+          "text": "42 U.S.C. § 1983.",
+          "correct": false,
+          "explanation": "No period after section symbol"
+        },
+        {
+          "text": "(citing [for example, the Hippocratic Oath] the statute)",
+          "correct": true,
+          "explanation": "Brackets used for nested parenthetical"
+        }
+      ],
+      "exceptions": [
+        "Four-dot ellipsis if at end of sentence with period",
+        "Spacing rules may differ for URLs and special content",
+        "Quoted material maintains original punctuation",
+        "Block quotations have different punctuation rules",
+        "Some foreign language content may differ"
+      ]
+    }
+  }
+}

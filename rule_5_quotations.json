@@ -1,0 +1,533 @@
+{
+  "rule_5": {
+    "title": "Quotations",
+    "description": "Complete extraction of Rule 5 (Quotations) from the Bluebook",
+    "source": "Bluebook.json reference file",
+    "main_sections": [
+      {
+        "source_type": "Bluebook (BB)",
+        "sub_rules": [
+          {
+            "id": "5.1",
+            "title": "Formatting of Quotations",
+            "text": "Quotations of fifty or more words should be formatted as block quotations (indented and without quotation marks). Shorter quotations remain in-line with quotation marks. When using a block quotation, maintain the original formatting, including internal quotation marks. Use an ellipsis to indicate omitted material and brackets to indicate changes or additions.",
+            "rules": {
+              "block_quote_threshold": {
+                "word_count": 50,
+                "description": "Quotations of 50+ words must be block quoted",
+                "formatting": {
+                  "indented": true,
+                  "quotation_marks": false,
+                  "internal_quotation_marks": true,
+                  "original_formatting_preserved": true
+                }
+              },
+              "inline_quotations": {
+                "word_count": "less than 50",
+                "quotation_marks": true,
+                "formatting": "inline with text"
+              },
+              "omissions": {
+                "indicator": "ellipsis",
+                "symbol": "..."
+              },
+              "alterations": {
+                "indicator": "brackets",
+                "symbol": "[]"
+              }
+            },
+            "regex_patterns": {
+              "block_quote_pattern": "^\\s{1,}.*",
+              "quotation_marks_inline": "^\".*\"$",
+              "ellipsis_pattern": "\\.\\.\\.",
+              "bracket_alterations": "\\[.*?\\]"
+            }
+          },
+          {
+            "id": "5.2",
+            "title": "Alterations and Quotations Within Quotations",
+            "text": "Indicate any alteration to a quoted text with brackets, including added or changed letters or words. Use \"[sic]\" after an error in the original that is being preserved. When quoting text that itself contains a quotation, alternate between double and single quotation marks (with the outermost quotes determined by the context of your quote).",
+            "rules": {
+              "alterations": {
+                "method": "brackets",
+                "examples": [
+                  "[changed word]",
+                  "[added letter]",
+                  "[sic]"
+                ]
+              },
+              "nested_quotations": {
+                "pattern": "double and single alternating",
+                "outer_quotes": "determined by context",
+                "examples": [
+                  "He said, \"She said 'hello'\"",
+                  "\"According to the law, 'this applies' here\""
+                ]
+              },
+              "sic_usage": {
+                "description": "Indicates error or misspelling in original",
+                "format": "[sic]",
+                "placement": "immediately after error"
+              }
+            },
+            "regex_patterns": {
+              "alterations_pattern": "\\[[^\\]]*\\]",
+              "sic_pattern": "\\[sic\\]",
+              "nested_quotations_pattern": "\"[^\"]*'[^']*'[^\"]*\"",
+              "single_quotes_in_double": "\"(?:[^\"\\\\]|\\\\.)*'(?:[^'\\\\]|\\\\.)*'(?:[^\"\\\\]|\\\\.)*\"",
+              "double_quotes_in_single": "'(?:[^'\\\\]|\\\\.)*\"(?:[^\"\\\\]|\\\\.)*\"(?:[^'\\\\]|\\\\.)*'"
+            }
+          },
+          {
+            "id": "5.3",
+            "title": "Omissions",
+            "text": "Use an ellipsis (\"...\") to indicate omitted material within a quotation. Do not begin a quote with an ellipsis if the quoted material starts midsentence; simply begin with a lowercase letter (bracketed if needed). Ensure the omission does not alter the fundamental meaning of the quoted text.",
+            "rules": {
+              "omissions": {
+                "indicator": "ellipsis",
+                "format": "...",
+                "usage": "indicates omitted material within quotation"
+              },
+              "beginning_omissions": {
+                "start_with_ellipsis": false,
+                "lowercase_letter": true,
+                "bracket_if_needed": true,
+                "example": "[l]owercase beginning"
+              },
+              "meaning_preservation": {
+                "requirement": "omission must not alter fundamental meaning",
+                "emphasis": "critical constraint"
+              }
+            },
+            "regex_patterns": {
+              "ellipsis_pattern": "^(?!\\.\\.\\.).*",
+              "omission_marker": "\\.\\.\\.",
+              "lowercase_after_ellipsis": "\\.\\.\\.[a-z]",
+              "bracketed_lowercase": "\\[[a-z]\\]"
+            }
+          }
+        ]
+      },
+      {
+        "source_type": "Stanford Law Review (SLR)",
+        "section": "QUOTATIONS",
+        "sub_rules": [
+          {
+            "id": "5.1",
+            "title": "Placement of Punctuation Marks",
+            "text": "When a punctuation mark is present in the underlying material but not intended to be part of the quotation, the punctuation mark should be omitted if it comes at the end of a quotation and should be included if it comes at the beginning of a quotation. See BB 5.1.",
+            "page": 18,
+            "tags": [
+              "Punctuation Marks",
+              "Style"
+            ],
+            "rules": {
+              "punctuation_at_end": {
+                "action": "omit",
+                "condition": "punctuation present in material but not part of quote"
+              },
+              "punctuation_at_beginning": {
+                "action": "include",
+                "condition": "punctuation present in material but not part of quote"
+              }
+            },
+            "examples": {
+              "example_1": {
+                "original": "The court stated: 'Justice must be served.'",
+                "quotation": "\"Justice must be served\"",
+                "note": "period omitted from quote"
+              },
+              "example_2": {
+                "original": "'What is justice?' the philosopher asked",
+                "quotation": "\"'What is justice?'\"",
+                "note": "question mark included in quote"
+              }
+            },
+            "regex_patterns": {
+              "punctuation_end_pattern": "[.!?,;:]$",
+              "punctuation_start_pattern": "^[.!?,;:]"
+            }
+          },
+          {
+            "id": "5.2",
+            "title": "Block Quotes",
+            "text": "SLR follows BB 5.1 in using block quotes for quotations of fifty or more words. As BB 5.1(a) suggests, it is often permissible to avoid a block quote by simply not quoting extraneous language (e.g., starting and ending a quote in the middle of a sentence), and you should do so when possible. But do not rewrite quotes just to avoid block quoting, and do not try to sneak in a forty-nine-word quotation to avoid a block quote when a longer quote would provide essential context.",
+            "page": 18,
+            "tags": [
+              "Block Quotes",
+              "Style"
+            ],
+            "rules": {
+              "threshold": {
+                "word_count": 50,
+                "action": "use block quote",
+                "formatting": {
+                  "indented": true,
+                  "no_quotation_marks": true,
+                  "single_line_spacing": false
+                }
+              },
+              "alternatives": {
+                "avoid_extraneous_language": "permissible",
+                "selective_quoting": "allowed",
+                "shortening_legitimate_portions": "not allowed"
+              },
+              "restrictions": {
+                "do_not_rewrite": "only to avoid block quoting",
+                "do_not_use_forty_nine_words": "when longer quote provides essential context",
+                "emphasis": "integrity of quotation matters more than avoiding block quote"
+              }
+            },
+            "word_count_guidance": {
+              "49_words_or_less": "inline with quotation marks",
+              "50_words_or_more": "block quote without quotation marks",
+              "note": "word count does not include citations within quotation"
+            }
+          },
+          {
+            "id": "5.3",
+            "title": "Omissions from Quotations",
+            "text": "Use an ellipsis ( . . . ) to indicate the omission of one or more words from the middle of a quoted sentence. Do not use an ellipsis at the beginning of a quotation (even if the beginning of the sentence is omitted) or at the end of a quotation (even if the end of the sentence is omitted) unless what follows in the sentence is also omitted. If one or more full sentences are omitted from the quotation, use an ellipsis that includes end punctuation (e.g., \". . . .\"). Leave a space before and after each period in the ellipsis. Do not omit punctuation before or after the ellipsis unless it is a comma that serves only to indicate a series of items. See BB 5.3–5.4.",
+            "page": 18,
+            "tags": [
+              "Omissions from Quotations",
+              "Style"
+            ],
+            "rules": {
+              "ellipsis_format": {
+                "symbol": ".",
+                "spacing": "space before and after each period",
+                "basic_format": ". . .",
+                "with_sentence_end": ". . . ."
+              },
+              "omission_location": {
+                "beginning": {
+                  "use_ellipsis": false,
+                  "note": "even if beginning of sentence omitted"
+                },
+                "end": {
+                  "use_ellipsis": false,
+                  "exception": "if what follows in sentence is also omitted"
+                },
+                "middle": {
+                  "use_ellipsis": true,
+                  "note": "for one or more words"
+                }
+              },
+              "full_sentence_omission": {
+                "format": ". . . .",
+                "includes_end_punctuation": true
+              },
+              "punctuation_handling": {
+                "preserve_before_ellipsis": true,
+                "preserve_after_ellipsis": true,
+                "exception": "comma serving only to indicate series of items"
+              }
+            },
+            "regex_patterns": {
+              "ellipsis_basic": "\\.\\ \\.\\ \\.",
+              "ellipsis_with_sentence_end": "\\.\\ \\.\\ \\.\\ \\.",
+              "middle_omission": "[^.]\\ \\.\\ \\.\\ \\.[^.]",
+              "sentence_omission": "\\.\\.\\ \\.\\ \\."
+            }
+          },
+          {
+            "id": "5.4",
+            "title": "Alterations to Quotations",
+            "text": "Use brackets to indicate any alterations to the text of a quotation, including altered capitalization, added or changed emphasis, or added footnote call numbers. See RB 1.13; BB 5.2. Use \"[sic]\" to indicate any obvious errors or misprints in the original quotation that you cannot correct (but for minor errors, consider paraphrasing instead). Do not use \"[sic]\" to indicate an alternate but still correct spelling (e.g., alternate spelling of a word ending in \"-ize\" or \"-yze\"). See RB 24.1.",
+            "page": 20,
+            "tags": [
+              "Alterations to Quotations",
+              "Style"
+            ],
+            "rules": {
+              "bracket_usage": {
+                "format": "[]",
+                "applications": [
+                  "altered capitalization",
+                  "added emphasis",
+                  "changed emphasis",
+                  "added footnote call numbers",
+                  "changes or additions to text"
+                ]
+              },
+              "sic_usage": {
+                "format": "[sic]",
+                "purpose": "indicate obvious errors or misprints",
+                "placement": "immediately after error",
+                "restrictions": {
+                  "do_not_use_for": "alternate but correct spelling",
+                  "examples": [
+                    "Do not use for -ize vs -ise",
+                    "Do not use for -yze vs -yse"
+                  ]
+                },
+                "alternative": "consider paraphrasing for minor errors"
+              }
+            },
+            "examples": {
+              "capitalization": {
+                "original": "the court stated",
+                "altered": "[T]he court stated",
+                "note": "capitalized for sentence beginning"
+              },
+              "emphasis": {
+                "original": "we hold firmly",
+                "altered": "we hold *firmly* [emphasis added]",
+                "note": "or use brackets with emphasis indicator"
+              },
+              "error": {
+                "original": "seperately [sic]",
+                "note": "preserves misspelling with [sic]"
+              }
+            },
+            "regex_patterns": {
+              "alteration_brackets": "\\[[Tt]his|[Aa]dded|[Cc]hanged|[Ee]mphasis|sic|[Ii]nsertion|[Oo]mission|[Nn]ote|[Ff]ootnote|[Cc]apital].*?\\]",
+              "sic_pattern": "\\[sic\\]",
+              "capitalization_alteration": "\\[[A-Z]\\]",
+              "emphasis_marker": "\\[(emphasis added|emphasis in original|emphasis omitted|altered emphasis)\\]"
+            }
+          },
+          {
+            "id": "5.5",
+            "title": "Textual Citations Within Quotations",
+            "text": "In general, citations within quotations should be omitted unless particularly relevant. Original source: The Court specified \"with all deliberate speed,\" Brown II, 75 S. Ct. at 757, but that phrase is not a model of clarity. Article: As one commentator noted, \"The Court specified 'with all deliberate speed,' but that phrase is not a model of clarity.\"373 373. Collin Fredricks & Catherina Y. Xu, One Thousand and One Galley Nights, 76 STAN. L. REV. 1789, 1895 (2023) (citation omitted) (quoting Brown v. Bd. of Educ. (Brown II), 349 U.S. 294, 301 (1955)). If the quoted citation is particularly relevant and must be retained, it should appear as it does in the quoted source—including, unfortunately, any Bluebooking errors.",
+            "page": 20,
+            "tags": [
+              "Textual Citations",
+              "Style"
+            ],
+            "rules": {
+              "default_treatment": {
+                "action": "omit citations",
+                "rationale": "citations within quotations clutter text",
+                "exception": "if particularly relevant"
+              },
+              "omission_method": {
+                "procedure": "remove citation from quoted material",
+                "note": "place citation in footnote instead"
+              },
+              "retention": {
+                "condition": "particularly relevant",
+                "formatting": "preserve exactly as in source",
+                "include_errors": "yes - preserve any Bluebooking errors from original"
+              },
+              "parenthetical_use": {
+                "format": "(citation omitted)",
+                "placement": "in explanatory parenthetical following quotation",
+                "purpose": "indicates citations were removed from quote"
+              }
+            },
+            "examples": {
+              "with_citation_in_original": {
+                "original_text": "The Court specified \"with all deliberate speed,\" Brown II, 75 S. Ct. at 757, but that phrase is not a model of clarity.",
+                "edited_text": "As one commentator noted, \"The Court specified 'with all deliberate speed,' but that phrase is not a model of clarity.\"",
+                "parenthetical": "(citation omitted)",
+                "footnote": "Collin Fredricks & Catherina Y. Xu, One Thousand and One Galley Nights, 76 STAN. L. REV. 1789, 1895 (2023) (citation omitted) (quoting Brown v. Bd. of Educ. (Brown II), 349 U.S. 294, 301 (1955))"
+              }
+            },
+            "regex_patterns": {
+              "citation_pattern": "(?:,\\s*[A-Z][a-z\\.]+(?:\\s+(?:v|et|al)\\.)?(?:\\s+[A-Z][a-z]+)*,?\\s*\\d+\\s*(?:[A-Z]\\.(?:\\d+)?)?\\s*(?:at\\s*\\d+)?)|(?:\\[citations?\\s+omitted\\])|(?:\\(citation\\s+omitted\\))",
+              "citation_omitted_parenthetical": "\\(citation omitted\\)|\\(citations omitted\\)"
+            }
+          }
+        ]
+      }
+    ],
+    "comprehensive_rules": {
+      "block_quotation_rules": {
+        "definition": "Quotation formatted as indented block without quotation marks",
+        "word_count_threshold": 50,
+        "formatting": {
+          "indentation": "required",
+          "quotation_marks": "omitted",
+          "internal_quotation_marks": "preserved",
+          "line_spacing": "often single-spaced, indented"
+        },
+        "content_rules": {
+          "original_formatting": "must be preserved",
+          "paragraph_breaks": "must be preserved",
+          "emphasis": "must be preserved",
+          "errors": "must be preserved",
+          "citations": "may be omitted unless particularly relevant"
+        }
+      },
+      "inline_quotation_rules": {
+        "definition": "Quotation incorporated into sentence with quotation marks",
+        "word_count_threshold": "less than 50 words",
+        "formatting": {
+          "opening_quotation_mark": "\"",
+          "closing_quotation_mark": "\"",
+          "integration": "into narrative flow"
+        }
+      },
+      "ellipsis_rules": {
+        "standard_ellipsis": {
+          "symbol": ". . .",
+          "spacing": "space before and after each period",
+          "usage": "omission of material within or between sentences"
+        },
+        "sentence_end_ellipsis": {
+          "symbol": ". . . .",
+          "spacing": "space before and after each period",
+          "usage": "omission of one or more complete sentences"
+        },
+        "beginning_omission": {
+          "use_ellipsis": false,
+          "method": "simply start quote with lowercase letter",
+          "bracketing": "bracket the lowercase letter if needed"
+        },
+        "ending_omission": {
+          "use_ellipsis": false,
+          "exception": "use ellipsis if what follows in sentence is also omitted"
+        }
+      },
+      "alteration_rules": {
+        "brackets": {
+          "symbol": "[]",
+          "uses": [
+            "indicate changes to capitalization",
+            "indicate added or changed words",
+            "indicate added letters",
+            "indicate added emphasis",
+            "indicate changed emphasis",
+            "indicate added footnote numbers",
+            "indicate [sic] for errors"
+          ]
+        },
+        "sic_specification": {
+          "format": "[sic]",
+          "purpose": "preserve and flag error from original",
+          "restriction": "do not use for alternate correct spellings",
+          "alternative": "paraphrase for minor errors"
+        }
+      },
+      "punctuation_rules": {
+        "placement_at_end": {
+          "rule": "if punctuation in source but not part of quote, omit from end of quotation",
+          "example": "said, \"Justice must be served\" (period omitted)"
+        },
+        "placement_at_beginning": {
+          "rule": "if punctuation in source but not part of quote, include at beginning",
+          "example": "\"'What is justice?'\" (question mark included)"
+        },
+        "preservation": {
+          "commas_in_series": "omit only if comma serves only to indicate series",
+          "other_punctuation": "preserve before and after ellipsis"
+        }
+      },
+      "citation_rules": {
+        "citations_within_quotes": {
+          "default": "omit unless particularly relevant",
+          "method": "remove from quote, place in parenthetical or footnote",
+          "parenthetical": "(citation omitted)",
+          "if_retained": "preserve exactly as in original, including errors"
+        },
+        "citation_placement": {
+          "before_citation": "place full quote first",
+          "after_citation": "place cite or parenthetical after quotation",
+          "format": "Author, Title, Reporter Page (Court Year)"
+        }
+      },
+      "quotation_marks_nesting": {
+        "pattern": "alternate between double and single",
+        "outer_quotes": "determined by context",
+        "examples": [
+          {
+            "text": "She said, \"He told me 'hello'\"",
+            "note": "double quotes outer, single inner"
+          },
+          {
+            "text": "In 'The Court stated \"freedom matters\"' passage",
+            "note": "single quotes outer, double inner"
+          }
+        ],
+        "rule": "continue alternating for additional levels of nesting"
+      }
+    },
+    "regex_patterns_comprehensive": {
+      "block_quote_detection": {
+        "pattern": "^\\s{10,}.*$",
+        "description": "Detects indented text (10+ spaces) as potential block quote"
+      },
+      "inline_quotation": {
+        "pattern": "\"[^\"]*\"",
+        "description": "Matches text within double quotation marks"
+      },
+      "single_quotation_nested": {
+        "pattern": "'[^']*'",
+        "description": "Matches text within single quotation marks"
+      },
+      "ellipsis_three_periods": {
+        "pattern": "\\.\\s*\\.\\s*\\.",
+        "description": "Matches three periods with or without spaces"
+      },
+      "ellipsis_four_periods": {
+        "pattern": "\\.\\s*\\.\\s*\\.\\s*\\.",
+        "description": "Matches four periods for sentence-end omission"
+      },
+      "bracket_alterations": {
+        "pattern": "\\[[^\\]]*\\]",
+        "description": "Matches any text within brackets"
+      },
+      "sic_indicator": {
+        "pattern": "\\[sic\\]",
+        "description": "Matches [sic] indicator"
+      },
+      "citation_in_quote": {
+        "pattern": ",\\s+[0-9]+\\s+[A-Z\\.]+\\s+[0-9]+(?:\\s+\\(.*?\\))?",
+        "description": "Matches likely citations within quoted material"
+      },
+      "emphasis_alteration": {
+        "pattern": "\\[(emphasis\\s+(?:added|in original|omitted))\\]",
+        "description": "Matches emphasis alteration markers"
+      },
+      "capitalization_alteration": {
+        "pattern": "\\[[A-Z]\\]",
+        "description": "Matches single capitalized letter in brackets"
+      },
+      "quote_with_citation": {
+        "pattern": "\"[^\"]*\"\\s*(?:at\\s+\\d+)?\\s*\\([^)]*\\)",
+        "description": "Matches quotation followed by citation"
+      },
+      "word_count_approximation": {
+        "pattern": "(?:\"[^\"]*\"|\\[[^]]*\\])[\\s\\S]*?(?:\"[^\"]*\"|\\[[^]]*\\])",
+        "description": "Helps identify quotation boundaries for word counting"
+      }
+    },
+    "practical_guidelines": {
+      "when_to_block_quote": [
+        "Quotations of 50 or more words",
+        "Important passages requiring emphasis",
+        "Quotations from primary legal documents",
+        "Extended quotations needed for context"
+      ],
+      "when_to_use_inline": [
+        "Quotations of fewer than 50 words",
+        "Short phrases or clauses",
+        "Quotations integrated into sentence structure",
+        "Brief supporting citations"
+      ],
+      "alteration_best_practices": [
+        "Minimize bracketed alterations when possible",
+        "Use [sic] sparingly - only for significant errors",
+        "Consider paraphrasing for minor errors",
+        "Always indicate added emphasis",
+        "Preserve original capitalization when feasible"
+      ],
+      "omission_best_practices": [
+        "Never begin quotation with ellipsis",
+        "Avoid ending quotation with ellipsis unless necessary",
+        "Preserve meaning - never distort with omissions",
+        "Use proper ellipsis spacing (. . .)",
+        "Use four-period ellipsis for complete sentence omissions"
+      ],
+      "citation_best_practices": [
+        "Omit citations within quotations unless particularly relevant",
+        "Use (citation omitted) parenthetical",
+        "Include full citation in footnote or parenthetical after quote",
+        "Preserve original citations if essential to meaning"
+      ]
+    }
+  }
+}
